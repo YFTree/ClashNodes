@@ -1,0 +1,83 @@
+name: 下载ClashNodes订阅
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  download_nodes:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 3
+
+      - name: Set Beijing Timezone
+        uses: szenius/set-timezone@v2.0
+        with:
+          timezoneLinux: "Asia/Shanghai"
+
+      - name: Get current date
+        id: date
+        run: |
+          NOW=$(date +%Y%m%d)
+          echo "NOW=$NOW" >> $GITHUB_OUTPUT
+
+      - name: Download files
+        run: |
+          TODAY="${{ steps.date.outputs.NOW }}"
+          BASE_URL="https://node.freeclashnode.com/uploads/$(date +%Y)/$(date +%m)/"
+
+          mkdir -p "Clash"
+          mkdir -p "V2Ray"
+
+          for i in {0..4}; do
+            curl -o "Clash/${i}.yaml" "${BASE_URL}${i}-$TODAY.yaml"
+            curl -o "V2Ray/${i}.txt" "${BASE_URL}${i}-$TODAY.txt"
+          done
+
+      - name: Replace content and decode V2Ray
+        run: |
+          TODAY=$(date +%Y%m%d)
+          for i in {0..4}; do
+            # 处理 YAML 文件
+            if [ -f "Clash/${i}.yaml" ]; then
+              sed -i 's/(\(.*\))//g' "Clash/${i}.yaml"
+              echo "${i}.yaml处理广告完成（无残留，推荐）"
+            fi
+
+            # 处理 V2Ray TXT 文件
+            if [ -f "V2Ray/${i}.txt" ]; then
+              # 判断是否只有一行文本
+              LINE_COUNT=$(wc -l < "V2Ray/${i}.txt")
+              if [ "$LINE_COUNT" -eq 0 ]; then
+                # 读取文件内容，进行 Base64 解码，然后覆盖写回文件
+                DECODED=$(cat "V2Ray/${i}.txt" | base64 -d)
+                echo "$DECODED" > "V2Ray/${i}.txt"
+                # 正则表达式替换
+                sed -i 's/(%28.*%29)//g' "V2Ray/${i}.txt"
+                echo "${i}.txt处理广告完成（有残留）"
+              else
+                echo "${i}.txt处理广告失败"
+              fi
+            fi
+          done
+
+      - name: List modified files
+        run: |
+          ls -R ./
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_user_name: ${{ github.actor }}
+          commit_user_email: ${{ github.actor }}@users.noreply.github.com
+          commit_message: "更新免费节点并去除广告 (日期: ${{ steps.date.outputs.NOW }})"
+          push_options: '--force'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
