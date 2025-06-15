@@ -37,48 +37,61 @@ jobs:
           mkdir -p "V2Ray"
           mkdir -p "Sing-Box"
 
+          echo "Starting download of Clash and V2Ray files..."
           for i in {0..4}; do
-            echo "Downloading URL: ${BASE_URL}${i}-$TODAY.yaml"
-            echo _________________________________________________________________
-            echo
-            curl -o "Clash/${i}.yaml" "${BASE_URL}${i}-$TODAY.yaml"
-            sleep 3s
-            echo "Downloading URL: ${BASE_URL}${i}-$TODAY.txt"
-            echo _________________________________________________________________
-            echo
-            curl -o "V2Ray/${i}.txt" "${BASE_URL}${i}-$TODAY.txt"
+            CLASH_FILE="Clash/${i}.yaml"
+            echo "Downloading Clash URL: ${BASE_URL}${i}-$TODAY.yaml to ${CLASH_FILE}"
+            curl -o "${CLASH_FILE}" "${BASE_URL}${i}-$TODAY.yaml"
+            CLASH_FILE_SIZE=$(stat -c %s "${CLASH_FILE}" 2>/dev/null || echo 0)
+            if [ "$CLASH_FILE_SIZE" -lt 10 ]; then
+              echo "Warning: ${CLASH_FILE} file size (${CLASH_FILE_SIZE} bytes) is download failed, deleting."
+              rm -f "${CLASH_FILE}"
+            fi
+            sleep 1s
+
+            V2RAY_FILE="V2Ray/${i}.txt"
+            echo "Downloading V2Ray URL: ${BASE_URL}${i}-$TODAY.txt to ${V2RAY_FILE}"
+            curl -o "${V2RAY_FILE}" "${BASE_URL}${i}-$TODAY.txt"
+            V2RAY_FILE_SIZE=$(stat -c %s "${V2RAY_FILE}" 2>/dev/null || echo 0)
+            if [ "$V2RAY_FILE_SIZE" -lt 10 ]; then
+              echo "Warning: ${V2RAY_FILE} file size (${V2RAY_FILE_SIZE} bytes) is download failed, deleting."
+              rm -f "${V2RAY_FILE}"
+            fi
+            sleep 1s
           done
-          echo "Downloading URL: ${BASE_URL}$TODAY.josn"
-          echo _________________________________________________________________
-          echo
-          curl -o "Sing-Box/Sing-Box.txt" "${BASE_URL}$TODAY.josn"
+
+          SINGBOX_FILE="Sing-Box/Sing-Box.josn"
+          echo "Downloading Sing-Box URL: ${BASE_URL}$TODAY.josn to ${SINGBOX_FILE}"
+          curl -o "${SINGBOX_FILE}" "${BASE_URL}$TODAY.josn"
+          SINGBOX_FILE_SIZE=$(stat -c %s "${SINGBOX_FILE}" 2>/dev/null || echo 0)
+          if [ "$SINGBOX_FILE_SIZE" -lt 10 ]; then
+            echo "Warning: ${SINGBOX_FILE} file size (${SINGBOX_FILE_SIZE} bytes) is download failed, deleting."
+            rm -f "${SINGBOX_FILE}"
+          fi
+          echo "All file download attempts completed."
 
       - name: Replace content and decode V2Ray
         run: |
           TODAY=$(date +%Y%m%d)
           for i in {0..4}; do
-            # 处理 YAML 文件
             if [ -f "Clash/${i}.yaml" ]; then
               sed -i 's/(\(.*\))//g' "Clash/${i}.yaml"
-              echo "${i}.yaml处理广告完成（无残留，推荐）"
+              echo "${i}.yaml 处理广告完成（无残留，推荐）"
             fi
 
-            # 处理 V2Ray TXT 文件
             if [ -f "V2Ray/${i}.txt" ]; then
-              # 判断是否只有一行文本
               LINE_COUNT=$(wc -l < "V2Ray/${i}.txt")
               if [ "$LINE_COUNT" -eq 0 ]; then
-                # 读取文件内容，进行 Base64 解码，然后覆盖写回文件
                 DECODED=$(cat "V2Ray/${i}.txt" | base64 -d)
                 echo "$DECODED" > "V2Ray/${i}.txt"
-                # 正则表达式替换
                 sed -i 's/(%28.*%29)//g' "V2Ray/${i}.txt"
-                echo "${i}.txt处理广告完成（有残留）"
+                echo "${i}.txt 处理广告完成（有残留）"
               else
-                echo "${i}.txt处理广告失败"
+                echo "${i}.txt 处理广告失败"
               fi
             fi
           done
+          echo "Sing-Box.josn 无广告（推荐）"
 
       - name: List modified files
         run: |
@@ -89,7 +102,7 @@ jobs:
         with:
           commit_user_name: ${{ github.actor }}
           commit_user_email: ${{ github.actor }}@users.noreply.github.com
-          commit_message: "更新免费节点并去除广告 (日期: ${{ steps.date.outputs.NOW }})"
+          commit_message: "Update free nodes and remove ads (Date: ${{ steps.date.outputs.NOW }})"
           push_options: '--force'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
