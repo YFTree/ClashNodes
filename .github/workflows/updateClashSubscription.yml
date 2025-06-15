@@ -35,13 +35,23 @@ jobs:
 
           mkdir -p "Clash"
           mkdir -p "V2Ray"
+          mkdir -p "Sing-Box"
 
           for i in {0..4}; do
+            echo "Downloading URL: ${BASE_URL}${i}-$TODAY.yaml"
+            echo _________________________________________________________________
+            echo
             curl -o "Clash/${i}.yaml" "${BASE_URL}${i}-$TODAY.yaml"
-            sleep 10s
+            sleep 3s
+            echo "Downloading URL: ${BASE_URL}${i}-$TODAY.txt"
+            echo _________________________________________________________________
+            echo
             curl -o "V2Ray/${i}.txt" "${BASE_URL}${i}-$TODAY.txt"
-            sleep 10s
           done
+          echo "Downloading URL: ${BASE_URL}$TODAY.josn"
+          echo _________________________________________________________________
+          echo
+          curl -o "Sing-Box/Sing-Box.txt" "${BASE_URL}$TODAY.josn"
 
       - name: Replace content and decode V2Ray
         run: |
