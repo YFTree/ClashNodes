@@ -60,9 +60,9 @@ jobs:
             sleep 1s
           done
 
-          SINGBOX_FILE="Sing-Box/Sing-Box.josn"
-          echo "Downloading Sing-Box URL: ${BASE_URL}$TODAY.josn to ${SINGBOX_FILE}"
-          curl -o "${SINGBOX_FILE}" "${BASE_URL}$TODAY.josn"
+          SINGBOX_FILE="Sing-Box/Sing-Box.json"
+          echo "Downloading Sing-Box URL: ${BASE_URL}$TODAY.json to ${SINGBOX_FILE}"
+          curl -o "${SINGBOX_FILE}" "${BASE_URL}$TODAY.json"
           SINGBOX_FILE_SIZE=$(stat -c %s "${SINGBOX_FILE}" 2>/dev/null || echo 0)
           if [ "$SINGBOX_FILE_SIZE" -lt 10 ]; then
             echo "Warning: ${SINGBOX_FILE} file size (${SINGBOX_FILE_SIZE} bytes) is download failed, deleting."
@@ -91,7 +91,7 @@ jobs:
               fi
             fi
           done
-          echo "Sing-Box.josn 无广告（推荐）"
+          echo "Sing-Box.json 无广告（推荐）"
 
       - name: List modified files
         run: |
