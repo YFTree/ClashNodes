@@ -38,7 +38,9 @@ jobs:
 
           for i in {0..4}; do
             curl -o "Clash/${i}.yaml" "${BASE_URL}${i}-$TODAY.yaml"
+            sleep 10s
             curl -o "V2Ray/${i}.txt" "${BASE_URL}${i}-$TODAY.txt"
+            sleep 10s
           done
 
       - name: Replace content and decode V2Ray
