@@ -102,7 +102,7 @@ jobs:
         with:
           commit_user_name: ${{ github.actor }}
           commit_user_email: ${{ github.actor }}@users.noreply.github.com
-          commit_message: "Update free nodes and remove ads (Date: ${{ steps.date.outputs.NOW }})"
+          commit_message: "更新免费节点并去除广告 (日期: ${{ steps.date.outputs.NOW }})"
           push_options: '--force'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
