@@ -5,731 +5,231 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK香港, server: zf2.10101251.xyz, port: 30524, type: ss, cipher: aes-256-gcm, password: e22b89ae-6996-4824-ac31-610ac7349e6a, udp: true}
-  - {name: US美国, server: 183.232.235.2, port: 8313, type: trojan, password: 2c605663-b89a-5734-a9d6-97d4743d72cf, skip-cert-verify: true, udp: true}
-  - {name: US美国 2, server: lynn.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: lynn.ns.cloudflare.com, skip-cert-verify: true, udp: true}
-  - {name: US美国 3, server: 188.164.159.107, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 4, server: 183.238.90.8, port: 46920, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: IN印度, server: 46.254.93.175, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: IN印度 2, server: 108.165.152.93, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: SG新加坡, server: 108.165.152.169, port: 2087, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 5, server: duke.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: duke.ns.cloudflare.com, skip-cert-verify: true, udp: true}
-  - {name: HK香港 2, server: 154.197.64.228, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: SG新加坡 2, server: 108.165.152.1, port: 2087, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: IN印度 3, server: 188.164.159.22, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 6, server: 172.67.187.145, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: IN印度 4, server: 46.254.92.191, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 7, server: theo.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: theo.ns.cloudflare.com, skip-cert-verify: true, udp: true}
-  - {name: US美国 8, server: pranab.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: pranab.ns.cloudflare.com, skip-cert-verify: true, udp: true}
-  - {name: SG新加坡 3, server: 5.182.84.22, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: RU俄罗斯, server: 199.34.228.178, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: HK香港 3, server: 154.211.8.220, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: RU俄罗斯 2, server: 154.197.64.164, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: RU俄罗斯 3, server: 27.50.49.188, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: PL波兰, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: 7905a32b-012c-4711-89e2-73b6713eca75, udp: true}
-  - {name: US美国 9, server: 192.0.54.7, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: RU俄罗斯 4, server: 92.53.190.161, port: 2087, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 10, server: 141.11.203.168, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: RU俄罗斯 5, server: 167.68.4.10, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: RU俄罗斯 6, server: 148.135.15.148, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: RU俄罗斯 7, server: 213.241.198.56, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 11, server: 108.165.152.98, port: 2087, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 12, server: 108.165.152.163, port: 2087, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 13, server: 108.165.152.92, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 14, server: 188.164.159.55, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 15, server: EeR4567.999824.xYz, port: 443, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9dZlJLjHHrL0VwSolbqFpg, ws-headers: {Host: eer4567.999824.xyz}, udp: true}
-  - {name: US美国 16, server: 45.67.215.217, port: 2087, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: RU俄罗斯 8, server: 45.67.214.140, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: IN印度 5, server: 103.116.7.133, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 17, server: 104.21.63.200, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: RU俄罗斯 9, server: 176.124.223.40, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 18, server: 444rfGT6.444682.XYz, port: 443, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9dZlJLjHHrL0VwSolbqFpg, ws-headers: {Host: 444rfgt6.444682.xyz}, udp: true}
-  - {name: US美国 19, server: XxcdvFgtY.444652.xYZ, port: 443, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, ws-headers: {Host: xxcdvfgty.444652.xyz}, udp: true}
-  - {name: RU俄罗斯 10, server: 162.120.94.23, port: 2087, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: RU俄罗斯 11, server: 108.165.152.225, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: IN印度 6, server: 176.124.223.133, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: RU俄罗斯 12, server: 154.211.8.209, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: HK香港 4, server: 156.225.72.199, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 20, server: 5.182.84.9, port: 2087, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: SG新加坡 4, server: 104.21.16.71, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 21, server: 143.42.66.91, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: RU俄罗斯 13, server: 154.219.5.242, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: HK香港 5, server: 154.211.8.18, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: RU俄罗斯 14, server: 172.67.77.127, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: SG新加坡 5, server: 213.241.198.189, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 22, server: 5.182.85.255, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: IN印度 7, server: 188.164.159.138, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: HK香港 6, server: 83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com, port: 21233, type: trojan, password: bcc58e88-e147-11ec-b286-f23c91cfbbc9, sni: 83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: RU俄罗斯 15, server: 108.165.152.71, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: SG新加坡 6, server: 167.68.4.7, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: HK香港 7, server: 111.45.33.5, port: 30017, type: ss, cipher: aes-256-gcm, password: dwz1GtF7, udp: true}
-  - {name: HK香港 8, server: zj-cm1.k718.xyz, port: 58051, type: vmess, uuid: f871fc45-788b-4df8-8ddb-9f9a25751402, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hls/1.m3u8, ws-headers: {Host: zj-cm1.k718.xyz}, udp: true}
-  - {name: IN印度 8, server: 209.94.90.87, port: 2087, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 23, server: wSxcDFR5.999824.XYz, port: 443, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9dZlJLjHHrL0VwSolbqFpg, ws-headers: {Host: wsxcdfr5.999824.xyz}, udp: true}
-  - {name: IN印度 9, server: 199.34.228.143, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: IN印度 10, server: 135.84.74.254, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: IN印度 11, server: 199.34.228.66, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 24, server: 199.34.228.50, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: IN印度 12, server: 192.200.160.169, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 25, server: 3DDDF.444652.xYZ, port: 443, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9dZlJLjHHrL0VwSolbqFpg, ws-headers: {Host: 3dddf.444652.xyz}, udp: true}
-  - {name: US美国 26, server: 199.34.228.71, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 27, server: xcvBnMjKi.999824.xyZ, port: 443, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, ws-headers: {Host: xcvbnmjki.999824.xyz}, udp: true}
-  - {name: US美国 28, server: pppppPpPPl.999864.xyz, port: 443, type: vmess, uuid: 69678f53-fe48-4d6f-8da1-61f90a6a1ed7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /yZ6ou0sUqPR6MznS, ws-headers: {Host: pppppppppl.999864.xyz}, udp: true}
-  - {name: US美国 29, server: 183.238.90.8, port: 39076, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国 30, server: 3EEEeE.999824.xyZ, port: 443, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9dZlJLjHHrL0VwSolbqFpg, ws-headers: {Host: 3eeeee.999824.xyz}, udp: true}
-  - {name: US美国 31, server: eERRRty6.999824.xyz, port: 443, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, ws-headers: {Host: eerrrty6.999824.xyz}, udp: true}
+  - {name: US美国, server: zf2.10101251.xyz, port: 30524, type: ss, cipher: aes-256-gcm, password: e22b89ae-6996-4824-ac31-610ac7349e6a, udp: true}
+  - {name: US美国 2, server: 120.233.44.201, port: 21003, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, skip-cert-verify: true, udp: true}
+  - {name: US美国 3, server: 183.238.90.8, port: 46920, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港, server: 120.232.153.63, port: 37805, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 4, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
+  - {name: US美国 5, server: v12.heduian.link, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: ocbc.com}, udp: true}
+  - {name: US美国 6, server: zf1.10101251.xyz, port: 59345, type: ss, cipher: aes-256-gcm, password: 3ee90aa9-8831-4ea3-9425-c361090a938d, udp: true}
+  - {name: HK香港 2, server: 183.238.90.8, port: 39076, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 7, server: wWWwwWWw2.444652.XYz, port: 443, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9dZlJLjHHrL0VwSolbqFpg, ws-headers: {Host: wwwwwwww2.444652.xyz}, udp: true}
+  - {name: HK香港 3, server: zf1.10101251.xyz, port: 59345, type: ss, cipher: aes-256-gcm, password: 3ee90aa9-8831-4ea3-9425-c361090a938d, udp: true}
+  - {name: US美国 8, server: 120.233.44.201, port: 21179, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, skip-cert-verify: true, udp: true}
+  - {name: HK香港 4, server: 120.198.71.216, port: 35021, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 9, server: 120.198.71.219, port: 49355, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 10, server: 120.233.44.201, port: 21031, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, skip-cert-verify: true, udp: true}
+  - {name: HK香港 5, server: 102.132.188.2, port: 443, type: vmess, uuid: 1eb86cc8-0302-4349-98be-dc621356fdce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: q7.19kAla.co}, udp: true}
+  - {name: HK香港 6, server: 120.198.71.219, port: 49355, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 11, server: 444rfGT6.444682.XYz, port: 443, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9dZlJLjHHrL0VwSolbqFpg, ws-headers: {Host: 444rfgt6.444682.xyz}, udp: true}
+  - {name: US美国 12, server: zf1.10101251.xyz, port: 59662, type: ss, cipher: aes-256-gcm, password: 3ee90aa9-8831-4ea3-9425-c361090a938d, udp: true}
+  - {name: HK香港 7, server: 102.177.189.29, port: 443, type: vmess, uuid: eab221f8-e6a9-4117-8a5a-06907b229da2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: q7.19kAla.co}, udp: true}
+  - {name: HK香港 8, server: iepl.pro.7353.0tk8a3a1q4t94dler.com, port: 20659, type: ss, cipher: aes-256-gcm, password: teLxg65m4v0zQPpSOM, udp: true}
+  - {name: US美国 13, server: 120.233.44.201, port: 21056, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, skip-cert-verify: true, udp: true}
+  - {name: US美国 14, server: 183.232.235.2, port: 8313, type: trojan, password: 2c605663-b89a-5734-a9d6-97d4743d72cf, skip-cert-verify: true, udp: true}
+  - {name: HK香港 9, server: 120.233.44.201, port: 21079, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, skip-cert-verify: true, udp: true}
+  - {name: US美国 15, server: 120.232.153.63, port: 37805, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港 10, server: zf2.10101251.xyz, port: 30524, type: ss, cipher: aes-256-gcm, password: 3ee90aa9-8831-4ea3-9425-c361090a938d, udp: true}
+  - {name: US美国 16, server: 120.232.153.40, port: 31209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港 11, server: 120.232.153.40, port: 43292, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港 12, server: 102.132.188.220, port: 80, type: vmess, uuid: 0bc0a97e-9d93-4566-9c29-c610af51f5d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: q7.19KAla.co}, udp: true}
+  - {name: US美国 17, server: dozo01.flztjc.top, port: 8313, type: trojan, password: 2c605663-b89a-5734-a9d6-97d4743d72cf, sni: dozo01.flztjc.top, skip-cert-verify: true, udp: true}
+  - {name: US美国 18, server: 104.21.3.189, port: 2053, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cc2d4.89060004.xyz}, udp: true}
+  - {name: HK香港 13, server: 102.177.189.29, port: 80, type: vmess, uuid: a740a9ae-bf7d-4505-86d4-7a7e8ced3a6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: q7.19KAla.co}, udp: true}
+  - {name: HK香港 14, server: 120.232.153.40, port: 31209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 19, server: zf2.10101251.xyz, port: 30725, type: ss, cipher: aes-256-gcm, password: 3ee90aa9-8831-4ea3-9425-c361090a938d, udp: true}
+  - {name: US美国 20, server: 33DEFRTy6.444652.XYZ, port: 80, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /9dZlJLjHHrL0VwSolbqFpg, ws-headers: {Host: 33defrty6.444652.xyz}, udp: true}
+  - {name: HK香港 15, server: zf1.10101251.xyz, port: 59662, type: ss, cipher: aes-256-gcm, password: 3ee90aa9-8831-4ea3-9425-c361090a938d, udp: true}
+  - {name: HK香港 16, server: zf2.10101251.xyz, port: 30524, type: ss, cipher: aes-256-gcm, password: e22b89ae-6996-4824-ac31-610ac7349e6a, udp: true}
+  - {name: HK香港 17, server: zf3.10101251.xyz, port: 30524, type: ss, cipher: aes-256-gcm, password: 3ee90aa9-8831-4ea3-9425-c361090a938d, udp: true}
+  - {name: HK香港 18, server: zf1.10101251.xyz, port: 31452, type: ss, cipher: aes-256-gcm, password: 3ee90aa9-8831-4ea3-9425-c361090a938d, udp: true}
+  - {name: HK香港 19, server: zf1.10101251.xyz, port: 31452, type: ss, cipher: aes-256-gcm, password: 3ee90aa9-8831-4ea3-9425-c361090a938d, udp: true}
+  - {name: US美国 21, server: wSxcdFR5.999824.xyz, port: 80, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /9dZlJLjHHrL0VwSolbqFpg, ws-headers: {Host: wsxcdfr5.999824.xyz}, udp: true}
   - {name: JP日本, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
-  - {name: US美国 32, server: 33DeFRTY6.444652.xYz, port: 443, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9dZlJLjHHrL0VwSolbqFpg, ws-headers: {Host: 33defrty6.444652.xyz}, udp: true}
-  - {name: US美国 33, server: SDFGhyJu.999824.XYz, port: 443, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, ws-headers: {Host: sdfghyju.999824.xyz}, udp: true}
-  - {name: US美国 34, server: 120.233.44.201, port: 21179, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, skip-cert-verify: true, udp: true}
-  - {name: US美国 35, server: XSssDcVFgt.444652.XyZ, port: 443, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, ws-headers: {Host: xsssdcvfgt.444652.xyz}, udp: true}
-  - {name: US美国 36, server: 120.232.153.41, port: 49597, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国 37, server: RRRRrrRRt.999864.xYz, port: 443, type: vmess, uuid: 69678f53-fe48-4d6f-8da1-61f90a6a1ed7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /yZ6ou0sUqPR6MznS, ws-headers: {Host: rrrrrrrrt.999864.xyz}, udp: true}
-  - {name: US美国 38, server: 54.37.64.148, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 39, server: ooooooooo9.999864.Xyz, port: 443, type: vmess, uuid: 69678f53-fe48-4d6f-8da1-61f90a6a1ed7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /yZ6ou0sUqPR6MznS, ws-headers: {Host: ooooooooo9.999864.xyz}, udp: true}
-  - {name: HK香港 9, server: ovhsg.v4.ewddns.net, port: 29709, type: vmess, uuid: dcdcb14e-8c34-3c0f-9801-01457dcf25f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8, ws-headers: {Host: cmihk.bilibili.com}, udp: true}
-  - {name: US美国 40, server: EEedCFVG.999824.XyZ, port: 443, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9dZlJLjHHrL0VwSolbqFpg, ws-headers: {Host: eeedcfvg.999824.xyz}, udp: true}
-  - {name: US美国 41, server: wWWwwWWw2.444652.XYz, port: 443, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9dZlJLjHHrL0VwSolbqFpg, ws-headers: {Host: wwwwwwww2.444652.xyz}, udp: true}
-  - {name: US美国 42, server: EEdCVFGT.999824.XyZ, port: 443, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9dZlJLjHHrL0VwSolbqFpg, ws-headers: {Host: eedcvfgt.999824.xyz}, udp: true}
-  - {name: US美国 43, server: 104.19.239.137, port: 2087, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 44, server: 120.233.44.201, port: 21118, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, skip-cert-verify: true, udp: true}
-  - {name: US美国 45, server: xxxxcdfrty6.444682.xyz, port: 80, type: vmess, uuid: 30602b6d-5d5c-4f56-9b65-9ae2fd9348cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TetDjP6oSiF3sGVHqPd73hl, ws-headers: {Host: xxxxcdfrty6.444682.xyz}, udp: true}
-  - {name: US美国 46, server: ssscdvfgt.444682.xyz, port: 80, type: vmess, uuid: 30602b6d-5d5c-4f56-9b65-9ae2fd9348cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TetDjP6oSiF3sGVHqPd73hl, ws-headers: {Host: ssscdvfgt.444682.xyz}, udp: true}
-  - {name: HK香港 10, server: zf3.10101251.xyz, port: 30524, type: ss, cipher: aes-256-gcm, password: 3ee90aa9-8831-4ea3-9425-c361090a938d, udp: true}
-  - {name: US美国 47, server: 333eDFRT6.444682.XYz, port: 80, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /9dZlJLjHHrL0VwSolbqFpg, ws-headers: {Host: 333edfrt6.444682.xyz}, udp: true}
-  - {name: RU俄罗斯 16, server: 77.246.102.112, port: 60117, type: ss, cipher: chacha20-ietf-poly1305, password: XiTNVTB8REsXB2n5DzLhFb, udp: true}
-  - {name: US美国 48, server: SSSxXcvFtY.444752.Xyz, port: 80, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, ws-headers: {Host: sssxxcvfty.444752.xyz}, udp: true}
-  - {name: US美国 49, server: 444rfgt6.444682.xyz, port: 80, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /9dZlJLjHHrL0VwSolbqFpg, ws-headers: {Host: 444rfgt6.444682.xyz}, udp: true}
-  - {name: US美国 50, server: ccCVfFGtY.444752.xyZ, port: 80, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, ws-headers: {Host: cccvffgty.444752.xyz}, udp: true}
-  - {name: US美国 51, server: 120.198.71.219, port: 49355, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国 52, server: ssssxcccfr.freevpn2026.dpdns.org, port: 80, type: vmess, uuid: f898ffcb-6417-4373-9640-0b66091e8206, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1, ws-headers: {Host: ssssxcccfr.freevpn2026.dpdns.org}, udp: true}
-  - {name: RU俄罗斯 17, server: 77.246.102.112, port: 60117, type: ss, cipher: chacha20-ietf-poly1305, password: Y1hjiUmSgucgzYYJ0WtqwW, udp: true}
-  - {name: US美国 53, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: ocbc.com}, udp: true}
-  - {name: US美国 54, server: 120.233.44.201, port: 21031, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, skip-cert-verify: true, udp: true}
-  - {name: US美国 55, server: OOoOoOOOO9.999864.XYZ, port: 80, type: vmess, uuid: 69678f53-fe48-4d6f-8da1-61f90a6a1ed7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yZ6ou0sUqPR6MznS, ws-headers: {Host: ooooooooo9.999864.xyz}, udp: true}
-  - {name: US美国 56, server: wsxcdvft5.999834.xyz, port: 80, type: vmess, uuid: 30602b6d-5d5c-4f56-9b65-9ae2fd9348cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TetDjP6oSiF3sGVHqPd73hl, ws-headers: {Host: wsxcdvft5.999834.xyz}, udp: true}
-  - {name: US美国 57, server: sssxcvfgty.999834.xyz, port: 80, type: vmess, uuid: 30602b6d-5d5c-4f56-9b65-9ae2fd9348cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TetDjP6oSiF3sGVHqPd73hl, ws-headers: {Host: sssxcvfgty.999834.xyz}, udp: true}
-  - {name: US美国 58, server: 99999I.999864.XYZ, port: 80, type: vmess, uuid: 69678f53-fe48-4d6f-8da1-61f90a6a1ed7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yZ6ou0sUqPR6MznS, ws-headers: {Host: 99999i.999864.xyz}, udp: true}
-  - {name: US美国 59, server: xSssDCVfgt.444652.xYZ, port: 80, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, ws-headers: {Host: xsssdcvfgt.444652.xyz}, udp: true}
-  - {name: US美国 60, server: RRRRrrRRRFgt67.666470.xYz, port: 80, type: vmess, uuid: 69678f53-fe48-4d6f-8da1-61f90a6a1ed7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yZ6ou0sUqPR6MznS, ws-headers: {Host: rrrrrrrrrfgt67.666470.xyz}, udp: true}
-  - {name: HK香港 11, server: zf1.10101251.xyz, port: 59662, type: ss, cipher: aes-256-gcm, password: 3ee90aa9-8831-4ea3-9425-c361090a938d, udp: true}
-  - {name: US美国 61, server: 120.232.153.63, port: 37805, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国 62, server: SSxXZASw.999824.Xyz, port: 80, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, ws-headers: {Host: ssxxzasw.999824.xyz}, udp: true}
-  - {name: US美国 63, server: 104.21.84.242, port: 443, type: trojan, password: 03e92910-34b1-4245-ac63-04a865f43cd5, skip-cert-verify: true, udp: true}
-  - {name: US美国 64, server: 156.230.12.71, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 65, server: 104.19.60.107, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 66, server: 162.19.66.30, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 67, server: rrrrrrrrrt.11890604.xyz, port: 443, type: vmess, uuid: f898ffcb-6417-4373-9640-0b66091e8206, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1, ws-headers: {Host: rrrrrrrrrt.11890604.xyz}, udp: true}
-  - {name: US美国 68, server: 3333333e.11890604.XYz, port: 80, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, ws-headers: {Host: 3333333e.11890604.xyz}, udp: true}
-  - {name: IN印度 13, server: 104.19.60.193, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 69, server: edcvfgt6.999834.xyz, port: 80, type: vmess, uuid: 30602b6d-5d5c-4f56-9b65-9ae2fd9348cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TetDjP6oSiF3sGVHqPd73hl, ws-headers: {Host: edcvfgt6.999834.xyz}, udp: true}
-  - {name: HK香港 12, server: zf1.10101251.xyz, port: 59345, type: ss, cipher: aes-256-gcm, password: 3ee90aa9-8831-4ea3-9425-c361090a938d, udp: true}
-  - {name: US美国 70, server: 3.1.116.161, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 71, server: sxcccvgbhnju.999834.xyz, port: 80, type: vmess, uuid: 30602b6d-5d5c-4f56-9b65-9ae2fd9348cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TetDjP6oSiF3sGVHqPd73hl, ws-headers: {Host: sxcccvgbhnju.999834.xyz}, udp: true}
-  - {name: US美国 72, server: EeEDCFVg.999824.xYZ, port: 80, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /9dZlJLjHHrL0VwSolbqFpg, ws-headers: {Host: eeedcfvg.999824.xyz}, udp: true}
-  - {name: HK香港 13, server: zf1.10101251.xyz, port: 31452, type: ss, cipher: aes-256-gcm, password: 3ee90aa9-8831-4ea3-9425-c361090a938d, udp: true}
-  - {name: US美国 73, server: wwWE3.11890604.XyZ, port: 80, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, ws-headers: {Host: wwwe3.11890604.xyz}, udp: true}
-  - {name: US美国 74, server: v32.heduian.link, port: 30832, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: baidu.com}, udp: true}
-  - {name: US美国 75, server: 120.233.44.201, port: 21056, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, skip-cert-verify: true, udp: true}
-  - {name: US美国 76, server: xxxcvfbghy7.222767.xyz, port: 80, type: vmess, uuid: 30602b6d-5d5c-4f56-9b65-9ae2fd9348cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TetDjP6oSiF3sGVHqPd73hl, ws-headers: {Host: xxxcvfbghy7.222767.xyz}, udp: true}
-  - {name: US美国 77, server: 120.233.44.201, port: 21003, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, skip-cert-verify: true, udp: true}
-  - {name: US美国 78, server: EerrRTY6.999824.Xyz, port: 80, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, ws-headers: {Host: eerrrty6.999824.xyz}, udp: true}
-  - {name: US美国 79, server: CcCccCCcCCcCV.999864.xYz, port: 80, type: vmess, uuid: 69678f53-fe48-4d6f-8da1-61f90a6a1ed7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yZ6ou0sUqPR6MznS, ws-headers: {Host: ccccccccccccv.999864.xyz}, udp: true}
-  - {name: US美国 80, server: RrFvbGhy7.444682.XyZ, port: 80, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /9dZlJLjHHrL0VwSolbqFpg, ws-headers: {Host: rrfvbghy7.444682.xyz}, udp: true}
-  - {name: HK香港 14, server: 112.54.161.141, port: 20406, type: ss, cipher: aes-256-gcm, password: dwz1GtF7, udp: true}
-  - {name: US美国 81, server: xxcdvfgty.222767.xyz, port: 80, type: vmess, uuid: 30602b6d-5d5c-4f56-9b65-9ae2fd9348cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TetDjP6oSiF3sGVHqPd73hl, ws-headers: {Host: xxcdvfgty.222767.xyz}, udp: true}
-  - {name: US美国 82, server: 3333333333eR.666470.XYz, port: 80, type: vmess, uuid: 69678f53-fe48-4d6f-8da1-61f90a6a1ed7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yZ6ou0sUqPR6MznS, ws-headers: {Host: 3333333333er.666470.xyz}, udp: true}
-  - {name: US美国 83, server: wSxcdFR5.999824.xyz, port: 80, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /9dZlJLjHHrL0VwSolbqFpg, ws-headers: {Host: wsxcdfr5.999824.xyz}, udp: true}
-  - {name: US美国 84, server: 120.198.71.214, port: 31180, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国 85, server: EeEEddDfrT56.444682.XyZ, port: 80, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /9dZlJLjHHrL0VwSolbqFpg, ws-headers: {Host: eeeedddfrt56.444682.xyz}, udp: true}
-  - {name: US美国 86, server: cCCccccCcVGh.666470.XyZ, port: 80, type: vmess, uuid: 69678f53-fe48-4d6f-8da1-61f90a6a1ed7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yZ6ou0sUqPR6MznS, ws-headers: {Host: cccccccccvgh.666470.xyz}, udp: true}
-  - {name: US美国 87, server: 3333333t.11890604.XyZ, port: 80, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, ws-headers: {Host: 3333333t.11890604.xyz}, udp: true}
-  - {name: US美国 88, server: 120.233.44.201, port: 21017, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, skip-cert-verify: true, udp: true}
-  - {name: US美国 89, server: dDDddDDdDDDCF.666470.xyz, port: 80, type: vmess, uuid: 69678f53-fe48-4d6f-8da1-61f90a6a1ed7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yZ6ou0sUqPR6MznS, ws-headers: {Host: dddddddddddcf.666470.xyz}, udp: true}
-  - {name: US美国 90, server: 135.84.64.36, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 91, server: iiiIiiIIII9.999864.xYz, port: 80, type: vmess, uuid: 69678f53-fe48-4d6f-8da1-61f90a6a1ed7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yZ6ou0sUqPR6MznS, ws-headers: {Host: iiiiiiiiii9.999864.xyz}, udp: true}
-  - {name: US美国 92, server: 104.16.253.83, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 93, server: uuujjjkk.4444936.xyz, port: 80, type: vmess, uuid: f898ffcb-6417-4373-9640-0b66091e8206, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1, ws-headers: {Host: uuujjjkk.4444936.xyz}, udp: true}
-  - {name: US美国 94, server: 172.64.35.95, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 95, server: 183.238.90.8, port: 46920, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国 96, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: baidu.com}, udp: true}
-  - {name: US美国 97, server: dozo01.flztjc.top, port: 8313, type: trojan, password: 2c605663-b89a-5734-a9d6-97d4743d72cf, sni: dozo01.flztjc.top, skip-cert-verify: true, udp: true}
-  - {name: US美国 98, server: sxcvfghy.4444936.xyz, port: 80, type: vmess, uuid: f898ffcb-6417-4373-9640-0b66091e8206, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1, ws-headers: {Host: sxcvfghy.4444936.xyz}, udp: true}
-  - {name: US美国 99, server: 333deFR.444682.XyZ, port: 80, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /9dZlJLjHHrL0VwSolbqFpg, ws-headers: {Host: 333defr.444682.xyz}, udp: true}
-  - {name: US美国 100, server: 183.236.51.38, port: 41191, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国 101, server: 183.236.51.38, port: 41302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国 102, server: v40.heduian.link, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: api100-core-quic-lf.amemv.com}, udp: true}
-  - {name: HK香港 15, server: 120.198.71.219, port: 49355, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK香港 16, server: zf2.10101251.xyz, port: 30524, type: ss, cipher: aes-256-gcm, password: 3ee90aa9-8831-4ea3-9425-c361090a938d, udp: true}
-  - {name: US美国 103, server: 107.172.190.130, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 104, server: 183.236.51.38, port: 41024, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: RU俄罗斯 18, server: 108.165.152.131, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: HK香港 17, server: 120.232.153.63, port: 37805, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: IN印度 14, server: 89.248.207.37, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 105, server: 120.233.44.201, port: 21079, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, skip-cert-verify: true, udp: true}
-  - {name: US美国 106, server: ssss3.11890604.xyz, port: 80, type: vmess, uuid: f898ffcb-6417-4373-9640-0b66091e8206, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1, ws-headers: {Host: ssss3.11890604.xyz}, udp: true}
-  - {name: US美国 107, server: 192.9.250.241, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 108, server: 3333r567.11890604.xyz, port: 80, type: vmess, uuid: f898ffcb-6417-4373-9640-0b66091e8206, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1, ws-headers: {Host: 3333r567.11890604.xyz}, udp: true}
-  - {name: US美国 109, server: dddcccvff.4444936.xyz, port: 80, type: vmess, uuid: f898ffcb-6417-4373-9640-0b66091e8206, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1, ws-headers: {Host: dddcccvff.4444936.xyz}, udp: true}
-  - {name: US美国 110, server: sssccvfbgh.4444926.xyz, port: 80, type: vmess, uuid: f898ffcb-6417-4373-9640-0b66091e8206, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1, ws-headers: {Host: sssccvfbgh.4444926.xyz}, udp: true}
-  - {name: US美国 111, server: sssxxxccccvfffffgy.4444926.xyz, port: 80, type: vmess, uuid: f898ffcb-6417-4373-9640-0b66091e8206, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1, ws-headers: {Host: sssxxxccccvfffffgy.4444926.xyz}, udp: true}
-  - {name: US美国 112, server: 183.238.90.8, port: 46920, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK香港 18, server: 183.236.51.38, port: 41024, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国 113, server: 222222r.11890604.xyz, port: 80, type: vmess, uuid: f898ffcb-6417-4373-9640-0b66091e8206, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1, ws-headers: {Host: 222222r.11890604.xyz}, udp: true}
-  - {name: US美国 114, server: xxcccvbnmko0.4444926.xyz, port: 80, type: vmess, uuid: f898ffcb-6417-4373-9640-0b66091e8206, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1, ws-headers: {Host: xxcccvbnmko0.4444926.xyz}, udp: true}
-  - {name: IN印度 15, server: 108.165.152.143, port: 2087, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 115, server: 34r5.11890604.xyz, port: 80, type: vmess, uuid: f898ffcb-6417-4373-9640-0b66091e8206, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1, ws-headers: {Host: 34r5.11890604.xyz}, udp: true}
-  - {name: IN印度 16, server: 104.21.10.106, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: IN印度 17, server: 172.66.206.205, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: IN印度 18, server: 168.138.13.201, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: HK香港 20, server: 120.234.102.229, port: 41174, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 22, server: 120.232.153.41, port: 49597, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港 21, server: 120.198.71.214, port: 40175, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 23, server: 183.238.90.8, port: 46920, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 24, server: 120.233.44.201, port: 21118, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, skip-cert-verify: true, udp: true}
+  - {name: US美国 25, server: 120.198.71.214, port: 31180, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港 22, server: 120.232.153.40, port: 31209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 26, server: 120.233.44.201, port: 21017, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, skip-cert-verify: true, udp: true}
+  - {name: US美国 27, server: xxcccvbnmko0.4444926.xyz, port: 80, type: vmess, uuid: f898ffcb-6417-4373-9640-0b66091e8206, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1, ws-headers: {Host: xxcccvbnmko0.4444926.xyz}, udp: true}
+  - {name: HK香港 23, server: zf3.10101251.xyz, port: 30524, type: ss, cipher: aes-256-gcm, password: e22b89ae-6996-4824-ac31-610ac7349e6a, udp: true}
+  - {name: US美国 28, server: 183.238.90.8, port: 46920, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK香港
       - US美国
       - US美国 2
       - US美国 3
+      - HK香港
       - US美国 4
-      - IN印度
-      - IN印度 2
-      - SG新加坡
       - US美国 5
-      - HK香港 2
-      - SG新加坡 2
-      - IN印度 3
       - US美国 6
-      - IN印度 4
+      - HK香港 2
       - US美国 7
-      - US美国 8
-      - SG新加坡 3
-      - RU俄罗斯
       - HK香港 3
-      - RU俄罗斯 2
-      - RU俄罗斯 3
-      - PL波兰
+      - US美国 8
+      - HK香港 4
       - US美国 9
-      - RU俄罗斯 4
       - US美国 10
-      - RU俄罗斯 5
-      - RU俄罗斯 6
-      - RU俄罗斯 7
+      - HK香港 5
+      - HK香港 6
       - US美国 11
       - US美国 12
-      - US美国 13
-      - US美国 14
-      - US美国 15
-      - US美国 16
-      - RU俄罗斯 8
-      - IN印度 5
-      - US美国 17
-      - RU俄罗斯 9
-      - US美国 18
-      - US美国 19
-      - RU俄罗斯 10
-      - RU俄罗斯 11
-      - IN印度 6
-      - RU俄罗斯 12
-      - HK香港 4
-      - US美国 20
-      - SG新加坡 4
-      - US美国 21
-      - RU俄罗斯 13
-      - HK香港 5
-      - RU俄罗斯 14
-      - SG新加坡 5
-      - US美国 22
-      - IN印度 7
-      - HK香港 6
-      - RU俄罗斯 15
-      - SG新加坡 6
       - HK香港 7
       - HK香港 8
-      - IN印度 8
-      - US美国 23
-      - IN印度 9
-      - IN印度 10
-      - IN印度 11
-      - US美国 24
-      - IN印度 12
-      - US美国 25
-      - US美国 26
-      - US美国 27
-      - US美国 28
-      - US美国 29
-      - US美国 30
-      - US美国 31
-      - JP日本
-      - US美国 32
-      - US美国 33
-      - US美国 34
-      - US美国 35
-      - US美国 36
-      - US美国 37
-      - US美国 38
-      - US美国 39
+      - US美国 13
+      - US美国 14
       - HK香港 9
-      - US美国 40
-      - US美国 41
-      - US美国 42
-      - US美国 43
-      - US美国 44
-      - US美国 45
-      - US美国 46
+      - US美国 15
       - HK香港 10
-      - US美国 47
-      - RU俄罗斯 16
-      - US美国 48
-      - US美国 49
-      - US美国 50
-      - US美国 51
-      - US美国 52
-      - RU俄罗斯 17
-      - US美国 53
-      - US美国 54
-      - US美国 55
-      - US美国 56
-      - US美国 57
-      - US美国 58
-      - US美国 59
-      - US美国 60
+      - US美国 16
       - HK香港 11
-      - US美国 61
-      - US美国 62
-      - US美国 63
-      - US美国 64
-      - US美国 65
-      - US美国 66
-      - US美国 67
-      - US美国 68
-      - IN印度 13
-      - US美国 69
       - HK香港 12
-      - US美国 70
-      - US美国 71
-      - US美国 72
+      - US美国 17
+      - US美国 18
       - HK香港 13
-      - US美国 73
-      - US美国 74
-      - US美国 75
-      - US美国 76
-      - US美国 77
-      - US美国 78
-      - US美国 79
-      - US美国 80
       - HK香港 14
-      - US美国 81
-      - US美国 82
-      - US美国 83
-      - US美国 84
-      - US美国 85
-      - US美国 86
-      - US美国 87
-      - US美国 88
-      - US美国 89
-      - US美国 90
-      - US美国 91
-      - US美国 92
-      - US美国 93
-      - US美国 94
-      - US美国 95
-      - US美国 96
-      - US美国 97
-      - US美国 98
-      - US美国 99
-      - US美国 100
-      - US美国 101
-      - US美国 102
+      - US美国 19
+      - US美国 20
       - HK香港 15
       - HK香港 16
-      - US美国 103
-      - US美国 104
-      - RU俄罗斯 18
       - HK香港 17
-      - IN印度 14
-      - US美国 105
-      - US美国 106
-      - US美国 107
-      - US美国 108
-      - US美国 109
-      - US美国 110
-      - US美国 111
-      - US美国 112
       - HK香港 18
-      - US美国 113
-      - US美国 114
-      - IN印度 15
-      - US美国 115
-      - IN印度 16
-      - IN印度 17
-      - IN印度 18
+      - HK香港 19
+      - US美国 21
+      - JP日本
+      - HK香港 20
+      - US美国 22
+      - HK香港 21
+      - US美国 23
+      - US美国 24
+      - US美国 25
+      - HK香港 22
+      - US美国 26
+      - US美国 27
+      - HK香港 23
+      - US美国 28
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK香港
       - US美国
       - US美国 2
       - US美国 3
+      - HK香港
       - US美国 4
-      - IN印度
-      - IN印度 2
-      - SG新加坡
       - US美国 5
-      - HK香港 2
-      - SG新加坡 2
-      - IN印度 3
       - US美国 6
-      - IN印度 4
+      - HK香港 2
       - US美国 7
-      - US美国 8
-      - SG新加坡 3
-      - RU俄罗斯
       - HK香港 3
-      - RU俄罗斯 2
-      - RU俄罗斯 3
-      - PL波兰
+      - US美国 8
+      - HK香港 4
       - US美国 9
-      - RU俄罗斯 4
       - US美国 10
-      - RU俄罗斯 5
-      - RU俄罗斯 6
-      - RU俄罗斯 7
+      - HK香港 5
+      - HK香港 6
       - US美国 11
       - US美国 12
-      - US美国 13
-      - US美国 14
-      - US美国 15
-      - US美国 16
-      - RU俄罗斯 8
-      - IN印度 5
-      - US美国 17
-      - RU俄罗斯 9
-      - US美国 18
-      - US美国 19
-      - RU俄罗斯 10
-      - RU俄罗斯 11
-      - IN印度 6
-      - RU俄罗斯 12
-      - HK香港 4
-      - US美国 20
-      - SG新加坡 4
-      - US美国 21
-      - RU俄罗斯 13
-      - HK香港 5
-      - RU俄罗斯 14
-      - SG新加坡 5
-      - US美国 22
-      - IN印度 7
-      - HK香港 6
-      - RU俄罗斯 15
-      - SG新加坡 6
       - HK香港 7
       - HK香港 8
-      - IN印度 8
-      - US美国 23
-      - IN印度 9
-      - IN印度 10
-      - IN印度 11
-      - US美国 24
-      - IN印度 12
-      - US美国 25
-      - US美国 26
-      - US美国 27
-      - US美国 28
-      - US美国 29
-      - US美国 30
-      - US美国 31
-      - JP日本
-      - US美国 32
-      - US美国 33
-      - US美国 34
-      - US美国 35
-      - US美国 36
-      - US美国 37
-      - US美国 38
-      - US美国 39
+      - US美国 13
+      - US美国 14
       - HK香港 9
-      - US美国 40
-      - US美国 41
-      - US美国 42
-      - US美国 43
-      - US美国 44
-      - US美国 45
-      - US美国 46
+      - US美国 15
       - HK香港 10
-      - US美国 47
-      - RU俄罗斯 16
-      - US美国 48
-      - US美国 49
-      - US美国 50
-      - US美国 51
-      - US美国 52
-      - RU俄罗斯 17
-      - US美国 53
-      - US美国 54
-      - US美国 55
-      - US美国 56
-      - US美国 57
-      - US美国 58
-      - US美国 59
-      - US美国 60
+      - US美国 16
       - HK香港 11
-      - US美国 61
-      - US美国 62
-      - US美国 63
-      - US美国 64
-      - US美国 65
-      - US美国 66
-      - US美国 67
-      - US美国 68
-      - IN印度 13
-      - US美国 69
       - HK香港 12
-      - US美国 70
-      - US美国 71
-      - US美国 72
+      - US美国 17
+      - US美国 18
       - HK香港 13
-      - US美国 73
-      - US美国 74
-      - US美国 75
-      - US美国 76
-      - US美国 77
-      - US美国 78
-      - US美国 79
-      - US美国 80
       - HK香港 14
-      - US美国 81
-      - US美国 82
-      - US美国 83
-      - US美国 84
-      - US美国 85
-      - US美国 86
-      - US美国 87
-      - US美国 88
-      - US美国 89
-      - US美国 90
-      - US美国 91
-      - US美国 92
-      - US美国 93
-      - US美国 94
-      - US美国 95
-      - US美国 96
-      - US美国 97
-      - US美国 98
-      - US美国 99
-      - US美国 100
-      - US美国 101
-      - US美国 102
+      - US美国 19
+      - US美国 20
       - HK香港 15
       - HK香港 16
-      - US美国 103
-      - US美国 104
-      - RU俄罗斯 18
       - HK香港 17
-      - IN印度 14
-      - US美国 105
-      - US美国 106
-      - US美国 107
-      - US美国 108
-      - US美国 109
-      - US美国 110
-      - US美国 111
-      - US美国 112
       - HK香港 18
-      - US美国 113
-      - US美国 114
-      - IN印度 15
-      - US美国 115
-      - IN印度 16
-      - IN印度 17
-      - IN印度 18
+      - HK香港 19
+      - US美国 21
+      - JP日本
+      - HK香港 20
+      - US美国 22
+      - HK香港 21
+      - US美国 23
+      - US美国 24
+      - US美国 25
+      - HK香港 22
+      - US美国 26
+      - US美国 27
+      - HK香港 23
+      - US美国 28
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK香港
       - US美国
       - US美国 2
       - US美国 3
+      - HK香港
       - US美国 4
-      - IN印度
-      - IN印度 2
-      - SG新加坡
       - US美国 5
-      - HK香港 2
-      - SG新加坡 2
-      - IN印度 3
       - US美国 6
-      - IN印度 4
+      - HK香港 2
       - US美国 7
-      - US美国 8
-      - SG新加坡 3
-      - RU俄罗斯
       - HK香港 3
-      - RU俄罗斯 2
-      - RU俄罗斯 3
-      - PL波兰
+      - US美国 8
+      - HK香港 4
       - US美国 9
-      - RU俄罗斯 4
       - US美国 10
-      - RU俄罗斯 5
-      - RU俄罗斯 6
-      - RU俄罗斯 7
+      - HK香港 5
+      - HK香港 6
       - US美国 11
       - US美国 12
-      - US美国 13
-      - US美国 14
-      - US美国 15
-      - US美国 16
-      - RU俄罗斯 8
-      - IN印度 5
-      - US美国 17
-      - RU俄罗斯 9
-      - US美国 18
-      - US美国 19
-      - RU俄罗斯 10
-      - RU俄罗斯 11
-      - IN印度 6
-      - RU俄罗斯 12
-      - HK香港 4
-      - US美国 20
-      - SG新加坡 4
-      - US美国 21
-      - RU俄罗斯 13
-      - HK香港 5
-      - RU俄罗斯 14
-      - SG新加坡 5
-      - US美国 22
-      - IN印度 7
-      - HK香港 6
-      - RU俄罗斯 15
-      - SG新加坡 6
       - HK香港 7
       - HK香港 8
-      - IN印度 8
-      - US美国 23
-      - IN印度 9
-      - IN印度 10
-      - IN印度 11
-      - US美国 24
-      - IN印度 12
-      - US美国 25
-      - US美国 26
-      - US美国 27
-      - US美国 28
-      - US美国 29
-      - US美国 30
-      - US美国 31
-      - JP日本
-      - US美国 32
-      - US美国 33
-      - US美国 34
-      - US美国 35
-      - US美国 36
-      - US美国 37
-      - US美国 38
-      - US美国 39
+      - US美国 13
+      - US美国 14
       - HK香港 9
-      - US美国 40
-      - US美国 41
-      - US美国 42
-      - US美国 43
-      - US美国 44
-      - US美国 45
-      - US美国 46
+      - US美国 15
       - HK香港 10
-      - US美国 47
-      - RU俄罗斯 16
-      - US美国 48
-      - US美国 49
-      - US美国 50
-      - US美国 51
-      - US美国 52
-      - RU俄罗斯 17
-      - US美国 53
-      - US美国 54
-      - US美国 55
-      - US美国 56
-      - US美国 57
-      - US美国 58
-      - US美国 59
-      - US美国 60
+      - US美国 16
       - HK香港 11
-      - US美国 61
-      - US美国 62
-      - US美国 63
-      - US美国 64
-      - US美国 65
-      - US美国 66
-      - US美国 67
-      - US美国 68
-      - IN印度 13
-      - US美国 69
       - HK香港 12
-      - US美国 70
-      - US美国 71
-      - US美国 72
+      - US美国 17
+      - US美国 18
       - HK香港 13
-      - US美国 73
-      - US美国 74
-      - US美国 75
-      - US美国 76
-      - US美国 77
-      - US美国 78
-      - US美国 79
-      - US美国 80
       - HK香港 14
-      - US美国 81
-      - US美国 82
-      - US美国 83
-      - US美国 84
-      - US美国 85
-      - US美国 86
-      - US美国 87
-      - US美国 88
-      - US美国 89
-      - US美国 90
-      - US美国 91
-      - US美国 92
-      - US美国 93
-      - US美国 94
-      - US美国 95
-      - US美国 96
-      - US美国 97
-      - US美国 98
-      - US美国 99
-      - US美国 100
-      - US美国 101
-      - US美国 102
+      - US美国 19
+      - US美国 20
       - HK香港 15
       - HK香港 16
-      - US美国 103
-      - US美国 104
-      - RU俄罗斯 18
       - HK香港 17
-      - IN印度 14
-      - US美国 105
-      - US美国 106
-      - US美国 107
-      - US美国 108
-      - US美国 109
-      - US美国 110
-      - US美国 111
-      - US美国 112
       - HK香港 18
-      - US美国 113
-      - US美国 114
-      - IN印度 15
-      - US美国 115
-      - IN印度 16
-      - IN印度 17
-      - IN印度 18
+      - HK香港 19
+      - US美国 21
+      - JP日本
+      - HK香港 20
+      - US美国 22
+      - HK香港 21
+      - US美国 23
+      - US美国 24
+      - US美国 25
+      - HK香港 22
+      - US美国 26
+      - US美国 27
+      - HK香港 23
+      - US美国 28
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -748,183 +248,58 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK香港
       - US美国
       - US美国 2
       - US美国 3
+      - HK香港
       - US美国 4
-      - IN印度
-      - IN印度 2
-      - SG新加坡
       - US美国 5
-      - HK香港 2
-      - SG新加坡 2
-      - IN印度 3
       - US美国 6
-      - IN印度 4
+      - HK香港 2
       - US美国 7
-      - US美国 8
-      - SG新加坡 3
-      - RU俄罗斯
       - HK香港 3
-      - RU俄罗斯 2
-      - RU俄罗斯 3
-      - PL波兰
+      - US美国 8
+      - HK香港 4
       - US美国 9
-      - RU俄罗斯 4
       - US美国 10
-      - RU俄罗斯 5
-      - RU俄罗斯 6
-      - RU俄罗斯 7
+      - HK香港 5
+      - HK香港 6
       - US美国 11
       - US美国 12
-      - US美国 13
-      - US美国 14
-      - US美国 15
-      - US美国 16
-      - RU俄罗斯 8
-      - IN印度 5
-      - US美国 17
-      - RU俄罗斯 9
-      - US美国 18
-      - US美国 19
-      - RU俄罗斯 10
-      - RU俄罗斯 11
-      - IN印度 6
-      - RU俄罗斯 12
-      - HK香港 4
-      - US美国 20
-      - SG新加坡 4
-      - US美国 21
-      - RU俄罗斯 13
-      - HK香港 5
-      - RU俄罗斯 14
-      - SG新加坡 5
-      - US美国 22
-      - IN印度 7
-      - HK香港 6
-      - RU俄罗斯 15
-      - SG新加坡 6
       - HK香港 7
       - HK香港 8
-      - IN印度 8
-      - US美国 23
-      - IN印度 9
-      - IN印度 10
-      - IN印度 11
-      - US美国 24
-      - IN印度 12
-      - US美国 25
-      - US美国 26
-      - US美国 27
-      - US美国 28
-      - US美国 29
-      - US美国 30
-      - US美国 31
-      - JP日本
-      - US美国 32
-      - US美国 33
-      - US美国 34
-      - US美国 35
-      - US美国 36
-      - US美国 37
-      - US美国 38
-      - US美国 39
+      - US美国 13
+      - US美国 14
       - HK香港 9
-      - US美国 40
-      - US美国 41
-      - US美国 42
-      - US美国 43
-      - US美国 44
-      - US美国 45
-      - US美国 46
+      - US美国 15
       - HK香港 10
-      - US美国 47
-      - RU俄罗斯 16
-      - US美国 48
-      - US美国 49
-      - US美国 50
-      - US美国 51
-      - US美国 52
-      - RU俄罗斯 17
-      - US美国 53
-      - US美国 54
-      - US美国 55
-      - US美国 56
-      - US美国 57
-      - US美国 58
-      - US美国 59
-      - US美国 60
+      - US美国 16
       - HK香港 11
-      - US美国 61
-      - US美国 62
-      - US美国 63
-      - US美国 64
-      - US美国 65
-      - US美国 66
-      - US美国 67
-      - US美国 68
-      - IN印度 13
-      - US美国 69
       - HK香港 12
-      - US美国 70
-      - US美国 71
-      - US美国 72
+      - US美国 17
+      - US美国 18
       - HK香港 13
-      - US美国 73
-      - US美国 74
-      - US美国 75
-      - US美国 76
-      - US美国 77
-      - US美国 78
-      - US美国 79
-      - US美国 80
       - HK香港 14
-      - US美国 81
-      - US美国 82
-      - US美国 83
-      - US美国 84
-      - US美国 85
-      - US美国 86
-      - US美国 87
-      - US美国 88
-      - US美国 89
-      - US美国 90
-      - US美国 91
-      - US美国 92
-      - US美国 93
-      - US美国 94
-      - US美国 95
-      - US美国 96
-      - US美国 97
-      - US美国 98
-      - US美国 99
-      - US美国 100
-      - US美国 101
-      - US美国 102
+      - US美国 19
+      - US美国 20
       - HK香港 15
       - HK香港 16
-      - US美国 103
-      - US美国 104
-      - RU俄罗斯 18
       - HK香港 17
-      - IN印度 14
-      - US美国 105
-      - US美国 106
-      - US美国 107
-      - US美国 108
-      - US美国 109
-      - US美国 110
-      - US美国 111
-      - US美国 112
       - HK香港 18
-      - US美国 113
-      - US美国 114
-      - IN印度 15
-      - US美国 115
-      - IN印度 16
-      - IN印度 17
-      - IN印度 18
+      - HK香港 19
+      - US美国 21
+      - JP日本
+      - HK香港 20
+      - US美国 22
+      - HK香港 21
+      - US美国 23
+      - US美国 24
+      - US美国 25
+      - HK香港 22
+      - US美国 26
+      - US美国 27
+      - HK香港 23
+      - US美国 28
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -947,554 +322,184 @@ proxy-groups:
       - HK香港 16
       - HK香港 17
       - HK香港 18
+      - HK香港 19
+      - HK香港 20
+      - HK香港 21
+      - HK香港 22
+      - HK香港 23
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK香港
       - US美国
       - US美国 2
       - US美国 3
+      - HK香港
       - US美国 4
-      - IN印度
-      - IN印度 2
-      - SG新加坡
       - US美国 5
-      - HK香港 2
-      - SG新加坡 2
-      - IN印度 3
       - US美国 6
-      - IN印度 4
+      - HK香港 2
       - US美国 7
-      - US美国 8
-      - SG新加坡 3
-      - RU俄罗斯
       - HK香港 3
-      - RU俄罗斯 2
-      - RU俄罗斯 3
-      - PL波兰
+      - US美国 8
+      - HK香港 4
       - US美国 9
-      - RU俄罗斯 4
       - US美国 10
-      - RU俄罗斯 5
-      - RU俄罗斯 6
-      - RU俄罗斯 7
+      - HK香港 5
+      - HK香港 6
       - US美国 11
       - US美国 12
-      - US美国 13
-      - US美国 14
-      - US美国 15
-      - US美国 16
-      - RU俄罗斯 8
-      - IN印度 5
-      - US美国 17
-      - RU俄罗斯 9
-      - US美国 18
-      - US美国 19
-      - RU俄罗斯 10
-      - RU俄罗斯 11
-      - IN印度 6
-      - RU俄罗斯 12
-      - HK香港 4
-      - US美国 20
-      - SG新加坡 4
-      - US美国 21
-      - RU俄罗斯 13
-      - HK香港 5
-      - RU俄罗斯 14
-      - SG新加坡 5
-      - US美国 22
-      - IN印度 7
-      - HK香港 6
-      - RU俄罗斯 15
-      - SG新加坡 6
       - HK香港 7
       - HK香港 8
-      - IN印度 8
-      - US美国 23
-      - IN印度 9
-      - IN印度 10
-      - IN印度 11
-      - US美国 24
-      - IN印度 12
-      - US美国 25
-      - US美国 26
-      - US美国 27
-      - US美国 28
-      - US美国 29
-      - US美国 30
-      - US美国 31
-      - JP日本
-      - US美国 32
-      - US美国 33
-      - US美国 34
-      - US美国 35
-      - US美国 36
-      - US美国 37
-      - US美国 38
-      - US美国 39
+      - US美国 13
+      - US美国 14
       - HK香港 9
-      - US美国 40
-      - US美国 41
-      - US美国 42
-      - US美国 43
-      - US美国 44
-      - US美国 45
-      - US美国 46
+      - US美国 15
       - HK香港 10
-      - US美国 47
-      - RU俄罗斯 16
-      - US美国 48
-      - US美国 49
-      - US美国 50
-      - US美国 51
-      - US美国 52
-      - RU俄罗斯 17
-      - US美国 53
-      - US美国 54
-      - US美国 55
-      - US美国 56
-      - US美国 57
-      - US美国 58
-      - US美国 59
-      - US美国 60
+      - US美国 16
       - HK香港 11
-      - US美国 61
-      - US美国 62
-      - US美国 63
-      - US美国 64
-      - US美国 65
-      - US美国 66
-      - US美国 67
-      - US美国 68
-      - IN印度 13
-      - US美国 69
       - HK香港 12
-      - US美国 70
-      - US美国 71
-      - US美国 72
+      - US美国 17
+      - US美国 18
       - HK香港 13
-      - US美国 73
-      - US美国 74
-      - US美国 75
-      - US美国 76
-      - US美国 77
-      - US美国 78
-      - US美国 79
-      - US美国 80
       - HK香港 14
-      - US美国 81
-      - US美国 82
-      - US美国 83
-      - US美国 84
-      - US美国 85
-      - US美国 86
-      - US美国 87
-      - US美国 88
-      - US美国 89
-      - US美国 90
-      - US美国 91
-      - US美国 92
-      - US美国 93
-      - US美国 94
-      - US美国 95
-      - US美国 96
-      - US美国 97
-      - US美国 98
-      - US美国 99
-      - US美国 100
-      - US美国 101
-      - US美国 102
+      - US美国 19
+      - US美国 20
       - HK香港 15
       - HK香港 16
-      - US美国 103
-      - US美国 104
-      - RU俄罗斯 18
       - HK香港 17
-      - IN印度 14
-      - US美国 105
-      - US美国 106
-      - US美国 107
-      - US美国 108
-      - US美国 109
-      - US美国 110
-      - US美国 111
-      - US美国 112
       - HK香港 18
-      - US美国 113
-      - US美国 114
-      - IN印度 15
-      - US美国 115
-      - IN印度 16
-      - IN印度 17
-      - IN印度 18
+      - HK香港 19
+      - US美国 21
+      - JP日本
+      - HK香港 20
+      - US美国 22
+      - HK香港 21
+      - US美国 23
+      - US美国 24
+      - US美国 25
+      - HK香港 22
+      - US美国 26
+      - US美国 27
+      - HK香港 23
+      - US美国 28
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK香港
       - US美国
       - US美国 2
       - US美国 3
+      - HK香港
       - US美国 4
-      - IN印度
-      - IN印度 2
-      - SG新加坡
       - US美国 5
-      - HK香港 2
-      - SG新加坡 2
-      - IN印度 3
       - US美国 6
-      - IN印度 4
+      - HK香港 2
       - US美国 7
-      - US美国 8
-      - SG新加坡 3
-      - RU俄罗斯
       - HK香港 3
-      - RU俄罗斯 2
-      - RU俄罗斯 3
-      - PL波兰
+      - US美国 8
+      - HK香港 4
       - US美国 9
-      - RU俄罗斯 4
       - US美国 10
-      - RU俄罗斯 5
-      - RU俄罗斯 6
-      - RU俄罗斯 7
+      - HK香港 5
+      - HK香港 6
       - US美国 11
       - US美国 12
-      - US美国 13
-      - US美国 14
-      - US美国 15
-      - US美国 16
-      - RU俄罗斯 8
-      - IN印度 5
-      - US美国 17
-      - RU俄罗斯 9
-      - US美国 18
-      - US美国 19
-      - RU俄罗斯 10
-      - RU俄罗斯 11
-      - IN印度 6
-      - RU俄罗斯 12
-      - HK香港 4
-      - US美国 20
-      - SG新加坡 4
-      - US美国 21
-      - RU俄罗斯 13
-      - HK香港 5
-      - RU俄罗斯 14
-      - SG新加坡 5
-      - US美国 22
-      - IN印度 7
-      - HK香港 6
-      - RU俄罗斯 15
-      - SG新加坡 6
       - HK香港 7
       - HK香港 8
-      - IN印度 8
-      - US美国 23
-      - IN印度 9
-      - IN印度 10
-      - IN印度 11
-      - US美国 24
-      - IN印度 12
-      - US美国 25
-      - US美国 26
-      - US美国 27
-      - US美国 28
-      - US美国 29
-      - US美国 30
-      - US美国 31
-      - JP日本
-      - US美国 32
-      - US美国 33
-      - US美国 34
-      - US美国 35
-      - US美国 36
-      - US美国 37
-      - US美国 38
-      - US美国 39
+      - US美国 13
+      - US美国 14
       - HK香港 9
-      - US美国 40
-      - US美国 41
-      - US美国 42
-      - US美国 43
-      - US美国 44
-      - US美国 45
-      - US美国 46
+      - US美国 15
       - HK香港 10
-      - US美国 47
-      - RU俄罗斯 16
-      - US美国 48
-      - US美国 49
-      - US美国 50
-      - US美国 51
-      - US美国 52
-      - RU俄罗斯 17
-      - US美国 53
-      - US美国 54
-      - US美国 55
-      - US美国 56
-      - US美国 57
-      - US美国 58
-      - US美国 59
-      - US美国 60
+      - US美国 16
       - HK香港 11
-      - US美国 61
-      - US美国 62
-      - US美国 63
-      - US美国 64
-      - US美国 65
-      - US美国 66
-      - US美国 67
-      - US美国 68
-      - IN印度 13
-      - US美国 69
       - HK香港 12
-      - US美国 70
-      - US美国 71
-      - US美国 72
+      - US美国 17
+      - US美国 18
       - HK香港 13
-      - US美国 73
-      - US美国 74
-      - US美国 75
-      - US美国 76
-      - US美国 77
-      - US美国 78
-      - US美国 79
-      - US美国 80
       - HK香港 14
-      - US美国 81
-      - US美国 82
-      - US美国 83
-      - US美国 84
-      - US美国 85
-      - US美国 86
-      - US美国 87
-      - US美国 88
-      - US美国 89
-      - US美国 90
-      - US美国 91
-      - US美国 92
-      - US美国 93
-      - US美国 94
-      - US美国 95
-      - US美国 96
-      - US美国 97
-      - US美国 98
-      - US美国 99
-      - US美国 100
-      - US美国 101
-      - US美国 102
+      - US美国 19
+      - US美国 20
       - HK香港 15
       - HK香港 16
-      - US美国 103
-      - US美国 104
-      - RU俄罗斯 18
       - HK香港 17
-      - IN印度 14
-      - US美国 105
-      - US美国 106
-      - US美国 107
-      - US美国 108
-      - US美国 109
-      - US美国 110
-      - US美国 111
-      - US美国 112
       - HK香港 18
-      - US美国 113
-      - US美国 114
-      - IN印度 15
-      - US美国 115
-      - IN印度 16
-      - IN印度 17
-      - IN印度 18
+      - HK香港 19
+      - US美国 21
+      - JP日本
+      - HK香港 20
+      - US美国 22
+      - HK香港 21
+      - US美国 23
+      - US美国 24
+      - US美国 25
+      - HK香港 22
+      - US美国 26
+      - US美国 27
+      - HK香港 23
+      - US美国 28
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK香港
       - US美国
       - US美国 2
       - US美国 3
+      - HK香港
       - US美国 4
-      - IN印度
-      - IN印度 2
-      - SG新加坡
       - US美国 5
-      - HK香港 2
-      - SG新加坡 2
-      - IN印度 3
       - US美国 6
-      - IN印度 4
+      - HK香港 2
       - US美国 7
-      - US美国 8
-      - SG新加坡 3
-      - RU俄罗斯
       - HK香港 3
-      - RU俄罗斯 2
-      - RU俄罗斯 3
-      - PL波兰
+      - US美国 8
+      - HK香港 4
       - US美国 9
-      - RU俄罗斯 4
       - US美国 10
-      - RU俄罗斯 5
-      - RU俄罗斯 6
-      - RU俄罗斯 7
+      - HK香港 5
+      - HK香港 6
       - US美国 11
       - US美国 12
-      - US美国 13
-      - US美国 14
-      - US美国 15
-      - US美国 16
-      - RU俄罗斯 8
-      - IN印度 5
-      - US美国 17
-      - RU俄罗斯 9
-      - US美国 18
-      - US美国 19
-      - RU俄罗斯 10
-      - RU俄罗斯 11
-      - IN印度 6
-      - RU俄罗斯 12
-      - HK香港 4
-      - US美国 20
-      - SG新加坡 4
-      - US美国 21
-      - RU俄罗斯 13
-      - HK香港 5
-      - RU俄罗斯 14
-      - SG新加坡 5
-      - US美国 22
-      - IN印度 7
-      - HK香港 6
-      - RU俄罗斯 15
-      - SG新加坡 6
       - HK香港 7
       - HK香港 8
-      - IN印度 8
-      - US美国 23
-      - IN印度 9
-      - IN印度 10
-      - IN印度 11
-      - US美国 24
-      - IN印度 12
-      - US美国 25
-      - US美国 26
-      - US美国 27
-      - US美国 28
-      - US美国 29
-      - US美国 30
-      - US美国 31
-      - JP日本
-      - US美国 32
-      - US美国 33
-      - US美国 34
-      - US美国 35
-      - US美国 36
-      - US美国 37
-      - US美国 38
-      - US美国 39
+      - US美国 13
+      - US美国 14
       - HK香港 9
-      - US美国 40
-      - US美国 41
-      - US美国 42
-      - US美国 43
-      - US美国 44
-      - US美国 45
-      - US美国 46
+      - US美国 15
       - HK香港 10
-      - US美国 47
-      - RU俄罗斯 16
-      - US美国 48
-      - US美国 49
-      - US美国 50
-      - US美国 51
-      - US美国 52
-      - RU俄罗斯 17
-      - US美国 53
-      - US美国 54
-      - US美国 55
-      - US美国 56
-      - US美国 57
-      - US美国 58
-      - US美国 59
-      - US美国 60
+      - US美国 16
       - HK香港 11
-      - US美国 61
-      - US美国 62
-      - US美国 63
-      - US美国 64
-      - US美国 65
-      - US美国 66
-      - US美国 67
-      - US美国 68
-      - IN印度 13
-      - US美国 69
       - HK香港 12
-      - US美国 70
-      - US美国 71
-      - US美国 72
+      - US美国 17
+      - US美国 18
       - HK香港 13
-      - US美国 73
-      - US美国 74
-      - US美国 75
-      - US美国 76
-      - US美国 77
-      - US美国 78
-      - US美国 79
-      - US美国 80
       - HK香港 14
-      - US美国 81
-      - US美国 82
-      - US美国 83
-      - US美国 84
-      - US美国 85
-      - US美国 86
-      - US美国 87
-      - US美国 88
-      - US美国 89
-      - US美国 90
-      - US美国 91
-      - US美国 92
-      - US美国 93
-      - US美国 94
-      - US美国 95
-      - US美国 96
-      - US美国 97
-      - US美国 98
-      - US美国 99
-      - US美国 100
-      - US美国 101
-      - US美国 102
+      - US美国 19
+      - US美国 20
       - HK香港 15
       - HK香港 16
-      - US美国 103
-      - US美国 104
-      - RU俄罗斯 18
       - HK香港 17
-      - IN印度 14
-      - US美国 105
-      - US美国 106
-      - US美国 107
-      - US美国 108
-      - US美国 109
-      - US美国 110
-      - US美国 111
-      - US美国 112
       - HK香港 18
-      - US美国 113
-      - US美国 114
-      - IN印度 15
-      - US美国 115
-      - IN印度 16
-      - IN印度 17
-      - IN印度 18
+      - HK香港 19
+      - US美国 21
+      - JP日本
+      - HK香港 20
+      - US美国 22
+      - HK香港 21
+      - US美国 23
+      - US美国 24
+      - US美国 25
+      - HK香港 22
+      - US美国 26
+      - US美国 27
+      - HK香港 23
+      - US美国 28
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1510,183 +515,58 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK香港
       - US美国
       - US美国 2
       - US美国 3
+      - HK香港
       - US美国 4
-      - IN印度
-      - IN印度 2
-      - SG新加坡
       - US美国 5
-      - HK香港 2
-      - SG新加坡 2
-      - IN印度 3
       - US美国 6
-      - IN印度 4
+      - HK香港 2
       - US美国 7
-      - US美国 8
-      - SG新加坡 3
-      - RU俄罗斯
       - HK香港 3
-      - RU俄罗斯 2
-      - RU俄罗斯 3
-      - PL波兰
+      - US美国 8
+      - HK香港 4
       - US美国 9
-      - RU俄罗斯 4
       - US美国 10
-      - RU俄罗斯 5
-      - RU俄罗斯 6
-      - RU俄罗斯 7
+      - HK香港 5
+      - HK香港 6
       - US美国 11
       - US美国 12
-      - US美国 13
-      - US美国 14
-      - US美国 15
-      - US美国 16
-      - RU俄罗斯 8
-      - IN印度 5
-      - US美国 17
-      - RU俄罗斯 9
-      - US美国 18
-      - US美国 19
-      - RU俄罗斯 10
-      - RU俄罗斯 11
-      - IN印度 6
-      - RU俄罗斯 12
-      - HK香港 4
-      - US美国 20
-      - SG新加坡 4
-      - US美国 21
-      - RU俄罗斯 13
-      - HK香港 5
-      - RU俄罗斯 14
-      - SG新加坡 5
-      - US美国 22
-      - IN印度 7
-      - HK香港 6
-      - RU俄罗斯 15
-      - SG新加坡 6
       - HK香港 7
       - HK香港 8
-      - IN印度 8
-      - US美国 23
-      - IN印度 9
-      - IN印度 10
-      - IN印度 11
-      - US美国 24
-      - IN印度 12
-      - US美国 25
-      - US美国 26
-      - US美国 27
-      - US美国 28
-      - US美国 29
-      - US美国 30
-      - US美国 31
-      - JP日本
-      - US美国 32
-      - US美国 33
-      - US美国 34
-      - US美国 35
-      - US美国 36
-      - US美国 37
-      - US美国 38
-      - US美国 39
+      - US美国 13
+      - US美国 14
       - HK香港 9
-      - US美国 40
-      - US美国 41
-      - US美国 42
-      - US美国 43
-      - US美国 44
-      - US美国 45
-      - US美国 46
+      - US美国 15
       - HK香港 10
-      - US美国 47
-      - RU俄罗斯 16
-      - US美国 48
-      - US美国 49
-      - US美国 50
-      - US美国 51
-      - US美国 52
-      - RU俄罗斯 17
-      - US美国 53
-      - US美国 54
-      - US美国 55
-      - US美国 56
-      - US美国 57
-      - US美国 58
-      - US美国 59
-      - US美国 60
+      - US美国 16
       - HK香港 11
-      - US美国 61
-      - US美国 62
-      - US美国 63
-      - US美国 64
-      - US美国 65
-      - US美国 66
-      - US美国 67
-      - US美国 68
-      - IN印度 13
-      - US美国 69
       - HK香港 12
-      - US美国 70
-      - US美国 71
-      - US美国 72
+      - US美国 17
+      - US美国 18
       - HK香港 13
-      - US美国 73
-      - US美国 74
-      - US美国 75
-      - US美国 76
-      - US美国 77
-      - US美国 78
-      - US美国 79
-      - US美国 80
       - HK香港 14
-      - US美国 81
-      - US美国 82
-      - US美国 83
-      - US美国 84
-      - US美国 85
-      - US美国 86
-      - US美国 87
-      - US美国 88
-      - US美国 89
-      - US美国 90
-      - US美国 91
-      - US美国 92
-      - US美国 93
-      - US美国 94
-      - US美国 95
-      - US美国 96
-      - US美国 97
-      - US美国 98
-      - US美国 99
-      - US美国 100
-      - US美国 101
-      - US美国 102
+      - US美国 19
+      - US美国 20
       - HK香港 15
       - HK香港 16
-      - US美国 103
-      - US美国 104
-      - RU俄罗斯 18
       - HK香港 17
-      - IN印度 14
-      - US美国 105
-      - US美国 106
-      - US美国 107
-      - US美国 108
-      - US美国 109
-      - US美国 110
-      - US美国 111
-      - US美国 112
       - HK香港 18
-      - US美国 113
-      - US美国 114
-      - IN印度 15
-      - US美国 115
-      - IN印度 16
-      - IN印度 17
-      - IN印度 18
+      - HK香港 19
+      - US美国 21
+      - JP日本
+      - HK香港 20
+      - US美国 22
+      - HK香港 21
+      - US美国 23
+      - US美国 24
+      - US美国 25
+      - HK香港 22
+      - US美国 26
+      - US美国 27
+      - HK香港 23
+      - US美国 28
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
