@@ -78,7 +78,7 @@ jobs:
          if [ -f "$file" ]; then
            sed -i 's/(\(.*\))//g' "$file"
            sed -i 's/|@stairnode//g' "$file"
-           sed -i -E 's/(name: )([0-9]+|[零一二三四五六七八九十]*)元.*机场[:：].*\..*(, server:)/\1未知,\3/g' "$file"
+           sed -i -E 's/(name: )([0-9]+|[零一二三四五六七八九十]*)元.*机场[:：].*\..*(, server:)/\1未知\3/g' "$file"
            sed -i -E 's/([0-9]+|[零一二三四五六七八九十]*)元.*机场[:：].*\..*/未知/g' "$file"
            echo "$(basename "$file") 处理广告完成（无残留，推荐）"
          fi
