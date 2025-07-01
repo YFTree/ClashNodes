@@ -72,11 +72,19 @@ jobs:
 
       - name: Replace content and decode V2Ray
         run: |
-          TODAY=$(date +%Y%m%d)
-          for i in {0..4}; do
+         TODAY=$(date +%Y%m%d)
+         clearAD() {
+         local file="$1"
+         if [ -f "$file" ]; then
+           sed -i 's/(\(.*\))//g' "$file"
+           sed -i 's/|@stairnode//g' "$file"
+           sed -i 's/([0-9]\+|[零一二三四五六七八九十]*)元.*机场[:：].*\..*, server:/, server:/g' "$file"
+         echo "$(basename "$file") 处理广告完成（无残留，推荐）"
+         fi
+         }
+         for i in {0..4}; do
             if [ -f "Clash/${i}.yaml" ]; then
-              sed -i 's/(\(.*\))//g' "Clash/${i}.yaml"
-              echo "${i}.yaml 处理广告完成（无残留，推荐）"
+               clearAD "Clash/${i}.yaml"
             fi
 
             if [ -f "V2Ray/${i}.txt" ]; then
