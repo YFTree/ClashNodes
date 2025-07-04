@@ -5,119 +5,211 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK香港, server: 9c2dfbe1-sytz40-szoau2-1slop.cm5.cnkuaishou.com, port: 27235, type: trojan, password: 520b9126-9870-11ef-81b0-f23c9164ca5d, sni: 9c2dfbe1-sytz40-szoau2-1slop.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: HK香港 2, server: f24250ff-sytz40-t5qufl-8n27.cm5.cnkuaishou.com, port: 27231, type: trojan, password: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc, sni: f24250ff-sytz40-t5qufl-8n27.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: FR法国, server: 45.80.209.25, port: 81, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国, server: 15002.kuaiyin02.top, port: 15002, type: vmess, uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CA加拿大, server: v40.heduian.link, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: api100-core-quic-lf.amemv.com}, udp: true}
-  - {name: JP日本, server: 111.26.109.79, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: ocbc.com}, udp: true}
-  - {name: HK香港 3, server: 96eb5655-sy5wg0-0-rfep.cm5.cnkuaishou.com, port: 27231, type: trojan, password: 629267d8-cf76-11ec-bb74-f23c9164ca5d, sni: 96eb5655-sy5wg0-0-rfep.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: HK香港 4, server: 4fe73dfc-sytz40-t80cbx-1k0yf.cm5.cnkuaishou.com, port: 14234, type: trojan, password: 9cc3c03e-21fd-11ee-a642-f23c91369f2d, sni: 4fe73dfc-sytz40-t80cbx-1k0yf.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: JP日本 2, server: v12.heduian.link, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: ocbc.com}, udp: true}
-  - {name: KR韩国, server: 121.178.51.126, port: 50000, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: HK香港 5, server: 96eb5655-sy5wg0-0-rfep.cm5.cnkuaishou.com, port: 27233, type: trojan, password: 629267d8-cf76-11ec-bb74-f23c9164ca5d, sni: 96eb5655-sy5wg0-0-rfep.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: US美国 2, server: v28.heduian.link, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: ocbc.com}, udp: true}
-  - {name: US美国 3, server: 83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com, port: 21233, type: trojan, password: bcc58e88-e147-11ec-b286-f23c91cfbbc9, sni: 83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: HK香港 6, server: 4e32ab69-sytz40-tbpkla-1otc2.cm5.cnkuaishou.com, port: 14234, type: trojan, password: 0114339c-488d-11ee-8792-f23c9164ca5d, sni: 4e32ab69-sytz40-tbpkla-1otc2.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: JP日本 3, server: 121.178.51.126, port: 50000, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 4, server: 15002.kuaiyin02.top, port: 15002, type: vmess, uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK香港 7, server: fc11e598-sytz40-sz57e5-1tk5u.cm5.cnkuaishou.com, port: 27233, type: trojan, password: e3217bc2-061f-11f0-90e2-f23c913c8d2b, sni: fc11e598-sytz40-sz57e5-1tk5u.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: HK香港 8, server: b78ab8fe-sytz40-taksay-1tcuf.cm5.cnkuaishou.com, port: 14234, type: trojan, password: 3952a514-eaa7-11ef-97da-f23c91cfbbc9, sni: b78ab8fe-sytz40-taksay-1tcuf.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: US美国 5, server: 120.232.153.40, port: 32209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: FR法国 2, server: 45.134.21.8, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: NL荷兰, server: 45.134.21.8, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: HK香港 9, server: 51b27fcb-sytz40-szvfpn-laev.cm5.cnkuaishou.com, port: 27231, type: trojan, password: ef18aaca-4711-11ec-a8bf-f23c91cfbbc9, sni: 51b27fcb-sytz40-szvfpn-laev.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: HK香港 10, server: 59507e3d-sytz40-tk30wc-eyem.cm5.cnkuaishou.com, port: 27231, type: trojan, password: 64617ed2-4823-11ef-9f2d-f23c9164ca5d, sni: 59507e3d-sytz40-tk30wc-eyem.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: US美国 6, server: 452b8c75-sytz40-t8ivpf-z65w.cm5.cnkuaishou.com, port: 14234, type: trojan, password: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9, sni: 452b8c75-sytz40-t8ivpf-z65w.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 美国, server: 59507e3d-sytz40-tk30wc-eyem.cm5.cnkuaishou.com, port: 27231, type: trojan, password: 64617ed2-4823-11ef-9f2d-f23c9164ca5d, sni: 59507e3d-sytz40-tk30wc-eyem.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 2, server: 452b8c75-sytz40-t8ivpf-z65w.cm5.cnkuaishou.com, port: 14234, type: trojan, password: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9, sni: 452b8c75-sytz40-t8ivpf-z65w.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 3, server: 45.80.209.25, port: 81, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 4, server: 51b27fcb-sytz40-szvfpn-laev.cm5.cnkuaishou.com, port: 27231, type: trojan, password: ef18aaca-4711-11ec-a8bf-f23c91cfbbc9, sni: 51b27fcb-sytz40-szvfpn-laev.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 5, server: 0c280045-sxp8g0-t0hae4-1curq.cm5.cnkuaishou.com, port: 27233, type: trojan, password: 5cfee98c-0e3b-11ed-bd7c-f23c913c8d2b, sni: 0c280045-sxp8g0-t0hae4-1curq.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 6, server: 121.178.51.126, port: 50000, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 7, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: ocbc.com}, udp: true}
+  - {name: 美国 8, server: v3.cdn.ewddns.net, port: 39207, type: vmess, uuid: dcdcb14e-8c34-3c0f-9801-01457dcf25f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /62a88e27-2b1f-462f-8e4a-3e1359ac805c.live238.m3u8, ws-headers: {Host: host=live.bilibili.com}, udp: true}
+  - {name: 美国 9, server: 96eb5655-sy5wg0-0-rfep.cm5.cnkuaishou.com, port: 27231, type: trojan, password: 629267d8-cf76-11ec-bb74-f23c9164ca5d, sni: 96eb5655-sy5wg0-0-rfep.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 10, server: b78ab8fe-sytz40-taksay-1tcuf.cm5.cnkuaishou.com, port: 14234, type: trojan, password: 3952a514-eaa7-11ef-97da-f23c91cfbbc9, sni: b78ab8fe-sytz40-taksay-1tcuf.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 11, server: 112.162.203.5, port: 50000, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 12, server: 9c2dfbe1-sytz40-szoau2-1slop.cm5.cnkuaishou.com, port: 27235, type: trojan, password: 520b9126-9870-11ef-81b0-f23c9164ca5d, sni: 9c2dfbe1-sytz40-szoau2-1slop.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 13, server: 120.232.153.40, port: 32209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 加拿大, server: 111.26.109.79, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: api100-core-quic-lf.amemv.com}, udp: true}
+  - {name: 美国 14, server: 83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com, port: 21233, type: trojan, password: bcc58e88-e147-11ec-b286-f23c91cfbbc9, sni: 83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 15, server: 45.134.21.8, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 16, server: 135.84.74.254, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 17, server: 121.178.51.126, port: 50000, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 18, server: 192.200.160.169, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 19, server: 45.67.215.217, port: 2087, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 20, server: 69ba7db6-sytz40-t12cnj-1ol97.cm5.cnkuaishou.com, port: 27235, type: trojan, password: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, sni: 69ba7db6-sytz40-t12cnj-1ol97.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 21, server: 103.116.7.133, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 22, server: 188.164.159.214, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 23, server: f24250ff-sytz40-t5qufl-8n27.cm5.cnkuaishou.com, port: 27231, type: trojan, password: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc, sni: f24250ff-sytz40-t5qufl-8n27.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 24, server: 188.164.159.185, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 25, server: 188.164.159.234, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 26, server: 4e32ab69-sytz40-tbpkla-1otc2.cm5.cnkuaishou.com, port: 14234, type: trojan, password: 0114339c-488d-11ee-8792-f23c9164ca5d, sni: 4e32ab69-sytz40-tbpkla-1otc2.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 27, server: 188.164.159.185, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 28, server: 154.219.5.44, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 29, server: 46.254.92.142, port: 2087, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 30, server: 31.43.179.27, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 31, server: 188.164.159.18, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 32, server: 45.67.214.3, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 33, server: cdcdacce-sytz40-szj6wo-8f7h.cm5.cnkuaishou.com, port: 14234, type: trojan, password: b1e0ecc4-c7af-11ed-a8bf-f23c91cfbbc9, sni: cdcdacce-sytz40-szj6wo-8f7h.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 34, server: 108.165.152.55, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 35, server: 188.164.159.18, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 36, server: 45.150.115.195, port: 2087, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 37, server: lynn.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: lynn.ns.cloudflare.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 38, server: 108.165.152.55, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 39, server: 192.200.160.169, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 韩国, server: 112.162.203.5, port: 50000, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 日本, server: v12.heduian.link, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: ocbc.com}, udp: true}
+  - {name: 美国 40, server: 167.68.4.58, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 41, server: da4d52c3-sytz40-t7hmka-1plv4.cm5.cnkuaishou.com, port: 27231, type: trojan, password: 28213b50-7ed5-11ee-add6-f23c91369f2d, sni: da4d52c3-sytz40-t7hmka-1plv4.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 42, server: 96eb5655-sy5wg0-0-rfep.cm5.cnkuaishou.com, port: 27233, type: trojan, password: 629267d8-cf76-11ec-bb74-f23c9164ca5d, sni: 96eb5655-sy5wg0-0-rfep.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 日本 2, server: 111.26.109.79, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: ocbc.com}, udp: true}
+  - {name: 美国 43, server: 5.182.84.244, port: 443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK香港
-      - HK香港 2
-      - FR法国
-      - US美国
-      - CA加拿大
-      - JP日本
-      - HK香港 3
-      - HK香港 4
-      - JP日本 2
-      - KR韩国
-      - HK香港 5
-      - US美国 2
-      - US美国 3
-      - HK香港 6
-      - JP日本 3
-      - US美国 4
-      - HK香港 7
-      - HK香港 8
-      - US美国 5
-      - FR法国 2
-      - NL荷兰
-      - HK香港 9
-      - HK香港 10
-      - US美国 6
+      - 美国
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 美国 12
+      - 美国 13
+      - 加拿大
+      - 美国 14
+      - 美国 15
+      - 美国 16
+      - 美国 17
+      - 美国 18
+      - 美国 19
+      - 美国 20
+      - 美国 21
+      - 美国 22
+      - 美国 23
+      - 美国 24
+      - 美国 25
+      - 美国 26
+      - 美国 27
+      - 美国 28
+      - 美国 29
+      - 美国 30
+      - 美国 31
+      - 美国 32
+      - 美国 33
+      - 美国 34
+      - 美国 35
+      - 美国 36
+      - 美国 37
+      - 美国 38
+      - 美国 39
+      - 韩国
+      - 日本
+      - 美国 40
+      - 美国 41
+      - 美国 42
+      - 日本 2
+      - 美国 43
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK香港
-      - HK香港 2
-      - FR法国
-      - US美国
-      - CA加拿大
-      - JP日本
-      - HK香港 3
-      - HK香港 4
-      - JP日本 2
-      - KR韩国
-      - HK香港 5
-      - US美国 2
-      - US美国 3
-      - HK香港 6
-      - JP日本 3
-      - US美国 4
-      - HK香港 7
-      - HK香港 8
-      - US美国 5
-      - FR法国 2
-      - NL荷兰
-      - HK香港 9
-      - HK香港 10
-      - US美国 6
+      - 美国
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 美国 12
+      - 美国 13
+      - 加拿大
+      - 美国 14
+      - 美国 15
+      - 美国 16
+      - 美国 17
+      - 美国 18
+      - 美国 19
+      - 美国 20
+      - 美国 21
+      - 美国 22
+      - 美国 23
+      - 美国 24
+      - 美国 25
+      - 美国 26
+      - 美国 27
+      - 美国 28
+      - 美国 29
+      - 美国 30
+      - 美国 31
+      - 美国 32
+      - 美国 33
+      - 美国 34
+      - 美国 35
+      - 美国 36
+      - 美国 37
+      - 美国 38
+      - 美国 39
+      - 韩国
+      - 日本
+      - 美国 40
+      - 美国 41
+      - 美国 42
+      - 日本 2
+      - 美国 43
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK香港
-      - HK香港 2
-      - FR法国
-      - US美国
-      - CA加拿大
-      - JP日本
-      - HK香港 3
-      - HK香港 4
-      - JP日本 2
-      - KR韩国
-      - HK香港 5
-      - US美国 2
-      - US美国 3
-      - HK香港 6
-      - JP日本 3
-      - US美国 4
-      - HK香港 7
-      - HK香港 8
-      - US美国 5
-      - FR法国 2
-      - NL荷兰
-      - HK香港 9
-      - HK香港 10
-      - US美国 6
+      - 美国
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 美国 12
+      - 美国 13
+      - 加拿大
+      - 美国 14
+      - 美国 15
+      - 美国 16
+      - 美国 17
+      - 美国 18
+      - 美国 19
+      - 美国 20
+      - 美国 21
+      - 美国 22
+      - 美国 23
+      - 美国 24
+      - 美国 25
+      - 美国 26
+      - 美国 27
+      - 美国 28
+      - 美国 29
+      - 美国 30
+      - 美国 31
+      - 美国 32
+      - 美国 33
+      - 美国 34
+      - 美国 35
+      - 美国 36
+      - 美国 37
+      - 美国 38
+      - 美国 39
+      - 韩国
+      - 日本
+      - 美国 40
+      - 美国 41
+      - 美国 42
+      - 日本 2
+      - 美国 43
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -136,133 +228,215 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK香港
-      - HK香港 2
-      - FR法国
-      - US美国
-      - CA加拿大
-      - JP日本
-      - HK香港 3
-      - HK香港 4
-      - JP日本 2
-      - KR韩国
-      - HK香港 5
-      - US美国 2
-      - US美国 3
-      - HK香港 6
-      - JP日本 3
-      - US美国 4
-      - HK香港 7
-      - HK香港 8
-      - US美国 5
-      - FR法国 2
-      - NL荷兰
-      - HK香港 9
-      - HK香港 10
-      - US美国 6
+      - 美国
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 美国 12
+      - 美国 13
+      - 加拿大
+      - 美国 14
+      - 美国 15
+      - 美国 16
+      - 美国 17
+      - 美国 18
+      - 美国 19
+      - 美国 20
+      - 美国 21
+      - 美国 22
+      - 美国 23
+      - 美国 24
+      - 美国 25
+      - 美国 26
+      - 美国 27
+      - 美国 28
+      - 美国 29
+      - 美国 30
+      - 美国 31
+      - 美国 32
+      - 美国 33
+      - 美国 34
+      - 美国 35
+      - 美国 36
+      - 美国 37
+      - 美国 38
+      - 美国 39
+      - 韩国
+      - 日本
+      - 美国 40
+      - 美国 41
+      - 美国 42
+      - 日本 2
+      - 美国 43
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - HK香港
-      - HK香港 2
-      - HK香港 3
-      - HK香港 4
-      - HK香港 5
-      - HK香港 6
-      - HK香港 7
-      - HK香港 8
-      - HK香港 9
-      - HK香港 10
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK香港
-      - HK香港 2
-      - FR法国
-      - US美国
-      - CA加拿大
-      - JP日本
-      - HK香港 3
-      - HK香港 4
-      - JP日本 2
-      - KR韩国
-      - HK香港 5
-      - US美国 2
-      - US美国 3
-      - HK香港 6
-      - JP日本 3
-      - US美国 4
-      - HK香港 7
-      - HK香港 8
-      - US美国 5
-      - FR法国 2
-      - NL荷兰
-      - HK香港 9
-      - HK香港 10
-      - US美国 6
+      - 美国
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 美国 12
+      - 美国 13
+      - 加拿大
+      - 美国 14
+      - 美国 15
+      - 美国 16
+      - 美国 17
+      - 美国 18
+      - 美国 19
+      - 美国 20
+      - 美国 21
+      - 美国 22
+      - 美国 23
+      - 美国 24
+      - 美国 25
+      - 美国 26
+      - 美国 27
+      - 美国 28
+      - 美国 29
+      - 美国 30
+      - 美国 31
+      - 美国 32
+      - 美国 33
+      - 美国 34
+      - 美国 35
+      - 美国 36
+      - 美国 37
+      - 美国 38
+      - 美国 39
+      - 韩国
+      - 日本
+      - 美国 40
+      - 美国 41
+      - 美国 42
+      - 日本 2
+      - 美国 43
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK香港
-      - HK香港 2
-      - FR法国
-      - US美国
-      - CA加拿大
-      - JP日本
-      - HK香港 3
-      - HK香港 4
-      - JP日本 2
-      - KR韩国
-      - HK香港 5
-      - US美国 2
-      - US美国 3
-      - HK香港 6
-      - JP日本 3
-      - US美国 4
-      - HK香港 7
-      - HK香港 8
-      - US美国 5
-      - FR法国 2
-      - NL荷兰
-      - HK香港 9
-      - HK香港 10
-      - US美国 6
+      - 美国
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 美国 12
+      - 美国 13
+      - 加拿大
+      - 美国 14
+      - 美国 15
+      - 美国 16
+      - 美国 17
+      - 美国 18
+      - 美国 19
+      - 美国 20
+      - 美国 21
+      - 美国 22
+      - 美国 23
+      - 美国 24
+      - 美国 25
+      - 美国 26
+      - 美国 27
+      - 美国 28
+      - 美国 29
+      - 美国 30
+      - 美国 31
+      - 美国 32
+      - 美国 33
+      - 美国 34
+      - 美国 35
+      - 美国 36
+      - 美国 37
+      - 美国 38
+      - 美国 39
+      - 韩国
+      - 日本
+      - 美国 40
+      - 美国 41
+      - 美国 42
+      - 日本 2
+      - 美国 43
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK香港
-      - HK香港 2
-      - FR法国
-      - US美国
-      - CA加拿大
-      - JP日本
-      - HK香港 3
-      - HK香港 4
-      - JP日本 2
-      - KR韩国
-      - HK香港 5
-      - US美国 2
-      - US美国 3
-      - HK香港 6
-      - JP日本 3
-      - US美国 4
-      - HK香港 7
-      - HK香港 8
-      - US美国 5
-      - FR法国 2
-      - NL荷兰
-      - HK香港 9
-      - HK香港 10
-      - US美国 6
+      - 美国
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 美国 12
+      - 美国 13
+      - 加拿大
+      - 美国 14
+      - 美国 15
+      - 美国 16
+      - 美国 17
+      - 美国 18
+      - 美国 19
+      - 美国 20
+      - 美国 21
+      - 美国 22
+      - 美国 23
+      - 美国 24
+      - 美国 25
+      - 美国 26
+      - 美国 27
+      - 美国 28
+      - 美国 29
+      - 美国 30
+      - 美国 31
+      - 美国 32
+      - 美国 33
+      - 美国 34
+      - 美国 35
+      - 美国 36
+      - 美国 37
+      - 美国 38
+      - 美国 39
+      - 韩国
+      - 日本
+      - 美国 40
+      - 美国 41
+      - 美国 42
+      - 日本 2
+      - 美国 43
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -278,30 +452,53 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK香港
-      - HK香港 2
-      - FR法国
-      - US美国
-      - CA加拿大
-      - JP日本
-      - HK香港 3
-      - HK香港 4
-      - JP日本 2
-      - KR韩国
-      - HK香港 5
-      - US美国 2
-      - US美国 3
-      - HK香港 6
-      - JP日本 3
-      - US美国 4
-      - HK香港 7
-      - HK香港 8
-      - US美国 5
-      - FR法国 2
-      - NL荷兰
-      - HK香港 9
-      - HK香港 10
-      - US美国 6
+      - 美国
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 美国 12
+      - 美国 13
+      - 加拿大
+      - 美国 14
+      - 美国 15
+      - 美国 16
+      - 美国 17
+      - 美国 18
+      - 美国 19
+      - 美国 20
+      - 美国 21
+      - 美国 22
+      - 美国 23
+      - 美国 24
+      - 美国 25
+      - 美国 26
+      - 美国 27
+      - 美国 28
+      - 美国 29
+      - 美国 30
+      - 美国 31
+      - 美国 32
+      - 美国 33
+      - 美国 34
+      - 美国 35
+      - 美国 36
+      - 美国 37
+      - 美国 38
+      - 美国 39
+      - 韩国
+      - 日本
+      - 美国 40
+      - 美国 41
+      - 美国 42
+      - 日本 2
+      - 美国 43
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
