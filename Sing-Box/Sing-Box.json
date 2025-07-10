@@ -71,42 +71,23 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇬🇧_GB_英国->🇺🇸_US_美国", "🇪🇸_ES_西班牙", "🇺🇸_US_美国", "🇨🇳_CN_中国->🇨🇦_CA_加拿大", "🇨🇳_CN_中国", "🇨🇳_CN_中国->🇺🇸_US_美国", "未知", "🇺🇸_US_美国_1", "🇺🇸_US_美国_2" ],
+    "outbounds" : [ "url-test", "🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知", "🇨🇳_CN_中国->🇨🇦_CA_加拿大", "🇲🇩_MD_摩尔多瓦", "🇺🇸_US_美国", "🇺🇸_US_美国_1", "🇺🇸_US_美国_2" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇬🇧_GB_英国->🇺🇸_US_美国", "🇪🇸_ES_西班牙", "🇺🇸_US_美国", "🇨🇳_CN_中国->🇨🇦_CA_加拿大", "🇨🇳_CN_中国", "🇨🇳_CN_中国->🇺🇸_US_美国", "未知", "🇺🇸_US_美国_1", "🇺🇸_US_美国_2" ],
+    "outbounds" : [ "🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知", "🇨🇳_CN_中国->🇨🇦_CA_加拿大", "🇲🇩_MD_摩尔多瓦", "🇺🇸_US_美国", "🇺🇸_US_美国_1", "🇺🇸_US_美国_2" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
     "type" : "shadowsocks",
-    "tag" : "🇬🇧_GB_英国->🇺🇸_US_美国",
-    "server" : "85.210.120.237",
-    "server_port" : 443,
-    "method" : "chacha20-ietf-poly1305",
-    "password" : "Bog0ELmMM9DSxDdQ",
+    "tag" : "🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知",
+    "server" : "156.146.40.194",
+    "server_port" : 989,
+    "method" : "aes-256-cfb",
+    "password" : "f8f7aCzcPKbsF8p3",
     "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇪🇸_ES_西班牙",
-    "server" : "uk.opensocks.site",
-    "server_port" : 8388,
-    "method" : "chacha20-ietf-poly1305",
-    "password" : "MjJhY",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国",
-    "server" : "172.234.31.209",
-    "server_port" : 2321,
-    "uuid" : "a4fb0780-e6d5-4e5e-b22d-d431db4aa53b",
-    "tls" : {
       "enabled" : true
     }
   }, {
@@ -122,61 +103,18 @@
       "path" : "/oooo"
     }
   }, {
-    "type" : "vmess",
-    "tag" : "🇨🇳_CN_中国",
-    "server" : "111.26.109.79",
-    "server_port" : 30829,
-    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-    "security" : "auto",
-    "alter_id" : 2,
-    "transport" : {
-      "type" : "ws",
-      "path" : "/oooo"
-    }
-  }, {
-    "type" : "vmess",
-    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
-    "server" : "v25.heduian.link",
-    "server_port" : 30825,
-    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-    "security" : "auto",
-    "alter_id" : 2,
-    "transport" : {
-      "type" : "ws",
-      "path" : "/oooo",
-      "headers" : {
-        "host" : "v25.heduian.link"
-      }
-    }
-  }, {
     "type" : "shadowsocks",
-    "tag" : "未知",
-    "server" : "23.177.185.63",
-    "server_port" : 49454,
-    "method" : "chacha20-ietf-poly1305",
-    "password" : "WrYfzlAsqV4kKOJRPF2WHR",
+    "tag" : "🇲🇩_MD_摩尔多瓦",
+    "server" : "91.132.94.200",
+    "server_port" : 989,
+    "method" : "aes-256-cfb",
+    "password" : "f8f7aCzcPKbsF8p3",
     "multiplex" : {
       "enabled" : true
     }
   }, {
-    "type" : "trojan",
-    "tag" : "🇺🇸_US_美国_1",
-    "server" : "172.67.220.32",
-    "server_port" : 443,
-    "password" : "ffcf7ec1-3e09-4821-b3d9-b426a107b73b",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/XmTzATQPJv9RO3xr1D40NK",
-      "headers" : {
-        "host" : "eeefgty6.999836.xyz"
-      }
-    }
-  }, {
     "type" : "vless",
-    "tag" : "🇺🇸_US_美国_2",
+    "tag" : "🇺🇸_US_美国",
     "server" : "172.67.214.21",
     "server_port" : 80,
     "uuid" : "7248e825-887c-48b9-83bc-c26bc6392bf8",
@@ -189,6 +127,35 @@
       "headers" : {
         "host" : "xxcdvfgt.191268.xyz"
       }
+    }
+  }, {
+    "type" : "vless",
+    "tag" : "🇺🇸_US_美国_1",
+    "server" : "104.21.42.250",
+    "server_port" : 80,
+    "uuid" : "7248e825-887c-48b9-83bc-c26bc6392bf8",
+    "tls" : {
+      "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/W02wBrOOqlSUywV3ibrzzKXJGy3S1",
+      "headers" : {
+        "host" : "xxcdvfgt.191268.xyz"
+      }
+    }
+  }, {
+    "type" : "trojan",
+    "tag" : "🇺🇸_US_美国_2",
+    "server" : "104.21.6.179",
+    "server_port" : 443,
+    "password" : "6757b7d6-fa32-4708-b5d1-30e3cf928b51",
+    "tls" : {
+      "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/l96MZ8se5Kl2p8BiMhP42l"
     }
   }, {
     "type" : "direct",
