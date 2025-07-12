@@ -3,7 +3,7 @@ name: 下载ClashNodes订阅
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 17 * * *'
+    - cron: '30 0 * * *'
 
 jobs:
   download_nodes:
