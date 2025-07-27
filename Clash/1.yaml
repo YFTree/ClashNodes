@@ -5,47 +5,57 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US美国, server: eEEeeeeEeEEDFFghy.444752.xYZ, port: 80, type: vmess, uuid: 7701ddf5-6a48-401b-a3ec-8af52b6deb48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mlyR5tmcKx3hweBopuhWEbIX, ws-headers: {Host: eeeeeeeeeeedffghy.444752.xyz}, udp: true}
-  - {name: US美国 2, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, skip-cert-verify: true, udp: true}
-  - {name: US美国 3, server: 148.113.6.81, port: 49882, type: vmess, uuid: 6663a422-875c-44ee-9a25-3f7b334dd9f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国 4, server: 2606:4700:3037::ac43:Bf8c, port: 443, type: vmess, uuid: 1fce2673-10ee-4a13-bd1b-f4e2863ebb5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Lf5XcmSPJ9CoRQTqot0LE, ws-headers: {Host: ggghhhjjjuu.999824.xyz}, udp: true}
-  - {name: US美国 5, server: 2606:4700:3030::6815:6001, port: 443, type: vmess, uuid: 1fce2673-10ee-4a13-bd1b-f4e2863ebb5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Lf5XcmSPJ9CoRQTqot0LE, ws-headers: {Host: sssssdert5.445.pp.ua}, udp: true}
-  - {name: HK香港, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: v8.heduian.link}, udp: true}
-  - {name: US美国 6, server: TtgGGHyUI.666461.Xyz, port: 80, type: vmess, uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /awmqq79B17rfnpXiNaWb, ws-headers: {Host: ttggghyui.666461.xyz}, udp: true}
-  - {name: US美国 7, server: FFFggGhYUi.666461.xYZ, port: 80, type: vmess, uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /awmqq79B17rfnpXiNaWb, ws-headers: {Host: FFFggGhYUi.666461.xYZ}, udp: true}
-  - {name: US美国 8, server: 172.67.170.147, port: 443, type: vmess, uuid: ffcf7ec1-3e09-4821-b3d9-b426a107b73b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /4Bp70NdrJV3xr1D40NK, ws-headers: {Host: xcvfgt6.999854.xyz}, udp: true}
-  - {name: US美国 9, server: rak1ding.89060004.xyz, port: 2083, type: vmess, uuid: 75d96365-1229-4fc4-dbda-855717f876cf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: rak1d3.988988.shop}, udp: true}
-  - {name: US美国 10, server: SSSxXcvFtY.444752.Xyz, port: 80, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, ws-headers: {Host: SSSxXcvFtY.444752.Xyz}, udp: true}
-  - {name: US美国 11, server: FFFggGhYUi.666461.xYZ, port: 80, type: vmess, uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /awmqq79B17rfnpXiNaWb, ws-headers: {Host: fffggghyui.666461.xyz}, udp: true}
-  - {name: US美国 12, server: sSSDdddDDDFfFg.4444936.Xyz, port: 80, type: vmess, uuid: 7701ddf5-6a48-401b-a3ec-8af52b6deb48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mlyR5tmcKx3hweBopuhWEbIX, ws-headers: {Host: sssdddddddfffg.4444936.xyz}, udp: true}
-  - {name: US美国 13, server: s5.db-link01.top, port: 2095, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in172.67.57.150, ws-headers: {Host: 100-61-120-107.s5.db-link01.top}, udp: true}
-  - {name: US美国 14, server: wwwe3.11890604.xyz, port: 80, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, ws-headers: {Host: wwwe3.11890604.xyz}, udp: true}
-  - {name: US美国 15, server: EeEDCFVg.999824.xYZ, port: 80, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /9dZlJLjHHrL0VwSolbqFpg, ws-headers: {Host: eeedcfvg.999824.xyz}, udp: true}
-  - {name: US美国 16, server: wWSxcdFR5.999834.XYz, port: 80, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /9dZlJLjHHrL0VwSolbqFpg, ws-headers: {Host: wWSxcdFR5.999834.XYz}, udp: true}
-  - {name: US美国 17, server: sSSDdddDDDFfFg.4444936.Xyz, port: 80, type: vmess, uuid: 7701ddf5-6a48-401b-a3ec-8af52b6deb48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mlyR5tmcKx3hweBopuhWEbIX, ws-headers: {Host: sssdddddddfffg.4444936.xyz}, udp: true}
-  - {name: US美国 18, server: eEEeeeeEeEEDFFghy.444752.xYZ, port: 80, type: vmess, uuid: 7701ddf5-6a48-401b-a3ec-8af52b6deb48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mlyR5tmcKx3hweBopuhWEbIX, ws-headers: {Host: eEEeeeeEeEEDFFghy.444752.xYZ}, udp: true}
-  - {name: US美国 19, server: eEEeeeeEeEEDFFghy.444752.xYZ, port: 80, type: vmess, uuid: 7701ddf5-6a48-401b-a3ec-8af52b6deb48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mlyR5tmcKx3hweBopuhWEbIX, ws-headers: {Host: eEEeeeeEeEEDFFghy.444752.xYZ}, udp: true}
-  - {name: US美国 20, server: s3.cn-db.top, port: 2086, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in104.20.109.71, ws-headers: {Host: 100-216-147-1.s3.cn-db.top}, udp: true}
-  - {name: US美国 21, server: s5.db-link01.top, port: 2052, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in104.25.92.130, ws-headers: {Host: 100-29-115-17.s5.db-link01.top}, udp: true}
-  - {name: US美国 22, server: dDdDdDdddDDDDyUUUIO.4444926.XyZ, port: 80, type: vmess, uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /awmqq79B17rfnpXiNaWb, ws-headers: {Host: dddddddddddddyuuuio.4444926.xyz}, udp: true}
-  - {name: US美国 23, server: eEEeeeeEeEEDFFghy.444752.xYZ, port: 80, type: vmess, uuid: 7701ddf5-6a48-401b-a3ec-8af52b6deb48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mlyR5tmcKx3hweBopuhWEbIX, ws-headers: {Host: eeeeeeeeeeedffghy.444752.xyz}, udp: true}
-  - {name: US美国 24, server: 108.165.216.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in, ws-headers: {Host: TG.WangCai2.s2.db-link02.top}, udp: true}
-  - {name: US美国 25, server: 103.116.7.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in, ws-headers: {Host: TG.WangCai2.s2.db-link02.top}, udp: true}
-  - {name: US美国 26, server: OOoOOOooOp.222769.XYZ, port: 80, type: vmess, uuid: ce921385-2b31-45fe-84c5-1843e8ae845b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /VaaSEfNLHdW3I98dxLkez, ws-headers: {Host: OOoOOOooOp.222769.XYZ}, udp: true}
-  - {name: US美国 27, server: sssssssxxxx.2032.pp.ua, port: 443, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /6We3U9Df1WGxgFnoFPw1, ws-headers: {Host: sssssssxxxx.2032.pp.ua}, udp: true}
-  - {name: US美国 28, server: 154.3.8.151, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA, udp: true}
-  - {name: US美国 29, server: 2606:4700:3033::Ac43:B96b, port: 443, type: vmess, uuid: 13e26f64-2e0c-4461-92cd-d83294cc18f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cG5dtVKOSrHwPit2OdWk0KwirdY, ws-headers: {Host: sssxcvfgty.00890604.xyz}, udp: true}
-  - {name: US美国 30, server: ssssssssssssfffffffgh.2032.pp.ua, port: 443, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /6We3U9Df1WGxgFnoFPw1, ws-headers: {Host: ssssssssssssfffffffgh.2032.pp.ua}, udp: true}
-  - {name: US美国 31, server: DdDDdddddDFrrrrrrRRy.IRan2035.dPDns.ORG, port: 443, type: vmess, uuid: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /CjJ9A46ZRHvgWvVcmjyiKVby2Lp, ws-headers: {Host: ddddddddddfrrrrrrrry.iran2035.dpdns.org}, udp: true}
-  - {name: US美国 32, server: ddDFvg.859885.XYZ, port: 443, type: vmess, uuid: f69b7304-9bea-4740-a555-797514012a53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9AYJ8jsARg3AJC29auSeckWI9, ws-headers: {Host: dddfvg.859885.xyz}, udp: true}
-  - {name: US美国 33, server: FFfffffFffFFkkKkkKL.4444926.xYZ, port: 80, type: vmess, uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /awmqq79B17rfnpXiNaWb, ws-headers: {Host: ffffffffffffkkkkkkl.4444926.xyz}, udp: true}
-  - {name: US美国 34, server: 2606:4700:3034::6815:59dd, port: 443, type: vmess, uuid: 1fce2673-10ee-4a13-bd1b-f4e2863ebb5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Lf5XcmSPJ9CoRQTqot0LE, ws-headers: {Host: aaaasssdrf.999824.xyz}, udp: true}
-  - {name: US美国 35, server: dDdDdDdddDDDDyUUUIO.4444926.XyZ, port: 80, type: vmess, uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /awmqq79B17rfnpXiNaWb, ws-headers: {Host: dddddddddddddyuuuio.4444926.xyz}, udp: true}
-  - {name: HK香港 2, server: 183.249.207.249, port: 40180, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国 36, server: 2606:4700:3031::6815:349D, port: 443, type: vmess, uuid: 13e26f64-2e0c-4461-92cd-d83294cc18f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cG5dtVKOSrHwPit2OdWk0KwirdY, ws-headers: {Host: eerrrt6.freevpn2026.dpdns.org}, udp: true}
-  - {name: US美国 37, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
-  - {name: US美国 38, server: 2606:4700:3034::6815:59dd, port: 443, type: vmess, uuid: 1fce2673-10ee-4a13-bd1b-f4e2863ebb5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Lf5XcmSPJ9CoRQTqot0LE, ws-headers: {Host: dddccceerrtghy.999824.xyz}, udp: true}
-  - {name: US美国 39, server: dddcccvff.4444936.xyz, port: 80, type: vmess, uuid: f898ffcb-6417-4373-9640-0b66091e8206, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1, ws-headers: {Host: dddcccvff.4444936.xyz}, udp: true}
+  - {name: US美国, server: iiiiop0.444752.xyz, port: 443, type: trojan, password: 0f7070cd-c91d-4532-a51f-56da4f0e94be, sni: iiiiop0.444752.xyz, skip-cert-verify: true, udp: true}
+  - {name: CA加拿大, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: v8.heduian.link}, udp: true}
+  - {name: US美国 2, server: dDdDdDdddDDDDyUUUIO.4444926.XyZ, port: 80, type: vmess, uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /awmqq79B17rfnpXiNaWb, ws-headers: {Host: dddddddddddddyuuuio.4444926.xyz}, udp: true}
+  - {name: 卢森堡, server: 45.153.130.174, port: 2024, type: ss, cipher: aes-128-gcm, password: KqRQNgi1C/5MrhIdNZSsQw==, udp: true}
+  - {name: US美国 3, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, skip-cert-verify: true, udp: true}
+  - {name: US美国 4, server: eEEeeeeEeEEDFFghy.444752.xYZ, port: 80, type: vmess, uuid: 7701ddf5-6a48-401b-a3ec-8af52b6deb48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mlyR5tmcKx3hweBopuhWEbIX, ws-headers: {Host: eeeeeeeeeeedffghy.444752.xyz}, udp: true}
+  - {name: US美国 5, server: SSsXXXCvBnmjKi.931.Pp.uA, port: 443, type: vmess, uuid: da128246-33b0-4c88-a44e-d91e9e0a1e05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /0FhUkqQUdxOhMB9JsgTazwz9, ws-headers: {Host: SSsXXXCvBnmjKi.931.Pp.uA}, udp: true}
+  - {name: US美国 6, server: sssssssxxxx.2032.pp.ua, port: 443, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /6We3U9Df1WGxgFnoFPw1, ws-headers: {Host: sssssssxxxx.2032.pp.ua}, udp: true}
+  - {name: US美国 7, server: dDdDdDdddDDDDyUUUIO.4444926.XyZ, port: 80, type: vmess, uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /awmqq79B17rfnpXiNaWb, ws-headers: {Host: dddddddddddddyuuuio.4444926.xyz}, udp: true}
+  - {name: US美国 8, server: 2606:4700:3030::6815:6001, port: 443, type: vmess, uuid: 1fce2673-10ee-4a13-bd1b-f4e2863ebb5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Lf5XcmSPJ9CoRQTqot0LE, ws-headers: {Host: hhhjuyi.445.pp.ua}, udp: true}
+  - {name: US美国 9, server: dddfFFvvBnhJU.931.pP.uA, port: 443, type: vmess, uuid: a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /14Fziqw1hYgCXNutkS5H, ws-headers: {Host: dddfffvvbnhju.931.pp.ua}, udp: true}
+  - {name: US美国 10, server: 2606:4700:3030::6815:4001, port: 443, type: vmess, uuid: 1fce2673-10ee-4a13-bd1b-f4e2863ebb5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Lf5XcmSPJ9CoRQTqot0LE, ws-headers: {Host: dddfg.890614.xyz}, udp: true}
+  - {name: US美国 11, server: sSSDdddDDDFfFg.4444936.Xyz, port: 80, type: vmess, uuid: 7701ddf5-6a48-401b-a3ec-8af52b6deb48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mlyR5tmcKx3hweBopuhWEbIX, ws-headers: {Host: sssdddddddfffg.4444936.xyz}, udp: true}
+  - {name: US美国 12, server: ddDFvg.859885.XYZ, port: 443, type: vmess, uuid: f69b7304-9bea-4740-a555-797514012a53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9AYJ8jsARg3AJC29auSeckWI9, ws-headers: {Host: dddfvg.859885.xyz}, udp: true}
+  - {name: US美国 13, server: 2606:4700:3030::6815:6001, port: 443, type: vmess, uuid: 1fce2673-10ee-4a13-bd1b-f4e2863ebb5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Lf5XcmSPJ9CoRQTqot0LE, ws-headers: {Host: rrrffggvbgh.222569.xyz}, udp: true}
+  - {name: US美国 14, server: JJJjjjjjmMMmM.4444926.XYZ, port: 443, type: vmess, uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /awmqq79B17rfnpXiNaWb, ws-headers: {Host: JJJjjjjjmMMmM.4444926.XYZ}, udp: true}
+  - {name: US美国 15, server: 154.3.8.151, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA, udp: true}
+  - {name: US美国 16, server: 108.165.216.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in, ws-headers: {Host: TG.WangCai2.s2.db-link02.top}, udp: true}
+  - {name: US美国 17, server: sSsdCVfBGNjkI.931.PP.Ua, port: 443, type: vmess, uuid: a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /14Fziqw1hYgCXNutkS5H, ws-headers: {Host: sssdcvfbgnjki.931.pp.ua}, udp: true}
+  - {name: US美国 18, server: 103.116.7.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in, ws-headers: {Host: TG.WangCai2.s2.db-link02.top}, udp: true}
+  - {name: US美国 19, server: 104.21.77.79, port: 443, type: vmess, uuid: 288124da-0d68-42f4-9f48-70dc4dcc55a6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /LOpHlIssd05HdHEIupMZeK, ws-headers: {Host: xcdvfgt.986986.shop}, udp: true}
+  - {name: US美国 20, server: 2606:4700:3030::6815:6001, port: 443, type: vmess, uuid: 1fce2673-10ee-4a13-bd1b-f4e2863ebb5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Lf5XcmSPJ9CoRQTqot0LE, ws-headers: {Host: dddfrrgttt.445.pp.ua}, udp: true}
+  - {name: US美国 21, server: 172.67.170.147, port: 443, type: vmess, uuid: ffcf7ec1-3e09-4821-b3d9-b426a107b73b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /4Bp70NdrJV3xr1D40NK, ws-headers: {Host: xcvfgt6.999854.xyz}, udp: true}
+  - {name: US美国 22, server: 2606:4700:3036::AC43:cF1b, port: 443, type: vmess, uuid: 1fce2673-10ee-4a13-bd1b-f4e2863ebb5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Lf5XcmSPJ9CoRQTqot0LE, ws-headers: {Host: ttghui.taipei108.dpdns.org}, udp: true}
+  - {name: US美国 23, server: 103.160.204.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in, ws-headers: {Host: TG.WangCai2.s2.db-link02.top}, udp: true}
+  - {name: US美国 24, server: 444rfGT6.444682.XYz, port: 443, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9dZlJLjHHrL0VwSolbqFpg, ws-headers: {Host: 444rfgt6.444682.xyz}, udp: true}
+  - {name: US美国 25, server: 2606:4700:3033::6815:169F, port: 443, type: vmess, uuid: 1fce2673-10ee-4a13-bd1b-f4e2863ebb5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Lf5XcmSPJ9CoRQTqot0LE, ws-headers: {Host: ssssxxccvvg.11890604.xyz}, udp: true}
+  - {name: GB英国, server: v36.heduian.link, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: baidu.com}, udp: true}
+  - {name: US美国 26, server: 2606:4700:3030::6815:2001, port: 443, type: vmess, uuid: 1fce2673-10ee-4a13-bd1b-f4e2863ebb5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Lf5XcmSPJ9CoRQTqot0LE, ws-headers: {Host: dddcvffggggh.333856.xyz}, udp: true}
+  - {name: US美国 27, server: 2606:4700:3034::6815:59dd, port: 443, type: vmess, uuid: 1fce2673-10ee-4a13-bd1b-f4e2863ebb5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Lf5XcmSPJ9CoRQTqot0LE, ws-headers: {Host: dddccceerrtghy.999824.xyz}, udp: true}
+  - {name: US美国 28, server: 2606:4700:3033::aC43:cD83, port: 443, type: vmess, uuid: 1fce2673-10ee-4a13-bd1b-f4e2863ebb5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Lf5XcmSPJ9CoRQTqot0LE, ws-headers: {Host: mmmkju.11890604.xyz}, udp: true}
+  - {name: US美国 29, server: FffvvVbnhJui8.222560.XYz, port: 443, type: vmess, uuid: 7701ddf5-6a48-401b-a3ec-8af52b6deb48, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mlyR5tmcKx3hweBopuhWEbIX, ws-headers: {Host: FffvvVbnhJui8.222560.XYz}, udp: true}
+  - {name: US美国 30, server: 2606:4700:3037::ac43:Bf8c, port: 443, type: vmess, uuid: 1fce2673-10ee-4a13-bd1b-f4e2863ebb5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Lf5XcmSPJ9CoRQTqot0LE, ws-headers: {Host: ggghhhjjjuu.999824.xyz}, udp: true}
+  - {name: US美国 31, server: 222222r.11890604.xyz, port: 80, type: vmess, uuid: f898ffcb-6417-4373-9640-0b66091e8206, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1, ws-headers: {Host: 222222r.11890604.xyz}, udp: true}
+  - {name: US美国 32, server: 3333r567.11890604.xyz, port: 80, type: vmess, uuid: f898ffcb-6417-4373-9640-0b66091e8206, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1, ws-headers: {Host: 3333r567.11890604.xyz}, udp: true}
+  - {name: US美国 33, server: FffvvVbnhJui8.222560.XYz, port: 443, type: vmess, uuid: 7701ddf5-6a48-401b-a3ec-8af52b6deb48, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mlyR5tmcKx3hweBopuhWEbIX, ws-headers: {Host: FffvvVbnhJui8.222560.XYz}, udp: true}
+  - {name: US美国 34, server: 2606:4700:3031::6815:349D, port: 443, type: vmess, uuid: 13e26f64-2e0c-4461-92cd-d83294cc18f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cG5dtVKOSrHwPit2OdWk0KwirdY, ws-headers: {Host: eerrrt6.freevpn2026.dpdns.org}, udp: true}
+  - {name: US美国 35, server: 2606:4700:3030::6815:4001, port: 443, type: vmess, uuid: 1fce2673-10ee-4a13-bd1b-f4e2863ebb5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Lf5XcmSPJ9CoRQTqot0LE, ws-headers: {Host: dddcdvfgbnhj.222569.xyz}, udp: true}
+  - {name: US美国 36, server: OOoOOOooOp.222769.XYZ, port: 80, type: vmess, uuid: ce921385-2b31-45fe-84c5-1843e8ae845b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /VaaSEfNLHdW3I98dxLkez, ws-headers: {Host: OOoOOOooOp.222769.XYZ}, udp: true}
+  - {name: US美国 37, server: sSSDdddDDDFfFg.4444936.Xyz, port: 80, type: vmess, uuid: 7701ddf5-6a48-401b-a3ec-8af52b6deb48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mlyR5tmcKx3hweBopuhWEbIX, ws-headers: {Host: sssdddddddfffg.4444936.xyz}, udp: true}
+  - {name: US美国 38, server: eEEeeeeEeEEDFFghy.444752.xYZ, port: 80, type: vmess, uuid: 7701ddf5-6a48-401b-a3ec-8af52b6deb48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mlyR5tmcKx3hweBopuhWEbIX, ws-headers: {Host: eEEeeeeEeEEDFFghy.444752.xYZ}, udp: true}
+  - {name: US美国 39, server: 2606:4700:3034::6815:59dd, port: 443, type: vmess, uuid: 1fce2673-10ee-4a13-bd1b-f4e2863ebb5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Lf5XcmSPJ9CoRQTqot0LE, ws-headers: {Host: aaaasssdrf.999824.xyz}, udp: true}
+  - {name: US美国 40, server: dddcccvff.4444936.xyz, port: 80, type: vmess, uuid: f898ffcb-6417-4373-9640-0b66091e8206, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1, ws-headers: {Host: dddcccvff.4444936.xyz}, udp: true}
+  - {name: US美国 41, server: aio.zipzap.biz.id, port: 443, type: trojan, password: f282b878-8711-45a1-8c69-5564172123c1, sni: aio.zipzap.biz.id, skip-cert-verify: true, udp: true}
+  - {name: US美国 42, server: SSsXXXCvBnmjKi.931.Pp.uA, port: 443, type: vmess, uuid: da128246-33b0-4c88-a44e-d91e9e0a1e05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /0FhUkqQUdxOhMB9JsgTazwz9, ws-headers: {Host: SSsXXXCvBnmjKi.931.Pp.uA}, udp: true}
+  - {name: US美国 43, server: SSsXXXCvBnmjKi.931.Pp.uA, port: 443, type: vmess, uuid: da128246-33b0-4c88-a44e-d91e9e0a1e05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /0FhUkqQUdxOhMB9JsgTazwz9, ws-headers: {Host: sssxxxcvbnmjki.931.pp.ua}, udp: true}
+  - {name: US美国 44, server: 2606:4700:3037::aC43:BF8C, port: 443, type: vmess, uuid: 1fce2673-10ee-4a13-bd1b-f4e2863ebb5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Lf5XcmSPJ9CoRQTqot0LE, ws-headers: {Host: ddddddddddddrrrttghyu7789.999824.xyz}, udp: true}
+  - {name: US美国 45, server: 2606:4700:3035::6815:58E2, port: 443, type: vmess, uuid: da128246-33b0-4c88-a44e-d91e9e0a1e05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /0FhUkqQUdxOhMB9JsgTazwz9, ws-headers: {Host: kkkjfdfghu.www890604.dpdns.org}, udp: true}
+  - {name: US美国 46, server: klo.986986.shop, port: 443, type: vmess, uuid: b75c9731-408d-4aa6-8ae9-3857205113a1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nvjx6j7kbDQIQMZvbeVA9, ws-headers: {Host: klo.986986.shop}, udp: true}
+  - {name: US美国 47, server: dddvvbn.931.pp.ua, port: 443, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /6We3U9Df1WGxgFnoFPw1, ws-headers: {Host: dddvvbn.931.pp.ua}, udp: true}
+  - {name: US美国 48, server: 11Q.003330333.Xyz, port: 443, type: vmess, uuid: 6e5925c0-f39e-4449-93e9-2e2e9772b17b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AI48RxpSOQ5YVJVp4fx59ry, ws-headers: {Host: 11q.003330333.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -53,11 +63,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - US美国
+      - CA加拿大
       - US美国 2
+      - 卢森堡
       - US美国 3
       - US美国 4
       - US美国 5
-      - HK香港
       - US美国 6
       - US美国 7
       - US美国 8
@@ -78,6 +89,7 @@ proxy-groups:
       - US美国 23
       - US美国 24
       - US美国 25
+      - GB英国
       - US美国 26
       - US美国 27
       - US美国 28
@@ -88,22 +100,31 @@ proxy-groups:
       - US美国 33
       - US美国 34
       - US美国 35
-      - HK香港 2
       - US美国 36
       - US美国 37
       - US美国 38
       - US美国 39
+      - US美国 40
+      - US美国 41
+      - US美国 42
+      - US美国 43
+      - US美国 44
+      - US美国 45
+      - US美国 46
+      - US美国 47
+      - US美国 48
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - US美国
+      - CA加拿大
       - US美国 2
+      - 卢森堡
       - US美国 3
       - US美国 4
       - US美国 5
-      - HK香港
       - US美国 6
       - US美国 7
       - US美国 8
@@ -124,6 +145,7 @@ proxy-groups:
       - US美国 23
       - US美国 24
       - US美国 25
+      - GB英国
       - US美国 26
       - US美国 27
       - US美国 28
@@ -134,11 +156,19 @@ proxy-groups:
       - US美国 33
       - US美国 34
       - US美国 35
-      - HK香港 2
       - US美国 36
       - US美国 37
       - US美国 38
       - US美国 39
+      - US美国 40
+      - US美国 41
+      - US美国 42
+      - US美国 43
+      - US美国 44
+      - US美国 45
+      - US美国 46
+      - US美国 47
+      - US美国 48
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -146,11 +176,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - US美国
+      - CA加拿大
       - US美国 2
+      - 卢森堡
       - US美国 3
       - US美国 4
       - US美国 5
-      - HK香港
       - US美国 6
       - US美国 7
       - US美国 8
@@ -171,6 +202,7 @@ proxy-groups:
       - US美国 23
       - US美国 24
       - US美国 25
+      - GB英国
       - US美国 26
       - US美国 27
       - US美国 28
@@ -181,11 +213,19 @@ proxy-groups:
       - US美国 33
       - US美国 34
       - US美国 35
-      - HK香港 2
       - US美国 36
       - US美国 37
       - US美国 38
       - US美国 39
+      - US美国 40
+      - US美国 41
+      - US美国 42
+      - US美国 43
+      - US美国 44
+      - US美国 45
+      - US美国 46
+      - US美国 47
+      - US美国 48
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -205,11 +245,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - US美国
+      - CA加拿大
       - US美国 2
+      - 卢森堡
       - US美国 3
       - US美国 4
       - US美国 5
-      - HK香港
       - US美国 6
       - US美国 7
       - US美国 8
@@ -230,6 +271,7 @@ proxy-groups:
       - US美国 23
       - US美国 24
       - US美国 25
+      - GB英国
       - US美国 26
       - US美国 27
       - US美国 28
@@ -240,17 +282,23 @@ proxy-groups:
       - US美国 33
       - US美国 34
       - US美国 35
-      - HK香港 2
       - US美国 36
       - US美国 37
       - US美国 38
       - US美国 39
+      - US美国 40
+      - US美国 41
+      - US美国 42
+      - US美国 43
+      - US美国 44
+      - US美国 45
+      - US美国 46
+      - US美国 47
+      - US美国 48
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - HK香港
-      - HK香港 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -258,11 +306,12 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - US美国
+      - CA加拿大
       - US美国 2
+      - 卢森堡
       - US美国 3
       - US美国 4
       - US美国 5
-      - HK香港
       - US美国 6
       - US美国 7
       - US美国 8
@@ -283,6 +332,7 @@ proxy-groups:
       - US美国 23
       - US美国 24
       - US美国 25
+      - GB英国
       - US美国 26
       - US美国 27
       - US美国 28
@@ -293,22 +343,31 @@ proxy-groups:
       - US美国 33
       - US美国 34
       - US美国 35
-      - HK香港 2
       - US美国 36
       - US美国 37
       - US美国 38
       - US美国 39
+      - US美国 40
+      - US美国 41
+      - US美国 42
+      - US美国 43
+      - US美国 44
+      - US美国 45
+      - US美国 46
+      - US美国 47
+      - US美国 48
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - US美国
+      - CA加拿大
       - US美国 2
+      - 卢森堡
       - US美国 3
       - US美国 4
       - US美国 5
-      - HK香港
       - US美国 6
       - US美国 7
       - US美国 8
@@ -329,6 +388,7 @@ proxy-groups:
       - US美国 23
       - US美国 24
       - US美国 25
+      - GB英国
       - US美国 26
       - US美国 27
       - US美国 28
@@ -339,11 +399,19 @@ proxy-groups:
       - US美国 33
       - US美国 34
       - US美国 35
-      - HK香港 2
       - US美国 36
       - US美国 37
       - US美国 38
       - US美国 39
+      - US美国 40
+      - US美国 41
+      - US美国 42
+      - US美国 43
+      - US美国 44
+      - US美国 45
+      - US美国 46
+      - US美国 47
+      - US美国 48
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -351,11 +419,12 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - US美国
+      - CA加拿大
       - US美国 2
+      - 卢森堡
       - US美国 3
       - US美国 4
       - US美国 5
-      - HK香港
       - US美国 6
       - US美国 7
       - US美国 8
@@ -376,6 +445,7 @@ proxy-groups:
       - US美国 23
       - US美国 24
       - US美国 25
+      - GB英国
       - US美国 26
       - US美国 27
       - US美国 28
@@ -386,11 +456,19 @@ proxy-groups:
       - US美国 33
       - US美国 34
       - US美国 35
-      - HK香港 2
       - US美国 36
       - US美国 37
       - US美国 38
       - US美国 39
+      - US美国 40
+      - US美国 41
+      - US美国 42
+      - US美国 43
+      - US美国 44
+      - US美国 45
+      - US美国 46
+      - US美国 47
+      - US美国 48
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -407,11 +485,12 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - US美国
+      - CA加拿大
       - US美国 2
+      - 卢森堡
       - US美国 3
       - US美国 4
       - US美国 5
-      - HK香港
       - US美国 6
       - US美国 7
       - US美国 8
@@ -432,6 +511,7 @@ proxy-groups:
       - US美国 23
       - US美国 24
       - US美国 25
+      - GB英国
       - US美国 26
       - US美国 27
       - US美国 28
@@ -442,11 +522,19 @@ proxy-groups:
       - US美国 33
       - US美国 34
       - US美国 35
-      - HK香港 2
       - US美国 36
       - US美国 37
       - US美国 38
       - US美国 39
+      - US美国 40
+      - US美国 41
+      - US美国 42
+      - US美国 43
+      - US美国 44
+      - US美国 45
+      - US美国 46
+      - US美国 47
+      - US美国 48
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
