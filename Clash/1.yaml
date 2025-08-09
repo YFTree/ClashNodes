@@ -5,90 +5,26 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: NL荷兰, server: 89.116.46.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: NL荷兰 2, server: 45.159.218.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: NL荷兰 3, server: 5.182.34.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: NL荷兰 4, server: 185.176.26.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: NL荷兰 5, server: 188.42.145.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: NL荷兰 6, server: 188.164.159.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: HK香港, server: 45.194.11.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: HK香港 2, server: 156.243.246.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: NL荷兰 7, server: 45.130.125.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: NL荷兰 8, server: 88.216.66.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: RU俄罗斯, server: 213.219.247.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: US美国, server: 170.114.46.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: RU俄罗斯 2, server: 193.233.21.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: RU俄罗斯 3, server: 185.221.160.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: NL荷兰 9, server: 188.42.89.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: NL荷兰 10, server: 45.159.217.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: RU俄罗斯 4, server: 176.124.223.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: RU俄罗斯 5, server: 5.182.84.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: HK香港 3, server: 45.202.113.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: HK香港 4, server: 154.206.12.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: JP日本, server: 45.196.29.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: RU俄罗斯 6, server: 185.59.218.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: RU俄罗斯 7, server: 195.13.45.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: HK香港 5, server: 45.192.224.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: US美国 2, server: 159.246.55.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: RU俄罗斯 8, server: 46.254.92.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: HK香港 6, server: 103.116.7.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: US美国 3, server: 104.129.167.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: RU俄罗斯 9, server: 92.243.74.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: DE德国, server: 77.37.33.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: HK香港 7, server: 154.219.5.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: FR法国, server: 94.140.0.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: FR法国 2, server: 141.11.202.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: HK香港 8, server: 156.225.72.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: HK香港 9, server: 103.245.229.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: HK香港 10, server: 14.102.229.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: DE德国 2, server: 5.10.214.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: DE德国 3, server: 185.238.228.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: US美国 4, server: 141.193.27.226, port: 8880, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
-  - {name: US美国 5, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, skip-cert-verify: true, udp: true}
+  - {name: US美国, server: 198.12.145.66, port: 8880, type: vmess, uuid: cc0926df-54a8-3df7-934c-fd3ead64f6aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
+  - {name: HK香港, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, skip-cert-verify: true, udp: true}
+  - {name: HK香港 2, server: www.visa.com.sg, port: 2053, type: trojan, password: 0F22D008-24D4-4DFE-947B-8D2FD64CD24C, sni: www.visa.com.sg, skip-cert-verify: true, udp: true}
+  - {name: US美国 2, server: test.flha.ru, port: 80, type: vmess, uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess, ws-headers: {Host: test.flha.ru}, udp: true}
+  - {name: US美国 3, server: 45.67.215.66, port: 8880, type: vmess, uuid: cc0926df-54a8-3df7-934c-fd3ead64f6aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
+  - {name: HK香港 3, server: 172.67.214.21, port: 443, type: trojan, password: 7248e825-887c-48b9-83bc-c26bc6392bf8, skip-cert-verify: true, udp: true}
+  - {name: US美国 4, server: 166.62.115.66, port: 8880, type: vmess, uuid: cc0926df-54a8-3df7-934c-fd3ead64f6aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
+  - {name: US美国 5, server: 199.34.229.66, port: 8880, type: vmess, uuid: cc0926df-54a8-3df7-934c-fd3ead64f6aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", ws-headers: {Host: TG.WangCai2.s2.cn-db.top}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - NL荷兰
-      - NL荷兰 2
-      - NL荷兰 3
-      - NL荷兰 4
-      - NL荷兰 5
-      - NL荷兰 6
+      - US美国
       - HK香港
       - HK香港 2
-      - NL荷兰 7
-      - NL荷兰 8
-      - RU俄罗斯
-      - US美国
-      - RU俄罗斯 2
-      - RU俄罗斯 3
-      - NL荷兰 9
-      - NL荷兰 10
-      - RU俄罗斯 4
-      - RU俄罗斯 5
-      - HK香港 3
-      - HK香港 4
-      - JP日本
-      - RU俄罗斯 6
-      - RU俄罗斯 7
-      - HK香港 5
       - US美国 2
-      - RU俄罗斯 8
-      - HK香港 6
       - US美国 3
-      - RU俄罗斯 9
-      - DE德国
-      - HK香港 7
-      - FR法国
-      - FR法国 2
-      - HK香港 8
-      - HK香港 9
-      - HK香港 10
-      - DE德国 2
-      - DE德国 3
+      - HK香港 3
       - US美国 4
       - US美国 5
   - name: ♻️ 自动选择
@@ -96,44 +32,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - NL荷兰
-      - NL荷兰 2
-      - NL荷兰 3
-      - NL荷兰 4
-      - NL荷兰 5
-      - NL荷兰 6
+      - US美国
       - HK香港
       - HK香港 2
-      - NL荷兰 7
-      - NL荷兰 8
-      - RU俄罗斯
-      - US美国
-      - RU俄罗斯 2
-      - RU俄罗斯 3
-      - NL荷兰 9
-      - NL荷兰 10
-      - RU俄罗斯 4
-      - RU俄罗斯 5
-      - HK香港 3
-      - HK香港 4
-      - JP日本
-      - RU俄罗斯 6
-      - RU俄罗斯 7
-      - HK香港 5
       - US美国 2
-      - RU俄罗斯 8
-      - HK香港 6
       - US美国 3
-      - RU俄罗斯 9
-      - DE德国
-      - HK香港 7
-      - FR法国
-      - FR法国 2
-      - HK香港 8
-      - HK香港 9
-      - HK香港 10
-      - DE德国 2
-      - DE德国 3
+      - HK香港 3
       - US美国 4
       - US美国 5
   - name: 🎥 NETFLIX
@@ -142,44 +46,12 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - NL荷兰
-      - NL荷兰 2
-      - NL荷兰 3
-      - NL荷兰 4
-      - NL荷兰 5
-      - NL荷兰 6
+      - US美国
       - HK香港
       - HK香港 2
-      - NL荷兰 7
-      - NL荷兰 8
-      - RU俄罗斯
-      - US美国
-      - RU俄罗斯 2
-      - RU俄罗斯 3
-      - NL荷兰 9
-      - NL荷兰 10
-      - RU俄罗斯 4
-      - RU俄罗斯 5
-      - HK香港 3
-      - HK香港 4
-      - JP日本
-      - RU俄罗斯 6
-      - RU俄罗斯 7
-      - HK香港 5
       - US美国 2
-      - RU俄罗斯 8
-      - HK香港 6
       - US美国 3
-      - RU俄罗斯 9
-      - DE德国
-      - HK香港 7
-      - FR法国
-      - FR法国 2
-      - HK香港 8
-      - HK香港 9
-      - HK香港 10
-      - DE德国 2
-      - DE德国 3
+      - HK香港 3
       - US美国 4
       - US美国 5
   - name: ⛔️ 广告拦截
@@ -200,44 +72,12 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - NL荷兰
-      - NL荷兰 2
-      - NL荷兰 3
-      - NL荷兰 4
-      - NL荷兰 5
-      - NL荷兰 6
+      - US美国
       - HK香港
       - HK香港 2
-      - NL荷兰 7
-      - NL荷兰 8
-      - RU俄罗斯
-      - US美国
-      - RU俄罗斯 2
-      - RU俄罗斯 3
-      - NL荷兰 9
-      - NL荷兰 10
-      - RU俄罗斯 4
-      - RU俄罗斯 5
-      - HK香港 3
-      - HK香港 4
-      - JP日本
-      - RU俄罗斯 6
-      - RU俄罗斯 7
-      - HK香港 5
       - US美国 2
-      - RU俄罗斯 8
-      - HK香港 6
       - US美国 3
-      - RU俄罗斯 9
-      - DE德国
-      - HK香港 7
-      - FR法国
-      - FR法国 2
-      - HK香港 8
-      - HK香港 9
-      - HK香港 10
-      - DE德国 2
-      - DE德国 3
+      - HK香港 3
       - US美国 4
       - US美国 5
   - name: 🌏 国内媒体
@@ -247,57 +87,18 @@ proxy-groups:
       - HK香港
       - HK香港 2
       - HK香港 3
-      - HK香港 4
-      - HK香港 5
-      - HK香港 6
-      - HK香港 7
-      - HK香港 8
-      - HK香港 9
-      - HK香港 10
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - NL荷兰
-      - NL荷兰 2
-      - NL荷兰 3
-      - NL荷兰 4
-      - NL荷兰 5
-      - NL荷兰 6
+      - US美国
       - HK香港
       - HK香港 2
-      - NL荷兰 7
-      - NL荷兰 8
-      - RU俄罗斯
-      - US美国
-      - RU俄罗斯 2
-      - RU俄罗斯 3
-      - NL荷兰 9
-      - NL荷兰 10
-      - RU俄罗斯 4
-      - RU俄罗斯 5
-      - HK香港 3
-      - HK香港 4
-      - JP日本
-      - RU俄罗斯 6
-      - RU俄罗斯 7
-      - HK香港 5
       - US美国 2
-      - RU俄罗斯 8
-      - HK香港 6
       - US美国 3
-      - RU俄罗斯 9
-      - DE德国
-      - HK香港 7
-      - FR法国
-      - FR法国 2
-      - HK香港 8
-      - HK香港 9
-      - HK香港 10
-      - DE德国 2
-      - DE德国 3
+      - HK香港 3
       - US美国 4
       - US美国 5
   - name: 📲 电报信息
@@ -305,44 +106,12 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - NL荷兰
-      - NL荷兰 2
-      - NL荷兰 3
-      - NL荷兰 4
-      - NL荷兰 5
-      - NL荷兰 6
+      - US美国
       - HK香港
       - HK香港 2
-      - NL荷兰 7
-      - NL荷兰 8
-      - RU俄罗斯
-      - US美国
-      - RU俄罗斯 2
-      - RU俄罗斯 3
-      - NL荷兰 9
-      - NL荷兰 10
-      - RU俄罗斯 4
-      - RU俄罗斯 5
-      - HK香港 3
-      - HK香港 4
-      - JP日本
-      - RU俄罗斯 6
-      - RU俄罗斯 7
-      - HK香港 5
       - US美国 2
-      - RU俄罗斯 8
-      - HK香港 6
       - US美国 3
-      - RU俄罗斯 9
-      - DE德国
-      - HK香港 7
-      - FR法国
-      - FR法国 2
-      - HK香港 8
-      - HK香港 9
-      - HK香港 10
-      - DE德国 2
-      - DE德国 3
+      - HK香港 3
       - US美国 4
       - US美国 5
   - name: 🍎 苹果服务
@@ -351,44 +120,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - NL荷兰
-      - NL荷兰 2
-      - NL荷兰 3
-      - NL荷兰 4
-      - NL荷兰 5
-      - NL荷兰 6
+      - US美国
       - HK香港
       - HK香港 2
-      - NL荷兰 7
-      - NL荷兰 8
-      - RU俄罗斯
-      - US美国
-      - RU俄罗斯 2
-      - RU俄罗斯 3
-      - NL荷兰 9
-      - NL荷兰 10
-      - RU俄罗斯 4
-      - RU俄罗斯 5
-      - HK香港 3
-      - HK香港 4
-      - JP日本
-      - RU俄罗斯 6
-      - RU俄罗斯 7
-      - HK香港 5
       - US美国 2
-      - RU俄罗斯 8
-      - HK香港 6
       - US美国 3
-      - RU俄罗斯 9
-      - DE德国
-      - HK香港 7
-      - FR法国
-      - FR法国 2
-      - HK香港 8
-      - HK香港 9
-      - HK香港 10
-      - DE德国 2
-      - DE德国 3
+      - HK香港 3
       - US美国 4
       - US美国 5
   - name: 🎯 全球直连
@@ -406,44 +143,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - NL荷兰
-      - NL荷兰 2
-      - NL荷兰 3
-      - NL荷兰 4
-      - NL荷兰 5
-      - NL荷兰 6
+      - US美国
       - HK香港
       - HK香港 2
-      - NL荷兰 7
-      - NL荷兰 8
-      - RU俄罗斯
-      - US美国
-      - RU俄罗斯 2
-      - RU俄罗斯 3
-      - NL荷兰 9
-      - NL荷兰 10
-      - RU俄罗斯 4
-      - RU俄罗斯 5
-      - HK香港 3
-      - HK香港 4
-      - JP日本
-      - RU俄罗斯 6
-      - RU俄罗斯 7
-      - HK香港 5
       - US美国 2
-      - RU俄罗斯 8
-      - HK香港 6
       - US美国 3
-      - RU俄罗斯 9
-      - DE德国
-      - HK香港 7
-      - FR法国
-      - FR法国 2
-      - HK香港 8
-      - HK香港 9
-      - HK香港 10
-      - DE德国 2
-      - DE德国 3
+      - HK香港 3
       - US美国 4
       - US美国 5
 rules:
