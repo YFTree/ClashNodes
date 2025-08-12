@@ -71,35 +71,35 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇺🇸_US_美国", "🇩🇰_DK_丹麦->🇺🇸_US_美国", "🇲🇩_MD_摩尔多瓦", "🇺🇸_US_美国->🇬🇧_GB_英国", "🇺🇸_US_美国_1", "🇩🇰_DK_丹麦->🇺🇸_US_美国_1", "🇩🇰_DK_丹麦->🇺🇸_US_美国_2", "🇷🇴_RO_罗马尼亚->🇺🇸_US_美国", "🇺🇸_US_美国->🇨🇳_CN_中国", "🇺🇸_US_美国_2", "🇺🇸_US_美国_3", "🇲🇩_MD_摩尔多瓦_1", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国_1", "未知", "🇨🇳_CN_中国->🇬🇧_GB_英国", "🇮🇷_IR_伊朗", "🇨🇳_CN_中国->🇺🇸_US_美国_2" ],
+    "outbounds" : [ "url-test", "🇺🇸_US_美国", "🇩🇰_DK_丹麦->🇺🇸_US_美国", "🇩🇰_DK_丹麦->🇺🇸_US_美国_1", "🇺🇸_US_美国_1", "🇰🇷_KR_韩国->🇲🇩_MD_摩尔多瓦", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇺🇸_US_美国_2", "🇺🇸_US_美国->🇬🇧_GB_英国", "🇨🇳_CN_中国->🇺🇸_US_美国_1", "🇺🇸_US_美国_3", "🇨🇳_CN_中国->🇺🇸_US_美国_2", "🇺🇸_US_美国->🇨🇳_CN_中国", "🇺🇸_US_美国_4", "🇨🇳_CN_中国->🇬🇧_GB_英国", "🇩🇰_DK_丹麦->🇪🇸_ES_西班牙", "🇺🇸_US_美国_5", "🇨🇳_CN_中国->🇸🇬_SG_新加坡", "🇩🇰_DK_丹麦->🇺🇸_US_美国_2" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇺🇸_US_美国", "🇩🇰_DK_丹麦->🇺🇸_US_美国", "🇲🇩_MD_摩尔多瓦", "🇺🇸_US_美国->🇬🇧_GB_英国", "🇺🇸_US_美国_1", "🇩🇰_DK_丹麦->🇺🇸_US_美国_1", "🇩🇰_DK_丹麦->🇺🇸_US_美国_2", "🇷🇴_RO_罗马尼亚->🇺🇸_US_美国", "🇺🇸_US_美国->🇨🇳_CN_中国", "🇺🇸_US_美国_2", "🇺🇸_US_美国_3", "🇲🇩_MD_摩尔多瓦_1", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国_1", "未知", "🇨🇳_CN_中国->🇬🇧_GB_英国", "🇮🇷_IR_伊朗", "🇨🇳_CN_中国->🇺🇸_US_美国_2" ],
+    "outbounds" : [ "🇺🇸_US_美国", "🇩🇰_DK_丹麦->🇺🇸_US_美国", "🇩🇰_DK_丹麦->🇺🇸_US_美国_1", "🇺🇸_US_美国_1", "🇰🇷_KR_韩国->🇲🇩_MD_摩尔多瓦", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇺🇸_US_美国_2", "🇺🇸_US_美国->🇬🇧_GB_英国", "🇨🇳_CN_中国->🇺🇸_US_美国_1", "🇺🇸_US_美国_3", "🇨🇳_CN_中国->🇺🇸_US_美国_2", "🇺🇸_US_美国->🇨🇳_CN_中国", "🇺🇸_US_美国_4", "🇨🇳_CN_中国->🇬🇧_GB_英国", "🇩🇰_DK_丹麦->🇪🇸_ES_西班牙", "🇺🇸_US_美国_5", "🇨🇳_CN_中国->🇸🇬_SG_新加坡", "🇩🇰_DK_丹麦->🇺🇸_US_美国_2" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
     "type" : "vless",
     "tag" : "🇺🇸_US_美国",
-    "server" : "senator.cdniran.info",
+    "server" : "172.66.40.99",
     "server_port" : 80,
-    "uuid" : "43c09ea2-72de-4b63-8da4-d5d4be7819ad",
+    "uuid" : "5d3a7e3d-6f9f-4b8d-bb4c-5120925c3c16",
     "tls" : {
       "enabled" : true
     },
     "transport" : {
       "type" : "ws",
-      "path" : "/?ed=2048",
+      "path" : "/Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
       "headers" : {
-        "host" : "SeNaToRNoTLS-05.FligHtbEaN24.Com"
+        "host" : "g.zedmodeon.ip-ddns.com"
       }
     }
   }, {
     "type" : "vless",
     "tag" : "🇩🇰_DK_丹麦->🇺🇸_US_美国",
-    "server" : "csgo.com",
+    "server" : "pubg.ac",
     "server_port" : 8080,
     "uuid" : "27425750-5bf5-497b-92d4-16e67030e154",
     "tls" : {
@@ -113,29 +113,19 @@
       }
     }
   }, {
-    "type" : "shadowsocks",
-    "tag" : "🇲🇩_MD_摩尔多瓦",
-    "server" : "91.132.94.200",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
     "type" : "vless",
-    "tag" : "🇺🇸_US_美国->🇬🇧_GB_英国",
-    "server" : "small-meal.oneeat.co",
-    "server_port" : 80,
-    "uuid" : "d1e44075-8c92-4698-9db0-e71d7015b757",
+    "tag" : "🇩🇰_DK_丹麦->🇺🇸_US_美国_1",
+    "server" : "csgo.com",
+    "server_port" : 8080,
+    "uuid" : "27425750-5bf5-497b-92d4-16e67030e154",
     "tls" : {
       "enabled" : true
     },
     "transport" : {
       "type" : "ws",
-      "path" : "/",
+      "path" : "/profile/telegram@ssrsub",
       "headers" : {
-        "host" : "small-meal.oneeat.co"
+        "host" : "cdn-node-oss-99.paofu.de"
       }
     }
   }, {
@@ -155,80 +145,36 @@
       }
     }
   }, {
-    "type" : "vless",
-    "tag" : "🇩🇰_DK_丹麦->🇺🇸_US_美国_1",
-    "server" : "fastcup.net",
-    "server_port" : 8080,
-    "uuid" : "27425750-5bf5-497b-92d4-16e67030e154",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/profile/telegram@ssrsub",
-      "headers" : {
-        "host" : "cdn-node-oss-99.paofu.de"
-      }
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇩🇰_DK_丹麦->🇺🇸_US_美国_2",
-    "server" : "pubg.ac",
-    "server_port" : 8080,
-    "uuid" : "27425750-5bf5-497b-92d4-16e67030e154",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/profile/telegram@ssrsub",
-      "headers" : {
-        "host" : "cdn-node-oss-99.paofu.de"
-      }
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇷🇴_RO_罗马尼亚->🇺🇸_US_美国",
-    "server" : "93.115.240.88",
-    "server_port" : 20000,
-    "uuid" : "490edb5c-d884-4b77-be02-19ebad7891dd",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws"
-    }
-  }, {
-    "type" : "vmess",
-    "tag" : "🇺🇸_US_美国->🇨🇳_CN_中国",
-    "server" : "v2ray.codefyinc.com",
-    "server_port" : 443,
-    "uuid" : "2c981164-9b93-4bca-94ff-b78d3f8498d7",
-    "security" : "auto",
-    "alter_id" : 0,
-    "transport" : {
-      "type" : "ws",
-      "path" : "/vmessws",
-      "headers" : {
-        "host" : "v2ray.codefyinc.com"
-      }
-    }
-  }, {
     "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_2",
-    "server" : "154.3.8.151",
-    "server_port" : 30067,
-    "method" : "aes-256-gcm",
-    "password" : "iUB0923RBA",
+    "tag" : "🇰🇷_KR_韩国->🇲🇩_MD_摩尔多瓦",
+    "server" : "p222.panda001.net",
+    "server_port" : 15098,
+    "method" : "aes-256-cfb",
+    "password" : "qwerREWQ@@",
     "multiplex" : {
       "enabled" : true
     }
   }, {
+    "type" : "vmess",
+    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
+    "server" : "v37.heduian.link",
+    "server_port" : 30837,
+    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+    "security" : "auto",
+    "alter_id" : 2,
+    "transport" : {
+      "type" : "ws",
+      "path" : "/oooo",
+      "headers" : {
+        "host" : "v37.heduian.link"
+      }
+    }
+  }, {
     "type" : "vless",
-    "tag" : "🇺🇸_US_美国_3",
-    "server" : "light-presence.oneeat.co",
+    "tag" : "🇺🇸_US_美国_2",
+    "server" : "104.16.1.106",
     "server_port" : 80,
-    "uuid" : "7e74ff43-3a90-48b3-8372-7d92a045c2d4",
+    "uuid" : "de7e69b8-c4e7-4461-f061-12f42115b51b",
     "tls" : {
       "enabled" : true
     },
@@ -236,22 +182,28 @@
       "type" : "ws",
       "path" : "/",
       "headers" : {
-        "host" : "light-presence.oneeat.co"
+        "host" : "eng.vinamarketcenter.ir"
       }
     }
   }, {
-    "type" : "shadowsocks",
-    "tag" : "🇲🇩_MD_摩尔多瓦_1",
-    "server" : "185.153.197.5",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
+    "type" : "vless",
+    "tag" : "🇺🇸_US_美国->🇬🇧_GB_英国",
+    "server" : "small-meal.oneeat.co",
+    "server_port" : 80,
+    "uuid" : "d1e44075-8c92-4698-9db0-e71d7015b757",
+    "tls" : {
       "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/",
+      "headers" : {
+        "host" : "small-meal.oneeat.co"
+      }
     }
   }, {
     "type" : "vmess",
-    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
+    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国_1",
     "server" : "v29.heduian.link",
     "server_port" : 30829,
     "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
@@ -265,8 +217,18 @@
       }
     }
   }, {
+    "type" : "shadowsocks",
+    "tag" : "🇺🇸_US_美国_3",
+    "server" : "34.203.13.163",
+    "server_port" : 443,
+    "method" : "aes-256-cfb",
+    "password" : "amazonskr05",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
     "type" : "vmess",
-    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国_1",
+    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国_2",
     "server" : "v33.heduian.link",
     "server_port" : 30833,
     "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
@@ -281,13 +243,29 @@
     }
   }, {
     "type" : "shadowsocks",
-    "tag" : "未知",
-    "server" : "awes35lesl.blhao0o.dpdns.org",
-    "server_port" : 12028,
-    "method" : "aes-128-gcm",
-    "password" : "01721e43-5389-4f97-b21c-900abb2bda9e",
+    "tag" : "🇺🇸_US_美国->🇨🇳_CN_中国",
+    "server" : "154.3.8.151",
+    "server_port" : 30067,
+    "method" : "aes-256-gcm",
+    "password" : "iUB0923RBA",
     "multiplex" : {
       "enabled" : true
+    }
+  }, {
+    "type" : "vless",
+    "tag" : "🇺🇸_US_美国_4",
+    "server" : "senator.cdniran.info",
+    "server_port" : 80,
+    "uuid" : "43c09ea2-72de-4b63-8da4-d5d4be7819ad",
+    "tls" : {
+      "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/?ed=2048",
+      "headers" : {
+        "host" : "SeNaToRNoTLS-05.FligHtbEaN24.Com"
+      }
     }
   }, {
     "type" : "vmess",
@@ -305,27 +283,60 @@
       }
     }
   }, {
-    "type" : "vless",
-    "tag" : "🇮🇷_IR_伊朗",
-    "server" : "panke1.dadasoratmolayi.com",
-    "server_port" : 2087,
-    "uuid" : "3769c1f9-6686-4f70-952b-ec525378982c",
-    "tls" : {
-      "enabled" : true
-    }
-  }, {
     "type" : "vmess",
-    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国_2",
-    "server" : "v37.heduian.link",
-    "server_port" : 30837,
-    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+    "tag" : "🇩🇰_DK_丹麦->🇪🇸_ES_西班牙",
+    "server" : "pubg.ac",
+    "server_port" : 80,
+    "uuid" : "27425750-5bf5-497b-92d4-16e67030e154",
     "security" : "auto",
-    "alter_id" : 2,
+    "alter_id" : 0,
     "transport" : {
       "type" : "ws",
-      "path" : "/oooo",
+      "path" : "/profile/telegram@ssrsub",
       "headers" : {
-        "host" : "v37.heduian.link"
+        "host" : "cdn-node-oss-99.paofu.de"
+      }
+    }
+  }, {
+    "type" : "vless",
+    "tag" : "🇺🇸_US_美国_5",
+    "server" : "light-presence.oneeat.co",
+    "server_port" : 80,
+    "uuid" : "7e74ff43-3a90-48b3-8372-7d92a045c2d4",
+    "tls" : {
+      "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/",
+      "headers" : {
+        "host" : "light-presence.oneeat.co"
+      }
+    }
+  }, {
+    "type" : "trojan",
+    "tag" : "🇨🇳_CN_中国->🇸🇬_SG_新加坡",
+    "server" : "36.156.102.125",
+    "server_port" : 347,
+    "password" : "253bc477d4e43c209f2d427272968280",
+    "tls" : {
+      "enabled" : true,
+      "insecure" : true
+    }
+  }, {
+    "type" : "vless",
+    "tag" : "🇩🇰_DK_丹麦->🇺🇸_US_美国_2",
+    "server" : "fastcup.net",
+    "server_port" : 8080,
+    "uuid" : "27425750-5bf5-497b-92d4-16e67030e154",
+    "tls" : {
+      "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/profile/telegram@ssrsub",
+      "headers" : {
+        "host" : "cdn-node-oss-99.paofu.de"
       }
     }
   }, {
