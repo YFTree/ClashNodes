@@ -71,26 +71,53 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇺🇸_US_美国->🇨🇳_CN_中国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇲🇩_MD_摩尔多瓦", "🇺🇸_US_美国" ],
+    "outbounds" : [ "url-test", "🇨🇳_CN_中国", "🇺🇸_US_美国->🇨🇳_CN_中国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国_1", "🇲🇩_MD_摩尔多瓦", "🇨🇳_CN_中国->🇬🇧_GB_英国" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇺🇸_US_美国->🇨🇳_CN_中国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇲🇩_MD_摩尔多瓦", "🇺🇸_US_美国" ],
+    "outbounds" : [ "🇨🇳_CN_中国", "🇺🇸_US_美国->🇨🇳_CN_中国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国_1", "🇲🇩_MD_摩尔多瓦", "🇨🇳_CN_中国->🇬🇧_GB_英国" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
     "type" : "vmess",
-    "tag" : "🇺🇸_US_美国->🇨🇳_CN_中国",
-    "server" : "aaaaaaaaaaaaaaaa.sangarvpn-bot.shop",
-    "server_port" : 39043,
-    "uuid" : "70ff69e2-89ce-4963-9fe7-b880360fd901",
+    "tag" : "🇨🇳_CN_中国",
+    "server" : "v29.heduian.link",
+    "server_port" : 30829,
+    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
     "security" : "auto",
-    "alter_id" : 0
+    "alter_id" : 2,
+    "transport" : {
+      "type" : "ws",
+      "path" : "/oooo",
+      "headers" : {
+        "host" : "ocbc.com"
+      }
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇺🇸_US_美国->🇨🇳_CN_中国",
+    "server" : "154.3.8.151",
+    "server_port" : 30067,
+    "method" : "aes-256-gcm",
+    "password" : "iUB0923RBA",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
+    "server" : "usa022.tmdns-sing.top",
+    "server_port" : 13892,
+    "method" : "aes-128-gcm",
+    "password" : "6b1e5475-7661-4921-aa26-d11758b2f3f1",
+    "multiplex" : {
+      "enabled" : true
+    }
   }, {
     "type" : "vmess",
-    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
+    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国_1",
     "server" : "v33.heduian.link",
     "server_port" : 30833,
     "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
@@ -115,11 +142,11 @@
     }
   }, {
     "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国",
-    "server" : "38.180.211.126",
-    "server_port" : 443,
-    "method" : "chacha20-ietf-poly1305",
-    "password" : "Kuiqk2cP0BMWrgme9IfEvp",
+    "tag" : "🇨🇳_CN_中国->🇬🇧_GB_英国",
+    "server" : "usa20250815010624020199.tmdns-sing.top",
+    "server_port" : 13874,
+    "method" : "aes-128-gcm",
+    "password" : "6b1e5475-7661-4921-aa26-d11758b2f3f1",
     "multiplex" : {
       "enabled" : true
     }

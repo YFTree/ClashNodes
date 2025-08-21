@@ -5,22 +5,26 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US美国, server: test.flha.ru, port: 80, type: vmess, uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess, ws-headers: {Host: test.flha.ru}, udp: true}
-  - {name: US美国 2, server: 172.67.181.173, port: 443, type: trojan, password: f282b878-8711-45a1-8c69-5564172123c1, skip-cert-verify: true, udp: true}
-  - {name: US美国 3, server: bBbbbbbBb.222769.XYZ, port: 80, type: vmess, uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /f6taOMcOSZb9TPR, ws-headers: {Host: bbbbbbbbb.222769.xyz}, udp: true}
+  - {name: US美国, server: dddvvbn.931.pp.ua, port: 443, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /6We3U9Df1WGxgFnoFPw1, ws-headers: {Host: dddvvbn.931.pp.ua}, udp: true}
+  - {name: US美国 2, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, skip-cert-verify: true, udp: true}
+  - {name: US美国 3, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /linvkws, ws-headers: {Host: Fra-Vp-123.BLaZECLOUD.Site}, udp: true}
   - {name: US美国 4, server: test.flha.ru, port: 80, type: vmess, uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess, ws-headers: {Host: test.flha.ru}, udp: true}
-  - {name: US美国 5, server: 172.67.181.173, port: 443, type: trojan, password: f282b878-8711-45a1-8c69-5564172123c1, skip-cert-verify: true, udp: true}
+  - {name: US美国 5, server: 183.240.245.239, port: 42272, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US美国 6, server: 172.67.181.173, port: 443, type: trojan, password: f282b878-8711-45a1-8c69-5564172123c1, skip-cert-verify: true, udp: true}
-  - {name: US美国 7, server: OOoOOOooOp.222769.XYZ, port: 80, type: vmess, uuid: ce921385-2b31-45fe-84c5-1843e8ae845b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /VaaSEfNLHdW3I98dxLkez, ws-headers: {Host: ooooooooop.222769.xyz}, udp: true}
-  - {name: US美国 8, server: test3.flha.ru, port: 80, type: vmess, uuid: 9a81340d-f81b-4c76-8abb-f4d305c535c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /9a81340d-f81b-4c76-8abb-f4d305c535c0-vmess, ws-headers: {Host: test3.flha.ru}, udp: true}
+  - {name: US美国 7, server: 172.67.170.147, port: 443, type: vmess, uuid: ffcf7ec1-3e09-4821-b3d9-b426a107b73b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /4Bp70NdrJV3xr1D40NK, ws-headers: {Host: xcvfgt6.999854.xyz}, udp: true}
+  - {name: US美国 8, server: 2606:4700:3030::6815:6001, port: 443, type: vmess, uuid: 9263f72d-87a7-4d06-b2e3-fac3dea1eefa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /EatB7Aj0ykXHdjRXgN, ws-headers: {Host: eeddfrty.999820.xyz}, udp: true}
   - {name: US美国 9, server: 172.67.181.173, port: 443, type: trojan, password: f282b878-8711-45a1-8c69-5564172123c1, skip-cert-verify: true, udp: true}
-  - {name: US美国 10, server: 172.67.181.173, port: 443, type: trojan, password: f282b878-8711-45a1-8c69-5564172123c1, skip-cert-verify: true, udp: true}
-  - {name: US美国 11, server: cc2dash.89060004.xyz, port: 2083, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cc2dash.89060004.xyz}, udp: true}
-  - {name: US美国 12, server: 172.67.170.147, port: 443, type: vmess, uuid: ffcf7ec1-3e09-4821-b3d9-b426a107b73b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /4Bp70NdrJV3xr1D40NK, ws-headers: {Host: xcvfgt6.999854.xyz}, udp: true}
-  - {name: JP日本, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
-  - {name: US美国 13, server: 172.67.181.173, port: 443, type: trojan, password: f282b878-8711-45a1-8c69-5564172123c1, skip-cert-verify: true, udp: true}
-  - {name: US美国 14, server: 172.67.181.173, port: 443, type: trojan, password: f282b878-8711-45a1-8c69-5564172123c1, skip-cert-verify: true, udp: true}
+  - {name: US美国 10, server: ssssssssssssfffffffgh.2032.pp.ua, port: 443, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /6We3U9Df1WGxgFnoFPw1, ws-headers: {Host: ssssssssssssfffffffgh.2032.pp.ua}, udp: true}
+  - {name: US美国 11, server: 172.67.181.173, port: 443, type: trojan, password: f282b878-8711-45a1-8c69-5564172123c1, skip-cert-verify: true, udp: true}
+  - {name: US美国 12, server: sssssssxxxx.2032.pp.ua, port: 443, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /6We3U9Df1WGxgFnoFPw1, ws-headers: {Host: sssssssxxxx.2032.pp.ua}, udp: true}
+  - {name: US美国 13, server: bBbbbbbBb.222769.XYZ, port: 80, type: vmess, uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /f6taOMcOSZb9TPR, ws-headers: {Host: bbbbbbbbb.222769.xyz}, udp: true}
+  - {name: US美国 14, server: 172.67.165.122, port: 443, type: vmess, uuid: 20e89a95-cedf-4fe3-9421-517ce66be170, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /SHToRcqfiraYkzOdf, ws-headers: {Host: pppploiu.4444936.xyz}, udp: true}
   - {name: US美国 15, server: 172.67.181.173, port: 443, type: trojan, password: f282b878-8711-45a1-8c69-5564172123c1, skip-cert-verify: true, udp: true}
+  - {name: US美国 16, server: gggggggggggggg.222769.xyz, port: 80, type: vmess, uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /f6taOMcOSZb9TPR, ws-headers: {Host: gggggggggggggg.222769.xyz}, udp: true}
+  - {name: US美国 17, server: rak1ding.89060004.xyz, port: 2083, type: vmess, uuid: 75d96365-1229-4fc4-dbda-855717f876cf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: rak1d3.988988.shop}, udp: true}
+  - {name: US美国 18, server: 45.85.119.216, port: 2096, type: trojan, password: ttfang, skip-cert-verify: true, udp: true}
+  - {name: US美国 19, server: test.flha.ru, port: 80, type: vmess, uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess, ws-headers: {Host: test.flha.ru}, udp: true}
+  - {name: JP日本, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -39,10 +43,14 @@ proxy-groups:
       - US美国 10
       - US美国 11
       - US美国 12
-      - JP日本
       - US美国 13
       - US美国 14
       - US美国 15
+      - US美国 16
+      - US美国 17
+      - US美国 18
+      - US美国 19
+      - JP日本
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -60,10 +68,14 @@ proxy-groups:
       - US美国 10
       - US美国 11
       - US美国 12
-      - JP日本
       - US美国 13
       - US美国 14
       - US美国 15
+      - US美国 16
+      - US美国 17
+      - US美国 18
+      - US美国 19
+      - JP日本
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -82,10 +94,14 @@ proxy-groups:
       - US美国 10
       - US美国 11
       - US美国 12
-      - JP日本
       - US美国 13
       - US美国 14
       - US美国 15
+      - US美国 16
+      - US美国 17
+      - US美国 18
+      - US美国 19
+      - JP日本
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -116,10 +132,14 @@ proxy-groups:
       - US美国 10
       - US美国 11
       - US美国 12
-      - JP日本
       - US美国 13
       - US美国 14
       - US美国 15
+      - US美国 16
+      - US美国 17
+      - US美国 18
+      - US美国 19
+      - JP日本
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -142,10 +162,14 @@ proxy-groups:
       - US美国 10
       - US美国 11
       - US美国 12
-      - JP日本
       - US美国 13
       - US美国 14
       - US美国 15
+      - US美国 16
+      - US美国 17
+      - US美国 18
+      - US美国 19
+      - JP日本
   - name: 📲 电报信息
     type: select
     proxies:
@@ -163,10 +187,14 @@ proxy-groups:
       - US美国 10
       - US美国 11
       - US美国 12
-      - JP日本
       - US美国 13
       - US美国 14
       - US美国 15
+      - US美国 16
+      - US美国 17
+      - US美国 18
+      - US美国 19
+      - JP日本
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -185,10 +213,14 @@ proxy-groups:
       - US美国 10
       - US美国 11
       - US美国 12
-      - JP日本
       - US美国 13
       - US美国 14
       - US美国 15
+      - US美国 16
+      - US美国 17
+      - US美国 18
+      - US美国 19
+      - JP日本
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -216,10 +248,14 @@ proxy-groups:
       - US美国 10
       - US美国 11
       - US美国 12
-      - JP日本
       - US美国 13
       - US美国 14
       - US美国 15
+      - US美国 16
+      - US美国 17
+      - US美国 18
+      - US美国 19
+      - JP日本
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
