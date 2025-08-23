@@ -71,39 +71,62 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇳🇱_NL_荷兰", "🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国_1" ],
+    "outbounds" : [ "url-test", "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国", "🇲🇩_MD_摩尔多瓦", "🇩🇪_DE_德国", "🇳🇱_NL_荷兰->🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇩🇪_DE_德国_1", "🇬🇧_GB_英国->🇩🇪_DE_德国", "🇩🇪_DE_德国_2", "🇷🇺_RU_俄罗斯", "🇨🇳_CN_中国->🇬🇧_GB_英国" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇳🇱_NL_荷兰", "🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国_1" ],
+    "outbounds" : [ "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国", "🇲🇩_MD_摩尔多瓦", "🇩🇪_DE_德国", "🇳🇱_NL_荷兰->🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇩🇪_DE_德国_1", "🇬🇧_GB_英国->🇩🇪_DE_德国", "🇩🇪_DE_德国_2", "🇷🇺_RU_俄罗斯", "🇨🇳_CN_中国->🇬🇧_GB_英国" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
-    "type" : "trojan",
-    "tag" : "🇳🇱_NL_荷兰",
-    "server" : "45.91.171.116",
-    "server_port" : 443,
-    "password" : "2ee85121-31de-4581-a492-eb00f606e392",
-    "tls" : {
+    "type" : "shadowsocks",
+    "tag" : "🇸🇰_SK_斯洛伐克->🇺🇸_US_美国",
+    "server" : "156.146.40.194",
+    "server_port" : 989,
+    "method" : "aes-256-cfb",
+    "password" : "f8f7aCzcPKbsF8p3",
+    "multiplex" : {
       "enabled" : true
     }
   }, {
     "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国",
-    "server" : "77.83.245.190",
-    "server_port" : 443,
-    "method" : "chacha20-ietf-poly1305",
-    "password" : "haQpIdcLwwtb",
+    "tag" : "🇲🇩_MD_摩尔多瓦",
+    "server" : "185.153.197.5",
+    "server_port" : 989,
+    "method" : "aes-256-cfb",
+    "password" : "f8f7aCzcPKbsF8p3",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇩🇪_DE_德国",
+    "server" : "46.183.184.60",
+    "server_port" : 989,
+    "method" : "aes-256-cfb",
+    "password" : "f8f7aCzcPKbsF8p3",
     "multiplex" : {
       "enabled" : true
     }
   }, {
     "type" : "vmess",
+    "tag" : "🇳🇱_NL_荷兰->🇺🇸_US_美国",
+    "server" : "45.136.245.177",
+    "server_port" : 25032,
+    "uuid" : "aff739f3-e277-4be1-a8c2-1b6b9462971a",
+    "security" : "auto",
+    "alter_id" : 0,
+    "transport" : {
+      "type" : "ws",
+      "path" : "/"
+    }
+  }, {
+    "type" : "vmess",
     "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
-    "server" : "v29.heduian.link",
-    "server_port" : 30829,
+    "server" : "v33.heduian.link",
+    "server_port" : 30833,
     "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
     "security" : "auto",
     "alter_id" : 2,
@@ -111,14 +134,54 @@
       "type" : "ws",
       "path" : "/oooo",
       "headers" : {
-        "host" : "ocbc.com"
+        "host" : "v33.heduian.link"
       }
     }
   }, {
     "type" : "shadowsocks",
-    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国_1",
-    "server" : "japan001.tmdns-sing.top",
-    "server_port" : 13890,
+    "tag" : "🇩🇪_DE_德国_1",
+    "server" : "185.245.107.61",
+    "server_port" : 2222,
+    "method" : "chacha20-ietf-poly1305",
+    "password" : "qscavF5UviIL-8V-E4raBA",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇬🇧_GB_英国->🇩🇪_DE_德国",
+    "server" : "91.84.104.133",
+    "server_port" : 2222,
+    "method" : "chacha20-ietf-poly1305",
+    "password" : "qscavF5UviIL-8V-E4raBA",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇩🇪_DE_德国_2",
+    "server" : "185.245.107.250",
+    "server_port" : 2222,
+    "method" : "chacha20-ietf-poly1305",
+    "password" : "qscavF5UviIL-8V-E4raBA",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇷🇺_RU_俄罗斯",
+    "server" : "185.231.233.112",
+    "server_port" : 989,
+    "method" : "aes-256-cfb",
+    "password" : "f8f7aCzcPKbsF8p3",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇨🇳_CN_中国->🇬🇧_GB_英国",
+    "server" : "usa20250815010624020199.tmdns-sing.top",
+    "server_port" : 13874,
     "method" : "aes-128-gcm",
     "password" : "6b1e5475-7661-4921-aa26-d11758b2f3f1",
     "multiplex" : {
