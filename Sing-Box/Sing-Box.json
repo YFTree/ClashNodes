@@ -71,67 +71,15 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇺🇸_US_美国", "🇸🇪_SE_瑞典", "🇬🇧_GB_英国->🇨🇳_CN_中国", "🇺🇸_US_美国_1", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国_1", "🇺🇸_US_美国_2" ],
+    "outbounds" : [ "url-test", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇮🇷_IR_伊朗->🇷🇺_RU_俄罗斯", "🇫🇷_FR_法国" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇺🇸_US_美国", "🇸🇪_SE_瑞典", "🇬🇧_GB_英国->🇨🇳_CN_中国", "🇺🇸_US_美国_1", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国_1", "🇺🇸_US_美国_2" ],
+    "outbounds" : [ "🇨🇳_CN_中国->🇺🇸_US_美国", "🇮🇷_IR_伊朗->🇷🇺_RU_俄罗斯", "🇫🇷_FR_法国" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
-  }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国",
-    "server" : "cloudflare.182682.xyz",
-    "server_port" : 2086,
-    "uuid" : "f2fdcc30-a0c1-434d-94a7-dc8fc2c11a45",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/TG@naichachong",
-      "headers" : {
-        "host" : "free.naichachong.top"
-      }
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇸🇪_SE_瑞典",
-    "server" : "192.71.166.100",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇬🇧_GB_英国->🇨🇳_CN_中国",
-    "server" : "51.15.17.169",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国_1",
-    "server" : "104.18.37.228",
-    "server_port" : 8080,
-    "uuid" : "0518ca46-4313-45ce-df4d-5268c1b30cf2",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/olem/ws?ed=1024",
-      "headers" : {
-        "host" : "shad.ir.fin.test.digicyber.click."
-      }
-    }
   }, {
     "type" : "vmess",
     "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
@@ -148,22 +96,25 @@
       }
     }
   }, {
-    "type" : "shadowsocks",
-    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国_1",
-    "server" : "usa022.tmdns-sing.top",
-    "server_port" : 13892,
-    "method" : "aes-128-gcm",
-    "password" : "6b1e5475-7661-4921-aa26-d11758b2f3f1",
-    "multiplex" : {
+    "type" : "vless",
+    "tag" : "🇮🇷_IR_伊朗->🇷🇺_RU_俄罗斯",
+    "server" : "makevaslim.hulkirani.shop",
+    "server_port" : 6003,
+    "uuid" : "ff7274b2-6207-45b9-abe5-5e1e60e729f1",
+    "tls" : {
       "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/iman?ed=2048"
     }
   }, {
     "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_2",
-    "server" : "38.54.57.90",
-    "server_port" : 989,
+    "tag" : "🇫🇷_FR_法国",
+    "server" : "15.237.179.114",
+    "server_port" : 443,
     "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
+    "password" : "amazonskr05",
     "multiplex" : {
       "enabled" : true
     }
