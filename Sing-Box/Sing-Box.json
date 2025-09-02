@@ -71,43 +71,63 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇿🇦_ZA_南非->🇺🇸_US_美国", "🇿🇦_ZA_南非" ],
+    "outbounds" : [ "url-test", "🇮🇷_IR_伊朗->🇺🇸_US_美国", "🇨🇳_CN_中国", "🇬🇧_GB_英国", "🇺🇸_US_美国->🏳️_unKnow_未知" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇿🇦_ZA_南非->🇺🇸_US_美国", "🇿🇦_ZA_南非" ],
+    "outbounds" : [ "🇮🇷_IR_伊朗->🇺🇸_US_美国", "🇨🇳_CN_中国", "🇬🇧_GB_英国", "🇺🇸_US_美国->🏳️_unKnow_未知" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
-    "type" : "vmess",
-    "tag" : "🇿🇦_ZA_南非->🇺🇸_US_美国",
-    "server" : "102.177.176.249",
-    "server_port" : 8880,
-    "uuid" : "d5ed323c-019e-37c7-b7a7-cf7dc699e9c4",
-    "security" : "auto",
-    "alter_id" : 0,
-    "transport" : {
-      "type" : "ws",
-      "path" : "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560",
-      "headers" : {
-        "host" : "TG.WangCai2.s2.db-link02.top"
-      }
+    "type" : "vless",
+    "tag" : "🇮🇷_IR_伊朗->🇺🇸_US_美国",
+    "server" : "cdn29.saloonak.ir",
+    "server_port" : 8443,
+    "uuid" : "789d4f30-c31b-4762-8116-ed42574d5e85",
+    "tls" : {
+      "enabled" : true
     }
   }, {
     "type" : "vmess",
-    "tag" : "🇿🇦_ZA_南非",
-    "server" : "102.132.188.249",
-    "server_port" : 8880,
-    "uuid" : "53ec5471-532d-371f-a499-c152006493b8",
+    "tag" : "🇨🇳_CN_中国",
+    "server" : "v5.heduian.link",
+    "server_port" : 30805,
+    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
     "security" : "auto",
-    "alter_id" : 0,
+    "alter_id" : 2,
     "transport" : {
       "type" : "ws",
-      "path" : "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560",
+      "path" : "/oooo",
       "headers" : {
-        "host" : "TG.WangCai2.s2.db-link02.top"
+        "host" : "ocbc.com"
+      }
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇬🇧_GB_英国",
+    "server" : "195.35.113.79",
+    "server_port" : 443,
+    "method" : "chacha20-ietf-poly1305",
+    "password" : "1112935345BtgV5PDHVww",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "vless",
+    "tag" : "🇺🇸_US_美国->🏳️_unKnow_未知",
+    "server" : "0.0.0.einetwork.news",
+    "server_port" : 8880,
+    "uuid" : "2a2f8790-99ab-4788-985c-0fe5627af2a9",
+    "tls" : {
+      "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray",
+      "headers" : {
+        "host" : "SomeNotificationsChangeYourLife.EiNetwork.News."
       }
     }
   }, {
