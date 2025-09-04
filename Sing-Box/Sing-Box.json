@@ -71,46 +71,23 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇺🇸_US_美国", "🇺🇸_US_美国_1", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇩🇰_DK_丹麦->🇺🇸_US_美国", "🇩🇰_DK_丹麦->🇺🇸_US_美国_1", "🇺🇸_US_美国_2", "🇩🇰_DK_丹麦->🇺🇸_US_美国_2", "🇺🇸_US_美国_3", "🇺🇸_US_美国_4" ],
+    "outbounds" : [ "url-test", "🇪🇸_ES_西班牙", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇲🇩_MD_摩尔多瓦", "🇺🇸_US_美国", "🇮🇷_IR_伊朗->🇺🇸_US_美国", "🇺🇸_US_美国_1", "🇺🇸_US_美国_2" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇺🇸_US_美国", "🇺🇸_US_美国_1", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇩🇰_DK_丹麦->🇺🇸_US_美国", "🇩🇰_DK_丹麦->🇺🇸_US_美国_1", "🇺🇸_US_美国_2", "🇩🇰_DK_丹麦->🇺🇸_US_美国_2", "🇺🇸_US_美国_3", "🇺🇸_US_美国_4" ],
+    "outbounds" : [ "🇪🇸_ES_西班牙", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇲🇩_MD_摩尔多瓦", "🇺🇸_US_美国", "🇮🇷_IR_伊朗->🇺🇸_US_美国", "🇺🇸_US_美国_1", "🇺🇸_US_美国_2" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
     "type" : "vless",
-    "tag" : "🇺🇸_US_美国",
-    "server" : "63.141.128.28",
-    "server_port" : 8080,
-    "uuid" : "49e77ea9-62bd-44c4-8a52-0d7569c305c5",
+    "tag" : "🇪🇸_ES_西班牙",
+    "server" : "164.138.202.139",
+    "server_port" : 10777,
+    "uuid" : "348f6053-f7a6-4466-84f0-3a8aa5fbc6f9",
     "tls" : {
       "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-      "headers" : {
-        "host" : "f.jOin.zEdMoDeOn.oNl."
-      }
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国_1",
-    "server" : "63.141.128.13",
-    "server_port" : 80,
-    "uuid" : "fdf5ef4d-bf23-4bd1-b04e-39c80ba0c577",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-      "headers" : {
-        "host" : "c.jOin.zEdMoDeOn.oNl."
-      }
     }
   }, {
     "type" : "vmess",
@@ -128,69 +105,18 @@
       }
     }
   }, {
-    "type" : "vmess",
-    "tag" : "🇩🇰_DK_丹麦->🇺🇸_US_美国",
-    "server" : "fastcup.net",
-    "server_port" : 80,
-    "uuid" : "457f64d5-cc68-4911-82ee-636ebb568a46",
-    "security" : "auto",
-    "alter_id" : 0,
-    "transport" : {
-      "type" : "ws",
-      "path" : "/profile/telegram@ssrsub",
-      "headers" : {
-        "host" : "cdn-node-oss-99.paofu.de"
-      }
-    }
-  }, {
-    "type" : "vmess",
-    "tag" : "🇩🇰_DK_丹麦->🇺🇸_US_美国_1",
-    "server" : "csgo.com",
-    "server_port" : 80,
-    "uuid" : "457f64d5-cc68-4911-82ee-636ebb568a46",
-    "security" : "auto",
-    "alter_id" : 0,
-    "transport" : {
-      "type" : "ws",
-      "path" : "/profile/telegram@ssrsub",
-      "headers" : {
-        "host" : "cdn-node-oss-99.paofu.de"
-      }
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国_2",
-    "server" : "63.141.128.23",
-    "server_port" : 80,
-    "uuid" : "d59d49d3-a392-403a-8480-59934008431d",
-    "tls" : {
+    "type" : "shadowsocks",
+    "tag" : "🇲🇩_MD_摩尔多瓦",
+    "server" : "185.153.197.5",
+    "server_port" : 989,
+    "method" : "aes-256-cfb",
+    "password" : "f8f7aCzcPKbsF8p3",
+    "multiplex" : {
       "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-      "headers" : {
-        "host" : "b.jOin.zEdMoDeOn.oNl."
-      }
-    }
-  }, {
-    "type" : "vmess",
-    "tag" : "🇩🇰_DK_丹麦->🇺🇸_US_美国_2",
-    "server" : "pubg.ac",
-    "server_port" : 80,
-    "uuid" : "457f64d5-cc68-4911-82ee-636ebb568a46",
-    "security" : "auto",
-    "alter_id" : 0,
-    "transport" : {
-      "type" : "ws",
-      "path" : "/profile/telegram@ssrsub",
-      "headers" : {
-        "host" : "cdn-node-oss-99.paofu.de"
-      }
     }
   }, {
     "type" : "vless",
-    "tag" : "🇺🇸_US_美国_3",
+    "tag" : "🇺🇸_US_美国",
     "server" : "Zula.iR",
     "server_port" : 80,
     "uuid" : "18af2c68-edb3-4224-b8cb-5c7b42450a36",
@@ -206,18 +132,37 @@
     }
   }, {
     "type" : "vless",
-    "tag" : "🇺🇸_US_美国_4",
-    "server" : "63.141.128.14",
+    "tag" : "🇮🇷_IR_伊朗->🇺🇸_US_美国",
+    "server" : "cdn28.saloonak.ir",
+    "server_port" : 8443,
+    "uuid" : "789d4f30-c31b-4762-8116-ed42574d5e85",
+    "tls" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇺🇸_US_美国_1",
+    "server" : "38.180.211.126",
+    "server_port" : 443,
+    "method" : "chacha20-ietf-poly1305",
+    "password" : "Kuiqk2cP0BMWrgme9IfEvp",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "vless",
+    "tag" : "🇺🇸_US_美国_2",
+    "server" : "63.141.128.16",
     "server_port" : 80,
-    "uuid" : "18494a96-f6a7-425d-ae82-dc00c4f3f819",
+    "uuid" : "00a87d0f-6eb9-4b10-9793-7b8bd4553617",
     "tls" : {
       "enabled" : true
     },
     "transport" : {
       "type" : "ws",
-      "path" : "/Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+      "path" : "/Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
       "headers" : {
-        "host" : "a.joIn.zEdMoDeOn.oNl."
+        "host" : "e.jOin.zEdMoDeOn.oNl."
       }
     }
   }, {
