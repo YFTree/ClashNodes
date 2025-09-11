@@ -71,49 +71,24 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇲🇩_MD_摩尔多瓦", "🇲🇩_MD_摩尔多瓦_1", "🇨🇳_CN_中国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇳🇱_NL_荷兰->🇺🇸_US_美国" ],
+    "outbounds" : [ "url-test", "🇨🇳_CN_中国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国_1" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇲🇩_MD_摩尔多瓦", "🇲🇩_MD_摩尔多瓦_1", "🇨🇳_CN_中国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇳🇱_NL_荷兰->🇺🇸_US_美国" ],
+    "outbounds" : [ "🇨🇳_CN_中国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国_1" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
     "type" : "shadowsocks",
-    "tag" : "🇲🇩_MD_摩尔多瓦",
-    "server" : "185.153.197.5",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇲🇩_MD_摩尔多瓦_1",
-    "server" : "91.132.94.200",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "vmess",
     "tag" : "🇨🇳_CN_中国",
-    "server" : "v29.heduian.link",
-    "server_port" : 30829,
-    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-    "security" : "auto",
-    "alter_id" : 2,
-    "transport" : {
-      "type" : "ws",
-      "path" : "/oooo",
-      "headers" : {
-        "host" : "ocbc.com"
-      }
+    "server" : "103.149.182.191",
+    "server_port" : 8388,
+    "method" : "chacha20-ietf",
+    "password" : "asd123456",
+    "multiplex" : {
+      "enabled" : true
     }
   }, {
     "type" : "vmess",
@@ -132,15 +107,18 @@
     }
   }, {
     "type" : "vmess",
-    "tag" : "🇳🇱_NL_荷兰->🇺🇸_US_美国",
-    "server" : "45.144.174.211",
-    "server_port" : 22107,
-    "uuid" : "ca840767-e6c3-4149-bcf1-c5c61e450bcc",
+    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国_1",
+    "server" : "v29.heduian.link",
+    "server_port" : 30829,
+    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
     "security" : "auto",
-    "alter_id" : 0,
+    "alter_id" : 2,
     "transport" : {
       "type" : "ws",
-      "path" : "/"
+      "path" : "/oooo",
+      "headers" : {
+        "host" : "ocbc.com"
+      }
     }
   }, {
     "type" : "direct",
