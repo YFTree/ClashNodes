@@ -71,22 +71,51 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇨🇳_CN_中国" ],
+    "outbounds" : [ "url-test", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇮🇷_IR_伊朗->🇷🇺_RU_俄罗斯", "🇫🇷_FR_法国" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇨🇳_CN_中国" ],
+    "outbounds" : [ "🇨🇳_CN_中国->🇺🇸_US_美国", "🇮🇷_IR_伊朗->🇷🇺_RU_俄罗斯", "🇫🇷_FR_法国" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
+    "type" : "vmess",
+    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
+    "server" : "v33.heduian.link",
+    "server_port" : 30833,
+    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+    "security" : "auto",
+    "alter_id" : 2,
+    "transport" : {
+      "type" : "ws",
+      "path" : "/oooo",
+      "headers" : {
+        "host" : "v33.heduian.link"
+      }
+    }
+  }, {
     "type" : "vless",
-    "tag" : "🇨🇳_CN_中国",
-    "server" : "89.44.242.222",
-    "server_port" : 46822,
-    "uuid" : "44aded6c-a012-452b-8e13-04d5f15a659f",
+    "tag" : "🇮🇷_IR_伊朗->🇷🇺_RU_俄罗斯",
+    "server" : "makevaslim.hulkirani.shop",
+    "server_port" : 6003,
+    "uuid" : "ff7274b2-6207-45b9-abe5-5e1e60e729f1",
     "tls" : {
+      "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/iman?ed=2048"
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇫🇷_FR_法国",
+    "server" : "15.237.179.114",
+    "server_port" : 443,
+    "method" : "aes-256-cfb",
+    "password" : "amazonskr05",
+    "multiplex" : {
       "enabled" : true
     }
   }, {
