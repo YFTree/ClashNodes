@@ -71,20 +71,39 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇮🇷_IR_伊朗->🇷🇺_RU_俄罗斯", "🇫🇷_FR_法国" ],
+    "outbounds" : [ "url-test", "🇳🇱_NL_荷兰", "🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国_1" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇨🇳_CN_中国->🇺🇸_US_美国", "🇮🇷_IR_伊朗->🇷🇺_RU_俄罗斯", "🇫🇷_FR_法国" ],
+    "outbounds" : [ "🇳🇱_NL_荷兰", "🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国_1" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
+    "type" : "trojan",
+    "tag" : "🇳🇱_NL_荷兰",
+    "server" : "45.91.171.116",
+    "server_port" : 443,
+    "password" : "2ee85121-31de-4581-a492-eb00f606e392",
+    "tls" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇺🇸_US_美国",
+    "server" : "77.83.245.190",
+    "server_port" : 443,
+    "method" : "chacha20-ietf-poly1305",
+    "password" : "haQpIdcLwwtb",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
     "type" : "vmess",
     "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
-    "server" : "v33.heduian.link",
-    "server_port" : 30833,
+    "server" : "v29.heduian.link",
+    "server_port" : 30829,
     "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
     "security" : "auto",
     "alter_id" : 2,
@@ -92,29 +111,16 @@
       "type" : "ws",
       "path" : "/oooo",
       "headers" : {
-        "host" : "v33.heduian.link"
+        "host" : "ocbc.com"
       }
     }
   }, {
-    "type" : "vless",
-    "tag" : "🇮🇷_IR_伊朗->🇷🇺_RU_俄罗斯",
-    "server" : "makevaslim.hulkirani.shop",
-    "server_port" : 6003,
-    "uuid" : "ff7274b2-6207-45b9-abe5-5e1e60e729f1",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/iman?ed=2048"
-    }
-  }, {
     "type" : "shadowsocks",
-    "tag" : "🇫🇷_FR_法国",
-    "server" : "15.237.179.114",
-    "server_port" : 443,
-    "method" : "aes-256-cfb",
-    "password" : "amazonskr05",
+    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国_1",
+    "server" : "japan001.tmdns-sing.top",
+    "server_port" : 13890,
+    "method" : "aes-128-gcm",
+    "password" : "6b1e5475-7661-4921-aa26-d11758b2f3f1",
     "multiplex" : {
       "enabled" : true
     }
