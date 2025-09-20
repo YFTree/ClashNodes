@@ -71,101 +71,20 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇮🇷_IR_伊朗", "🇳🇱_NL_荷兰->🇺🇸_US_美国", "🇺🇸_US_美国", "🇲🇩_MD_摩尔多瓦->🇸🇦_SA_沙特阿拉伯", "🇷🇺_RU_俄罗斯", "🇸🇦_SA_沙特阿拉伯", "🇲🇩_MD_摩尔多瓦", "🇸🇪_SE_瑞典", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇬🇧_GB_英国->🇫🇷_FR_法国", "🇮🇷_IR_伊朗->🇺🇸_US_美国", "🇫🇷_FR_法国" ],
+    "outbounds" : [ "url-test", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇮🇷_IR_伊朗->🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国_1", "🇨🇳_CN_中国->🇺🇸_US_美国_2" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇮🇷_IR_伊朗", "🇳🇱_NL_荷兰->🇺🇸_US_美国", "🇺🇸_US_美国", "🇲🇩_MD_摩尔多瓦->🇸🇦_SA_沙特阿拉伯", "🇷🇺_RU_俄罗斯", "🇸🇦_SA_沙特阿拉伯", "🇲🇩_MD_摩尔多瓦", "🇸🇪_SE_瑞典", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇬🇧_GB_英国->🇫🇷_FR_法国", "🇮🇷_IR_伊朗->🇺🇸_US_美国", "🇫🇷_FR_法国" ],
+    "outbounds" : [ "🇨🇳_CN_中国->🇺🇸_US_美国", "🇮🇷_IR_伊朗->🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国_1", "🇨🇳_CN_中国->🇺🇸_US_美国_2" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
-    "type" : "vless",
-    "tag" : "🇮🇷_IR_伊朗",
-    "server" : "f.paliss.ir",
-    "server_port" : 2525,
-    "uuid" : "36c77123-8cbf-4604-931e-cfba4dba89c6",
-    "tls" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "vmess",
-    "tag" : "🇳🇱_NL_荷兰->🇺🇸_US_美国",
-    "server" : "45.144.174.211",
-    "server_port" : 25150,
-    "uuid" : "61f90f6b-c471-43d6-9e18-6cb4b4a46a86",
-    "security" : "auto",
-    "alter_id" : 0,
-    "transport" : {
-      "type" : "ws",
-      "path" : "/"
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国",
-    "server" : "38.54.57.90",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇲🇩_MD_摩尔多瓦->🇸🇦_SA_沙特阿拉伯",
-    "server" : "185.153.197.5",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇷🇺_RU_俄罗斯",
-    "server" : "95.163.176.37",
-    "server_port" : 8506,
-    "method" : "chacha20-ietf-poly1305",
-    "password" : "eUh4lSpi7nOYj0vSrqLUh0",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇸🇦_SA_沙特阿拉伯",
-    "server" : "77.110.110.117",
-    "server_port" : 443,
-    "method" : "chacha20-ietf-poly1305",
-    "password" : "9JeYy8SkViXuSHVs9GFeSe",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇲🇩_MD_摩尔多瓦",
-    "server" : "91.132.94.200",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇸🇪_SE_瑞典",
-    "server" : "192.71.166.100",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
     "type" : "vmess",
     "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
-    "server" : "v29.heduian.link",
-    "server_port" : 30829,
+    "server" : "v35.heduian.link",
+    "server_port" : 30835,
     "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
     "security" : "auto",
     "alter_id" : 2,
@@ -173,18 +92,8 @@
       "type" : "ws",
       "path" : "/oooo",
       "headers" : {
-        "host" : "ocbc.com"
+        "host" : "v35.heduian.link"
       }
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇬🇧_GB_英国->🇫🇷_FR_法国",
-    "server" : "51.15.23.63",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
     }
   }, {
     "type" : "vless",
@@ -196,13 +105,34 @@
       "enabled" : true
     }
   }, {
-    "type" : "vless",
-    "tag" : "🇫🇷_FR_法国",
-    "server" : "f.vcheat.ir",
-    "server_port" : 2530,
-    "uuid" : "36c77123-8cbf-4604-931e-cfba4dba89c6",
-    "tls" : {
-      "enabled" : true
+    "type" : "vmess",
+    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国_1",
+    "server" : "v24.heduian.link",
+    "server_port" : 30824,
+    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+    "security" : "auto",
+    "alter_id" : 2,
+    "transport" : {
+      "type" : "ws",
+      "path" : "/oooo",
+      "headers" : {
+        "host" : "v24.heduian.link"
+      }
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国_2",
+    "server" : "v29.heduian.link",
+    "server_port" : 30829,
+    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+    "security" : "auto",
+    "alter_id" : 2,
+    "transport" : {
+      "type" : "ws",
+      "path" : "/oooo",
+      "headers" : {
+        "host" : "ocbc.com"
+      }
     }
   }, {
     "type" : "direct",
