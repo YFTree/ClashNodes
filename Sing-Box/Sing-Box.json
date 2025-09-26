@@ -71,41 +71,15 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇺🇸_US_美国->🇩🇪_DE_德国", "🇬🇧_GB_英国", "🇬🇧_GB_英国_1", "🇩🇪_DE_德国", "🇺🇸_US_美国" ],
+    "outbounds" : [ "url-test", "🇬🇧_GB_英国_1", "🇮🇳_IN_印度", "🇬🇧_GB_英国->🇨🇳_CN_中国", "🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知", "🇮🇸_IS_冰岛" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇺🇸_US_美国->🇩🇪_DE_德国", "🇬🇧_GB_英国", "🇬🇧_GB_英国_1", "🇩🇪_DE_德国", "🇺🇸_US_美国" ],
+    "outbounds" : [ "🇬🇧_GB_英国_1", "🇮🇳_IN_印度", "🇬🇧_GB_英国->🇨🇳_CN_中国", "🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知", "🇮🇸_IS_冰岛" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
-  }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国->🇩🇪_DE_德国",
-    "server" : "cafearz.com",
-    "server_port" : 8080,
-    "uuid" : "4182c59d-3b09-4bc9-ef7a-71e5628749e8",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/olem/ws?ed=1024/?Join----JKVPN---Join----JKVPN----Join----JKVPN----Join----JKVPN",
-      "headers" : {
-        "host" : "shad.ir.de.test.digicyber.click."
-      }
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇬🇧_GB_英国",
-    "server" : "51.15.17.169",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
-    }
   }, {
     "type" : "shadowsocks",
     "tag" : "🇬🇧_GB_英国_1",
@@ -118,8 +92,8 @@
     }
   }, {
     "type" : "shadowsocks",
-    "tag" : "🇩🇪_DE_德国",
-    "server" : "46.183.184.60",
+    "tag" : "🇮🇳_IN_印度",
+    "server" : "134.209.147.198",
     "server_port" : 989,
     "method" : "aes-256-cfb",
     "password" : "f8f7aCzcPKbsF8p3",
@@ -128,8 +102,28 @@
     }
   }, {
     "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国",
-    "server" : "38.165.233.93",
+    "tag" : "🇬🇧_GB_英国->🇨🇳_CN_中国",
+    "server" : "51.15.17.169",
+    "server_port" : 989,
+    "method" : "aes-256-cfb",
+    "password" : "f8f7aCzcPKbsF8p3",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知",
+    "server" : "156.146.40.194",
+    "server_port" : 989,
+    "method" : "aes-256-cfb",
+    "password" : "f8f7aCzcPKbsF8p3",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇮🇸_IS_冰岛",
+    "server" : "37.235.49.168",
     "server_port" : 989,
     "method" : "aes-256-cfb",
     "password" : "f8f7aCzcPKbsF8p3",
