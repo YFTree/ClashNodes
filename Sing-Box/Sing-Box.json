@@ -71,61 +71,50 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇨🇳_CN_中国", "🇨🇳_CN_中国_1", "🇮🇳_IN_印度", "🇺🇸_US_美国", "🇨🇳_CN_中国_2" ],
+    "outbounds" : [ "url-test", "🇮🇷_IR_伊朗", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇺🇸_US_美国" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇨🇳_CN_中国", "🇨🇳_CN_中国_1", "🇮🇳_IN_印度", "🇺🇸_US_美国", "🇨🇳_CN_中国_2" ],
+    "outbounds" : [ "🇮🇷_IR_伊朗", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇺🇸_US_美国" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
     "type" : "vless",
-    "tag" : "🇨🇳_CN_中国",
-    "server" : "89.44.242.222",
-    "server_port" : 29500,
-    "uuid" : "888a20e2-fc3f-4f52-973c-36a6386225b8",
+    "tag" : "🇮🇷_IR_伊朗",
+    "server" : "46.62.156.154",
+    "server_port" : 59594,
+    "uuid" : "c5bcf3fb-eb77-4472-8750-55b56efef262",
     "tls" : {
       "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws"
     }
   }, {
-    "type" : "vless",
-    "tag" : "🇨🇳_CN_中国_1",
-    "server" : "89.44.242.222",
-    "server_port" : 46822,
-    "uuid" : "44aded6c-a012-452b-8e13-04d5f15a659f",
-    "tls" : {
-      "enabled" : true
+    "type" : "vmess",
+    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
+    "server" : "v29.heduian.link",
+    "server_port" : 30829,
+    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+    "security" : "auto",
+    "alter_id" : 2,
+    "transport" : {
+      "type" : "ws",
+      "path" : "/oooo",
+      "headers" : {
+        "host" : "v29.heduian.link"
+      }
     }
   }, {
-    "type" : "shadowsocks",
-    "tag" : "🇮🇳_IN_印度",
-    "server" : "134.209.147.198",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "vless",
+    "type" : "vmess",
     "tag" : "🇺🇸_US_美国",
-    "server" : "13.51.116.59",
-    "server_port" : 57482,
-    "uuid" : "3b1c02ea-342a-4e72-d5f9-a041415ae2df",
-    "tls" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇨🇳_CN_中国_2",
-    "server" : "89.44.242.222",
-    "server_port" : 29495,
-    "uuid" : "4a0e3cf3-4a10-4a38-bba4-b17b592a0d2b",
-    "tls" : {
-      "enabled" : true
-    }
+    "server" : "216.132.112.116",
+    "server_port" : 30475,
+    "uuid" : "defa10be-f618-4b64-c815-049d2eacbd3f",
+    "security" : "auto",
+    "alter_id" : 0
   }, {
     "type" : "direct",
     "tag" : "direct"
