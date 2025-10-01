@@ -71,15 +71,48 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇮🇷_IR_伊朗", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇺🇸_US_美国" ],
+    "outbounds" : [ "url-test", "🇺🇸_US_美国", "🇺🇸_US_美国_1", "🇨🇳_CN_中国->🏳️_unKnow_未知", "🇮🇷_IR_伊朗", "🇺🇸_US_美国_2", "未知" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇮🇷_IR_伊朗", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇺🇸_US_美国" ],
+    "outbounds" : [ "🇺🇸_US_美国", "🇺🇸_US_美国_1", "🇨🇳_CN_中国->🏳️_unKnow_未知", "🇮🇷_IR_伊朗", "🇺🇸_US_美国_2", "未知" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇺🇸_US_美国",
+    "server" : "38.54.57.90",
+    "server_port" : 989,
+    "method" : "aes-256-cfb",
+    "password" : "f8f7aCzcPKbsF8p3",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "🇺🇸_US_美国_1",
+    "server" : "94.131.111.195",
+    "server_port" : 444,
+    "uuid" : "8bbd9d8c-481b-49b6-8029-e4648f2ea31d",
+    "security" : "auto",
+    "alter_id" : 0
+  }, {
+    "type" : "vmess",
+    "tag" : "🇨🇳_CN_中国->🏳️_unKnow_未知",
+    "server" : "v8.heduian.link",
+    "server_port" : 30808,
+    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+    "security" : "auto",
+    "alter_id" : 2,
+    "transport" : {
+      "type" : "ws",
+      "path" : "/oooo",
+      "headers" : {
+        "host" : "v8.heduian.link"
+      }
+    }
   }, {
     "type" : "vless",
     "tag" : "🇮🇷_IR_伊朗",
@@ -93,28 +126,31 @@
       "type" : "ws"
     }
   }, {
-    "type" : "vmess",
-    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
-    "server" : "v29.heduian.link",
-    "server_port" : 30829,
-    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-    "security" : "auto",
-    "alter_id" : 2,
-    "transport" : {
-      "type" : "ws",
-      "path" : "/oooo",
-      "headers" : {
-        "host" : "v29.heduian.link"
-      }
+    "type" : "shadowsocks",
+    "tag" : "🇺🇸_US_美国_2",
+    "server" : "104.192.226.106",
+    "server_port" : 989,
+    "method" : "aes-256-cfb",
+    "password" : "f8f7aCzcPKbsF8p3",
+    "multiplex" : {
+      "enabled" : true
     }
   }, {
-    "type" : "vmess",
-    "tag" : "🇺🇸_US_美国",
-    "server" : "216.132.112.116",
-    "server_port" : 30475,
-    "uuid" : "defa10be-f618-4b64-c815-049d2eacbd3f",
-    "security" : "auto",
-    "alter_id" : 0
+    "type" : "vless",
+    "tag" : "未知",
+    "server" : "Evay_vpn.fastly80.hosting-ip.com",
+    "server_port" : 80,
+    "uuid" : "951678f1-b5b2-411a-858a-7d53cc613581",
+    "tls" : {
+      "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/admin?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn?ed=2048",
+      "headers" : {
+        "host" : "Gn8656.io"
+      }
+    }
   }, {
     "type" : "direct",
     "tag" : "direct"
