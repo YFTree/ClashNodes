@@ -71,68 +71,19 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇨🇳_CN_中国", "🇺🇸_US_美国->🇬🇧_GB_英国", "🇨🇳_CN_中国_1", "🇺🇸_US_美国", "未知", "🇬🇧_GB_英国", "🇨🇳_CN_中国_2", "🇨🇳_CN_中国_3", "🇺🇸_US_美国->🇬🇧_GB_英国_1", "未知_1", "🇸🇰_SK_斯洛伐克->🇷🇺_RU_俄罗斯", "🇸🇪_SE_瑞典" ],
+    "outbounds" : [ "url-test", "未知", "🇷🇺_RU_俄罗斯", "🇺🇸_US_美国->🇷🇺_RU_俄罗斯" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇨🇳_CN_中国", "🇺🇸_US_美国->🇬🇧_GB_英国", "🇨🇳_CN_中国_1", "🇺🇸_US_美国", "未知", "🇬🇧_GB_英国", "🇨🇳_CN_中国_2", "🇨🇳_CN_中国_3", "🇺🇸_US_美国->🇬🇧_GB_英国_1", "未知_1", "🇸🇰_SK_斯洛伐克->🇷🇺_RU_俄罗斯", "🇸🇪_SE_瑞典" ],
+    "outbounds" : [ "未知", "🇷🇺_RU_俄罗斯", "🇺🇸_US_美国->🇷🇺_RU_俄罗斯" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
-    "type" : "vless",
-    "tag" : "🇨🇳_CN_中国",
-    "server" : "89.44.242.222",
-    "server_port" : 46822,
-    "uuid" : "44aded6c-a012-452b-8e13-04d5f15a659f",
-    "tls" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国->🇬🇧_GB_英国",
-    "server" : "172.66.156.81",
-    "server_port" : 80,
-    "uuid" : "64d6d0d4-3706-4837-b154-cda2816adcc5",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/",
-      "headers" : {
-        "host" : "crazy-identity.oneeat.co"
-      }
-    }
-  }, {
-    "type" : "vmess",
-    "tag" : "🇨🇳_CN_中国_1",
-    "server" : "v29.heduian.link",
-    "server_port" : 30829,
-    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-    "security" : "auto",
-    "alter_id" : 2,
-    "transport" : {
-      "type" : "ws",
-      "path" : "/oooo",
-      "headers" : {
-        "host" : "ocbc.com"
-      }
-    }
-  }, {
-    "type" : "trojan",
-    "tag" : "🇺🇸_US_美国",
-    "server" : "uk-03.allhubb.info",
-    "server_port" : 8443,
-    "password" : "1ce1df7962f71c6f",
-    "tls" : {
-      "enabled" : true
-    }
-  }, {
     "type" : "shadowsocks",
     "tag" : "未知",
-    "server" : "103.186.154.70",
+    "server" : "103.186.154.229",
     "server_port" : 38388,
     "method" : "aes-256-cfb",
     "password" : "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV",
@@ -141,8 +92,8 @@
     }
   }, {
     "type" : "shadowsocks",
-    "tag" : "🇬🇧_GB_英国",
-    "server" : "62.100.205.48",
+    "tag" : "🇷🇺_RU_俄罗斯",
+    "server" : "185.231.233.112",
     "server_port" : 989,
     "method" : "aes-256-cfb",
     "password" : "f8f7aCzcPKbsF8p3",
@@ -151,67 +102,19 @@
     }
   }, {
     "type" : "vless",
-    "tag" : "🇨🇳_CN_中国_2",
-    "server" : "89.44.242.222",
-    "server_port" : 29495,
-    "uuid" : "4a0e3cf3-4a10-4a38-bba4-b17b592a0d2b",
-    "tls" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇨🇳_CN_中国_3",
-    "server" : "89.44.242.222",
-    "server_port" : 29500,
-    "uuid" : "888a20e2-fc3f-4f52-973c-36a6386225b8",
-    "tls" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国->🇬🇧_GB_英国_1",
-    "server" : "104.20.43.81",
-    "server_port" : 80,
-    "uuid" : "64d6d0d4-3706-4837-b154-cda2816adcc5",
+    "tag" : "🇺🇸_US_美国->🇷🇺_RU_俄罗斯",
+    "server" : "www.speedtest.net",
+    "server_port" : 8880,
+    "uuid" : "1BYA--KANAL--JKVPN-JKVPN",
     "tls" : {
       "enabled" : true
     },
     "transport" : {
       "type" : "ws",
-      "path" : "/",
+      "path" : "/TELEGRAM-@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN?ed=2048",
       "headers" : {
-        "host" : "crazy-identity.oneeat.co"
+        "host" : "jokervip.ahang-alpha.iR"
       }
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "未知_1",
-    "server" : "103.186.154.230",
-    "server_port" : 38388,
-    "method" : "aes-256-cfb",
-    "password" : "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇸🇰_SK_斯洛伐克->🇷🇺_RU_俄罗斯",
-    "server" : "156.146.40.194",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇸🇪_SE_瑞典",
-    "server" : "192.71.166.100",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
     }
   }, {
     "type" : "direct",
