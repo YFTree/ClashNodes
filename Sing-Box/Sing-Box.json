@@ -71,20 +71,20 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇨🇳_CN_中国->🇺🇸_US_美国", "未知", "未知_1", "🇮🇷_IR_伊朗", "🇺🇸_US_美国->🇨🇳_CN_中国", "🇲🇩_MD_摩尔多瓦", "未知_2", "未知_3", "🇺🇸_US_美国->🏳️_unKnow_未知", "🇩🇪_DE_德国", "未知_4", "🇮🇳_IN_印度" ],
+    "outbounds" : [ "url-test", "🇨🇳_CN_中国->🇺🇸_US_美国", "未知", "未知_1", "🇺🇸_US_美国->🇮🇷_IR_伊朗", "🇮🇹_IT_意大利->🇺🇸_US_美国", "未知_2", "🇮🇷_IR_伊朗", "未知_3", "🇩🇪_DE_德国", "🇨🇳_CN_中国->🇺🇸_US_美国_1", "🇮🇳_IN_印度", "未知_4" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇨🇳_CN_中国->🇺🇸_US_美国", "未知", "未知_1", "🇮🇷_IR_伊朗", "🇺🇸_US_美国->🇨🇳_CN_中国", "🇲🇩_MD_摩尔多瓦", "未知_2", "未知_3", "🇺🇸_US_美国->🏳️_unKnow_未知", "🇩🇪_DE_德国", "未知_4", "🇮🇳_IN_印度" ],
+    "outbounds" : [ "🇨🇳_CN_中国->🇺🇸_US_美国", "未知", "未知_1", "🇺🇸_US_美国->🇮🇷_IR_伊朗", "🇮🇹_IT_意大利->🇺🇸_US_美国", "未知_2", "🇮🇷_IR_伊朗", "未知_3", "🇩🇪_DE_德国", "🇨🇳_CN_中国->🇺🇸_US_美国_1", "🇮🇳_IN_印度", "未知_4" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
     "type" : "vmess",
     "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
-    "server" : "v29.heduian.link",
-    "server_port" : 30829,
+    "server" : "v8.heduian.link",
+    "server_port" : 30808,
     "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
     "security" : "auto",
     "alter_id" : 2,
@@ -92,13 +92,13 @@
       "type" : "ws",
       "path" : "/oooo",
       "headers" : {
-        "host" : "ocbc.com"
+        "host" : "v8.heduian.link"
       }
     }
   }, {
     "type" : "shadowsocks",
     "tag" : "未知",
-    "server" : "103.186.154.72",
+    "server" : "103.186.154.166",
     "server_port" : 38388,
     "method" : "aes-256-cfb",
     "password" : "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV",
@@ -108,7 +108,38 @@
   }, {
     "type" : "shadowsocks",
     "tag" : "未知_1",
-    "server" : "103.186.154.79",
+    "server" : "103.186.154.150",
+    "server_port" : 38388,
+    "method" : "aes-256-cfb",
+    "password" : "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "trojan",
+    "tag" : "🇺🇸_US_美国->🇮🇷_IR_伊朗",
+    "server" : "creativecommons.org",
+    "server_port" : 2053,
+    "password" : "YwuvGJk36B",
+    "tls" : {
+      "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/yamtekodasayahhh"
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "🇮🇹_IT_意大利->🇺🇸_US_美国",
+    "server" : "31.14.142.189",
+    "server_port" : 28927,
+    "uuid" : "46b16e33-97eb-4334-f632-072cbd4e6d86",
+    "security" : "auto",
+    "alter_id" : 0
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "未知_2",
+    "server" : "103.186.154.146",
     "server_port" : 38388,
     "method" : "aes-256-cfb",
     "password" : "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV",
@@ -129,81 +160,43 @@
     }
   }, {
     "type" : "vless",
-    "tag" : "🇺🇸_US_美国->🇨🇳_CN_中国",
-    "server" : "172.66.156.81",
-    "server_port" : 80,
-    "uuid" : "21e4f058-6d25-4f5b-a49f-1d6470c8e4bb",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
-      "headers" : {
-        "host" : "websocket.network.www.speedtest.net.flutter.dev.russia.python.vegaskala.com."
-      }
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇲🇩_MD_摩尔多瓦",
-    "server" : "91.132.94.200",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "未知_2",
-    "server" : "103.186.154.146",
-    "server_port" : 38388,
-    "method" : "aes-256-cfb",
-    "password" : "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
     "tag" : "未知_3",
-    "server" : "103.186.154.76",
-    "server_port" : 38388,
-    "method" : "aes-256-cfb",
-    "password" : "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "trojan",
-    "tag" : "🇺🇸_US_美国->🏳️_unKnow_未知",
-    "server" : "creativecommons.org",
-    "server_port" : 2053,
-    "password" : "YwuvGJk36B",
+    "server" : "138.199.219.74",
+    "server_port" : 443,
+    "uuid" : "9a04ee08-59f3-4de9-8424-6b32f06fbc68",
     "tls" : {
       "enabled" : true
     },
     "transport" : {
       "type" : "ws",
-      "path" : "/yamtekodasayahhh"
+      "path" : "/linkws?ed",
+      "headers" : {
+        "host" : "138.199.219.74"
+      }
     }
   }, {
     "type" : "vless",
     "tag" : "🇩🇪_DE_德国",
-    "server" : "49.13.62.117",
-    "server_port" : 42671,
-    "uuid" : "446bd463-4427-49a0-b13c-326b7a97f08d",
+    "server" : "93.127.180.102",
+    "server_port" : 8880,
+    "uuid" : "6889a1d2-fb40-4fe6-ba30-8ff731799394",
     "tls" : {
       "enabled" : true
     }
   }, {
-    "type" : "shadowsocks",
-    "tag" : "未知_4",
-    "server" : "103.186.154.77",
-    "server_port" : 38388,
-    "method" : "aes-256-cfb",
-    "password" : "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV",
-    "multiplex" : {
-      "enabled" : true
+    "type" : "vmess",
+    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国_1",
+    "server" : "v29.heduian.link",
+    "server_port" : 30829,
+    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+    "security" : "auto",
+    "alter_id" : 2,
+    "transport" : {
+      "type" : "ws",
+      "path" : "/oooo",
+      "headers" : {
+        "host" : "ocbc.com"
+      }
     }
   }, {
     "type" : "shadowsocks",
@@ -212,6 +205,16 @@
     "server_port" : 989,
     "method" : "aes-256-cfb",
     "password" : "f8f7aCzcPKbsF8p3",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "未知_4",
+    "server" : "103.186.154.162",
+    "server_port" : 38388,
+    "method" : "aes-256-cfb",
+    "password" : "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV",
     "multiplex" : {
       "enabled" : true
     }
