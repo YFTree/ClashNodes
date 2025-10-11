@@ -71,36 +71,28 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇮🇷_IR_伊朗", "🇳🇱_NL_荷兰", "未知", "🇨🇳_CN_中国", "🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇺🇸_US_美国->🇫🇷_FR_法国", "🇬🇧_GB_英国->🇭🇺_HU_匈牙利", "🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯", "🇨🇳_CN_中国->🇮🇳_IN_印度", "🇺🇸_US_美国_1" ],
+    "outbounds" : [ "url-test", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国_1", "🇲🇩_MD_摩尔多瓦", "🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯", "🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国_2", "🇺🇸_US_美国->🇳🇱_NL_荷兰", "🇮🇸_IS_冰岛", "🇺🇸_US_美国_1", "未知", "🇬🇧_GB_英国->🇮🇶_IQ_伊拉克" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇮🇷_IR_伊朗", "🇳🇱_NL_荷兰", "未知", "🇨🇳_CN_中国", "🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇺🇸_US_美国->🇫🇷_FR_法国", "🇬🇧_GB_英国->🇭🇺_HU_匈牙利", "🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯", "🇨🇳_CN_中国->🇮🇳_IN_印度", "🇺🇸_US_美国_1" ],
+    "outbounds" : [ "🇨🇳_CN_中国->🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国_1", "🇲🇩_MD_摩尔多瓦", "🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯", "🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国_2", "🇺🇸_US_美国->🇳🇱_NL_荷兰", "🇮🇸_IS_冰岛", "🇺🇸_US_美国_1", "未知", "🇬🇧_GB_英国->🇮🇶_IQ_伊拉克" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
-    "type" : "vless",
-    "tag" : "🇮🇷_IR_伊朗",
-    "server" : "91.99.166.94",
-    "server_port" : 666,
-    "uuid" : "812de504-f6a7-44a4-b322-2750954d4782",
+    "type" : "trojan",
+    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
+    "server" : "36.156.102.84",
+    "server_port" : 1572,
+    "password" : "253bc477d4e43c209f2d427272968280",
     "tls" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇳🇱_NL_荷兰",
-    "server" : "45.136.5.109",
-    "server_port" : 3030,
-    "uuid" : "6d9a7312-5021-40b0-9e2b-d08b6ef0d917",
-    "tls" : {
-      "enabled" : true
+      "enabled" : true,
+      "insecure" : false
     }
   }, {
     "type" : "vmess",
-    "tag" : "未知",
+    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国_1",
     "server" : "v29.heduian.link",
     "server_port" : 30829,
     "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
@@ -114,65 +106,9 @@
       }
     }
   }, {
-    "type" : "vmess",
-    "tag" : "🇨🇳_CN_中国",
-    "server" : "v5.heduian.link",
-    "server_port" : 30805,
-    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-    "security" : "auto",
-    "alter_id" : 2,
-    "transport" : {
-      "type" : "ws",
-      "path" : "/oooo",
-      "headers" : {
-        "host" : "v5.heduian.link"
-      }
-    }
-  }, {
     "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国",
-    "server" : "38.165.233.93",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "vmess",
-    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
-    "server" : "v8.heduian.link",
-    "server_port" : 30808,
-    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-    "security" : "auto",
-    "alter_id" : 2,
-    "transport" : {
-      "type" : "ws",
-      "path" : "/oooo",
-      "headers" : {
-        "host" : "v8.heduian.link"
-      }
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国->🇫🇷_FR_法国",
-    "server" : "mstr.fastly80.hosting-ip.com",
-    "server_port" : 80,
-    "uuid" : "857b7905-8b11-4987-994d-09bcbf7979df",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/admin",
-      "headers" : {
-        "host" : "Gn8656.io"
-      }
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇬🇧_GB_英国->🇭🇺_HU_匈牙利",
-    "server" : "51.15.23.63",
+    "tag" : "🇲🇩_MD_摩尔多瓦",
+    "server" : "91.132.94.200",
     "server_port" : 989,
     "method" : "aes-256-cfb",
     "password" : "f8f7aCzcPKbsF8p3",
@@ -190,16 +126,33 @@
       "enabled" : true
     }
   }, {
+    "type" : "shadowsocks",
+    "tag" : "🇺🇸_US_美国",
+    "server" : "38.165.233.93",
+    "server_port" : 989,
+    "method" : "aes-256-cfb",
+    "password" : "f8f7aCzcPKbsF8p3",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
     "type" : "vmess",
-    "tag" : "🇨🇳_CN_中国->🇮🇳_IN_印度",
-    "server" : "36.139.201.35",
-    "server_port" : 10002,
-    "uuid" : "8d717e5a-dab5-4b99-af4f-ea29ef8eebed",
+    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国_2",
+    "server" : "v8.heduian.link",
+    "server_port" : 30808,
+    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
     "security" : "auto",
-    "alter_id" : 0
+    "alter_id" : 2,
+    "transport" : {
+      "type" : "ws",
+      "path" : "/oooo",
+      "headers" : {
+        "host" : "v8.heduian.link"
+      }
+    }
   }, {
     "type" : "vless",
-    "tag" : "🇺🇸_US_美国_1",
+    "tag" : "🇺🇸_US_美国->🇳🇱_NL_荷兰",
     "server" : "65.109.208.115",
     "server_port" : 443,
     "uuid" : "557ae2a8-23bb-4386-b220-7387c4b2108f",
@@ -209,6 +162,51 @@
     "transport" : {
       "type" : "ws",
       "path" : "/fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip---fotonvip?ed=2048"
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇮🇸_IS_冰岛",
+    "server" : "37.235.49.152",
+    "server_port" : 989,
+    "method" : "aes-256-cfb",
+    "password" : "f8f7aCzcPKbsF8p3",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇺🇸_US_美国_1",
+    "server" : "38.54.57.90",
+    "server_port" : 989,
+    "method" : "aes-256-cfb",
+    "password" : "f8f7aCzcPKbsF8p3",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "未知",
+    "server" : "v5.heduian.link",
+    "server_port" : 30805,
+    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+    "security" : "auto",
+    "alter_id" : 2,
+    "transport" : {
+      "type" : "ws",
+      "path" : "/oooo",
+      "headers" : {
+        "host" : "v5.heduian.link"
+      }
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇬🇧_GB_英国->🇮🇶_IQ_伊拉克",
+    "server" : "51.15.23.63",
+    "server_port" : 989,
+    "method" : "aes-256-cfb",
+    "password" : "f8f7aCzcPKbsF8p3",
+    "multiplex" : {
+      "enabled" : true
     }
   }, {
     "type" : "direct",
