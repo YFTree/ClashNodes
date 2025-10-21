@@ -71,46 +71,99 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇩🇪_DE_德国", "🇨🇦_CA_加拿大" ],
+    "outbounds" : [ "url-test", "🇺🇸_US_美国", "🇺🇸_US_美国->🇨🇳_CN_中国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇺🇸_US_美国->🇬🇧_GB_英国", "🇪🇸_ES_西班牙->🇺🇸_US_美国", "🇳🇱_NL_荷兰" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇩🇪_DE_德国", "🇨🇦_CA_加拿大" ],
+    "outbounds" : [ "🇺🇸_US_美国", "🇺🇸_US_美国->🇨🇳_CN_中国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇺🇸_US_美国->🇬🇧_GB_英国", "🇪🇸_ES_西班牙->🇺🇸_US_美国", "🇳🇱_NL_荷兰" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
     "type" : "vless",
-    "tag" : "🇩🇪_DE_德国",
-    "server" : "157.180.123.25",
-    "server_port" : 443,
-    "uuid" : "638c1918-f6f0-4ecc-85e6-a3ac50ed9c02",
+    "tag" : "🇺🇸_US_美国",
+    "server" : "104.17.147.22",
+    "server_port" : 8080,
+    "uuid" : "Parsashonam-Bot-32",
     "tls" : {
       "enabled" : true
     },
     "transport" : {
       "type" : "ws",
-      "path" : "/linkws?ed=2560",
+      "path" : "/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056",
       "headers" : {
-        "host" : "157.180.123.25"
+        "host" : "Fi.Parsashonam.CfD."
       }
     }
   }, {
     "type" : "vless",
-    "tag" : "🇨🇦_CA_加拿大",
-    "server" : "51.79.30.198",
-    "server_port" : 443,
-    "uuid" : "246fa697-9bc6-4124-babe-b35b8b9c54c7",
+    "tag" : "🇺🇸_US_美国->🇨🇳_CN_中国",
+    "server" : "172.66.156.81",
+    "server_port" : 80,
+    "uuid" : "01cea818-a80b-4945-a883-f5164cde4ad3",
     "tls" : {
       "enabled" : true
     },
     "transport" : {
       "type" : "ws",
-      "path" : "/linkws?ed=2560",
+      "path" : "/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
       "headers" : {
-        "host" : "51.79.30.198"
+        "host" : "websocket.network.www.speedtest.net.flutter.dev.russia.pyt.vegaskala.com."
       }
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
+    "server" : "v29.heduian.link",
+    "server_port" : 30829,
+    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+    "security" : "auto",
+    "alter_id" : 2,
+    "transport" : {
+      "type" : "ws",
+      "path" : "/oooo",
+      "headers" : {
+        "host" : "ocbc.com"
+      }
+    }
+  }, {
+    "type" : "vless",
+    "tag" : "🇺🇸_US_美国->🇬🇧_GB_英国",
+    "server" : "104.17.147.22",
+    "server_port" : 8880,
+    "uuid" : "Parsashonam-Bot-32",
+    "tls" : {
+      "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056",
+      "headers" : {
+        "host" : "Fi.Parsashonam.CfD."
+      }
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "🇪🇸_ES_西班牙->🇺🇸_US_美国",
+    "server" : "212.192.15.176",
+    "server_port" : 25169,
+    "uuid" : "566bf452-a086-41f0-a474-d7ae067956ee",
+    "security" : "auto",
+    "alter_id" : 0,
+    "transport" : {
+      "type" : "ws",
+      "path" : "/"
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇳🇱_NL_荷兰",
+    "server" : "178.208.78.170",
+    "server_port" : 23822,
+    "method" : "chacha20-ietf-poly1305",
+    "password" : "6hWNCD6EzQuP3V2aEFURwS",
+    "multiplex" : {
+      "enabled" : true
     }
   }, {
     "type" : "direct",
