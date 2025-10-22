@@ -71,12 +71,12 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇺🇸_US_美国", "🇺🇸_US_美国->🇨🇳_CN_中国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇺🇸_US_美国->🇬🇧_GB_英国", "🇪🇸_ES_西班牙->🇺🇸_US_美国", "🇳🇱_NL_荷兰" ],
+    "outbounds" : [ "url-test", "🇺🇸_US_美国", "🇺🇸_US_美国->🇬🇧_GB_英国", "🇨🇳_CN_中国->🇯🇵_JP_日本", "🇺🇸_US_美国_1" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇺🇸_US_美国", "🇺🇸_US_美国->🇨🇳_CN_中国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇺🇸_US_美国->🇬🇧_GB_英国", "🇪🇸_ES_西班牙->🇺🇸_US_美国", "🇳🇱_NL_荷兰" ],
+    "outbounds" : [ "🇺🇸_US_美国", "🇺🇸_US_美国->🇬🇧_GB_英国", "🇨🇳_CN_中国->🇯🇵_JP_日本", "🇺🇸_US_美国_1" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
@@ -98,37 +98,6 @@
     }
   }, {
     "type" : "vless",
-    "tag" : "🇺🇸_US_美国->🇨🇳_CN_中国",
-    "server" : "172.66.156.81",
-    "server_port" : 80,
-    "uuid" : "01cea818-a80b-4945-a883-f5164cde4ad3",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
-      "headers" : {
-        "host" : "websocket.network.www.speedtest.net.flutter.dev.russia.pyt.vegaskala.com."
-      }
-    }
-  }, {
-    "type" : "vmess",
-    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
-    "server" : "v29.heduian.link",
-    "server_port" : 30829,
-    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-    "security" : "auto",
-    "alter_id" : 2,
-    "transport" : {
-      "type" : "ws",
-      "path" : "/oooo",
-      "headers" : {
-        "host" : "ocbc.com"
-      }
-    }
-  }, {
-    "type" : "vless",
     "tag" : "🇺🇸_US_美国->🇬🇧_GB_英国",
     "server" : "104.17.147.22",
     "server_port" : 8880,
@@ -144,24 +113,22 @@
       }
     }
   }, {
-    "type" : "vmess",
-    "tag" : "🇪🇸_ES_西班牙->🇺🇸_US_美国",
-    "server" : "212.192.15.176",
-    "server_port" : 25169,
-    "uuid" : "566bf452-a086-41f0-a474-d7ae067956ee",
-    "security" : "auto",
-    "alter_id" : 0,
-    "transport" : {
-      "type" : "ws",
-      "path" : "/"
+    "type" : "trojan",
+    "tag" : "🇨🇳_CN_中国->🇯🇵_JP_日本",
+    "server" : "36.156.102.115",
+    "server_port" : 26876,
+    "password" : "BxceQaOe",
+    "tls" : {
+      "enabled" : true,
+      "insecure" : true
     }
   }, {
     "type" : "shadowsocks",
-    "tag" : "🇳🇱_NL_荷兰",
-    "server" : "178.208.78.170",
-    "server_port" : 23822,
-    "method" : "chacha20-ietf-poly1305",
-    "password" : "6hWNCD6EzQuP3V2aEFURwS",
+    "tag" : "🇺🇸_US_美国_1",
+    "server" : "13.38.44.116",
+    "server_port" : 443,
+    "method" : "aes-256-cfb",
+    "password" : "amazonskr05",
     "multiplex" : {
       "enabled" : true
     }
