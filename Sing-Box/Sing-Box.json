@@ -71,30 +71,37 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇺🇸_US_美国", "🇺🇸_US_美国->🇬🇧_GB_英国", "🇨🇳_CN_中国->🇯🇵_JP_日本", "🇺🇸_US_美国_1" ],
+    "outbounds" : [ "url-test", "🇩🇪_DE_德国", "🇨🇳_CN_中国->🇯🇵_JP_日本", "🇺🇸_US_美国->🇬🇧_GB_英国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇷🇺_RU_俄罗斯", "🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇺🇸_US_美国", "🇺🇸_US_美国->🇬🇧_GB_英国", "🇨🇳_CN_中国->🇯🇵_JP_日本", "🇺🇸_US_美国_1" ],
+    "outbounds" : [ "🇩🇪_DE_德国", "🇨🇳_CN_中国->🇯🇵_JP_日本", "🇺🇸_US_美国->🇬🇧_GB_英国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇷🇺_RU_俄罗斯", "🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
     "type" : "vless",
-    "tag" : "🇺🇸_US_美国",
-    "server" : "104.17.147.22",
-    "server_port" : 8080,
-    "uuid" : "Parsashonam-Bot-32",
+    "tag" : "🇩🇪_DE_德国",
+    "server" : "sub.turboo-server.com.co",
+    "server_port" : 80,
+    "uuid" : "turboo-server",
     "tls" : {
       "enabled" : true
     },
     "transport" : {
       "type" : "ws",
-      "path" : "/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056",
-      "headers" : {
-        "host" : "Fi.Parsashonam.CfD."
-      }
+      "path" : "/"
+    }
+  }, {
+    "type" : "trojan",
+    "tag" : "🇨🇳_CN_中国->🇯🇵_JP_日本",
+    "server" : "36.156.102.115",
+    "server_port" : 26876,
+    "password" : "BxceQaOe",
+    "tls" : {
+      "enabled" : true,
+      "insecure" : true
     }
   }, {
     "type" : "vless",
@@ -113,22 +120,43 @@
       }
     }
   }, {
-    "type" : "trojan",
-    "tag" : "🇨🇳_CN_中国->🇯🇵_JP_日本",
-    "server" : "36.156.102.115",
-    "server_port" : 26876,
-    "password" : "BxceQaOe",
+    "type" : "vmess",
+    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
+    "server" : "v29.heduian.link",
+    "server_port" : 30829,
+    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+    "security" : "auto",
+    "alter_id" : 2,
+    "transport" : {
+      "type" : "ws",
+      "path" : "/oooo",
+      "headers" : {
+        "host" : "ocbc.com"
+      }
+    }
+  }, {
+    "type" : "vless",
+    "tag" : "🇷🇺_RU_俄罗斯",
+    "server" : "ne1.tunnelx.space",
+    "server_port" : 2087,
+    "uuid" : "6742388969-client-81f",
     "tls" : {
-      "enabled" : true,
-      "insecure" : true
+      "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/assets/img/banner_v3.webp/",
+      "headers" : {
+        "host" : "ws.ne1.tunnelx.space"
+      }
     }
   }, {
     "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_1",
-    "server" : "13.38.44.116",
-    "server_port" : 443,
+    "tag" : "🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯",
+    "server" : "185.153.197.5",
+    "server_port" : 989,
     "method" : "aes-256-cfb",
-    "password" : "amazonskr05",
+    "password" : "f8f7aCzcPKbsF8p3",
     "multiplex" : {
       "enabled" : true
     }
