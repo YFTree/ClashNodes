@@ -71,46 +71,66 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇩🇪_DE_德国", "🇨🇦_CA_加拿大" ],
+    "outbounds" : [ "url-test", "🇺🇸_US_美国", "🇺🇸_US_美国->🇬🇧_GB_英国", "🇨🇳_CN_中国->🇯🇵_JP_日本", "🇺🇸_US_美国_1" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇩🇪_DE_德国", "🇨🇦_CA_加拿大" ],
+    "outbounds" : [ "🇺🇸_US_美国", "🇺🇸_US_美国->🇬🇧_GB_英国", "🇨🇳_CN_中国->🇯🇵_JP_日本", "🇺🇸_US_美国_1" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
     "type" : "vless",
-    "tag" : "🇩🇪_DE_德国",
-    "server" : "157.180.123.25",
-    "server_port" : 443,
-    "uuid" : "638c1918-f6f0-4ecc-85e6-a3ac50ed9c02",
+    "tag" : "🇺🇸_US_美国",
+    "server" : "104.17.147.22",
+    "server_port" : 8080,
+    "uuid" : "Parsashonam-Bot-32",
     "tls" : {
       "enabled" : true
     },
     "transport" : {
       "type" : "ws",
-      "path" : "/linkws?ed=2560",
+      "path" : "/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056",
       "headers" : {
-        "host" : "157.180.123.25"
+        "host" : "Fi.Parsashonam.CfD."
       }
     }
   }, {
     "type" : "vless",
-    "tag" : "🇨🇦_CA_加拿大",
-    "server" : "51.79.30.198",
-    "server_port" : 443,
-    "uuid" : "246fa697-9bc6-4124-babe-b35b8b9c54c7",
+    "tag" : "🇺🇸_US_美国->🇬🇧_GB_英国",
+    "server" : "104.17.147.22",
+    "server_port" : 8880,
+    "uuid" : "Parsashonam-Bot-32",
     "tls" : {
       "enabled" : true
     },
     "transport" : {
       "type" : "ws",
-      "path" : "/linkws?ed=2560",
+      "path" : "/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056",
       "headers" : {
-        "host" : "51.79.30.198"
+        "host" : "Fi.Parsashonam.CfD."
       }
+    }
+  }, {
+    "type" : "trojan",
+    "tag" : "🇨🇳_CN_中国->🇯🇵_JP_日本",
+    "server" : "36.156.102.115",
+    "server_port" : 26876,
+    "password" : "BxceQaOe",
+    "tls" : {
+      "enabled" : true,
+      "insecure" : true
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇺🇸_US_美国_1",
+    "server" : "13.38.44.116",
+    "server_port" : 443,
+    "method" : "aes-256-cfb",
+    "password" : "amazonskr05",
+    "multiplex" : {
+      "enabled" : true
     }
   }, {
     "type" : "direct",
