@@ -6,10 +6,11 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: US美国, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
-  - {name: US美国 2, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
-  - {name: US美国 3, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
-  - {name: FR法国, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: FR法国 2, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 2, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
+  - {name: US美国 3, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
+  - {name: US美国 4, server: bestcdn1.868863.xyz, port: 80, type: vmess, uuid: f6eacf4f-1c3b-4423-be54-ff0e66a11bf1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /htehehehn, ws-headers: {Host: vn-c5.no.168382.xyz}, udp: true}
+  - {name: FR法国, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: FR法国 2, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
   - {name: FR法国 3, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -20,6 +21,7 @@ proxy-groups:
       - US美国
       - US美国 2
       - US美国 3
+      - US美国 4
       - FR法国
       - FR法国 2
       - FR法国 3
@@ -31,6 +33,7 @@ proxy-groups:
       - US美国
       - US美国 2
       - US美国 3
+      - US美国 4
       - FR法国
       - FR法国 2
       - FR法国 3
@@ -43,6 +46,7 @@ proxy-groups:
       - US美国
       - US美国 2
       - US美国 3
+      - US美国 4
       - FR法国
       - FR法国 2
       - FR法国 3
@@ -67,6 +71,7 @@ proxy-groups:
       - US美国
       - US美国 2
       - US美国 3
+      - US美国 4
       - FR法国
       - FR法国 2
       - FR法国 3
@@ -83,6 +88,7 @@ proxy-groups:
       - US美国
       - US美国 2
       - US美国 3
+      - US美国 4
       - FR法国
       - FR法国 2
       - FR法国 3
@@ -94,6 +100,7 @@ proxy-groups:
       - US美国
       - US美国 2
       - US美国 3
+      - US美国 4
       - FR法国
       - FR法国 2
       - FR法国 3
@@ -106,6 +113,7 @@ proxy-groups:
       - US美国
       - US美国 2
       - US美国 3
+      - US美国 4
       - FR法国
       - FR法国 2
       - FR法国 3
@@ -127,6 +135,7 @@ proxy-groups:
       - US美国
       - US美国 2
       - US美国 3
+      - US美国 4
       - FR法国
       - FR法国 2
       - FR法国 3
