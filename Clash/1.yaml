@@ -19,7 +19,6 @@ proxies:
   - {name: US美国 5, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
   - {name: HK香港 3, server: 43.247.134.213, port: 59516, type: vmess, uuid: 2906e19e-c99f-456e-bcb3-c5472fd594e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US美国 6, server: liubu9.singdns.com, port: 17459, type: ss, cipher: aes-128-gcm, password: 57bc0c04-8184-48f5-906b-897d095ed445, udp: true}
-  - {name: US美国/?ed=2560", ws-headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}, udp: true}
   - {name: HK香港 4, server: 210.16.183.120, port: 41047, type: ss, cipher: chacha20-ietf-poly1305, password: 014e90df-a3ee-4654-a9f6-d118e02dd02a, udp: true}
   - {name: HK香港 5, server: oss-cn-shanghai.letssepub.com, port: 20021, type: trojan, password: adbac894-90b9-4913-b77e-a715a8d4ebc8, sni: oss-cn-shanghai.letssepub.com, skip-cert-verify: true, udp: true}
   - {name: HK香港 6, server: 43.247.134.213, port: 59516, type: vmess, uuid: 2906e19e-c99f-456e-bcb3-c5472fd594e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
