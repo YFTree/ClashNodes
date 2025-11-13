@@ -58,140 +58,252 @@ tun:
 
 
 proxies:
+  - type: vmess
+    name: 解锁奈飞/TikTok/ChatGPT
+    server: n1744453320.lie5d.cyou
+    port: 443
+    uuid: 8889a08a-09f8-4c97-bed2-df31b62fcf23
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: n1744453320.lie5d.cyou
+    ws-opts:
+      path: /
+      headers:
+        Host: n1744453320.lie5d.cyou
+    tls: true
   - type: trojan
     name: 🇨🇳_CN_中国
-    server: 58.152.30.26
-    port: 443
+    server: 36.150.215.147
+    port: 4666
     password: BxceQaOe
     network: tcp
     sni: t.me/ripaojiedian
     skip-cert-verify: true
-  - type: tuic
-    name: 🇨🇳_CN_中国_1
-    server: hktuic01.yydzx.xyz
-    port: 12578
-    uuid: 4741863d-e3ac-4b9d-8185-466f437b3fa8
-    password: 4741863d-e3ac-4b9d-8185-466f437b3fa8
-    sni: hktuic01.yydzx.xyz
-    congestion-controller: bbr
-  - type: tuic
-    name: 🇨🇳_CN_中国_2
-    server: hktuic01.yydzx.xyz
-    port: 12955
-    uuid: 4741863d-e3ac-4b9d-8185-466f437b3fa8
-    password: 4741863d-e3ac-4b9d-8185-466f437b3fa8
-    sni: hktuic01.yydzx.xyz
-    congestion-controller: bbr
-  - type: hysteria2
-    name: 🇮🇷_IR_伊朗
-    server: mla1.maliaojc.top
-    port: 58330
-    password: eee402e8-1ef4-4638-bddc-671216cd0342
-    skip-cert-verify: true
-    sni: mla1.maliaojc.top
-  - type: hysteria2
+  - type: vless
     name: 🇺🇸_US_美国
-    server: 67e01b04-t3dk00-tcm6ys-deip.la.shifen.uk
-    port: 1743
-    password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
-  - type: hysteria2
-    name: 🇮🇷_IR_伊朗_1
-    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-    port: 54265
-    password: 9753590f-5720-4977-8592-2c8d64755228
-    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-  - type: hysteria2
+    server: 1760516058.tencentapp.cn
+    port: 443
+    uuid: 6911bb2c-a220-45a6-94fb-1ea8d9a1e94e
+    network: ws
+    servername: stall3.sni2026.netlib.re
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /proxyip=tw.soso.edu.kg:43
+      headers:
+        Host: stall3.sni2026.netlib.re
+    client-fingerprint: random
+    alpn:
+      - h3
+  - type: vless
     name: 🇺🇸_US_美国_1
-    server: ad87b9c7-t3b340-t3hjqp-b4pt.la.shifen.uk
-    port: 1743
-    password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-  - type: hysteria2
+    server: 38.47.122.75
+    port: 30005
+    uuid: 6911bb2c-a220-45a6-94fb-1ea8d9a1e94e
+    network: ws
+    servername: stall3.sni2026.netlib.re
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /proxyip=tw.soso.edu.kg:43
+      headers:
+        Host: stall3.sni2026.netlib.re
+    client-fingerprint: random
+    alpn:
+      - h3
+  - type: trojan
+    name: 🇨🇳_CN_中国_1
+    server: 36.150.215.246
+    port: 5156
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+  - type: vless
     name: 🇺🇸_US_美国_2
-    server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
-    port: 1743
-    password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-  - type: hysteria2
+    server: 8.35.211.250
+    port: 2083
+    uuid: 6911bb2c-a220-45a6-94fb-1ea8d9a1e94e
+    network: ws
+    servername: stall3.sni2026.netlib.re
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /proxyip=tw.soso.edu.kg:43
+      headers:
+        Host: stall3.sni2026.netlib.re
+    client-fingerprint: random
+    alpn:
+      - h3
+  - type: vless
+    name: 🇲🇩_MD_摩尔多瓦
+    server: pq.vmjp3.yydjc.top
+    port: 443
+    uuid: de81cf6b-0d2f-42be-ac60-a3b734216739
+    network: tcp
+    servername: iosapps.itunes.apple.com
+    tls: true
+    reality-opts:
+      public-key: pR8CV43xvSgvzSXPVLCVomjw-yZvNyqU32kietO2pEc
+      short-id: a6115a2c
+    client-fingerprint: ios
+    flow: xtls-rprx-vision
+  - type: vmess
+    name: 🇺🇸US²_1|5.1MB/s|47%|GPT⁺|YT-CN|TK|NF|X
+    server: yg1.ygkkk.dpdns.org
+    port: 443
+    uuid: c934d81c-bacb-4ff2-8780-da9668cd0fba
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: rn1.alwaysme.ggff.net
+    ws-opts:
+      path: /c934d81c-bacb-4ff2-8780-da9668cd0fba-vm?ed=2048
+      headers:
+        Host: rn1.alwaysme.ggff.net
+    tls: true
+  - type: vless
     name: 🇺🇸_US_美国_3
+    server: 172.64.144.19
+    port: 443
+    uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
+    network: ws
+    servername: ayanamirei.11160321.xyz
+    tls: true
+    ws-opts:
+      path: /socks5://test123:test123@122.10.144.6:1080/
+      headers:
+        Host: ayanamirei.11160321.xyz
+    client-fingerprint: randomized
+  - type: vless
+    name: 🇺🇸_US_美国_4
+    server: 23.185.168.144
+    port: 8602
+    uuid: 6911bb2c-a220-45a6-94fb-1ea8d9a1e94e
+    network: ws
+    servername: stall3.sni2026.netlib.re
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /proxyip=tw.soso.edu.kg:43
+      headers:
+        Host: stall3.sni2026.netlib.re
+    client-fingerprint: random
+    alpn:
+      - h3
+  - type: vless
+    name: 🇺🇸_US_美国_5
+    server: 172.66.156.81
+    port: 80
+    uuid: 91aa6fff-ef91-4f7b-9aac-e3b7cac44c83
+    network: ws
+    servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+    encryption: none
+    ws-opts:
+      path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+      headers:
+        Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+  - type: hysteria2
+    name: 🇺🇸_US_美国_6
     server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
     port: 1743
     password: 6286105c-fb6d-11ef-be96-f23c93136cb3
     sni: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
   - type: hysteria2
-    name: 🇺🇸_US_美国_4
-    server: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
+    name: 🇺🇸_US_美国_7
+    server: 70555517-t3bpc0-t9lxaa-1glq.la.shifen.uk
     port: 1743
-    password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
+    password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+    sni: 70555517-t3bpc0-t9lxaa-1glq.la.shifen.uk
+  - type: vless
+    name: 🇺🇸_US_美国_8
+    server: 172.67.133.33
+    port: 8443
+    uuid: e0976e35-a651-4f34-b5b1-c9ac9f75cb74
+    network: ws
+    servername: private.besttotaldns.com
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /J5aKLOY1R7ONXYCM
+      headers:
+        Host: private.besttotaldns.com
+  - type: vless
+    name: 🇺🇸_US_美国_9
+    server: 69.84.182.108
+    port: 443
+    uuid: de81cf6b-0d2f-42be-ac60-a3b734216739
+    network: ws
+    servername: pq-us4.globals-download.com
+    tls: true
+    ws-opts:
+      path: /pq/us4
+      headers:
+        Host: pq-us4.globals-download.com
+    client-fingerprint: chrome
+  - type: vless
+    name: 🇺🇸_US_美国_10
+    server: uuk2v.tok8888.com
+    port: 8443
+    uuid: 9132154a-95b8-4627-9363-9d078f1dbcfe
+    network: tcp
+    servername: businessmadesimple.com
+    tls: true
+    reality-opts:
+      public-key: GcOtIhZbkznrBYohK7rvjV0oVoQvC4y38VIExs6KUwA
+    client-fingerprint: ios
+    flow: xtls-rprx-vision
   - type: hysteria2
-    name: 🇺🇸_US_美国_5
-    server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
-    port: 1743
-    password: 94931862-1484-11f0-9ab7-f23c95b6f51d
-  - type: hysteria2
-    name: 🇺🇸_US_美国_6
-    server: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
-    port: 1743
-    password: 712bdc36-24be-11ee-be53-f23c9313b177
-    sni: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
-  - type: hysteria2
-    name: 🇮🇷_IR_伊朗_2
-    server: lsus2.lansecs.top
-    port: 58338
-    password: 191e2f99-c25d-4133-b635-e7f65142a4d2
+    name: 🇷🇺_RU_俄罗斯
+    server: ny.jueduibupao.top
+    port: 50001
+    password: f051d9ed-f74d-4438-b368-033d80f6ae45
     skip-cert-verify: true
-    sni: lsus2.lansecs.top
-  - type: hysteria2
-    name: 🇮🇷_IR_伊朗_3
-    server: tw1.qucloud.top
-    port: 58430
-    password: 47aa8032-ab15-419f-9ec8-fb91fab1ef1c
-    skip-cert-verify: true
-    sni: tw1.qucloud.top
-  - type: hysteria2
-    name: 🇮🇷_IR_伊朗_4
-    server: mla7.maliaojc.top
-    port: 58330
-    password: b7952dca-c2f4-415b-8cf9-e51ab03330fe
-    skip-cert-verify: true
-    sni: mla7.maliaojc.top
+    sni: ny.jueduibupao.top
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 解锁奈飞/TikTok/ChatGPT
       - 🇨🇳_CN_中国
-      - 🇨🇳_CN_中国_1
-      - 🇨🇳_CN_中国_2
-      - 🇮🇷_IR_伊朗
       - 🇺🇸_US_美国
-      - 🇮🇷_IR_伊朗_1
       - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国_1
       - 🇺🇸_US_美国_2
+      - 🇲🇩_MD_摩尔多瓦
+      - 🇺🇸US²_1|5.1MB/s|47%|GPT⁺|YT-CN|TK|NF|X
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇮🇷_IR_伊朗_2
-      - 🇮🇷_IR_伊朗_3
-      - 🇮🇷_IR_伊朗_4
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇷🇺_RU_俄罗斯
   - name: ♻️ 自动选择
     type: url-test
     proxies:
+      - 解锁奈飞/TikTok/ChatGPT
       - 🇨🇳_CN_中国
-      - 🇨🇳_CN_中国_1
-      - 🇨🇳_CN_中国_2
-      - 🇮🇷_IR_伊朗
       - 🇺🇸_US_美国
-      - 🇮🇷_IR_伊朗_1
       - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国_1
       - 🇺🇸_US_美国_2
+      - 🇲🇩_MD_摩尔多瓦
+      - 🇺🇸US²_1|5.1MB/s|47%|GPT⁺|YT-CN|TK|NF|X
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇮🇷_IR_伊朗_2
-      - 🇮🇷_IR_伊朗_3
-      - 🇮🇷_IR_伊朗_4
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇷🇺_RU_俄罗斯
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: 🎯 全球直连
@@ -211,21 +323,23 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 解锁奈飞/TikTok/ChatGPT
       - 🇨🇳_CN_中国
-      - 🇨🇳_CN_中国_1
-      - 🇨🇳_CN_中国_2
-      - 🇮🇷_IR_伊朗
       - 🇺🇸_US_美国
-      - 🇮🇷_IR_伊朗_1
       - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国_1
       - 🇺🇸_US_美国_2
+      - 🇲🇩_MD_摩尔多瓦
+      - 🇺🇸US²_1|5.1MB/s|47%|GPT⁺|YT-CN|TK|NF|X
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇮🇷_IR_伊朗_2
-      - 🇮🇷_IR_伊朗_3
-      - 🇮🇷_IR_伊朗_4
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
+      - 🇷🇺_RU_俄罗斯
 rule-providers:
   LocalAreaNetwork:
     type: http
