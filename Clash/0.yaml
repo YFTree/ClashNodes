@@ -68,19 +68,31 @@ proxies:
     skip-cert-verify: true
   - type: trojan
     name: 🇨🇳_CN_中国_1
-    server: 36.150.215.246
-    port: 4011
-    password: BxceQaOe
+    server: 58.152.110.9
+    port: 443
+    password: 2274c52572e721086f8bd8f88984643c
     network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
+    sni: www.nintendogames.net
+  - type: vmess
+    name: 🇭🇰HK-203.198.28.145-1002
+    server: aflzzul.meiquankongjian.com
+    port: 52513
+    uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: aflzzul.meiquankongjian.com
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: aflzzul.meiquankongjian.com
   - type: trojan
     name: 🇨🇳_CN_中国_2
-    server: 116.49.237.130
-    port: 2173
-    password: BxceQaOe
+    server: 117.172.176.25
+    port: 4054
+    password: 2274c52572e721086f8bd8f88984643c
     network: tcp
-    sni: t.me/ripaojiedian
+    sni: www.nintendogames.net
     skip-cert-verify: true
   - type: trojan
     name: 🇨🇳_CN_中国_3
@@ -92,31 +104,45 @@ proxies:
     skip-cert-verify: true
   - type: vless
     name: 🇺🇸_US_美国
-    server: 152.53.84.101
-    port: 20579
-    uuid: 93cd7e0f-8a81-4076-be8b-6d3bf3f8f810
+    server: graygoat.fonixapp.org
+    port: 48983
+    uuid: 75c18b2c-9f28-44e5-9fde-02c00b6d30a0
     network: tcp
-    servername: ilovepdf.com
+    servername: smallpdf.com
     tls: true
     encryption: none
     reality-opts:
-      public-key: mT6lh-gtbEuWk3Zk6XGF_hYvpLwxTyvwtH7F-_fRbxI
-      short-id: 89f1da93
+      public-key: 7hoSQsWXvX5kVe1gUt5mLIpbfiIp3017V3S6Ym0hqW0
+      short-id: 509af44ce1
+      spider-x: /
+    client-fingerprint: firefox
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🇺🇸_US_美国_1
+    server: 152.53.133.132
+    port: 44393
+    uuid: 0eaab689-82c5-4678-8ac6-d58ef4357dbe
+    network: tcp
+    servername: lowes.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: QRguoAi4mjGas5PjOd-JCgcAlgZTmr8tqM8VC0ZvZSM
+      short-id: "05"
     client-fingerprint: chrome
     flow: xtls-rprx-vision
   - type: vless
-    name: 🇸🇦_SA_沙特阿拉伯
-    server: 77.110.119.225
-    port: 443
-    uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
-    network: tcp
-    servername: st.ozone.ru
-    tls: true
-    reality-opts:
-      public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
-      short-id: 07e904766d29b958
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
+    name: 🇺🇸_US_美国_2
+    server: www.speedtest.net
+    port: 80
+    uuid: d59dbeb7-3989-4f4c-aed8-ac5fbd9c1a7a
+    network: ws
+    servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+    encryption: none
+    ws-opts:
+      path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+      headers:
+        Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
   - type: vless
     name: 🇷🇴_RO_罗马尼亚
     server: zeusolympus.fonixapp.org
@@ -133,136 +159,88 @@ proxies:
     client-fingerprint: firefox
     flow: xtls-rprx-vision
   - type: vless
-    name: 🇺🇸_US_美国_1
-    server: graygoat.fonixapp.org
-    port: 48983
-    uuid: 75c18b2c-9f28-44e5-9fde-02c00b6d30a0
+    name: 🇬🇧_GB_英国
+    server: darkterror.fonixapp.org
+    port: 13718
+    uuid: 6beb5e1f-566d-4d84-878e-9f0a49283696
     network: tcp
-    servername: smallpdf.com
+    servername: eightsleep.com
     tls: true
     encryption: none
     reality-opts:
-      public-key: 7hoSQsWXvX5kVe1gUt5mLIpbfiIp3017V3S6Ym0hqW0
-      short-id: 509af44ce1
+      public-key: RE5pTjMWTYxFQvDtxxKOCZCnnyYbR2a25zlLnYXWOVw
+      short-id: "96"
       spider-x: /
-    client-fingerprint: firefox
+    client-fingerprint: chrome
     flow: xtls-rprx-vision
   - type: trojan
-    name: 🇺🇸_US_美国_2
-    server: ip.sb
-    port: 8443
-    password: trojan
-    network: ws
-    sni: fofang.pages.dev
-    tls: true
-    ws-opts:
-      path: /
-  - type: vless
-    name: 🇺🇸_US_美国_3
-    server: 172.67.185.98
-    port: 8443
-    uuid: 635dfb8e-3d28-40c2-bd27-9b85e7bc6bb6
-    network: ws
-    servername: ion.api-music-fa.com
-    tls: true
-    ws-opts:
-      path: /J5aKLOY1R9ONWYCM
-      headers:
-        Host: ion.api-music-fa.com
-    client-fingerprint: chrome
-  - type: trojan
-    name: 🇷🇺_RU_俄罗斯
-    server: 77.221.141.207
+    name: 🇸🇪_SE_瑞典
+    server: 193.180.211.52
     port: 443
-    password: edeff73d-065d-4b0a-b848-aad9d3380223
+    password: 72a9357f-8841-4229-ad79-c3fdee0aae51
     network: ws
     sni: joss.dus.biz.id
     fingerprint: randomized
     tls: true
     ws-opts:
-      path: /Free-VPN-CF-Geo-Project/77.221.141.207=443
+      path: /Free-VPN-CF-Geo-Project/193.180.211.52=443
       headers:
         Host: joss.dus.biz.id
   - type: hysteria2
-    name: 🇷🇺_RU_俄罗斯_1
-    server: 147.45.49.251
-    port: 45183
-    password: 4a6bf640-5c5e-41d3-8078-89a12174cf57
+    name: 🇨🇦_CA_加拿大
+    server: 140.238.137.165
+    port: 30102
+    password: 338ce171-d764-4610-8fd5-6688b0d321f0
     skip-cert-verify: true
-    sni: linjp1.jueduibupao.top
+    sni: du.wish.ml
   - type: trojan
-    name: 🇺🇸_US_美国_4
-    server: 104.25.254.4
-    port: 2087
-    password: d0298536-d670-4045-bbb1-ddd5ea68683e
-    network: ws
-    sni: azadnet-bdr.pages.dev
-    tls: true
-    ws-opts:
-      path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan
-      headers:
-        Host: azadnet-bdr.pages.dev
-  - type: trojan
-    name: 🇺🇸_US_美国_5
-    server: kfjdi.pages.dev
-    port: 443
-    password: er668
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-  - type: vless
-    name: 🇭🇺_HU_匈牙利
-    server: helsinki.fonixapp.org
-    port: 54978
-    uuid: a79d31ed-99d6-4116-8f50-fa46957ac6a0
+    name: 🇮🇷_IR_伊朗
+    server: 151.242.164.127
+    port: 3443
+    password: c2e3cdc0-bc72-3505-b2a9-ea5ed7bfa23f
     network: tcp
-    servername: study.com
+    sni: steampipe.akamaized.net
+    skip-cert-verify: true
     tls: true
-    encryption: none
+  - type: vless
+    name: 🇸🇦_SA_沙特阿拉伯
+    server: 77.110.119.225
+    port: 443
+    uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
+    network: tcp
+    servername: st.ozone.ru
+    tls: true
     reality-opts:
-      public-key: clfoV7PyfUylden53xvv2FuAoSYFBeZ2JdP0ZzC2ISo
-      short-id: cc58ae21d5
-      spider-x: /
-    client-fingerprint: firefox
+      public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
+      short-id: 07e904766d29b958
+    client-fingerprint: chrome
     flow: xtls-rprx-vision
   - type: trojan
-    name: 🇺🇸_US_美国_6
-    server: 65.109.227.138
-    port: 2053
-    password: 7d82af32-915f-4619-aa9c-7d3b612d33ff
-    network: ws
-    sni: joss.dus.biz.id
-    fingerprint: randomized
-    tls: true
-    ws-opts:
-      path: /Free-VPN-CF-Geo-Project/65.109.227.138=2053
-      headers:
-        Host: joss.dus.biz.id
-  - type: trojan
     name: 🇳🇱_NL_荷兰
-    server: 86.107.197.239
-    port: 443
-    password: 5ad5fe82-6b60-4f59-977b-93910ef7a9ca
+    server: 45.144.48.55
+    port: 2053
+    password: 55d19115-ec40-407b-a674-74e6a948347a
     network: ws
     sni: joss.dus.biz.id
+    fingerprint: chrome
     tls: true
     ws-opts:
-      path: /Free-VPN-CF-Geo-Project/86.107.197.239=443
+      path: /Free-VPN-CF-Geo-Project/45.144.48.55=2053
       headers:
         Host: joss.dus.biz.id
-  - type: trojan
-    name: 🇺🇸_US_美国_7
-    server: 51.89.128.93
-    port: 44004
-    password: 6b5b50ff-7798-40dc-9888-b4dd581e5435
-    network: ws
-    sni: joss.dus.biz.id
+  - type: vless
+    name: 🇺🇸_US_美国_3
+    server: 40.233.80.237
+    port: 42557
+    uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
+    network: tcp
+    servername: www.yahoo.com
     tls: true
-    ws-opts:
-      path: /Free-VPN-CF-Geo-Project/51.89.128.93=44004
-      headers:
-        Host: joss.dus.biz.id
+    reality-opts:
+      public-key: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo
+      short-id: f430927d
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -271,43 +249,39 @@ proxy-groups:
       - DIRECT
       - 🇨🇳_CN_中国
       - 🇨🇳_CN_中国_1
+      - 🇭🇰HK-203.198.28.145-1002
       - 🇨🇳_CN_中国_2
       - 🇨🇳_CN_中国_3
       - 🇺🇸_US_美国
-      - 🇸🇦_SA_沙特阿拉伯
-      - 🇷🇴_RO_罗马尼亚
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇭🇺_HU_匈牙利
-      - 🇺🇸_US_美国_6
+      - 🇷🇴_RO_罗马尼亚
+      - 🇬🇧_GB_英国
+      - 🇸🇪_SE_瑞典
+      - 🇨🇦_CA_加拿大
+      - 🇮🇷_IR_伊朗
+      - 🇸🇦_SA_沙特阿拉伯
       - 🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_3
   - name: ♻️ 自动选择
     type: url-test
     proxies:
       - 🇨🇳_CN_中国
       - 🇨🇳_CN_中国_1
+      - 🇭🇰HK-203.198.28.145-1002
       - 🇨🇳_CN_中国_2
       - 🇨🇳_CN_中国_3
       - 🇺🇸_US_美国
-      - 🇸🇦_SA_沙特阿拉伯
-      - 🇷🇴_RO_罗马尼亚
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇭🇺_HU_匈牙利
-      - 🇺🇸_US_美国_6
+      - 🇷🇴_RO_罗马尼亚
+      - 🇬🇧_GB_英国
+      - 🇸🇪_SE_瑞典
+      - 🇨🇦_CA_加拿大
+      - 🇮🇷_IR_伊朗
+      - 🇸🇦_SA_沙特阿拉伯
       - 🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_3
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: 🎯 全球直连
@@ -329,22 +303,20 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇨🇳_CN_中国
       - 🇨🇳_CN_中国_1
+      - 🇭🇰HK-203.198.28.145-1002
       - 🇨🇳_CN_中国_2
       - 🇨🇳_CN_中国_3
       - 🇺🇸_US_美国
-      - 🇸🇦_SA_沙特阿拉伯
-      - 🇷🇴_RO_罗马尼亚
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇭🇺_HU_匈牙利
-      - 🇺🇸_US_美国_6
+      - 🇷🇴_RO_罗马尼亚
+      - 🇬🇧_GB_英国
+      - 🇸🇪_SE_瑞典
+      - 🇨🇦_CA_加拿大
+      - 🇮🇷_IR_伊朗
+      - 🇸🇦_SA_沙特阿拉伯
       - 🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_3
 rule-providers:
   LocalAreaNetwork:
     type: http
