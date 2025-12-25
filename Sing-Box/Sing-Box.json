@@ -147,9 +147,7 @@
         "🇺🇸_US_美国_2",
         "🇧🇬_BG_保加利亚",
         "🇷🇺_RU_俄罗斯_1",
-        "🇬🇧_GB_英国_1",
-        "🇬🇧 英国 - Slough - DigitalOcean, LLC - 1",
-        "🇮🇷_IR_伊朗"
+        "🇬🇧_GB_英国_1"
       ]
     },
     {
@@ -406,9 +404,7 @@
         "🇨🇦_CA_加拿大",
         "🇧🇬_BG_保加利亚",
         "🇷🇺_RU_俄罗斯_1",
-        "🇬🇧_GB_英国_1",
-        "🇬🇧 英国 - Slough - DigitalOcean, LLC - 1",
-        "🇮🇷_IR_伊朗"
+        "🇬🇧_GB_英国_1"
       ]
     },
     {
@@ -433,9 +429,7 @@
         "🇺🇸_US_美国_2",
         "🇧🇬_BG_保加利亚",
         "🇷🇺_RU_俄罗斯_1",
-        "🇬🇧_GB_英国_1",
-        "🇬🇧 英国 - Slough - DigitalOcean, LLC - 1",
-        "🇮🇷_IR_伊朗"
+        "🇬🇧_GB_英国_1"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -752,23 +746,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇬🇧 英国 - Slough - DigitalOcean, LLC - 1",
-      "server": "v36.hdacd.com",
-      "server_port": 30836,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-      "security": "auto",
-      "alter_id": 2
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇮🇷_IR_伊朗",
-      "server": "217.60.249.112",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "0eC4ZBvStOgQEzTpCYjWN5"
     }
   ],
   "route": {
