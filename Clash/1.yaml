@@ -5,539 +5,479 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: FR法国, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: GB英国, server: 5.144.182.188, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: FR法国 2, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: AZERB.NET}, udp: true}
-  - {name: HK香港, server: 120.233.57.73, port: 33124, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 2, server: 120.233.57.73, port: 33111, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: 比利时, server: 57.129.137.55, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: HK香港 3, server: 120.233.57.70, port: 33120, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 4, server: 120.233.57.69, port: 33124, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: FR法国 3, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: US美国, server: vc.fly.dev, port: 443, type: vmess, uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee, alterId: 32, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vc, ws-headers: {Host: vc.fly.dev}, udp: true}
-  - {name: HK香港 5, server: 120.233.57.71, port: 33111, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 6, server: 119.147.193.224, port: 33110, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 7, server: 120.233.57.69, port: 33123, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 8, server: 120.233.57.71, port: 33110, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
+  - {name: HK香港, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: NL荷兰, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: FR法国, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: HK香港 2, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: HK香港 3, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: NL荷兰 2, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: HK香港 4, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: NL荷兰 3, server: bpbg.anguswen.top, port: 2053, type: trojan, password: !<str> 123456, sni: bpbg.anguswen.top, skip-cert-verify: true, udp: true}
+  - {name: DE德国, server: bpbg.anguswen.top, port: 8443, type: trojan, password: !<str> 123456, sni: bpbg.anguswen.top, skip-cert-verify: true, udp: true}
+  - {name: FR法国 2, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: NL荷兰 4, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: HK香港 5, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: NL荷兰 5, server: bpbg.anguswen.top, port: 443, type: trojan, password: !<str> 123456, sni: bpbg.anguswen.top, skip-cert-verify: true, udp: true}
+  - {name: DE德国 2, server: bpbg.anguswen.top, port: 443, type: trojan, password: !<str> 123456, sni: bpbg.anguswen.top, skip-cert-verify: true, udp: true}
+  - {name: FR法国 3, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: FR法国 4, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: FR法国 5, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: FR法国 6, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: FR法国 7, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: TURK1.NET.NET}, udp: true}
+  - {name: HK香港 6, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: TURK1.NET.NET}, udp: true}
+  - {name: US美国, server: 162.159.128.253, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
   - {name: US美国 2, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: HK香港 9, server: 120.233.57.70, port: 33123, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: GB英国 2, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: SG新加坡, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK香港 10, server: 58.152.18.48, port: 443, type: trojan, password: f36f4495b4b26cc2fe346cfa23e05b1b, skip-cert-verify: true, udp: true}
-  - {name: GB英国 3, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK香港 11, server: liubu9.singdns.com, port: 17459, type: ss, cipher: aes-128-gcm, password: 57bc0c04-8184-48f5-906b-897d095ed445, udp: true}
-  - {name: HK香港 12, server: 120.233.57.73, port: 33123, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 13, server: 120.233.57.73, port: 33120, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: SG新加坡 2, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK香港 14, server: 119.147.193.224, port: 33111, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: SG新加坡 3, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国 3, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: SG新加坡 4, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK香港 15, server: 120.233.57.69, port: 33120, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: US美国 4, server: aio.unlimited.biz.id, port: 443, type: vmess, uuid: f282b878-8711-45a1-8c69-5564172123c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /aioproxybot/129.150.49.58-18650, ws-headers: {Host: aio.unlimited.biz.id}, udp: true}
-  - {name: HK香港 16, server: 120.233.57.73, port: 33125, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: 乌克兰, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY, udp: true}
-  - {name: US美国 5, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: one.cf.cdn.hyli.xyz, skip-cert-verify: true, udp: true}
-  - {name: FR法国 4, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: one.cf.cdn.hyli.xyz, skip-cert-verify: true, udp: true}
-  - {name: US美国 6, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: FR法国 5, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: HK香港 17, server: 120.233.57.69, port: 33118, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 18, server: 119.147.193.126, port: 33112, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: US美国 7, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: one.cf.cdn.hyli.xyz, skip-cert-verify: true, udp: true}
-  - {name: HK香港 19, server: 120.233.57.73, port: 33112, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: US美国 8, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: one.cf.cdn.hyli.xyz, skip-cert-verify: true, udp: true}
-  - {name: HK香港 20, server: 120.233.57.70, port: 33118, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 21, server: 119.147.193.224, port: 33118, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: US美国 9, server: 2001:bc8:32d7:2013::8, port: 62211, type: vmess, uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: www.bing.com}, udp: true}
-  - {name: US美国 10, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国 11, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: HK香港 22, server: 119.147.193.224, port: 33112, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
+  - {name: GB英国, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: one.cf.cdn.hyli.xyz, skip-cert-verify: true, udp: true}
+  - {name: HK香港 7, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: US美国 3, server: 158.101.11.204, port: 15805, type: trojan, password: iwangjie, skip-cert-verify: true, udp: true}
+  - {name: US美国 4, server: 104.26.1.110, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: US美国 5, server: 104.26.1.110, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: US美国 6, server: 162.159.24.131, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: US美国 7, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: US美国 8, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: US美国 9, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: one.cf.cdn.hyli.xyz, skip-cert-verify: true, udp: true}
+  - {name: US美国 10, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
+  - {name: HK香港 8, server: 202.85.53.179, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 11, server: aio.unlimited.biz.id, port: 443, type: vmess, uuid: f282b878-8711-45a1-8c69-5564172123c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /aioproxybot/129.150.49.58-18650, ws-headers: {Host: aio.unlimited.biz.id}, udp: true}
   - {name: US美国 12, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国 13, server: cf.130519.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: cf.130519.xyz, skip-cert-verify: true, udp: true}
-  - {name: US美国 14, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: AZERB.NET}, udp: true}
-  - {name: HK香港 23, server: 120.233.57.71, port: 33118, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 24, server: 120.233.57.73, port: 33118, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 25, server: 120.233.57.73, port: 33121, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: FR法国 6, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
-  - {name: US美国 15, server: 202.85.53.179, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国 16, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY, udp: true}
-  - {name: US美国 17, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
+  - {name: US美国 13, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 14, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 15, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 16, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: one.cf.cdn.hyli.xyz, skip-cert-verify: true, udp: true}
+  - {name: US美国 17, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US美国 18, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK香港 26, server: 120.233.57.71, port: 33121, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 27, server: 120.233.57.71, port: 33113, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 28, server: 120.233.57.73, port: 33113, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 29, server: 120.233.57.70, port: 33121, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 30, server: 120.233.57.70, port: 33113, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 31, server: 119.147.193.126, port: 33113, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 32, server: 119.147.193.224, port: 33121, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 33, server: 120.233.57.69, port: 33114, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 34, server: 120.233.57.69, port: 33121, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 35, server: 120.233.57.69, port: 33113, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 36, server: 120.233.57.69, port: 33116, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
+  - {name: HK香港 9, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US美国 19, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: FR法国 7, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: FR法国 8, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: FR法国 9, server: cf.130519.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: cf.130519.xyz, skip-cert-verify: true, udp: true}
-  - {name: US美国 20, server: cf.130519.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: cf.130519.xyz, skip-cert-verify: true, udp: true}
-  - {name: US美国 21, server: liubu9.singdns.com, port: 17459, type: ss, cipher: aes-128-gcm, password: 57bc0c04-8184-48f5-906b-897d095ed445, udp: true}
-  - {name: FR法国 10, server: cf.130519.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: cf.130519.xyz, skip-cert-verify: true, udp: true}
-  - {name: GB英国 4, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK香港 37, server: 120.233.57.70, port: 33114, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: US美国 22, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国 23, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK香港 38, server: 120.233.57.70, port: 33119, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 39, server: 120.233.57.73, port: 33115, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 40, server: 120.233.57.70, port: 33117, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 41, server: 120.233.57.73, port: 33114, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 42, server: 120.233.57.71, port: 33114, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 43, server: 120.233.57.69, port: 33117, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 44, server: 119.147.193.224, port: 33117, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 45, server: 119.147.193.224, port: 33116, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 46, server: 120.233.57.73, port: 33116, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 47, server: 120.233.57.71, port: 33116, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 48, server: 120.233.57.73, port: 33117, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 49, server: 120.233.57.70, port: 33110, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 50, server: 120.233.57.71, port: 33117, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 51, server: 119.147.193.126, port: 33117, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 52, server: 120.233.57.70, port: 33116, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: FR法国 11, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: HK香港 53, server: 120.233.57.69, port: 33111, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: FR法国 12, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: US美国 24, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 20, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 21, server: 202.85.53.179, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港 10, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 22, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: one.cf.cdn.hyli.xyz, skip-cert-verify: true, udp: true}
+  - {name: US美国 23, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 24, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 25, server: 2.56.242.210, port: 34895, type: vmess, uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 26, server: 104.17.162.3, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: TW台湾, server: 104.19.55.205, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: FR法国 8, server: 2001:bc8:32d7:2013::8, port: 62211, type: vmess, uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: www.bing.com}, udp: true}
+  - {name: TW台湾 2, server: 172.64.229.205, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: 乌克兰, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY, udp: true}
+  - {name: US美国 27, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB英国 2, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY, udp: true}
+  - {name: US美国 28, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 29, server: 777.ai7777777.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: 777.ai7777777.xyz, skip-cert-verify: true, udp: true}
+  - {name: US美国 30, server: 104.17.167.134, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: HK香港 11, server: 104.17.167.134, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: US美国 31, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 乌克兰 2, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
+  - {name: US美国 32, server: freeyx.cloudflare88.eu.org, port: 443, type: trojan, password: 5a2c16f9, sni: freeyx.cloudflare88.eu.org, skip-cert-verify: true, udp: true}
+  - {name: US美国 33, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港 12, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 34, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 35, server: 202.85.53.179, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 36, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: FR法国 9, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: FR法国 10, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 37, server: cf.130519.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: cf.130519.xyz, skip-cert-verify: true, udp: true}
+  - {name: FR法国 11, server: cf.130519.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: cf.130519.xyz, skip-cert-verify: true, udp: true}
+  - {name: US美国 38, server: liubu9.singdns.com, port: 17459, type: ss, cipher: aes-128-gcm, password: 57bc0c04-8184-48f5-906b-897d095ed445, udp: true}
+  - {name: US美国 39, server: 202.85.53.179, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港 13, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 40, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB英国 3, server: cf.130519.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: cf.130519.xyz, skip-cert-verify: true, udp: true}
+  - {name: GB英国 4, server: cf.130519.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: cf.130519.xyz, skip-cert-verify: true, udp: true}
+  - {name: HK香港 14, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 41, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港 15, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: FR法国 12, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 42, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
   - {name: FR法国 13, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: US美国 25, server: lv4.789900.xyz, port: 2087, type: vmess, uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm, ws-headers: {Host: lv4.789900.xyz}, udp: true}
-  - {name: HK香港 54, server: 119.147.193.126, port: 33110, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: FR法国 14, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: HK香港 55, server: 120.233.57.70, port: 33115, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 56, server: 120.233.57.70, port: 33126, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 57, server: 120.233.57.70, port: 33111, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 58, server: 120.233.57.69, port: 33115, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 59, server: 120.233.57.73, port: 33126, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 60, server: 120.233.57.71, port: 33115, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 61, server: 120.233.57.71, port: 33119, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 62, server: 119.147.193.224, port: 33113, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: US美国 26, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK香港 63, server: 120.233.57.73, port: 33119, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 64, server: 120.233.57.69, port: 33126, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 65, server: 120.233.57.71, port: 33126, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 66, server: 120.233.57.73, port: 33110, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 67, server: 120.233.57.70, port: 33112, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 68, server: 120.233.57.71, port: 33112, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: US美国 27, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
-  - {name: HK香港 69, server: 120.233.57.69, port: 33110, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 70, server: 120.233.57.71, port: 33124, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: HK香港 71, server: 120.233.57.70, port: 33124, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: 乌克兰 2, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
-  - {name: HK香港 72, server: 120.233.57.69, port: 33112, type: ss, cipher: aes-128-gcm, password: e819cea2-614c-48ff-81e6-6f44779c4d20, udp: true}
-  - {name: FR法国 15, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: FR法国 16, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: TURK1.NET.NET}, udp: true}
+  - {name: US美国 43, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: FR法国 14, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: FR法国 15, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 44, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 45, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 46, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB英国 5, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB英国 6, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港 16, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB英国 7, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB英国 8, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB英国 9, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB英国 10, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB英国 11, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB英国 12, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 47, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 48, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB英国 13, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
+  - {name: FR法国 16, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
+  - {name: GB英国 14, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
+  - {name: DE德国 3, server: bpbg.anguswen.top, port: 8443, type: trojan, password: !<str> 123456, sni: bpbg.anguswen.top, skip-cert-verify: true, udp: true}
+  - {name: HK香港 17, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 49, server: 2001:bc8:32d7:2013::8, port: 62211, type: vmess, uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: www.bing.com}, udp: true}
   - {name: FR法国 17, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: US美国 28, server: 57.129.137.55, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: GB英国 5, server: 5.144.182.188, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: NL荷兰 6, server: bpbg.anguswen.top, port: 8443, type: trojan, password: !<str> 123456, sni: bpbg.anguswen.top, skip-cert-verify: true, udp: true}
+  - {name: DE德国 4, server: bpbg.anguswen.top, port: 443, type: trojan, password: !<str> 123456, sni: bpbg.anguswen.top, skip-cert-verify: true, udp: true}
+  - {name: FR法国 18, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: HK香港 18, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: FR法国 19, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - FR法国
-      - GB英国
-      - FR法国 2
       - HK香港
+      - NL荷兰
+      - FR法国
       - HK香港 2
-      - 比利时
       - HK香港 3
+      - NL荷兰 2
       - HK香港 4
-      - FR法国 3
-      - US美国
+      - NL荷兰 3
+      - DE德国
+      - FR法国 2
+      - NL荷兰 4
       - HK香港 5
-      - HK香港 6
-      - HK香港 7
-      - HK香港 8
-      - US美国 2
-      - HK香港 9
-      - GB英国 2
-      - SG新加坡
-      - HK香港 10
-      - GB英国 3
-      - HK香港 11
-      - HK香港 12
-      - HK香港 13
-      - SG新加坡 2
-      - HK香港 14
-      - SG新加坡 3
-      - US美国 3
-      - SG新加坡 4
-      - HK香港 15
-      - US美国 4
-      - HK香港 16
-      - 乌克兰
-      - US美国 5
+      - NL荷兰 5
+      - DE德国 2
+      - FR法国 3
       - FR法国 4
-      - US美国 6
       - FR法国 5
-      - HK香港 17
-      - HK香港 18
+      - FR法国 6
+      - FR法国 7
+      - HK香港 6
+      - US美国
+      - US美国 2
+      - GB英国
+      - HK香港 7
+      - US美国 3
+      - US美国 4
+      - US美国 5
+      - US美国 6
       - US美国 7
-      - HK香港 19
       - US美国 8
-      - HK香港 20
-      - HK香港 21
       - US美国 9
       - US美国 10
+      - HK香港 8
       - US美国 11
-      - HK香港 22
       - US美国 12
       - US美国 13
       - US美国 14
-      - HK香港 23
-      - HK香港 24
-      - HK香港 25
-      - FR法国 6
       - US美国 15
       - US美国 16
       - US美国 17
       - US美国 18
-      - HK香港 26
-      - HK香港 27
-      - HK香港 28
-      - HK香港 29
-      - HK香港 30
-      - HK香港 31
-      - HK香港 32
-      - HK香港 33
-      - HK香港 34
-      - HK香港 35
-      - HK香港 36
+      - HK香港 9
       - US美国 19
-      - FR法国 7
-      - FR法国 8
-      - FR法国 9
       - US美国 20
       - US美国 21
-      - FR法国 10
-      - GB英国 4
-      - HK香港 37
+      - HK香港 10
       - US美国 22
       - US美国 23
-      - HK香港 38
-      - HK香港 39
-      - HK香港 40
-      - HK香港 41
-      - HK香港 42
-      - HK香港 43
-      - HK香港 44
-      - HK香港 45
-      - HK香港 46
-      - HK香港 47
-      - HK香港 48
-      - HK香港 49
-      - HK香港 50
-      - HK香港 51
-      - HK香港 52
-      - FR法国 11
-      - HK香港 53
-      - FR法国 12
       - US美国 24
-      - FR法国 13
       - US美国 25
-      - HK香港 54
-      - FR法国 14
-      - HK香港 55
-      - HK香港 56
-      - HK香港 57
-      - HK香港 58
-      - HK香港 59
-      - HK香港 60
-      - HK香港 61
-      - HK香港 62
       - US美国 26
-      - HK香港 63
-      - HK香港 64
-      - HK香港 65
-      - HK香港 66
-      - HK香港 67
-      - HK香港 68
+      - TW台湾
+      - FR法国 8
+      - TW台湾 2
+      - 乌克兰
       - US美国 27
-      - HK香港 69
-      - HK香港 70
-      - HK香港 71
-      - 乌克兰 2
-      - HK香港 72
-      - FR法国 15
-      - FR法国 16
-      - FR法国 17
+      - GB英国 2
       - US美国 28
+      - US美国 29
+      - US美国 30
+      - HK香港 11
+      - US美国 31
+      - 乌克兰 2
+      - US美国 32
+      - US美国 33
+      - HK香港 12
+      - US美国 34
+      - US美国 35
+      - US美国 36
+      - FR法国 9
+      - FR法国 10
+      - US美国 37
+      - FR法国 11
+      - US美国 38
+      - US美国 39
+      - HK香港 13
+      - US美国 40
+      - GB英国 3
+      - GB英国 4
+      - HK香港 14
+      - US美国 41
+      - HK香港 15
+      - FR法国 12
+      - US美国 42
+      - FR法国 13
+      - US美国 43
+      - FR法国 14
+      - FR法国 15
+      - US美国 44
+      - US美国 45
+      - US美国 46
       - GB英国 5
+      - GB英国 6
+      - HK香港 16
+      - GB英国 7
+      - GB英国 8
+      - GB英国 9
+      - GB英国 10
+      - GB英国 11
+      - GB英国 12
+      - US美国 47
+      - US美国 48
+      - GB英国 13
+      - FR法国 16
+      - GB英国 14
+      - DE德国 3
+      - HK香港 17
+      - US美国 49
+      - FR法国 17
+      - NL荷兰 6
+      - DE德国 4
+      - FR法国 18
+      - HK香港 18
+      - FR法国 19
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - FR法国
-      - GB英国
-      - FR法国 2
       - HK香港
+      - NL荷兰
+      - FR法国
       - HK香港 2
-      - 比利时
       - HK香港 3
+      - NL荷兰 2
       - HK香港 4
-      - FR法国 3
-      - US美国
+      - NL荷兰 3
+      - DE德国
+      - FR法国 2
+      - NL荷兰 4
       - HK香港 5
-      - HK香港 6
-      - HK香港 7
-      - HK香港 8
-      - US美国 2
-      - HK香港 9
-      - GB英国 2
-      - SG新加坡
-      - HK香港 10
-      - GB英国 3
-      - HK香港 11
-      - HK香港 12
-      - HK香港 13
-      - SG新加坡 2
-      - HK香港 14
-      - SG新加坡 3
-      - US美国 3
-      - SG新加坡 4
-      - HK香港 15
-      - US美国 4
-      - HK香港 16
-      - 乌克兰
-      - US美国 5
+      - NL荷兰 5
+      - DE德国 2
+      - FR法国 3
       - FR法国 4
-      - US美国 6
       - FR法国 5
-      - HK香港 17
-      - HK香港 18
+      - FR法国 6
+      - FR法国 7
+      - HK香港 6
+      - US美国
+      - US美国 2
+      - GB英国
+      - HK香港 7
+      - US美国 3
+      - US美国 4
+      - US美国 5
+      - US美国 6
       - US美国 7
-      - HK香港 19
       - US美国 8
-      - HK香港 20
-      - HK香港 21
       - US美国 9
       - US美国 10
+      - HK香港 8
       - US美国 11
-      - HK香港 22
       - US美国 12
       - US美国 13
       - US美国 14
-      - HK香港 23
-      - HK香港 24
-      - HK香港 25
-      - FR法国 6
       - US美国 15
       - US美国 16
       - US美国 17
       - US美国 18
-      - HK香港 26
-      - HK香港 27
-      - HK香港 28
-      - HK香港 29
-      - HK香港 30
-      - HK香港 31
-      - HK香港 32
-      - HK香港 33
-      - HK香港 34
-      - HK香港 35
-      - HK香港 36
+      - HK香港 9
       - US美国 19
-      - FR法国 7
-      - FR法国 8
-      - FR法国 9
       - US美国 20
       - US美国 21
-      - FR法国 10
-      - GB英国 4
-      - HK香港 37
+      - HK香港 10
       - US美国 22
       - US美国 23
-      - HK香港 38
-      - HK香港 39
-      - HK香港 40
-      - HK香港 41
-      - HK香港 42
-      - HK香港 43
-      - HK香港 44
-      - HK香港 45
-      - HK香港 46
-      - HK香港 47
-      - HK香港 48
-      - HK香港 49
-      - HK香港 50
-      - HK香港 51
-      - HK香港 52
-      - FR法国 11
-      - HK香港 53
-      - FR法国 12
       - US美国 24
-      - FR法国 13
       - US美国 25
-      - HK香港 54
-      - FR法国 14
-      - HK香港 55
-      - HK香港 56
-      - HK香港 57
-      - HK香港 58
-      - HK香港 59
-      - HK香港 60
-      - HK香港 61
-      - HK香港 62
       - US美国 26
-      - HK香港 63
-      - HK香港 64
-      - HK香港 65
-      - HK香港 66
-      - HK香港 67
-      - HK香港 68
+      - TW台湾
+      - FR法国 8
+      - TW台湾 2
+      - 乌克兰
       - US美国 27
-      - HK香港 69
-      - HK香港 70
-      - HK香港 71
-      - 乌克兰 2
-      - HK香港 72
-      - FR法国 15
-      - FR法国 16
-      - FR法国 17
+      - GB英国 2
       - US美国 28
+      - US美国 29
+      - US美国 30
+      - HK香港 11
+      - US美国 31
+      - 乌克兰 2
+      - US美国 32
+      - US美国 33
+      - HK香港 12
+      - US美国 34
+      - US美国 35
+      - US美国 36
+      - FR法国 9
+      - FR法国 10
+      - US美国 37
+      - FR法国 11
+      - US美国 38
+      - US美国 39
+      - HK香港 13
+      - US美国 40
+      - GB英国 3
+      - GB英国 4
+      - HK香港 14
+      - US美国 41
+      - HK香港 15
+      - FR法国 12
+      - US美国 42
+      - FR法国 13
+      - US美国 43
+      - FR法国 14
+      - FR法国 15
+      - US美国 44
+      - US美国 45
+      - US美国 46
       - GB英国 5
+      - GB英国 6
+      - HK香港 16
+      - GB英国 7
+      - GB英国 8
+      - GB英国 9
+      - GB英国 10
+      - GB英国 11
+      - GB英国 12
+      - US美国 47
+      - US美国 48
+      - GB英国 13
+      - FR法国 16
+      - GB英国 14
+      - DE德国 3
+      - HK香港 17
+      - US美国 49
+      - FR法国 17
+      - NL荷兰 6
+      - DE德国 4
+      - FR法国 18
+      - HK香港 18
+      - FR法国 19
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - FR法国
-      - GB英国
-      - FR法国 2
       - HK香港
+      - NL荷兰
+      - FR法国
       - HK香港 2
-      - 比利时
       - HK香港 3
+      - NL荷兰 2
       - HK香港 4
-      - FR法国 3
-      - US美国
+      - NL荷兰 3
+      - DE德国
+      - FR法国 2
+      - NL荷兰 4
       - HK香港 5
-      - HK香港 6
-      - HK香港 7
-      - HK香港 8
-      - US美国 2
-      - HK香港 9
-      - GB英国 2
-      - SG新加坡
-      - HK香港 10
-      - GB英国 3
-      - HK香港 11
-      - HK香港 12
-      - HK香港 13
-      - SG新加坡 2
-      - HK香港 14
-      - SG新加坡 3
-      - US美国 3
-      - SG新加坡 4
-      - HK香港 15
-      - US美国 4
-      - HK香港 16
-      - 乌克兰
-      - US美国 5
+      - NL荷兰 5
+      - DE德国 2
+      - FR法国 3
       - FR法国 4
-      - US美国 6
       - FR法国 5
-      - HK香港 17
-      - HK香港 18
+      - FR法国 6
+      - FR法国 7
+      - HK香港 6
+      - US美国
+      - US美国 2
+      - GB英国
+      - HK香港 7
+      - US美国 3
+      - US美国 4
+      - US美国 5
+      - US美国 6
       - US美国 7
-      - HK香港 19
       - US美国 8
-      - HK香港 20
-      - HK香港 21
       - US美国 9
       - US美国 10
+      - HK香港 8
       - US美国 11
-      - HK香港 22
       - US美国 12
       - US美国 13
       - US美国 14
-      - HK香港 23
-      - HK香港 24
-      - HK香港 25
-      - FR法国 6
       - US美国 15
       - US美国 16
       - US美国 17
       - US美国 18
-      - HK香港 26
-      - HK香港 27
-      - HK香港 28
-      - HK香港 29
-      - HK香港 30
-      - HK香港 31
-      - HK香港 32
-      - HK香港 33
-      - HK香港 34
-      - HK香港 35
-      - HK香港 36
+      - HK香港 9
       - US美国 19
-      - FR法国 7
-      - FR法国 8
-      - FR法国 9
       - US美国 20
       - US美国 21
-      - FR法国 10
-      - GB英国 4
-      - HK香港 37
+      - HK香港 10
       - US美国 22
       - US美国 23
-      - HK香港 38
-      - HK香港 39
-      - HK香港 40
-      - HK香港 41
-      - HK香港 42
-      - HK香港 43
-      - HK香港 44
-      - HK香港 45
-      - HK香港 46
-      - HK香港 47
-      - HK香港 48
-      - HK香港 49
-      - HK香港 50
-      - HK香港 51
-      - HK香港 52
-      - FR法国 11
-      - HK香港 53
-      - FR法国 12
       - US美国 24
-      - FR法国 13
       - US美国 25
-      - HK香港 54
-      - FR法国 14
-      - HK香港 55
-      - HK香港 56
-      - HK香港 57
-      - HK香港 58
-      - HK香港 59
-      - HK香港 60
-      - HK香港 61
-      - HK香港 62
       - US美国 26
-      - HK香港 63
-      - HK香港 64
-      - HK香港 65
-      - HK香港 66
-      - HK香港 67
-      - HK香港 68
+      - TW台湾
+      - FR法国 8
+      - TW台湾 2
+      - 乌克兰
       - US美国 27
-      - HK香港 69
-      - HK香港 70
-      - HK香港 71
-      - 乌克兰 2
-      - HK香港 72
-      - FR法国 15
-      - FR法国 16
-      - FR法国 17
+      - GB英国 2
       - US美国 28
+      - US美国 29
+      - US美国 30
+      - HK香港 11
+      - US美国 31
+      - 乌克兰 2
+      - US美国 32
+      - US美国 33
+      - HK香港 12
+      - US美国 34
+      - US美国 35
+      - US美国 36
+      - FR法国 9
+      - FR法国 10
+      - US美国 37
+      - FR法国 11
+      - US美国 38
+      - US美国 39
+      - HK香港 13
+      - US美国 40
+      - GB英国 3
+      - GB英国 4
+      - HK香港 14
+      - US美国 41
+      - HK香港 15
+      - FR法国 12
+      - US美国 42
+      - FR法国 13
+      - US美国 43
+      - FR法国 14
+      - FR法国 15
+      - US美国 44
+      - US美国 45
+      - US美国 46
       - GB英国 5
+      - GB英国 6
+      - HK香港 16
+      - GB英国 7
+      - GB英国 8
+      - GB英国 9
+      - GB英国 10
+      - GB英国 11
+      - GB英国 12
+      - US美国 47
+      - US美国 48
+      - GB英国 13
+      - FR法国 16
+      - GB英国 14
+      - DE德国 3
+      - HK香港 17
+      - US美国 49
+      - FR法国 17
+      - NL荷兰 6
+      - DE德国 4
+      - FR法国 18
+      - HK香港 18
+      - FR法国 19
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -556,135 +496,120 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - FR法国
-      - GB英国
-      - FR法国 2
       - HK香港
+      - NL荷兰
+      - FR法国
       - HK香港 2
-      - 比利时
       - HK香港 3
+      - NL荷兰 2
       - HK香港 4
-      - FR法国 3
-      - US美国
+      - NL荷兰 3
+      - DE德国
+      - FR法国 2
+      - NL荷兰 4
       - HK香港 5
-      - HK香港 6
-      - HK香港 7
-      - HK香港 8
-      - US美国 2
-      - HK香港 9
-      - GB英国 2
-      - SG新加坡
-      - HK香港 10
-      - GB英国 3
-      - HK香港 11
-      - HK香港 12
-      - HK香港 13
-      - SG新加坡 2
-      - HK香港 14
-      - SG新加坡 3
-      - US美国 3
-      - SG新加坡 4
-      - HK香港 15
-      - US美国 4
-      - HK香港 16
-      - 乌克兰
-      - US美国 5
+      - NL荷兰 5
+      - DE德国 2
+      - FR法国 3
       - FR法国 4
-      - US美国 6
       - FR法国 5
-      - HK香港 17
-      - HK香港 18
+      - FR法国 6
+      - FR法国 7
+      - HK香港 6
+      - US美国
+      - US美国 2
+      - GB英国
+      - HK香港 7
+      - US美国 3
+      - US美国 4
+      - US美国 5
+      - US美国 6
       - US美国 7
-      - HK香港 19
       - US美国 8
-      - HK香港 20
-      - HK香港 21
       - US美国 9
       - US美国 10
+      - HK香港 8
       - US美国 11
-      - HK香港 22
       - US美国 12
       - US美国 13
       - US美国 14
-      - HK香港 23
-      - HK香港 24
-      - HK香港 25
-      - FR法国 6
       - US美国 15
       - US美国 16
       - US美国 17
       - US美国 18
-      - HK香港 26
-      - HK香港 27
-      - HK香港 28
-      - HK香港 29
-      - HK香港 30
-      - HK香港 31
-      - HK香港 32
-      - HK香港 33
-      - HK香港 34
-      - HK香港 35
-      - HK香港 36
+      - HK香港 9
       - US美国 19
-      - FR法国 7
-      - FR法国 8
-      - FR法国 9
       - US美国 20
       - US美国 21
-      - FR法国 10
-      - GB英国 4
-      - HK香港 37
+      - HK香港 10
       - US美国 22
       - US美国 23
-      - HK香港 38
-      - HK香港 39
-      - HK香港 40
-      - HK香港 41
-      - HK香港 42
-      - HK香港 43
-      - HK香港 44
-      - HK香港 45
-      - HK香港 46
-      - HK香港 47
-      - HK香港 48
-      - HK香港 49
-      - HK香港 50
-      - HK香港 51
-      - HK香港 52
-      - FR法国 11
-      - HK香港 53
-      - FR法国 12
       - US美国 24
-      - FR法国 13
       - US美国 25
-      - HK香港 54
-      - FR法国 14
-      - HK香港 55
-      - HK香港 56
-      - HK香港 57
-      - HK香港 58
-      - HK香港 59
-      - HK香港 60
-      - HK香港 61
-      - HK香港 62
       - US美国 26
-      - HK香港 63
-      - HK香港 64
-      - HK香港 65
-      - HK香港 66
-      - HK香港 67
-      - HK香港 68
+      - TW台湾
+      - FR法国 8
+      - TW台湾 2
+      - 乌克兰
       - US美国 27
-      - HK香港 69
-      - HK香港 70
-      - HK香港 71
-      - 乌克兰 2
-      - HK香港 72
-      - FR法国 15
-      - FR法国 16
-      - FR法国 17
+      - GB英国 2
       - US美国 28
+      - US美国 29
+      - US美国 30
+      - HK香港 11
+      - US美国 31
+      - 乌克兰 2
+      - US美国 32
+      - US美国 33
+      - HK香港 12
+      - US美国 34
+      - US美国 35
+      - US美国 36
+      - FR法国 9
+      - FR法国 10
+      - US美国 37
+      - FR法国 11
+      - US美国 38
+      - US美国 39
+      - HK香港 13
+      - US美国 40
+      - GB英国 3
+      - GB英国 4
+      - HK香港 14
+      - US美国 41
+      - HK香港 15
+      - FR法国 12
+      - US美国 42
+      - FR法国 13
+      - US美国 43
+      - FR法国 14
+      - FR法国 15
+      - US美国 44
+      - US美国 45
+      - US美国 46
       - GB英国 5
+      - GB英国 6
+      - HK香港 16
+      - GB英国 7
+      - GB英国 8
+      - GB英国 9
+      - GB英国 10
+      - GB英国 11
+      - GB英国 12
+      - US美国 47
+      - US美国 48
+      - GB英国 13
+      - FR法国 16
+      - GB英国 14
+      - DE德国 3
+      - HK香港 17
+      - US美国 49
+      - FR法国 17
+      - NL荷兰 6
+      - DE德国 4
+      - FR法国 18
+      - HK香港 18
+      - FR法国 19
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -699,6 +624,8 @@ proxy-groups:
       - HK香港 8
       - HK香港 9
       - HK香港 10
+      - TW台湾
+      - TW台湾 2
       - HK香港 11
       - HK香港 12
       - HK香港 13
@@ -707,464 +634,365 @@ proxy-groups:
       - HK香港 16
       - HK香港 17
       - HK香港 18
-      - HK香港 19
-      - HK香港 20
-      - HK香港 21
-      - HK香港 22
-      - HK香港 23
-      - HK香港 24
-      - HK香港 25
-      - HK香港 26
-      - HK香港 27
-      - HK香港 28
-      - HK香港 29
-      - HK香港 30
-      - HK香港 31
-      - HK香港 32
-      - HK香港 33
-      - HK香港 34
-      - HK香港 35
-      - HK香港 36
-      - HK香港 37
-      - HK香港 38
-      - HK香港 39
-      - HK香港 40
-      - HK香港 41
-      - HK香港 42
-      - HK香港 43
-      - HK香港 44
-      - HK香港 45
-      - HK香港 46
-      - HK香港 47
-      - HK香港 48
-      - HK香港 49
-      - HK香港 50
-      - HK香港 51
-      - HK香港 52
-      - HK香港 53
-      - HK香港 54
-      - HK香港 55
-      - HK香港 56
-      - HK香港 57
-      - HK香港 58
-      - HK香港 59
-      - HK香港 60
-      - HK香港 61
-      - HK香港 62
-      - HK香港 63
-      - HK香港 64
-      - HK香港 65
-      - HK香港 66
-      - HK香港 67
-      - HK香港 68
-      - HK香港 69
-      - HK香港 70
-      - HK香港 71
-      - HK香港 72
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - FR法国
-      - GB英国
-      - FR法国 2
       - HK香港
+      - NL荷兰
+      - FR法国
       - HK香港 2
-      - 比利时
       - HK香港 3
+      - NL荷兰 2
       - HK香港 4
-      - FR法国 3
-      - US美国
+      - NL荷兰 3
+      - DE德国
+      - FR法国 2
+      - NL荷兰 4
       - HK香港 5
-      - HK香港 6
-      - HK香港 7
-      - HK香港 8
-      - US美国 2
-      - HK香港 9
-      - GB英国 2
-      - SG新加坡
-      - HK香港 10
-      - GB英国 3
-      - HK香港 11
-      - HK香港 12
-      - HK香港 13
-      - SG新加坡 2
-      - HK香港 14
-      - SG新加坡 3
-      - US美国 3
-      - SG新加坡 4
-      - HK香港 15
-      - US美国 4
-      - HK香港 16
-      - 乌克兰
-      - US美国 5
+      - NL荷兰 5
+      - DE德国 2
+      - FR法国 3
       - FR法国 4
-      - US美国 6
       - FR法国 5
-      - HK香港 17
-      - HK香港 18
+      - FR法国 6
+      - FR法国 7
+      - HK香港 6
+      - US美国
+      - US美国 2
+      - GB英国
+      - HK香港 7
+      - US美国 3
+      - US美国 4
+      - US美国 5
+      - US美国 6
       - US美国 7
-      - HK香港 19
       - US美国 8
-      - HK香港 20
-      - HK香港 21
       - US美国 9
       - US美国 10
+      - HK香港 8
       - US美国 11
-      - HK香港 22
       - US美国 12
       - US美国 13
       - US美国 14
-      - HK香港 23
-      - HK香港 24
-      - HK香港 25
-      - FR法国 6
       - US美国 15
       - US美国 16
       - US美国 17
       - US美国 18
-      - HK香港 26
-      - HK香港 27
-      - HK香港 28
-      - HK香港 29
-      - HK香港 30
-      - HK香港 31
-      - HK香港 32
-      - HK香港 33
-      - HK香港 34
-      - HK香港 35
-      - HK香港 36
+      - HK香港 9
       - US美国 19
-      - FR法国 7
-      - FR法国 8
-      - FR法国 9
       - US美国 20
       - US美国 21
-      - FR法国 10
-      - GB英国 4
-      - HK香港 37
+      - HK香港 10
       - US美国 22
       - US美国 23
-      - HK香港 38
-      - HK香港 39
-      - HK香港 40
-      - HK香港 41
-      - HK香港 42
-      - HK香港 43
-      - HK香港 44
-      - HK香港 45
-      - HK香港 46
-      - HK香港 47
-      - HK香港 48
-      - HK香港 49
-      - HK香港 50
-      - HK香港 51
-      - HK香港 52
-      - FR法国 11
-      - HK香港 53
-      - FR法国 12
       - US美国 24
-      - FR法国 13
       - US美国 25
-      - HK香港 54
-      - FR法国 14
-      - HK香港 55
-      - HK香港 56
-      - HK香港 57
-      - HK香港 58
-      - HK香港 59
-      - HK香港 60
-      - HK香港 61
-      - HK香港 62
       - US美国 26
-      - HK香港 63
-      - HK香港 64
-      - HK香港 65
-      - HK香港 66
-      - HK香港 67
-      - HK香港 68
+      - TW台湾
+      - FR法国 8
+      - TW台湾 2
+      - 乌克兰
       - US美国 27
-      - HK香港 69
-      - HK香港 70
-      - HK香港 71
-      - 乌克兰 2
-      - HK香港 72
-      - FR法国 15
-      - FR法国 16
-      - FR法国 17
+      - GB英国 2
       - US美国 28
+      - US美国 29
+      - US美国 30
+      - HK香港 11
+      - US美国 31
+      - 乌克兰 2
+      - US美国 32
+      - US美国 33
+      - HK香港 12
+      - US美国 34
+      - US美国 35
+      - US美国 36
+      - FR法国 9
+      - FR法国 10
+      - US美国 37
+      - FR法国 11
+      - US美国 38
+      - US美国 39
+      - HK香港 13
+      - US美国 40
+      - GB英国 3
+      - GB英国 4
+      - HK香港 14
+      - US美国 41
+      - HK香港 15
+      - FR法国 12
+      - US美国 42
+      - FR法国 13
+      - US美国 43
+      - FR法国 14
+      - FR法国 15
+      - US美国 44
+      - US美国 45
+      - US美国 46
       - GB英国 5
+      - GB英国 6
+      - HK香港 16
+      - GB英国 7
+      - GB英国 8
+      - GB英国 9
+      - GB英国 10
+      - GB英国 11
+      - GB英国 12
+      - US美国 47
+      - US美国 48
+      - GB英国 13
+      - FR法国 16
+      - GB英国 14
+      - DE德国 3
+      - HK香港 17
+      - US美国 49
+      - FR法国 17
+      - NL荷兰 6
+      - DE德国 4
+      - FR法国 18
+      - HK香港 18
+      - FR法国 19
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - FR法国
-      - GB英国
-      - FR法国 2
       - HK香港
+      - NL荷兰
+      - FR法国
       - HK香港 2
-      - 比利时
       - HK香港 3
+      - NL荷兰 2
       - HK香港 4
-      - FR法国 3
-      - US美国
+      - NL荷兰 3
+      - DE德国
+      - FR法国 2
+      - NL荷兰 4
       - HK香港 5
-      - HK香港 6
-      - HK香港 7
-      - HK香港 8
-      - US美国 2
-      - HK香港 9
-      - GB英国 2
-      - SG新加坡
-      - HK香港 10
-      - GB英国 3
-      - HK香港 11
-      - HK香港 12
-      - HK香港 13
-      - SG新加坡 2
-      - HK香港 14
-      - SG新加坡 3
-      - US美国 3
-      - SG新加坡 4
-      - HK香港 15
-      - US美国 4
-      - HK香港 16
-      - 乌克兰
-      - US美国 5
+      - NL荷兰 5
+      - DE德国 2
+      - FR法国 3
       - FR法国 4
-      - US美国 6
       - FR法国 5
-      - HK香港 17
-      - HK香港 18
+      - FR法国 6
+      - FR法国 7
+      - HK香港 6
+      - US美国
+      - US美国 2
+      - GB英国
+      - HK香港 7
+      - US美国 3
+      - US美国 4
+      - US美国 5
+      - US美国 6
       - US美国 7
-      - HK香港 19
       - US美国 8
-      - HK香港 20
-      - HK香港 21
       - US美国 9
       - US美国 10
+      - HK香港 8
       - US美国 11
-      - HK香港 22
       - US美国 12
       - US美国 13
       - US美国 14
-      - HK香港 23
-      - HK香港 24
-      - HK香港 25
-      - FR法国 6
       - US美国 15
       - US美国 16
       - US美国 17
       - US美国 18
-      - HK香港 26
-      - HK香港 27
-      - HK香港 28
-      - HK香港 29
-      - HK香港 30
-      - HK香港 31
-      - HK香港 32
-      - HK香港 33
-      - HK香港 34
-      - HK香港 35
-      - HK香港 36
+      - HK香港 9
       - US美国 19
-      - FR法国 7
-      - FR法国 8
-      - FR法国 9
       - US美国 20
       - US美国 21
-      - FR法国 10
-      - GB英国 4
-      - HK香港 37
+      - HK香港 10
       - US美国 22
       - US美国 23
-      - HK香港 38
-      - HK香港 39
-      - HK香港 40
-      - HK香港 41
-      - HK香港 42
-      - HK香港 43
-      - HK香港 44
-      - HK香港 45
-      - HK香港 46
-      - HK香港 47
-      - HK香港 48
-      - HK香港 49
-      - HK香港 50
-      - HK香港 51
-      - HK香港 52
-      - FR法国 11
-      - HK香港 53
-      - FR法国 12
       - US美国 24
-      - FR法国 13
       - US美国 25
-      - HK香港 54
-      - FR法国 14
-      - HK香港 55
-      - HK香港 56
-      - HK香港 57
-      - HK香港 58
-      - HK香港 59
-      - HK香港 60
-      - HK香港 61
-      - HK香港 62
       - US美国 26
-      - HK香港 63
-      - HK香港 64
-      - HK香港 65
-      - HK香港 66
-      - HK香港 67
-      - HK香港 68
+      - TW台湾
+      - FR法国 8
+      - TW台湾 2
+      - 乌克兰
       - US美国 27
-      - HK香港 69
-      - HK香港 70
-      - HK香港 71
-      - 乌克兰 2
-      - HK香港 72
-      - FR法国 15
-      - FR法国 16
-      - FR法国 17
+      - GB英国 2
       - US美国 28
+      - US美国 29
+      - US美国 30
+      - HK香港 11
+      - US美国 31
+      - 乌克兰 2
+      - US美国 32
+      - US美国 33
+      - HK香港 12
+      - US美国 34
+      - US美国 35
+      - US美国 36
+      - FR法国 9
+      - FR法国 10
+      - US美国 37
+      - FR法国 11
+      - US美国 38
+      - US美国 39
+      - HK香港 13
+      - US美国 40
+      - GB英国 3
+      - GB英国 4
+      - HK香港 14
+      - US美国 41
+      - HK香港 15
+      - FR法国 12
+      - US美国 42
+      - FR法国 13
+      - US美国 43
+      - FR法国 14
+      - FR法国 15
+      - US美国 44
+      - US美国 45
+      - US美国 46
       - GB英国 5
+      - GB英国 6
+      - HK香港 16
+      - GB英国 7
+      - GB英国 8
+      - GB英国 9
+      - GB英国 10
+      - GB英国 11
+      - GB英国 12
+      - US美国 47
+      - US美国 48
+      - GB英国 13
+      - FR法国 16
+      - GB英国 14
+      - DE德国 3
+      - HK香港 17
+      - US美国 49
+      - FR法国 17
+      - NL荷兰 6
+      - DE德国 4
+      - FR法国 18
+      - HK香港 18
+      - FR法国 19
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - FR法国
-      - GB英国
-      - FR法国 2
       - HK香港
+      - NL荷兰
+      - FR法国
       - HK香港 2
-      - 比利时
       - HK香港 3
+      - NL荷兰 2
       - HK香港 4
-      - FR法国 3
-      - US美国
+      - NL荷兰 3
+      - DE德国
+      - FR法国 2
+      - NL荷兰 4
       - HK香港 5
-      - HK香港 6
-      - HK香港 7
-      - HK香港 8
-      - US美国 2
-      - HK香港 9
-      - GB英国 2
-      - SG新加坡
-      - HK香港 10
-      - GB英国 3
-      - HK香港 11
-      - HK香港 12
-      - HK香港 13
-      - SG新加坡 2
-      - HK香港 14
-      - SG新加坡 3
-      - US美国 3
-      - SG新加坡 4
-      - HK香港 15
-      - US美国 4
-      - HK香港 16
-      - 乌克兰
-      - US美国 5
+      - NL荷兰 5
+      - DE德国 2
+      - FR法国 3
       - FR法国 4
-      - US美国 6
       - FR法国 5
-      - HK香港 17
-      - HK香港 18
+      - FR法国 6
+      - FR法国 7
+      - HK香港 6
+      - US美国
+      - US美国 2
+      - GB英国
+      - HK香港 7
+      - US美国 3
+      - US美国 4
+      - US美国 5
+      - US美国 6
       - US美国 7
-      - HK香港 19
       - US美国 8
-      - HK香港 20
-      - HK香港 21
       - US美国 9
       - US美国 10
+      - HK香港 8
       - US美国 11
-      - HK香港 22
       - US美国 12
       - US美国 13
       - US美国 14
-      - HK香港 23
-      - HK香港 24
-      - HK香港 25
-      - FR法国 6
       - US美国 15
       - US美国 16
       - US美国 17
       - US美国 18
-      - HK香港 26
-      - HK香港 27
-      - HK香港 28
-      - HK香港 29
-      - HK香港 30
-      - HK香港 31
-      - HK香港 32
-      - HK香港 33
-      - HK香港 34
-      - HK香港 35
-      - HK香港 36
+      - HK香港 9
       - US美国 19
-      - FR法国 7
-      - FR法国 8
-      - FR法国 9
       - US美国 20
       - US美国 21
-      - FR法国 10
-      - GB英国 4
-      - HK香港 37
+      - HK香港 10
       - US美国 22
       - US美国 23
-      - HK香港 38
-      - HK香港 39
-      - HK香港 40
-      - HK香港 41
-      - HK香港 42
-      - HK香港 43
-      - HK香港 44
-      - HK香港 45
-      - HK香港 46
-      - HK香港 47
-      - HK香港 48
-      - HK香港 49
-      - HK香港 50
-      - HK香港 51
-      - HK香港 52
-      - FR法国 11
-      - HK香港 53
-      - FR法国 12
       - US美国 24
-      - FR法国 13
       - US美国 25
-      - HK香港 54
-      - FR法国 14
-      - HK香港 55
-      - HK香港 56
-      - HK香港 57
-      - HK香港 58
-      - HK香港 59
-      - HK香港 60
-      - HK香港 61
-      - HK香港 62
       - US美国 26
-      - HK香港 63
-      - HK香港 64
-      - HK香港 65
-      - HK香港 66
-      - HK香港 67
-      - HK香港 68
+      - TW台湾
+      - FR法国 8
+      - TW台湾 2
+      - 乌克兰
       - US美国 27
-      - HK香港 69
-      - HK香港 70
-      - HK香港 71
-      - 乌克兰 2
-      - HK香港 72
-      - FR法国 15
-      - FR法国 16
-      - FR法国 17
+      - GB英国 2
       - US美国 28
+      - US美国 29
+      - US美国 30
+      - HK香港 11
+      - US美国 31
+      - 乌克兰 2
+      - US美国 32
+      - US美国 33
+      - HK香港 12
+      - US美国 34
+      - US美国 35
+      - US美国 36
+      - FR法国 9
+      - FR法国 10
+      - US美国 37
+      - FR法国 11
+      - US美国 38
+      - US美国 39
+      - HK香港 13
+      - US美国 40
+      - GB英国 3
+      - GB英国 4
+      - HK香港 14
+      - US美国 41
+      - HK香港 15
+      - FR法国 12
+      - US美国 42
+      - FR法国 13
+      - US美国 43
+      - FR法国 14
+      - FR法国 15
+      - US美国 44
+      - US美国 45
+      - US美国 46
       - GB英国 5
+      - GB英国 6
+      - HK香港 16
+      - GB英国 7
+      - GB英国 8
+      - GB英国 9
+      - GB英国 10
+      - GB英国 11
+      - GB英国 12
+      - US美国 47
+      - US美国 48
+      - GB英国 13
+      - FR法国 16
+      - GB英国 14
+      - DE德国 3
+      - HK香港 17
+      - US美国 49
+      - FR法国 17
+      - NL荷兰 6
+      - DE德国 4
+      - FR法国 18
+      - HK香港 18
+      - FR法国 19
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1180,135 +1008,120 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - FR法国
-      - GB英国
-      - FR法国 2
       - HK香港
+      - NL荷兰
+      - FR法国
       - HK香港 2
-      - 比利时
       - HK香港 3
+      - NL荷兰 2
       - HK香港 4
-      - FR法国 3
-      - US美国
+      - NL荷兰 3
+      - DE德国
+      - FR法国 2
+      - NL荷兰 4
       - HK香港 5
-      - HK香港 6
-      - HK香港 7
-      - HK香港 8
-      - US美国 2
-      - HK香港 9
-      - GB英国 2
-      - SG新加坡
-      - HK香港 10
-      - GB英国 3
-      - HK香港 11
-      - HK香港 12
-      - HK香港 13
-      - SG新加坡 2
-      - HK香港 14
-      - SG新加坡 3
-      - US美国 3
-      - SG新加坡 4
-      - HK香港 15
-      - US美国 4
-      - HK香港 16
-      - 乌克兰
-      - US美国 5
+      - NL荷兰 5
+      - DE德国 2
+      - FR法国 3
       - FR法国 4
-      - US美国 6
       - FR法国 5
-      - HK香港 17
-      - HK香港 18
+      - FR法国 6
+      - FR法国 7
+      - HK香港 6
+      - US美国
+      - US美国 2
+      - GB英国
+      - HK香港 7
+      - US美国 3
+      - US美国 4
+      - US美国 5
+      - US美国 6
       - US美国 7
-      - HK香港 19
       - US美国 8
-      - HK香港 20
-      - HK香港 21
       - US美国 9
       - US美国 10
+      - HK香港 8
       - US美国 11
-      - HK香港 22
       - US美国 12
       - US美国 13
       - US美国 14
-      - HK香港 23
-      - HK香港 24
-      - HK香港 25
-      - FR法国 6
       - US美国 15
       - US美国 16
       - US美国 17
       - US美国 18
-      - HK香港 26
-      - HK香港 27
-      - HK香港 28
-      - HK香港 29
-      - HK香港 30
-      - HK香港 31
-      - HK香港 32
-      - HK香港 33
-      - HK香港 34
-      - HK香港 35
-      - HK香港 36
+      - HK香港 9
       - US美国 19
-      - FR法国 7
-      - FR法国 8
-      - FR法国 9
       - US美国 20
       - US美国 21
-      - FR法国 10
-      - GB英国 4
-      - HK香港 37
+      - HK香港 10
       - US美国 22
       - US美国 23
-      - HK香港 38
-      - HK香港 39
-      - HK香港 40
-      - HK香港 41
-      - HK香港 42
-      - HK香港 43
-      - HK香港 44
-      - HK香港 45
-      - HK香港 46
-      - HK香港 47
-      - HK香港 48
-      - HK香港 49
-      - HK香港 50
-      - HK香港 51
-      - HK香港 52
-      - FR法国 11
-      - HK香港 53
-      - FR法国 12
       - US美国 24
-      - FR法国 13
       - US美国 25
-      - HK香港 54
-      - FR法国 14
-      - HK香港 55
-      - HK香港 56
-      - HK香港 57
-      - HK香港 58
-      - HK香港 59
-      - HK香港 60
-      - HK香港 61
-      - HK香港 62
       - US美国 26
-      - HK香港 63
-      - HK香港 64
-      - HK香港 65
-      - HK香港 66
-      - HK香港 67
-      - HK香港 68
+      - TW台湾
+      - FR法国 8
+      - TW台湾 2
+      - 乌克兰
       - US美国 27
-      - HK香港 69
-      - HK香港 70
-      - HK香港 71
-      - 乌克兰 2
-      - HK香港 72
-      - FR法国 15
-      - FR法国 16
-      - FR法国 17
+      - GB英国 2
       - US美国 28
+      - US美国 29
+      - US美国 30
+      - HK香港 11
+      - US美国 31
+      - 乌克兰 2
+      - US美国 32
+      - US美国 33
+      - HK香港 12
+      - US美国 34
+      - US美国 35
+      - US美国 36
+      - FR法国 9
+      - FR法国 10
+      - US美国 37
+      - FR法国 11
+      - US美国 38
+      - US美国 39
+      - HK香港 13
+      - US美国 40
+      - GB英国 3
+      - GB英国 4
+      - HK香港 14
+      - US美国 41
+      - HK香港 15
+      - FR法国 12
+      - US美国 42
+      - FR法国 13
+      - US美国 43
+      - FR法国 14
+      - FR法国 15
+      - US美国 44
+      - US美国 45
+      - US美国 46
       - GB英国 5
+      - GB英国 6
+      - HK香港 16
+      - GB英国 7
+      - GB英国 8
+      - GB英国 9
+      - GB英国 10
+      - GB英国 11
+      - GB英国 12
+      - US美国 47
+      - US美国 48
+      - GB英国 13
+      - FR法国 16
+      - GB英国 14
+      - DE德国 3
+      - HK香港 17
+      - US美国 49
+      - FR法国 17
+      - NL荷兰 6
+      - DE德国 4
+      - FR法国 18
+      - HK香港 18
+      - FR法国 19
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
