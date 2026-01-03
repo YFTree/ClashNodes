@@ -58,73 +58,30 @@ tun:
 
 
 proxies:
-  - type: vless
-    name: 美国
-    server: 77.90.6.193
-    port: 8443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
   - type: trojan
-    name: 美国_1
-    server: 167.68.4.199
-    port: 2053
-    password: Aimer
+    name: 美国
+    server: 104.26.1.110
+    port: 443
+    password: 5a2c16f9
     network: ws
-    sni: epge.muarua.filegear-sg.me
+    sni: snippets.kkii.eu.org
     tls: true
     ws-opts:
       path: /
       headers:
-        Host: epge.muarua.filegear-sg.me
-  - type: vless
-    name: 美国_2
-    server: 185.254.97.252
-    port: 2013
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_3
-    server: 209.38.188.173
-    port: 443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_4
-    server: 157.230.27.167
-    port: 443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
+        Host: snippets.kkii.eu.org
+  - type: vmess
+    name: 美国_1
+    server: 202.85.53.179
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 202.85.53.179
   - type: trojan
-    name: 美国_5
-    server: 104.26.1.110
+    name: 美国_2
+    server: one.cf.cdn.hyli.xyz
     port: 443
     password: 5a2c16f9
     network: ws
@@ -135,20 +92,165 @@ proxies:
       headers:
         Host: snippets.kkii.eu.org
   - type: vless
-    name: 美国_6
-    server: 92.118.8.206
-    port: 443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    name: 美国_3
+    server: 154.17.29.62
+    port: 8443
+    uuid: 6953dc38-af44-dbeb-c6c5-735135791874
     network: ws
-    servername: sni.111000.de5.net
+    servername: sss.saas.camdvr.org
     tls: true
     encryption: none
     ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
+      path: jiedian-美国US-6
       headers:
-        Host: sni.111000.de5.net
+        Host: sss.saas.camdvr.org
+  - type: vmess
+    name: 美国_4
+    server: n1761214908.wpg27.xyz
+    port: 443
+    uuid: 3514a93f-bb26-4442-8f99-971b2ff3388a
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: n1761214908.wpg27.xyz
+    ws-opts:
+      path: /
+      headers:
+        Host: n1761214908.wpg27.xyz
+    tls: true
+  - type: trojan
+    name: 美国_5
+    server: 162.159.24.131
+    port: 443
+    password: 5a2c16f9
+    network: ws
+    sni: snippets.kkii.eu.org
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: snippets.kkii.eu.org
+  - type: trojan
+    name: 美国_6
+    server: one.cf.cdn.hyli.xyz
+    port: 443
+    password: 5a2c16f9
+    network: ws
+    sni: snippets.kkii.eu.org
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: snippets.kkii.eu.org
+  - type: vmess
+    name: 新加坡
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 7b1dbdd1-t6ngg0-t917sa-12ach.hk3.p5pv.com
   - type: vless
     name: 美国_7
+    server: 64.176.42.125
+    port: 10001
+    uuid: 6953dc38-af44-dbeb-c6c5-735135791874
+    network: ws
+    servername: sss.saas.camdvr.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: jiedian-日本JP-10
+      headers:
+        Host: sss.saas.camdvr.org
+  - type: vless
+    name: 美国_8
+    server: cf.zhetengsha.eu.org
+    port: 443
+    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+    network: ws
+    servername: snippets.kkii.eu.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /
+      headers:
+        Host: snippets.kkii.eu.org
+  - type: vmess
+    name: 美国_9
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 5e4f31de-sv0xs0-sv0wpw-17xo8.hk3.p5pv.com
+  - type: trojan
+    name: 美国_10
+    server: 104.19.220.22
+    port: 443
+    password: 5a2c16f9
+    network: ws
+    sni: snippets.kkii.eu.org
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: snippets.kkii.eu.org
+  - type: trojan
+    name: 美国_11
+    server: 104.26.1.110
+    port: 443
+    password: 5a2c16f9
+    network: ws
+    sni: snippets.kkii.eu.org
+    tls: true
+    ws-opts:
+      path: //
+      headers:
+        Host: snippets.kkii.eu.org
+  - type: vmess
+    name: 美国_12
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: n1744454498.lie5d.cyou
+  - type: vmess
+    name: 新加坡_1
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: v12.hdacd.com
+  - type: vmess
+    name: 美国_13
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: one.cf.cdn.hyli.xyz
+  - type: trojan
+    name: 美国_14
+    server: 158.101.11.204
+    port: 15805
+    password: iwangjie
+    network: ws
+    sni: nodes.830901.xyz
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: nodes.830901.xyz
+  - type: vless
+    name: 美国_15
     server: 216.167.93.178
     port: 443
     uuid: 6953dc38-af44-dbeb-c6c5-735135791874
@@ -160,9 +262,222 @@ proxies:
       path: jiedian-美国US-4
       headers:
         Host: sss.saas.camdvr.org
+  - type: ss
+    name: 美国_16
+    server: switcher-nick-croquet.freesocks.work
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: RFK38Cg7APneSB5cWDcpbm
+  - type: vmess
+    name: 美国_17
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: dDdCCVFg.922922.SHOP
+  - type: vmess
+    name: 香港
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 2001:bc8:32d7:302::10
+  - type: vmess
+    name: 美国_18
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: green2.cdntencentmusic.com
+  - type: vless
+    name: 美国_19
+    server: 104.19.39.90
+    port: 8880
+    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    network: ws
+    servername: sni.x86.de5.net
+    encryption: none
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳@WangCai2
+      headers:
+        Host: sni.x86.de5.net
+  - type: vless
+    name: 美国_20
+    server: 104.19.39.148
+    port: 8880
+    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    network: ws
+    servername: sni.x86.de5.net
+    encryption: none
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳@WangCai2
+      headers:
+        Host: sni.x86.de5.net
+  - type: vless
+    name: 美国_21
+    server: 104.19.39.79
+    port: 8880
+    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    network: ws
+    servername: sni.x86.de5.net
+    encryption: none
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳@WangCai2
+      headers:
+        Host: sni.x86.de5.net
+  - type: vmess
+    name: 香港_1
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: www.nintendogames.net
+  - type: vless
+    name: 美国_22
+    server: 104.19.39.244
+    port: 8880
+    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    network: ws
+    servername: sni.x86.de5.net
+    encryption: none
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳@WangCai2
+      headers:
+        Host: sni.x86.de5.net
+  - type: vless
+    name: 美国_23
+    server: 104.19.39.217
+    port: 8880
+    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    network: ws
+    servername: sni.x86.de5.net
+    encryption: none
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳@WangCai2
+      headers:
+        Host: sni.x86.de5.net
+  - type: vless
+    name: 美国_24
+    server: 104.19.39.68
+    port: 8880
+    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    network: ws
+    servername: sni.x86.de5.net
+    encryption: none
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳@WangCai2
+      headers:
+        Host: sni.x86.de5.net
+  - type: vless
+    name: 美国_25
+    server: 104.19.39.253
+    port: 8880
+    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    network: ws
+    servername: sni.x86.de5.net
+    encryption: none
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳@WangCai2
+      headers:
+        Host: sni.x86.de5.net
+  - type: vless
+    name: 美国_26
+    server: 104.19.39.181
+    port: 8880
+    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    network: ws
+    servername: sni.x86.de5.net
+    encryption: none
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳@WangCai2
+      headers:
+        Host: sni.x86.de5.net
+  - type: vmess
+    name: 美国_27
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: ddDFHhj.922922.Shop
+  - type: vless
+    name: 美国_28
+    server: 104.19.39.225
+    port: 8880
+    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    network: ws
+    servername: sni.x86.de5.net
+    encryption: none
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳@WangCai2
+      headers:
+        Host: sni.x86.de5.net
+  - type: vless
+    name: 美国_29
+    server: 104.19.39.229
+    port: 8880
+    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    network: ws
+    servername: sni.x86.de5.net
+    encryption: none
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳@WangCai2
+      headers:
+        Host: sni.x86.de5.net
+  - type: vless
+    name: 美国_30
+    server: 104.19.39.196
+    port: 8880
+    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    network: ws
+    servername: sni.x86.de5.net
+    encryption: none
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳@WangCai2
+      headers:
+        Host: sni.x86.de5.net
+  - type: vless
+    name: 美国_31
+    server: 104.19.39.57
+    port: 8880
+    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    network: ws
+    servername: sni.x86.de5.net
+    encryption: none
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳@WangCai2
+      headers:
+        Host: sni.x86.de5.net
+  - type: vless
+    name: 美国_32
+    server: 104.19.39.4
+    port: 8880
+    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    network: ws
+    servername: sni.x86.de5.net
+    encryption: none
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳@WangCai2
+      headers:
+        Host: sni.x86.de5.net
+  - type: ss
+    name: 美国_33
+    server: 82.38.31.190
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
   - type: trojan
-    name: 美国_8
-    server: 104.26.1.110
+    name: 台湾
+    server: 172.64.229.205
     port: 443
     password: 5a2c16f9
     network: ws
@@ -172,6 +487,371 @@ proxies:
       path: /
       headers:
         Host: snippets.kkii.eu.org
+  - type: vless
+    name: 美国_34
+    server: 104.19.150.163
+    port: 8443
+    uuid: 6e69871c-4506-4cb9-b375-ac97cb972742
+    network: ws
+    servername: saas.520cf.dns.army
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: saas.520cf.dns.army
+  - type: vless
+    name: 美国_35
+    server: cdn.204910.best
+    port: 443
+    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+    network: ws
+    servername: snippets.kkii.eu.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /
+      headers:
+        Host: snippets.kkii.eu.org
+  - type: trojan
+    name: 美国_36
+    server: 172.64.229.6
+    port: 443
+    password: 5a2c16f9
+    network: ws
+    sni: snippets.kkii.eu.org
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: snippets.kkii.eu.org
+  - type: trojan
+    name: 美国_37
+    server: 104.17.167.134
+    port: 443
+    password: 5a2c16f9
+    network: ws
+    sni: snippets.kkii.eu.org
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: snippets.kkii.eu.org
+  - type: vmess
+    name: 美国_38
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 2001:bc8:32d7:302::10
+  - type: trojan
+    name: 美国_39
+    server: 172.64.229.83
+    port: 443
+    password: 5a2c16f9
+    network: ws
+    sni: snippets.kkii.eu.org
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: snippets.kkii.eu.org
+  - type: trojan
+    name: 美国_40
+    server: 104.17.162.3
+    port: 443
+    password: 5a2c16f9
+    network: ws
+    sni: snippets.kkii.eu.org
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: snippets.kkii.eu.org
+  - type: trojan
+    name: 香港_2
+    server: 104.17.167.134
+    port: 443
+    password: 5a2c16f9
+    network: ws
+    sni: snippets.kkii.eu.org
+    tls: true
+    ws-opts:
+      path: //
+      headers:
+        Host: snippets.kkii.eu.org
+  - type: vless
+    name: 美国_41
+    server: 104.19.39.97
+    port: 443
+    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+    network: ws
+    servername: snippets.kkii.eu.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /
+      headers:
+        Host: snippets.kkii.eu.org
+  - type: trojan
+    name: 美国_42
+    server: 172.64.229.33
+    port: 443
+    password: 5a2c16f9
+    network: ws
+    sni: snippets.kkii.eu.org
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: snippets.kkii.eu.org
+  - type: vless
+    name: 韩国
+    server: 112.167.218.150
+    port: 37351
+    uuid: 00000000-0000-4000-8000-000000000000
+    network: ws
+    servername: mot.gike.dpdns.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /@Marisa_kristi
+      headers:
+        Host: mot.gike.dpdns.org
+  - type: vmess
+    name: 美国_43
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: t.me/ripaojiedian
+  - type: trojan
+    name: 美国_44
+    server: freeyx.cloudflare88.eu.org
+    port: 443
+    password: 5a2c16f9
+    network: ws
+    sni: snippets.kkii.eu.org
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: snippets.kkii.eu.org
+  - type: trojan
+    name: 美国_45
+    server: 172.64.229.86
+    port: 443
+    password: 5a2c16f9
+    network: ws
+    sni: snippets.kkii.eu.org
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: snippets.kkii.eu.org
+  - type: trojan
+    name: 台湾_1
+    server: 104.19.55.205
+    port: 443
+    password: 5a2c16f9
+    network: ws
+    sni: snippets.kkii.eu.org
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: snippets.kkii.eu.org
+  - type: vless
+    name: 美国_46
+    server: 104.19.49.192
+    port: 443
+    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+    network: ws
+    servername: snippets.kkii.eu.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /
+      headers:
+        Host: snippets.kkii.eu.org
+  - type: trojan
+    name: 美国_47
+    server: cf.130519.xyz
+    port: 443
+    password: 5a2c16f9
+    network: ws
+    sni: snippets.kkii.eu.org
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: snippets.kkii.eu.org
+  - type: vless
+    name: 美国_48
+    server: ali.nonull.pp.ua
+    port: 443
+    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+    network: ws
+    servername: snippets.kkii.eu.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /
+      headers:
+        Host: snippets.kkii.eu.org
+  - type: trojan
+    name: 美国_49
+    server: cf.130519.xyz
+    port: 443
+    password: 5a2c16f9
+    network: ws
+    sni: snippets.kkii.eu.org
+    tls: true
+    ws-opts:
+      path: //
+      headers:
+        Host: snippets.kkii.eu.org
+  - type: vmess
+    name: 新加坡_2
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: www.bing.com
+  - type: vless
+    name: 香港_3
+    server: 43.199.231.225
+    port: 9009
+    uuid: 6953dc38-af44-dbeb-c6c5-735135791874
+    network: ws
+    servername: sss.saas.camdvr.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: jiedian-香港HK-3
+      headers:
+        Host: sss.saas.camdvr.org
+  - type: vless
+    name: 新加坡_3
+    server: 119.8.29.112
+    port: 32389
+    uuid: 6953dc38-af44-dbeb-c6c5-735135791874
+    network: ws
+    servername: sss.saas.camdvr.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: jiedian-香港HK-9
+      headers:
+        Host: sss.saas.camdvr.org
+  - type: vless
+    name: 美国_50
+    server: 95.40.61.115
+    port: 443
+    uuid: 695620b8-7429-78d5-5813-98b65c1c63f4
+    network: ws
+    servername: soos.frii.site
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /proxyip=sjc.o00o.ooo
+      headers:
+        Host: soos.frii.site
+  - type: vmess
+    name: 美国_51
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vless
+    name: 香港_4
+    server: 45.121.138.23
+    port: 26688
+    uuid: 6953dc38-af44-dbeb-c6c5-735135791874
+    network: ws
+    servername: sss.saas.camdvr.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: jiedian-香港HK-4
+      headers:
+        Host: sss.saas.camdvr.org
+  - type: vless
+    name: 美国_52
+    server: 206.237.27.115
+    port: 443
+    uuid: 6953dc38-af44-dbeb-c6c5-735135791874
+    network: ws
+    servername: sss.saas.camdvr.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: jiedian-香港HK-6
+      headers:
+        Host: sss.saas.camdvr.org
+  - type: vmess
+    name: 美国_53
+    server: n1761214912.wpg27.xyz
+    port: 443
+    uuid: 4f86a909-836d-4643-b650-d812144a1fa9
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: n1761214912.wpg27.xyz
+    ws-opts:
+      path: /
+      headers:
+        Host: n1761214912.wpg27.xyz
+    tls: true
+  - type: vless
+    name: 美国_54
+    server: cf.cloudflare.182682.xyz
+    port: 443
+    uuid: 695620b8-7429-78d5-5813-98b65c1c63f4
+    network: ws
+    servername: soos.frii.site
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /proxyip=sjc.o00o.ooo
+      headers:
+        Host: soos.frii.site
+  - type: vmess
+    name: 美国_55
+    server: 202.85.53.179
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 08071ec6f38bfb263ee89b1bb0c3ca1b.mobgslb.tbcache.com
+  - type: vless
+    name: 台湾_2
+    server: 220.128.110.108
+    port: 43
+    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    network: ws
+    servername: sni.111000.dns.army
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳@WangCai2
+      headers:
+        Host: sni.111000.dns.army
+  - type: ss
+    name: 美国_56
+    server: 103.97.203.227
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   - type: vless
     name: 日本
     server: 8.209.255.241
@@ -186,917 +866,72 @@ proxies:
       headers:
         Host: sss.saas.camdvr.org
   - type: vless
-    name: 美国_9
-    server: 143.20.213.161
-    port: 8443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vmess
-    name: 美国_10
-    server: vc.fly.dev
-    port: 443
-    uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
-    alterId: 32
-    network: ws
-    cipher: auto
-    servername: vc.fly.dev
-    ws-opts:
-      path: /vc
-      headers:
-        Host: vc.fly.dev
-    tls: true
-  - type: vless
-    name: 美国_11
-    server: 185.148.104.168
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.v6.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.v6.army
-  - type: vless
-    name: 美国_12
-    server: cdn.204910.best
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_13
-    server: 162.159.58.53
-    port: 2087
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: hk1.xaniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: hk1.xaniusnippets.qzz.io
-  - type: trojan
-    name: 美国_14
-    server: one.cf.cdn.hyli.xyz
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_15
-    server: 185.135.9.148
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.v6.rocks
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.v6.rocks
-  - type: trojan
-    name: 美国_16
-    server: 104.19.220.22
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_17
-    server: 185.162.231.138
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.dns.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.dns.army
-  - type: vmess
-    name: 美国_18
-    server: 2001:bc8:32d7:2013::8
-    port: 62211
-    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
-    alterId: 0
-    network: ws
-    cipher: auto
-    servername: www.bing.com
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: www.bing.com
-  - type: vless
-    name: 美国_19
-    server: 193.36.85.226
-    port: 443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_20
-    server: 143.20.213.58
-    port: 8443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_21
-    server: 31.172.83.252
-    port: 2053
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: trojan
-    name: 美国_22
-    server: 162.159.24.131
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vmess
-    name: 美国_23
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: vc.fly.dev
-  - type: vless
-    name: 美国_24
-    server: 185.162.229.138
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.dns.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.dns.army
-  - type: vmess
-    name: 美国_25
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: 4bb6-B667-F88608d19FD5.664.QZz.IO
-  - type: vmess
-    name: 美国_26
-    server: aio.unlimited.biz.id
-    port: 443
-    uuid: f282b878-8711-45a1-8c69-5564172123c1
-    alterId: 0
-    network: ws
-    cipher: zero
-    servername: aio.unlimited.biz.id
-    ws-opts:
-      path: /aioproxybot/129.150.49.58-18650
-      headers:
-        Host: aio.unlimited.biz.id
-    tls: true
-  - type: vless
-    name: 美国_27
-    server: 193.37.70.3
-    port: 443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 澳洲
-    server: 91.108.244.59
-    port: 443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 波兰
-    server: 178.236.253.23
-    port: 443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 俄罗斯
-    server: 93.185.156.138
-    port: 443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_28
-    server: 95.181.161.158
-    port: 2053
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 日本_1
-    server: 64.176.42.125
-    port: 10001
-    uuid: 6953dc38-af44-dbeb-c6c5-735135791874
-    network: ws
-    servername: sss.saas.camdvr.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: jiedian-日本JP-10
-      headers:
-        Host: sss.saas.camdvr.org
-  - type: vmess
-    name: 美国_29
-    server: 2.56.242.210
-    port: 34895
-    uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
-    alterId: 0
-    network: tcp
-    cipher: auto
-  - type: vmess
-    name: 香港
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: www.nintendogames.net
-  - type: vless
-    name: 西班牙
-    server: 150.241.108.148
-    port: 443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_30
-    server: 143.20.213.40
-    port: 8443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_31
-    server: 143.20.213.207
-    port: 8443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_32
-    server: 95.181.151.44
-    port: 8443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vmess
-    name: 美国_33
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: 2001:bc8:32d7:302::10
-  - type: vless
-    name: 美国_34
-    server: 46.249.101.56
-    port: 8443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_35
-    server: 143.20.213.59
-    port: 8443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_36
-    server: 178.250.187.61
-    port: 443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: trojan
-    name: 美国_37
-    server: 158.101.11.204
-    port: 15805
-    password: iwangjie
-    network: ws
-    sni: nodes.830901.xyz
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: nodes.830901.xyz
-  - type: vless
-    name: 美国_38
-    server: 143.20.213.149
-    port: 8443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vmess
-    name: 美国_39
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: 4120-BE04-13ef56096989.457.PP.ua
-  - type: vless
-    name: 英国
-    server: 77.239.105.16
-    port: 8443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_40
-    server: 95.181.161.93
-    port: 2053
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_41
-    server: www.speedtest.net
-    port: 80
-    uuid: ef8bff83-6d54-4e62-9b58-a2eec3f0d6a0
-    network: ws
-    servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.skylinkserver.site.vegaskala.com.
-    encryption: none
-    ws-opts:
-      path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
-      headers:
-        Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.skylinkserver.site.vegaskala.com.
-  - type: vless
-    name: 西班牙_1
-    server: 150.241.105.227
-    port: 8443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vmess
-    name: 新加坡
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: v12.hdacd.com
-  - type: vless
-    name: 美国_42
-    server: 195.58.38.63
-    port: 443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vmess
-    name: 美国_43
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: ddDFHhj.922922.Shop
-  - type: vless
-    name: 美国_44
-    server: 82.165.190.85
-    port: 443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 波兰_1
-    server: 5.44.46.142
-    port: 443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vmess
-    name: 法国
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: 51aa8f7.hf.glados-config.net
-  - type: vless
-    name: 英国_1
-    server: 77.239.104.36
-    port: 443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 英国_2
-    server: 185.156.19.168
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.v6.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.v6.army
-  - type: vless
-    name: 美国_45
-    server: 43.165.190.11
-    port: 42841
-    uuid: 00000000-0000-4000-8000-000000000000
-    network: ws
-    servername: mot.morisi.ggff.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /@Marisa_kristi
-      headers:
-        Host: mot.morisi.ggff.net
-  - type: vmess
-    name: 美国_46
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: sssssssxxxx.2032.pp.ua
-  - type: vless
-    name: 美国_47
-    server: 172.64.158.75
-    port: 2087
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: hk1.xaniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: hk1.xaniusnippets.qzz.io
-  - type: vless
-    name: 波兰_2
-    server: 95.140.153.9
-    port: 443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 波兰_3
-    server: 85.193.95.23
-    port: 2053
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: trojan
-    name: 美国_48
-    server: one.cf.cdn.hyli.xyz
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: //
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 香港_1
-    server: 104.17.167.134
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: //
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 香港_2
-    server: 8.210.138.148
-    port: 12569
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: hk1.xaniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: hk1.xaniusnippets.qzz.io
-  - type: trojan
-    name: 美国_49
-    server: 104.17.162.3
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_50
-    server: 185.159.247.148
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.v6.rocks
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.v6.rocks
-  - type: vmess
-    name: 美国_51
-    server: 202.85.53.179
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: 08071ec6f38bfb263ee89b1bb0c3ca1b.mobgslb.tbcache.com
-  - type: vless
-    name: 美国_52
-    server: 36.50.90.241
-    port: 35951
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.cc.cd
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.cc.cd
-  - type: ss
-    name: 美国_53
-    server: switcher-nick-croquet.freesocks.work
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: wwzVn2ZnHfqYa6l8EWh3eY
-  - type: vless
-    name: 香港_3
-    server: 8.223.63.150
-    port: 443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: hk1.xaniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: hk1.xaniusnippets.qzz.io
-  - type: trojan
-    name: 台湾
-    server: 104.19.55.205
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 香港_4
-    server: 47.239.11.14
-    port: 443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: hk1.xaniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: hk1.xaniusnippets.qzz.io
-  - type: vmess
-    name: 香港_5
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: 2001:bc8:32d7:302::10
-  - type: vless
-    name: 日本_2
-    server: 154.31.117.149
-    port: 8443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: hk1.xaniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: hk1.xaniusnippets.qzz.io
-  - type: trojan
-    name: 美国_54
-    server: 104.17.167.134
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_55
-    server: 45.77.52.102
-    port: 8443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vmess
-    name: 俄罗斯_1
-    server: 2.56.242.210
-    port: 34895
-    uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: 2.56.242.210
-  - type: trojan
-    name: 法国_1
-    server: cf.130519.xyz
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: //
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 美国_56
-    server: freeyx.cloudflare88.eu.org
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vmess
     name: 美国_57
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: 2001:bc8:32d7:302::10
-  - type: vmess
-    name: 新加坡_1
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: t.me%252Fripaojiedian
-  - type: vless
-    name: 香港_6
-    server: 119.8.29.112
-    port: 32389
-    uuid: 6953dc38-af44-dbeb-c6c5-735135791874
+    server: 46.3.44.78
+    port: 80
+    uuid: 695620b8-7429-78d5-5813-98b65c1c63f4
     network: ws
-    servername: sss.saas.camdvr.org
+    servername: soos.frii.site
     tls: true
     encryption: none
     ws-opts:
-      path: jiedian-香港HK-9
+      path: /proxyip=sjc.o00o.ooo
       headers:
-        Host: sss.saas.camdvr.org
+        Host: soos.frii.site
   - type: vless
     name: 美国_58
-    server: 91.199.118.215
-    port: 8443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    server: 47.79.37.119
+    port: 1012
+    uuid: 695620b8-7429-78d5-5813-98b65c1c63f4
     network: ws
-    servername: sni.111000.de5.net
+    servername: soos.frii.site
     tls: true
     encryption: none
     ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
+      path: /proxyip=sjc.o00o.ooo
       headers:
-        Host: sni.111000.de5.net
-  - type: trojan
+        Host: soos.frii.site
+  - type: vless
     name: 美国_59
+    server: cm.cf.090227.xyz
+    port: 443
+    uuid: 695620b8-7429-78d5-5813-98b65c1c63f4
+    network: ws
+    servername: soos.frii.site
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /proxyip=sjc.o00o.ooo
+      headers:
+        Host: soos.frii.site
+  - type: vmess
+    name: 新加坡_4
+    server: n1761214905.wpg27.xyz
+    port: 443
+    uuid: b1d3007c-441a-42d5-84b5-20301c46fa2c
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: n1761214905.wpg27.xyz
+    ws-opts:
+      path: /
+      headers:
+        Host: n1761214905.wpg27.xyz
+    tls: true
+  - type: ss
+    name: 美国_60
+    server: 120.232.89.240
+    port: 19822
+    cipher: chacha20-ietf-poly1305
+    password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+  - type: ss
+    name: 美国_61
+    server: 82.38.31.191
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+  - type: trojan
+    name: 美国_62
     server: 777.ai7777777.xyz
     port: 443
     password: 5a2c16f9
@@ -1107,86 +942,17 @@ proxies:
       path: /
       headers:
         Host: snippets.kkii.eu.org
-  - type: vless
-    name: 香港_7
-    server: 45.121.138.23
-    port: 26688
-    uuid: 6953dc38-af44-dbeb-c6c5-735135791874
-    network: ws
-    servername: sss.saas.camdvr.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: jiedian-香港HK-4
-      headers:
-        Host: sss.saas.camdvr.org
-  - type: trojan
-    name: 台湾_1
-    server: 172.64.229.205
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 新加坡_2
-    server: 185.212.113.32
-    port: 2050
-    uuid: 00000000-0000-4000-8000-000000000000
-    network: ws
-    servername: ennyfe.zipgd3vx91o.ddns-ip.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /@Marisa_kristi
-      headers:
-        Host: ennyfe.zipgd3vx91o.ddns-ip.net
-  - type: ss
-    name: 美国_60
-    server: liubu9.singdns.com
-    port: 17459
-    cipher: aes-128-gcm
-    password: 57bc0c04-8184-48f5-906b-897d095ed445
-  - type: trojan
-    name: 美国_61
-    server: cf.130519.xyz
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: snippets.kkii.eu.org
   - type: vmess
-    name: 美国_62
+    name: 新加坡_5
     server: v12.hdacd.com
     port: 30812
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     network: tcp
     cipher: auto
-    servername: mfyousheng.nl.eu.org
+    servername: t.me%252Fripaojiedian
   - type: vless
-    name: 香港_8
-    server: 43.199.231.225
-    port: 9009
-    uuid: 6953dc38-af44-dbeb-c6c5-735135791874
-    network: ws
-    servername: sss.saas.camdvr.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: jiedian-香港HK-3
-      headers:
-        Host: sss.saas.camdvr.org
-  - type: vless
-    name: 香港_9
+    name: 香港_5
     server: 206.237.17.226
     port: 443
     uuid: 6953dc38-af44-dbeb-c6c5-735135791874
@@ -1198,52 +964,496 @@ proxies:
       path: jiedian-香港HK-5
       headers:
         Host: sss.saas.camdvr.org
-  - type: vmess
+  - type: ss
     name: 美国_63
+    server: 82.38.31.184
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+  - type: vmess
+    name: 新加坡_6
+    server: n1761214907.74qxv.top
+    port: 443
+    uuid: 4c17399f-c93d-4527-8ace-5bdc2f0901f3
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: n1761214907.74qxv.top
+    ws-opts:
+      path: /
+      headers:
+        Host: n1761214907.74qxv.top
+    tls: true
+  - type: vless
+    name: 日本_1
+    server: 193.111.30.49
+    port: 30000
+    uuid: 6953dc38-af44-dbeb-c6c5-735135791874
+    network: ws
+    servername: sss.saas.camdvr.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: jiedian-日本JP-7
+      headers:
+        Host: sss.saas.camdvr.org
+  - type: vless
+    name: 俄罗斯
+    server: 46.3.193.14
+    port: 30002
+    uuid: 695620b8-7429-78d5-5813-98b65c1c63f4
+    network: ws
+    servername: soos.frii.site
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /proxyip=sjc.o00o.ooo
+      headers:
+        Host: soos.frii.site
+  - type: vmess
+    name: 美国_64
     server: v12.hdacd.com
     port: 30812
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     network: tcp
     cipher: auto
-    servername: one.cf.cdn.hyli.xyz
-  - type: vless
-    name: 台湾_2
-    server: 220.128.110.108
-    port: 43
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.dns.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.dns.army
+    servername: vc.fly.dev
   - type: vmess
-    name: 新加坡_3
-    server: 185.36.192.228
-    port: 35488
-    uuid: fb5a4283-dbfb-458b-8619-c4a53739f781
+    name: 美国_65
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     network: tcp
     cipher: auto
-    servername: www.nintendogames.net
+    servername: 2001:bc8:32d7:302::10
   - type: vless
-    name: 美国_64
-    server: 136.244.90.180
-    port: 8443
+    name: 新加坡_7
+    server: 94.74.83.173
+    port: 45069
+    uuid: 695620b8-7429-78d5-5813-98b65c1c63f4
+    network: ws
+    servername: soos.frii.site
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /proxyip=sjc.o00o.ooo
+      headers:
+        Host: soos.frii.site
+  - type: vless
+    name: 美国_66
+    server: 104.19.39.232
+    port: 8880
     uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
     network: ws
-    servername: sni.111000.de5.net
-    tls: true
+    servername: sni.x86.de5.net
     encryption: none
     ws-opts:
       path: /?ed=2560&Telegram🇨🇳@WangCai2
       headers:
-        Host: sni.111000.de5.net
+        Host: sni.x86.de5.net
+  - type: vless
+    name: 美国_67
+    server: 43.165.190.11
+    port: 42841
+    uuid: 00000000-0000-4000-8000-000000000000
+    network: ws
+    servername: mot.morisi.ggff.net
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /@Marisa_kristi
+      headers:
+        Host: mot.morisi.ggff.net
+  - type: vless
+    name: 台湾_3
+    server: 220.128.110.108
+    port: 43
+    uuid: 695620b8-7429-78d5-5813-98b65c1c63f4
+    network: ws
+    servername: soos.frii.site
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /proxyip=sjc.o00o.ooo
+      headers:
+        Host: soos.frii.site
+  - type: ss
+    name: 美国_68
+    server: 120.232.89.240
+    port: 19812
+    cipher: chacha20-ietf-poly1305
+    password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
   - type: vmess
-    name: 香港_10
+    name: 美国_69
+    server: 160.119.196.92
+    port: 36334
+    uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: trojan
+    name: 美国_70
+    server: bpbg.anguswen.top
+    port: 443
+    password: "123456"
+    network: ws
+    sni: bPbG.ANguswen.tOP
+    alpn:
+      - http/1.1
+    tls: true
+    ws-opts:
+      path: /eyJqdW5rIjoidmNzMWVlWHpNTVh4M2siLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19?ed=2560
+  - type: vless
+    name: 美国_71
+    server: 43.165.190.11
+    port: 42841
+    uuid: 00000000-0000-4000-8000-000000000000
+    network: ws
+    servername: mot.luyuju.dpdns.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /@Marisa_kristi
+      headers:
+        Host: mot.luyuju.dpdns.org
+  - type: vmess
+    name: 法国
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    network: ws
+    cipher: auto
+    ws-opts:
+      path: /?ed=2048
+  - type: vmess
+    name: 美国_72
+    server: 202.85.53.179
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vmess
+    name: 法国_1
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: 2001:bc8:32d7:302::10
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: 2001:bc8:32d7:302::10
+  - type: vmess
+    name: 法国_2
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    network: ws
+    cipher: auto
+    ws-opts:
+      path: ?ed=2048
+  - type: vless
+    name: 美国_73
+    server: 43.133.26.158
+    port: 443
+    uuid: 6953dc38-af44-dbeb-c6c5-735135791874
+    network: ws
+    servername: sss.saas.camdvr.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: jiedian-日本JP-9
+      headers:
+        Host: sss.saas.camdvr.org
+  - type: vmess
+    name: 美国_74
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 2001:bc8:32d7:302::10
+  - type: vmess
+    name: 美国_75
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 4069-a9d0-b967c7529ac7.457.pp.ua
+  - type: vmess
+    name: 美国_76
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 2001:bc8:32d7:302::10
+  - type: vmess
+    name: 英国
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: cdnfire.xiaomispeed.com
+  - type: vmess
+    name: 英国_1
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: AZERB.NET
+  - type: vmess
+    name: 美国_77
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 2001:bc8:32d7:302::10
+  - type: vmess
+    name: 英国_2
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 2001:bc8:32d7:302::10
+  - type: vmess
+    name: 英国_3
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: trojan.burgerip.co.uk
+  - type: vmess
+    name: 英国_4
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 2001:bc8:32d7:302::10
+  - type: vmess
+    name: 英国_5
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: t.me%25252Fripaojiedian
+  - type: vmess
+    name: 美国_78
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: img14.360buyimg.com
+  - type: vmess
+    name: 英国_6
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: bbbbbbbbb.222769.xyz
+  - type: vmess
+    name: 美国_79
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 2001:bc8:32d7:302::10
+  - type: vmess
+    name: 美国_80
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 2001:bc8:32d7:302::10
+  - type: vmess
+    name: 英国_7
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 82.198.246.97
+  - type: vmess
+    name: 英国_8
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: t.me%252Fripaojiedian
+  - type: vmess
+    name: 美国_81
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: ss
+    name: 美国_82
+    server: 120.232.89.240
+    port: 19862
+    cipher: chacha20-ietf-poly1305
+    password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+  - type: vless
+    name: 香港_6
+    server: 34.92.187.216
+    port: 443
+    uuid: 695620b8-7429-78d5-5813-98b65c1c63f4
+    network: ws
+    servername: soos.frii.site
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /proxyip=sjc.o00o.ooo
+      headers:
+        Host: soos.frii.site
+  - type: vless
+    name: 美国_83
+    server: cloudflare.182682.xyz
+    port: 443
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    network: ws
+    servername: l.ayovo.netlib.re
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: l.ayovo.netlib.re
+  - type: vless
+    name: 韩国_1
+    server: 220.120.42.36
+    port: 10036
+    uuid: 695620b8-7429-78d5-5813-98b65c1c63f4
+    network: ws
+    servername: soos.frii.site
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /proxyip=sjc.o00o.ooo
+      headers:
+        Host: soos.frii.site
+  - type: ss
+    name: 美国_84
+    server: liubu9.singdns.com
+    port: 17459
+    cipher: aes-128-gcm
+    password: 57bc0c04-8184-48f5-906b-897d095ed445
+  - type: vless
+    name: 美国_85
+    server: 38.247.8.232
+    port: 10080
+    uuid: 6e69871c-4506-4cb9-b375-ac97cb972742
+    network: ws
+    servername: saas.520cf.dns.army
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: saas.520cf.dns.army
+  - type: ss
+    name: 美国_86
+    server: switcher-nick-croquet.freesocks.work
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: 9tqhMdIrTkgQ46PvhyAtMH
+  - type: vmess
+    name: 美国_87
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 2001:bc8:32d7:302::10
+  - type: vless
+    name: 新加坡_8
+    server: 27.50.48.29
+    port: 2096
+    uuid: 695620b8-7429-78d5-5813-98b65c1c63f4
+    network: ws
+    servername: soos.frii.site
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /proxyip=sjc.o00o.ooo
+      headers:
+        Host: soos.frii.site
+  - type: vmess
+    name: 新加坡_9
+    server: n1747624271.lie5d.cyou
+    port: 443
+    uuid: a231ba8b-8871-416c-813b-e2240bc66bb2
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: n1747624271.lie5d.cyou
+    ws-opts:
+      path: /
+      headers:
+        Host: n1747624271.lie5d.cyou
+    tls: true
+  - type: vless
+    name: 日本_2
+    server: 141.147.159.250
+    port: 443
+    uuid: 6e69871c-4506-4cb9-b375-ac97cb972742
+    network: ws
+    servername: saas.520cf.dns.army
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: saas.520cf.dns.army
+  - type: vmess
+    name: 美国_88
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: v30.hdacd.com
+  - type: vmess
+    name: 香港_7
     server: n1761214904.wpg27.xyz
     port: 443
     uuid: 7f6f64ae-3778-434c-adfc-95cb67ee8b73
@@ -1257,857 +1467,33 @@ proxies:
         Host: n1761214904.wpg27.xyz
     tls: true
   - type: vless
-    name: 美国_65
-    server: 185.162.228.158
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_66
-    server: 95.179.168.188
+    name: 台湾_4
+    server: 220.130.58.230
     port: 443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    uuid: 695620b8-7429-78d5-5813-98b65c1c63f4
     network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 香港_11
-    server: 8.218.0.190
-    port: 443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: hk1.xaniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: hk1.xaniusnippets.qzz.io
-  - type: vless
-    name: 香港_12
-    server: 213.176.66.140
-    port: 3000
-    uuid: 00000000-0000-4000-8000-000000000000
-    network: ws
-    servername: mot.gike.dpdns.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /@Marisa_kristi
-      headers:
-        Host: mot.gike.dpdns.org
-  - type: vless
-    name: 日本_3
-    server: 141.98.197.101
-    port: 11665
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: jp1.aniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: jp1.aniusnippets.qzz.io
-  - type: vless
-    name: 香港_13
-    server: 206.237.27.115
-    port: 443
-    uuid: 6953dc38-af44-dbeb-c6c5-735135791874
-    network: ws
-    servername: sss.saas.camdvr.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: jiedian-香港HK-6
-      headers:
-        Host: sss.saas.camdvr.org
-  - type: vless
-    name: 日本_4
-    server: 103.232.213.45
-    port: 9443
-    uuid: 6953dc38-af44-dbeb-c6c5-735135791874
-    network: ws
-    servername: sss.saas.camdvr.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: jiedian-日本JP-6
-      headers:
-        Host: sss.saas.camdvr.org
-  - type: vless
-    name: 美国_67
-    server: 43.165.190.11
-    port: 42841
-    uuid: 00000000-0000-4000-8000-000000000000
-    network: ws
-    servername: mot.luyuju.dpdns.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /@Marisa_kristi
-      headers:
-        Host: mot.luyuju.dpdns.org
-  - type: vless
-    name: 美国_68
-    server: 38.180.219.131
-    port: 443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_69
-    server: pages.cloudflare.com
-    port: 2053
-    uuid: 6953236c-f0a2-59b8-bc60-f08256cf3371
-    network: ws
-    servername: saas.frii.site
+    servername: soos.frii.site
     tls: true
     encryption: none
     ws-opts:
       path: /proxyip=sjc.o00o.ooo
       headers:
-        Host: saas.frii.site
+        Host: soos.frii.site
   - type: vless
-    name: 新加坡_4
-    server: 20.191.143.151
-    port: 8080
-    uuid: e258977b-e413-4718-a3af-02d75492c349
+    name: 韩国_2
+    server: 61.79.126.130
+    port: 12366
+    uuid: 695620b8-7429-78d5-5813-98b65c1c63f4
     network: ws
-    servername: hk1.xaniusnippets.qzz.io
+    servername: soos.frii.site
     tls: true
     encryption: none
     ws-opts:
-      path: /?ed=2560
+      path: /proxyip=sjc.o00o.ooo
       headers:
-        Host: hk1.xaniusnippets.qzz.io
-  - type: vless
-    name: 新加坡_5
-    server: 34.92.187.216
-    port: 443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: hk1.xaniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: hk1.xaniusnippets.qzz.io
+        Host: soos.frii.site
   - type: vmess
-    name: 美国_70
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: asuka.0061.my
-  - type: vless
-    name: 美国_71
-    server: 80.240.23.230
-    port: 8443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 新加坡_6
-    server: 20.17.98.97
-    port: 443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: hk1.xaniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: hk1.xaniusnippets.qzz.io
-  - type: vless
-    name: 台湾_3
-    server: 203.69.248.40
-    port: 10443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.dns.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.dns.army
-  - type: vless
-    name: 日本_5
-    server: 8.209.255.241
-    port: 8443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: hk1.xaniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: hk1.xaniusnippets.qzz.io
-  - type: vless
-    name: 香港_14
-    server: 13.94.31.81
-    port: 10001
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: jp1.aniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: jp1.aniusnippets.qzz.io
-  - type: vmess
-    name: 美国_72
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: 2001:bc8:32d7:302::10
-  - type: vless
-    name: 台湾_4
-    server: 220.130.58.230
-    port: 443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.dns.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.dns.army
-  - type: vmess
-    name: 美国_73
-    server: 202.85.53.179
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: 202.85.53.179
-  - type: vmess
-    name: 法国_2
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    network: ws
-    cipher: auto
-  - type: vless
-    name: 美国_74
-    server: www.udacity.com
-    port: 8443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: hk1.xaniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: hk1.xaniusnippets.qzz.io
-  - type: vless
-    name: 美国_75
-    server: 146.103.42.175
-    port: 2087
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 日本_6
-    server: 153.121.45.101
-    port: 443
-    uuid: 6953dc38-af44-dbeb-c6c5-735135791874
-    network: ws
-    servername: sss.saas.camdvr.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: jiedian-日本JP-2
-      headers:
-        Host: sss.saas.camdvr.org
-  - type: vless
     name: 法国_3
-    server: 57.129.63.30
-    port: 8443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_76
-    server: 141.98.197.101
-    port: 11665
-    uuid: 6953dc38-af44-dbeb-c6c5-735135791874
-    network: ws
-    servername: sss.saas.camdvr.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: jiedian-日本JP-4
-      headers:
-        Host: sss.saas.camdvr.org
-  - type: vless
-    name: 西班牙_2
-    server: 194.76.173.6
-    port: 2053
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 日本_7
-    server: 43.133.26.158
-    port: 443
-    uuid: 6953dc38-af44-dbeb-c6c5-735135791874
-    network: ws
-    servername: sss.saas.camdvr.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: jiedian-日本JP-9
-      headers:
-        Host: sss.saas.camdvr.org
-  - type: vless
-    name: 美国_77
-    server: 91.107.169.158
-    port: 2083
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 法国_4
-    server: 162.19.224.15
-    port: 443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vmess
-    name: 法国_5
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    network: ws
-    cipher: auto
-    ws-opts:
-      path: /?ed=2048
-  - type: vmess
-    name: 法国_6
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    network: ws
-    cipher: auto
-    servername: 2001:bc8:32d7:302::10
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: 2001:bc8:32d7:302::10
-  - type: vless
-    name: 美国_78
-    server: 128.140.14.13
-    port: 443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vmess
-    name: 法国_7
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    network: ws
-    cipher: auto
-    ws-opts:
-      path: ?ed=2048
-  - type: vmess
-    name: 英国_3
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: cdnfire.xiaomispeed.com
-  - type: vmess
-    name: 美国_79
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: 4069-a9d0-b967c7529ac7.457.pp.ua
-  - type: vmess
-    name: 美国_80
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: 2001:bc8:32d7:302::10
-  - type: vless
-    name: 英国_4
-    server: 5.178.110.28
-    port: 8443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vmess
-    name: 英国_5
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: 82.198.246.97
-  - type: vmess
-    name: 美国_81
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-  - type: vmess
-    name: 香港_15
-    server: 202.85.53.179
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: 066b4fdf0682c371b9f61213e59d7876.mobgslb.tbcache.com
-  - type: vmess
-    name: 英国_6
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: t.me%252Fripaojiedian
-  - type: vless
-    name: 美国_82
-    server: 91.107.172.37
-    port: 2053
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_83
-    server: 185.162.230.148
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.v6.rocks
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.v6.rocks
-  - type: vmess
-    name: 英国_7
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: bbbbbbbbb.222769.xyz
-  - type: vmess
-    name: 美国_84
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: img14.360buyimg.com
-  - type: vmess
-    name: 美国_85
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: 2001:bc8:32d7:302::10
-  - type: vmess
-    name: 英国_8
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: AZERB.NET
-  - type: vmess
-    name: 俄罗斯_2
-    server: 2.56.242.210
-    port: 34895
-    uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: snippets.kkii.eu.org
-  - type: vmess
-    name: 美国_86
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: 2001:bc8:32d7:302::10
-  - type: vmess
-    name: 美国_87
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: 2001:bc8:32d7:302::10
-  - type: vmess
-    name: 英国_9
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: 2001:bc8:32d7:302::10
-  - type: vmess
-    name: 美国_88
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-  - type: vmess
-    name: 美国_89
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: 2001:bc8:32d7:302::10
-  - type: vless
-    name: 美国_90
-    server: 152.53.141.9
-    port: 8443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vmess
-    name: 英国_10
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: 2001:bc8:32d7:302::10
-  - type: vless
-    name: 美国_91
-    server: 185.149.135.158
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_92
-    server: 89.58.13.3
-    port: 8443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_93
-    server: 89.58.26.101
-    port: 2005
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_94
-    server: 162.159.235.26
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_95
-    server: 185.133.35.148
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.v6.rocks
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.v6.rocks
-  - type: vless
-    name: 美国_96
-    server: 185.133.35.138
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.dns.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.dns.army
-  - type: vless
-    name: 美国_97
-    server: 91.132.160.151
-    port: 443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 香港_16
-    server: 43.161.217.205
-    port: 1443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: hk1.xaniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: hk1.xaniusnippets.qzz.io
-  - type: vless
-    name: 美国_98
-    server: 185.133.35.158
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_99
-    server: 185.133.35.168
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.v6.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.v6.army
-  - type: vless
-    name: 韩国
-    server: 112.167.218.150
-    port: 37351
-    uuid: 00000000-0000-4000-8000-000000000000
-    network: ws
-    servername: mot.gike.dpdns.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /@Marisa_kristi
-      headers:
-        Host: mot.gike.dpdns.org
-  - type: ss
-    name: 美国_100
-    server: switcher-nick-croquet.freesocks.work
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: 9tqhMdIrTkgQ46PvhyAtMH
-  - type: vmess
-    name: 新加坡_7
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: www.bing.com
-  - type: vless
-    name: 美国_101
-    server: go.inmobi.com
-    port: 8080
-    uuid: 7d47ff30-74b2-47c7-b5bd-b06ef8b8f80e
-    network: ws
-    servername: spring-flower-3254.magicnight101.workers.dev
-    encryption: none
-    ws-opts:
-      path: /9PnUgtdLG8Br?ed=2560v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree
-      headers:
-        Host: spring-flower-3254.magicnight101.workers.dev
-  - type: vmess
-    name: 法国_8
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    network: ws
-    cipher: auto
-    ws-opts:
-      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-  - type: vmess
-    name: 法国_9
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    network: ws
-    cipher: auto
-    servername: 2001:bc8:32d7:302::10
-    ws-opts:
-      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-      headers:
-        Host: 2001:bc8:32d7:302::10
-  - type: vless
-    name: 美国_102
-    server: 172.64.153.193
-    port: 2083
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: sg1.xmm9527.xyz
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: sg1.xmm9527.xyz
-  - type: vmess
-    name: 法国_10
     server: 2001:bc8:32d7:302::10
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
@@ -2120,7 +1506,17 @@ proxies:
       headers:
         Host: AZERB.NET
   - type: vmess
-    name: 法国_11
+    name: 法国_4
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    network: ws
+    cipher: auto
+    ws-opts:
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+  - type: vmess
+    name: 法国_5
     server: 2001:bc8:32d7:302::10
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
@@ -2132,169 +1528,8 @@ proxies:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
       headers:
         Host: AZERB.NET
-  - type: vless
-    name: 美国_103
-    server: 193.226.77.245
-    port: 443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_104
-    server: 104.16.46.36
-    port: 443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: jp1.aniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: jp1.aniusnippets.qzz.io
   - type: vmess
-    name: 法国_12
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    network: ws
-    cipher: auto
-    servername: 2001:bc8:32d7:302::10
-    ws-opts:
-      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-      headers:
-        Host: 2001:bc8:32d7:302::10
-  - type: vless
-    name: 美国_105
-    server: 104.16.13.236
-    port: 443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: hk1.xaniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: hk1.xaniusnippets.qzz.io
-  - type: vmess
-    name: 法国_13
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    network: ws
-    cipher: auto
-    ws-opts:
-      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
-  - type: vless
-    name: 美国_106
-    server: 205.233.181.148
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.v6.rocks
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.v6.rocks
-  - type: vmess
-    name: 法国_14
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    network: ws
-    cipher: auto
-    servername: TURK1.NET.NET
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-      headers:
-        Host: TURK1.NET.NET
-  - type: vless
-    name: 美国_107
-    server: 185.162.228.138
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.dns.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.dns.army
-  - type: vmess
-    name: 法国_15
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    network: ws
-    cipher: auto
-    servername: 2001:bc8:32d7:302::10
-    ws-opts:
-      path: /
-      headers:
-        Host: 2001:bc8:32d7:302::10
-  - type: vless
-    name: 美国_108
-    server: 185.148.104.158
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_109
-    server: 104.18.190.123
-    port: 443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: hk1.xaniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: hk1.xaniusnippets.qzz.io
-  - type: vmess
-    name: 美国_110
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-  - type: vless
-    name: 美国_111
-    server: 185.159.247.168
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.v6.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.v6.army
-  - type: vmess
-    name: 美国_112
+    name: 美国_89
     server: 2001:bc8:32d7:302::10
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
@@ -2303,129 +1538,8 @@ proxies:
     cipher: auto
     ws-opts:
       path: /
-  - type: vless
-    name: 美国_113
-    server: 185.148.105.138
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.dns.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.dns.army
   - type: trojan
-    name: 美国_114
-    server: bpbg.anguswen.top
-    port: 443
-    password: "123456"
-    network: ws
-    sni: bPbG.ANguswen.tOP
-    alpn:
-      - http/1.1
-    tls: true
-    ws-opts:
-      path: /eyJqdW5rIjoidmNzMWVlWHpNTVh4M2siLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19?ed=2560
-  - type: trojan
-    name: 美国_115
-    server: bpbg.anguswen.top
-    port: 8443
-    password: "123456"
-    network: ws
-    sni: BPbG.AnguSWEN.Top
-    alpn:
-      - http/1.1
-    tls: true
-    ws-opts:
-      path: /eyJqdW5rIjoiNDhOYUJ4WFhzc0EiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19?ed=2560
-  - type: vmess
-    name: 美国_116
-    server: 202.85.53.179
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-  - type: vless
-    name: 美国_117
-    server: 185.162.229.148
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.v6.rocks
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.v6.rocks
-  - type: vless
-    name: 美国_118
-    server: 185.162.230.168
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.v6.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.v6.army
-  - type: trojan
-    name: 美国_119
-    server: bpbg.anguswen.top
-    port: 2053
-    password: "123456"
-    network: ws
-    sni: Bpbg.aNGuSweN.top
-    alpn:
-      - http/1.1
-    tls: true
-    ws-opts:
-      path: /eyJqdW5rIjoiYWJZUDZ0Z2RMTSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0=?ed=2560
-  - type: vless
-    name: 美国_120
-    server: 104.16.45.28
-    port: 443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: hk1.xaniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: hk1.xaniusnippets.qzz.io
-  - type: trojan
-    name: 美国_121
-    server: bpbg.anguswen.top
-    port: 8443
-    password: "123456"
-    network: ws
-    sni: BpBg.ANGusWeN.top
-    alpn:
-      - http/1.1
-    tls: true
-    ws-opts:
-      path: /eyJqdW5rIjoiTUp4VFNoMTRLbSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0=?ed=2560
-  - type: vless
-    name: 美国_122
-    server: 185.148.104.138
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.dns.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.dns.army
-  - type: trojan
-    name: 美国_123
+    name: 美国_90
     server: bpbg.anguswen.top
     port: 8443
     password: "123456"
@@ -2437,7 +1551,33 @@ proxies:
     ws-opts:
       path: /eyJqdW5rIjoiU3hiSEZzcm93Z2VaMSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0=?ed=2560
   - type: vmess
-    name: 法国_16
+    name: 法国_6
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: 2001:bc8:32d7:302::10
+    ws-opts:
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+      headers:
+        Host: 2001:bc8:32d7:302::10
+  - type: vmess
+    name: 法国_7
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: 2001:bc8:32d7:302::10
+    ws-opts:
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+      headers:
+        Host: 2001:bc8:32d7:302::10
+  - type: vmess
+    name: 法国_8
     server: 2001:bc8:32d7:302::10
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
@@ -2446,395 +1586,67 @@ proxies:
     cipher: auto
     ws-opts:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  - type: vless
-    name: 美国_124
-    server: 185.149.135.138
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  - type: vmess
+    name: 法国_9
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
     network: ws
-    servername: sni.111000.dns.army
+    cipher: auto
+  - type: vless
+    name: 韩国_3
+    server: 121.146.237.213
+    port: 12160
+    uuid: 695620b8-7429-78d5-5813-98b65c1c63f4
+    network: ws
+    servername: soos.frii.site
     tls: true
     encryption: none
     ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
+      path: /proxyip=sjc.o00o.ooo
       headers:
-        Host: sni.111000.dns.army
-  - type: vless
-    name: 美国_125
-    server: 185.148.107.148
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+        Host: soos.frii.site
+  - type: vmess
+    name: 法国_10
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
     network: ws
-    servername: sni.111000.v6.rocks
-    tls: true
-    encryption: none
+    cipher: auto
+    servername: TURK1.NET.NET
     ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
       headers:
-        Host: sni.111000.v6.rocks
+        Host: TURK1.NET.NET
+  - type: vmess
+    name: 法国_11
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: 2001:bc8:32d7:302::10
+    ws-opts:
+      path: /
+      headers:
+        Host: 2001:bc8:32d7:302::10
   - type: trojan
-    name: 美国_126
+    name: 美国_91
     server: bpbg.anguswen.top
-    port: 443
+    port: 2053
     password: "123456"
     network: ws
-    sni: bPbg.aNGUSWeN.Top
+    sni: Bpbg.aNGuSweN.top
     alpn:
       - http/1.1
     tls: true
     ws-opts:
-      path: /eyJqdW5rIjoiUzNoaFZ2Q3hRIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ==?ed=2560
-  - type: vless
-    name: 美国_127
-    server: 104.21.237.121
-    port: 443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: hk1.xaniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: hk1.xaniusnippets.qzz.io
-  - type: vless
-    name: 美国_128
-    server: 185.149.135.168
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.v6.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.v6.army
-  - type: vless
-    name: 美国_129
-    server: 185.148.104.148
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.v6.rocks
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.v6.rocks
-  - type: vless
-    name: 美国_130
-    server: 185.135.9.168
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.v6.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.v6.army
-  - type: vless
-    name: 美国_131
-    server: 205.233.181.168
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.v6.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.v6.army
-  - type: vless
-    name: 美国_132
-    server: 185.148.105.168
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.v6.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.v6.army
-  - type: vless
-    name: 俄罗斯_3
-    server: 185.176.24.138
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.dns.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.dns.army
-  - type: vless
-    name: 美国_133
-    server: 185.135.9.158
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_134
-    server: 185.162.231.168
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.v6.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.v6.army
-  - type: vless
-    name: 美国_135
-    server: 185.162.231.158
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_136
-    server: 185.135.9.138
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.dns.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.dns.army
-  - type: vless
-    name: 英国_11
-    server: 185.156.19.138
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.dns.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.dns.army
-  - type: vless
-    name: 美国_137
-    server: 185.148.106.138
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.dns.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.dns.army
-  - type: vless
-    name: 美国_138
-    server: 185.159.247.138
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.dns.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.dns.army
-  - type: vless
-    name: 美国_139
-    server: 185.148.105.158
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_140
-    server: 205.233.181.138
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.dns.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.dns.army
-  - type: vless
-    name: 美国_141
-    server: 185.158.133.158
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
+      path: /eyJqdW5rIjoiYWJZUDZ0Z2RMTSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0=?ed=2560
   - type: trojan
-    name: 美国_142
-    server: 167.68.4.199
-    port: 2053
-    password: Aimer
-    network: ws
-    sni: epge.muarua.filegear-sg.me
-    tls: true
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        Host: epge.muarua.filegear-sg.me
-  - type: vless
-    name: 美国_143
-    server: 185.148.107.138
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.dns.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.dns.army
-  - type: vless
-    name: 美国_144
-    server: 104.16.14.64
-    port: 443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: hk1.xaniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: hk1.xaniusnippets.qzz.io
-  - type: vless
-    name: 美国_145
-    server: webbingsolutions.com
-    port: 80
-    uuid: 6cad2795-da0e-4b2a-806f-b61c9ee6c7f8
-    network: ws
-    servername: outlook.microsoftwindows10.workers.dev
-    encryption: none
-    ws-opts:
-      path: /m.gameone.com
-      headers:
-        Host: outlook.microsoftwindows10.workers.dev
-  - type: vless
-    name: 美国_146
-    server: 185.148.107.168
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.v6.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.v6.army
-  - type: vless
-    name: 美国_147
-    server: 162.159.45.232
-    port: 443
-    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-    network: ws
-    servername: l.ayovo.netlib.re
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: l.ayovo.netlib.re
-  - type: vless
-    name: 美国_148
-    server: 185.159.247.158
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_149
-    server: 185.162.229.168
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.v6.army
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.v6.army
-  - type: vless
-    name: 美国_150
-    server: 104.19.255.71
-    port: 443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: hk1.xaniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: hk1.xaniusnippets.qzz.io
-  - type: vless
-    name: 美国_151
-    server: 185.162.229.158
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: trojan
-    name: 美国_152
+    name: 美国_92
     server: bpbg.anguswen.top
     port: 443
     password: "123456"
@@ -2846,39 +1658,42 @@ proxies:
     ws-opts:
       path: /eyJqdW5rIjoiQ3U4MmVDZ3JnUzRLTjdnIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ==?ed=2560
   - type: vless
-    name: 英国_12
-    server: 185.156.19.158
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    name: 韩国_4
+    server: 119.195.168.105
+    port: 12417
+    uuid: 695620b8-7429-78d5-5813-98b65c1c63f4
     network: ws
-    servername: sni.111000.de5.net
+    servername: soos.frii.site
     tls: true
     encryption: none
     ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
+      path: /proxyip=sjc.o00o.ooo
       headers:
-        Host: sni.111000.de5.net
+        Host: soos.frii.site
   - type: vmess
-    name: 美国_153
+    name: 法国_12
     server: v30.hdacd.com
     port: 30830
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     network: tcp
     cipher: auto
-    servername: v30.hdacd.com
-  - type: vmess
-    name: 美国_154
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: green2.cdntencentmusic.com
+    servername: 51aa8f7.hf.glados-config.net
+  - type: trojan
+    name: 美国_93
+    server: bpbg.anguswen.top
+    port: 8443
+    password: "123456"
+    network: ws
+    sni: BpBg.ANGusWeN.top
+    alpn:
+      - http/1.1
+    tls: true
+    ws-opts:
+      path: /eyJqdW5rIjoiTUp4VFNoMTRLbSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0=?ed=2560
   - type: vless
-    name: 美国_155
-    server: 185.148.105.148
+    name: 美国_94
+    server: 205.233.181.148
     port: 2096
     uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
     network: ws
@@ -2889,44 +1704,39 @@ proxies:
       path: /?ed=2560&Telegram🇨🇳@WangCai2
       headers:
         Host: sni.111000.v6.rocks
-  - type: vless
-    name: 英国_13
-    server: 185.156.19.148
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  - type: trojan
+    name: 美国_95
+    server: bpbg.anguswen.top
+    port: 8443
+    password: "123456"
     network: ws
-    servername: sni.111000.v6.rocks
+    sni: BPbG.AnguSWEN.Top
+    alpn:
+      - http/1.1
     tls: true
-    encryption: none
     ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.v6.rocks
-  - type: vmess
-    name: 美国_156
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: 5e4f31de-sv0xs0-sv0wpw-17xo8.hk3.p5pv.com
-  - type: vless
-    name: 美国_157
-    server: 185.158.133.148
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      path: /eyJqdW5rIjoiNDhOYUJ4WFhzc0EiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19?ed=2560
+  - type: trojan
+    name: 美国_96
+    server: bpbg.anguswen.top
+    port: 443
+    password: "123456"
     network: ws
-    servername: sni.111000.v6.rocks
+    sni: bPbg.aNGUSWeN.Top
+    alpn:
+      - http/1.1
     tls: true
-    encryption: none
     ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.v6.rocks
+      path: /eyJqdW5rIjoiUzNoaFZ2Q3hRIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ==?ed=2560
+  - type: ss
+    name: 美国_97
+    server: 45.87.175.183
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: cvII85TrW6n0OGyfpHVS1u
   - type: vless
-    name: 美国_158
-    server: 154.21.84.206
+    name: 日本_3
+    server: 153.121.45.101
     port: 443
     uuid: 6953dc38-af44-dbeb-c6c5-735135791874
     network: ws
@@ -2934,11 +1744,164 @@ proxies:
     tls: true
     encryption: none
     ws-opts:
-      path: jiedian-美国US-5
+      path: jiedian-日本JP-2
       headers:
         Host: sss.saas.camdvr.org
+  - type: trojan
+    name: 美国_98
+    server: 167.68.4.199
+    port: 2053
+    password: Aimer
+    network: ws
+    sni: epge.muarua.filegear-sg.me
+    tls: true
+    ws-opts:
+      path: /?ed=2560&proxyip=ts.hpc.tw
+      headers:
+        Host: epge.muarua.filegear-sg.me
   - type: vless
-    name: 美国_159
+    name: 美国_99
+    server: webbingsolutions.com
+    port: 80
+    uuid: 6cad2795-da0e-4b2a-806f-b61c9ee6c7f8
+    network: ws
+    servername: outlook.microsoftwindows10.workers.dev
+    encryption: none
+    ws-opts:
+      path: /m.gameone.com
+      headers:
+        Host: outlook.microsoftwindows10.workers.dev
+  - type: vmess
+    name: 法国_13
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    network: ws
+    cipher: auto
+    ws-opts:
+      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
+  - type: ss
+    name: 美国_100
+    server: 176.126.83.121
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: Q4t8T7hEYY3mD2Fn4wnxyK4X35AUzvR8
+  - type: vmess
+    name: 美国_101
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vless
+    name: 美国_102
+    server: 5.182.84.238
+    port: 2096
+    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    network: ws
+    servername: sni.111000.cc.cd
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳@WangCai2
+      headers:
+        Host: sni.111000.cc.cd
+  - type: vless
+    name: 韩国_5
+    server: 112.165.88.235
+    port: 12338
+    uuid: 695620b8-7429-78d5-5813-98b65c1c63f4
+    network: ws
+    servername: soos.frii.site
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /proxyip=sjc.o00o.ooo
+      headers:
+        Host: soos.frii.site
+  - type: vless
+    name: 韩国_6
+    server: 118.41.164.139
+    port: 12274
+    uuid: 695620b8-7429-78d5-5813-98b65c1c63f4
+    network: ws
+    servername: soos.frii.site
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /proxyip=sjc.o00o.ooo
+      headers:
+        Host: soos.frii.site
+  - type: vmess
+    name: 美国_103
+    server: 2001:bc8:32d7:2013::8
+    port: 62211
+    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: www.bing.com
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: www.bing.com
+  - type: vless
+    name: 韩国_7
+    server: 112.184.246.22
+    port: 50001
+    uuid: 695620b8-7429-78d5-5813-98b65c1c63f4
+    network: ws
+    servername: soos.frii.site
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /proxyip=sjc.o00o.ooo
+      headers:
+        Host: soos.frii.site
+  - type: vmess
+    name: 美国_104
+    server: vc.fly.dev
+    port: 443
+    uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
+    alterId: 32
+    network: ws
+    cipher: auto
+    servername: vc.fly.dev
+    ws-opts:
+      path: /vc
+      headers:
+        Host: vc.fly.dev
+    tls: true
+  - type: vless
+    name: 韩国_8
+    server: 183.106.210.156
+    port: 12109
+    uuid: 695620b8-7429-78d5-5813-98b65c1c63f4
+    network: ws
+    servername: soos.frii.site
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /proxyip=sjc.o00o.ooo
+      headers:
+        Host: soos.frii.site
+  - type: vless
+    name: 美国_105
+    server: 154.17.29.62
+    port: 8443
+    uuid: 695620b8-7429-78d5-5813-98b65c1c63f4
+    network: ws
+    servername: soos.frii.site
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /proxyip=sjc.o00o.ooo
+      headers:
+        Host: soos.frii.site
+  - type: vless
+    name: 美国_106
     server: 154.26.189.211
     port: 443
     uuid: 6953dc38-af44-dbeb-c6c5-735135791874
@@ -2951,67 +1914,7 @@ proxies:
       headers:
         Host: sss.saas.camdvr.org
   - type: vless
-    name: 美国_160
-    server: 185.148.106.148
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.v6.rocks
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.v6.rocks
-  - type: vless
-    name: 美国_161
-    server: 205.233.181.158
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: trojan
-    name: 美国_162
-    server: 162.159.128.253
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_163
-    server: 154.17.29.62
-    port: 8443
-    uuid: 6953dc38-af44-dbeb-c6c5-735135791874
-    network: ws
-    servername: sss.saas.camdvr.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: jiedian-美国US-6
-      headers:
-        Host: sss.saas.camdvr.org
-  - type: vmess
-    name: 美国_164
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: t.me/ripaojiedian
-  - type: vless
-    name: 美国_165
+    name: 美国_107
     server: 154.17.224.9
     port: 443
     uuid: 6953dc38-af44-dbeb-c6c5-735135791874
@@ -3023,47 +1926,17 @@ proxies:
       path: jiedian-美国US-10
       headers:
         Host: sss.saas.camdvr.org
+  - type: vmess
+    name: 美国_108
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 4bb6-B667-F88608d19FD5.664.QZz.IO
   - type: vless
-    name: 美国_166
-    server: 154.26.185.147
-    port: 443
-    uuid: 6953dc38-af44-dbeb-c6c5-735135791874
-    network: ws
-    servername: sss.saas.camdvr.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: jiedian-美国US-9
-      headers:
-        Host: sss.saas.camdvr.org
-  - type: vless
-    name: 美国_167
-    server: 154.26.186.178
-    port: 12380
-    uuid: 6953dc38-af44-dbeb-c6c5-735135791874
-    network: ws
-    servername: sss.saas.camdvr.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: jiedian-美国US-1
-      headers:
-        Host: sss.saas.camdvr.org
-  - type: vless
-    name: 美国_168
-    server: 185.148.107.158
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
-  - type: vless
-    name: 美国_169
+    name: 美国_109
     server: 154.17.5.89
     port: 587
     uuid: 6953dc38-af44-dbeb-c6c5-735135791874
@@ -3076,20 +1949,158 @@ proxies:
       headers:
         Host: sss.saas.camdvr.org
   - type: vless
-    name: 日本_8
-    server: 193.111.30.49
-    port: 30000
+    name: 美国_110
+    server: 154.26.185.147
+    port: 443
     uuid: 6953dc38-af44-dbeb-c6c5-735135791874
     network: ws
     servername: sss.saas.camdvr.org
     tls: true
     encryption: none
     ws-opts:
-      path: jiedian-日本JP-7
+      path: jiedian-美国US-9
       headers:
         Host: sss.saas.camdvr.org
   - type: vless
-    name: 美国_170
+    name: 美国_111
+    server: 154.17.227.188
+    port: 104
+    uuid: 695620b8-7429-78d5-5813-98b65c1c63f4
+    network: ws
+    servername: soos.frii.site
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /proxyip=sjc.o00o.ooo
+      headers:
+        Host: soos.frii.site
+  - type: vless
+    name: 美国_112
+    server: 154.21.84.206
+    port: 443
+    uuid: 6953dc38-af44-dbeb-c6c5-735135791874
+    network: ws
+    servername: sss.saas.camdvr.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: jiedian-美国US-5
+      headers:
+        Host: sss.saas.camdvr.org
+  - type: vless
+    name: 美国_113
+    server: 154.26.189.70
+    port: 443
+    uuid: 695620b8-7429-78d5-5813-98b65c1c63f4
+    network: ws
+    servername: soos.frii.site
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /proxyip=sjc.o00o.ooo
+      headers:
+        Host: soos.frii.site
+  - type: vless
+    name: 香港_8
+    server: 213.176.66.140
+    port: 3000
+    uuid: 00000000-0000-4000-8000-000000000000
+    network: ws
+    servername: mot.gike.dpdns.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /@Marisa_kristi
+      headers:
+        Host: mot.gike.dpdns.org
+  - type: vless
+    name: 美国_114
+    server: 154.26.186.178
+    port: 12380
+    uuid: 6953dc38-af44-dbeb-c6c5-735135791874
+    network: ws
+    servername: sss.saas.camdvr.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: jiedian-美国US-1
+      headers:
+        Host: sss.saas.camdvr.org
+  - type: vmess
+    name: 美国_115
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 4120-BE04-13ef56096989.457.PP.ua
+  - type: vmess
+    name: 美国_116
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: mfyousheng.nl.eu.org
+  - type: vless
+    name: 韩国_9
+    server: 221.167.108.62
+    port: 25952
+    uuid: 6e69871c-4506-4cb9-b375-ac97cb972742
+    network: ws
+    servername: saas.520cf.dns.army
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: saas.520cf.dns.army
+  - type: vmess
+    name: 新加坡_10
+    server: n1747624271.lie5d.cyou
+    port: 443
+    uuid: a231ba8b-8871-416c-813b-e2240bc66bb2
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: n1747624271.lie5d.cyou
+    ws-opts:
+      path: /
+      headers:
+        Host: n1747624271.lie5d.cyou
+    tls: true
+  - type: ss
+    name: 美国_117
+    server: switcher-nick-croquet.freesocks.work
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: wwzVn2ZnHfqYa6l8EWh3eY
+  - type: vless
+    name: 美国_118
+    server: 129.153.70.168
+    port: 4433
+    uuid: 6e69871c-4506-4cb9-b375-ac97cb972742
+    network: ws
+    servername: saas.520cf.dns.army
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: saas.520cf.dns.army
+  - type: vmess
+    name: 美国_119
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: asuka.0061.my
+  - type: vless
+    name: 美国_120
     server: 185.138.164.228
     port: 700
     uuid: 00000000-0000-4000-8000-000000000000
@@ -3101,65 +2112,86 @@ proxies:
       path: /@Marisa_kristi
       headers:
         Host: zybs.worker.ddns-ip.net
+  - type: vless
+    name: 美国_121
+    server: 103.232.213.45
+    port: 9443
+    uuid: 6953dc38-af44-dbeb-c6c5-735135791874
+    network: ws
+    servername: sss.saas.camdvr.org
+    tls: true
+    encryption: none
+    ws-opts:
+      path: jiedian-日本JP-6
+      headers:
+        Host: sss.saas.camdvr.org
+  - type: vless
+    name: 新加坡_11
+    server: 185.212.113.32
+    port: 2050
+    uuid: 00000000-0000-4000-8000-000000000000
+    network: ws
+    servername: ennyfe.zipgd3vx91o.ddns-ip.net
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /@Marisa_kristi
+      headers:
+        Host: ennyfe.zipgd3vx91o.ddns-ip.net
+  - type: vless
+    name: 韩国_10
+    server: 119.196.171.212
+    port: 12308
+    uuid: 6e69871c-4506-4cb9-b375-ac97cb972742
+    network: ws
+    servername: saas.520cf.dns.army
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: saas.520cf.dns.army
+  - type: trojan
+    name: 香港_9
+    server: 58.152.18.147
+    port: 443
+    password: f36f4495b4b26cc2fe346cfa23e05b1b
+    network: tcp
+    sni: www.nintendogames.net
+    tls: true
+  - type: trojan
+    name: 美国_122
+    server: 167.68.4.199
+    port: 2053
+    password: Aimer
+    network: ws
+    sni: epge.muarua.filegear-sg.me
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: epge.muarua.filegear-sg.me
   - type: ss
-    name: 法国_17
-    server: switcher-nick-croquet.freesocks.work
-    port: 443
+    name: 美国_123
+    server: 82.38.31.217
+    port: 8080
     cipher: chacha20-ietf-poly1305
-    password: RFK38Cg7APneSB5cWDcpbm
+    password: k1dBOmOB4oqi7Ump37a1bQ
+  - type: ss
+    name: 美国_124
+    server: 141.164.45.187
+    port: 7001
+    cipher: aes-256-gcm
+    password: RexnBgU7EV5ADxG
   - type: vmess
-    name: 美国_171
+    name: 美国_125
     server: v12.hdacd.com
     port: 30812
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     network: tcp
     cipher: auto
-    servername: t.me%2Fripaojiedian
-  - type: vless
-    name: 美国_172
-    server: 185.162.231.148
-    port: 2096
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.v6.rocks
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.v6.rocks
-  - type: vmess
-    name: 新加坡_8
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: 7b1dbdd1-t6ngg0-t917sa-12ach.hk3.p5pv.com
-  - type: vmess
-    name: 美国_173
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    network: tcp
-    cipher: auto
-    servername: n1744454498.lie5d.cyou
-  - type: vless
-    name: 美国_174
-    server: 46.101.185.122
-    port: 443
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    network: ws
-    servername: sni.111000.de5.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560&Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.111000.de5.net
+    servername: sssssssxxxx.2032.pp.ua
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -3173,259 +2205,191 @@ proxy-groups:
       - 美国_4
       - 美国_5
       - 美国_6
+      - 新加坡
       - 美国_7
       - 美国_8
-      - 日本
       - 美国_9
       - 美国_10
       - 美国_11
       - 美国_12
+      - 新加坡_1
       - 美国_13
       - 美国_14
       - 美国_15
       - 美国_16
       - 美国_17
+      - 香港
       - 美国_18
       - 美国_19
       - 美国_20
       - 美国_21
+      - 香港_1
       - 美国_22
       - 美国_23
       - 美国_24
       - 美国_25
       - 美国_26
       - 美国_27
-      - 澳洲
-      - 波兰
-      - 俄罗斯
       - 美国_28
-      - 日本_1
       - 美国_29
-      - 香港
-      - 西班牙
       - 美国_30
       - 美国_31
       - 美国_32
       - 美国_33
+      - 台湾
       - 美国_34
       - 美国_35
       - 美国_36
       - 美国_37
       - 美国_38
       - 美国_39
-      - 英国
       - 美国_40
+      - 香港_2
       - 美国_41
-      - 西班牙_1
-      - 新加坡
       - 美国_42
+      - 韩国
       - 美国_43
       - 美国_44
-      - 波兰_1
-      - 法国
-      - 英国_1
-      - 英国_2
       - 美国_45
+      - 台湾_1
       - 美国_46
       - 美国_47
-      - 波兰_2
-      - 波兰_3
       - 美国_48
-      - 香港_1
-      - 香港_2
       - 美国_49
+      - 新加坡_2
+      - 香港_3
+      - 新加坡_3
       - 美国_50
       - 美国_51
+      - 香港_4
       - 美国_52
       - 美国_53
-      - 香港_3
-      - 台湾
-      - 香港_4
-      - 香港_5
-      - 日本_2
       - 美国_54
       - 美国_55
-      - 俄罗斯_1
-      - 法国_1
+      - 台湾_2
       - 美国_56
+      - 日本
       - 美国_57
-      - 新加坡_1
-      - 香港_6
       - 美国_58
       - 美国_59
-      - 香港_7
-      - 台湾_1
-      - 新加坡_2
+      - 新加坡_4
       - 美国_60
       - 美国_61
       - 美国_62
-      - 香港_8
-      - 香港_9
+      - 新加坡_5
+      - 香港_5
       - 美国_63
-      - 台湾_2
-      - 新加坡_3
+      - 新加坡_6
+      - 日本_1
+      - 俄罗斯
       - 美国_64
-      - 香港_10
       - 美国_65
+      - 新加坡_7
       - 美国_66
-      - 香港_11
-      - 香港_12
-      - 日本_3
-      - 香港_13
-      - 日本_4
       - 美国_67
+      - 台湾_3
       - 美国_68
       - 美国_69
-      - 新加坡_4
-      - 新加坡_5
       - 美国_70
       - 美国_71
-      - 新加坡_6
-      - 台湾_3
-      - 日本_5
-      - 香港_14
+      - 法国
       - 美国_72
-      - 台湾_4
-      - 美国_73
+      - 法国_1
       - 法国_2
+      - 美国_73
       - 美国_74
       - 美国_75
-      - 日本_6
-      - 法国_3
       - 美国_76
-      - 西班牙_2
-      - 日本_7
+      - 英国
+      - 英国_1
       - 美国_77
-      - 法国_4
-      - 法国_5
-      - 法国_6
-      - 美国_78
-      - 法国_7
+      - 英国_2
       - 英国_3
-      - 美国_79
-      - 美国_80
       - 英国_4
       - 英国_5
-      - 美国_81
-      - 香港_15
+      - 美国_78
       - 英国_6
-      - 美国_82
-      - 美国_83
+      - 美国_79
+      - 美国_80
       - 英国_7
+      - 英国_8
+      - 美国_81
+      - 美国_82
+      - 香港_6
+      - 美国_83
+      - 韩国_1
       - 美国_84
       - 美国_85
-      - 英国_8
-      - 俄罗斯_2
       - 美国_86
       - 美国_87
-      - 英国_9
+      - 新加坡_8
+      - 新加坡_9
+      - 日本_2
       - 美国_88
+      - 香港_7
+      - 台湾_4
+      - 韩国_2
+      - 法国_3
+      - 法国_4
+      - 法国_5
       - 美国_89
       - 美国_90
-      - 英国_10
+      - 法国_6
+      - 法国_7
+      - 法国_8
+      - 法国_9
+      - 韩国_3
+      - 法国_10
+      - 法国_11
       - 美国_91
       - 美国_92
+      - 韩国_4
+      - 法国_12
       - 美国_93
       - 美国_94
       - 美国_95
       - 美国_96
       - 美国_97
-      - 香港_16
+      - 日本_3
       - 美国_98
       - 美国_99
-      - 韩国
-      - 美国_100
-      - 新加坡_7
-      - 美国_101
-      - 法国_8
-      - 法国_9
-      - 美国_102
-      - 法国_10
-      - 法国_11
-      - 美国_103
-      - 美国_104
-      - 法国_12
-      - 美国_105
       - 法国_13
+      - 美国_100
+      - 美国_101
+      - 美国_102
+      - 韩国_5
+      - 韩国_6
+      - 美国_103
+      - 韩国_7
+      - 美国_104
+      - 韩国_8
+      - 美国_105
       - 美国_106
-      - 法国_14
       - 美国_107
-      - 法国_15
       - 美国_108
       - 美国_109
       - 美国_110
       - 美国_111
       - 美国_112
       - 美国_113
+      - 香港_8
       - 美国_114
       - 美国_115
       - 美国_116
+      - 韩国_9
+      - 新加坡_10
       - 美国_117
       - 美国_118
       - 美国_119
       - 美国_120
       - 美国_121
+      - 新加坡_11
+      - 韩国_10
+      - 香港_9
       - 美国_122
       - 美国_123
-      - 法国_16
       - 美国_124
       - 美国_125
-      - 美国_126
-      - 美国_127
-      - 美国_128
-      - 美国_129
-      - 美国_130
-      - 美国_131
-      - 美国_132
-      - 俄罗斯_3
-      - 美国_133
-      - 美国_134
-      - 美国_135
-      - 美国_136
-      - 英国_11
-      - 美国_137
-      - 美国_138
-      - 美国_139
-      - 美国_140
-      - 美国_141
-      - 美国_142
-      - 美国_143
-      - 美国_144
-      - 美国_145
-      - 美国_146
-      - 美国_147
-      - 美国_148
-      - 美国_149
-      - 美国_150
-      - 美国_151
-      - 美国_152
-      - 英国_12
-      - 美国_153
-      - 美国_154
-      - 美国_155
-      - 英国_13
-      - 美国_156
-      - 美国_157
-      - 美国_158
-      - 美国_159
-      - 美国_160
-      - 美国_161
-      - 美国_162
-      - 美国_163
-      - 美国_164
-      - 美国_165
-      - 美国_166
-      - 美国_167
-      - 美国_168
-      - 美国_169
-      - 日本_8
-      - 美国_170
-      - 法国_17
-      - 美国_171
-      - 美国_172
-      - 新加坡_8
-      - 美国_173
-      - 美国_174
   - name: ♻️ 自动选择
     type: url-test
     proxies:
@@ -3436,259 +2400,191 @@ proxy-groups:
       - 美国_4
       - 美国_5
       - 美国_6
+      - 新加坡
       - 美国_7
       - 美国_8
-      - 日本
       - 美国_9
       - 美国_10
       - 美国_11
       - 美国_12
+      - 新加坡_1
       - 美国_13
       - 美国_14
       - 美国_15
       - 美国_16
       - 美国_17
+      - 香港
       - 美国_18
       - 美国_19
       - 美国_20
       - 美国_21
+      - 香港_1
       - 美国_22
       - 美国_23
       - 美国_24
       - 美国_25
       - 美国_26
       - 美国_27
-      - 澳洲
-      - 波兰
-      - 俄罗斯
       - 美国_28
-      - 日本_1
       - 美国_29
-      - 香港
-      - 西班牙
       - 美国_30
       - 美国_31
       - 美国_32
       - 美国_33
+      - 台湾
       - 美国_34
       - 美国_35
       - 美国_36
       - 美国_37
       - 美国_38
       - 美国_39
-      - 英国
       - 美国_40
+      - 香港_2
       - 美国_41
-      - 西班牙_1
-      - 新加坡
       - 美国_42
+      - 韩国
       - 美国_43
       - 美国_44
-      - 波兰_1
-      - 法国
-      - 英国_1
-      - 英国_2
       - 美国_45
+      - 台湾_1
       - 美国_46
       - 美国_47
-      - 波兰_2
-      - 波兰_3
       - 美国_48
-      - 香港_1
-      - 香港_2
       - 美国_49
+      - 新加坡_2
+      - 香港_3
+      - 新加坡_3
       - 美国_50
       - 美国_51
+      - 香港_4
       - 美国_52
       - 美国_53
-      - 香港_3
-      - 台湾
-      - 香港_4
-      - 香港_5
-      - 日本_2
       - 美国_54
       - 美国_55
-      - 俄罗斯_1
-      - 法国_1
+      - 台湾_2
       - 美国_56
+      - 日本
       - 美国_57
-      - 新加坡_1
-      - 香港_6
       - 美国_58
       - 美国_59
-      - 香港_7
-      - 台湾_1
-      - 新加坡_2
+      - 新加坡_4
       - 美国_60
       - 美国_61
       - 美国_62
-      - 香港_8
-      - 香港_9
+      - 新加坡_5
+      - 香港_5
       - 美国_63
-      - 台湾_2
-      - 新加坡_3
+      - 新加坡_6
+      - 日本_1
+      - 俄罗斯
       - 美国_64
-      - 香港_10
       - 美国_65
+      - 新加坡_7
       - 美国_66
-      - 香港_11
-      - 香港_12
-      - 日本_3
-      - 香港_13
-      - 日本_4
       - 美国_67
+      - 台湾_3
       - 美国_68
       - 美国_69
-      - 新加坡_4
-      - 新加坡_5
       - 美国_70
       - 美国_71
-      - 新加坡_6
-      - 台湾_3
-      - 日本_5
-      - 香港_14
+      - 法国
       - 美国_72
-      - 台湾_4
-      - 美国_73
+      - 法国_1
       - 法国_2
+      - 美国_73
       - 美国_74
       - 美国_75
-      - 日本_6
-      - 法国_3
       - 美国_76
-      - 西班牙_2
-      - 日本_7
+      - 英国
+      - 英国_1
       - 美国_77
-      - 法国_4
-      - 法国_5
-      - 法国_6
-      - 美国_78
-      - 法国_7
+      - 英国_2
       - 英国_3
-      - 美国_79
-      - 美国_80
       - 英国_4
       - 英国_5
-      - 美国_81
-      - 香港_15
+      - 美国_78
       - 英国_6
-      - 美国_82
-      - 美国_83
+      - 美国_79
+      - 美国_80
       - 英国_7
+      - 英国_8
+      - 美国_81
+      - 美国_82
+      - 香港_6
+      - 美国_83
+      - 韩国_1
       - 美国_84
       - 美国_85
-      - 英国_8
-      - 俄罗斯_2
       - 美国_86
       - 美国_87
-      - 英国_9
+      - 新加坡_8
+      - 新加坡_9
+      - 日本_2
       - 美国_88
+      - 香港_7
+      - 台湾_4
+      - 韩国_2
+      - 法国_3
+      - 法国_4
+      - 法国_5
       - 美国_89
       - 美国_90
-      - 英国_10
+      - 法国_6
+      - 法国_7
+      - 法国_8
+      - 法国_9
+      - 韩国_3
+      - 法国_10
+      - 法国_11
       - 美国_91
       - 美国_92
+      - 韩国_4
+      - 法国_12
       - 美国_93
       - 美国_94
       - 美国_95
       - 美国_96
       - 美国_97
-      - 香港_16
+      - 日本_3
       - 美国_98
       - 美国_99
-      - 韩国
-      - 美国_100
-      - 新加坡_7
-      - 美国_101
-      - 法国_8
-      - 法国_9
-      - 美国_102
-      - 法国_10
-      - 法国_11
-      - 美国_103
-      - 美国_104
-      - 法国_12
-      - 美国_105
       - 法国_13
+      - 美国_100
+      - 美国_101
+      - 美国_102
+      - 韩国_5
+      - 韩国_6
+      - 美国_103
+      - 韩国_7
+      - 美国_104
+      - 韩国_8
+      - 美国_105
       - 美国_106
-      - 法国_14
       - 美国_107
-      - 法国_15
       - 美国_108
       - 美国_109
       - 美国_110
       - 美国_111
       - 美国_112
       - 美国_113
+      - 香港_8
       - 美国_114
       - 美国_115
       - 美国_116
+      - 韩国_9
+      - 新加坡_10
       - 美国_117
       - 美国_118
       - 美国_119
       - 美国_120
       - 美国_121
+      - 新加坡_11
+      - 韩国_10
+      - 香港_9
       - 美国_122
       - 美国_123
-      - 法国_16
       - 美国_124
       - 美国_125
-      - 美国_126
-      - 美国_127
-      - 美国_128
-      - 美国_129
-      - 美国_130
-      - 美国_131
-      - 美国_132
-      - 俄罗斯_3
-      - 美国_133
-      - 美国_134
-      - 美国_135
-      - 美国_136
-      - 英国_11
-      - 美国_137
-      - 美国_138
-      - 美国_139
-      - 美国_140
-      - 美国_141
-      - 美国_142
-      - 美国_143
-      - 美国_144
-      - 美国_145
-      - 美国_146
-      - 美国_147
-      - 美国_148
-      - 美国_149
-      - 美国_150
-      - 美国_151
-      - 美国_152
-      - 英国_12
-      - 美国_153
-      - 美国_154
-      - 美国_155
-      - 英国_13
-      - 美国_156
-      - 美国_157
-      - 美国_158
-      - 美国_159
-      - 美国_160
-      - 美国_161
-      - 美国_162
-      - 美国_163
-      - 美国_164
-      - 美国_165
-      - 美国_166
-      - 美国_167
-      - 美国_168
-      - 美国_169
-      - 日本_8
-      - 美国_170
-      - 法国_17
-      - 美国_171
-      - 美国_172
-      - 新加坡_8
-      - 美国_173
-      - 美国_174
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: 🎯 全球直连
@@ -3715,259 +2611,191 @@ proxy-groups:
       - 美国_4
       - 美国_5
       - 美国_6
+      - 新加坡
       - 美国_7
       - 美国_8
-      - 日本
       - 美国_9
       - 美国_10
       - 美国_11
       - 美国_12
+      - 新加坡_1
       - 美国_13
       - 美国_14
       - 美国_15
       - 美国_16
       - 美国_17
+      - 香港
       - 美国_18
       - 美国_19
       - 美国_20
       - 美国_21
+      - 香港_1
       - 美国_22
       - 美国_23
       - 美国_24
       - 美国_25
       - 美国_26
       - 美国_27
-      - 澳洲
-      - 波兰
-      - 俄罗斯
       - 美国_28
-      - 日本_1
       - 美国_29
-      - 香港
-      - 西班牙
       - 美国_30
       - 美国_31
       - 美国_32
       - 美国_33
+      - 台湾
       - 美国_34
       - 美国_35
       - 美国_36
       - 美国_37
       - 美国_38
       - 美国_39
-      - 英国
       - 美国_40
+      - 香港_2
       - 美国_41
-      - 西班牙_1
-      - 新加坡
       - 美国_42
+      - 韩国
       - 美国_43
       - 美国_44
-      - 波兰_1
-      - 法国
-      - 英国_1
-      - 英国_2
       - 美国_45
+      - 台湾_1
       - 美国_46
       - 美国_47
-      - 波兰_2
-      - 波兰_3
       - 美国_48
-      - 香港_1
-      - 香港_2
       - 美国_49
+      - 新加坡_2
+      - 香港_3
+      - 新加坡_3
       - 美国_50
       - 美国_51
+      - 香港_4
       - 美国_52
       - 美国_53
-      - 香港_3
-      - 台湾
-      - 香港_4
-      - 香港_5
-      - 日本_2
       - 美国_54
       - 美国_55
-      - 俄罗斯_1
-      - 法国_1
+      - 台湾_2
       - 美国_56
+      - 日本
       - 美国_57
-      - 新加坡_1
-      - 香港_6
       - 美国_58
       - 美国_59
-      - 香港_7
-      - 台湾_1
-      - 新加坡_2
+      - 新加坡_4
       - 美国_60
       - 美国_61
       - 美国_62
-      - 香港_8
-      - 香港_9
+      - 新加坡_5
+      - 香港_5
       - 美国_63
-      - 台湾_2
-      - 新加坡_3
+      - 新加坡_6
+      - 日本_1
+      - 俄罗斯
       - 美国_64
-      - 香港_10
       - 美国_65
+      - 新加坡_7
       - 美国_66
-      - 香港_11
-      - 香港_12
-      - 日本_3
-      - 香港_13
-      - 日本_4
       - 美国_67
+      - 台湾_3
       - 美国_68
       - 美国_69
-      - 新加坡_4
-      - 新加坡_5
       - 美国_70
       - 美国_71
-      - 新加坡_6
-      - 台湾_3
-      - 日本_5
-      - 香港_14
+      - 法国
       - 美国_72
-      - 台湾_4
-      - 美国_73
+      - 法国_1
       - 法国_2
+      - 美国_73
       - 美国_74
       - 美国_75
-      - 日本_6
-      - 法国_3
       - 美国_76
-      - 西班牙_2
-      - 日本_7
+      - 英国
+      - 英国_1
       - 美国_77
-      - 法国_4
-      - 法国_5
-      - 法国_6
-      - 美国_78
-      - 法国_7
+      - 英国_2
       - 英国_3
-      - 美国_79
-      - 美国_80
       - 英国_4
       - 英国_5
-      - 美国_81
-      - 香港_15
+      - 美国_78
       - 英国_6
-      - 美国_82
-      - 美国_83
+      - 美国_79
+      - 美国_80
       - 英国_7
+      - 英国_8
+      - 美国_81
+      - 美国_82
+      - 香港_6
+      - 美国_83
+      - 韩国_1
       - 美国_84
       - 美国_85
-      - 英国_8
-      - 俄罗斯_2
       - 美国_86
       - 美国_87
-      - 英国_9
+      - 新加坡_8
+      - 新加坡_9
+      - 日本_2
       - 美国_88
+      - 香港_7
+      - 台湾_4
+      - 韩国_2
+      - 法国_3
+      - 法国_4
+      - 法国_5
       - 美国_89
       - 美国_90
-      - 英国_10
+      - 法国_6
+      - 法国_7
+      - 法国_8
+      - 法国_9
+      - 韩国_3
+      - 法国_10
+      - 法国_11
       - 美国_91
       - 美国_92
+      - 韩国_4
+      - 法国_12
       - 美国_93
       - 美国_94
       - 美国_95
       - 美国_96
       - 美国_97
-      - 香港_16
+      - 日本_3
       - 美国_98
       - 美国_99
-      - 韩国
-      - 美国_100
-      - 新加坡_7
-      - 美国_101
-      - 法国_8
-      - 法国_9
-      - 美国_102
-      - 法国_10
-      - 法国_11
-      - 美国_103
-      - 美国_104
-      - 法国_12
-      - 美国_105
       - 法国_13
+      - 美国_100
+      - 美国_101
+      - 美国_102
+      - 韩国_5
+      - 韩国_6
+      - 美国_103
+      - 韩国_7
+      - 美国_104
+      - 韩国_8
+      - 美国_105
       - 美国_106
-      - 法国_14
       - 美国_107
-      - 法国_15
       - 美国_108
       - 美国_109
       - 美国_110
       - 美国_111
       - 美国_112
       - 美国_113
+      - 香港_8
       - 美国_114
       - 美国_115
       - 美国_116
+      - 韩国_9
+      - 新加坡_10
       - 美国_117
       - 美国_118
       - 美国_119
       - 美国_120
       - 美国_121
+      - 新加坡_11
+      - 韩国_10
+      - 香港_9
       - 美国_122
       - 美国_123
-      - 法国_16
       - 美国_124
       - 美国_125
-      - 美国_126
-      - 美国_127
-      - 美国_128
-      - 美国_129
-      - 美国_130
-      - 美国_131
-      - 美国_132
-      - 俄罗斯_3
-      - 美国_133
-      - 美国_134
-      - 美国_135
-      - 美国_136
-      - 英国_11
-      - 美国_137
-      - 美国_138
-      - 美国_139
-      - 美国_140
-      - 美国_141
-      - 美国_142
-      - 美国_143
-      - 美国_144
-      - 美国_145
-      - 美国_146
-      - 美国_147
-      - 美国_148
-      - 美国_149
-      - 美国_150
-      - 美国_151
-      - 美国_152
-      - 英国_12
-      - 美国_153
-      - 美国_154
-      - 美国_155
-      - 英国_13
-      - 美国_156
-      - 美国_157
-      - 美国_158
-      - 美国_159
-      - 美国_160
-      - 美国_161
-      - 美国_162
-      - 美国_163
-      - 美国_164
-      - 美国_165
-      - 美国_166
-      - 美国_167
-      - 美国_168
-      - 美国_169
-      - 日本_8
-      - 美国_170
-      - 法国_17
-      - 美国_171
-      - 美国_172
-      - 新加坡_8
-      - 美国_173
-      - 美国_174
 rule-providers:
   LocalAreaNetwork:
     type: http
