@@ -5,66 +5,63 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US美国, server: 145.249.109.144, port: 15544, type: ss, cipher: chacha20-ietf-poly1305, password: wk6lA4XRnEWfEnDrdm0NY6, udp: true}
-  - {name: US美国 2, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 3, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: one.cf.cdn.hyli.xyz, skip-cert-verify: true, udp: true}
-  - {name: TW台湾, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 03c765f2-8969-472d-8984-250f39e9e134, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: US美国 4, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
-  - {name: 乌克兰, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
-  - {name: TW台湾 2, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 3c9e4a24-aa0f-4571-970b-d374ccded73b, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: US美国, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: one.cf.cdn.hyli.xyz, skip-cert-verify: true, udp: true}
+  - {name: SG新加坡, server: 104.234.151.10, port: 8443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: CA加拿大, server: 45.88.183.130, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: KR韩国, server: 43.155.186.100, port: 446, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: JP日本, server: 168.138.46.67, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: KR韩国 2, server: 167.88.172.224, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: HK香港, server: 47.79.20.64, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: US美国 2, server: cf.130519.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: cf.130519.xyz, skip-cert-verify: true, udp: true}
+  - {name: US美国 3, server: cf.130519.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: cf.130519.xyz, skip-cert-verify: true, udp: true}
+  - {name: US美国 4, server: cf.130519.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: cf.130519.xyz, skip-cert-verify: true, udp: true}
   - {name: US美国 5, server: cf.130519.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: cf.130519.xyz, skip-cert-verify: true, udp: true}
-  - {name: US美国 6, server: 162.159.24.131, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: TW台湾 3, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 501c6f5f-73eb-4a18-9f24-72b67fa65387, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: US美国 7, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: one.cf.cdn.hyli.xyz, skip-cert-verify: true, udp: true}
-  - {name: IN印度, server: 103.97.203.227, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
-  - {name: US美国 8, server: 104.19.220.22, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: US美国 9, server: 172.64.229.11, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: TW台湾 4, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 6684ea42-8983-447a-bc76-2b894540cb11, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: US美国 10, server: cf.130519.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: cf.130519.xyz, skip-cert-verify: true, udp: true}
-  - {name: US美国 11, server: cf.130519.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: cf.130519.xyz, skip-cert-verify: true, udp: true}
-  - {name: US美国 12, server: 172.64.229.64, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: US美国 13, server: cf.130519.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: cf.130519.xyz, skip-cert-verify: true, udp: true}
-  - {name: US美国 14, server: cf.130519.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: cf.130519.xyz, skip-cert-verify: true, udp: true}
-  - {name: US美国 15, server: 109.234.211.66, port: 2087, type: trojan, password: trojan, skip-cert-verify: true, udp: true}
-  - {name: TW台湾 5, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 501c6f5f-73eb-4a18-9f24-72b67fa65387, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: TW台湾 6, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 04651b15-182b-4d20-8ae1-bdc4e596653d, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: TW台湾 7, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 03c765f2-8969-472d-8984-250f39e9e134, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: US美国 16, server: 777.ai7777777.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: 777.ai7777777.xyz, skip-cert-verify: true, udp: true}
-  - {name: TW台湾 8, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: ba91a84a-6b81-4aef-be19-a76f64a790d1, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: FR法国, server: 777.ai7777777.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: 777.ai7777777.xyz, skip-cert-verify: true, udp: true}
-  - {name: HK香港, server: 104.17.167.134, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: US美国 17, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: TW台湾 9, server: 172.64.229.205, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: US美国 18, server: 172.64.229.6, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: HK香港 2, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY, udp: true}
-  - {name: TW台湾 10, server: 172.64.229.205, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: US美国 19, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: one.cf.cdn.hyli.xyz, skip-cert-verify: true, udp: true}
-  - {name: US美国 20, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: one.cf.cdn.hyli.xyz, skip-cert-verify: true, udp: true}
-  - {name: US美国 21, server: 172.64.229.6, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: HK香港 3, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
-  - {name: US美国 22, server: cf.130519.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: cf.130519.xyz, skip-cert-verify: true, udp: true}
-  - {name: US美国 23, server: 172.64.229.33, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: US美国 24, server: freeyx.cloudflare88.eu.org, port: 443, type: trojan, password: 5a2c16f9, sni: freeyx.cloudflare88.eu.org, skip-cert-verify: true, udp: true}
-  - {name: US美国 25, server: 104.17.162.3, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: US美国 26, server: 172.64.229.64, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: TW台湾 11, server: 104.19.55.205, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: US美国 27, server: 104.17.167.134, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: US美国 28, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: one.cf.cdn.hyli.xyz, skip-cert-verify: true, udp: true}
-  - {name: US美国 29, server: 104.26.1.110, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: HK香港 4, server: 58.152.110.104, port: 443, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, skip-cert-verify: true, udp: true}
-  - {name: US美国 30, server: 199.119.137.77, port: 2053, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: US美国 31, server: 104.26.1.110, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: US美国 32, server: aio.unlimited.biz.id, port: 443, type: vmess, uuid: f282b878-8711-45a1-8c69-5564172123c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /aioproxybot/129.150.49.58-18650, ws-headers: {Host: aio.unlimited.biz.id}, udp: true}
-  - {name: US美国 33, server: 104.26.1.110, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: FR法国 2, server: 94.140.0.238, port: 2096, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: US美国 34, server: 199.119.137.77, port: 2053, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: FR法国 3, server: 94.140.0.238, port: 2096, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: US美国 35, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: one.cf.cdn.hyli.xyz, skip-cert-verify: true, udp: true}
-  - {name: US美国 36, server: 104.19.220.22, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: 乌克兰 2, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
-  - {name: TW台湾 12, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 03c765f2-8969-472d-8984-250f39e9e134, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: US美国 37, server: 135.84.73.238, port: 2096, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
-  - {name: US美国 38, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY, udp: true}
+  - {name: TW台湾, server: cf.130519.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: cf.130519.xyz, skip-cert-verify: true, udp: true}
+  - {name: US美国 6, server: cf.130519.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: cf.130519.xyz, skip-cert-verify: true, udp: true}
+  - {name: KR韩国 3, server: 138.2.95.33, port: 17465, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: US美国 7, server: 47.79.90.37, port: 49153, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: KR韩国 4, server: 51.79.158.58, port: 8443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: JP日本 2, server: 47.79.43.222, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: KR韩国 5, server: 61.85.1.77, port: 12247, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: KR韩国 6, server: 164.52.2.99, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: HK香港 2, server: 8.212.27.131, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: US美国 8, server: 47.79.90.37, port: 49153, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: HK香港 3, server: 118.141.64.192, port: 36619, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: KR韩国 7, server: 61.85.1.77, port: 30029, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: KR韩国 8, server: 61.85.1.77, port: 17001, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: HK香港 4, server: 47.76.218.163, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: HK香港 5, server: 152.32.215.105, port: 8443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: KR韩国 9, server: 168.138.189.91, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: KR韩国 10, server: 129.150.36.188, port: 53435, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: KR韩国 11, server: 168.138.170.211, port: 53702, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: HK香港 6, server: 219.76.13.180, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: JP日本 3, server: 185.18.222.208, port: 2053, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: HK香港 7, server: 219.76.13.167, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: US美国 9, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: one.cf.cdn.hyli.xyz, skip-cert-verify: true, udp: true}
+  - {name: KR韩国 12, server: 158.180.69.78, port: 12198, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: SG新加坡 2, server: 58.152.110.104, port: 443, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, skip-cert-verify: true, udp: true}
+  - {name: US美国 10, server: 188.244.122.238, port: 2096, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: KR韩国 13, server: 5.223.47.32, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: US美国 11, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: one.cf.cdn.hyli.xyz, skip-cert-verify: true, udp: true}
+  - {name: US美国 12, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: one.cf.cdn.hyli.xyz, skip-cert-verify: true, udp: true}
+  - {name: US美国 13, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: HK香港 8, server: 192.142.4.33, port: 8443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: US美国 14, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: one.cf.cdn.hyli.xyz, skip-cert-verify: true, udp: true}
+  - {name: US美国 15, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: one.cf.cdn.hyli.xyz, skip-cert-verify: true, udp: true}
+  - {name: US美国 16, server: aio.unlimited.biz.id, port: 443, type: vmess, uuid: f282b878-8711-45a1-8c69-5564172123c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /aioproxybot/129.150.49.58-18650, ws-headers: {Host: aio.unlimited.biz.id}, udp: true}
+  - {name: JP日本 4, server: 45.11.1.118, port: 44004, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: US美国 17, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: one.cf.cdn.hyli.xyz, skip-cert-verify: true, udp: true}
+  - {name: US美国 18, server: 168.138.46.67, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: FR法国, server: 94.140.0.238, port: 2096, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: KR韩国 14, server: 45.89.107.118, port: 443, type: trojan, password: 554f139b-f31f-41c4-99f9-73d60647db26, skip-cert-verify: true, udp: true}
+  - {name: JP日本 5, server: 150.230.204.21, port: 10243, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: US美国 19, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
+  - {name: US美国 20, server: fast1.swjtu.work, port: 443, type: trojan, password: zzyzzy0512, sni: fast1.swjtu.work, skip-cert-verify: true, udp: true}
+  - {name: KR韩国 15, server: 31.192.238.71, port: 2053, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: US美国 21, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY, udp: true}
+  - {name: US美国 22, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: KR韩国 16, server: 130.162.130.105, port: 443, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
+  - {name: US美国 23, server: 135.84.73.238, port: 2096, type: trojan, password: 5a2c16f9, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -72,130 +69,124 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - US美国
+      - SG新加坡
+      - CA加拿大
+      - KR韩国
+      - JP日本
+      - KR韩国 2
+      - HK香港
       - US美国 2
       - US美国 3
-      - TW台湾
       - US美国 4
-      - 乌克兰
-      - TW台湾 2
       - US美国 5
+      - TW台湾
       - US美国 6
-      - TW台湾 3
+      - KR韩国 3
       - US美国 7
-      - IN印度
+      - KR韩国 4
+      - JP日本 2
+      - KR韩国 5
+      - KR韩国 6
+      - HK香港 2
       - US美国 8
+      - HK香港 3
+      - KR韩国 7
+      - KR韩国 8
+      - HK香港 4
+      - HK香港 5
+      - KR韩国 9
+      - KR韩国 10
+      - KR韩国 11
+      - HK香港 6
+      - JP日本 3
+      - HK香港 7
       - US美国 9
-      - TW台湾 4
+      - KR韩国 12
+      - SG新加坡 2
       - US美国 10
+      - KR韩国 13
       - US美国 11
       - US美国 12
       - US美国 13
+      - HK香港 8
       - US美国 14
       - US美国 15
-      - TW台湾 5
-      - TW台湾 6
-      - TW台湾 7
       - US美国 16
-      - TW台湾 8
-      - FR法国
-      - HK香港
+      - JP日本 4
       - US美国 17
-      - TW台湾 9
       - US美国 18
-      - HK香港 2
-      - TW台湾 10
+      - FR法国
+      - KR韩国 14
+      - JP日本 5
       - US美国 19
       - US美国 20
+      - KR韩国 15
       - US美国 21
-      - HK香港 3
       - US美国 22
+      - KR韩国 16
       - US美国 23
-      - US美国 24
-      - US美国 25
-      - US美国 26
-      - TW台湾 11
-      - US美国 27
-      - US美国 28
-      - US美国 29
-      - HK香港 4
-      - US美国 30
-      - US美国 31
-      - US美国 32
-      - US美国 33
-      - FR法国 2
-      - US美国 34
-      - FR法国 3
-      - US美国 35
-      - US美国 36
-      - 乌克兰 2
-      - TW台湾 12
-      - US美国 37
-      - US美国 38
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - US美国
+      - SG新加坡
+      - CA加拿大
+      - KR韩国
+      - JP日本
+      - KR韩国 2
+      - HK香港
       - US美国 2
       - US美国 3
-      - TW台湾
       - US美国 4
-      - 乌克兰
-      - TW台湾 2
       - US美国 5
+      - TW台湾
       - US美国 6
-      - TW台湾 3
+      - KR韩国 3
       - US美国 7
-      - IN印度
+      - KR韩国 4
+      - JP日本 2
+      - KR韩国 5
+      - KR韩国 6
+      - HK香港 2
       - US美国 8
+      - HK香港 3
+      - KR韩国 7
+      - KR韩国 8
+      - HK香港 4
+      - HK香港 5
+      - KR韩国 9
+      - KR韩国 10
+      - KR韩国 11
+      - HK香港 6
+      - JP日本 3
+      - HK香港 7
       - US美国 9
-      - TW台湾 4
+      - KR韩国 12
+      - SG新加坡 2
       - US美国 10
+      - KR韩国 13
       - US美国 11
       - US美国 12
       - US美国 13
+      - HK香港 8
       - US美国 14
       - US美国 15
-      - TW台湾 5
-      - TW台湾 6
-      - TW台湾 7
       - US美国 16
-      - TW台湾 8
-      - FR法国
-      - HK香港
+      - JP日本 4
       - US美国 17
-      - TW台湾 9
       - US美国 18
-      - HK香港 2
-      - TW台湾 10
+      - FR法国
+      - KR韩国 14
+      - JP日本 5
       - US美国 19
       - US美国 20
+      - KR韩国 15
       - US美国 21
-      - HK香港 3
       - US美国 22
+      - KR韩国 16
       - US美国 23
-      - US美国 24
-      - US美国 25
-      - US美国 26
-      - TW台湾 11
-      - US美国 27
-      - US美国 28
-      - US美国 29
-      - HK香港 4
-      - US美国 30
-      - US美国 31
-      - US美国 32
-      - US美国 33
-      - FR法国 2
-      - US美国 34
-      - FR法国 3
-      - US美国 35
-      - US美国 36
-      - 乌克兰 2
-      - TW台湾 12
-      - US美国 37
-      - US美国 38
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -203,65 +194,62 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - US美国
+      - SG新加坡
+      - CA加拿大
+      - KR韩国
+      - JP日本
+      - KR韩国 2
+      - HK香港
       - US美国 2
       - US美国 3
-      - TW台湾
       - US美国 4
-      - 乌克兰
-      - TW台湾 2
       - US美国 5
+      - TW台湾
       - US美国 6
-      - TW台湾 3
+      - KR韩国 3
       - US美国 7
-      - IN印度
+      - KR韩国 4
+      - JP日本 2
+      - KR韩国 5
+      - KR韩国 6
+      - HK香港 2
       - US美国 8
+      - HK香港 3
+      - KR韩国 7
+      - KR韩国 8
+      - HK香港 4
+      - HK香港 5
+      - KR韩国 9
+      - KR韩国 10
+      - KR韩国 11
+      - HK香港 6
+      - JP日本 3
+      - HK香港 7
       - US美国 9
-      - TW台湾 4
+      - KR韩国 12
+      - SG新加坡 2
       - US美国 10
+      - KR韩国 13
       - US美国 11
       - US美国 12
       - US美国 13
+      - HK香港 8
       - US美国 14
       - US美国 15
-      - TW台湾 5
-      - TW台湾 6
-      - TW台湾 7
       - US美国 16
-      - TW台湾 8
-      - FR法国
-      - HK香港
+      - JP日本 4
       - US美国 17
-      - TW台湾 9
       - US美国 18
-      - HK香港 2
-      - TW台湾 10
+      - FR法国
+      - KR韩国 14
+      - JP日本 5
       - US美国 19
       - US美国 20
+      - KR韩国 15
       - US美国 21
-      - HK香港 3
       - US美国 22
+      - KR韩国 16
       - US美国 23
-      - US美国 24
-      - US美国 25
-      - US美国 26
-      - TW台湾 11
-      - US美国 27
-      - US美国 28
-      - US美国 29
-      - HK香港 4
-      - US美国 30
-      - US美国 31
-      - US美国 32
-      - US美国 33
-      - FR法国 2
-      - US美国 34
-      - FR法国 3
-      - US美国 35
-      - US美国 36
-      - 乌克兰 2
-      - TW台湾 12
-      - US美国 37
-      - US美国 38
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -281,85 +269,75 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - US美国
+      - SG新加坡
+      - CA加拿大
+      - KR韩国
+      - JP日本
+      - KR韩国 2
+      - HK香港
       - US美国 2
       - US美国 3
-      - TW台湾
       - US美国 4
-      - 乌克兰
-      - TW台湾 2
       - US美国 5
+      - TW台湾
       - US美国 6
-      - TW台湾 3
+      - KR韩国 3
       - US美国 7
-      - IN印度
+      - KR韩国 4
+      - JP日本 2
+      - KR韩国 5
+      - KR韩国 6
+      - HK香港 2
       - US美国 8
+      - HK香港 3
+      - KR韩国 7
+      - KR韩国 8
+      - HK香港 4
+      - HK香港 5
+      - KR韩国 9
+      - KR韩国 10
+      - KR韩国 11
+      - HK香港 6
+      - JP日本 3
+      - HK香港 7
       - US美国 9
-      - TW台湾 4
+      - KR韩国 12
+      - SG新加坡 2
       - US美国 10
+      - KR韩国 13
       - US美国 11
       - US美国 12
       - US美国 13
+      - HK香港 8
       - US美国 14
       - US美国 15
-      - TW台湾 5
-      - TW台湾 6
-      - TW台湾 7
       - US美国 16
-      - TW台湾 8
-      - FR法国
-      - HK香港
+      - JP日本 4
       - US美国 17
-      - TW台湾 9
       - US美国 18
-      - HK香港 2
-      - TW台湾 10
+      - FR法国
+      - KR韩国 14
+      - JP日本 5
       - US美国 19
       - US美国 20
+      - KR韩国 15
       - US美国 21
-      - HK香港 3
       - US美国 22
+      - KR韩国 16
       - US美国 23
-      - US美国 24
-      - US美国 25
-      - US美国 26
-      - TW台湾 11
-      - US美国 27
-      - US美国 28
-      - US美国 29
-      - HK香港 4
-      - US美国 30
-      - US美国 31
-      - US美国 32
-      - US美国 33
-      - FR法国 2
-      - US美国 34
-      - FR法国 3
-      - US美国 35
-      - US美国 36
-      - 乌克兰 2
-      - TW台湾 12
-      - US美国 37
-      - US美国 38
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - TW台湾
-      - TW台湾 2
-      - TW台湾 3
-      - TW台湾 4
-      - TW台湾 5
-      - TW台湾 6
-      - TW台湾 7
-      - TW台湾 8
       - HK香港
-      - TW台湾 9
+      - TW台湾
       - HK香港 2
-      - TW台湾 10
       - HK香港 3
-      - TW台湾 11
       - HK香港 4
-      - TW台湾 12
+      - HK香港 5
+      - HK香港 6
+      - HK香港 7
+      - HK香港 8
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -367,130 +345,124 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - US美国
+      - SG新加坡
+      - CA加拿大
+      - KR韩国
+      - JP日本
+      - KR韩国 2
+      - HK香港
       - US美国 2
       - US美国 3
-      - TW台湾
       - US美国 4
-      - 乌克兰
-      - TW台湾 2
       - US美国 5
+      - TW台湾
       - US美国 6
-      - TW台湾 3
+      - KR韩国 3
       - US美国 7
-      - IN印度
+      - KR韩国 4
+      - JP日本 2
+      - KR韩国 5
+      - KR韩国 6
+      - HK香港 2
       - US美国 8
+      - HK香港 3
+      - KR韩国 7
+      - KR韩国 8
+      - HK香港 4
+      - HK香港 5
+      - KR韩国 9
+      - KR韩国 10
+      - KR韩国 11
+      - HK香港 6
+      - JP日本 3
+      - HK香港 7
       - US美国 9
-      - TW台湾 4
+      - KR韩国 12
+      - SG新加坡 2
       - US美国 10
+      - KR韩国 13
       - US美国 11
       - US美国 12
       - US美国 13
+      - HK香港 8
       - US美国 14
       - US美国 15
-      - TW台湾 5
-      - TW台湾 6
-      - TW台湾 7
       - US美国 16
-      - TW台湾 8
-      - FR法国
-      - HK香港
+      - JP日本 4
       - US美国 17
-      - TW台湾 9
       - US美国 18
-      - HK香港 2
-      - TW台湾 10
+      - FR法国
+      - KR韩国 14
+      - JP日本 5
       - US美国 19
       - US美国 20
+      - KR韩国 15
       - US美国 21
-      - HK香港 3
       - US美国 22
+      - KR韩国 16
       - US美国 23
-      - US美国 24
-      - US美国 25
-      - US美国 26
-      - TW台湾 11
-      - US美国 27
-      - US美国 28
-      - US美国 29
-      - HK香港 4
-      - US美国 30
-      - US美国 31
-      - US美国 32
-      - US美国 33
-      - FR法国 2
-      - US美国 34
-      - FR法国 3
-      - US美国 35
-      - US美国 36
-      - 乌克兰 2
-      - TW台湾 12
-      - US美国 37
-      - US美国 38
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - US美国
+      - SG新加坡
+      - CA加拿大
+      - KR韩国
+      - JP日本
+      - KR韩国 2
+      - HK香港
       - US美国 2
       - US美国 3
-      - TW台湾
       - US美国 4
-      - 乌克兰
-      - TW台湾 2
       - US美国 5
+      - TW台湾
       - US美国 6
-      - TW台湾 3
+      - KR韩国 3
       - US美国 7
-      - IN印度
+      - KR韩国 4
+      - JP日本 2
+      - KR韩国 5
+      - KR韩国 6
+      - HK香港 2
       - US美国 8
+      - HK香港 3
+      - KR韩国 7
+      - KR韩国 8
+      - HK香港 4
+      - HK香港 5
+      - KR韩国 9
+      - KR韩国 10
+      - KR韩国 11
+      - HK香港 6
+      - JP日本 3
+      - HK香港 7
       - US美国 9
-      - TW台湾 4
+      - KR韩国 12
+      - SG新加坡 2
       - US美国 10
+      - KR韩国 13
       - US美国 11
       - US美国 12
       - US美国 13
+      - HK香港 8
       - US美国 14
       - US美国 15
-      - TW台湾 5
-      - TW台湾 6
-      - TW台湾 7
       - US美国 16
-      - TW台湾 8
-      - FR法国
-      - HK香港
+      - JP日本 4
       - US美国 17
-      - TW台湾 9
       - US美国 18
-      - HK香港 2
-      - TW台湾 10
+      - FR法国
+      - KR韩国 14
+      - JP日本 5
       - US美国 19
       - US美国 20
+      - KR韩国 15
       - US美国 21
-      - HK香港 3
       - US美国 22
+      - KR韩国 16
       - US美国 23
-      - US美国 24
-      - US美国 25
-      - US美国 26
-      - TW台湾 11
-      - US美国 27
-      - US美国 28
-      - US美国 29
-      - HK香港 4
-      - US美国 30
-      - US美国 31
-      - US美国 32
-      - US美国 33
-      - FR法国 2
-      - US美国 34
-      - FR法国 3
-      - US美国 35
-      - US美国 36
-      - 乌克兰 2
-      - TW台湾 12
-      - US美国 37
-      - US美国 38
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -498,65 +470,62 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - US美国
+      - SG新加坡
+      - CA加拿大
+      - KR韩国
+      - JP日本
+      - KR韩国 2
+      - HK香港
       - US美国 2
       - US美国 3
-      - TW台湾
       - US美国 4
-      - 乌克兰
-      - TW台湾 2
       - US美国 5
+      - TW台湾
       - US美国 6
-      - TW台湾 3
+      - KR韩国 3
       - US美国 7
-      - IN印度
+      - KR韩国 4
+      - JP日本 2
+      - KR韩国 5
+      - KR韩国 6
+      - HK香港 2
       - US美国 8
+      - HK香港 3
+      - KR韩国 7
+      - KR韩国 8
+      - HK香港 4
+      - HK香港 5
+      - KR韩国 9
+      - KR韩国 10
+      - KR韩国 11
+      - HK香港 6
+      - JP日本 3
+      - HK香港 7
       - US美国 9
-      - TW台湾 4
+      - KR韩国 12
+      - SG新加坡 2
       - US美国 10
+      - KR韩国 13
       - US美国 11
       - US美国 12
       - US美国 13
+      - HK香港 8
       - US美国 14
       - US美国 15
-      - TW台湾 5
-      - TW台湾 6
-      - TW台湾 7
       - US美国 16
-      - TW台湾 8
-      - FR法国
-      - HK香港
+      - JP日本 4
       - US美国 17
-      - TW台湾 9
       - US美国 18
-      - HK香港 2
-      - TW台湾 10
+      - FR法国
+      - KR韩国 14
+      - JP日本 5
       - US美国 19
       - US美国 20
+      - KR韩国 15
       - US美国 21
-      - HK香港 3
       - US美国 22
+      - KR韩国 16
       - US美国 23
-      - US美国 24
-      - US美国 25
-      - US美国 26
-      - TW台湾 11
-      - US美国 27
-      - US美国 28
-      - US美国 29
-      - HK香港 4
-      - US美国 30
-      - US美国 31
-      - US美国 32
-      - US美国 33
-      - FR法国 2
-      - US美国 34
-      - FR法国 3
-      - US美国 35
-      - US美国 36
-      - 乌克兰 2
-      - TW台湾 12
-      - US美国 37
-      - US美国 38
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -573,65 +542,62 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - US美国
+      - SG新加坡
+      - CA加拿大
+      - KR韩国
+      - JP日本
+      - KR韩国 2
+      - HK香港
       - US美国 2
       - US美国 3
-      - TW台湾
       - US美国 4
-      - 乌克兰
-      - TW台湾 2
       - US美国 5
+      - TW台湾
       - US美国 6
-      - TW台湾 3
+      - KR韩国 3
       - US美国 7
-      - IN印度
+      - KR韩国 4
+      - JP日本 2
+      - KR韩国 5
+      - KR韩国 6
+      - HK香港 2
       - US美国 8
+      - HK香港 3
+      - KR韩国 7
+      - KR韩国 8
+      - HK香港 4
+      - HK香港 5
+      - KR韩国 9
+      - KR韩国 10
+      - KR韩国 11
+      - HK香港 6
+      - JP日本 3
+      - HK香港 7
       - US美国 9
-      - TW台湾 4
+      - KR韩国 12
+      - SG新加坡 2
       - US美国 10
+      - KR韩国 13
       - US美国 11
       - US美国 12
       - US美国 13
+      - HK香港 8
       - US美国 14
       - US美国 15
-      - TW台湾 5
-      - TW台湾 6
-      - TW台湾 7
       - US美国 16
-      - TW台湾 8
-      - FR法国
-      - HK香港
+      - JP日本 4
       - US美国 17
-      - TW台湾 9
       - US美国 18
-      - HK香港 2
-      - TW台湾 10
+      - FR法国
+      - KR韩国 14
+      - JP日本 5
       - US美国 19
       - US美国 20
+      - KR韩国 15
       - US美国 21
-      - HK香港 3
       - US美国 22
+      - KR韩国 16
       - US美国 23
-      - US美国 24
-      - US美国 25
-      - US美国 26
-      - TW台湾 11
-      - US美国 27
-      - US美国 28
-      - US美国 29
-      - HK香港 4
-      - US美国 30
-      - US美国 31
-      - US美国 32
-      - US美国 33
-      - FR法国 2
-      - US美国 34
-      - FR法国 3
-      - US美国 35
-      - US美国 36
-      - 乌克兰 2
-      - TW台湾 12
-      - US美国 37
-      - US美国 38
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
