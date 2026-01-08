@@ -1,12 +1,11 @@
-# ;不要随意改变关键字，否则会导致出错
-# ;acl4SSR规则
-# ;去广告：支持
-# ;自动测速：支持
-# ;微软分流：不支持
-# ;苹果分流：不支持
-# ;增强中国IP段：不支持
-# ;增强国外GFW：不支持
-# ;ruleset=🎯 全球直连,[]GEOIP,LAN
+# --------------------------------------------------
+# 创建者：yoyapai.com
+# 客户端内核：Clash Meta（Mihomo）内核
+# --------------------------------------------------
+# 该配置文件请使用基于Clash Meta（Mihomo）内核的Clash翻墙软件
+# 每天最新免费节点网址：yoyapai.com
+# --------------------------------------------------
+
 
 mixed-port: 7890
 allow-lan: false
@@ -59,2857 +58,450 @@ tun:
 
 proxies:
   - type: vless
-    name: 美国
-    server: 31.43.179.236
-    port: 2096
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 美国_1
-    server: 167.68.4.199
-    port: 2053
-    password: Aimer
-    network: ws
-    sni: epge.muarua.filegear-sg.me
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: epge.muarua.filegear-sg.me
-  - type: vless
-    name: 德国
-    server: 51.77.141.212
-    port: 8443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 美国_2
-    server: 188.244.122.238
-    port: 2096
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: //Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_3
-    server: 91.149.239.64
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 美国_4
-    server: one.cf.cdn.hyli.xyz
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_1
-    server: 57.129.47.78
-    port: 8443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_5
-    server: 104.129.166.236
-    port: 2096
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 美国_6
-    server: one.cf.cdn.hyli.xyz
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: ////
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_2
-    server: 213.176.75.166
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 美国_7
-    server: one.cf.cdn.hyli.xyz
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: ///
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_8
-    server: 45.153.7.236
-    port: 2096
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_9
-    server: 195.26.229.236
-    port: 2096
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_10
-    server: 164.38.155.236
-    port: 2096
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_11
-    server: 74.48.77.104
-    port: 35273
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_12
-    server: 138.2.232.156
-    port: 28163
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 法国
-    server: 212.83.190.180
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 日本
-    server: 45.11.1.118
-    port: 44004
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_13
-    server: cf.zhetengsha.eu.org
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_14
-    server: cdn.204910.best
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 美国_15
-    server: one.cf.cdn.hyli.xyz
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: //
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_16
-    server: 45.142.120.236
-    port: 2096
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 波兰
-    server: 77.91.76.17
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_17
-    server: 74.48.133.115
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 日本_1
-    server: 185.18.222.208
-    port: 2053
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_18
-    server: cdn.204910.best
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /fp=chrome
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_19
-    server: 114.129.43.236
-    port: 2096
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 新加坡
-    server: 168.138.189.91
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_20
-    server: 185.176.26.236
-    port: 2096
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 俄罗斯
-    server: 78.153.136.254
-    port: 2053
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_21
-    server: 34.168.95.100
-    port: 12388
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 香港
-    server: 219.76.13.167
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_22
-    server: 66.85.139.204
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_23
-    server: 162.120.94.236
-    port: 2096
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_24
-    server: 5.10.214.236
-    port: 2096
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 新加坡_1
-    server: 167.88.172.224
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_25
-    server: 95.182.99.65
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_26
-    server: 45.80.108.236
-    port: 2096
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 新加坡_2
-    server: 47.74.254.191
-    port: 8900
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_27
-    server: 195.200.26.225
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 香港_1
-    server: 219.76.13.180
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_28
-    server: 173.249.201.109
-    port: 54443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_29
-    server: 142.171.3.228
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 新加坡_3
-    server: 129.150.36.188
-    port: 53435
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_30
-    server: 45.15.124.7
-    port: 12217
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 新加坡_4
-    server: 128.199.134.152
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 新加坡_5
-    server: 168.138.170.211
-    port: 53702
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 新加坡_6
-    server: 52.230.146.177
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 新加坡_7
-    server: 164.52.2.99
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_31
-    server: 45.94.209.202
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 韩国
-    server: 121.175.77.73
-    port: 11027
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_32
-    server: 5.101.180.145
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 新加坡_8
-    server: 138.2.95.33
-    port: 17465
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_33
-    server: 172.212.108.47
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_34
-    server: 147.45.114.187
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 新加坡_9
-    server: 167.99.73.22
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 韩国_1
-    server: 61.85.1.77
-    port: 12527
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 韩国_2
-    server: 61.85.1.77
-    port: 12374
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 新加坡_10
-    server: 167.88.172.224
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 韩国_3
-    server: 61.85.1.77
-    port: 30029
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_35
-    server: 45.76.232.169
-    port: 22711
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 韩国_4
-    server: 61.85.1.77
-    port: 17001
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 香港_2
-    server: 101.79.165.113
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 法国_1
-    server: "[2001:41d0:601:2000::767]"
-    port: 52549
-    uuid: b679f0dc-c362-4fbf-9fc7-1bf17f1e0352
-    network: grpc
-    encryption: none
-    grpc-opts:
-      grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  - type: trojan
-    name: 韩国_5
-    server: 61.85.1.77
-    port: 12247
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_36
-    server: 193.233.204.4
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 香港_3
-    server: 118.141.64.192
-    port: 36619
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 香港_4
-    server: 223.16.138.113
-    port: 10002
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 香港_5
-    server: 118.141.64.192
-    port: 36619
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 香港_6
-    server: 223.16.138.113
-    port: 10201
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 香港_7
-    server: 206.237.13.23
-    port: 8443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: tw.aniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tw.aniusnippets.qzz.io
-  - type: vless
-    name: 香港_8
-    server: 206.237.13.23
-    port: 8443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: ww1.allxniu.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ww1.allxniu.qzz.io
-  - type: vless
-    name: 香港_9
-    server: 43.161.225.77
-    port: 443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: jp.xaniusg2.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: jp.xaniusg2.qzz.io
-  - type: vless
-    name: 香港_10
-    server: 83.229.121.223
-    port: 12466
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: www.sgxaniu.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: www.sgxaniu.qzz.io
-  - type: vless
-    name: 美国_37
-    server: 206.237.13.23
-    port: 8443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: jp.xaniusg2.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: jp.xaniusg2.qzz.io
-  - type: vless
-    name: 香港_11
-    server: 68.64.178.74
-    port: 8443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: www.sgxaniu.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: www.sgxaniu.qzz.io
-  - type: vless
-    name: 美国_38
-    server: 193.46.217.173
-    port: 2053
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 香港_12
-    server: 83.229.124.163
-    port: 30443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: x-hk.xaniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: x-hk.xaniusnippets.qzz.io
-  - type: vless
-    name: 香港_13
-    server: 83.229.124.163
-    port: 30443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: tw.aniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tw.aniusnippets.qzz.io
-  - type: vless
-    name: 英国
-    server: 94.156.250.8
-    port: 8443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 香港_14
-    server: 83.229.121.223
-    port: 12466
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: tw.aniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tw.aniusnippets.qzz.io
-  - type: vless
-    name: 香港_15
-    server: 43.161.225.77
-    port: 443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: ww1.allxniu.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ww1.allxniu.qzz.io
-  - type: vless
-    name: 美国_39
-    server: 192.236.249.107
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_40
-    server: 185.138.164.228
-    port: 700
-    uuid: 00000000-0000-4000-8000-000000000000
-    network: ws
-    servername: zybs.worker.ddns-ip.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /@Marisa_kristi
-      headers:
-        Host: zybs.worker.ddns-ip.net
-  - type: vless
-    name: 美国_41
-    server: 194.147.115.132
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_42
-    server: 104.19.39.97
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_43
-    server: 45.144.232.86
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 日本_2
-    server: 45.66.129.7
-    port: 21262
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: tw.aniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tw.aniusnippets.qzz.io
-  - type: trojan
-    name: 香港_16
-    server: 152.32.215.105
-    port: 8443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 香港_17
-    server: 8.223.63.150
-    port: 443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: jp.xaniusg2.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: jp.xaniusg2.qzz.io
-  - type: vless
-    name: 美国_44
-    server: 37.1.208.111
-    port: 2053
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 香港_18
-    server: 43.161.222.97
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 新加坡_11
-    server: 66.42.51.60
-    port: 8443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 香港_19
-    server: 83.229.124.163
-    port: 30443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: jp.xaniusg2.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: jp.xaniusg2.qzz.io
-  - type: vless
-    name: 美国_45
-    server: 104.234.50.223
-    port: 2053
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_46
-    server: 46.17.102.9
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_47
-    server: 46.17.102.249
-    port: 2053
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_48
-    server: 45.156.24.61
-    port: 2053
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_49
-    server: 212.90.120.231
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 法国_2
-    server: 91.90.193.159
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_3
-    server: 45.8.132.142
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_50
-    server: 38.180.99.253
-    port: 8443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 香港_20
-    server: 192.131.142.161
-    port: 46639
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_51
-    server: 43.130.105.166
-    port: 65001
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 日本_3
-    server: 172.237.11.207
-    port: 8443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_52
-    server: 65.49.223.222
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 香港_21
-    server: 47.76.218.163
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 日本_4
-    server: 47.79.90.37
-    port: 49153
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: //Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 新加坡_12
-    server: 31.192.238.71
-    port: 2053
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_4
-    server: 194.9.6.73
-    port: 555
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_5
-    server: 195.58.38.63
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 法国_3
-    server: cf.130519.xyz
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: ///
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_6
-    server: 45.142.115.186
-    port: 2053
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_53
-    server: 35.230.79.26
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 日本_5
-    server: 153.121.45.101
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: //Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 美国_54
-    server: cf.130519.xyz
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 英国_1
-    server: 95.164.18.132
-    port: 81
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 香港_22
-    server: 8.212.27.131
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_55
-    server: 95.179.140.212
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_56
-    server: 188.116.23.181
-    port: 2053
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_7
-    server: 193.42.62.240
-    port: 8443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_8
-    server: 194.58.33.103
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 日本_6
-    server: 156.231.117.147
-    port: 443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: ww1.allxniu.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ww1.allxniu.qzz.io
-  - type: vless
-    name: 美国_57
-    server: 77.110.109.7
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 日本_7
-    server: 47.79.90.37
-    port: 49153
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_9
-    server: 212.193.4.20
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_58
-    server: 45.43.88.120
-    port: 8443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_10
-    server: 185.211.6.152
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 美国_59
-    server: 216.10.243.159
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_11
-    server: 92.42.96.223
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_12
-    server: 109.107.190.58
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 香港_23
-    server: 62.60.246.165
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 日本_8
-    server: 103.150.8.160
-    port: 50888
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 英国_2
-    server: 172.187.200.28
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_13
-    server: 185.193.66.128
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_60
-    server: 134.209.71.141
-    port: 2096
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_61
-    server: 45.66.129.7
-    port: 21262
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: www.sgxaniu.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: www.sgxaniu.qzz.io
-  - type: vless
-    name: 香港_24
-    server: 8.223.63.150
-    port: 443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: www.sgxaniu.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: www.sgxaniu.qzz.io
-  - type: vless
-    name: 法国_4
-    server: 193.42.62.165
-    port: 2083
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 香港_25
-    server: 62.60.246.107
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 新加坡_13
-    server: 34.143.159.175
-    port: 443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: tw.aniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tw.aniusnippets.qzz.io
-  - type: vless
-    name: 德国_14
-    server: 172.86.95.236
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 美国_62
-    server: 199.119.137.77
-    port: 2053
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram@V2rayAlpha
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_15
-    server: 77.91.76.152
-    port: 8443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 俄罗斯_1
-    server: 78.153.136.254
-    port: 8443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_63
-    server: 167.99.58.113
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_16
-    server: 147.45.42.73
-    port: 2053
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_64
-    server: 158.51.125.177
-    port: 8443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 香港_26
-    server: 62.60.246.200
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_17
-    server: 147.45.42.4
-    port: 8443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_18
-    server: 147.45.42.4
-    port: 2053
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_65
-    server: 167.99.49.60
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_19
-    server: 194.87.77.223
-    port: 2096
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 香港_27
-    server: 62.60.246.167
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_20
-    server: 45.95.174.50
-    port: 8444
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 香港_28
-    server: 62.60.246.147
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_66
-    server: 38.180.25.224
-    port: 8443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 新加坡_14
-    server: 20.247.137.183
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 法国_5
-    server: 94.228.162.176
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 香港_29
-    server: 62.60.246.137
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_21
-    server: 89.169.13.207
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: ss
-    name: 美国_67
-    server: switcher-nick-croquet.freesocks.work
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: 9tqhMdIrTkgQ46PvhyAtMH
-  - type: vless
-    name: 波兰_1
-    server: 77.91.76.64
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 美国_68
-    server: 199.119.137.77
-    port: 2053
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: /Telegram@V2rayAlpha
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_69
-    server: 43.165.190.11
-    port: 42841
-    uuid: 00000000-0000-4000-8000-000000000000
-    network: ws
-    servername: mot.morisi.ggff.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /@Marisa_kristi
-      headers:
-        Host: mot.morisi.ggff.net
-  - type: vless
-    name: 美国_70
-    server: 45.82.161.175
-    port: 8443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 日本_9
-    server: 34.146.161.25
-    port: 19000
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: x-hk.xaniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: x-hk.xaniusnippets.qzz.io
-  - type: vless
-    name: 日本_10
-    server: 156.231.117.147
-    port: 443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: x-hk.xaniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: x-hk.xaniusnippets.qzz.io
-  - type: trojan
-    name: 日本_11
-    server: 47.79.43.222
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_71
-    server: 46.226.166.51
-    port: 2053
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 日本_12
-    server: 103.53.81.195
-    port: 36515
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_72
-    server: 185.242.107.80
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 美国_73
-    server: 109.234.211.66
-    port: 2087
-    password: trojan
-    network: ws
-    sni: store.timimi.dpdns.org
-    tls: true
-    ws-opts:
-      path: /?BIA_TELEGRAM
-      headers:
-        Host: store.timimi.dpdns.org
-  - type: trojan
-    name: 新加坡_15
-    server: 38.180.249.123
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 新加坡_16
-    server: 160.22.79.155
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 新加坡_17
-    server: 5.34.176.119
-    port: 81
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_74
-    server: 192.3.30.175
-    port: 2053
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_75
-    server: 195.135.255.199
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 新加坡_18
-    server: 20.17.98.97
-    port: 443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: ww1.allxniu.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ww1.allxniu.qzz.io
-  - type: vless
-    name: 美国_76
-    server: 185.233.202.155
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 新加坡_19
-    server: 20.17.98.97
-    port: 443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: jp.xaniusg2.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: jp.xaniusg2.qzz.io
-  - type: vless
-    name: 美国_77
-    server: 38.180.40.116
-    port: 2053
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_78
-    server: 77.73.71.196
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 日本_13
-    server: 45.76.198.248
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_79
-    server: 89.111.172.106
-    port: 2053
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: ss
-    name: 法国_6
-    server: 51.178.114.93
-    port: 11201
-    cipher: chacha20-ietf-poly1305
-    password: 5bbe7bf7a282ad8b
-  - type: vless
-    name: 德国_22
-    server: 45.145.43.190
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_23
-    server: 46.101.148.54
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 新加坡_20
-    server: 43.218.77.16
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_80
-    server: 185.186.245.63
-    port: 81
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_81
-    server: 23.94.5.177
-    port: 4433
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 新加坡_21
-    server: 209.97.173.243
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_82
-    server: 217.25.91.145
-    port: 2053
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_83
-    server: 37.48.90.120
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_84
-    server: 43.165.190.11
-    port: 42841
-    uuid: 00000000-0000-4000-8000-000000000000
-    network: ws
-    servername: mot.luyuju.dpdns.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /@Marisa_kristi
-      headers:
-        Host: mot.luyuju.dpdns.org
-  - type: vless
-    name: 德国_24
-    server: 89.22.224.103
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 日本_14
-    server: 168.138.46.67
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 日本_15
-    server: 43.165.183.43
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_85
-    server: 69.84.182.108
-    port: 443
-    uuid: e343471a-aad3-40da-9dea-72cc8c7dce5f
-    network: ws
-    servername: pq-us4.globals-download.com
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /pq/us4
-      headers:
-        Host: pq-us4.globals-download.com
-  - type: vless
-    name: 德国_25
-    server: 77.221.140.167
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_86
-    server: 172.67.160.192
-    port: 443
-    uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-    network: ws
-    servername: nuclear.us.kg
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /free/103.101.153.32:443
-      headers:
-        Host: nuclear.us.kg
-  - type: vless
-    name: 德国_26
-    server: 77.91.78.18
-    port: 8443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 日本_16
-    server: 185.184.223.73
-    port: 50005
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: x-hk.xaniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: x-hk.xaniusnippets.qzz.io
-  - type: vless
-    name: 美国_87
-    server: 185.125.219.164
+    name: 日本节点
+    server: 47.245.38.111
     port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
+    uuid: 86b414b6-966e-4f6d-ab16-32049ef732d3
+    network: tcp
+    servername: www.autodesk.com
     tls: true
     encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
+    reality-opts:
+      public-key: y167aJhpgWWjltY4UCir_uu8Mj__Hkc1W4etD0QXYH4
+      short-id: 860705e716cbe6ed
+    client-fingerprint: chrome
   - type: vmess
-    name: 法国_7
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    name: 🇭🇰 香港 阿里云
+    server: 8.210.248.133
+    port: 43425
+    uuid: aa10afb0-f913-4343-9c69-bc797fcba2db
     alterId: 0
-    network: ws
+    network: tcp
     cipher: auto
-    ws-opts:
-      path: ?ed=2048
-  - type: vless
-    name: 印度
-    server: cloudflare.182682.xyz
-    port: 443
-    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-    network: ws
-    servername: l.ayovo.netlib.re
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: l.ayovo.netlib.re
+  - type: hysteria2
+    name: 日本节点_1
+    server: 103.62.49.76
+    port: 36000
+    password: 863695e3-7b22-4822-b648-750f43140001
+    skip-cert-verify: true
+    sni: www.apple.com
   - type: vmess
-    name: 法国_8
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    name: 英国节点
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
-    network: ws
+    network: tcp
     cipher: auto
-    ws-opts:
-      path: /?ed=2048
+    servername: 2001:bc8:32d7:302::10
   - type: vmess
-    name: 美国_88
-    server: dDdCCVFg.922922.SHOP
-    port: 80
-    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+    name: 英国节点_1
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
-    network: ws
-    cipher: auto
-    servername: dDdCCVFg.922922.SHOP
-    ws-opts:
-      path: /RkUUbqhA9GJZBROjL3Q5vTymr
-      headers:
-        Host: dDdCCVFg.922922.SHOP
-  - type: trojan
-    name: 香港_30
-    server: 141.11.149.195
-    port: 12082
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 新加坡_22
-    server: 128.199.134.152
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_27
-    server: 51.195.102.180
-    port: 8443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 波兰_2
-    server: 82.118.22.141
-    port: 8443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 新加坡_23
-    server: 143.42.66.91
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: ss
-    name: 美国_89
-    server: switcher-nick-croquet.freesocks.work
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: RFK38Cg7APneSB5cWDcpbm
-  - type: vless
-    name: 美国_90
-    server: vip2.kaixincloud.top
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 韩国_6
-    server: 211.197.161.123
-    port: 10041
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 韩国_7
-    server: 211.48.77.114
-    port: 12312
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_91
-    server: 95.182.97.125
-    port: 8443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_28
-    server: 51.77.140.23
-    port: 8443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_29
-    server: 168.119.166.165
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 韩国_8
-    server: 14.32.3.193
-    port: 16058
-    password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: trojan
-    name: 香港_31
-    server: 47.79.20.64
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_30
-    server: 144.91.77.167
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 法国_9
-    server: 51.38.224.25
-    port: 8443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vmess
-    name: 美国_92
-    server: 2001:bc8:32d7:2013::8
-    port: 62211
-    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
-    alterId: 0
-    network: ws
+    network: tcp
     cipher: auto
     servername: www.bing.com
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: www.bing.com
+  - type: vmess
+    name: 美国
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: hk.nbee.pp.ua
+  - type: vmess
+    name: 英国节点_2
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vmess
+    name: 美国_1
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: jp1.sstank.top
+  - type: vmess
+    name: 美国节点
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: joss.gpj1.web.id
+  - type: vmess
+    name: 美国_2
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 82.198.246.97
+  - type: vmess
+    name: 美国节点_1
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: trojan.burgerip.co.uk
+  - type: vmess
+    name: 英国节点_3
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 2001:bc8:32d7:302::10
+  - type: vmess
+    name: 美国节点_2
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vmess
+    name: 英国节点_4
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 2001:bc8:32d7:302::10
+  - type: vmess
+    name: 美国节点_3
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: t.me%2Fripaojiedian
+  - type: vmess
+    name: 英国节点_5
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: cdnfire.xiaomispeed.com
+  - type: vmess
+    name: 英国节点_6
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 2001:bc8:32d7:302::10
+  - type: vmess
+    name: 英国节点_7
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: www.alibaba.com
+  - type: vmess
+    name: 英国节点_8
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 2001:bc8:32d7:302::10
+  - type: vmess
+    name: 英国节点_9
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: doufeng.pages.dev
+  - type: vmess
+    name: 英国节点_10
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: img14.360buyimg.com
+  - type: vmess
+    name: 美国节点_4
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: tianjiu.pages.dev
+  - type: vmess
+    name: 🇭🇰 香港 HK - 4
+    server: cees.owwoedu.com
+    port: 49301
+    uuid: f873f724-c8e4-455f-8c1a-553809516dbf
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vmess
+    name: 英国节点_11
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: broadcastlv.chat.bilibili.com
+  - type: vmess
+    name: 英国节点_12
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 2001:bc8:32d7:302::10
+  - type: vmess
+    name: 英国节点_13
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: AZERB.NET
+  - type: hysteria2
+    name: 🇺🇸龟壳 美国 US-Oracle_Corporation-1
+    server: 170.9.63.232
+    port: 26902
+    password: f19823db-48e6-44fc-8a6a-372ce3611763
+    alpn:
+      - h3
+    skip-cert-verify: true
+    sni: www.bing.com
+  - type: vmess
+    name: 英国节点_14
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: vc.fly.dev
+  - type: vmess
+    name: 英国节点_15
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: joss.gpj4.web.id
+  - type: vmess
+    name: 英国节点_16
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: imafake.locker
+  - type: vmess
+    name: 英国节点_17
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: 2001:bc8:32d7:302::10
+  - type: vmess
+    name: 英国节点_18
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: t.me%252Fripaojiedian
+  - type: vmess
+    name: 英国节点_19
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: trojan.burgerip.co.uk
+  - type: vmess
+    name: 英国节点_20
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: bbbbbbbbb.222769.xyz
+  - type: hysteria2
+    name: 德国 黑森州 法兰克福 — 甲骨文云
+    server: 130.61.50.75
+    port: 6443
+    password: zhangyang
+    alpn:
+      - h3
+    skip-cert-verify: true
+    sni: dash.cloudflare.com
   - type: vless
-    name: 德国_31
-    server: 185.245.182.254
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+    name: 新加坡节点
+    server: 151.101.3.8
+    port: 80
+    uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
     network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
+    servername: mitivpn.global.ssl.fastly.net
     encryption: none
     ws-opts:
-      path: Telegram🇨🇳WangCai2
+      path: /
       headers:
-        Host: snippets.kkii.eu.org
+        Host: mitivpn.global.ssl.fastly.net
+  - type: hysteria2
+    name: 美国 弗吉尼亚州 阿什本
+    server: 23.27.249.60
+    port: 3457
+    password: ieshare2025
+    alpn:
+      - h3
+    skip-cert-verify: true
+    sni: dash.cloudflare.com
   - type: vmess
-    name: 法国_10
+    name: 新加坡节点_1
+    server: cees.owwoedu.com
+    port: 49301
+    uuid: b2ef2c34-a629-4377-8619-a1e90a3d511f
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vmess
+    name: 🇭🇰 香港 HK - 1
+    server: cees.owwoedu.com
+    port: 49301
+    uuid: 119177df-9f60-476a-9cb7-d6bcc2fb467c
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vmess
+    name: 法国节点
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    network: ws
+    cipher: auto
+    ws-opts:
+      path: /
+  - type: tuic
+    name: 🇺🇸龟壳 美国 US-Oracle_
+    server: 170.9.63.232
+    port: 26901
+    uuid: f19823db-48e6-44fc-8a6a-372ce3611763
+    password: A0O9ZwZNvjcSdaWXB7kh4GI0
+    udp: true
+    sni: www.bing.com
+    alpn:
+      - h3
+    congestion-controller: bbr
+    skip-cert-verify: true
+  - type: vmess
+    name: 法国节点_1
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: 2001:bc8:32d7:302::10
+    ws-opts:
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+      headers:
+        Host: 2001:bc8:32d7:302::10
+  - type: vmess
+    name: 法国节点_2
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: 2001:bc8:32d7:302::10
+    ws-opts:
+      path: /
+      headers:
+        Host: 2001:bc8:32d7:302::10
+  - type: vmess
+    name: 新加坡节点_2
+    server: cees.owwoedu.com
+    port: 49301
+    uuid: 0da5deab-b94f-43ff-b89c-9a02f7b23081
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vmess
+    name: 香港04 【IEPL】
+    server: ffiw.owwoedu.com
+    port: 59501
+    uuid: 92881954-d2c2-4d32-a044-074c7eea957c
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vmess
+    name: 美国节点_5
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: 2001:bc8:32d7:302::10
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: 2001:bc8:32d7:302::10
+  - type: vmess
+    name: 🇭🇰 香港 HK - 2
+    server: cees.owwoedu.com
+    port: 49301
+    uuid: 50105c9a-186e-44f1-b226-28732a049546
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vmess
+    name: 日本丨解GPT
+    server: ffiw.owwoedu.com
+    port: 59503
+    uuid: 8220c2e5-1121-41d6-b0ac-3696327beaaf
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vmess
+    name: 法国节点_3
     server: 2001:bc8:32d7:302::10
     port: 44579
     uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
@@ -2918,791 +510,337 @@ proxies:
     cipher: auto
     servername: AZERB.NET
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
       headers:
         Host: AZERB.NET
-  - type: trojan
-    name: 韩国_9
-    server: 222.97.1.10
-    port: 50000
-    password: 5a2c16f9
+  - type: vmess
+    name: 美国节点_6
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
     network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
+    cipher: auto
     ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_93
-    server: 45.156.22.150
-    port: 587
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_32
-    server: 185.193.66.128
+      path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
+  - type: hysteria2
+    name: 美国 加州 圣何塞 — 甲骨文云
+    server: 170.9.63.232
+    port: 26902
+    password: f19823db-48e6-44fc-8a6a-372ce3611763
+    alpn:
+      - h3
+    skip-cert-verify: true
+    sni: dash.cloudflare.com
+  - type: vmess
+    name: 🇭🇰 香港 HK - 3
+    server: cees.owwoedu.com
+    port: 49301
+    uuid: 0809a187-e832-4c07-b851-69607cc9d6a4
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: hysteria2
+    name: $
+    server: 91.107.190.166
     port: 8443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+    password: xtGIM7iEx9
+    alpn:
+      - h3
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: KLSADFIU43
+    sni: dash.cloudflare.com
+  - type: vmess
+    name: 🇸🇬 新加坡GPT - 1
+    server: cees.owwoedu.com
+    port: 49310
+    uuid: e4c10117-48f0-43ba-bd48-f3585c4c1cdb
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vmess
+    name: 新加坡节点_3
+    server: cees.owwoedu.com
+    port: 49310
+    uuid: 050f3ef7-7df0-4f00-8001-3574f0360357
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vmess
+    name: 法国节点_4
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
     network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
+    cipher: auto
     ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: ss
-    name: 美国_94
-    server: switcher-nick-croquet.freesocks.work
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: wwzVn2ZnHfqYa6l8EWh3eY
-  - type: vless
-    name: 波兰_3
-    server: 62.192.174.228
-    port: 2053
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+      path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+  - type: hysteria2
+    name: 法国 上法兰西大区
+    server: 51.75.118.149
+    port: 20248
+    password: a516b408-e06d-4278-9e6d-5271571ecab5
+    alpn:
+      - h3
+    skip-cert-verify: true
+    sni: dash.cloudflare.com
+  - type: hysteria2
+    name: 香港节点
+    server: 103.197.71.118
+    port: 37000
+    password: 863695e3-7b22-4822-b648-750f43140001
+    skip-cert-verify: true
+    sni: www.lamer.com.hk
+  - type: vmess
+    name: 法国
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
     network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_95
-    server: 46.17.43.237
-    port: 54596
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 新加坡_24
-    server: 34.143.159.175
-    port: 443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: ww1.allxniu.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: ww1.allxniu.qzz.io
+    cipher: auto
+  - type: vmess
+    name: 🇺🇸 美国 US - 2
+    server: cees.owwoedu.com
+    port: 49312
+    uuid: ce29e676-2cea-4949-81fd-b64aa0e0a0d7
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vmess
+    name: 美国 01【IEPL】
+    server: ffiw.owwoedu.com
+    port: 59504
+    uuid: eddcc1ae-c39c-4c83-b994-c2fa133f087c
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vmess
+    name: 新加坡节点_4
+    server: cees.owwoedu.com
+    port: 49301
+    uuid: 8394770f-608f-4493-a428-1a15fcda3a55
+    alterId: 0
+    network: tcp
+    cipher: auto
   - type: trojan
-    name: 韩国_10
-    server: 221.139.87.28
-    port: 443
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
+    name: 🇨🇳 TW台湾
+    server: green2.cdntencentmusic.com
+    port: 31102
+    password: 3c9e4a24-aa0f-4571-970b-d374ccded73b
+    network: tcp
+    sni: green2.cdntencentmusic.com
     tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_96
-    server: 45.91.200.130
-    port: 8443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 新加坡_25
-    server: 34.143.159.175
-    port: 443
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    network: ws
-    servername: x-hk.xaniusnippets.qzz.io
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: x-hk.xaniusnippets.qzz.io
-  - type: vless
-    name: 日本_17
-    server: 188.213.168.52
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_33
-    server: 77.91.77.218
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 土耳其
-    server: 45.89.52.9
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
+  - type: vmess
+    name: 美国 02【IEPL】
+    server: ffiw.owwoedu.com
+    port: 29512
+    uuid: ab00adaf-ece4-4b6e-ae18-f0ae512e1d4a
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vmess
+    name: 香港02 【IEPL】
+    server: ffiw.owwoedu.com
+    port: 59501
+    uuid: 8d33275d-9851-44b0-82f1-12e56ad4717d
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: vmess
+    name: 新加坡丨解GPT
+    server: ffiw.owwoedu.com
+    port: 59510
+    uuid: 32111925-0282-47fd-929b-6ded032669d0
+    alterId: 0
+    network: tcp
+    cipher: auto
   - type: trojan
-    name: 香港_32
-    server: 85.208.104.34
-    port: 8080
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
-    tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_34
-    server: 89.169.52.156
+    name: 🇭🇰 香港
+    server: 58.152.110.104
     port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
+    password: 381f2e86233720eacda26d50e9aa26da
+    network: tcp
+    sni: www.nintendogames.net
     tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 波兰_4
-    server: 77.91.76.152
-    port: 8443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_97
-    server: 178.250.159.120
-    port: 2053
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 德国_35
-    server: 176.96.136.176
-    port: 51663
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_98
-    server: 46.226.166.179
-    port: 443
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 美国_99
-    server: 140.99.233.236
-    port: 2096
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
+  - type: hysteria2
+    name: 日本 东京 Urban Network Solutions
+    server: 85.121.51.24
+    port: 28675
+    password: 119bedb3-7bf7-4834-8eb0-451b0e58bc1a
+    alpn:
+      - h3
+    skip-cert-verify: true
+    sni: dash.cloudflare.com
   - type: trojan
-    name: 日本_18
-    server: 140.83.57.114
-    port: 25965
-    password: 5a2c16f9
-    network: ws
-    sni: snippets.kkii.eu.org
+    name: 🇭🇰 香港 电讯盈科有限公司
+    server: 58.152.25.236
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
     tls: true
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
-  - type: vless
-    name: 俄罗斯_2
-    server: 77.221.153.168
-    port: 2053
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    network: ws
-    servername: snippets.kkii.eu.org
+  - type: trojan
+    name: 🇭🇰 香港4
+    server: 58.152.25.86
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
     tls: true
-    encryption: none
-    ws-opts:
-      path: Telegram🇨🇳WangCai2
-      headers:
-        Host: snippets.kkii.eu.org
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 日本节点
+      - 🇭🇰 香港 阿里云
+      - 日本节点_1
+      - 英国节点
+      - 英国节点_1
       - 美国
+      - 英国节点_2
       - 美国_1
-      - 德国
+      - 美国节点
       - 美国_2
-      - 美国_3
-      - 美国_4
-      - 德国_1
-      - 美国_5
-      - 美国_6
-      - 德国_2
-      - 美国_7
-      - 美国_8
-      - 美国_9
-      - 美国_10
-      - 美国_11
-      - 美国_12
+      - 美国节点_1
+      - 英国节点_3
+      - 美国节点_2
+      - 英国节点_4
+      - 美国节点_3
+      - 英国节点_5
+      - 英国节点_6
+      - 英国节点_7
+      - 英国节点_8
+      - 英国节点_9
+      - 英国节点_10
+      - 美国节点_4
+      - 🇭🇰 香港 HK - 4
+      - 英国节点_11
+      - 英国节点_12
+      - 英国节点_13
+      - 🇺🇸龟壳 美国 US-Oracle_Corporation-1
+      - 英国节点_14
+      - 英国节点_15
+      - 英国节点_16
+      - 英国节点_17
+      - 英国节点_18
+      - 英国节点_19
+      - 英国节点_20
+      - 德国 黑森州 法兰克福 — 甲骨文云
+      - 新加坡节点
+      - 美国 弗吉尼亚州 阿什本
+      - 新加坡节点_1
+      - 🇭🇰 香港 HK - 1
+      - 法国节点
+      - 🇺🇸龟壳 美国 US-Oracle_
+      - 法国节点_1
+      - 法国节点_2
+      - 新加坡节点_2
+      - 香港04 【IEPL】
+      - 美国节点_5
+      - 🇭🇰 香港 HK - 2
+      - 日本丨解GPT
+      - 法国节点_3
+      - 美国节点_6
+      - 美国 加州 圣何塞 — 甲骨文云
+      - 🇭🇰 香港 HK - 3
+      - $
+      - 🇸🇬 新加坡GPT - 1
+      - 新加坡节点_3
+      - 法国节点_4
+      - 法国 上法兰西大区
+      - 香港节点
       - 法国
-      - 日本
-      - 美国_13
-      - 美国_14
-      - 美国_15
-      - 美国_16
-      - 波兰
-      - 美国_17
-      - 日本_1
-      - 美国_18
-      - 美国_19
-      - 新加坡
-      - 美国_20
-      - 俄罗斯
-      - 美国_21
-      - 香港
-      - 美国_22
-      - 美国_23
-      - 美国_24
-      - 新加坡_1
-      - 美国_25
-      - 美国_26
-      - 新加坡_2
-      - 美国_27
-      - 香港_1
-      - 美国_28
-      - 美国_29
-      - 新加坡_3
-      - 美国_30
-      - 新加坡_4
-      - 新加坡_5
-      - 新加坡_6
-      - 新加坡_7
-      - 美国_31
-      - 韩国
-      - 美国_32
-      - 新加坡_8
-      - 美国_33
-      - 美国_34
-      - 新加坡_9
-      - 韩国_1
-      - 韩国_2
-      - 新加坡_10
-      - 韩国_3
-      - 美国_35
-      - 韩国_4
-      - 香港_2
-      - 法国_1
-      - 韩国_5
-      - 美国_36
-      - 香港_3
-      - 香港_4
-      - 香港_5
-      - 香港_6
-      - 香港_7
-      - 香港_8
-      - 香港_9
-      - 香港_10
-      - 美国_37
-      - 香港_11
-      - 美国_38
-      - 香港_12
-      - 香港_13
-      - 英国
-      - 香港_14
-      - 香港_15
-      - 美国_39
-      - 美国_40
-      - 美国_41
-      - 美国_42
-      - 美国_43
-      - 日本_2
-      - 香港_16
-      - 香港_17
-      - 美国_44
-      - 香港_18
-      - 新加坡_11
-      - 香港_19
-      - 美国_45
-      - 美国_46
-      - 美国_47
-      - 美国_48
-      - 美国_49
-      - 法国_2
-      - 德国_3
-      - 美国_50
-      - 香港_20
-      - 美国_51
-      - 日本_3
-      - 美国_52
-      - 香港_21
-      - 日本_4
-      - 新加坡_12
-      - 德国_4
-      - 德国_5
-      - 法国_3
-      - 德国_6
-      - 美国_53
-      - 日本_5
-      - 美国_54
-      - 英国_1
-      - 香港_22
-      - 美国_55
-      - 美国_56
-      - 德国_7
-      - 德国_8
-      - 日本_6
-      - 美国_57
-      - 日本_7
-      - 德国_9
-      - 美国_58
-      - 德国_10
-      - 美国_59
-      - 德国_11
-      - 德国_12
-      - 香港_23
-      - 日本_8
-      - 英国_2
-      - 德国_13
-      - 美国_60
-      - 美国_61
-      - 香港_24
-      - 法国_4
-      - 香港_25
-      - 新加坡_13
-      - 德国_14
-      - 美国_62
-      - 德国_15
-      - 俄罗斯_1
-      - 美国_63
-      - 德国_16
-      - 美国_64
-      - 香港_26
-      - 德国_17
-      - 德国_18
-      - 美国_65
-      - 德国_19
-      - 香港_27
-      - 德国_20
-      - 香港_28
-      - 美国_66
-      - 新加坡_14
-      - 法国_5
-      - 香港_29
-      - 德国_21
-      - 美国_67
-      - 波兰_1
-      - 美国_68
-      - 美国_69
-      - 美国_70
-      - 日本_9
-      - 日本_10
-      - 日本_11
-      - 美国_71
-      - 日本_12
-      - 美国_72
-      - 美国_73
-      - 新加坡_15
-      - 新加坡_16
-      - 新加坡_17
-      - 美国_74
-      - 美国_75
-      - 新加坡_18
-      - 美国_76
-      - 新加坡_19
-      - 美国_77
-      - 美国_78
-      - 日本_13
-      - 美国_79
-      - 法国_6
-      - 德国_22
-      - 德国_23
-      - 新加坡_20
-      - 美国_80
-      - 美国_81
-      - 新加坡_21
-      - 美国_82
-      - 美国_83
-      - 美国_84
-      - 德国_24
-      - 日本_14
-      - 日本_15
-      - 美国_85
-      - 德国_25
-      - 美国_86
-      - 德国_26
-      - 日本_16
-      - 美国_87
-      - 法国_7
-      - 印度
-      - 法国_8
-      - 美国_88
-      - 香港_30
-      - 新加坡_22
-      - 德国_27
-      - 波兰_2
-      - 新加坡_23
-      - 美国_89
-      - 美国_90
-      - 韩国_6
-      - 韩国_7
-      - 美国_91
-      - 德国_28
-      - 德国_29
-      - 韩国_8
-      - 香港_31
-      - 德国_30
-      - 法国_9
-      - 美国_92
-      - 德国_31
-      - 法国_10
-      - 韩国_9
-      - 美国_93
-      - 德国_32
-      - 美国_94
-      - 波兰_3
-      - 美国_95
-      - 新加坡_24
-      - 韩国_10
-      - 美国_96
-      - 新加坡_25
-      - 日本_17
-      - 德国_33
-      - 土耳其
-      - 香港_32
-      - 德国_34
-      - 波兰_4
-      - 美国_97
-      - 德国_35
-      - 美国_98
-      - 美国_99
-      - 日本_18
-      - 俄罗斯_2
+      - 🇺🇸 美国 US - 2
+      - 美国 01【IEPL】
+      - 新加坡节点_4
+      - 🇨🇳 TW台湾
+      - 美国 02【IEPL】
+      - 香港02 【IEPL】
+      - 新加坡丨解GPT
+      - 🇭🇰 香港
+      - 日本 东京 Urban Network Solutions
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港4
   - name: ♻️ 自动选择
     type: url-test
     proxies:
+      - 日本节点
+      - 🇭🇰 香港 阿里云
+      - 日本节点_1
+      - 英国节点
+      - 英国节点_1
       - 美国
+      - 英国节点_2
       - 美国_1
-      - 德国
+      - 美国节点
       - 美国_2
-      - 美国_3
-      - 美国_4
-      - 德国_1
-      - 美国_5
-      - 美国_6
-      - 德国_2
-      - 美国_7
-      - 美国_8
-      - 美国_9
-      - 美国_10
-      - 美国_11
-      - 美国_12
+      - 美国节点_1
+      - 英国节点_3
+      - 美国节点_2
+      - 英国节点_4
+      - 美国节点_3
+      - 英国节点_5
+      - 英国节点_6
+      - 英国节点_7
+      - 英国节点_8
+      - 英国节点_9
+      - 英国节点_10
+      - 美国节点_4
+      - 🇭🇰 香港 HK - 4
+      - 英国节点_11
+      - 英国节点_12
+      - 英国节点_13
+      - 🇺🇸龟壳 美国 US-Oracle_Corporation-1
+      - 英国节点_14
+      - 英国节点_15
+      - 英国节点_16
+      - 英国节点_17
+      - 英国节点_18
+      - 英国节点_19
+      - 英国节点_20
+      - 德国 黑森州 法兰克福 — 甲骨文云
+      - 新加坡节点
+      - 美国 弗吉尼亚州 阿什本
+      - 新加坡节点_1
+      - 🇭🇰 香港 HK - 1
+      - 法国节点
+      - 🇺🇸龟壳 美国 US-Oracle_
+      - 法国节点_1
+      - 法国节点_2
+      - 新加坡节点_2
+      - 香港04 【IEPL】
+      - 美国节点_5
+      - 🇭🇰 香港 HK - 2
+      - 日本丨解GPT
+      - 法国节点_3
+      - 美国节点_6
+      - 美国 加州 圣何塞 — 甲骨文云
+      - 🇭🇰 香港 HK - 3
+      - $
+      - 🇸🇬 新加坡GPT - 1
+      - 新加坡节点_3
+      - 法国节点_4
+      - 法国 上法兰西大区
+      - 香港节点
       - 法国
-      - 日本
-      - 美国_13
-      - 美国_14
-      - 美国_15
-      - 美国_16
-      - 波兰
-      - 美国_17
-      - 日本_1
-      - 美国_18
-      - 美国_19
-      - 新加坡
-      - 美国_20
-      - 俄罗斯
-      - 美国_21
-      - 香港
-      - 美国_22
-      - 美国_23
-      - 美国_24
-      - 新加坡_1
-      - 美国_25
-      - 美国_26
-      - 新加坡_2
-      - 美国_27
-      - 香港_1
-      - 美国_28
-      - 美国_29
-      - 新加坡_3
-      - 美国_30
-      - 新加坡_4
-      - 新加坡_5
-      - 新加坡_6
-      - 新加坡_7
-      - 美国_31
-      - 韩国
-      - 美国_32
-      - 新加坡_8
-      - 美国_33
-      - 美国_34
-      - 新加坡_9
-      - 韩国_1
-      - 韩国_2
-      - 新加坡_10
-      - 韩国_3
-      - 美国_35
-      - 韩国_4
-      - 香港_2
-      - 法国_1
-      - 韩国_5
-      - 美国_36
-      - 香港_3
-      - 香港_4
-      - 香港_5
-      - 香港_6
-      - 香港_7
-      - 香港_8
-      - 香港_9
-      - 香港_10
-      - 美国_37
-      - 香港_11
-      - 美国_38
-      - 香港_12
-      - 香港_13
-      - 英国
-      - 香港_14
-      - 香港_15
-      - 美国_39
-      - 美国_40
-      - 美国_41
-      - 美国_42
-      - 美国_43
-      - 日本_2
-      - 香港_16
-      - 香港_17
-      - 美国_44
-      - 香港_18
-      - 新加坡_11
-      - 香港_19
-      - 美国_45
-      - 美国_46
-      - 美国_47
-      - 美国_48
-      - 美国_49
-      - 法国_2
-      - 德国_3
-      - 美国_50
-      - 香港_20
-      - 美国_51
-      - 日本_3
-      - 美国_52
-      - 香港_21
-      - 日本_4
-      - 新加坡_12
-      - 德国_4
-      - 德国_5
-      - 法国_3
-      - 德国_6
-      - 美国_53
-      - 日本_5
-      - 美国_54
-      - 英国_1
-      - 香港_22
-      - 美国_55
-      - 美国_56
-      - 德国_7
-      - 德国_8
-      - 日本_6
-      - 美国_57
-      - 日本_7
-      - 德国_9
-      - 美国_58
-      - 德国_10
-      - 美国_59
-      - 德国_11
-      - 德国_12
-      - 香港_23
-      - 日本_8
-      - 英国_2
-      - 德国_13
-      - 美国_60
-      - 美国_61
-      - 香港_24
-      - 法国_4
-      - 香港_25
-      - 新加坡_13
-      - 德国_14
-      - 美国_62
-      - 德国_15
-      - 俄罗斯_1
-      - 美国_63
-      - 德国_16
-      - 美国_64
-      - 香港_26
-      - 德国_17
-      - 德国_18
-      - 美国_65
-      - 德国_19
-      - 香港_27
-      - 德国_20
-      - 香港_28
-      - 美国_66
-      - 新加坡_14
-      - 法国_5
-      - 香港_29
-      - 德国_21
-      - 美国_67
-      - 波兰_1
-      - 美国_68
-      - 美国_69
-      - 美国_70
-      - 日本_9
-      - 日本_10
-      - 日本_11
-      - 美国_71
-      - 日本_12
-      - 美国_72
-      - 美国_73
-      - 新加坡_15
-      - 新加坡_16
-      - 新加坡_17
-      - 美国_74
-      - 美国_75
-      - 新加坡_18
-      - 美国_76
-      - 新加坡_19
-      - 美国_77
-      - 美国_78
-      - 日本_13
-      - 美国_79
-      - 法国_6
-      - 德国_22
-      - 德国_23
-      - 新加坡_20
-      - 美国_80
-      - 美国_81
-      - 新加坡_21
-      - 美国_82
-      - 美国_83
-      - 美国_84
-      - 德国_24
-      - 日本_14
-      - 日本_15
-      - 美国_85
-      - 德国_25
-      - 美国_86
-      - 德国_26
-      - 日本_16
-      - 美国_87
-      - 法国_7
-      - 印度
-      - 法国_8
-      - 美国_88
-      - 香港_30
-      - 新加坡_22
-      - 德国_27
-      - 波兰_2
-      - 新加坡_23
-      - 美国_89
-      - 美国_90
-      - 韩国_6
-      - 韩国_7
-      - 美国_91
-      - 德国_28
-      - 德国_29
-      - 韩国_8
-      - 香港_31
-      - 德国_30
-      - 法国_9
-      - 美国_92
-      - 德国_31
-      - 法国_10
-      - 韩国_9
-      - 美国_93
-      - 德国_32
-      - 美国_94
-      - 波兰_3
-      - 美国_95
-      - 新加坡_24
-      - 韩国_10
-      - 美国_96
-      - 新加坡_25
-      - 日本_17
-      - 德国_33
-      - 土耳其
-      - 香港_32
-      - 德国_34
-      - 波兰_4
-      - 美国_97
-      - 德国_35
-      - 美国_98
-      - 美国_99
-      - 日本_18
-      - 俄罗斯_2
+      - 🇺🇸 美国 US - 2
+      - 美国 01【IEPL】
+      - 新加坡节点_4
+      - 🇨🇳 TW台湾
+      - 美国 02【IEPL】
+      - 香港02 【IEPL】
+      - 新加坡丨解GPT
+      - 🇭🇰 香港
+      - 日本 东京 Urban Network Solutions
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港4
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: 🎯 全球直连
@@ -3722,255 +860,76 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 日本节点
+      - 🇭🇰 香港 阿里云
+      - 日本节点_1
+      - 英国节点
+      - 英国节点_1
       - 美国
+      - 英国节点_2
       - 美国_1
-      - 德国
+      - 美国节点
       - 美国_2
-      - 美国_3
-      - 美国_4
-      - 德国_1
-      - 美国_5
-      - 美国_6
-      - 德国_2
-      - 美国_7
-      - 美国_8
-      - 美国_9
-      - 美国_10
-      - 美国_11
-      - 美国_12
+      - 美国节点_1
+      - 英国节点_3
+      - 美国节点_2
+      - 英国节点_4
+      - 美国节点_3
+      - 英国节点_5
+      - 英国节点_6
+      - 英国节点_7
+      - 英国节点_8
+      - 英国节点_9
+      - 英国节点_10
+      - 美国节点_4
+      - 🇭🇰 香港 HK - 4
+      - 英国节点_11
+      - 英国节点_12
+      - 英国节点_13
+      - 🇺🇸龟壳 美国 US-Oracle_Corporation-1
+      - 英国节点_14
+      - 英国节点_15
+      - 英国节点_16
+      - 英国节点_17
+      - 英国节点_18
+      - 英国节点_19
+      - 英国节点_20
+      - 德国 黑森州 法兰克福 — 甲骨文云
+      - 新加坡节点
+      - 美国 弗吉尼亚州 阿什本
+      - 新加坡节点_1
+      - 🇭🇰 香港 HK - 1
+      - 法国节点
+      - 🇺🇸龟壳 美国 US-Oracle_
+      - 法国节点_1
+      - 法国节点_2
+      - 新加坡节点_2
+      - 香港04 【IEPL】
+      - 美国节点_5
+      - 🇭🇰 香港 HK - 2
+      - 日本丨解GPT
+      - 法国节点_3
+      - 美国节点_6
+      - 美国 加州 圣何塞 — 甲骨文云
+      - 🇭🇰 香港 HK - 3
+      - $
+      - 🇸🇬 新加坡GPT - 1
+      - 新加坡节点_3
+      - 法国节点_4
+      - 法国 上法兰西大区
+      - 香港节点
       - 法国
-      - 日本
-      - 美国_13
-      - 美国_14
-      - 美国_15
-      - 美国_16
-      - 波兰
-      - 美国_17
-      - 日本_1
-      - 美国_18
-      - 美国_19
-      - 新加坡
-      - 美国_20
-      - 俄罗斯
-      - 美国_21
-      - 香港
-      - 美国_22
-      - 美国_23
-      - 美国_24
-      - 新加坡_1
-      - 美国_25
-      - 美国_26
-      - 新加坡_2
-      - 美国_27
-      - 香港_1
-      - 美国_28
-      - 美国_29
-      - 新加坡_3
-      - 美国_30
-      - 新加坡_4
-      - 新加坡_5
-      - 新加坡_6
-      - 新加坡_7
-      - 美国_31
-      - 韩国
-      - 美国_32
-      - 新加坡_8
-      - 美国_33
-      - 美国_34
-      - 新加坡_9
-      - 韩国_1
-      - 韩国_2
-      - 新加坡_10
-      - 韩国_3
-      - 美国_35
-      - 韩国_4
-      - 香港_2
-      - 法国_1
-      - 韩国_5
-      - 美国_36
-      - 香港_3
-      - 香港_4
-      - 香港_5
-      - 香港_6
-      - 香港_7
-      - 香港_8
-      - 香港_9
-      - 香港_10
-      - 美国_37
-      - 香港_11
-      - 美国_38
-      - 香港_12
-      - 香港_13
-      - 英国
-      - 香港_14
-      - 香港_15
-      - 美国_39
-      - 美国_40
-      - 美国_41
-      - 美国_42
-      - 美国_43
-      - 日本_2
-      - 香港_16
-      - 香港_17
-      - 美国_44
-      - 香港_18
-      - 新加坡_11
-      - 香港_19
-      - 美国_45
-      - 美国_46
-      - 美国_47
-      - 美国_48
-      - 美国_49
-      - 法国_2
-      - 德国_3
-      - 美国_50
-      - 香港_20
-      - 美国_51
-      - 日本_3
-      - 美国_52
-      - 香港_21
-      - 日本_4
-      - 新加坡_12
-      - 德国_4
-      - 德国_5
-      - 法国_3
-      - 德国_6
-      - 美国_53
-      - 日本_5
-      - 美国_54
-      - 英国_1
-      - 香港_22
-      - 美国_55
-      - 美国_56
-      - 德国_7
-      - 德国_8
-      - 日本_6
-      - 美国_57
-      - 日本_7
-      - 德国_9
-      - 美国_58
-      - 德国_10
-      - 美国_59
-      - 德国_11
-      - 德国_12
-      - 香港_23
-      - 日本_8
-      - 英国_2
-      - 德国_13
-      - 美国_60
-      - 美国_61
-      - 香港_24
-      - 法国_4
-      - 香港_25
-      - 新加坡_13
-      - 德国_14
-      - 美国_62
-      - 德国_15
-      - 俄罗斯_1
-      - 美国_63
-      - 德国_16
-      - 美国_64
-      - 香港_26
-      - 德国_17
-      - 德国_18
-      - 美国_65
-      - 德国_19
-      - 香港_27
-      - 德国_20
-      - 香港_28
-      - 美国_66
-      - 新加坡_14
-      - 法国_5
-      - 香港_29
-      - 德国_21
-      - 美国_67
-      - 波兰_1
-      - 美国_68
-      - 美国_69
-      - 美国_70
-      - 日本_9
-      - 日本_10
-      - 日本_11
-      - 美国_71
-      - 日本_12
-      - 美国_72
-      - 美国_73
-      - 新加坡_15
-      - 新加坡_16
-      - 新加坡_17
-      - 美国_74
-      - 美国_75
-      - 新加坡_18
-      - 美国_76
-      - 新加坡_19
-      - 美国_77
-      - 美国_78
-      - 日本_13
-      - 美国_79
-      - 法国_6
-      - 德国_22
-      - 德国_23
-      - 新加坡_20
-      - 美国_80
-      - 美国_81
-      - 新加坡_21
-      - 美国_82
-      - 美国_83
-      - 美国_84
-      - 德国_24
-      - 日本_14
-      - 日本_15
-      - 美国_85
-      - 德国_25
-      - 美国_86
-      - 德国_26
-      - 日本_16
-      - 美国_87
-      - 法国_7
-      - 印度
-      - 法国_8
-      - 美国_88
-      - 香港_30
-      - 新加坡_22
-      - 德国_27
-      - 波兰_2
-      - 新加坡_23
-      - 美国_89
-      - 美国_90
-      - 韩国_6
-      - 韩国_7
-      - 美国_91
-      - 德国_28
-      - 德国_29
-      - 韩国_8
-      - 香港_31
-      - 德国_30
-      - 法国_9
-      - 美国_92
-      - 德国_31
-      - 法国_10
-      - 韩国_9
-      - 美国_93
-      - 德国_32
-      - 美国_94
-      - 波兰_3
-      - 美国_95
-      - 新加坡_24
-      - 韩国_10
-      - 美国_96
-      - 新加坡_25
-      - 日本_17
-      - 德国_33
-      - 土耳其
-      - 香港_32
-      - 德国_34
-      - 波兰_4
-      - 美国_97
-      - 德国_35
-      - 美国_98
-      - 美国_99
-      - 日本_18
-      - 俄罗斯_2
+      - 🇺🇸 美国 US - 2
+      - 美国 01【IEPL】
+      - 新加坡节点_4
+      - 🇨🇳 TW台湾
+      - 美国 02【IEPL】
+      - 香港02 【IEPL】
+      - 新加坡丨解GPT
+      - 🇭🇰 香港
+      - 日本 东京 Urban Network Solutions
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港4
 rule-providers:
   LocalAreaNetwork:
     type: http
