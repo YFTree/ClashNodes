@@ -5,483 +5,571 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK香港, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: eab777de-fef2-4794-9a9f-fa63ed7b1360, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: US美国, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 2, server: hkg24-20250621185858bb8394.singdns.com, port: 23341, type: ss, cipher: aes-128-gcm, password: 4ca837d4-6dad-4dd9-b0bf-249f0d8e3eee, udp: true}
-  - {name: SG新加坡, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl, port: 18017, type: ss, cipher: chacha20-ietf-poly1305, password: e611027a-7b55-4f64-b8df-258f2d7ef95c, udp: true}
-  - {name: US美国 3, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
-  - {name: US美国 4, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: f1a09e6c-f30c-43ca-a9e4-e2015ee5c0da, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: US美国 5, server: 85.90.207.104, port: 18792, type: ss, cipher: chacha20-ietf-poly1305, password: e716d7bbae4bdd14, udp: true}
-  - {name: US美国 6, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: f272b771-49f1-48f0-8ac4-ab7cd1a5c343, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: US美国 7, server: 91.106.109.74, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 11bf054dcc0342cd, udp: true}
+  - {name: US美国, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY, udp: true}
+  - {name: FR法国, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: US美国 2, server: 2001:bc8:32d7:302::16, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: US美国 3, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 4, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: TW台湾, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 2352a65e-aa8a-46c7-ab41-8f203e858f4a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: US美国 5, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 6, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: fe6eae40-94da-4c80-9f23-5e3d4402d52b, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: US美国 7, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 8, server: v33.hdacd.com, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB英国, server: 85.90.207.104, port: 18792, type: ss, cipher: chacha20-ietf-poly1305, password: e716d7bbae4bdd14, udp: true}
+  - {name: GB英国 2, server: 85.90.207.104, port: 18793, type: ss, cipher: chacha20-ietf-poly1305, password: e716d7bbae4bdd14, udp: true}
+  - {name: US美国 9, server: 91.106.109.73, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: be5ee3c62f0aae96, udp: true}
+  - {name: FR法国 2, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 西班牙, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
-  - {name: US美国 8, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 843bcd0b-f2ab-482f-8262-6d09cf97f4b8, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: US美国 9, server: 91.106.109.74, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 11bf054dcc0342cd, udp: true}
+  - {name: TW台湾 2, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
   - {name: 西班牙 2, server: 91.106.109.73, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: be5ee3c62f0aae96, udp: true}
-  - {name: US美国 10, server: 156.244.20.53, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: c8f11e2ba63181ea, udp: true}
-  - {name: US美国 11, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 91dd6cb4-3f5a-4bb0-8968-b398607fc487, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: US美国 12, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: db86510f-8f0e-4e0e-9534-746dd8e4d07e, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: US美国 13, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: SG新加坡 2, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: AZERB.NET}, udp: true}
-  - {name: TW台湾, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 9d7034dc-ae3f-4b90-8a39-ef9c79d4ed5f, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: US美国 14, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl, port: 18017, type: ss, cipher: chacha20-ietf-poly1305, password: e611027a-7b55-4f64-b8df-258f2d7ef95c, udp: true}
-  - {name: 西班牙 3, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 15, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl, port: 13701, type: ss, cipher: chacha20-ietf-poly1305, password: e611027a-7b55-4f64-b8df-258f2d7ef95c, udp: true}
-  - {name: 西班牙 4, server: 23.95.75.146, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: NDRySIABARbErNIVsCNVkyYAHiBzhveT, udp: true}
-  - {name: US美国 16, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl, port: 13701, type: ss, cipher: chacha20-ietf-poly1305, password: e611027a-7b55-4f64-b8df-258f2d7ef95c, udp: true}
-  - {name: US美国 17, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 5107a215-5284-44d5-b740-607bed57026e, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: US美国 18, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: eab777de-fef2-4794-9a9f-fa63ed7b1360, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: US美国 19, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl, port: 13669, type: ss, cipher: chacha20-ietf-poly1305, password: e611027a-7b55-4f64-b8df-258f2d7ef95c, udp: true}
-  - {name: US美国 20, server: fl3.cowjuice.me, port: 9443, type: ss, cipher: chacha20-ietf-poly1305, password: X36TIi4C3NH6Oln3TdGyjg, udp: true}
-  - {name: US美国 21, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl, port: 13669, type: ss, cipher: chacha20-ietf-poly1305, password: e611027a-7b55-4f64-b8df-258f2d7ef95c, udp: true}
-  - {name: US美国 22, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 843bcd0b-f2ab-482f-8262-6d09cf97f4b8, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 西班牙 5, server: 89.223.93.176, port: 41348, type: ss, cipher: chacha20-ietf-poly1305, password: Vmsf06YTMqtAYdhwMqdSuGqgdVkm0yddi4kYaAEVQWYj9iHA, udp: true}
-  - {name: US美国 23, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl, port: 20855, type: ss, cipher: chacha20-ietf-poly1305, password: e611027a-7b55-4f64-b8df-258f2d7ef95c, udp: true}
-  - {name: US美国 24, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 9463d7ac-65c9-4022-9e81-f2c3f331e06b, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: TW台湾 2, server: 109.61.39.150, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 01dc0d7cbb650bc3, udp: true}
-  - {name: US美国 25, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY, udp: true}
-  - {name: HK香港 2, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY, udp: true}
-  - {name: US美国 26, server: fl3.cowjuice.me, port: 9443, type: ss, cipher: chacha20-ietf-poly1305, password: X36TIi4C3NH6Oln3TdGyjg, udp: true}
-  - {name: SG新加坡 3, server: 156.244.36.105, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 34bafa5f59fc339f, udp: true}
-  - {name: HK香港 3, server: hkg24-20250621185858bb8394.singdns.com, port: 23341, type: ss, cipher: aes-128-gcm, password: 9c4c5bc8-b664-4990-ab3c-ebbb4dff916a, udp: true}
-  - {name: HK香港 4, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: SG新加坡 4, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
-  - {name: US美国 27, server: 156.244.36.105, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 34bafa5f59fc339f, udp: true}
-  - {name: GB英国, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GB英国 2, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国 28, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: fe6eae40-94da-4c80-9f23-5e3d4402d52b, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: US美国 10, server: 85.90.207.104, port: 18791, type: ss, cipher: chacha20-ietf-poly1305, password: e716d7bbae4bdd14, udp: true}
+  - {name: TW台湾 3, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 747f4d20-1ab3-4896-b255-5d4b9f587ce7, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: US美国 11, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: f272b771-49f1-48f0-8ac4-ab7cd1a5c343, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: US美国 12, server: 85.90.207.104, port: 18792, type: ss, cipher: chacha20-ietf-poly1305, password: e716d7bbae4bdd14, udp: true}
+  - {name: TW台湾 4, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
+  - {name: SG新加坡, server: vc.fly.dev, port: 443, type: vmess, uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee, alterId: 32, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vc, ws-headers: {Host: vc.fly.dev}, udp: true}
+  - {name: HK香港, server: ffiw.owwoedu.com, port: 59503, type: vmess, uuid: e201d7b7-158b-4e8c-af70-e5cdfe3a8eca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TW台湾 5, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 5de81c8b-ffbb-4542-a334-88a49413d5ea, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: HK香港 2, server: 112.118.116.123, port: 443, type: trojan, password: 61d8077bfb174e171b8283f155a555ad, skip-cert-verify: true, udp: true}
+  - {name: HK香港 3, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY, udp: true}
+  - {name: US美国 13, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TW台湾 6, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: cde8eda2-9c2e-4fae-b308-2fed2cc33e4b, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: TW台湾 7, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: cde8eda2-9c2e-4fae-b308-2fed2cc33e4b, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: US美国 14, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: TW台湾 8, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 1b88ad4e-20d1-4b1e-8e20-2793d0619a18, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: TW台湾 9, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 2cfd8fb6-1f17-4d33-a3b9-448b1d723723, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: TW台湾 10, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: fe6eae40-94da-4c80-9f23-5e3d4402d52b, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: TW台湾 11, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: e0e28234-f4cd-4583-922c-c97795cb6222, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: TW台湾 12, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: fe6eae40-94da-4c80-9f23-5e3d4402d52b, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: US美国 15, server: 85.90.207.104, port: 18794, type: ss, cipher: chacha20-ietf-poly1305, password: e716d7bbae4bdd14, udp: true}
+  - {name: TW台湾 13, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 40991964-b3be-4458-8bc7-5b1774552acf, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: US美国 16, server: 2001:bc8:32d7:302::11, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: Azerb.NET}, udp: true}
+  - {name: TW台湾 14, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: fe6eae40-94da-4c80-9f23-5e3d4402d52b, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: TW台湾 15, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 40991964-b3be-4458-8bc7-5b1774552acf, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: US美国 17, server: 109.234.211.66, port: 2087, type: trojan, password: trojan, skip-cert-verify: true, udp: true}
+  - {name: TW台湾 16, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 0a10af44-d4c6-4803-aca4-abc92983bc5c, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: TW台湾 17, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 1b55988c-ba9d-4203-b4fb-6afb7353c4f6, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: HK香港 4, server: tunnel2.qqa678.com, port: 47083, type: vmess, uuid: bde21c3b-7580-4286-a79c-5dc54cf297e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TW台湾 18, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 459850f0-b409-4f18-95e2-440d4ebea0cd, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: US美国 18, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港 5, server: tunnel2.qqa678.com, port: 47083, type: vmess, uuid: f66df097-93a0-43a1-b4c7-586e13f61f46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港 6, server: tunnel1.qqa678.com, port: 47081, type: vmess, uuid: f80301d3-4aa6-4a9a-a0a4-2d5fb7cfd480, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TW台湾 19, server: 220.130.58.136, port: 35501, type: trojan, password: 40991964-b3be-4458-8bc7-5b1774552acf, skip-cert-verify: true, udp: true}
+  - {name: US美国 19, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
+  - {name: TW台湾 20, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 1b55988c-ba9d-4203-b4fb-6afb7353c4f6, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: TW台湾 21, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: cde8eda2-9c2e-4fae-b308-2fed2cc33e4b, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: TW台湾 22, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: fe6eae40-94da-4c80-9f23-5e3d4402d52b, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: US美国 20, server: hkg24-20250621185858bb8394.singdns.com, port: 23341, type: ss, cipher: aes-128-gcm, password: 4ca837d4-6dad-4dd9-b0bf-249f0d8e3eee, udp: true}
+  - {name: TW台湾 23, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: e0e28234-f4cd-4583-922c-c97795cb6222, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: TW台湾 24, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 0a10af44-d4c6-4803-aca4-abc92983bc5c, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: US美国 21, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: TURK1.NET.NET}, udp: true}
+  - {name: FR法国 3, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 22, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: FR法国 4, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
   - {name: GB英国 3, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国 4, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 西班牙 6, server: 109.234.211.66, port: 2087, type: trojan, password: trojan, skip-cert-verify: true, udp: true}
+  - {name: US美国 23, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 24, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国 5, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 25, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国 6, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国 7, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 26, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: FR法国 5, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 27, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 28, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 29, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 30, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 31, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国 8, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国 9, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 32, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 33, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国 10, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国 11, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国 12, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 34, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国 13, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国 14, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国 15, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国 16, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TW台湾 3, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl, port: 18005, type: ss, cipher: chacha20-ietf-poly1305, password: e611027a-7b55-4f64-b8df-258f2d7ef95c, udp: true}
-  - {name: US美国 29, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: f272b771-49f1-48f0-8ac4-ab7cd1a5c343, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: HK香港 5, server: 85.90.207.104, port: 18794, type: ss, cipher: chacha20-ietf-poly1305, password: e716d7bbae4bdd14, udp: true}
-  - {name: US美国 30, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 87a08b2d-7f83-41c4-85c7-ac021d1493fd, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 西班牙 7, server: 82.38.31.208, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
-  - {name: US美国 31, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: db86510f-8f0e-4e0e-9534-746dd8e4d07e, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: US美国 32, server: 91.106.109.73, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: be5ee3c62f0aae96, udp: true}
-  - {name: US美国 33, server: 220.130.58.136, port: 31101, type: trojan, password: 7882a049-8d73-4c30-9c71-20ef57909cb2, skip-cert-verify: true, udp: true}
-  - {name: HK香港 6, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: HK香港 7, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: US美国 34, server: hkg24-20250621185858bb8394.singdns.com, port: 23341, type: ss, cipher: aes-128-gcm, password: 9c4c5bc8-b664-4990-ab3c-ebbb4dff916a, udp: true}
+  - {name: US美国 35, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国 17, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国 18, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 36, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国 19, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国 20, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国 21, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国 22, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国 23, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国 24, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TW台湾 4, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 40991964-b3be-4458-8bc7-5b1774552acf, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: US美国 35, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl, port: 13702, type: ss, cipher: chacha20-ietf-poly1305, password: e611027a-7b55-4f64-b8df-258f2d7ef95c, udp: true}
   - {name: GB英国 25, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国 36, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl, port: 13702, type: ss, cipher: chacha20-ietf-poly1305, password: e611027a-7b55-4f64-b8df-258f2d7ef95c, udp: true}
   - {name: GB英国 26, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB英国 27, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK香港 8, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TW台湾 25, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 40991964-b3be-4458-8bc7-5b1774552acf, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: US美国 37, server: liubu9.singdns.com, port: 17459, type: ss, cipher: aes-128-gcm, password: 57bc0c04-8184-48f5-906b-897d095ed445, udp: true}
+  - {name: US美国 38, server: 85.90.207.104, port: 18794, type: ss, cipher: chacha20-ietf-poly1305, password: e716d7bbae4bdd14, udp: true}
+  - {name: US美国 39, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: FR法国 6, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: 西班牙 3, server: 85.90.207.104, port: 18793, type: ss, cipher: chacha20-ietf-poly1305, password: e716d7bbae4bdd14, udp: true}
+  - {name: US美国 40, server: 2001:bc8:32d7:302::17, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: US美国 41, server: 2001:bc8:32d7:302::15, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: TURK.NET}, udp: true}
+  - {name: RU俄罗斯, server: 109.234.211.66, port: 8443, type: trojan, password: trojan, skip-cert-verify: true, udp: true}
+  - {name: TW台湾 26, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: f272b771-49f1-48f0-8ac4-ab7cd1a5c343, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: FR法国 7, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: US美国 42, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 43, server: 2001:bc8:32d7:302::14, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: TABRIZ.NET}, udp: true}
+  - {name: US美国 44, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: FR法国 8, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 45, server: 85.90.207.104, port: 18791, type: ss, cipher: chacha20-ietf-poly1305, password: e716d7bbae4bdd14, udp: true}
+  - {name: FR法国 9, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 46, server: 156.244.20.53, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: c8f11e2ba63181ea, udp: true}
+  - {name: US美国 47, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 西班牙 4, server: 109.234.211.66, port: 2087, type: trojan, password: trojan, skip-cert-verify: true, udp: true}
   - {name: GB英国 28, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GB英国 29, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GB英国 30, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GB英国 31, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GB英国 32, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 西班牙 8, server: 85.90.207.104, port: 18791, type: ss, cipher: chacha20-ietf-poly1305, password: e716d7bbae4bdd14, udp: true}
-  - {name: GB英国 33, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl, port: 20855, type: ss, cipher: chacha20-ietf-poly1305, password: e611027a-7b55-4f64-b8df-258f2d7ef95c, udp: true}
-  - {name: US美国 37, server: 85.90.207.104, port: 18791, type: ss, cipher: chacha20-ietf-poly1305, password: e716d7bbae4bdd14, udp: true}
-  - {name: US美国 38, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 7882a049-8d73-4c30-9c71-20ef57909cb2, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: US美国 39, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl, port: 11715, type: ss, cipher: chacha20-ietf-poly1305, password: e611027a-7b55-4f64-b8df-258f2d7ef95c, udp: true}
-  - {name: US美国 40, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: fe6eae40-94da-4c80-9f23-5e3d4402d52b, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: US美国 41, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 154e3552-cd70-4b43-a906-121b5ba29bbd, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: US美国 42, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl, port: 11715, type: ss, cipher: chacha20-ietf-poly1305, password: e611027a-7b55-4f64-b8df-258f2d7ef95c, udp: true}
-  - {name: US美国 43, server: 85.90.207.104, port: 18794, type: ss, cipher: chacha20-ietf-poly1305, password: e716d7bbae4bdd14, udp: true}
-  - {name: SG新加坡 5, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: TURK1.NET.NET}, udp: true}
-  - {name: SG新加坡 6, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: AZERB.NET}, udp: true}
-  - {name: US美国 44, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: db86510f-8f0e-4e0e-9534-746dd8e4d07e, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 西班牙 9, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: 西班牙 10, server: 2001:bc8:32d7:302::15, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: TURK.NET}, udp: true}
-  - {name: HK香港 9, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: SG新加坡 7, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: US美国 45, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: 西班牙 11, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: HK香港 10, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: AZERB.NET}, udp: true}
-  - {name: 西班牙 12, server: 2001:bc8:32d7:302::11, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: TABRIZ.NET}, udp: true}
-  - {name: 西班牙 13, server: 85.90.207.104, port: 18793, type: ss, cipher: chacha20-ietf-poly1305, password: e716d7bbae4bdd14, udp: true}
-  - {name: 西班牙 14, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: 西班牙 15, server: 2001:bc8:32d7:302::17, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: AZERB.NET}, udp: true}
-  - {name: TW台湾 5, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
+  - {name: HK香港 7, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: b0f578f1-b64c-4dc9-bad9-a34fdbf8f5f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TW台湾 27, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 3cd9679e-cd01-4aa6-9ddc-3ffd8b53f02e, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: GB英国 29, server: 156.244.20.53, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: c8f11e2ba63181ea, udp: true}
+  - {name: US美国 48, server: aio.unlimited.biz.id, port: 443, type: vmess, uuid: f282b878-8711-45a1-8c69-5564172123c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /aioproxybot/129.150.49.58-18650, ws-headers: {Host: aio.unlimited.biz.id}, udp: true}
+  - {name: US美国 49, server: 103.109.23.165, port: 33007, type: ss, cipher: chacha20-ietf-poly1305, password: sxnCPKb70DGRo62-goXFVHrjzF-5oMbD, udp: true}
+  - {name: JP日本, server: tuntro003.instconn.com, port: 443, type: trojan, password: 469c8135-8aea-4c7f-8ec2-c5fdfa980b48, sni: tuntro003.instconn.com, skip-cert-verify: true, udp: true}
+  - {name: US美国 50, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港 8, server: tunnel2.qqa678.com, port: 47084, type: vmess, uuid: bde21c3b-7580-4286-a79c-5dc54cf297e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 51, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: FR法国 10, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 52, server: 2001:bc8:32d7:302::11, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: TABRIZ.NET}, udp: true}
+  - {name: US美国 53, server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 54, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: US美国 55, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: TW台湾 28, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 7ce4327c-43d3-404b-ad66-283a9f6b6eb4, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK香港
       - US美国
+      - FR法国
       - US美国 2
-      - SG新加坡
       - US美国 3
       - US美国 4
+      - TW台湾
       - US美国 5
       - US美国 6
       - US美国 7
-      - 西班牙
       - US美国 8
-      - US美国 9
-      - 西班牙 2
-      - US美国 10
-      - US美国 11
-      - US美国 12
-      - US美国 13
-      - SG新加坡 2
-      - TW台湾
-      - US美国 14
-      - 西班牙 3
-      - US美国 15
-      - 西班牙 4
-      - US美国 16
-      - US美国 17
-      - US美国 18
-      - US美国 19
-      - US美国 20
-      - US美国 21
-      - US美国 22
-      - 西班牙 5
-      - US美国 23
-      - US美国 24
-      - TW台湾 2
-      - US美国 25
-      - HK香港 2
-      - US美国 26
-      - SG新加坡 3
-      - HK香港 3
-      - HK香港 4
-      - SG新加坡 4
-      - US美国 27
       - GB英国
       - GB英国 2
-      - US美国 28
+      - US美国 9
+      - FR法国 2
+      - 西班牙
+      - TW台湾 2
+      - 西班牙 2
+      - US美国 10
+      - TW台湾 3
+      - US美国 11
+      - US美国 12
+      - TW台湾 4
+      - SG新加坡
+      - HK香港
+      - TW台湾 5
+      - HK香港 2
+      - HK香港 3
+      - US美国 13
+      - TW台湾 6
+      - TW台湾 7
+      - US美国 14
+      - TW台湾 8
+      - TW台湾 9
+      - TW台湾 10
+      - TW台湾 11
+      - TW台湾 12
+      - US美国 15
+      - TW台湾 13
+      - US美国 16
+      - TW台湾 14
+      - TW台湾 15
+      - US美国 17
+      - TW台湾 16
+      - TW台湾 17
+      - HK香港 4
+      - TW台湾 18
+      - US美国 18
+      - HK香港 5
+      - HK香港 6
+      - TW台湾 19
+      - US美国 19
+      - TW台湾 20
+      - TW台湾 21
+      - TW台湾 22
+      - US美国 20
+      - TW台湾 23
+      - TW台湾 24
+      - US美国 21
+      - FR法国 3
+      - US美国 22
+      - FR法国 4
       - GB英国 3
       - GB英国 4
-      - 西班牙 6
+      - US美国 23
+      - US美国 24
       - GB英国 5
+      - US美国 25
       - GB英国 6
       - GB英国 7
+      - US美国 26
+      - FR法国 5
+      - US美国 27
+      - US美国 28
+      - US美国 29
+      - US美国 30
+      - US美国 31
       - GB英国 8
       - GB英国 9
+      - US美国 32
+      - US美国 33
       - GB英国 10
       - GB英国 11
       - GB英国 12
+      - US美国 34
       - GB英国 13
       - GB英国 14
       - GB英国 15
       - GB英国 16
-      - TW台湾 3
-      - US美国 29
-      - HK香港 5
-      - US美国 30
-      - 西班牙 7
-      - US美国 31
-      - US美国 32
-      - US美国 33
-      - HK香港 6
-      - HK香港 7
-      - US美国 34
+      - US美国 35
       - GB英国 17
       - GB英国 18
+      - US美国 36
       - GB英国 19
       - GB英国 20
       - GB英国 21
       - GB英国 22
       - GB英国 23
       - GB英国 24
-      - TW台湾 4
-      - US美国 35
       - GB英国 25
-      - US美国 36
       - GB英国 26
       - GB英国 27
-      - HK香港 8
-      - GB英国 28
-      - GB英国 29
-      - GB英国 30
-      - GB英国 31
-      - GB英国 32
-      - 西班牙 8
-      - GB英国 33
+      - TW台湾 25
       - US美国 37
       - US美国 38
       - US美国 39
+      - FR法国 6
+      - 西班牙 3
       - US美国 40
       - US美国 41
+      - RU俄罗斯
+      - TW台湾 26
+      - FR法国 7
       - US美国 42
       - US美国 43
-      - SG新加坡 5
-      - SG新加坡 6
       - US美国 44
-      - 西班牙 9
-      - 西班牙 10
-      - HK香港 9
-      - SG新加坡 7
+      - FR法国 8
       - US美国 45
-      - 西班牙 11
-      - HK香港 10
-      - 西班牙 12
-      - 西班牙 13
-      - 西班牙 14
-      - 西班牙 15
-      - TW台湾 5
+      - FR法国 9
+      - US美国 46
+      - US美国 47
+      - 西班牙 4
+      - GB英国 28
+      - HK香港 7
+      - TW台湾 27
+      - GB英国 29
+      - US美国 48
+      - US美国 49
+      - JP日本
+      - US美国 50
+      - HK香港 8
+      - US美国 51
+      - FR法国 10
+      - US美国 52
+      - US美国 53
+      - US美国 54
+      - US美国 55
+      - TW台湾 28
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK香港
       - US美国
+      - FR法国
       - US美国 2
-      - SG新加坡
       - US美国 3
       - US美国 4
+      - TW台湾
       - US美国 5
       - US美国 6
       - US美国 7
-      - 西班牙
       - US美国 8
-      - US美国 9
-      - 西班牙 2
-      - US美国 10
-      - US美国 11
-      - US美国 12
-      - US美国 13
-      - SG新加坡 2
-      - TW台湾
-      - US美国 14
-      - 西班牙 3
-      - US美国 15
-      - 西班牙 4
-      - US美国 16
-      - US美国 17
-      - US美国 18
-      - US美国 19
-      - US美国 20
-      - US美国 21
-      - US美国 22
-      - 西班牙 5
-      - US美国 23
-      - US美国 24
-      - TW台湾 2
-      - US美国 25
-      - HK香港 2
-      - US美国 26
-      - SG新加坡 3
-      - HK香港 3
-      - HK香港 4
-      - SG新加坡 4
-      - US美国 27
       - GB英国
       - GB英国 2
-      - US美国 28
+      - US美国 9
+      - FR法国 2
+      - 西班牙
+      - TW台湾 2
+      - 西班牙 2
+      - US美国 10
+      - TW台湾 3
+      - US美国 11
+      - US美国 12
+      - TW台湾 4
+      - SG新加坡
+      - HK香港
+      - TW台湾 5
+      - HK香港 2
+      - HK香港 3
+      - US美国 13
+      - TW台湾 6
+      - TW台湾 7
+      - US美国 14
+      - TW台湾 8
+      - TW台湾 9
+      - TW台湾 10
+      - TW台湾 11
+      - TW台湾 12
+      - US美国 15
+      - TW台湾 13
+      - US美国 16
+      - TW台湾 14
+      - TW台湾 15
+      - US美国 17
+      - TW台湾 16
+      - TW台湾 17
+      - HK香港 4
+      - TW台湾 18
+      - US美国 18
+      - HK香港 5
+      - HK香港 6
+      - TW台湾 19
+      - US美国 19
+      - TW台湾 20
+      - TW台湾 21
+      - TW台湾 22
+      - US美国 20
+      - TW台湾 23
+      - TW台湾 24
+      - US美国 21
+      - FR法国 3
+      - US美国 22
+      - FR法国 4
       - GB英国 3
       - GB英国 4
-      - 西班牙 6
+      - US美国 23
+      - US美国 24
       - GB英国 5
+      - US美国 25
       - GB英国 6
       - GB英国 7
+      - US美国 26
+      - FR法国 5
+      - US美国 27
+      - US美国 28
+      - US美国 29
+      - US美国 30
+      - US美国 31
       - GB英国 8
       - GB英国 9
+      - US美国 32
+      - US美国 33
       - GB英国 10
       - GB英国 11
       - GB英国 12
+      - US美国 34
       - GB英国 13
       - GB英国 14
       - GB英国 15
       - GB英国 16
-      - TW台湾 3
-      - US美国 29
-      - HK香港 5
-      - US美国 30
-      - 西班牙 7
-      - US美国 31
-      - US美国 32
-      - US美国 33
-      - HK香港 6
-      - HK香港 7
-      - US美国 34
+      - US美国 35
       - GB英国 17
       - GB英国 18
+      - US美国 36
       - GB英国 19
       - GB英国 20
       - GB英国 21
       - GB英国 22
       - GB英国 23
       - GB英国 24
-      - TW台湾 4
-      - US美国 35
       - GB英国 25
-      - US美国 36
       - GB英国 26
       - GB英国 27
-      - HK香港 8
-      - GB英国 28
-      - GB英国 29
-      - GB英国 30
-      - GB英国 31
-      - GB英国 32
-      - 西班牙 8
-      - GB英国 33
+      - TW台湾 25
       - US美国 37
       - US美国 38
       - US美国 39
+      - FR法国 6
+      - 西班牙 3
       - US美国 40
       - US美国 41
+      - RU俄罗斯
+      - TW台湾 26
+      - FR法国 7
       - US美国 42
       - US美国 43
-      - SG新加坡 5
-      - SG新加坡 6
       - US美国 44
-      - 西班牙 9
-      - 西班牙 10
-      - HK香港 9
-      - SG新加坡 7
+      - FR法国 8
       - US美国 45
-      - 西班牙 11
-      - HK香港 10
-      - 西班牙 12
-      - 西班牙 13
-      - 西班牙 14
-      - 西班牙 15
-      - TW台湾 5
+      - FR法国 9
+      - US美国 46
+      - US美国 47
+      - 西班牙 4
+      - GB英国 28
+      - HK香港 7
+      - TW台湾 27
+      - GB英国 29
+      - US美国 48
+      - US美国 49
+      - JP日本
+      - US美国 50
+      - HK香港 8
+      - US美国 51
+      - FR法国 10
+      - US美国 52
+      - US美国 53
+      - US美国 54
+      - US美国 55
+      - TW台湾 28
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK香港
       - US美国
+      - FR法国
       - US美国 2
-      - SG新加坡
       - US美国 3
       - US美国 4
+      - TW台湾
       - US美国 5
       - US美国 6
       - US美国 7
-      - 西班牙
       - US美国 8
-      - US美国 9
-      - 西班牙 2
-      - US美国 10
-      - US美国 11
-      - US美国 12
-      - US美国 13
-      - SG新加坡 2
-      - TW台湾
-      - US美国 14
-      - 西班牙 3
-      - US美国 15
-      - 西班牙 4
-      - US美国 16
-      - US美国 17
-      - US美国 18
-      - US美国 19
-      - US美国 20
-      - US美国 21
-      - US美国 22
-      - 西班牙 5
-      - US美国 23
-      - US美国 24
-      - TW台湾 2
-      - US美国 25
-      - HK香港 2
-      - US美国 26
-      - SG新加坡 3
-      - HK香港 3
-      - HK香港 4
-      - SG新加坡 4
-      - US美国 27
       - GB英国
       - GB英国 2
-      - US美国 28
+      - US美国 9
+      - FR法国 2
+      - 西班牙
+      - TW台湾 2
+      - 西班牙 2
+      - US美国 10
+      - TW台湾 3
+      - US美国 11
+      - US美国 12
+      - TW台湾 4
+      - SG新加坡
+      - HK香港
+      - TW台湾 5
+      - HK香港 2
+      - HK香港 3
+      - US美国 13
+      - TW台湾 6
+      - TW台湾 7
+      - US美国 14
+      - TW台湾 8
+      - TW台湾 9
+      - TW台湾 10
+      - TW台湾 11
+      - TW台湾 12
+      - US美国 15
+      - TW台湾 13
+      - US美国 16
+      - TW台湾 14
+      - TW台湾 15
+      - US美国 17
+      - TW台湾 16
+      - TW台湾 17
+      - HK香港 4
+      - TW台湾 18
+      - US美国 18
+      - HK香港 5
+      - HK香港 6
+      - TW台湾 19
+      - US美国 19
+      - TW台湾 20
+      - TW台湾 21
+      - TW台湾 22
+      - US美国 20
+      - TW台湾 23
+      - TW台湾 24
+      - US美国 21
+      - FR法国 3
+      - US美国 22
+      - FR法国 4
       - GB英国 3
       - GB英国 4
-      - 西班牙 6
+      - US美国 23
+      - US美国 24
       - GB英国 5
+      - US美国 25
       - GB英国 6
       - GB英国 7
+      - US美国 26
+      - FR法国 5
+      - US美国 27
+      - US美国 28
+      - US美国 29
+      - US美国 30
+      - US美国 31
       - GB英国 8
       - GB英国 9
+      - US美国 32
+      - US美国 33
       - GB英国 10
       - GB英国 11
       - GB英国 12
+      - US美国 34
       - GB英国 13
       - GB英国 14
       - GB英国 15
       - GB英国 16
-      - TW台湾 3
-      - US美国 29
-      - HK香港 5
-      - US美国 30
-      - 西班牙 7
-      - US美国 31
-      - US美国 32
-      - US美国 33
-      - HK香港 6
-      - HK香港 7
-      - US美国 34
+      - US美国 35
       - GB英国 17
       - GB英国 18
+      - US美国 36
       - GB英国 19
       - GB英国 20
       - GB英国 21
       - GB英国 22
       - GB英国 23
       - GB英国 24
-      - TW台湾 4
-      - US美国 35
       - GB英国 25
-      - US美国 36
       - GB英国 26
       - GB英国 27
-      - HK香港 8
-      - GB英国 28
-      - GB英国 29
-      - GB英国 30
-      - GB英国 31
-      - GB英国 32
-      - 西班牙 8
-      - GB英国 33
+      - TW台湾 25
       - US美国 37
       - US美国 38
       - US美国 39
+      - FR法国 6
+      - 西班牙 3
       - US美国 40
       - US美国 41
+      - RU俄罗斯
+      - TW台湾 26
+      - FR法国 7
       - US美国 42
       - US美国 43
-      - SG新加坡 5
-      - SG新加坡 6
       - US美国 44
-      - 西班牙 9
-      - 西班牙 10
-      - HK香港 9
-      - SG新加坡 7
+      - FR法国 8
       - US美国 45
-      - 西班牙 11
-      - HK香港 10
-      - 西班牙 12
-      - 西班牙 13
-      - 西班牙 14
-      - 西班牙 15
-      - TW台湾 5
+      - FR法国 9
+      - US美国 46
+      - US美国 47
+      - 西班牙 4
+      - GB英国 28
+      - HK香港 7
+      - TW台湾 27
+      - GB英国 29
+      - US美国 48
+      - US美国 49
+      - JP日本
+      - US美国 50
+      - HK香港 8
+      - US美国 51
+      - FR法国 10
+      - US美国 52
+      - US美国 53
+      - US美国 54
+      - US美国 55
+      - TW台湾 28
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -500,502 +588,611 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK香港
       - US美国
+      - FR法国
       - US美国 2
-      - SG新加坡
       - US美国 3
       - US美国 4
+      - TW台湾
       - US美国 5
       - US美国 6
       - US美国 7
-      - 西班牙
       - US美国 8
-      - US美国 9
-      - 西班牙 2
-      - US美国 10
-      - US美国 11
-      - US美国 12
-      - US美国 13
-      - SG新加坡 2
-      - TW台湾
-      - US美国 14
-      - 西班牙 3
-      - US美国 15
-      - 西班牙 4
-      - US美国 16
-      - US美国 17
-      - US美国 18
-      - US美国 19
-      - US美国 20
-      - US美国 21
-      - US美国 22
-      - 西班牙 5
-      - US美国 23
-      - US美国 24
-      - TW台湾 2
-      - US美国 25
-      - HK香港 2
-      - US美国 26
-      - SG新加坡 3
-      - HK香港 3
-      - HK香港 4
-      - SG新加坡 4
-      - US美国 27
       - GB英国
       - GB英国 2
-      - US美国 28
+      - US美国 9
+      - FR法国 2
+      - 西班牙
+      - TW台湾 2
+      - 西班牙 2
+      - US美国 10
+      - TW台湾 3
+      - US美国 11
+      - US美国 12
+      - TW台湾 4
+      - SG新加坡
+      - HK香港
+      - TW台湾 5
+      - HK香港 2
+      - HK香港 3
+      - US美国 13
+      - TW台湾 6
+      - TW台湾 7
+      - US美国 14
+      - TW台湾 8
+      - TW台湾 9
+      - TW台湾 10
+      - TW台湾 11
+      - TW台湾 12
+      - US美国 15
+      - TW台湾 13
+      - US美国 16
+      - TW台湾 14
+      - TW台湾 15
+      - US美国 17
+      - TW台湾 16
+      - TW台湾 17
+      - HK香港 4
+      - TW台湾 18
+      - US美国 18
+      - HK香港 5
+      - HK香港 6
+      - TW台湾 19
+      - US美国 19
+      - TW台湾 20
+      - TW台湾 21
+      - TW台湾 22
+      - US美国 20
+      - TW台湾 23
+      - TW台湾 24
+      - US美国 21
+      - FR法国 3
+      - US美国 22
+      - FR法国 4
       - GB英国 3
       - GB英国 4
-      - 西班牙 6
+      - US美国 23
+      - US美国 24
       - GB英国 5
+      - US美国 25
       - GB英国 6
       - GB英国 7
+      - US美国 26
+      - FR法国 5
+      - US美国 27
+      - US美国 28
+      - US美国 29
+      - US美国 30
+      - US美国 31
       - GB英国 8
       - GB英国 9
+      - US美国 32
+      - US美国 33
       - GB英国 10
       - GB英国 11
       - GB英国 12
+      - US美国 34
       - GB英国 13
       - GB英国 14
       - GB英国 15
       - GB英国 16
-      - TW台湾 3
-      - US美国 29
-      - HK香港 5
-      - US美国 30
-      - 西班牙 7
-      - US美国 31
-      - US美国 32
-      - US美国 33
-      - HK香港 6
-      - HK香港 7
-      - US美国 34
+      - US美国 35
       - GB英国 17
       - GB英国 18
+      - US美国 36
       - GB英国 19
       - GB英国 20
       - GB英国 21
       - GB英国 22
       - GB英国 23
       - GB英国 24
-      - TW台湾 4
-      - US美国 35
       - GB英国 25
-      - US美国 36
       - GB英国 26
       - GB英国 27
-      - HK香港 8
-      - GB英国 28
-      - GB英国 29
-      - GB英国 30
-      - GB英国 31
-      - GB英国 32
-      - 西班牙 8
-      - GB英国 33
+      - TW台湾 25
       - US美国 37
       - US美国 38
       - US美国 39
+      - FR法国 6
+      - 西班牙 3
       - US美国 40
       - US美国 41
+      - RU俄罗斯
+      - TW台湾 26
+      - FR法国 7
       - US美国 42
       - US美国 43
-      - SG新加坡 5
-      - SG新加坡 6
       - US美国 44
-      - 西班牙 9
-      - 西班牙 10
-      - HK香港 9
-      - SG新加坡 7
+      - FR法国 8
       - US美国 45
-      - 西班牙 11
-      - HK香港 10
-      - 西班牙 12
-      - 西班牙 13
-      - 西班牙 14
-      - 西班牙 15
-      - TW台湾 5
+      - FR法国 9
+      - US美国 46
+      - US美国 47
+      - 西班牙 4
+      - GB英国 28
+      - HK香港 7
+      - TW台湾 27
+      - GB英国 29
+      - US美国 48
+      - US美国 49
+      - JP日本
+      - US美国 50
+      - HK香港 8
+      - US美国 51
+      - FR法国 10
+      - US美国 52
+      - US美国 53
+      - US美国 54
+      - US美国 55
+      - TW台湾 28
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - HK香港
       - TW台湾
       - TW台湾 2
+      - TW台湾 3
+      - TW台湾 4
+      - HK香港
+      - TW台湾 5
       - HK香港 2
       - HK香港 3
+      - TW台湾 6
+      - TW台湾 7
+      - TW台湾 8
+      - TW台湾 9
+      - TW台湾 10
+      - TW台湾 11
+      - TW台湾 12
+      - TW台湾 13
+      - TW台湾 14
+      - TW台湾 15
+      - TW台湾 16
+      - TW台湾 17
       - HK香港 4
-      - TW台湾 3
+      - TW台湾 18
       - HK香港 5
       - HK香港 6
+      - TW台湾 19
+      - TW台湾 20
+      - TW台湾 21
+      - TW台湾 22
+      - TW台湾 23
+      - TW台湾 24
+      - TW台湾 25
+      - TW台湾 26
       - HK香港 7
-      - TW台湾 4
+      - TW台湾 27
       - HK香港 8
-      - HK香港 9
-      - HK香港 10
-      - TW台湾 5
+      - TW台湾 28
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK香港
       - US美国
+      - FR法国
       - US美国 2
-      - SG新加坡
       - US美国 3
       - US美国 4
+      - TW台湾
       - US美国 5
       - US美国 6
       - US美国 7
-      - 西班牙
       - US美国 8
-      - US美国 9
-      - 西班牙 2
-      - US美国 10
-      - US美国 11
-      - US美国 12
-      - US美国 13
-      - SG新加坡 2
-      - TW台湾
-      - US美国 14
-      - 西班牙 3
-      - US美国 15
-      - 西班牙 4
-      - US美国 16
-      - US美国 17
-      - US美国 18
-      - US美国 19
-      - US美国 20
-      - US美国 21
-      - US美国 22
-      - 西班牙 5
-      - US美国 23
-      - US美国 24
-      - TW台湾 2
-      - US美国 25
-      - HK香港 2
-      - US美国 26
-      - SG新加坡 3
-      - HK香港 3
-      - HK香港 4
-      - SG新加坡 4
-      - US美国 27
       - GB英国
       - GB英国 2
-      - US美国 28
+      - US美国 9
+      - FR法国 2
+      - 西班牙
+      - TW台湾 2
+      - 西班牙 2
+      - US美国 10
+      - TW台湾 3
+      - US美国 11
+      - US美国 12
+      - TW台湾 4
+      - SG新加坡
+      - HK香港
+      - TW台湾 5
+      - HK香港 2
+      - HK香港 3
+      - US美国 13
+      - TW台湾 6
+      - TW台湾 7
+      - US美国 14
+      - TW台湾 8
+      - TW台湾 9
+      - TW台湾 10
+      - TW台湾 11
+      - TW台湾 12
+      - US美国 15
+      - TW台湾 13
+      - US美国 16
+      - TW台湾 14
+      - TW台湾 15
+      - US美国 17
+      - TW台湾 16
+      - TW台湾 17
+      - HK香港 4
+      - TW台湾 18
+      - US美国 18
+      - HK香港 5
+      - HK香港 6
+      - TW台湾 19
+      - US美国 19
+      - TW台湾 20
+      - TW台湾 21
+      - TW台湾 22
+      - US美国 20
+      - TW台湾 23
+      - TW台湾 24
+      - US美国 21
+      - FR法国 3
+      - US美国 22
+      - FR法国 4
       - GB英国 3
       - GB英国 4
-      - 西班牙 6
+      - US美国 23
+      - US美国 24
       - GB英国 5
+      - US美国 25
       - GB英国 6
       - GB英国 7
+      - US美国 26
+      - FR法国 5
+      - US美国 27
+      - US美国 28
+      - US美国 29
+      - US美国 30
+      - US美国 31
       - GB英国 8
       - GB英国 9
+      - US美国 32
+      - US美国 33
       - GB英国 10
       - GB英国 11
       - GB英国 12
+      - US美国 34
       - GB英国 13
       - GB英国 14
       - GB英国 15
       - GB英国 16
-      - TW台湾 3
-      - US美国 29
-      - HK香港 5
-      - US美国 30
-      - 西班牙 7
-      - US美国 31
-      - US美国 32
-      - US美国 33
-      - HK香港 6
-      - HK香港 7
-      - US美国 34
+      - US美国 35
       - GB英国 17
       - GB英国 18
+      - US美国 36
       - GB英国 19
       - GB英国 20
       - GB英国 21
       - GB英国 22
       - GB英国 23
       - GB英国 24
-      - TW台湾 4
-      - US美国 35
       - GB英国 25
-      - US美国 36
       - GB英国 26
       - GB英国 27
-      - HK香港 8
-      - GB英国 28
-      - GB英国 29
-      - GB英国 30
-      - GB英国 31
-      - GB英国 32
-      - 西班牙 8
-      - GB英国 33
+      - TW台湾 25
       - US美国 37
       - US美国 38
       - US美国 39
+      - FR法国 6
+      - 西班牙 3
       - US美国 40
       - US美国 41
+      - RU俄罗斯
+      - TW台湾 26
+      - FR法国 7
       - US美国 42
       - US美国 43
-      - SG新加坡 5
-      - SG新加坡 6
       - US美国 44
-      - 西班牙 9
-      - 西班牙 10
-      - HK香港 9
-      - SG新加坡 7
+      - FR法国 8
       - US美国 45
-      - 西班牙 11
-      - HK香港 10
-      - 西班牙 12
-      - 西班牙 13
-      - 西班牙 14
-      - 西班牙 15
-      - TW台湾 5
+      - FR法国 9
+      - US美国 46
+      - US美国 47
+      - 西班牙 4
+      - GB英国 28
+      - HK香港 7
+      - TW台湾 27
+      - GB英国 29
+      - US美国 48
+      - US美国 49
+      - JP日本
+      - US美国 50
+      - HK香港 8
+      - US美国 51
+      - FR法国 10
+      - US美国 52
+      - US美国 53
+      - US美国 54
+      - US美国 55
+      - TW台湾 28
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK香港
       - US美国
+      - FR法国
       - US美国 2
-      - SG新加坡
       - US美国 3
       - US美国 4
+      - TW台湾
       - US美国 5
       - US美国 6
       - US美国 7
-      - 西班牙
       - US美国 8
-      - US美国 9
-      - 西班牙 2
-      - US美国 10
-      - US美国 11
-      - US美国 12
-      - US美国 13
-      - SG新加坡 2
-      - TW台湾
-      - US美国 14
-      - 西班牙 3
-      - US美国 15
-      - 西班牙 4
-      - US美国 16
-      - US美国 17
-      - US美国 18
-      - US美国 19
-      - US美国 20
-      - US美国 21
-      - US美国 22
-      - 西班牙 5
-      - US美国 23
-      - US美国 24
-      - TW台湾 2
-      - US美国 25
-      - HK香港 2
-      - US美国 26
-      - SG新加坡 3
-      - HK香港 3
-      - HK香港 4
-      - SG新加坡 4
-      - US美国 27
       - GB英国
       - GB英国 2
-      - US美国 28
+      - US美国 9
+      - FR法国 2
+      - 西班牙
+      - TW台湾 2
+      - 西班牙 2
+      - US美国 10
+      - TW台湾 3
+      - US美国 11
+      - US美国 12
+      - TW台湾 4
+      - SG新加坡
+      - HK香港
+      - TW台湾 5
+      - HK香港 2
+      - HK香港 3
+      - US美国 13
+      - TW台湾 6
+      - TW台湾 7
+      - US美国 14
+      - TW台湾 8
+      - TW台湾 9
+      - TW台湾 10
+      - TW台湾 11
+      - TW台湾 12
+      - US美国 15
+      - TW台湾 13
+      - US美国 16
+      - TW台湾 14
+      - TW台湾 15
+      - US美国 17
+      - TW台湾 16
+      - TW台湾 17
+      - HK香港 4
+      - TW台湾 18
+      - US美国 18
+      - HK香港 5
+      - HK香港 6
+      - TW台湾 19
+      - US美国 19
+      - TW台湾 20
+      - TW台湾 21
+      - TW台湾 22
+      - US美国 20
+      - TW台湾 23
+      - TW台湾 24
+      - US美国 21
+      - FR法国 3
+      - US美国 22
+      - FR法国 4
       - GB英国 3
       - GB英国 4
-      - 西班牙 6
+      - US美国 23
+      - US美国 24
       - GB英国 5
+      - US美国 25
       - GB英国 6
       - GB英国 7
+      - US美国 26
+      - FR法国 5
+      - US美国 27
+      - US美国 28
+      - US美国 29
+      - US美国 30
+      - US美国 31
       - GB英国 8
       - GB英国 9
+      - US美国 32
+      - US美国 33
       - GB英国 10
       - GB英国 11
       - GB英国 12
+      - US美国 34
       - GB英国 13
       - GB英国 14
       - GB英国 15
       - GB英国 16
-      - TW台湾 3
-      - US美国 29
-      - HK香港 5
-      - US美国 30
-      - 西班牙 7
-      - US美国 31
-      - US美国 32
-      - US美国 33
-      - HK香港 6
-      - HK香港 7
-      - US美国 34
+      - US美国 35
       - GB英国 17
       - GB英国 18
+      - US美国 36
       - GB英国 19
       - GB英国 20
       - GB英国 21
       - GB英国 22
       - GB英国 23
       - GB英国 24
-      - TW台湾 4
-      - US美国 35
       - GB英国 25
-      - US美国 36
       - GB英国 26
       - GB英国 27
-      - HK香港 8
-      - GB英国 28
-      - GB英国 29
-      - GB英国 30
-      - GB英国 31
-      - GB英国 32
-      - 西班牙 8
-      - GB英国 33
+      - TW台湾 25
       - US美国 37
       - US美国 38
       - US美国 39
+      - FR法国 6
+      - 西班牙 3
       - US美国 40
       - US美国 41
+      - RU俄罗斯
+      - TW台湾 26
+      - FR法国 7
       - US美国 42
       - US美国 43
-      - SG新加坡 5
-      - SG新加坡 6
       - US美国 44
-      - 西班牙 9
-      - 西班牙 10
-      - HK香港 9
-      - SG新加坡 7
+      - FR法国 8
       - US美国 45
-      - 西班牙 11
-      - HK香港 10
-      - 西班牙 12
-      - 西班牙 13
-      - 西班牙 14
-      - 西班牙 15
-      - TW台湾 5
+      - FR法国 9
+      - US美国 46
+      - US美国 47
+      - 西班牙 4
+      - GB英国 28
+      - HK香港 7
+      - TW台湾 27
+      - GB英国 29
+      - US美国 48
+      - US美国 49
+      - JP日本
+      - US美国 50
+      - HK香港 8
+      - US美国 51
+      - FR法国 10
+      - US美国 52
+      - US美国 53
+      - US美国 54
+      - US美国 55
+      - TW台湾 28
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK香港
       - US美国
+      - FR法国
       - US美国 2
-      - SG新加坡
       - US美国 3
       - US美国 4
+      - TW台湾
       - US美国 5
       - US美国 6
       - US美国 7
-      - 西班牙
       - US美国 8
-      - US美国 9
-      - 西班牙 2
-      - US美国 10
-      - US美国 11
-      - US美国 12
-      - US美国 13
-      - SG新加坡 2
-      - TW台湾
-      - US美国 14
-      - 西班牙 3
-      - US美国 15
-      - 西班牙 4
-      - US美国 16
-      - US美国 17
-      - US美国 18
-      - US美国 19
-      - US美国 20
-      - US美国 21
-      - US美国 22
-      - 西班牙 5
-      - US美国 23
-      - US美国 24
-      - TW台湾 2
-      - US美国 25
-      - HK香港 2
-      - US美国 26
-      - SG新加坡 3
-      - HK香港 3
-      - HK香港 4
-      - SG新加坡 4
-      - US美国 27
       - GB英国
       - GB英国 2
-      - US美国 28
+      - US美国 9
+      - FR法国 2
+      - 西班牙
+      - TW台湾 2
+      - 西班牙 2
+      - US美国 10
+      - TW台湾 3
+      - US美国 11
+      - US美国 12
+      - TW台湾 4
+      - SG新加坡
+      - HK香港
+      - TW台湾 5
+      - HK香港 2
+      - HK香港 3
+      - US美国 13
+      - TW台湾 6
+      - TW台湾 7
+      - US美国 14
+      - TW台湾 8
+      - TW台湾 9
+      - TW台湾 10
+      - TW台湾 11
+      - TW台湾 12
+      - US美国 15
+      - TW台湾 13
+      - US美国 16
+      - TW台湾 14
+      - TW台湾 15
+      - US美国 17
+      - TW台湾 16
+      - TW台湾 17
+      - HK香港 4
+      - TW台湾 18
+      - US美国 18
+      - HK香港 5
+      - HK香港 6
+      - TW台湾 19
+      - US美国 19
+      - TW台湾 20
+      - TW台湾 21
+      - TW台湾 22
+      - US美国 20
+      - TW台湾 23
+      - TW台湾 24
+      - US美国 21
+      - FR法国 3
+      - US美国 22
+      - FR法国 4
       - GB英国 3
       - GB英国 4
-      - 西班牙 6
+      - US美国 23
+      - US美国 24
       - GB英国 5
+      - US美国 25
       - GB英国 6
       - GB英国 7
+      - US美国 26
+      - FR法国 5
+      - US美国 27
+      - US美国 28
+      - US美国 29
+      - US美国 30
+      - US美国 31
       - GB英国 8
       - GB英国 9
+      - US美国 32
+      - US美国 33
       - GB英国 10
       - GB英国 11
       - GB英国 12
+      - US美国 34
       - GB英国 13
       - GB英国 14
       - GB英国 15
       - GB英国 16
-      - TW台湾 3
-      - US美国 29
-      - HK香港 5
-      - US美国 30
-      - 西班牙 7
-      - US美国 31
-      - US美国 32
-      - US美国 33
-      - HK香港 6
-      - HK香港 7
-      - US美国 34
+      - US美国 35
       - GB英国 17
       - GB英国 18
+      - US美国 36
       - GB英国 19
       - GB英国 20
       - GB英国 21
       - GB英国 22
       - GB英国 23
       - GB英国 24
-      - TW台湾 4
-      - US美国 35
       - GB英国 25
-      - US美国 36
       - GB英国 26
       - GB英国 27
-      - HK香港 8
-      - GB英国 28
-      - GB英国 29
-      - GB英国 30
-      - GB英国 31
-      - GB英国 32
-      - 西班牙 8
-      - GB英国 33
+      - TW台湾 25
       - US美国 37
       - US美国 38
       - US美国 39
+      - FR法国 6
+      - 西班牙 3
       - US美国 40
       - US美国 41
+      - RU俄罗斯
+      - TW台湾 26
+      - FR法国 7
       - US美国 42
       - US美国 43
-      - SG新加坡 5
-      - SG新加坡 6
       - US美国 44
-      - 西班牙 9
-      - 西班牙 10
-      - HK香港 9
-      - SG新加坡 7
+      - FR法国 8
       - US美国 45
-      - 西班牙 11
-      - HK香港 10
-      - 西班牙 12
-      - 西班牙 13
-      - 西班牙 14
-      - 西班牙 15
-      - TW台湾 5
+      - FR法国 9
+      - US美国 46
+      - US美国 47
+      - 西班牙 4
+      - GB英国 28
+      - HK香港 7
+      - TW台湾 27
+      - GB英国 29
+      - US美国 48
+      - US美国 49
+      - JP日本
+      - US美国 50
+      - HK香港 8
+      - US美国 51
+      - FR法国 10
+      - US美国 52
+      - US美国 53
+      - US美国 54
+      - US美国 55
+      - TW台湾 28
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1011,121 +1208,143 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK香港
       - US美国
+      - FR法国
       - US美国 2
-      - SG新加坡
       - US美国 3
       - US美国 4
+      - TW台湾
       - US美国 5
       - US美国 6
       - US美国 7
-      - 西班牙
       - US美国 8
-      - US美国 9
-      - 西班牙 2
-      - US美国 10
-      - US美国 11
-      - US美国 12
-      - US美国 13
-      - SG新加坡 2
-      - TW台湾
-      - US美国 14
-      - 西班牙 3
-      - US美国 15
-      - 西班牙 4
-      - US美国 16
-      - US美国 17
-      - US美国 18
-      - US美国 19
-      - US美国 20
-      - US美国 21
-      - US美国 22
-      - 西班牙 5
-      - US美国 23
-      - US美国 24
-      - TW台湾 2
-      - US美国 25
-      - HK香港 2
-      - US美国 26
-      - SG新加坡 3
-      - HK香港 3
-      - HK香港 4
-      - SG新加坡 4
-      - US美国 27
       - GB英国
       - GB英国 2
-      - US美国 28
+      - US美国 9
+      - FR法国 2
+      - 西班牙
+      - TW台湾 2
+      - 西班牙 2
+      - US美国 10
+      - TW台湾 3
+      - US美国 11
+      - US美国 12
+      - TW台湾 4
+      - SG新加坡
+      - HK香港
+      - TW台湾 5
+      - HK香港 2
+      - HK香港 3
+      - US美国 13
+      - TW台湾 6
+      - TW台湾 7
+      - US美国 14
+      - TW台湾 8
+      - TW台湾 9
+      - TW台湾 10
+      - TW台湾 11
+      - TW台湾 12
+      - US美国 15
+      - TW台湾 13
+      - US美国 16
+      - TW台湾 14
+      - TW台湾 15
+      - US美国 17
+      - TW台湾 16
+      - TW台湾 17
+      - HK香港 4
+      - TW台湾 18
+      - US美国 18
+      - HK香港 5
+      - HK香港 6
+      - TW台湾 19
+      - US美国 19
+      - TW台湾 20
+      - TW台湾 21
+      - TW台湾 22
+      - US美国 20
+      - TW台湾 23
+      - TW台湾 24
+      - US美国 21
+      - FR法国 3
+      - US美国 22
+      - FR法国 4
       - GB英国 3
       - GB英国 4
-      - 西班牙 6
+      - US美国 23
+      - US美国 24
       - GB英国 5
+      - US美国 25
       - GB英国 6
       - GB英国 7
+      - US美国 26
+      - FR法国 5
+      - US美国 27
+      - US美国 28
+      - US美国 29
+      - US美国 30
+      - US美国 31
       - GB英国 8
       - GB英国 9
+      - US美国 32
+      - US美国 33
       - GB英国 10
       - GB英国 11
       - GB英国 12
+      - US美国 34
       - GB英国 13
       - GB英国 14
       - GB英国 15
       - GB英国 16
-      - TW台湾 3
-      - US美国 29
-      - HK香港 5
-      - US美国 30
-      - 西班牙 7
-      - US美国 31
-      - US美国 32
-      - US美国 33
-      - HK香港 6
-      - HK香港 7
-      - US美国 34
+      - US美国 35
       - GB英国 17
       - GB英国 18
+      - US美国 36
       - GB英国 19
       - GB英国 20
       - GB英国 21
       - GB英国 22
       - GB英国 23
       - GB英国 24
-      - TW台湾 4
-      - US美国 35
       - GB英国 25
-      - US美国 36
       - GB英国 26
       - GB英国 27
-      - HK香港 8
-      - GB英国 28
-      - GB英国 29
-      - GB英国 30
-      - GB英国 31
-      - GB英国 32
-      - 西班牙 8
-      - GB英国 33
+      - TW台湾 25
       - US美国 37
       - US美国 38
       - US美国 39
+      - FR法国 6
+      - 西班牙 3
       - US美国 40
       - US美国 41
+      - RU俄罗斯
+      - TW台湾 26
+      - FR法国 7
       - US美国 42
       - US美国 43
-      - SG新加坡 5
-      - SG新加坡 6
       - US美国 44
-      - 西班牙 9
-      - 西班牙 10
-      - HK香港 9
-      - SG新加坡 7
+      - FR法国 8
       - US美国 45
-      - 西班牙 11
-      - HK香港 10
-      - 西班牙 12
-      - 西班牙 13
-      - 西班牙 14
-      - 西班牙 15
-      - TW台湾 5
+      - FR法国 9
+      - US美国 46
+      - US美国 47
+      - 西班牙 4
+      - GB英国 28
+      - HK香港 7
+      - TW台湾 27
+      - GB英国 29
+      - US美国 48
+      - US美国 49
+      - JP日本
+      - US美国 50
+      - HK香港 8
+      - US美国 51
+      - FR法国 10
+      - US美国 52
+      - US美国 53
+      - US美国 54
+      - US美国 55
+      - TW台湾 28
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
