@@ -5,119 +5,63 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK香港-clone, server: tuntro000.instconn.com, port: 443, type: trojan, password: 30077070-596e-48ea-9400-14c8ed07bd97, sni: tuntro000.instconn.com, skip-cert-verify: true, udp: true}
-  - {name: JP日本, server: tuntro003.instconn.com, port: 443, type: trojan, password: 30077070-596e-48ea-9400-14c8ed07bd97, sni: tuntro003.instconn.com, skip-cert-verify: true, udp: true}
   - {name: TW台湾, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国-clone, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
+  - {name: US美国-clone, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
   - {name: US美国-clone 2, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国-clone 3, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国-clone 4, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
-  - {name: US美国-clone 5, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY, udp: true}
-  - {name: US美国-clone 6, server: 109.234.211.66, port: 2087, type: trojan, password: trojan, skip-cert-verify: true, udp: true}
-  - {name: US美国-clone 7, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY, udp: true}
-  - {name: US美国-clone 8, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
-  - {name: US美国-clone 9, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
-  - {name: RU俄罗斯, server: 5.129.219.21, port: 8080, type: ss, cipher: aes-128-gcm, password: tKko+YIAuuZ3d0hsPX2+D3NqepytG1Ha0VRLwBrf0Ak=, udp: true}
-  - {name: US美国-clone 10, server: aio.unlimited.biz.id, port: 443, type: vmess, uuid: f282b878-8711-45a1-8c69-5564172123c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /aioproxybot/129.150.49.58-18650, ws-headers: {Host: aio.unlimited.biz.id}, udp: true}
-  - {name: 乌克兰-clone, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY, udp: true}
-  - {name: 西班牙-clone, server: 109.234.211.66, port: 2087, type: trojan, password: trojan, skip-cert-verify: true, udp: true}
-  - {name: 西班牙-clone 2, server: 109.234.211.66, port: 8443, type: trojan, password: trojan, skip-cert-verify: true, udp: true}
-  - {name: US美国-clone 11, server: 109.234.211.66, port: 2087, type: trojan, password: trojan, skip-cert-verify: true, udp: true}
-  - {name: US美国-clone 12, server: 5.129.219.21, port: 8080, type: ss, cipher: aes-128-gcm, password: tKko+YIAuuZ3d0hsPX2+D3NqepytG1Ha0VRLwBrf0Ak=, udp: true}
-  - {name: US美国-clone 13, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 655a3e72-788e-41c1-8c23-6032490c64a0, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: US美国-clone 14, server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国-clone 15, server: 185.193.48.157, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: zwBLM6bBE5YxvwvnKgxAq3ErXpqMYv20, udp: true}
-  - {name: US美国-clone 16, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国-clone 17, server: aio.unlimited.biz.id, port: 443, type: vmess, uuid: f282b878-8711-45a1-8c69-5564172123c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /aioproxybot/129.150.49.58-18650, ws-headers: {Host: aio.unlimited.biz.id}, udp: true}
+  - {name: US美国-clone 3, server: 109.234.211.66, port: 2087, type: trojan, password: trojan, skip-cert-verify: true, udp: true}
+  - {name: US美国-clone 4, server: 5.129.219.21, port: 8080, type: ss, cipher: aes-128-gcm, password: tKko+YIAuuZ3d0hsPX2+D3NqepytG1Ha0VRLwBrf0Ak=, udp: true}
+  - {name: US美国-clone 5, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: US美国, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: US美国 2, server: 5.129.219.21, port: 8080, type: ss, cipher: aes-128-gcm, password: tKko+YIAuuZ3d0hsPX2+D3NqepytG1Ha0VRLwBrf0Ak=, udp: true}
+  - {name: JP日本, server: tuntro003.instconn.com, port: 443, type: trojan, password: 30077070-596e-48ea-9400-14c8ed07bd97, sni: tuntro003.instconn.com, skip-cert-verify: true, udp: true}
+  - {name: HK香港, server: tuntro000.instconn.com, port: 443, type: trojan, password: 30077070-596e-48ea-9400-14c8ed07bd97, sni: tuntro000.instconn.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK香港-clone
-      - JP日本
       - TW台湾
       - US美国-clone
       - US美国-clone 2
       - US美国-clone 3
       - US美国-clone 4
       - US美国-clone 5
-      - US美国-clone 6
-      - US美国-clone 7
-      - US美国-clone 8
-      - US美国-clone 9
-      - RU俄罗斯
-      - US美国-clone 10
-      - 乌克兰-clone
-      - 西班牙-clone
-      - 西班牙-clone 2
-      - US美国-clone 11
-      - US美国-clone 12
-      - US美国-clone 13
-      - US美国-clone 14
-      - US美国-clone 15
-      - US美国-clone 16
-      - US美国-clone 17
+      - US美国
+      - US美国 2
+      - JP日本
+      - HK香港
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK香港-clone
-      - JP日本
       - TW台湾
       - US美国-clone
       - US美国-clone 2
       - US美国-clone 3
       - US美国-clone 4
       - US美国-clone 5
-      - US美国-clone 6
-      - US美国-clone 7
-      - US美国-clone 8
-      - US美国-clone 9
-      - RU俄罗斯
-      - US美国-clone 10
-      - 乌克兰-clone
-      - 西班牙-clone
-      - 西班牙-clone 2
-      - US美国-clone 11
-      - US美国-clone 12
-      - US美国-clone 13
-      - US美国-clone 14
-      - US美国-clone 15
-      - US美国-clone 16
-      - US美国-clone 17
+      - US美国
+      - US美国 2
+      - JP日本
+      - HK香港
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK香港-clone
-      - JP日本
       - TW台湾
       - US美国-clone
       - US美国-clone 2
       - US美国-clone 3
       - US美国-clone 4
       - US美国-clone 5
-      - US美国-clone 6
-      - US美国-clone 7
-      - US美国-clone 8
-      - US美国-clone 9
-      - RU俄罗斯
-      - US美国-clone 10
-      - 乌克兰-clone
-      - 西班牙-clone
-      - 西班牙-clone 2
-      - US美国-clone 11
-      - US美国-clone 12
-      - US美国-clone 13
-      - US美国-clone 14
-      - US美国-clone 15
-      - US美国-clone 16
-      - US美国-clone 17
+      - US美国
+      - US美国 2
+      - JP日本
+      - HK香港
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -136,125 +80,69 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK香港-clone
-      - JP日本
       - TW台湾
       - US美国-clone
       - US美国-clone 2
       - US美国-clone 3
       - US美国-clone 4
       - US美国-clone 5
-      - US美国-clone 6
-      - US美国-clone 7
-      - US美国-clone 8
-      - US美国-clone 9
-      - RU俄罗斯
-      - US美国-clone 10
-      - 乌克兰-clone
-      - 西班牙-clone
-      - 西班牙-clone 2
-      - US美国-clone 11
-      - US美国-clone 12
-      - US美国-clone 13
-      - US美国-clone 14
-      - US美国-clone 15
-      - US美国-clone 16
-      - US美国-clone 17
+      - US美国
+      - US美国 2
+      - JP日本
+      - HK香港
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - HK香港-clone
       - TW台湾
+      - HK香港
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK香港-clone
-      - JP日本
       - TW台湾
       - US美国-clone
       - US美国-clone 2
       - US美国-clone 3
       - US美国-clone 4
       - US美国-clone 5
-      - US美国-clone 6
-      - US美国-clone 7
-      - US美国-clone 8
-      - US美国-clone 9
-      - RU俄罗斯
-      - US美国-clone 10
-      - 乌克兰-clone
-      - 西班牙-clone
-      - 西班牙-clone 2
-      - US美国-clone 11
-      - US美国-clone 12
-      - US美国-clone 13
-      - US美国-clone 14
-      - US美国-clone 15
-      - US美国-clone 16
-      - US美国-clone 17
+      - US美国
+      - US美国 2
+      - JP日本
+      - HK香港
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK香港-clone
-      - JP日本
       - TW台湾
       - US美国-clone
       - US美国-clone 2
       - US美国-clone 3
       - US美国-clone 4
       - US美国-clone 5
-      - US美国-clone 6
-      - US美国-clone 7
-      - US美国-clone 8
-      - US美国-clone 9
-      - RU俄罗斯
-      - US美国-clone 10
-      - 乌克兰-clone
-      - 西班牙-clone
-      - 西班牙-clone 2
-      - US美国-clone 11
-      - US美国-clone 12
-      - US美国-clone 13
-      - US美国-clone 14
-      - US美国-clone 15
-      - US美国-clone 16
-      - US美国-clone 17
+      - US美国
+      - US美国 2
+      - JP日本
+      - HK香港
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK香港-clone
-      - JP日本
       - TW台湾
       - US美国-clone
       - US美国-clone 2
       - US美国-clone 3
       - US美国-clone 4
       - US美国-clone 5
-      - US美国-clone 6
-      - US美国-clone 7
-      - US美国-clone 8
-      - US美国-clone 9
-      - RU俄罗斯
-      - US美国-clone 10
-      - 乌克兰-clone
-      - 西班牙-clone
-      - 西班牙-clone 2
-      - US美国-clone 11
-      - US美国-clone 12
-      - US美国-clone 13
-      - US美国-clone 14
-      - US美国-clone 15
-      - US美国-clone 16
-      - US美国-clone 17
+      - US美国
+      - US美国 2
+      - JP日本
+      - HK香港
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -270,30 +158,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK香港-clone
-      - JP日本
       - TW台湾
       - US美国-clone
       - US美国-clone 2
       - US美国-clone 3
       - US美国-clone 4
       - US美国-clone 5
-      - US美国-clone 6
-      - US美国-clone 7
-      - US美国-clone 8
-      - US美国-clone 9
-      - RU俄罗斯
-      - US美国-clone 10
-      - 乌克兰-clone
-      - 西班牙-clone
-      - 西班牙-clone 2
-      - US美国-clone 11
-      - US美国-clone 12
-      - US美国-clone 13
-      - US美国-clone 14
-      - US美国-clone 15
-      - US美国-clone 16
-      - US美国-clone 17
+      - US美国
+      - US美国 2
+      - JP日本
+      - HK香港
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
