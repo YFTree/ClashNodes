@@ -5,119 +5,295 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US美国, server: 2001:bc8:32d7:302::11, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: TABRIZ.NET}, udp: true}
-  - {name: US美国 2, server: v1.dabache.top, port: 8443, type: trojan, password: T9BpZIVMNv, sni: v1.dabache.top, skip-cert-verify: true, udp: true}
-  - {name: US美国 3, server: mko.859886.xyz, port: 443, type: vmess, uuid: b020865b-7404-4894-ba65-a7414b10cda3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr, ws-headers: {Host: mko.859886.xyz}, udp: true}
-  - {name: US美国 4, server: tttyu.2030.pp.ua, port: 443, type: vmess, uuid: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eszjp4nTT8TxDHFepMpfNkCk8, ws-headers: {Host: tttyu.2030.pp.ua}, udp: true}
-  - {name: US美国 5, server: gbnh.7777112.xyz, port: 443, type: trojan, password: 2bfe58f7-da1d-45df-ab43-7c665b20ee29, sni: gbnh.7777112.xyz, skip-cert-verify: true, udp: true}
-  - {name: GB英国, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国 6, server: mkouy.99890604.xyz, port: 443, type: trojan, password: 5196aae7-1479-4f3c-978b-68e74977b509, sni: mkouy.99890604.xyz, skip-cert-verify: true, udp: true}
-  - {name: CA加拿大, server: vip2.kaixincloud.top, port: 8443, type: trojan, password: T9BpZIVMNv, sni: vip2.kaixincloud.top, skip-cert-verify: true, udp: true}
-  - {name: US美国 7, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: CA加拿大, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: DE德国, server: sy4.620720.xyz, port: 443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sy4.620720.xyz}, udp: true}
+  - {name: GB英国, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: GB英国 2, server: 2001:bc8:32d7:302::14, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: TABRIZ.NET}, udp: true}
+  - {name: GB英国 3, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB英国 4, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true}
+  - {name: US美国, server: 2001:bc8:32d7:302::15, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: TURK.NET}, udp: true}
+  - {name: US美国 2, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: US美国 3, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: US美国 4, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: TURK1.NET.NET}, udp: true}
+  - {name: US美国 5, server: 2001:bc8:32d7:302::11, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: Azerb.NET}, udp: true}
+  - {name: US美国 6, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: US美国 7, server: 2001:bc8:32d7:302::11, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: TABRIZ.NET}, udp: true}
   - {name: US美国 8, server: mmki9.kk1.ccwu.cc, port: 443, type: vmess, uuid: 9d24b07c-71f4-4aa5-95ac-3307c6995619, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /FlydU79Rnu0lNhu1YZc7zZ, ws-headers: {Host: mmki9.kk1.ccwu.cc}, udp: true}
-  - {name: US美国 9, server: v2.dabache.top, port: 2083, type: vmess, uuid: 698ba3c2-e501-42c3-8dc4-2d44e7099454, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: blog.dezh.store}, udp: true}
-  - {name: CA加拿大 2, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: US美国 10, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: AZERB.NET}, udp: true}
-  - {name: US美国 11, server: nju.bb4.indevs.in, port: 80, type: vmess, uuid: b020865b-7404-4894-ba65-a7414b10cda3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr, ws-headers: {Host: nju.bb4.indevs.in}, udp: true}
-  - {name: US美国 12, server: nju.bb4.indevs.in, port: 80, type: vmess, uuid: b020865b-7404-4894-ba65-a7414b10cda3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr, ws-headers: {Host: nju.bb4.indevs.in}, udp: true}
-  - {name: US美国 13, server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz, port: 443, type: trojan, password: 87d1bfd4-574e-4c96-ad42-0426f27461ff, sni: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz, skip-cert-verify: true, udp: true}
-  - {name: US美国 14, server: blackshadow.dpdns.org, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: blackshadow.dpdns.org, skip-cert-verify: true, udp: true}
-  - {name: GB英国 2, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: US美国 15, server: nextmi.hajmyab.ir, port: 2053, type: vmess, uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: app.hajmyab.ir}, udp: true}
-  - {name: US美国 16, server: 2001:bc8:32d7:302::15, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: TURK.NET}, udp: true}
-  - {name: US美国 17, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: US美国 18, server: 2001:bc8:32d7:302::11, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: Azerb.NET}, udp: true}
-  - {name: US美国 19, server: bpbg.anguswen.top, port: 8443, type: trojan, password: !<str> 123456, sni: bpbg.anguswen.top, skip-cert-verify: true, udp: true}
-  - {name: GB英国 3, server: 2001:bc8:32d7:302::14, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: TABRIZ.NET}, udp: true}
+  - {name: US美国 9, server: gbnh.7777112.xyz, port: 443, type: trojan, password: 2bfe58f7-da1d-45df-ab43-7c665b20ee29, sni: gbnh.7777112.xyz, skip-cert-verify: true, udp: true}
+  - {name: US美国 10, server: 2001:bc8:32d7:302::17, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: US美国 11, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 12, server: vvvbbbnhj.taipei102.indevs.in, port: 443, type: trojan, password: 2bfe58f7-da1d-45df-ab43-7c665b20ee29, sni: vvvbbbnhj.taipei102.indevs.in, skip-cert-verify: true, udp: true}
+  - {name: US美国 13, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 14, server: nextmi.hajmyab.ir, port: 2053, type: vmess, uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: app.hajmyab.ir}, udp: true}
+  - {name: US美国 15, server: nju.bb4.indevs.in, port: 80, type: vmess, uuid: b020865b-7404-4894-ba65-a7414b10cda3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr, ws-headers: {Host: nju.bb4.indevs.in}, udp: true}
+  - {name: US美国 16, server: nju.bb4.indevs.in, port: 80, type: vmess, uuid: b020865b-7404-4894-ba65-a7414b10cda3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr, ws-headers: {Host: nju.bb4.indevs.in}, udp: true}
+  - {name: US美国 17, server: mkouy.99890604.xyz, port: 443, type: trojan, password: 5196aae7-1479-4f3c-978b-68e74977b509, sni: mkouy.99890604.xyz, skip-cert-verify: true, udp: true}
+  - {name: US美国 18, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: DE德国 2, server: mkouy.99890604.xyz, port: 443, type: trojan, password: 5196aae7-1479-4f3c-978b-68e74977b509, sni: mkouy.99890604.xyz, skip-cert-verify: true, udp: true}
+  - {name: US美国 19, server: ggbnh.7777198.xyz, port: 443, type: trojan, password: 4115f84d-3b03-4b03-babf-21b36b2f9c03, sni: ggbnh.7777198.xyz, skip-cert-verify: true, udp: true}
+  - {name: US美国 20, server: gbnh.7777112.xyz, port: 443, type: trojan, password: 2bfe58f7-da1d-45df-ab43-7c665b20ee29, sni: gbnh.7777112.xyz, skip-cert-verify: true, udp: true}
+  - {name: US美国 21, server: vvvbbbnhj.taipei102.indevs.in, port: 443, type: trojan, password: 2bfe58f7-da1d-45df-ab43-7c665b20ee29, sni: vvvbbbnhj.taipei102.indevs.in, skip-cert-verify: true, udp: true}
+  - {name: RU俄罗斯, server: ggbnh.7777198.xyz, port: 443, type: trojan, password: 4115f84d-3b03-4b03-babf-21b36b2f9c03, sni: ggbnh.7777198.xyz, skip-cert-verify: true, udp: true}
+  - {name: GB英国 5, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: GB英国 6, server: 2001:bc8:32d7:302::16, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: US美国 22, server: 2001:bc8:32d7:302::17, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: US美国 23, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: TABRIZ.NET}, udp: true}
+  - {name: US美国 24, server: 2001:bc8:32d7:302::14, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: TABRIZ.NET}, udp: true}
+  - {name: US美国 25, server: 2001:bc8:32d7:302::11, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: Azerb.NET}, udp: true}
+  - {name: GB英国 7, server: 2001:bc8:32d7:302::16, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: GB英国 8, server: 2001:bc8:32d7:302::15, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: TURK.NET}, udp: true}
+  - {name: GB英国 9, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国 26, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 27, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 28, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 29, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: US美国 30, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 31, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 32, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 33, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 34, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 35, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 36, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 37, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 38, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 39, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 40, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 41, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 42, server: 2001:bc8:32d7:302::11, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: TABRIZ.NET}, udp: true}
+  - {name: US美国 43, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: TURK1.NET.NET}, udp: true}
+  - {name: US美国 44, server: ggbnh.7777198.xyz, port: 443, type: trojan, password: 4115f84d-3b03-4b03-babf-21b36b2f9c03, sni: ggbnh.7777198.xyz, skip-cert-verify: true, udp: true}
+  - {name: US美国 45, server: nju.bb4.indevs.in, port: 80, type: vmess, uuid: b020865b-7404-4894-ba65-a7414b10cda3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr, ws-headers: {Host: nju.bb4.indevs.in}, udp: true}
+  - {name: US美国 46, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560", ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: US美国 47, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 48, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 49, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 50, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", ws-headers: {Host: AZERB.NET}, udp: true}
+  - {name: US美国 51, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
+  - {name: US美国 52, server: nju.bb4.indevs.in, port: 80, type: vmess, uuid: b020865b-7404-4894-ba65-a7414b10cda3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr, ws-headers: {Host: nju.bb4.indevs.in}, udp: true}
+  - {name: US美国 53, server: vvvbbbnhj.taipei102.indevs.in, port: 443, type: trojan, password: 2bfe58f7-da1d-45df-ab43-7c665b20ee29, sni: vvvbbbnhj.taipei102.indevs.in, skip-cert-verify: true, udp: true}
+  - {name: US美国 54, server: mmki9.kk1.ccwu.cc, port: 443, type: vmess, uuid: 9d24b07c-71f4-4aa5-95ac-3307c6995619, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /FlydU79Rnu0lNhu1YZc7zZ, ws-headers: {Host: mmki9.kk1.ccwu.cc}, udp: true}
+  - {name: US美国 55, server: gbnh.7777112.xyz, port: 443, type: trojan, password: 2bfe58f7-da1d-45df-ab43-7c665b20ee29, sni: gbnh.7777112.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CA加拿大
+      - DE德国
+      - GB英国
+      - GB英国 2
+      - GB英国 3
+      - GB英国 4
       - US美国
       - US美国 2
       - US美国 3
       - US美国 4
       - US美国 5
-      - GB英国
       - US美国 6
-      - CA加拿大
       - US美国 7
       - US美国 8
       - US美国 9
-      - CA加拿大 2
       - US美国 10
       - US美国 11
       - US美国 12
       - US美国 13
       - US美国 14
-      - GB英国 2
       - US美国 15
       - US美国 16
       - US美国 17
       - US美国 18
+      - DE德国 2
       - US美国 19
-      - GB英国 3
+      - US美国 20
+      - US美国 21
+      - RU俄罗斯
+      - GB英国 5
+      - GB英国 6
+      - US美国 22
+      - US美国 23
+      - US美国 24
+      - US美国 25
+      - GB英国 7
+      - GB英国 8
+      - GB英国 9
+      - US美国 26
+      - US美国 27
+      - US美国 28
+      - US美国 29
+      - US美国 30
+      - US美国 31
+      - US美国 32
+      - US美国 33
+      - US美国 34
+      - US美国 35
+      - US美国 36
+      - US美国 37
+      - US美国 38
+      - US美国 39
+      - US美国 40
+      - US美国 41
+      - US美国 42
+      - US美国 43
+      - US美国 44
+      - US美国 45
+      - US美国 46
+      - US美国 47
+      - US美国 48
+      - US美国 49
+      - US美国 50
+      - US美国 51
+      - US美国 52
+      - US美国 53
+      - US美国 54
+      - US美国 55
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - CA加拿大
+      - DE德国
+      - GB英国
+      - GB英国 2
+      - GB英国 3
+      - GB英国 4
       - US美国
       - US美国 2
       - US美国 3
       - US美国 4
       - US美国 5
-      - GB英国
       - US美国 6
-      - CA加拿大
       - US美国 7
       - US美国 8
       - US美国 9
-      - CA加拿大 2
       - US美国 10
       - US美国 11
       - US美国 12
       - US美国 13
       - US美国 14
-      - GB英国 2
       - US美国 15
       - US美国 16
       - US美国 17
       - US美国 18
+      - DE德国 2
       - US美国 19
-      - GB英国 3
+      - US美国 20
+      - US美国 21
+      - RU俄罗斯
+      - GB英国 5
+      - GB英国 6
+      - US美国 22
+      - US美国 23
+      - US美国 24
+      - US美国 25
+      - GB英国 7
+      - GB英国 8
+      - GB英国 9
+      - US美国 26
+      - US美国 27
+      - US美国 28
+      - US美国 29
+      - US美国 30
+      - US美国 31
+      - US美国 32
+      - US美国 33
+      - US美国 34
+      - US美国 35
+      - US美国 36
+      - US美国 37
+      - US美国 38
+      - US美国 39
+      - US美国 40
+      - US美国 41
+      - US美国 42
+      - US美国 43
+      - US美国 44
+      - US美国 45
+      - US美国 46
+      - US美国 47
+      - US美国 48
+      - US美国 49
+      - US美国 50
+      - US美国 51
+      - US美国 52
+      - US美国 53
+      - US美国 54
+      - US美国 55
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CA加拿大
+      - DE德国
+      - GB英国
+      - GB英国 2
+      - GB英国 3
+      - GB英国 4
       - US美国
       - US美国 2
       - US美国 3
       - US美国 4
       - US美国 5
-      - GB英国
       - US美国 6
-      - CA加拿大
       - US美国 7
       - US美国 8
       - US美国 9
-      - CA加拿大 2
       - US美国 10
       - US美国 11
       - US美国 12
       - US美国 13
       - US美国 14
-      - GB英国 2
       - US美国 15
       - US美国 16
       - US美国 17
       - US美国 18
+      - DE德国 2
       - US美国 19
-      - GB英国 3
+      - US美国 20
+      - US美国 21
+      - RU俄罗斯
+      - GB英国 5
+      - GB英国 6
+      - US美国 22
+      - US美国 23
+      - US美国 24
+      - US美国 25
+      - GB英国 7
+      - GB英国 8
+      - GB英国 9
+      - US美国 26
+      - US美国 27
+      - US美国 28
+      - US美国 29
+      - US美国 30
+      - US美国 31
+      - US美国 32
+      - US美国 33
+      - US美国 34
+      - US美国 35
+      - US美国 36
+      - US美国 37
+      - US美国 38
+      - US美国 39
+      - US美国 40
+      - US美国 41
+      - US美国 42
+      - US美国 43
+      - US美国 44
+      - US美国 45
+      - US美国 46
+      - US美国 47
+      - US美国 48
+      - US美国 49
+      - US美国 50
+      - US美国 51
+      - US美国 52
+      - US美国 53
+      - US美国 54
+      - US美国 55
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -136,30 +312,74 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CA加拿大
+      - DE德国
+      - GB英国
+      - GB英国 2
+      - GB英国 3
+      - GB英国 4
       - US美国
       - US美国 2
       - US美国 3
       - US美国 4
       - US美国 5
-      - GB英国
       - US美国 6
-      - CA加拿大
       - US美国 7
       - US美国 8
       - US美国 9
-      - CA加拿大 2
       - US美国 10
       - US美国 11
       - US美国 12
       - US美国 13
       - US美国 14
-      - GB英国 2
       - US美国 15
       - US美国 16
       - US美国 17
       - US美国 18
+      - DE德国 2
       - US美国 19
-      - GB英国 3
+      - US美国 20
+      - US美国 21
+      - RU俄罗斯
+      - GB英国 5
+      - GB英国 6
+      - US美国 22
+      - US美国 23
+      - US美国 24
+      - US美国 25
+      - GB英国 7
+      - GB英国 8
+      - GB英国 9
+      - US美国 26
+      - US美国 27
+      - US美国 28
+      - US美国 29
+      - US美国 30
+      - US美国 31
+      - US美国 32
+      - US美国 33
+      - US美国 34
+      - US美国 35
+      - US美国 36
+      - US美国 37
+      - US美国 38
+      - US美国 39
+      - US美国 40
+      - US美国 41
+      - US美国 42
+      - US美国 43
+      - US美国 44
+      - US美国 45
+      - US美国 46
+      - US美国 47
+      - US美国 48
+      - US美国 49
+      - US美国 50
+      - US美国 51
+      - US美国 52
+      - US美国 53
+      - US美国 54
+      - US美国 55
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -170,89 +390,221 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - CA加拿大
+      - DE德国
+      - GB英国
+      - GB英国 2
+      - GB英国 3
+      - GB英国 4
       - US美国
       - US美国 2
       - US美国 3
       - US美国 4
       - US美国 5
-      - GB英国
       - US美国 6
-      - CA加拿大
       - US美国 7
       - US美国 8
       - US美国 9
-      - CA加拿大 2
       - US美国 10
       - US美国 11
       - US美国 12
       - US美国 13
       - US美国 14
-      - GB英国 2
       - US美国 15
       - US美国 16
       - US美国 17
       - US美国 18
+      - DE德国 2
       - US美国 19
-      - GB英国 3
+      - US美国 20
+      - US美国 21
+      - RU俄罗斯
+      - GB英国 5
+      - GB英国 6
+      - US美国 22
+      - US美国 23
+      - US美国 24
+      - US美国 25
+      - GB英国 7
+      - GB英国 8
+      - GB英国 9
+      - US美国 26
+      - US美国 27
+      - US美国 28
+      - US美国 29
+      - US美国 30
+      - US美国 31
+      - US美国 32
+      - US美国 33
+      - US美国 34
+      - US美国 35
+      - US美国 36
+      - US美国 37
+      - US美国 38
+      - US美国 39
+      - US美国 40
+      - US美国 41
+      - US美国 42
+      - US美国 43
+      - US美国 44
+      - US美国 45
+      - US美国 46
+      - US美国 47
+      - US美国 48
+      - US美国 49
+      - US美国 50
+      - US美国 51
+      - US美国 52
+      - US美国 53
+      - US美国 54
+      - US美国 55
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - CA加拿大
+      - DE德国
+      - GB英国
+      - GB英国 2
+      - GB英国 3
+      - GB英国 4
       - US美国
       - US美国 2
       - US美国 3
       - US美国 4
       - US美国 5
-      - GB英国
       - US美国 6
-      - CA加拿大
       - US美国 7
       - US美国 8
       - US美国 9
-      - CA加拿大 2
       - US美国 10
       - US美国 11
       - US美国 12
       - US美国 13
       - US美国 14
-      - GB英国 2
       - US美国 15
       - US美国 16
       - US美国 17
       - US美国 18
+      - DE德国 2
       - US美国 19
-      - GB英国 3
+      - US美国 20
+      - US美国 21
+      - RU俄罗斯
+      - GB英国 5
+      - GB英国 6
+      - US美国 22
+      - US美国 23
+      - US美国 24
+      - US美国 25
+      - GB英国 7
+      - GB英国 8
+      - GB英国 9
+      - US美国 26
+      - US美国 27
+      - US美国 28
+      - US美国 29
+      - US美国 30
+      - US美国 31
+      - US美国 32
+      - US美国 33
+      - US美国 34
+      - US美国 35
+      - US美国 36
+      - US美国 37
+      - US美国 38
+      - US美国 39
+      - US美国 40
+      - US美国 41
+      - US美国 42
+      - US美国 43
+      - US美国 44
+      - US美国 45
+      - US美国 46
+      - US美国 47
+      - US美国 48
+      - US美国 49
+      - US美国 50
+      - US美国 51
+      - US美国 52
+      - US美国 53
+      - US美国 54
+      - US美国 55
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - CA加拿大
+      - DE德国
+      - GB英国
+      - GB英国 2
+      - GB英国 3
+      - GB英国 4
       - US美国
       - US美国 2
       - US美国 3
       - US美国 4
       - US美国 5
-      - GB英国
       - US美国 6
-      - CA加拿大
       - US美国 7
       - US美国 8
       - US美国 9
-      - CA加拿大 2
       - US美国 10
       - US美国 11
       - US美国 12
       - US美国 13
       - US美国 14
-      - GB英国 2
       - US美国 15
       - US美国 16
       - US美国 17
       - US美国 18
+      - DE德国 2
       - US美国 19
-      - GB英国 3
+      - US美国 20
+      - US美国 21
+      - RU俄罗斯
+      - GB英国 5
+      - GB英国 6
+      - US美国 22
+      - US美国 23
+      - US美国 24
+      - US美国 25
+      - GB英国 7
+      - GB英国 8
+      - GB英国 9
+      - US美国 26
+      - US美国 27
+      - US美国 28
+      - US美国 29
+      - US美国 30
+      - US美国 31
+      - US美国 32
+      - US美国 33
+      - US美国 34
+      - US美国 35
+      - US美国 36
+      - US美国 37
+      - US美国 38
+      - US美国 39
+      - US美国 40
+      - US美国 41
+      - US美国 42
+      - US美国 43
+      - US美国 44
+      - US美国 45
+      - US美国 46
+      - US美国 47
+      - US美国 48
+      - US美国 49
+      - US美国 50
+      - US美国 51
+      - US美国 52
+      - US美国 53
+      - US美国 54
+      - US美国 55
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -268,30 +620,74 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - CA加拿大
+      - DE德国
+      - GB英国
+      - GB英国 2
+      - GB英国 3
+      - GB英国 4
       - US美国
       - US美国 2
       - US美国 3
       - US美国 4
       - US美国 5
-      - GB英国
       - US美国 6
-      - CA加拿大
       - US美国 7
       - US美国 8
       - US美国 9
-      - CA加拿大 2
       - US美国 10
       - US美国 11
       - US美国 12
       - US美国 13
       - US美国 14
-      - GB英国 2
       - US美国 15
       - US美国 16
       - US美国 17
       - US美国 18
+      - DE德国 2
       - US美国 19
-      - GB英国 3
+      - US美国 20
+      - US美国 21
+      - RU俄罗斯
+      - GB英国 5
+      - GB英国 6
+      - US美国 22
+      - US美国 23
+      - US美国 24
+      - US美国 25
+      - GB英国 7
+      - GB英国 8
+      - GB英国 9
+      - US美国 26
+      - US美国 27
+      - US美国 28
+      - US美国 29
+      - US美国 30
+      - US美国 31
+      - US美国 32
+      - US美国 33
+      - US美国 34
+      - US美国 35
+      - US美国 36
+      - US美国 37
+      - US美国 38
+      - US美国 39
+      - US美国 40
+      - US美国 41
+      - US美国 42
+      - US美国 43
+      - US美国 44
+      - US美国 45
+      - US美国 46
+      - US美国 47
+      - US美国 48
+      - US美国 49
+      - US美国 50
+      - US美国 51
+      - US美国 52
+      - US美国 53
+      - US美国 54
+      - US美国 55
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
