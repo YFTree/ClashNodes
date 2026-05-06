@@ -6,12 +6,12 @@ external-controller: :9090
 proxies:
   - {name: 未知, server: efan.dnsefan04881.com, port: 7754, type: vmess, uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: 🇬🇧 英国 CCZZUU.TOP, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国 Microsoft数据中心, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, tfo: false}
-  - {name: 🇬🇧 英国 CCZZUU.TOP 2, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇧🇬 保加利亚 CCZZUU.TOP, server: 78.159.131.12, port: 28259, type: trojan, password: MeaDiUmPlkWbZJ2BON8tz, sni: ads.x5.ru, skip-cert-verify: true, tfo: false}
-  - {name: 🇺🇸 美国 CCZZUU.TOP, server: 149.28.255.6, port: 816, type: ss, cipher: chacha20-ietf-poly1305, password: GyZ5Xo0ht41vYmW3H4, tfo: false}
-  - {name: 亚太地区 CCZZUU.TOP, server: 103.181.164.145, port: 51556, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇬🇧 英国 CCZZUU.TOP 3, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇬🇧 英国 CCZZUU.TOP 2, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇬🇧 英国 Microsoft公司, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, tfo: false}
+  - {name: 🇬🇧 英国 Microsoft公司 2, server: admin.c1.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1kVr0KATIJI7mwOF, tfo: false}
+  - {name: 🇿🇦 南非 CCZZUU.TOP, server: 102.133.165.160, port: 16233, type: ss, cipher: chacha20-ietf-poly1305, password: Xsy8Ox4yOV3xLlpxtjzs3X, tfo: false}
+  - {name: 🇬🇧 英国 CCZZUU.TOP 3, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 亚太地区 CCZZUU.TOP, server: 103.181.164.145, port: 54022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: 🇬🇧 英国 CCZZUU.TOP 4, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
@@ -21,12 +21,12 @@ proxy-groups:
       - DIRECT
       - 未知
       - 🇬🇧 英国 CCZZUU.TOP
-      - 🇺🇸 美国 Microsoft数据中心
       - 🇬🇧 英国 CCZZUU.TOP 2
-      - 🇧🇬 保加利亚 CCZZUU.TOP
-      - 🇺🇸 美国 CCZZUU.TOP
-      - 亚太地区 CCZZUU.TOP
+      - 🇬🇧 英国 Microsoft公司
+      - 🇬🇧 英国 Microsoft公司 2
+      - 🇿🇦 南非 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 3
+      - 亚太地区 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 4
   - name: ♻️ 自动选择
     type: url-test
@@ -36,12 +36,12 @@ proxy-groups:
     proxies:
       - 未知
       - 🇬🇧 英国 CCZZUU.TOP
-      - 🇺🇸 美国 Microsoft数据中心
       - 🇬🇧 英国 CCZZUU.TOP 2
-      - 🇧🇬 保加利亚 CCZZUU.TOP
-      - 🇺🇸 美国 CCZZUU.TOP
-      - 亚太地区 CCZZUU.TOP
+      - 🇬🇧 英国 Microsoft公司
+      - 🇬🇧 英国 Microsoft公司 2
+      - 🇿🇦 南非 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 3
+      - 亚太地区 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 4
   - name: 🌍 国外媒体
     type: select
@@ -51,12 +51,12 @@ proxy-groups:
       - 🎯 全球直连
       - 未知
       - 🇬🇧 英国 CCZZUU.TOP
-      - 🇺🇸 美国 Microsoft数据中心
       - 🇬🇧 英国 CCZZUU.TOP 2
-      - 🇧🇬 保加利亚 CCZZUU.TOP
-      - 🇺🇸 美国 CCZZUU.TOP
-      - 亚太地区 CCZZUU.TOP
+      - 🇬🇧 英国 Microsoft公司
+      - 🇬🇧 英国 Microsoft公司 2
+      - 🇿🇦 南非 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 3
+      - 亚太地区 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 4
   - name: 📲 电报信息
     type: select
@@ -65,12 +65,12 @@ proxy-groups:
       - 🎯 全球直连
       - 未知
       - 🇬🇧 英国 CCZZUU.TOP
-      - 🇺🇸 美国 Microsoft数据中心
       - 🇬🇧 英国 CCZZUU.TOP 2
-      - 🇧🇬 保加利亚 CCZZUU.TOP
-      - 🇺🇸 美国 CCZZUU.TOP
-      - 亚太地区 CCZZUU.TOP
+      - 🇬🇧 英国 Microsoft公司
+      - 🇬🇧 英国 Microsoft公司 2
+      - 🇿🇦 南非 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 3
+      - 亚太地区 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 4
   - name: Ⓜ️ 微软服务
     type: select
@@ -79,12 +79,12 @@ proxy-groups:
       - 🚀 节点选择
       - 未知
       - 🇬🇧 英国 CCZZUU.TOP
-      - 🇺🇸 美国 Microsoft数据中心
       - 🇬🇧 英国 CCZZUU.TOP 2
-      - 🇧🇬 保加利亚 CCZZUU.TOP
-      - 🇺🇸 美国 CCZZUU.TOP
-      - 亚太地区 CCZZUU.TOP
+      - 🇬🇧 英国 Microsoft公司
+      - 🇬🇧 英国 Microsoft公司 2
+      - 🇿🇦 南非 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 3
+      - 亚太地区 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 4
   - name: 🍎 苹果服务
     type: select
@@ -93,12 +93,12 @@ proxy-groups:
       - 🎯 全球直连
       - 未知
       - 🇬🇧 英国 CCZZUU.TOP
-      - 🇺🇸 美国 Microsoft数据中心
       - 🇬🇧 英国 CCZZUU.TOP 2
-      - 🇧🇬 保加利亚 CCZZUU.TOP
-      - 🇺🇸 美国 CCZZUU.TOP
-      - 亚太地区 CCZZUU.TOP
+      - 🇬🇧 英国 Microsoft公司
+      - 🇬🇧 英国 Microsoft公司 2
+      - 🇿🇦 南非 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 3
+      - 亚太地区 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 4
   - name: 📢 谷歌FCM
     type: select
@@ -108,12 +108,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 未知
       - 🇬🇧 英国 CCZZUU.TOP
-      - 🇺🇸 美国 Microsoft数据中心
       - 🇬🇧 英国 CCZZUU.TOP 2
-      - 🇧🇬 保加利亚 CCZZUU.TOP
-      - 🇺🇸 美国 CCZZUU.TOP
-      - 亚太地区 CCZZUU.TOP
+      - 🇬🇧 英国 Microsoft公司
+      - 🇬🇧 英国 Microsoft公司 2
+      - 🇿🇦 南非 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 3
+      - 亚太地区 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 4
   - name: 🎯 全球直连
     type: select
@@ -139,12 +139,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 未知
       - 🇬🇧 英国 CCZZUU.TOP
-      - 🇺🇸 美国 Microsoft数据中心
       - 🇬🇧 英国 CCZZUU.TOP 2
-      - 🇧🇬 保加利亚 CCZZUU.TOP
-      - 🇺🇸 美国 CCZZUU.TOP
-      - 亚太地区 CCZZUU.TOP
+      - 🇬🇧 英国 Microsoft公司
+      - 🇬🇧 英国 Microsoft公司 2
+      - 🇿🇦 南非 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 3
+      - 亚太地区 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
