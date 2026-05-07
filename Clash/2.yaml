@@ -5,14 +5,13 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 未知, server: efan.dnsefan04881.com, port: 7754, type: vmess, uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇬🇧 英国 CCZZUU.TOP, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇬🇧 英国 CCZZUU.TOP 2, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇬🇧 英国 Microsoft公司, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, tfo: false}
-  - {name: 🇬🇧 英国 Microsoft公司 2, server: admin.c1.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1kVr0KATIJI7mwOF, tfo: false}
-  - {name: 🇿🇦 南非 CCZZUU.TOP, server: 102.133.165.160, port: 16233, type: ss, cipher: chacha20-ietf-poly1305, password: Xsy8Ox4yOV3xLlpxtjzs3X, tfo: false}
-  - {name: 🇬🇧 英国 CCZZUU.TOP 3, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 亚太地区 CCZZUU.TOP, server: 103.181.164.145, port: 54022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇬🇧 英国 CCZZUU.TOP 4, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇬🇧 英国 CCZZUU.TOP, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇬🇧 英国 CCZZUU.TOP 2, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇬🇧 英国 CCZZUU.TOP 3, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国 东北部七州电讯网, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇮🇪 爱尔兰 CCZZUU.TOP, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, tfo: false}
+  - {name: 🇬🇧 英国 CCZZUU.TOP 4, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: 🇺🇸 美国 CCZZUU.TOP, server: 149.28.255.6, port: 816, type: ss, cipher: chacha20-ietf-poly1305, password: GyZ5Xo0ht41vYmW3H4, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -22,12 +21,11 @@ proxy-groups:
       - 未知
       - 🇬🇧 英国 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 2
-      - 🇬🇧 英国 Microsoft公司
-      - 🇬🇧 英国 Microsoft公司 2
-      - 🇿🇦 南非 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 3
-      - 亚太地区 CCZZUU.TOP
+      - 🇺🇸 美国 东北部七州电讯网
+      - 🇮🇪 爱尔兰 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 4
+      - 🇺🇸 美国 CCZZUU.TOP
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -37,12 +35,11 @@ proxy-groups:
       - 未知
       - 🇬🇧 英国 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 2
-      - 🇬🇧 英国 Microsoft公司
-      - 🇬🇧 英国 Microsoft公司 2
-      - 🇿🇦 南非 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 3
-      - 亚太地区 CCZZUU.TOP
+      - 🇺🇸 美国 东北部七州电讯网
+      - 🇮🇪 爱尔兰 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 4
+      - 🇺🇸 美国 CCZZUU.TOP
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -52,12 +49,11 @@ proxy-groups:
       - 未知
       - 🇬🇧 英国 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 2
-      - 🇬🇧 英国 Microsoft公司
-      - 🇬🇧 英国 Microsoft公司 2
-      - 🇿🇦 南非 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 3
-      - 亚太地区 CCZZUU.TOP
+      - 🇺🇸 美国 东北部七州电讯网
+      - 🇮🇪 爱尔兰 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 4
+      - 🇺🇸 美国 CCZZUU.TOP
   - name: 📲 电报信息
     type: select
     proxies:
@@ -66,12 +62,11 @@ proxy-groups:
       - 未知
       - 🇬🇧 英国 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 2
-      - 🇬🇧 英国 Microsoft公司
-      - 🇬🇧 英国 Microsoft公司 2
-      - 🇿🇦 南非 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 3
-      - 亚太地区 CCZZUU.TOP
+      - 🇺🇸 美国 东北部七州电讯网
+      - 🇮🇪 爱尔兰 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 4
+      - 🇺🇸 美国 CCZZUU.TOP
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -80,12 +75,11 @@ proxy-groups:
       - 未知
       - 🇬🇧 英国 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 2
-      - 🇬🇧 英国 Microsoft公司
-      - 🇬🇧 英国 Microsoft公司 2
-      - 🇿🇦 南非 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 3
-      - 亚太地区 CCZZUU.TOP
+      - 🇺🇸 美国 东北部七州电讯网
+      - 🇮🇪 爱尔兰 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 4
+      - 🇺🇸 美国 CCZZUU.TOP
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -94,12 +88,11 @@ proxy-groups:
       - 未知
       - 🇬🇧 英国 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 2
-      - 🇬🇧 英国 Microsoft公司
-      - 🇬🇧 英国 Microsoft公司 2
-      - 🇿🇦 南非 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 3
-      - 亚太地区 CCZZUU.TOP
+      - 🇺🇸 美国 东北部七州电讯网
+      - 🇮🇪 爱尔兰 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 4
+      - 🇺🇸 美国 CCZZUU.TOP
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -109,12 +102,11 @@ proxy-groups:
       - 未知
       - 🇬🇧 英国 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 2
-      - 🇬🇧 英国 Microsoft公司
-      - 🇬🇧 英国 Microsoft公司 2
-      - 🇿🇦 南非 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 3
-      - 亚太地区 CCZZUU.TOP
+      - 🇺🇸 美国 东北部七州电讯网
+      - 🇮🇪 爱尔兰 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 4
+      - 🇺🇸 美国 CCZZUU.TOP
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -140,12 +132,11 @@ proxy-groups:
       - 未知
       - 🇬🇧 英国 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 2
-      - 🇬🇧 英国 Microsoft公司
-      - 🇬🇧 英国 Microsoft公司 2
-      - 🇿🇦 南非 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 3
-      - 亚太地区 CCZZUU.TOP
+      - 🇺🇸 美国 东北部七州电讯网
+      - 🇮🇪 爱尔兰 CCZZUU.TOP
       - 🇬🇧 英国 CCZZUU.TOP 4
+      - 🇺🇸 美国 CCZZUU.TOP
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
