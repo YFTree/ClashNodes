@@ -5,12 +5,26 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 未知, server: efan.dnsefan04881.com, port: 7754, type: vmess, uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: 🇬🇧 英国 社会保险安全部, server: admin.c1.webramz.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, tfo: false}
-  - {name: 🇺🇸 美国 圣斯考拉斯蒂卡大学, server: 143.110.133.216, port: 2083, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, tfo: false}
-  - {name: 🇺🇸 美国 CCZZUU.TOP, server: 155.248.168.35, port: 18122, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, tfo: false}
-  - {name: 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司, server: 172.245.156.126, port: 2053, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, tfo: false}
-  - {name: 🇨🇳 安徽省马鞍山市 联通, server: 103.186.154.76, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇬🇧 英国 社会保险安全部 2, server: 51.210.151.193, port: 2053, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: true, servername: sni.111000.v6.navy, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.v6.navy}}, tfo: false}
+  - {name: 🇺🇦 乌克兰 CCZZUU.TOP, server: 31.43.179.191, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: true, servername: sni.my111000.tech, network: ws, ws-opts: {path: /, headers: {Host: sni.my111000.tech}}, tfo: false}
+  - {name: 🇺🇸 美国 Interland, server: 64.226.77.72, port: 2053, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: true, servername: sni.latonyamadeline.ndjp.net, network: ws, ws-opts: {path: "/?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=", headers: {Host: sni.latonyamadeline.ndjp.net}}, tfo: false}
+  - {name: 🇳🇱 荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心, server: 146.185.146.150, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: true, servername: sni.111000.v6.army, network: ws, ws-opts: {path: "/?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=", headers: {Host: sni.111000.v6.army}}, tfo: false}
+  - {name: 🇨🇳 安徽省马鞍山市 联通, server: 103.186.154.66, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇺🇸 美国 DXC Technology, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, tfo: false}
+  - {name: 🇨🇳 安徽省马鞍山市 联通 2, server: 103.186.154.73, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇨🇦 加拿大 VELCOM通讯, server: 104.234.50.53, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, tfo: false}
+  - {name: 🇩🇰 丹麦 CCZZUU.TOP, server: 185.162.231.138, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: true, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.indevs.in}}, tfo: false}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: cf9.danfeng.eu.org, port: 2096, type: vless, uuid: bafacd98-136a-4530-838d-4e5c51838dac, tls: true, skip-cert-verify: true, servername: juzi8186.qea.ccwu.cc, client-fingerprint: firefox, network: ws, ws-opts: {path: "/lib/soft/payment/juzibaipiao?ed=2560", headers: {Host: juzi8186.qea.ccwu.cc}}, tfo: false}
+  - {name: 🇺🇸 北美地区 CCZZUU.TOP, server: 107.172.88.191, port: 2096, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, tfo: false}
+  - {name: 🇨🇳 安徽省马鞍山市 联通 3, server: 103.186.154.62, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇬🇧 英国 CCZZUU.TOP, server: 46.250.230.93, port: 8443, type: vless, uuid: 981fca81-5be1-41f8-ac9b-d138e8109943, tls: true, skip-cert-verify: true, servername: babayaga-6i7.pages.dev, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳@WangCai2", headers: {Host: babayaga-6i7.pages.dev}}, tfo: false}
+  - {name: 欧盟 CCZZUU.TOP, server: 45.80.111.138, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: true, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.indevs.in}}, tfo: false}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: ciallo-egb.pages.dev, port: 2087, type: vless, uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9, tls: true, skip-cert-verify: true, servername: CIallO-egB.pAGes.Dev, network: ws, ws-opts: {path: //, headers: {Host: CIallO-egB.pAGes.Dev}}, tfo: false}
+  - {name: 🇺🇸 美国 CCZZUU.TOP, server: 167.68.5.191, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, skip-cert-verify: true, servername: sni.my111000.tech, network: ws, ws-opts: {path: /, headers: {Host: sni.my111000.tech}}, tfo: false}
+  - {name: 🇷🇺 俄罗斯 Rubtsovsk Branch of Altai State University, server: s298.okgg.top, port: 443, type: vless, uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: 3556s298.okgg.top, client-fingerprint: random, tfo: false}
+  - {name: 🇬🇷 希腊 CCZZUU.TOP, server: 92.118.126.170, port: 8443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, tfo: false}
+  - {name: 🇺🇸 美国 加利福尼亚, server: 64.181.218.67, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, tfo: false}
+  - {name: 🇨🇳 安徽省马鞍山市 联通 4, server: 103.186.154.178, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇸🇬 新加坡 DigitalOcean数据中心, server: 159.89.205.195, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -18,12 +32,26 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 未知
-      - 🇬🇧 英国 社会保险安全部
-      - 🇺🇸 美国 圣斯考拉斯蒂卡大学
-      - 🇺🇸 美国 CCZZUU.TOP
-      - 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司
+      - 🇺🇦 乌克兰 CCZZUU.TOP
+      - 🇺🇸 美国 Interland
+      - 🇳🇱 荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心
       - 🇨🇳 安徽省马鞍山市 联通
-      - 🇬🇧 英国 社会保险安全部 2
+      - 🇺🇸 美国 DXC Technology
+      - 🇨🇳 安徽省马鞍山市 联通 2
+      - 🇨🇦 加拿大 VELCOM通讯
+      - 🇩🇰 丹麦 CCZZUU.TOP
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 北美地区 CCZZUU.TOP
+      - 🇨🇳 安徽省马鞍山市 联通 3
+      - 🇬🇧 英国 CCZZUU.TOP
+      - 欧盟 CCZZUU.TOP
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CCZZUU.TOP
+      - 🇷🇺 俄罗斯 Rubtsovsk Branch of Altai State University
+      - 🇬🇷 希腊 CCZZUU.TOP
+      - 🇺🇸 美国 加利福尼亚
+      - 🇨🇳 安徽省马鞍山市 联通 4
+      - 🇸🇬 新加坡 DigitalOcean数据中心
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -31,12 +59,26 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 未知
-      - 🇬🇧 英国 社会保险安全部
-      - 🇺🇸 美国 圣斯考拉斯蒂卡大学
-      - 🇺🇸 美国 CCZZUU.TOP
-      - 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司
+      - 🇺🇦 乌克兰 CCZZUU.TOP
+      - 🇺🇸 美国 Interland
+      - 🇳🇱 荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心
       - 🇨🇳 安徽省马鞍山市 联通
-      - 🇬🇧 英国 社会保险安全部 2
+      - 🇺🇸 美国 DXC Technology
+      - 🇨🇳 安徽省马鞍山市 联通 2
+      - 🇨🇦 加拿大 VELCOM通讯
+      - 🇩🇰 丹麦 CCZZUU.TOP
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 北美地区 CCZZUU.TOP
+      - 🇨🇳 安徽省马鞍山市 联通 3
+      - 🇬🇧 英国 CCZZUU.TOP
+      - 欧盟 CCZZUU.TOP
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CCZZUU.TOP
+      - 🇷🇺 俄罗斯 Rubtsovsk Branch of Altai State University
+      - 🇬🇷 希腊 CCZZUU.TOP
+      - 🇺🇸 美国 加利福尼亚
+      - 🇨🇳 安徽省马鞍山市 联通 4
+      - 🇸🇬 新加坡 DigitalOcean数据中心
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -44,48 +86,104 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 未知
-      - 🇬🇧 英国 社会保险安全部
-      - 🇺🇸 美国 圣斯考拉斯蒂卡大学
-      - 🇺🇸 美国 CCZZUU.TOP
-      - 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司
+      - 🇺🇦 乌克兰 CCZZUU.TOP
+      - 🇺🇸 美国 Interland
+      - 🇳🇱 荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心
       - 🇨🇳 安徽省马鞍山市 联通
-      - 🇬🇧 英国 社会保险安全部 2
+      - 🇺🇸 美国 DXC Technology
+      - 🇨🇳 安徽省马鞍山市 联通 2
+      - 🇨🇦 加拿大 VELCOM通讯
+      - 🇩🇰 丹麦 CCZZUU.TOP
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 北美地区 CCZZUU.TOP
+      - 🇨🇳 安徽省马鞍山市 联通 3
+      - 🇬🇧 英国 CCZZUU.TOP
+      - 欧盟 CCZZUU.TOP
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CCZZUU.TOP
+      - 🇷🇺 俄罗斯 Rubtsovsk Branch of Altai State University
+      - 🇬🇷 希腊 CCZZUU.TOP
+      - 🇺🇸 美国 加利福尼亚
+      - 🇨🇳 安徽省马鞍山市 联通 4
+      - 🇸🇬 新加坡 DigitalOcean数据中心
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 未知
-      - 🇬🇧 英国 社会保险安全部
-      - 🇺🇸 美国 圣斯考拉斯蒂卡大学
-      - 🇺🇸 美国 CCZZUU.TOP
-      - 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司
+      - 🇺🇦 乌克兰 CCZZUU.TOP
+      - 🇺🇸 美国 Interland
+      - 🇳🇱 荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心
       - 🇨🇳 安徽省马鞍山市 联通
-      - 🇬🇧 英国 社会保险安全部 2
+      - 🇺🇸 美国 DXC Technology
+      - 🇨🇳 安徽省马鞍山市 联通 2
+      - 🇨🇦 加拿大 VELCOM通讯
+      - 🇩🇰 丹麦 CCZZUU.TOP
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 北美地区 CCZZUU.TOP
+      - 🇨🇳 安徽省马鞍山市 联通 3
+      - 🇬🇧 英国 CCZZUU.TOP
+      - 欧盟 CCZZUU.TOP
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CCZZUU.TOP
+      - 🇷🇺 俄罗斯 Rubtsovsk Branch of Altai State University
+      - 🇬🇷 希腊 CCZZUU.TOP
+      - 🇺🇸 美国 加利福尼亚
+      - 🇨🇳 安徽省马鞍山市 联通 4
+      - 🇸🇬 新加坡 DigitalOcean数据中心
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 未知
-      - 🇬🇧 英国 社会保险安全部
-      - 🇺🇸 美国 圣斯考拉斯蒂卡大学
-      - 🇺🇸 美国 CCZZUU.TOP
-      - 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司
+      - 🇺🇦 乌克兰 CCZZUU.TOP
+      - 🇺🇸 美国 Interland
+      - 🇳🇱 荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心
       - 🇨🇳 安徽省马鞍山市 联通
-      - 🇬🇧 英国 社会保险安全部 2
+      - 🇺🇸 美国 DXC Technology
+      - 🇨🇳 安徽省马鞍山市 联通 2
+      - 🇨🇦 加拿大 VELCOM通讯
+      - 🇩🇰 丹麦 CCZZUU.TOP
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 北美地区 CCZZUU.TOP
+      - 🇨🇳 安徽省马鞍山市 联通 3
+      - 🇬🇧 英国 CCZZUU.TOP
+      - 欧盟 CCZZUU.TOP
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CCZZUU.TOP
+      - 🇷🇺 俄罗斯 Rubtsovsk Branch of Altai State University
+      - 🇬🇷 希腊 CCZZUU.TOP
+      - 🇺🇸 美国 加利福尼亚
+      - 🇨🇳 安徽省马鞍山市 联通 4
+      - 🇸🇬 新加坡 DigitalOcean数据中心
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 未知
-      - 🇬🇧 英国 社会保险安全部
-      - 🇺🇸 美国 圣斯考拉斯蒂卡大学
-      - 🇺🇸 美国 CCZZUU.TOP
-      - 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司
+      - 🇺🇦 乌克兰 CCZZUU.TOP
+      - 🇺🇸 美国 Interland
+      - 🇳🇱 荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心
       - 🇨🇳 安徽省马鞍山市 联通
-      - 🇬🇧 英国 社会保险安全部 2
+      - 🇺🇸 美国 DXC Technology
+      - 🇨🇳 安徽省马鞍山市 联通 2
+      - 🇨🇦 加拿大 VELCOM通讯
+      - 🇩🇰 丹麦 CCZZUU.TOP
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 北美地区 CCZZUU.TOP
+      - 🇨🇳 安徽省马鞍山市 联通 3
+      - 🇬🇧 英国 CCZZUU.TOP
+      - 欧盟 CCZZUU.TOP
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CCZZUU.TOP
+      - 🇷🇺 俄罗斯 Rubtsovsk Branch of Altai State University
+      - 🇬🇷 希腊 CCZZUU.TOP
+      - 🇺🇸 美国 加利福尼亚
+      - 🇨🇳 安徽省马鞍山市 联通 4
+      - 🇸🇬 新加坡 DigitalOcean数据中心
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -93,12 +191,26 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 未知
-      - 🇬🇧 英国 社会保险安全部
-      - 🇺🇸 美国 圣斯考拉斯蒂卡大学
-      - 🇺🇸 美国 CCZZUU.TOP
-      - 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司
+      - 🇺🇦 乌克兰 CCZZUU.TOP
+      - 🇺🇸 美国 Interland
+      - 🇳🇱 荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心
       - 🇨🇳 安徽省马鞍山市 联通
-      - 🇬🇧 英国 社会保险安全部 2
+      - 🇺🇸 美国 DXC Technology
+      - 🇨🇳 安徽省马鞍山市 联通 2
+      - 🇨🇦 加拿大 VELCOM通讯
+      - 🇩🇰 丹麦 CCZZUU.TOP
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 北美地区 CCZZUU.TOP
+      - 🇨🇳 安徽省马鞍山市 联通 3
+      - 🇬🇧 英国 CCZZUU.TOP
+      - 欧盟 CCZZUU.TOP
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CCZZUU.TOP
+      - 🇷🇺 俄罗斯 Rubtsovsk Branch of Altai State University
+      - 🇬🇷 希腊 CCZZUU.TOP
+      - 🇺🇸 美国 加利福尼亚
+      - 🇨🇳 安徽省马鞍山市 联通 4
+      - 🇸🇬 新加坡 DigitalOcean数据中心
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -122,12 +234,26 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 未知
-      - 🇬🇧 英国 社会保险安全部
-      - 🇺🇸 美国 圣斯考拉斯蒂卡大学
-      - 🇺🇸 美国 CCZZUU.TOP
-      - 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司
+      - 🇺🇦 乌克兰 CCZZUU.TOP
+      - 🇺🇸 美国 Interland
+      - 🇳🇱 荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心
       - 🇨🇳 安徽省马鞍山市 联通
-      - 🇬🇧 英国 社会保险安全部 2
+      - 🇺🇸 美国 DXC Technology
+      - 🇨🇳 安徽省马鞍山市 联通 2
+      - 🇨🇦 加拿大 VELCOM通讯
+      - 🇩🇰 丹麦 CCZZUU.TOP
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 北美地区 CCZZUU.TOP
+      - 🇨🇳 安徽省马鞍山市 联通 3
+      - 🇬🇧 英国 CCZZUU.TOP
+      - 欧盟 CCZZUU.TOP
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CCZZUU.TOP
+      - 🇷🇺 俄罗斯 Rubtsovsk Branch of Altai State University
+      - 🇬🇷 希腊 CCZZUU.TOP
+      - 🇺🇸 美国 加利福尼亚
+      - 🇨🇳 安徽省马鞍山市 联通 4
+      - 🇸🇬 新加坡 DigitalOcean数据中心
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
