@@ -6,14 +6,17 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 未知, server: efan.dnsefan04881.com, port: 7754, type: vmess, uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇧🇬 保加利亚 starcorenode.com, server: 87.120.93.140, port: 443, type: vless, uuid: 91e120bc-159a-4390-b4e1-197b19602ea0, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: sub.sbrf-cdn342.ru, client-fingerprint: chrome, network: tcp}
-  - {name: 🇨🇳 台湾省 starcorenode.com, server: jpbgp.netvigor.cc, port: 19128, type: trojan, password: gcuCpQfaiVeDBdWG, sni: yazhou10.dynu.net, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 starcorenode.com, server: 149.28.255.6, port: 816, type: ss, cipher: chacha20-ietf-poly1305, password: GyZ5Xo0ht41vYmW3H4}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 162.159.13.206, port: 443, type: vless, uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df, tls: true, tfo: false, skip-cert-verify: false, servername: juzi.qea.ccwu.cc, network: ws, ws-opts: {path: /, headers: {Host: juzi.qea.ccwu.cc}}}
-  - {name: 🇬🇧 英国 starcorenode.com, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇬🇧 英国 starcorenode.com 2, server: 217.179.6.84, port: 443, type: vless, uuid: d78c12c4-6927-40b8-8550-ed9be00334da, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: UJSYKOEr3a3V1P_obd9zNBq4Pr3Vbd_a2nHE7-rstRk, short-id: "6089640857a72237" }, servername: France1cxc.chickenkiller.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🇨🇳 台湾省台北市 中华电信, server: r3mrcg001286ek2.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.20.6.134, port: 443, type: trojan, password: humanity, sni: www.calmloud.com, alpn: [http%2F1.1], skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmloud.com}}}
+  - {name: 🇺🇸 美国 Microsoft数据中心, server: 20.164.221.1, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: WUpTYsnFmIND14vx}
+  - {name: 🇳🇿 新西兰 starcorenode.com, server: 202.37.33.81, port: 443, type: vless, uuid: 3b01a777-55e7-49f6-8637-d94ee69607c6, tls: true, alpn: [http/1.1], tfo: false, skip-cert-verify: false, servername: m.udemy.com.cyylr.eu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /id-tksi, headers: {Host: m.udemy.com.cyylr.eu.cc}}}
+  - {name: 🇺🇸 美国 Akamai科技公司CDN网络节点, server: 172.236.220.10, port: 443, type: trojan, password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui, sni: 172.236.220.10, skip-cert-verify: false}
+  - {name: 🇧🇬 保加利亚 starcorenode.com, server: 87.120.126.205, port: 443, type: vless, uuid: 91e120bc-159a-4390-b4e1-197b19602ea0, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: sub.sbrf-cdn342.ru, client-fingerprint: chrome, network: tcp}
+  - {name: 🇺🇦 乌克兰 starcorenode.com, server: 91.225.217.28, port: 443, type: vless, uuid: 296bbba2-b100-4d91-b8df-3fe03cc863c4, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: CnFVrSvJ1Mhl_6QqKCCvXtEdlaJjN4MXWBkSswJ_gX0, short-id: "106c" }, servername: yahoo.com, client-fingerprint: chrome, network: tcp}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: a1-tss.pages.dev, port: 443, type: vless, uuid: f86f5a03-3872-46b5-bf03-a50388a0261d, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a1-tss.pages.dev}}}
+  - {name: 🇨🇳 台湾省 starcorenode.com, server: 211.76.176.98, port: 19128, type: trojan, password: gcuCpQfaiVeDBdWG, sni: yazhou10.dynu.net, skip-cert-verify: false}
+  - {name: 🇬🇧 英国 威尔士阿伯斯威大学, server: 144.124.228.113, port: 443, type: vless, uuid: ea484535-0170-4ec8-bb3c-a9dbaa7412d7, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: odHeTqoDcoPA6jeZStmaFPqoFg0ZiWwOKREEB0X-ez4, short-id: "e069bfaf9ba2069c" }, servername: nl3.panel11.ru, client-fingerprint: chrome, network: tcp}
+  - {name: 🇨🇳 台湾省 starcorenode.com 2, server: jpbgp.netvigor.cc, port: 19128, type: trojan, password: gcuCpQfaiVeDBdWG, sni: yazhou10.dynu.net, skip-cert-verify: false}
+  - {name: 🇩🇪 德国 黑森州法兰克福Linode数据中心, server: 172.104.237.100, port: 443, type: trojan, password: VPTFm=oZ++SuNT+jMRqGZqrAnWq-r8KJyY, sni: 172.104.237.100, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 starcorenode.com, server: 45.130.125.206, port: 443, type: vless, uuid: f9fa9ed3-1381-441c-8672-588cbedd012d, tls: true, tfo: false, skip-cert-verify: false, servername: r.bibak.bz, network: ws, ws-opts: {path: /, headers: {Host: r.bibak.bz}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -21,14 +24,17 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 未知
+      - 🇺🇸 美国 Microsoft数据中心
+      - 🇳🇿 新西兰 starcorenode.com
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
       - 🇧🇬 保加利亚 starcorenode.com
-      - 🇨🇳 台湾省 starcorenode.com
-      - 🇺🇸 美国 starcorenode.com
+      - 🇺🇦 乌克兰 starcorenode.com
       - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 starcorenode.com
-      - 🇬🇧 英国 starcorenode.com 2
-      - 🇨🇳 台湾省台北市 中华电信
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 台湾省 starcorenode.com
+      - 🇬🇧 英国 威尔士阿伯斯威大学
+      - 🇨🇳 台湾省 starcorenode.com 2
+      - 🇩🇪 德国 黑森州法兰克福Linode数据中心
+      - 🇺🇸 美国 starcorenode.com
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -36,14 +42,17 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 未知
+      - 🇺🇸 美国 Microsoft数据中心
+      - 🇳🇿 新西兰 starcorenode.com
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
       - 🇧🇬 保加利亚 starcorenode.com
-      - 🇨🇳 台湾省 starcorenode.com
-      - 🇺🇸 美国 starcorenode.com
+      - 🇺🇦 乌克兰 starcorenode.com
       - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 starcorenode.com
-      - 🇬🇧 英国 starcorenode.com 2
-      - 🇨🇳 台湾省台北市 中华电信
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 台湾省 starcorenode.com
+      - 🇬🇧 英国 威尔士阿伯斯威大学
+      - 🇨🇳 台湾省 starcorenode.com 2
+      - 🇩🇪 德国 黑森州法兰克福Linode数据中心
+      - 🇺🇸 美国 starcorenode.com
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -51,56 +60,68 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 未知
+      - 🇺🇸 美国 Microsoft数据中心
+      - 🇳🇿 新西兰 starcorenode.com
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
       - 🇧🇬 保加利亚 starcorenode.com
-      - 🇨🇳 台湾省 starcorenode.com
-      - 🇺🇸 美国 starcorenode.com
+      - 🇺🇦 乌克兰 starcorenode.com
       - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 starcorenode.com
-      - 🇬🇧 英国 starcorenode.com 2
-      - 🇨🇳 台湾省台北市 中华电信
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 台湾省 starcorenode.com
+      - 🇬🇧 英国 威尔士阿伯斯威大学
+      - 🇨🇳 台湾省 starcorenode.com 2
+      - 🇩🇪 德国 黑森州法兰克福Linode数据中心
+      - 🇺🇸 美国 starcorenode.com
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 未知
+      - 🇺🇸 美国 Microsoft数据中心
+      - 🇳🇿 新西兰 starcorenode.com
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
       - 🇧🇬 保加利亚 starcorenode.com
-      - 🇨🇳 台湾省 starcorenode.com
-      - 🇺🇸 美国 starcorenode.com
+      - 🇺🇦 乌克兰 starcorenode.com
       - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 starcorenode.com
-      - 🇬🇧 英国 starcorenode.com 2
-      - 🇨🇳 台湾省台北市 中华电信
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 台湾省 starcorenode.com
+      - 🇬🇧 英国 威尔士阿伯斯威大学
+      - 🇨🇳 台湾省 starcorenode.com 2
+      - 🇩🇪 德国 黑森州法兰克福Linode数据中心
+      - 🇺🇸 美国 starcorenode.com
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 未知
+      - 🇺🇸 美国 Microsoft数据中心
+      - 🇳🇿 新西兰 starcorenode.com
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
       - 🇧🇬 保加利亚 starcorenode.com
-      - 🇨🇳 台湾省 starcorenode.com
-      - 🇺🇸 美国 starcorenode.com
+      - 🇺🇦 乌克兰 starcorenode.com
       - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 starcorenode.com
-      - 🇬🇧 英国 starcorenode.com 2
-      - 🇨🇳 台湾省台北市 中华电信
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 台湾省 starcorenode.com
+      - 🇬🇧 英国 威尔士阿伯斯威大学
+      - 🇨🇳 台湾省 starcorenode.com 2
+      - 🇩🇪 德国 黑森州法兰克福Linode数据中心
+      - 🇺🇸 美国 starcorenode.com
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 未知
+      - 🇺🇸 美国 Microsoft数据中心
+      - 🇳🇿 新西兰 starcorenode.com
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
       - 🇧🇬 保加利亚 starcorenode.com
-      - 🇨🇳 台湾省 starcorenode.com
-      - 🇺🇸 美国 starcorenode.com
+      - 🇺🇦 乌克兰 starcorenode.com
       - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 starcorenode.com
-      - 🇬🇧 英国 starcorenode.com 2
-      - 🇨🇳 台湾省台北市 中华电信
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 台湾省 starcorenode.com
+      - 🇬🇧 英国 威尔士阿伯斯威大学
+      - 🇨🇳 台湾省 starcorenode.com 2
+      - 🇩🇪 德国 黑森州法兰克福Linode数据中心
+      - 🇺🇸 美国 starcorenode.com
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -108,14 +129,17 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 未知
+      - 🇺🇸 美国 Microsoft数据中心
+      - 🇳🇿 新西兰 starcorenode.com
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
       - 🇧🇬 保加利亚 starcorenode.com
-      - 🇨🇳 台湾省 starcorenode.com
-      - 🇺🇸 美国 starcorenode.com
+      - 🇺🇦 乌克兰 starcorenode.com
       - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 starcorenode.com
-      - 🇬🇧 英国 starcorenode.com 2
-      - 🇨🇳 台湾省台北市 中华电信
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 台湾省 starcorenode.com
+      - 🇬🇧 英国 威尔士阿伯斯威大学
+      - 🇨🇳 台湾省 starcorenode.com 2
+      - 🇩🇪 德国 黑森州法兰克福Linode数据中心
+      - 🇺🇸 美国 starcorenode.com
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -139,14 +163,17 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 未知
+      - 🇺🇸 美国 Microsoft数据中心
+      - 🇳🇿 新西兰 starcorenode.com
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
       - 🇧🇬 保加利亚 starcorenode.com
-      - 🇨🇳 台湾省 starcorenode.com
-      - 🇺🇸 美国 starcorenode.com
+      - 🇺🇦 乌克兰 starcorenode.com
       - 🇺🇸 美国 CloudFlare节点
-      - 🇬🇧 英国 starcorenode.com
-      - 🇬🇧 英国 starcorenode.com 2
-      - 🇨🇳 台湾省台北市 中华电信
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 台湾省 starcorenode.com
+      - 🇬🇧 英国 威尔士阿伯斯威大学
+      - 🇨🇳 台湾省 starcorenode.com 2
+      - 🇩🇪 德国 黑森州法兰克福Linode数据中心
+      - 🇺🇸 美国 starcorenode.com
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
