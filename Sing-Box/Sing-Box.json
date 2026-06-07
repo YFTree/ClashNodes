@@ -124,18 +124,14 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆",
-        "🇯🇵_JP_日本",
-        "🇹🇼_TW_中国台湾",
         "🇺🇸_US_美国",
+        "🇺🇸_US_美国_1",
+        "🇭🇰_HK_中国香港",
         "🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚",
         "🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_1",
-        "🇺🇸_US_美国_1",
-        "🇯🇵_JP_日本->🇺🇸_US_美国",
-        "🇯🇵_JP_日本->🇭🇰_HK_中国香港",
+        "🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_2",
         "🇺🇸_US_美国_2",
-        "🇭🇰_HK_中国香港",
-        "🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_2"
+        "🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆"
       ]
     },
     {
@@ -341,7 +337,6 @@
       "tag": "HongKong",
       "type": "selector",
       "outbounds": [
-        "🇯🇵_JP_日本->🇭🇰_HK_中国香港",
         "🇭🇰_HK_中国香港"
       ]
     },
@@ -349,7 +344,7 @@
       "tag": "TaiWan",
       "type": "selector",
       "outbounds": [
-        "🇹🇼_TW_中国台湾"
+        "Proxy"
       ]
     },
     {
@@ -363,20 +358,17 @@
       "tag": "Japan",
       "type": "selector",
       "outbounds": [
-        "🇯🇵_JP_日本",
-        "🇯🇵_JP_日本->🇺🇸_US_美国",
-        "🇯🇵_JP_日本->🇭🇰_HK_中国香港"
+        "Proxy"
       ]
     },
     {
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆",
         "🇺🇸_US_美国",
         "🇺🇸_US_美国_1",
-        "🇯🇵_JP_日本->🇺🇸_US_美国",
-        "🇺🇸_US_美国_2"
+        "🇺🇸_US_美国_2",
+        "🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆"
       ]
     },
     {
@@ -392,18 +384,14 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆",
-        "🇯🇵_JP_日本",
-        "🇹🇼_TW_中国台湾",
         "🇺🇸_US_美国",
+        "🇺🇸_US_美国_1",
+        "🇭🇰_HK_中国香港",
         "🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚",
         "🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_1",
-        "🇺🇸_US_美国_1",
-        "🇯🇵_JP_日本->🇺🇸_US_美国",
-        "🇯🇵_JP_日本->🇭🇰_HK_中国香港",
+        "🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_2",
         "🇺🇸_US_美国_2",
-        "🇭🇰_HK_中国香港",
-        "🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_2"
+        "🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -414,25 +402,12 @@
       "tag": "direct"
     },
     {
-      "tag": "🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆",
-      "type": "trojan",
-      "server": "90081bb25c.node.tro.cac.cab",
-      "server_port": 41943,
-      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
-      "network": "tcp",
-      "tls": {
-        "enabled": false,
-        "server_name": "az.01.naiun.bilibili.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵_JP_日本",
+      "tag": "🇺🇸_US_美国",
       "type": "vmess",
-      "server": "v6.hdacd.com",
-      "server_port": 30806,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-      "alter_id": 2,
+      "server": "82.198.246.250",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "alter_id": 0,
       "security": "auto",
       "tls": {
         "enabled": false,
@@ -440,20 +415,25 @@
       }
     },
     {
-      "tag": "🇹🇼_TW_中国台湾",
-      "type": "shadowsocks",
-      "server": "r3mrcg00129437x.cybervena.com",
-      "server_port": 50099,
-      "method": "chacha20-ietf-poly1305",
-      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-    },
-    {
-      "tag": "🇺🇸_US_美国",
+      "tag": "🇺🇸_US_美国_1",
       "type": "vmess",
       "server": "82.198.246.214",
       "server_port": 180,
       "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
       "alter_id": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇭🇰_HK_中国香港",
+      "type": "vmess",
+      "server": "v10.hdacd.com",
+      "server_port": 30807,
+      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+      "alter_id": 2,
       "security": "auto",
       "tls": {
         "enabled": false,
@@ -480,8 +460,8 @@
     {
       "tag": "🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_1",
       "type": "vless",
-      "server": "85.234.114.53",
-      "server_port": 443,
+      "server": "r1.mizulina.top",
+      "server_port": 22231,
       "uuid": "afcac633-0e1a-46c3-bef2-cc01cc0097c8",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -495,41 +475,19 @@
       }
     },
     {
-      "tag": "🇺🇸_US_美国_1",
-      "type": "vmess",
-      "server": "82.198.246.250",
-      "server_port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-      "alter_id": 0,
-      "security": "auto",
+      "tag": "🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_2",
+      "type": "vless",
+      "server": "85.234.114.53",
+      "server_port": 443,
+      "uuid": "afcac633-0e1a-46c3-bef2-cc01cc0097c8",
+      "flow": "xtls-rprx-vision",
       "tls": {
-        "enabled": false,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵_JP_日本->🇺🇸_US_美国",
-      "type": "vmess",
-      "server": "v4.hdacd.com",
-      "server_port": 30804,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-      "alter_id": 2,
-      "security": "auto",
-      "tls": {
-        "enabled": false,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵_JP_日本->🇭🇰_HK_中国香港",
-      "type": "vmess",
-      "server": "v9.hdacd.com",
-      "server_port": 30809,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-      "alter_id": 2,
-      "security": "auto",
-      "tls": {
-        "enabled": false,
+        "enabled": true,
+        "server_name": "r1.mizulina.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
         "insecure": true
       }
     },
@@ -547,32 +505,15 @@
       }
     },
     {
-      "tag": "🇭🇰_HK_中国香港",
-      "type": "vmess",
-      "server": "v10.hdacd.com",
-      "server_port": 30807,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-      "alter_id": 2,
-      "security": "auto",
+      "tag": "🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆",
+      "type": "trojan",
+      "server": "90081bb25c.node.tro.cac.cab",
+      "server_port": 41943,
+      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
+      "network": "tcp",
       "tls": {
         "enabled": false,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_2",
-      "type": "vless",
-      "server": "r1.mizulina.top",
-      "server_port": 22231,
-      "uuid": "afcac633-0e1a-46c3-bef2-cc01cc0097c8",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "r1.mizulina.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        },
+        "server_name": "az.01.naiun.bilibili.com",
         "insecure": true
       }
     }
