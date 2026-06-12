@@ -6,16 +6,18 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 未知, server: efan.dnsefan04881.com, port: 7754, type: vmess, uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 starcorenode.com, server: 167.82.0.1, port: 80, type: vless, uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: max-gb1.global.ssl.fastly.net}}}
-  - {name: 🇺🇸 美国 加利福尼亚, server: 64.176.65.85, port: 443, type: trojan, password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.20.6.134, port: 443, type: trojan, password: humanity, sni: www.calmloud.com, skip-cert-verify: false, network: ws, ws-opts: {path: /%2Fassignment, headers: {Host: www.calmloud.com}}}
-  - {name: 🇷🇴 罗马尼亚 starcorenode.com, server: 185.137.157.254, port: 443, type: trojan, password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd, sni: www.directorypipeline.click, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 Fastly全球Anycast节点, server: speedtest.net, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: max-gb1.global.ssl.fastly.net}}}
-  - {name: 🇨🇳 台湾省彰化县 中华电信, server: account-center.zzdy25.com, port: 36321, type: ss, cipher: chacha20-ietf-poly1305, password: a5115845-cc23-4082-905e-869fe212dfef}
-  - {name: 🇬🇧 英国 starcorenode.com, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇦 乌克兰 starcorenode.com, server: 94.131.127.154, port: 48877, type: ss, cipher: chacha20-ietf-poly1305, password: VZNRwzYN2qGsP7jqTdvpq5k6j3g7hU2dbM4Lkd3n9Uox324inf6PPUih2Qo9wfXEoGNCBhdDsrVutLmmvUZihMsmsuGpMu7R}
-  - {name: 🇷🇺 俄罗斯 starcorenode.com, server: r1.mizulina.top, port: 22231, type: vless, uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: r1.mizulina.top, client-fingerprint: edge, network: tcp}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 172.64.146.138, port: 443, type: vless, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, tls: true, tfo: false, skip-cert-verify: false, servername: octopusss4.com, client-fingerprint: chrome, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}}
+  - {name: 🇺🇸 美国 Linode数据中心, server: 172.105.9.126, port: 443, type: trojan, password: lTLVIqIvFqp+es9giS.0o77ztLrCQLaxVh, skip-cert-verify: false}
+  - {name: 🇸🇦 沙特阿拉伯 starcorenode.com, server: 213.165.56.102, port: 443, type: vless, uuid: 0a12381a-e241-4b63-a03c-1a5a45a95977, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g, short-id: "c8813f516bbb12c4" }, servername: freede.aiage.work, client-fingerprint: chrome, network: tcp}
+  - {name: 🇺🇸 美国 starcorenode.com, server: 149.104.87.182, port: 443, type: trojan, password: PtRV8to08i8FMsY.Uw7=yMuIaR3eVTGmvA, sni: www.jewelapp.click, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 加利福尼亚, server: 64.176.65.85, port: 443, type: trojan, password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf, sni: 64.176.65.85, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: cosmin.ns.cloudflare.com, port: 443, type: vless, uuid: 7270612b-49f6-4b04-999c-34d8263da767, tls: true, tfo: false, skip-cert-verify: false, servername: picassooo.info, client-fingerprint: chrome, network: ws, ws-opts: {path: /aymdlws, headers: {Host: picassooo.info}}}
+  - {name: 🇭🇰 香港 Amazon数据中心, server: ss.047.node-for-bigairport.win, port: 19001, type: ss, cipher: chacha20-ietf-poly1305, password: 792e0bdb-01db-450c-94c4-925151eb396e}
+  - {name: 🇺🇸 美国 Fastly全球Anycast节点, server: 151.101.2.219, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: max-gb1.global.ssl.fastly.net}}}
+  - {name: 🇺🇸 美国 佛罗里达州迈阿密市, server: ru.tgru.in, port: 443, type: vless, uuid: 33bd7d64-2b03-4b19-82e5-9610afde3c3d, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: 5HItszJ7XSKexeNn6F9BSdJLXTfSiCDwUSqLi1Hxd2Q, short-id: "cd85b2abe0feed49" }, servername: tgru.in, client-fingerprint: chrome, network: tcp}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.21.40.34, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.gossipglove.com}}}
+  - {name: 🇺🇸 美国 Nokia, server: 192.9.179.140, port: 51000, type: hysteria2, password: d1db0080-669a-4357-ab9f-ab16719ed736, auth: d1db0080-669a-4357-ab9f-ab16719ed736, sni: cn.cremedelamer.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 starcorenode.com 2, server: 167.82.0.1, port: 80, type: vless, uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: max-gb1.global.ssl.fastly.net}}}
+  - {name: 🇷🇺 俄罗斯 starcorenode.com, server: ru2.cdn-global.pro, port: 443, type: vless, uuid: d4d234ea-80ea-4820-ac5e-05d653960579, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: FaFJaC1LA4xpzdDY1e0suuH8IBDYdRbjUFH3c-BgRBY, short-id: "c8b5e9595f818d04" }, servername: ru2.cdn-global.pro, client-fingerprint: chrome, network: tcp}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -23,16 +25,18 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 未知
+      - 🇺🇸 美国 Linode数据中心
+      - 🇸🇦 沙特阿拉伯 starcorenode.com
       - 🇺🇸 美国 starcorenode.com
       - 🇺🇸 美国 加利福尼亚
       - 🇺🇸 美国 CloudFlare节点
-      - 🇷🇴 罗马尼亚 starcorenode.com
+      - 🇭🇰 香港 Amazon数据中心
       - 🇺🇸 美国 Fastly全球Anycast节点
-      - 🇨🇳 台湾省彰化县 中华电信
-      - 🇬🇧 英国 starcorenode.com
-      - 🇺🇦 乌克兰 starcorenode.com
-      - 🇷🇺 俄罗斯 starcorenode.com
+      - 🇺🇸 美国 佛罗里达州迈阿密市
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 Nokia
+      - 🇺🇸 美国 starcorenode.com 2
+      - 🇷🇺 俄罗斯 starcorenode.com
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -40,16 +44,18 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 未知
+      - 🇺🇸 美国 Linode数据中心
+      - 🇸🇦 沙特阿拉伯 starcorenode.com
       - 🇺🇸 美国 starcorenode.com
       - 🇺🇸 美国 加利福尼亚
       - 🇺🇸 美国 CloudFlare节点
-      - 🇷🇴 罗马尼亚 starcorenode.com
+      - 🇭🇰 香港 Amazon数据中心
       - 🇺🇸 美国 Fastly全球Anycast节点
-      - 🇨🇳 台湾省彰化县 中华电信
-      - 🇬🇧 英国 starcorenode.com
-      - 🇺🇦 乌克兰 starcorenode.com
-      - 🇷🇺 俄罗斯 starcorenode.com
+      - 🇺🇸 美国 佛罗里达州迈阿密市
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 Nokia
+      - 🇺🇸 美国 starcorenode.com 2
+      - 🇷🇺 俄罗斯 starcorenode.com
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -57,64 +63,72 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 未知
+      - 🇺🇸 美国 Linode数据中心
+      - 🇸🇦 沙特阿拉伯 starcorenode.com
       - 🇺🇸 美国 starcorenode.com
       - 🇺🇸 美国 加利福尼亚
       - 🇺🇸 美国 CloudFlare节点
-      - 🇷🇴 罗马尼亚 starcorenode.com
+      - 🇭🇰 香港 Amazon数据中心
       - 🇺🇸 美国 Fastly全球Anycast节点
-      - 🇨🇳 台湾省彰化县 中华电信
-      - 🇬🇧 英国 starcorenode.com
-      - 🇺🇦 乌克兰 starcorenode.com
-      - 🇷🇺 俄罗斯 starcorenode.com
+      - 🇺🇸 美国 佛罗里达州迈阿密市
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 Nokia
+      - 🇺🇸 美国 starcorenode.com 2
+      - 🇷🇺 俄罗斯 starcorenode.com
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 未知
+      - 🇺🇸 美国 Linode数据中心
+      - 🇸🇦 沙特阿拉伯 starcorenode.com
       - 🇺🇸 美国 starcorenode.com
       - 🇺🇸 美国 加利福尼亚
       - 🇺🇸 美国 CloudFlare节点
-      - 🇷🇴 罗马尼亚 starcorenode.com
+      - 🇭🇰 香港 Amazon数据中心
       - 🇺🇸 美国 Fastly全球Anycast节点
-      - 🇨🇳 台湾省彰化县 中华电信
-      - 🇬🇧 英国 starcorenode.com
-      - 🇺🇦 乌克兰 starcorenode.com
-      - 🇷🇺 俄罗斯 starcorenode.com
+      - 🇺🇸 美国 佛罗里达州迈阿密市
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 Nokia
+      - 🇺🇸 美国 starcorenode.com 2
+      - 🇷🇺 俄罗斯 starcorenode.com
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 未知
+      - 🇺🇸 美国 Linode数据中心
+      - 🇸🇦 沙特阿拉伯 starcorenode.com
       - 🇺🇸 美国 starcorenode.com
       - 🇺🇸 美国 加利福尼亚
       - 🇺🇸 美国 CloudFlare节点
-      - 🇷🇴 罗马尼亚 starcorenode.com
+      - 🇭🇰 香港 Amazon数据中心
       - 🇺🇸 美国 Fastly全球Anycast节点
-      - 🇨🇳 台湾省彰化县 中华电信
-      - 🇬🇧 英国 starcorenode.com
-      - 🇺🇦 乌克兰 starcorenode.com
-      - 🇷🇺 俄罗斯 starcorenode.com
+      - 🇺🇸 美国 佛罗里达州迈阿密市
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 Nokia
+      - 🇺🇸 美国 starcorenode.com 2
+      - 🇷🇺 俄罗斯 starcorenode.com
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 未知
+      - 🇺🇸 美国 Linode数据中心
+      - 🇸🇦 沙特阿拉伯 starcorenode.com
       - 🇺🇸 美国 starcorenode.com
       - 🇺🇸 美国 加利福尼亚
       - 🇺🇸 美国 CloudFlare节点
-      - 🇷🇴 罗马尼亚 starcorenode.com
+      - 🇭🇰 香港 Amazon数据中心
       - 🇺🇸 美国 Fastly全球Anycast节点
-      - 🇨🇳 台湾省彰化县 中华电信
-      - 🇬🇧 英国 starcorenode.com
-      - 🇺🇦 乌克兰 starcorenode.com
-      - 🇷🇺 俄罗斯 starcorenode.com
+      - 🇺🇸 美国 佛罗里达州迈阿密市
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 Nokia
+      - 🇺🇸 美国 starcorenode.com 2
+      - 🇷🇺 俄罗斯 starcorenode.com
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -122,16 +136,18 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 未知
+      - 🇺🇸 美国 Linode数据中心
+      - 🇸🇦 沙特阿拉伯 starcorenode.com
       - 🇺🇸 美国 starcorenode.com
       - 🇺🇸 美国 加利福尼亚
       - 🇺🇸 美国 CloudFlare节点
-      - 🇷🇴 罗马尼亚 starcorenode.com
+      - 🇭🇰 香港 Amazon数据中心
       - 🇺🇸 美国 Fastly全球Anycast节点
-      - 🇨🇳 台湾省彰化县 中华电信
-      - 🇬🇧 英国 starcorenode.com
-      - 🇺🇦 乌克兰 starcorenode.com
-      - 🇷🇺 俄罗斯 starcorenode.com
+      - 🇺🇸 美国 佛罗里达州迈阿密市
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 Nokia
+      - 🇺🇸 美国 starcorenode.com 2
+      - 🇷🇺 俄罗斯 starcorenode.com
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -155,16 +171,18 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 未知
+      - 🇺🇸 美国 Linode数据中心
+      - 🇸🇦 沙特阿拉伯 starcorenode.com
       - 🇺🇸 美国 starcorenode.com
       - 🇺🇸 美国 加利福尼亚
       - 🇺🇸 美国 CloudFlare节点
-      - 🇷🇴 罗马尼亚 starcorenode.com
+      - 🇭🇰 香港 Amazon数据中心
       - 🇺🇸 美国 Fastly全球Anycast节点
-      - 🇨🇳 台湾省彰化县 中华电信
-      - 🇬🇧 英国 starcorenode.com
-      - 🇺🇦 乌克兰 starcorenode.com
-      - 🇷🇺 俄罗斯 starcorenode.com
+      - 🇺🇸 美国 佛罗里达州迈阿密市
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 Nokia
+      - 🇺🇸 美国 starcorenode.com 2
+      - 🇷🇺 俄罗斯 starcorenode.com
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
