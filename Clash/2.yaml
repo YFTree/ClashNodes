@@ -6,14 +6,15 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 未知, server: efan.dnsefan04881.com, port: 7754, type: vmess, uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇬🇧 英国 starcorenode.com, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇮🇷 伊朗 starcorenode.com, server: 46.225.155.159, port: 1006, type: vless, uuid: ad356e93-cc14-417d-9f4e-32376d03f5b7, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: 2iijxUyJsanFAkX0ctH6H4RTW1N4mQYnIsaP8qrbbS8, short-id: "0c3a409c2ba7d083" }, servername: yahoo.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🇭🇷 克罗地亚 starcorenode.com, server: cdn7-09.vk-cdnvideo.com, port: 8443, type: vless, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, tls: true, tfo: false, skip-cert-verify: false, servername: cdn7-09.vk-cdnvideo.com, network: tcp}
-  - {name: 🇱🇹 立陶宛 starcorenode.com, server: 89.116.46.68, port: 443, type: vless, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, tls: true, tfo: false, skip-cert-verify: false, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}}
-  - {name: 🇿🇦 南非 starcorenode.com, server: fr-gt-01.com, port: 8443, type: vless, uuid: a6349c3f-5234-4821-80b4-d99b33f0924d, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA, short-id: "f34818a561dfd1fe" }, servername: storage.yandex.net, client-fingerprint: chrome, network: tcp}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.20.6.134, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}}
-  - {name: "@chillguy_vpn", server: library2.ketabkhane.dpdns.org, port: 2083, type: vless, uuid: 95497965-318f-4c12-81e5-248698de07ed, tls: true, alpn: ["h2,http/1.1,h3"], tfo: false, skip-cert-verify: false, servername: library2.ketabkhane.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /api, headers: {Host: library2.ketabkhane.dpdns.org}}}
-  - {name: 🇬🇧 英国 starcorenode.com 2, server: 185.126.236.44, port: 443, type: trojan, password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL, sni: www.mesaly.click, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 starcorenode.com, server: cdn9-33.vk-cdnvideo.com, port: 8443, type: vless, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, tls: true, tfo: false, skip-cert-verify: false, network: tcp}
+  - {name: 🇺🇸 美国 Fastly全球Anycast节点, server: 151.101.2.219, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: max-gb1.global.ssl.fastly.net}}}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.17.121.9, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, alpn: [http%2F1.1], skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}}
+  - {name: 🇺🇸 美国 starcorenode.com 2, server: 167.82.0.1, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: max-gb1.global.ssl.fastly.net}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.20.6.134, port: 443, type: trojan, password: humanity, sni: www.calmloud.com, alpn: [http%2F1.1], skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmloud.com}}}
+  - {name: 🇬🇧 英国 starcorenode.com, server: 185.126.236.44, port: 443, type: trojan, password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL, sni: www.mesaly.click, skip-cert-verify: false}
+  - {name: 🇩🇪 德国 starcorenode.com, server: 91.233.8.25, port: 443, type: trojan, password: I1vtf6pjYsAu-nFnraWAMjKTy90AHitdAz, sni: fra34.tracker-ws.click, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 starcorenode.com 3, server: 199.232.197.131, port: 80, type: vless, uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: max-gb1.global.ssl.fastly.net}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: www.parsvds.com, port: 8080, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tr-cd.sublink-vip2.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -21,14 +22,15 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 未知
-      - 🇬🇧 英国 starcorenode.com
-      - 🇮🇷 伊朗 starcorenode.com
-      - 🇭🇷 克罗地亚 starcorenode.com
-      - 🇱🇹 立陶宛 starcorenode.com
-      - 🇿🇦 南非 starcorenode.com
+      - 🇺🇸 美国 starcorenode.com
+      - 🇺🇸 美国 Fastly全球Anycast节点
       - 🇺🇸 美国 CloudFlare节点
-      - "@chillguy_vpn"
-      - 🇬🇧 英国 starcorenode.com 2
+      - 🇺🇸 美国 starcorenode.com 2
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇬🇧 英国 starcorenode.com
+      - 🇩🇪 德国 starcorenode.com
+      - 🇺🇸 美国 starcorenode.com 3
+      - 🇺🇸 美国 CloudFlare节点 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -36,14 +38,15 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 未知
-      - 🇬🇧 英国 starcorenode.com
-      - 🇮🇷 伊朗 starcorenode.com
-      - 🇭🇷 克罗地亚 starcorenode.com
-      - 🇱🇹 立陶宛 starcorenode.com
-      - 🇿🇦 南非 starcorenode.com
+      - 🇺🇸 美国 starcorenode.com
+      - 🇺🇸 美国 Fastly全球Anycast节点
       - 🇺🇸 美国 CloudFlare节点
-      - "@chillguy_vpn"
-      - 🇬🇧 英国 starcorenode.com 2
+      - 🇺🇸 美国 starcorenode.com 2
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇬🇧 英国 starcorenode.com
+      - 🇩🇪 德国 starcorenode.com
+      - 🇺🇸 美国 starcorenode.com 3
+      - 🇺🇸 美国 CloudFlare节点 3
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -51,56 +54,60 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 未知
-      - 🇬🇧 英国 starcorenode.com
-      - 🇮🇷 伊朗 starcorenode.com
-      - 🇭🇷 克罗地亚 starcorenode.com
-      - 🇱🇹 立陶宛 starcorenode.com
-      - 🇿🇦 南非 starcorenode.com
+      - 🇺🇸 美国 starcorenode.com
+      - 🇺🇸 美国 Fastly全球Anycast节点
       - 🇺🇸 美国 CloudFlare节点
-      - "@chillguy_vpn"
-      - 🇬🇧 英国 starcorenode.com 2
+      - 🇺🇸 美国 starcorenode.com 2
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇬🇧 英国 starcorenode.com
+      - 🇩🇪 德国 starcorenode.com
+      - 🇺🇸 美国 starcorenode.com 3
+      - 🇺🇸 美国 CloudFlare节点 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 未知
-      - 🇬🇧 英国 starcorenode.com
-      - 🇮🇷 伊朗 starcorenode.com
-      - 🇭🇷 克罗地亚 starcorenode.com
-      - 🇱🇹 立陶宛 starcorenode.com
-      - 🇿🇦 南非 starcorenode.com
+      - 🇺🇸 美国 starcorenode.com
+      - 🇺🇸 美国 Fastly全球Anycast节点
       - 🇺🇸 美国 CloudFlare节点
-      - "@chillguy_vpn"
-      - 🇬🇧 英国 starcorenode.com 2
+      - 🇺🇸 美国 starcorenode.com 2
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇬🇧 英国 starcorenode.com
+      - 🇩🇪 德国 starcorenode.com
+      - 🇺🇸 美国 starcorenode.com 3
+      - 🇺🇸 美国 CloudFlare节点 3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 未知
-      - 🇬🇧 英国 starcorenode.com
-      - 🇮🇷 伊朗 starcorenode.com
-      - 🇭🇷 克罗地亚 starcorenode.com
-      - 🇱🇹 立陶宛 starcorenode.com
-      - 🇿🇦 南非 starcorenode.com
+      - 🇺🇸 美国 starcorenode.com
+      - 🇺🇸 美国 Fastly全球Anycast节点
       - 🇺🇸 美国 CloudFlare节点
-      - "@chillguy_vpn"
-      - 🇬🇧 英国 starcorenode.com 2
+      - 🇺🇸 美国 starcorenode.com 2
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇬🇧 英国 starcorenode.com
+      - 🇩🇪 德国 starcorenode.com
+      - 🇺🇸 美国 starcorenode.com 3
+      - 🇺🇸 美国 CloudFlare节点 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 未知
-      - 🇬🇧 英国 starcorenode.com
-      - 🇮🇷 伊朗 starcorenode.com
-      - 🇭🇷 克罗地亚 starcorenode.com
-      - 🇱🇹 立陶宛 starcorenode.com
-      - 🇿🇦 南非 starcorenode.com
+      - 🇺🇸 美国 starcorenode.com
+      - 🇺🇸 美国 Fastly全球Anycast节点
       - 🇺🇸 美国 CloudFlare节点
-      - "@chillguy_vpn"
-      - 🇬🇧 英国 starcorenode.com 2
+      - 🇺🇸 美国 starcorenode.com 2
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇬🇧 英国 starcorenode.com
+      - 🇩🇪 德国 starcorenode.com
+      - 🇺🇸 美国 starcorenode.com 3
+      - 🇺🇸 美国 CloudFlare节点 3
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -108,14 +115,15 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 未知
-      - 🇬🇧 英国 starcorenode.com
-      - 🇮🇷 伊朗 starcorenode.com
-      - 🇭🇷 克罗地亚 starcorenode.com
-      - 🇱🇹 立陶宛 starcorenode.com
-      - 🇿🇦 南非 starcorenode.com
+      - 🇺🇸 美国 starcorenode.com
+      - 🇺🇸 美国 Fastly全球Anycast节点
       - 🇺🇸 美国 CloudFlare节点
-      - "@chillguy_vpn"
-      - 🇬🇧 英国 starcorenode.com 2
+      - 🇺🇸 美国 starcorenode.com 2
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇬🇧 英国 starcorenode.com
+      - 🇩🇪 德国 starcorenode.com
+      - 🇺🇸 美国 starcorenode.com 3
+      - 🇺🇸 美国 CloudFlare节点 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -139,14 +147,15 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 未知
-      - 🇬🇧 英国 starcorenode.com
-      - 🇮🇷 伊朗 starcorenode.com
-      - 🇭🇷 克罗地亚 starcorenode.com
-      - 🇱🇹 立陶宛 starcorenode.com
-      - 🇿🇦 南非 starcorenode.com
+      - 🇺🇸 美国 starcorenode.com
+      - 🇺🇸 美国 Fastly全球Anycast节点
       - 🇺🇸 美国 CloudFlare节点
-      - "@chillguy_vpn"
-      - 🇬🇧 英国 starcorenode.com 2
+      - 🇺🇸 美国 starcorenode.com 2
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇬🇧 英国 starcorenode.com
+      - 🇩🇪 德国 starcorenode.com
+      - 🇺🇸 美国 starcorenode.com 3
+      - 🇺🇸 美国 CloudFlare节点 3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

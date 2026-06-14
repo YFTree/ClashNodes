@@ -9,61 +9,73 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: 🇺🇸 US美国, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 US美国 2, server: 155.117.198.85, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US美国 3, server: 155.117.198.85, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US美国 4, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true}
-  - {name: 🇺🇸 US美国 5, server: 2a02:6ea0:d32f::f8fe:349b, port: 24202, type: vmess, uuid: b20a7042-70ff-4376-a79f-b68f9edb7519, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999-newpac/fanqiang}, udp: true}
-  - {name: 🇺🇸 US美国 6, server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, udp: true}
-  - {name: 🇺🇸 US美国 7, server: 155.117.198.85, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US美国 8, server: 103.177.136.45, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US美国 9, server: 103.177.136.42, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US美国 10, server: 103.177.136.42, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP日本, server: 2a02:6ea0:d32f::f8fe:349b, port: 24202, type: vmess, uuid: b20a7042-70ff-4376-a79f-b68f9edb7519, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999-newpac/fanqiang, headers: {Host: 2a02:6ea0:d32f::f8fe:349b}}, udp: true}
-  - {name: 🇬🇧 GB英国, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true}
-  - {name: 🇬🇧 GB英国 2, server: 155.117.198.85, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GB英国 3, server: 103.177.136.42, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 KR韩国, server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, udp: true}
+  - {name: 🇵🇱 PL波兰, server: 208.103.161.101, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true}
   - {name: 🇩🇪 DE德国, server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, udp: true}
-  - {name: 🇯🇵 JP日本 2, server: 2a02:6ea0:d32f::f8fe:349b, port: 24202, type: vmess, uuid: b20a7042-70ff-4376-a79f-b68f9edb7519, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999-newpac/fanqiang, headers: {Host: 2a02:6ea0:d32f::f8fe:349b}}, udp: true}
-  - {name: 🇯🇵 JP日本 3, server: cu1.ainivp.com, port: 33105, type: vmess, uuid: 9204afcd-026e-781f-1abc-c03efabd1344, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cu1.ainivp.com, network: ws, ws-opts: {path: /ray, headers: {Host: cu1.ainivp.com}}, udp: true}
-  - {name: 🇺🇸 US美国 11, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 US美国 12, server: 2a02:6ea0:d32f::f8fe:349b, port: 24202, type: vmess, uuid: b20a7042-70ff-4376-a79f-b68f9edb7519, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999-newpac/fanqiang}, udp: true}
-  - {name: 🇺🇸 US美国 13, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true}
-  - {name: 🇺🇸 US美国 14, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true}
-  - {name: 🇺🇸 US美国 15, server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, udp: true}
-  - {name: 🇺🇸 US美国 16, server: 155.117.198.85, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US美国 17, server: 155.117.198.85, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US美国 18, server: 155.117.198.85, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US美国 19, server: 155.117.198.85, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US美国 20, server: 103.177.136.45, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US美国 21, server: 103.177.136.42, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US美国 22, server: 103.177.136.42, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US美国 23, server: 103.177.136.42, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US美国 24, server: 103.130.147.40, port: 1122, type: ss, cipher: aes-256-gcm, password: wc/eqRPrYjnxfAJ2JKnio7cG2Ko9K9DiMwzonRjU3LI=, udp: true}
-  - {name: 🇺🇸 US美国 25, server: 104.16.0.0, port: 443, type: vmess, uuid: 95d2c461-61f5-4dae-bc74-4d10ce1f6236, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gongyilm.dpdns.org, network: ws, ws-opts: {path: /ws-gongyi, headers: {Host: gongyilm.dpdns.org}}, udp: true}
-  - {name: 🇫🇮 芬兰, server: 144.31.7.129, port: 51523, type: ss, cipher: chacha20-ietf-poly1305, password: tndCP2Df9-PTx_J0sZeoHmTdvkg0w4Kv, udp: true}
-  - {name: 🇺🇸 US美国 26, server: 195.58.48.56, port: 20129, type: ss, cipher: aes-256-gcm, password: 1a87017d0bf57f34, udp: true}
-  - {name: 🇺🇸 US美国 27, server: 212.192.15.177, port: 12091, type: ss, cipher: aes-256-gcm, password: 7e1dd4c55bf85da5, udp: true}
-  - {name: 🇺🇸 US美国 28, server: 194.87.10.64, port: 8388, type: ss, cipher: aes-256-gcm, password: cVWCAynqXkYe, udp: true}
-  - {name: 🇺🇸 US美国 29, server: 212.193.6.184, port: 50128, type: ss, cipher: aes-256-gcm, password: 444ec1bb5b77df8c, udp: true}
-  - {name: 🇺🇸 US美国 30, server: 176.32.39.96, port: 8033, type: ss, cipher: aes-256-gcm, password: fbaf33bcffe53cf9, udp: true}
-  - {name: 🇺🇸 US美国 31, server: 185.22.154.46, port: 20129, type: ss, cipher: aes-256-gcm, password: 32c0ea6e823341a2, udp: true}
-  - {name: 🇺🇸 US美国 32, server: 185.22.154.170, port: 8033, type: ss, cipher: aes-256-gcm, password: c5fcdf7829112cb4, udp: true}
-  - {name: 🇺🇸 US美国 33, server: 46.17.40.130, port: 8033, type: ss, cipher: aes-256-gcm, password: 4bf7fbdbfb76ee37, udp: true}
-  - {name: 🇺🇸 US美国 34, server: 185.22.154.212, port: 50129, type: ss, cipher: aes-256-gcm, password: cfe685726eea2c4b, udp: true}
-  - {name: 🇺🇸 US美国 35, server: 103.177.136.45, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US美国 36, server: 103.177.136.42, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US美国 37, server: 103.177.136.42, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 FR法国, server: 104.17.238.76, port: 443, type: trojan, password: 407ecce0-dc85-465f-89f5-e520e9378baf, sni: ld.223350.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: ld.223350.xyz}}, udp: true}
+  - {name: 🇳🇱 NL荷兰, server: 207.148.125.245, port: 8443, type: trojan, password: eeb6823c-b926-4ea2-866a-5542edd26e59, sni: tjsp.hhxaf.cc.cd, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tjsp.hhxaf.cc.cd}}, udp: true}
+  - {name: 🇳🇱 NL荷兰 2, server: 139.180.222.3, port: 443, type: trojan, password: eeb6823c-b926-4ea2-866a-5542edd26e59, sni: tjsp.hhxaf.cc.cd, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tjsp.hhxaf.cc.cd}}, udp: true}
+  - {name: 🇳🇱 NL荷兰 3, server: 154.26.180.8, port: 443, type: trojan, password: eeb6823c-b926-4ea2-866a-5542edd26e59, sni: tjsp.hhxaf.cc.cd, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tjsp.hhxaf.cc.cd}}, udp: true}
+  - {name: 🇳🇱 NL荷兰 4, server: 45.77.129.86, port: 2053, type: trojan, password: eeb6823c-b926-4ea2-866a-5542edd26e59, sni: tjsp.hhxaf.cc.cd, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tjsp.hhxaf.cc.cd}}, udp: true}
+  - {name: 🇳🇱 NL荷兰 5, server: 45.136.14.61, port: 2053, type: trojan, password: eeb6823c-b926-4ea2-866a-5542edd26e59, sni: tjsp.hhxaf.cc.cd, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tjsp.hhxaf.cc.cd}}, udp: true}
+  - {name: 🇳🇱 NL荷兰 6, server: 154.17.4.159, port: 2053, type: trojan, password: eeb6823c-b926-4ea2-866a-5542edd26e59, sni: hhcm.hhxaf.cc.cd, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hhcm.hhxaf.cc.cd}}, udp: true}
+  - {name: 🇺🇸 US美国, server: 195.133.23.28, port: 8033, type: ss, cipher: aes-256-gcm, password: 9f3d1a6d31468599, udp: true}
+  - {name: 🇺🇸 US美国 2, server: 176.32.39.96, port: 20991, type: ss, cipher: aes-256-gcm, password: fbaf33bcffe53cf9, udp: true}
+  - {name: 🇺🇸 US美国 3, server: 165.227.60.163, port: 2082, type: vmess, uuid: 52b09f69-a832-4070-b9c3-6f10aeb24c6a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 52b09f69-a832-4070-b9c3-6f10aeb24c6a-vm}, udp: true}
+  - {name: 🇺🇸 US美国 4, server: 2.26.54.174, port: 8448, type: trojan, password: TrojanPass2026%21, sni: foolsland.ru, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 5, server: 172.64.146.27, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.gossipglove.com}}, udp: true}
+  - {name: 🇺🇸 US美国 6, server: 104.18.152.144, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 US美国 7, server: 166.88.130.112, port: 50128, type: ss, cipher: aes-256-gcm, password: 444ec1bb5b77df8c, udp: true}
+  - {name: 🇺🇸 US美国 8, server: 140.245.62.90, port: 2096, type: trojan, password: eeb6823c-b926-4ea2-866a-5542edd26e59, sni: tjsp.hhxaf.cc.cd, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tjsp.hhxaf.cc.cd}}, udp: true}
+  - {name: 🇺🇸 US美国 9, server: 45.38.42.198, port: 2053, type: trojan, password: eeb6823c-b926-4ea2-866a-5542edd26e59, sni: tjsp.hhxaf.cc.cd, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tjsp.hhxaf.cc.cd}}, udp: true}
+  - {name: 🇺🇸 US美国 10, server: 46.29.163.195, port: 50129, type: ss, cipher: aes-256-gcm, password: b24a80e79cee1d1f, udp: true}
+  - {name: 🇺🇸 US美国 11, server: 195.58.48.56, port: 50801, type: ss, cipher: aes-256-gcm, password: 1a87017d0bf57f34, udp: true}
+  - {name: 🇺🇸 US美国 12, server: cu2.ainivp.com, port: 33200, type: vmess, uuid: 9204afcd-026e-781f-1abc-c03efabd1344, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: cu2.ainivp.com}}, udp: true}
+  - {name: 🇺🇸 US美国 13, server: 194.87.10.208, port: 8388, type: ss, cipher: aes-256-gcm, password: bgrCCpbqrcST, udp: true}
+  - {name: 🇺🇸 US美国 14, server: 103.177.136.45, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 15, server: 103.177.136.45, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 16, server: 103.177.136.45, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 17, server: 103.177.136.45, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 18, server: 103.177.136.42, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 19, server: 212.192.15.212, port: 8388, type: ss, cipher: aes-256-gcm, password: zoA4EgBRBUpH, udp: true}
+  - {name: 🇺🇸 US美国 20, server: 103.177.136.42, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 21, server: 103.177.136.42, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 22, server: 103.177.136.42, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 23, server: 2a02:6ea0:d32f::f8fe:349b, port: 24202, type: vmess, uuid: b20a7042-70ff-4376-a79f-b68f9edb7519, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999-newpac/fanqiang}, udp: true}
+  - {name: 🇺🇸 US美国 24, server: 103.177.136.42, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 25, server: 103.177.136.45, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 26, server: 103.177.136.42, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 27, server: 103.177.136.45, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP日本, server: 2a02:6ea0:d32f::f8fe:349b, port: 24202, type: vmess, uuid: b20a7042-70ff-4376-a79f-b68f9edb7519, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999-newpac/fanqiang, headers: {Host: 2a02:6ea0:d32f::f8fe:349b}}, udp: true}
   - {name: 🇩🇪 DE德国 2, server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, udp: true}
-  - {name: 🇩🇪 DE德国 3, server: "@...", port: 0, type: socks5, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇺 AU澳大利亚, server: 104.19.229.21, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true}
+  - {name: 🇬🇧 GB英国, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true}
+  - {name: 🇬🇧 GB英国 2, server: 103.177.136.42, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP日本 2, server: 2a02:6ea0:d32f::f8fe:349b, port: 24202, type: vmess, uuid: b20a7042-70ff-4376-a79f-b68f9edb7519, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999-newpac/fanqiang, headers: {Host: 2a02:6ea0:d32f::f8fe:349b}}, udp: true}
+  - {name: 🇺🇸 US美国 28, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 US美国 29, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true}
+  - {name: 🇺🇸 US美国 30, server: 2a02:6ea0:d32f::f8fe:349b, port: 24202, type: vmess, uuid: b20a7042-70ff-4376-a79f-b68f9edb7519, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999-newpac/fanqiang}, udp: true}
+  - {name: 🇺🇸 US美国 31, server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, udp: true}
+  - {name: 🇺🇸 US美国 32, server: 103.177.136.45, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 33, server: 103.177.136.42, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 34, server: 103.177.136.42, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 35, server: 104.16.0.0, port: 443, type: vmess, uuid: 95d2c461-61f5-4dae-bc74-4d10ce1f6236, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gongyilm.dpdns.org, network: ws, ws-opts: {path: /ws-gongyi, headers: {Host: gongyilm.dpdns.org}}, udp: true}
+  - {name: 🇺🇸 US美国 36, server: 103.177.136.45, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 37, server: 103.177.136.42, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 38, server: 103.177.136.42, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇰🇷 KR韩国
+      - 🇵🇱 PL波兰
+      - 🇩🇪 DE德国
+      - 🇳🇱 NL荷兰
+      - 🇳🇱 NL荷兰 2
+      - 🇳🇱 NL荷兰 3
+      - 🇳🇱 NL荷兰 4
+      - 🇳🇱 NL荷兰 5
+      - 🇳🇱 NL荷兰 6
       - 🇺🇸 US美国
       - 🇺🇸 US美国 2
       - 🇺🇸 US美国 3
@@ -74,13 +86,6 @@ proxy-groups:
       - 🇺🇸 US美国 8
       - 🇺🇸 US美国 9
       - 🇺🇸 US美国 10
-      - 🇯🇵 JP日本
-      - 🇬🇧 GB英国
-      - 🇬🇧 GB英国 2
-      - 🇬🇧 GB英国 3
-      - 🇩🇪 DE德国
-      - 🇯🇵 JP日本 2
-      - 🇯🇵 JP日本 3
       - 🇺🇸 US美国 11
       - 🇺🇸 US美国 12
       - 🇺🇸 US美国 13
@@ -96,9 +101,13 @@ proxy-groups:
       - 🇺🇸 US美国 23
       - 🇺🇸 US美国 24
       - 🇺🇸 US美国 25
-      - 🇫🇮 芬兰
       - 🇺🇸 US美国 26
       - 🇺🇸 US美国 27
+      - 🇯🇵 JP日本
+      - 🇩🇪 DE德国 2
+      - 🇬🇧 GB英国
+      - 🇬🇧 GB英国 2
+      - 🇯🇵 JP日本 2
       - 🇺🇸 US美国 28
       - 🇺🇸 US美国 29
       - 🇺🇸 US美国 30
@@ -109,16 +118,22 @@ proxy-groups:
       - 🇺🇸 US美国 35
       - 🇺🇸 US美国 36
       - 🇺🇸 US美国 37
-      - 🇫🇷 FR法国
-      - 🇩🇪 DE德国 2
-      - 🇩🇪 DE德国 3
-      - 🇦🇺 AU澳大利亚
+      - 🇺🇸 US美国 38
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇰🇷 KR韩国
+      - 🇵🇱 PL波兰
+      - 🇩🇪 DE德国
+      - 🇳🇱 NL荷兰
+      - 🇳🇱 NL荷兰 2
+      - 🇳🇱 NL荷兰 3
+      - 🇳🇱 NL荷兰 4
+      - 🇳🇱 NL荷兰 5
+      - 🇳🇱 NL荷兰 6
       - 🇺🇸 US美国
       - 🇺🇸 US美国 2
       - 🇺🇸 US美国 3
@@ -129,13 +144,6 @@ proxy-groups:
       - 🇺🇸 US美国 8
       - 🇺🇸 US美国 9
       - 🇺🇸 US美国 10
-      - 🇯🇵 JP日本
-      - 🇬🇧 GB英国
-      - 🇬🇧 GB英国 2
-      - 🇬🇧 GB英国 3
-      - 🇩🇪 DE德国
-      - 🇯🇵 JP日本 2
-      - 🇯🇵 JP日本 3
       - 🇺🇸 US美国 11
       - 🇺🇸 US美国 12
       - 🇺🇸 US美国 13
@@ -151,9 +159,13 @@ proxy-groups:
       - 🇺🇸 US美国 23
       - 🇺🇸 US美国 24
       - 🇺🇸 US美国 25
-      - 🇫🇮 芬兰
       - 🇺🇸 US美国 26
       - 🇺🇸 US美国 27
+      - 🇯🇵 JP日本
+      - 🇩🇪 DE德国 2
+      - 🇬🇧 GB英国
+      - 🇬🇧 GB英国 2
+      - 🇯🇵 JP日本 2
       - 🇺🇸 US美国 28
       - 🇺🇸 US美国 29
       - 🇺🇸 US美国 30
@@ -164,16 +176,22 @@ proxy-groups:
       - 🇺🇸 US美国 35
       - 🇺🇸 US美国 36
       - 🇺🇸 US美国 37
-      - 🇫🇷 FR法国
-      - 🇩🇪 DE德国 2
-      - 🇩🇪 DE德国 3
-      - 🇦🇺 AU澳大利亚
+      - 🇺🇸 US美国 38
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇰🇷 KR韩国
+      - 🇵🇱 PL波兰
+      - 🇩🇪 DE德国
+      - 🇳🇱 NL荷兰
+      - 🇳🇱 NL荷兰 2
+      - 🇳🇱 NL荷兰 3
+      - 🇳🇱 NL荷兰 4
+      - 🇳🇱 NL荷兰 5
+      - 🇳🇱 NL荷兰 6
       - 🇺🇸 US美国
       - 🇺🇸 US美国 2
       - 🇺🇸 US美国 3
@@ -184,13 +202,6 @@ proxy-groups:
       - 🇺🇸 US美国 8
       - 🇺🇸 US美国 9
       - 🇺🇸 US美国 10
-      - 🇯🇵 JP日本
-      - 🇬🇧 GB英国
-      - 🇬🇧 GB英国 2
-      - 🇬🇧 GB英国 3
-      - 🇩🇪 DE德国
-      - 🇯🇵 JP日本 2
-      - 🇯🇵 JP日本 3
       - 🇺🇸 US美国 11
       - 🇺🇸 US美国 12
       - 🇺🇸 US美国 13
@@ -206,9 +217,13 @@ proxy-groups:
       - 🇺🇸 US美国 23
       - 🇺🇸 US美国 24
       - 🇺🇸 US美国 25
-      - 🇫🇮 芬兰
       - 🇺🇸 US美国 26
       - 🇺🇸 US美国 27
+      - 🇯🇵 JP日本
+      - 🇩🇪 DE德国 2
+      - 🇬🇧 GB英国
+      - 🇬🇧 GB英国 2
+      - 🇯🇵 JP日本 2
       - 🇺🇸 US美国 28
       - 🇺🇸 US美国 29
       - 🇺🇸 US美国 30
@@ -219,15 +234,21 @@ proxy-groups:
       - 🇺🇸 US美国 35
       - 🇺🇸 US美国 36
       - 🇺🇸 US美国 37
-      - 🇫🇷 FR法国
-      - 🇩🇪 DE德国 2
-      - 🇩🇪 DE德国 3
-      - 🇦🇺 AU澳大利亚
+      - 🇺🇸 US美国 38
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇰🇷 KR韩国
+      - 🇵🇱 PL波兰
+      - 🇩🇪 DE德国
+      - 🇳🇱 NL荷兰
+      - 🇳🇱 NL荷兰 2
+      - 🇳🇱 NL荷兰 3
+      - 🇳🇱 NL荷兰 4
+      - 🇳🇱 NL荷兰 5
+      - 🇳🇱 NL荷兰 6
       - 🇺🇸 US美国
       - 🇺🇸 US美国 2
       - 🇺🇸 US美国 3
@@ -238,13 +259,6 @@ proxy-groups:
       - 🇺🇸 US美国 8
       - 🇺🇸 US美国 9
       - 🇺🇸 US美国 10
-      - 🇯🇵 JP日本
-      - 🇬🇧 GB英国
-      - 🇬🇧 GB英国 2
-      - 🇬🇧 GB英国 3
-      - 🇩🇪 DE德国
-      - 🇯🇵 JP日本 2
-      - 🇯🇵 JP日本 3
       - 🇺🇸 US美国 11
       - 🇺🇸 US美国 12
       - 🇺🇸 US美国 13
@@ -260,9 +274,13 @@ proxy-groups:
       - 🇺🇸 US美国 23
       - 🇺🇸 US美国 24
       - 🇺🇸 US美国 25
-      - 🇫🇮 芬兰
       - 🇺🇸 US美国 26
       - 🇺🇸 US美国 27
+      - 🇯🇵 JP日本
+      - 🇩🇪 DE德国 2
+      - 🇬🇧 GB英国
+      - 🇬🇧 GB英国 2
+      - 🇯🇵 JP日本 2
       - 🇺🇸 US美国 28
       - 🇺🇸 US美国 29
       - 🇺🇸 US美国 30
@@ -273,15 +291,21 @@ proxy-groups:
       - 🇺🇸 US美国 35
       - 🇺🇸 US美国 36
       - 🇺🇸 US美国 37
-      - 🇫🇷 FR法国
-      - 🇩🇪 DE德国 2
-      - 🇩🇪 DE德国 3
-      - 🇦🇺 AU澳大利亚
+      - 🇺🇸 US美国 38
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇰🇷 KR韩国
+      - 🇵🇱 PL波兰
+      - 🇩🇪 DE德国
+      - 🇳🇱 NL荷兰
+      - 🇳🇱 NL荷兰 2
+      - 🇳🇱 NL荷兰 3
+      - 🇳🇱 NL荷兰 4
+      - 🇳🇱 NL荷兰 5
+      - 🇳🇱 NL荷兰 6
       - 🇺🇸 US美国
       - 🇺🇸 US美国 2
       - 🇺🇸 US美国 3
@@ -292,13 +316,6 @@ proxy-groups:
       - 🇺🇸 US美国 8
       - 🇺🇸 US美国 9
       - 🇺🇸 US美国 10
-      - 🇯🇵 JP日本
-      - 🇬🇧 GB英国
-      - 🇬🇧 GB英国 2
-      - 🇬🇧 GB英国 3
-      - 🇩🇪 DE德国
-      - 🇯🇵 JP日本 2
-      - 🇯🇵 JP日本 3
       - 🇺🇸 US美国 11
       - 🇺🇸 US美国 12
       - 🇺🇸 US美国 13
@@ -314,9 +331,13 @@ proxy-groups:
       - 🇺🇸 US美国 23
       - 🇺🇸 US美国 24
       - 🇺🇸 US美国 25
-      - 🇫🇮 芬兰
       - 🇺🇸 US美国 26
       - 🇺🇸 US美国 27
+      - 🇯🇵 JP日本
+      - 🇩🇪 DE德国 2
+      - 🇬🇧 GB英国
+      - 🇬🇧 GB英国 2
+      - 🇯🇵 JP日本 2
       - 🇺🇸 US美国 28
       - 🇺🇸 US美国 29
       - 🇺🇸 US美国 30
@@ -327,15 +348,21 @@ proxy-groups:
       - 🇺🇸 US美国 35
       - 🇺🇸 US美国 36
       - 🇺🇸 US美国 37
-      - 🇫🇷 FR法国
-      - 🇩🇪 DE德国 2
-      - 🇩🇪 DE德国 3
-      - 🇦🇺 AU澳大利亚
+      - 🇺🇸 US美国 38
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇰🇷 KR韩国
+      - 🇵🇱 PL波兰
+      - 🇩🇪 DE德国
+      - 🇳🇱 NL荷兰
+      - 🇳🇱 NL荷兰 2
+      - 🇳🇱 NL荷兰 3
+      - 🇳🇱 NL荷兰 4
+      - 🇳🇱 NL荷兰 5
+      - 🇳🇱 NL荷兰 6
       - 🇺🇸 US美国
       - 🇺🇸 US美国 2
       - 🇺🇸 US美国 3
@@ -346,13 +373,6 @@ proxy-groups:
       - 🇺🇸 US美国 8
       - 🇺🇸 US美国 9
       - 🇺🇸 US美国 10
-      - 🇯🇵 JP日本
-      - 🇬🇧 GB英国
-      - 🇬🇧 GB英国 2
-      - 🇬🇧 GB英国 3
-      - 🇩🇪 DE德国
-      - 🇯🇵 JP日本 2
-      - 🇯🇵 JP日本 3
       - 🇺🇸 US美国 11
       - 🇺🇸 US美国 12
       - 🇺🇸 US美国 13
@@ -368,9 +388,13 @@ proxy-groups:
       - 🇺🇸 US美国 23
       - 🇺🇸 US美国 24
       - 🇺🇸 US美国 25
-      - 🇫🇮 芬兰
       - 🇺🇸 US美国 26
       - 🇺🇸 US美国 27
+      - 🇯🇵 JP日本
+      - 🇩🇪 DE德国 2
+      - 🇬🇧 GB英国
+      - 🇬🇧 GB英国 2
+      - 🇯🇵 JP日本 2
       - 🇺🇸 US美国 28
       - 🇺🇸 US美国 29
       - 🇺🇸 US美国 30
@@ -381,16 +405,22 @@ proxy-groups:
       - 🇺🇸 US美国 35
       - 🇺🇸 US美国 36
       - 🇺🇸 US美国 37
-      - 🇫🇷 FR法国
-      - 🇩🇪 DE德国 2
-      - 🇩🇪 DE德国 3
-      - 🇦🇺 AU澳大利亚
+      - 🇺🇸 US美国 38
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇰🇷 KR韩国
+      - 🇵🇱 PL波兰
+      - 🇩🇪 DE德国
+      - 🇳🇱 NL荷兰
+      - 🇳🇱 NL荷兰 2
+      - 🇳🇱 NL荷兰 3
+      - 🇳🇱 NL荷兰 4
+      - 🇳🇱 NL荷兰 5
+      - 🇳🇱 NL荷兰 6
       - 🇺🇸 US美国
       - 🇺🇸 US美国 2
       - 🇺🇸 US美国 3
@@ -401,13 +431,6 @@ proxy-groups:
       - 🇺🇸 US美国 8
       - 🇺🇸 US美国 9
       - 🇺🇸 US美国 10
-      - 🇯🇵 JP日本
-      - 🇬🇧 GB英国
-      - 🇬🇧 GB英国 2
-      - 🇬🇧 GB英国 3
-      - 🇩🇪 DE德国
-      - 🇯🇵 JP日本 2
-      - 🇯🇵 JP日本 3
       - 🇺🇸 US美国 11
       - 🇺🇸 US美国 12
       - 🇺🇸 US美国 13
@@ -423,9 +446,13 @@ proxy-groups:
       - 🇺🇸 US美国 23
       - 🇺🇸 US美国 24
       - 🇺🇸 US美国 25
-      - 🇫🇮 芬兰
       - 🇺🇸 US美国 26
       - 🇺🇸 US美国 27
+      - 🇯🇵 JP日本
+      - 🇩🇪 DE德国 2
+      - 🇬🇧 GB英国
+      - 🇬🇧 GB英国 2
+      - 🇯🇵 JP日本 2
       - 🇺🇸 US美国 28
       - 🇺🇸 US美国 29
       - 🇺🇸 US美国 30
@@ -436,10 +463,7 @@ proxy-groups:
       - 🇺🇸 US美国 35
       - 🇺🇸 US美国 36
       - 🇺🇸 US美国 37
-      - 🇫🇷 FR法国
-      - 🇩🇪 DE德国 2
-      - 🇩🇪 DE德国 3
-      - 🇦🇺 AU澳大利亚
+      - 🇺🇸 US美国 38
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -462,6 +486,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇰🇷 KR韩国
+      - 🇵🇱 PL波兰
+      - 🇩🇪 DE德国
+      - 🇳🇱 NL荷兰
+      - 🇳🇱 NL荷兰 2
+      - 🇳🇱 NL荷兰 3
+      - 🇳🇱 NL荷兰 4
+      - 🇳🇱 NL荷兰 5
+      - 🇳🇱 NL荷兰 6
       - 🇺🇸 US美国
       - 🇺🇸 US美国 2
       - 🇺🇸 US美国 3
@@ -472,13 +505,6 @@ proxy-groups:
       - 🇺🇸 US美国 8
       - 🇺🇸 US美国 9
       - 🇺🇸 US美国 10
-      - 🇯🇵 JP日本
-      - 🇬🇧 GB英国
-      - 🇬🇧 GB英国 2
-      - 🇬🇧 GB英国 3
-      - 🇩🇪 DE德国
-      - 🇯🇵 JP日本 2
-      - 🇯🇵 JP日本 3
       - 🇺🇸 US美国 11
       - 🇺🇸 US美国 12
       - 🇺🇸 US美国 13
@@ -494,9 +520,13 @@ proxy-groups:
       - 🇺🇸 US美国 23
       - 🇺🇸 US美国 24
       - 🇺🇸 US美国 25
-      - 🇫🇮 芬兰
       - 🇺🇸 US美国 26
       - 🇺🇸 US美国 27
+      - 🇯🇵 JP日本
+      - 🇩🇪 DE德国 2
+      - 🇬🇧 GB英国
+      - 🇬🇧 GB英国 2
+      - 🇯🇵 JP日本 2
       - 🇺🇸 US美国 28
       - 🇺🇸 US美国 29
       - 🇺🇸 US美国 30
@@ -507,10 +537,7 @@ proxy-groups:
       - 🇺🇸 US美国 35
       - 🇺🇸 US美国 36
       - 🇺🇸 US美国 37
-      - 🇫🇷 FR法国
-      - 🇩🇪 DE德国 2
-      - 🇩🇪 DE德国 3
-      - 🇦🇺 AU澳大利亚
+      - 🇺🇸 US美国 38
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
