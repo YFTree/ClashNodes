@@ -125,19 +125,33 @@
         "auto",
         "direct",
         "🇨🇦_CA_加拿大",
+        "🇩🇪_DE_德国",
+        "🇸🇪_SE_瑞典",
+        "🇭🇰_HK_中国香港->🇺🇸_US_美国",
+        "🇳🇱_NL_荷兰",
+        "🇳🇱_NL_荷兰_1",
+        "🇳🇱_NL_荷兰_2",
+        "🇺🇸_US_美国",
+        "🇳🇱_NL_荷兰_3",
+        "🇹🇷_TR_土耳其",
+        "🇳🇱_NL_荷兰_4",
+        "🇷🇴_RO_罗马尼亚",
+        "🇲🇾_MY_马来西亚->🇺🇸_US_美国",
+        "🇸🇪_SE_瑞典_1",
+        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
+        "🇳🇱_NL_荷兰_5",
+        "🇨🇦_CA_加拿大_1",
+        "🇷🇴_RO_罗马尼亚_1",
+        "🇷🇴_RO_罗马尼亚_2",
+        "🇹🇷_TR_土耳其_1",
+        "🇳🇱_NL_荷兰_6",
+        "🇳🇱_NL_荷兰_7",
+        "🇨🇦_CA_加拿大_2",
+        "🇸🇪_SE_瑞典_2",
+        "🇷🇴_RO_罗马尼亚_3",
         "🇨🇦_CA_加拿大->🇩🇪_DE_德国",
         "🇨🇦_CA_加拿大->🇨🇭_CH_瑞士",
-        "🇨🇦_CA_加拿大_1",
-        "🇨🇦_CA_加拿大_2",
-        "🇨🇦_CA_加拿大->🇩🇪_DE_德国_1",
-        "🇨🇦_CA_加拿大_3",
-        "🇨🇦_CA_加拿大_4",
-        "🇨🇦_CA_加拿大_5",
-        "🇩🇪_DE_德国",
-        "🇨🇦_CA_加拿大->🇨🇭_CH_瑞士_1",
-        "🇳🇱_NL_荷兰",
-        "🇨🇦_CA_加拿大_6",
-        "🇨🇦_CA_加拿大_7"
+        "🇸🇪_SE_瑞典_3"
       ]
     },
     {
@@ -343,7 +357,8 @@
       "tag": "HongKong",
       "type": "selector",
       "outbounds": [
-        "Proxy"
+        "🇭🇰_HK_中国香港->🇺🇸_US_美国",
+        "🇭🇰_HK_中国香港->🇯🇵_JP_日本"
       ]
     },
     {
@@ -364,14 +379,16 @@
       "tag": "Japan",
       "type": "selector",
       "outbounds": [
-        "Proxy"
+        "🇭🇰_HK_中国香港->🇯🇵_JP_日本"
       ]
     },
     {
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "Proxy"
+        "🇭🇰_HK_中国香港->🇺🇸_US_美国",
+        "🇺🇸_US_美国",
+        "🇲🇾_MY_马来西亚->🇺🇸_US_美国"
       ]
     },
     {
@@ -379,19 +396,29 @@
       "type": "selector",
       "outbounds": [
         "🇨🇦_CA_加拿大",
+        "🇩🇪_DE_德国",
+        "🇸🇪_SE_瑞典",
+        "🇳🇱_NL_荷兰",
+        "🇳🇱_NL_荷兰_1",
+        "🇳🇱_NL_荷兰_2",
+        "🇳🇱_NL_荷兰_3",
+        "🇹🇷_TR_土耳其",
+        "🇳🇱_NL_荷兰_4",
+        "🇷🇴_RO_罗马尼亚",
+        "🇸🇪_SE_瑞典_1",
+        "🇳🇱_NL_荷兰_5",
+        "🇨🇦_CA_加拿大_1",
+        "🇷🇴_RO_罗马尼亚_1",
+        "🇷🇴_RO_罗马尼亚_2",
+        "🇹🇷_TR_土耳其_1",
+        "🇳🇱_NL_荷兰_6",
+        "🇳🇱_NL_荷兰_7",
+        "🇨🇦_CA_加拿大_2",
+        "🇸🇪_SE_瑞典_2",
+        "🇷🇴_RO_罗马尼亚_3",
         "🇨🇦_CA_加拿大->🇩🇪_DE_德国",
         "🇨🇦_CA_加拿大->🇨🇭_CH_瑞士",
-        "🇨🇦_CA_加拿大_1",
-        "🇨🇦_CA_加拿大_2",
-        "🇨🇦_CA_加拿大->🇩🇪_DE_德国_1",
-        "🇨🇦_CA_加拿大_3",
-        "🇨🇦_CA_加拿大_4",
-        "🇨🇦_CA_加拿大_5",
-        "🇩🇪_DE_德国",
-        "🇨🇦_CA_加拿大->🇨🇭_CH_瑞士_1",
-        "🇳🇱_NL_荷兰",
-        "🇨🇦_CA_加拿大_6",
-        "🇨🇦_CA_加拿大_7"
+        "🇸🇪_SE_瑞典_3"
       ]
     },
     {
@@ -399,19 +426,33 @@
       "type": "urltest",
       "outbounds": [
         "🇨🇦_CA_加拿大",
+        "🇩🇪_DE_德国",
+        "🇸🇪_SE_瑞典",
+        "🇭🇰_HK_中国香港->🇺🇸_US_美国",
+        "🇳🇱_NL_荷兰",
+        "🇳🇱_NL_荷兰_1",
+        "🇳🇱_NL_荷兰_2",
+        "🇺🇸_US_美国",
+        "🇳🇱_NL_荷兰_3",
+        "🇹🇷_TR_土耳其",
+        "🇳🇱_NL_荷兰_4",
+        "🇷🇴_RO_罗马尼亚",
+        "🇲🇾_MY_马来西亚->🇺🇸_US_美国",
+        "🇸🇪_SE_瑞典_1",
+        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
+        "🇳🇱_NL_荷兰_5",
+        "🇨🇦_CA_加拿大_1",
+        "🇷🇴_RO_罗马尼亚_1",
+        "🇷🇴_RO_罗马尼亚_2",
+        "🇹🇷_TR_土耳其_1",
+        "🇳🇱_NL_荷兰_6",
+        "🇳🇱_NL_荷兰_7",
+        "🇨🇦_CA_加拿大_2",
+        "🇸🇪_SE_瑞典_2",
+        "🇷🇴_RO_罗马尼亚_3",
         "🇨🇦_CA_加拿大->🇩🇪_DE_德国",
         "🇨🇦_CA_加拿大->🇨🇭_CH_瑞士",
-        "🇨🇦_CA_加拿大_1",
-        "🇨🇦_CA_加拿大_2",
-        "🇨🇦_CA_加拿大->🇩🇪_DE_德国_1",
-        "🇨🇦_CA_加拿大_3",
-        "🇨🇦_CA_加拿大_4",
-        "🇨🇦_CA_加拿大_5",
-        "🇩🇪_DE_德国",
-        "🇨🇦_CA_加拿大->🇨🇭_CH_瑞士_1",
-        "🇳🇱_NL_荷兰",
-        "🇨🇦_CA_加拿大_6",
-        "🇨🇦_CA_加拿大_7"
+        "🇸🇪_SE_瑞典_3"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -425,116 +466,12 @@
       "tag": "🇨🇦_CA_加拿大",
       "type": "trojan",
       "server": "103.177.136.42",
-      "server_port": 48697,
-      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
-      "network": "tcp",
-      "tls": {
-        "enabled": false,
-        "server_name": "gh.01.naiun.bilibili.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇦_CA_加拿大->🇩🇪_DE_德国",
-      "type": "trojan",
-      "server": "103.177.136.45",
-      "server_port": 46424,
-      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
-      "network": "tcp",
-      "tls": {
-        "enabled": false,
-        "server_name": "de.01.naiun.bilibili.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇦_CA_加拿大->🇨🇭_CH_瑞士",
-      "type": "trojan",
-      "server": "103.177.136.42",
-      "server_port": 45553,
-      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
-      "network": "tcp",
-      "tls": {
-        "enabled": false,
-        "server_name": "ch.01.naiun.bilibili.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇦_CA_加拿大_1",
-      "type": "trojan",
-      "server": "103.177.136.45",
       "server_port": 47909,
       "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
       "network": "tcp",
       "tls": {
         "enabled": false,
         "server_name": "is.01.naiun.bilibili.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇦_CA_加拿大_2",
-      "type": "trojan",
-      "server": "103.177.136.45",
-      "server_port": 48697,
-      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
-      "network": "tcp",
-      "tls": {
-        "enabled": false,
-        "server_name": "gh.01.naiun.bilibili.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇦_CA_加拿大->🇩🇪_DE_德国_1",
-      "type": "trojan",
-      "server": "103.177.136.42",
-      "server_port": 46424,
-      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
-      "network": "tcp",
-      "tls": {
-        "enabled": true,
-        "server_name": "de.01.naiun.bilibili.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇦_CA_加拿大_3",
-      "type": "trojan",
-      "server": "103.177.136.45",
-      "server_port": 41943,
-      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
-      "network": "tcp",
-      "tls": {
-        "enabled": false,
-        "server_name": "az.01.naiun.bilibili.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇦_CA_加拿大_4",
-      "type": "trojan",
-      "server": "103.177.136.42",
-      "server_port": 41943,
-      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
-      "network": "tcp",
-      "tls": {
-        "enabled": false,
-        "server_name": "az.01.naiun.bilibili.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇦_CA_加拿大_5",
-      "type": "trojan",
-      "server": "103.177.136.45",
-      "server_port": 45619,
-      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
-      "network": "tcp",
-      "tls": {
-        "enabled": false,
-        "server_name": "fr.01.naiun.bilibili.com",
         "insecure": true
       }
     },
@@ -556,22 +493,9 @@
       "tag": "🇩🇪_DE_德国"
     },
     {
-      "tag": "🇨🇦_CA_加拿大->🇨🇭_CH_瑞士_1",
-      "type": "trojan",
-      "server": "103.177.136.45",
-      "server_port": 45553,
-      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
-      "network": "tcp",
-      "tls": {
-        "enabled": false,
-        "server_name": "ch.01.naiun.bilibili.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇳🇱_NL_荷兰",
+      "tag": "🇸🇪_SE_瑞典",
       "type": "vless",
-      "server": "185.229.191.10",
+      "server": "45.159.12.134",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
       "tls": {
@@ -585,28 +509,381 @@
       }
     },
     {
-      "tag": "🇨🇦_CA_加拿大_6",
-      "type": "trojan",
-      "server": "103.177.136.42",
-      "server_port": 47909,
-      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
-      "network": "tcp",
+      "tag": "🇭🇰_HK_中国香港->🇺🇸_US_美国",
+      "type": "vless",
+      "server": "1.sdwan.realm-sync.com",
+      "server_port": 60776,
+      "uuid": "da4f61d1-8ca2-4bbf-a79a-1dfff04073e6",
+      "flow": "xtls-rprx-vision",
       "tls": {
-        "enabled": false,
-        "server_name": "is.01.naiun.bilibili.com",
+        "enabled": true,
+        "server_name": "swcdn.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "rPR7TUpmOpwShZeyLs2QFa46zzCBNkNdYkxe7-trUUc",
+          "short_id": "63290ae7179078"
+        },
         "insecure": true
       }
     },
     {
-      "tag": "🇨🇦_CA_加拿大_7",
+      "tag": "🇳🇱_NL_荷兰",
+      "type": "vless",
+      "server": "185.229.191.96",
+      "server_port": 8443,
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "tls": {
+        "enabled": true,
+        "server_name": "ams1.fromblancwithlove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇳🇱_NL_荷兰_1",
+      "type": "vless",
+      "server": "185.229.191.185",
+      "server_port": 8443,
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "tls": {
+        "enabled": true,
+        "server_name": "ams1.fromblancwithlove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇳🇱_NL_荷兰_2",
+      "type": "vless",
+      "server": "79.127.227.57",
+      "server_port": 8443,
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "tls": {
+        "enabled": true,
+        "server_name": "ams1.fromblancwithlove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇺🇸_US_美国",
+      "type": "vless",
+      "server": "5.78.62.9",
+      "server_port": 52011,
+      "uuid": "be36abcb-7ddc-4e1a-9777-db3a7fc8790a",
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇳🇱_NL_荷兰_3",
+      "type": "vless",
+      "server": "185.229.191.14",
+      "server_port": 8443,
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "tls": {
+        "enabled": true,
+        "server_name": "ams1.fromblancwithlove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇹🇷_TR_土耳其",
+      "type": "vless",
+      "server": "169.150.215.80",
+      "server_port": 8443,
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "tls": {
+        "enabled": true,
+        "server_name": "ams1.fromblancwithlove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇳🇱_NL_荷兰_4",
+      "type": "vless",
+      "server": "185.229.191.49",
+      "server_port": 8443,
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "tls": {
+        "enabled": true,
+        "server_name": "ams1.fromblancwithlove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇷🇴_RO_罗马尼亚",
+      "type": "vless",
+      "server": "95.173.199.118",
+      "server_port": 8443,
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "tls": {
+        "enabled": true,
+        "server_name": "ams1.fromblancwithlove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇲🇾_MY_马来西亚->🇺🇸_US_美国",
+      "type": "vmess",
+      "server": "v4.hdacd.com",
+      "server_port": 30804,
+      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+      "alter_id": 2,
+      "security": "auto",
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇪_SE_瑞典_1",
+      "type": "vless",
+      "server": "79.127.249.221",
+      "server_port": 8443,
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "tls": {
+        "enabled": true,
+        "server_name": "ams1.fromblancwithlove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
+      "type": "vmess",
+      "server": "103.182.97.12",
+      "server_port": 30806,
+      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+      "alter_id": 2,
+      "security": "auto",
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇳🇱_NL_荷兰_5",
+      "type": "vless",
+      "server": "185.229.191.42",
+      "server_port": 8443,
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "tls": {
+        "enabled": true,
+        "server_name": "ams1.fromblancwithlove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇦_CA_加拿大_1",
+      "type": "trojan",
+      "server": "103.177.136.45",
+      "server_port": 48697,
+      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
+      "network": "tcp",
+      "tls": {
+        "enabled": false,
+        "server_name": "gh.01.naiun.bilibili.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇷🇴_RO_罗马尼亚_1",
+      "type": "vless",
+      "server": "95.173.199.85",
+      "server_port": 8443,
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "tls": {
+        "enabled": true,
+        "server_name": "ams1.fromblancwithlove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇷🇴_RO_罗马尼亚_2",
+      "type": "vless",
+      "server": "95.173.199.78",
+      "server_port": 8443,
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "tls": {
+        "enabled": true,
+        "server_name": "ams1.fromblancwithlove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇹🇷_TR_土耳其_1",
+      "type": "vless",
+      "server": "87.249.139.236",
+      "server_port": 8443,
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "tls": {
+        "enabled": true,
+        "server_name": "ams1.fromblancwithlove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇳🇱_NL_荷兰_6",
+      "type": "vless",
+      "server": "185.229.191.109",
+      "server_port": 8443,
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "tls": {
+        "enabled": true,
+        "server_name": "ams1.fromblancwithlove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇳🇱_NL_荷兰_7",
+      "type": "vless",
+      "server": "185.229.191.180",
+      "server_port": 8443,
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "tls": {
+        "enabled": true,
+        "server_name": "ams1.fromblancwithlove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇦_CA_加拿大_2",
+      "type": "trojan",
+      "server": "103.177.136.45",
+      "server_port": 41943,
+      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
+      "network": "tcp",
+      "tls": {
+        "enabled": false,
+        "server_name": "az.01.naiun.bilibili.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇪_SE_瑞典_2",
+      "type": "vless",
+      "server": "45.159.12.162",
+      "server_port": 8443,
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "tls": {
+        "enabled": true,
+        "server_name": "ams1.fromblancwithlove.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇷🇴_RO_罗马尼亚_3",
+      "type": "vless",
+      "server": "95.173.199.117",
+      "server_port": 8443,
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "tls": {
+        "enabled": true,
+        "server_name": "ams1.fromblancwithlove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇦_CA_加拿大->🇩🇪_DE_德国",
       "type": "trojan",
       "server": "103.177.136.42",
-      "server_port": 45619,
+      "server_port": 46424,
       "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
       "network": "tcp",
       "tls": {
         "enabled": true,
-        "server_name": "fr.01.naiun.bilibili.com",
+        "server_name": "de.01.naiun.bilibili.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇦_CA_加拿大->🇨🇭_CH_瑞士",
+      "type": "trojan",
+      "server": "103.177.136.45",
+      "server_port": 45553,
+      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
+      "network": "tcp",
+      "tls": {
+        "enabled": false,
+        "server_name": "ch.01.naiun.bilibili.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇪_SE_瑞典_3",
+      "type": "vless",
+      "server": "45.159.12.191",
+      "server_port": 8443,
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "tls": {
+        "enabled": true,
+        "server_name": "ams1.fromblancwithlove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
         "insecure": true
       }
     }
