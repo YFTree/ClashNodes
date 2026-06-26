@@ -6,26 +6,26 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 未知, server: efan.dnsefan04881.com, port: 7754, type: vmess, uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡 Fastly节点, server: 151.101.10.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?https://t.me/WangCai2🇨🇳", headers: {Host: max-gb1.global.ssl.fastly.net}}}
-  - {name: 🇨🇦 加拿大 不列颠哥伦比亚省温哥华Fastly节点, server: 151.101.215.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?https://t.me/WangCai2🇨🇳", headers: {Host: max-gb1.global.ssl.fastly.net}}}
-  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶Fastly节点, server: 151.101.24.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: max-gb1.global.ssl.fastly.net}}}
-  - {name: 🇺🇸 美国 Fastly全球Anycast节点, server: 151.101.192.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?https://t.me/WangCai2🇨🇳", headers: {Host: max-gb1.global.ssl.fastly.net}}}
-  - {name: 🇧🇷 巴西 库里奇巴Fastly节点, server: 151.101.253.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: max-gb1.global.ssl.fastly.net}}}
-  - {name: 🇮🇹 意大利 米兰Fastly节点, server: 151.101.241.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?https://t.me/WangCai2🇨🇳", headers: {Host: max-gb1.global.ssl.fastly.net}}}
-  - {name: 🇺🇸 美国 Fastly节点, server: 151.101.188.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?https://t.me/WangCai2🇨🇳", headers: {Host: max-gb1.global.ssl.fastly.net}}}
-  - {name: 🇷🇴 罗马尼亚 starcorenode.com, server: 185.137.157.154, port: 443, type: trojan, password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz, sni: fra154.clientfirewall.click, skip-cert-verify: false}
-  - {name: 🇷🇴 罗马尼亚 starcorenode.com 2, server: 185.137.157.250, port: 443, type: trojan, password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz, sni: fra250.clientfirewall.click, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.26.12.222, port: 443, type: vless, uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8, tls: true, tfo: false, skip-cert-verify: false, servername: octopusss5.info, client-fingerprint: chrome, network: ws, ws-opts: {path: /udfyfws, headers: {Host: octopusss5.info}}}
-  - {name: 🇬🇧 英国 伦敦Fastly节点, server: 151.101.17.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?https://t.me/WangCai2🇨🇳", headers: {Host: max-gb1.global.ssl.fastly.net}}}
-  - {name: 🇫🇷 法国 Fastly节点, server: 151.101.120.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: max-gb1.global.ssl.fastly.net}}}
-  - {name: 🇯🇵 日本 Fastly节点, server: 151.101.74.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: max-gb1.global.ssl.fastly.net}}}
-  - {name: 🇬🇧 英国 伦敦Fastly节点 2, server: 151.101.16.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?https://t.me/WangCai2🇨🇳", headers: {Host: max-gb1.global.ssl.fastly.net}}}
-  - {name: 🇺🇸 美国 Fastly全球Anycast节点 2, server: 151.101.66.219, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: max-gb1.global.ssl.fastly.net}}}
-  - {name: 🇺🇸 美国 Fastly全球Anycast节点 3, server: speedtest.net, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: max-gb1.global.ssl.fastly.net}}}
-  - {name: 🇺🇸 美国 Fastly节点 2, server: 151.101.71.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: max-gb1.global.ssl.fastly.net}}}
-  - {name: 🇯🇵 日本 Fastly节点 2, server: 151.101.73.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?https://t.me/WangCai2🇨🇳", headers: {Host: max-gb1.global.ssl.fastly.net}}}
+  - {name: 🇬🇧 英国 starcorenode.com, server: 82.38.31.213, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
+  - {name: 🇺🇸 美国 Fastly节点, server: 151.101.118.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: max-gb1.global.ssl.fastly.net}}}
+  - {name: 🇬🇧 英国 伦敦Fastly节点, server: 151.101.16.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?https://t.me/WangCai2🇨🇳", headers: {Host: max-gb1.global.ssl.fastly.net}}}
+  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶Fastly节点, server: 151.101.199.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?https://t.me/WangCai2🇨🇳", headers: {Host: max-gb1.global.ssl.fastly.net}}}
+  - {name: 🇺🇸 美国 Fastly节点 2, server: 151.101.101.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, servername: max-gb1.global.ssl.fastly.net, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: max-gb1.global.ssl.fastly.net}}}
+  - {name: 🇬🇧 英国 starcorenode.com 2, server: 82.38.31.211, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ}
+  - {name: 🇬🇧 英国 伯克郡斯劳Fastly节点, server: 151.101.60.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?https://t.me/WangCai2🇨🇳", headers: {Host: max-gb1.global.ssl.fastly.net}}}
+  - {name: 🇺🇸 美国 starcorenode.com, server: 199.232.197.131, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: max-gb1.global.ssl.fastly.net}}}
+  - {name: 🇸🇬 新加坡 Fastly节点, server: 151.101.9.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, servername: max-gb1.global.ssl.fastly.net, network: ws, ws-opts: {path: /, headers: {Host: max-gb1.global.ssl.fastly.net}}}
+  - {name: 🇸🇪 瑞典 Fastly节点, server: 151.101.86.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, servername: max-gb1.global.ssl.fastly.net, network: ws, ws-opts: {path: /, headers: {Host: max-gb1.global.ssl.fastly.net}}}
+  - {name: 🇺🇸 美国 starcorenode.com 2, server: 167.82.0.1, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2048", headers: {Host: max-gb1.global.ssl.fastly.net}}}
+  - {name: 🇺🇸 美国 Fastly节点 3, server: 151.101.162.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560&https://t.me/WangCai2🇨🇳", headers: {Host: max-gb1.global.ssl.fastly.net}}}
+  - {name: 🇺🇸 美国 Fastly节点 4, server: 151.101.69.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?https://t.me/WangCai2🇨🇳", headers: {Host: max-gb1.global.ssl.fastly.net}}}
   - {name: 🇬🇷 希腊 starcorenode.com, server: 92.119.35.105, port: 443, type: trojan, password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh, skip-cert-verify: false}
-  - {name: 🇨🇦 加拿大 安大略省多伦多Fastly节点, server: 151.101.126.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?https://t.me/WangCai2🇨🇳", headers: {Host: max-gb1.global.ssl.fastly.net}}}
+  - {name: 🇳🇱 荷兰 阿姆斯特丹Fastly节点, server: 151.101.38.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: max-gb1.global.ssl.fastly.net}}}
+  - {name: 🇨🇦 加拿大 不列颠哥伦比亚省温哥华Fastly节点, server: 151.101.212.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?https://t.me/WangCai2🇨🇳", headers: {Host: max-gb1.global.ssl.fastly.net}}}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: jpbgp.netvigor.cc, port: 19128, type: trojan, password: OccIqeORGQwiNkwS, sni: yazhou10.dynu.net, skip-cert-verify: false}
+  - {name: 🇮🇳 印度 金奈Fastly节点, server: 151.101.158.151, port: 80, type: vless, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?https://t.me/WangCai2🇨🇳", headers: {Host: max-gb1.global.ssl.fastly.net}}}
+  - {name: 🇮🇳 印度 starcorenode.com, server: 103.111.114.80, port: 28061, type: ss, cipher: chacha20-ietf-poly1305, password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm}
+  - {name: 🇬🇧 英国 伦敦Choopa数据中心, server: 45.77.227.183, port: 443, type: trojan, password: kflYwtj8VD7Pd4V9ixedIxEDsac4QQXvbP, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -33,26 +33,26 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 未知
-      - 🇸🇬 新加坡 Fastly节点
-      - 🇨🇦 加拿大 不列颠哥伦比亚省温哥华Fastly节点
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Fastly节点
-      - 🇺🇸 美国 Fastly全球Anycast节点
-      - 🇧🇷 巴西 库里奇巴Fastly节点
-      - 🇮🇹 意大利 米兰Fastly节点
+      - 🇬🇧 英国 starcorenode.com
       - 🇺🇸 美国 Fastly节点
-      - 🇷🇴 罗马尼亚 starcorenode.com
-      - 🇷🇴 罗马尼亚 starcorenode.com 2
-      - 🇺🇸 美国 CloudFlare节点
       - 🇬🇧 英国 伦敦Fastly节点
-      - 🇫🇷 法国 Fastly节点
-      - 🇯🇵 日本 Fastly节点
-      - 🇬🇧 英国 伦敦Fastly节点 2
-      - 🇺🇸 美国 Fastly全球Anycast节点 2
-      - 🇺🇸 美国 Fastly全球Anycast节点 3
+      - 🇺🇸 美国 加利福尼亚州洛杉矶Fastly节点
       - 🇺🇸 美国 Fastly节点 2
-      - 🇯🇵 日本 Fastly节点 2
+      - 🇬🇧 英国 starcorenode.com 2
+      - 🇬🇧 英国 伯克郡斯劳Fastly节点
+      - 🇺🇸 美国 starcorenode.com
+      - 🇸🇬 新加坡 Fastly节点
+      - 🇸🇪 瑞典 Fastly节点
+      - 🇺🇸 美国 starcorenode.com 2
+      - 🇺🇸 美国 Fastly节点 3
+      - 🇺🇸 美国 Fastly节点 4
       - 🇬🇷 希腊 starcorenode.com
-      - 🇨🇦 加拿大 安大略省多伦多Fastly节点
+      - 🇳🇱 荷兰 阿姆斯特丹Fastly节点
+      - 🇨🇦 加拿大 不列颠哥伦比亚省温哥华Fastly节点
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇮🇳 印度 金奈Fastly节点
+      - 🇮🇳 印度 starcorenode.com
+      - 🇬🇧 英国 伦敦Choopa数据中心
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -60,26 +60,26 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 未知
-      - 🇸🇬 新加坡 Fastly节点
-      - 🇨🇦 加拿大 不列颠哥伦比亚省温哥华Fastly节点
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Fastly节点
-      - 🇺🇸 美国 Fastly全球Anycast节点
-      - 🇧🇷 巴西 库里奇巴Fastly节点
-      - 🇮🇹 意大利 米兰Fastly节点
+      - 🇬🇧 英国 starcorenode.com
       - 🇺🇸 美国 Fastly节点
-      - 🇷🇴 罗马尼亚 starcorenode.com
-      - 🇷🇴 罗马尼亚 starcorenode.com 2
-      - 🇺🇸 美国 CloudFlare节点
       - 🇬🇧 英国 伦敦Fastly节点
-      - 🇫🇷 法国 Fastly节点
-      - 🇯🇵 日本 Fastly节点
-      - 🇬🇧 英国 伦敦Fastly节点 2
-      - 🇺🇸 美国 Fastly全球Anycast节点 2
-      - 🇺🇸 美国 Fastly全球Anycast节点 3
+      - 🇺🇸 美国 加利福尼亚州洛杉矶Fastly节点
       - 🇺🇸 美国 Fastly节点 2
-      - 🇯🇵 日本 Fastly节点 2
+      - 🇬🇧 英国 starcorenode.com 2
+      - 🇬🇧 英国 伯克郡斯劳Fastly节点
+      - 🇺🇸 美国 starcorenode.com
+      - 🇸🇬 新加坡 Fastly节点
+      - 🇸🇪 瑞典 Fastly节点
+      - 🇺🇸 美国 starcorenode.com 2
+      - 🇺🇸 美国 Fastly节点 3
+      - 🇺🇸 美国 Fastly节点 4
       - 🇬🇷 希腊 starcorenode.com
-      - 🇨🇦 加拿大 安大略省多伦多Fastly节点
+      - 🇳🇱 荷兰 阿姆斯特丹Fastly节点
+      - 🇨🇦 加拿大 不列颠哥伦比亚省温哥华Fastly节点
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇮🇳 印度 金奈Fastly节点
+      - 🇮🇳 印度 starcorenode.com
+      - 🇬🇧 英国 伦敦Choopa数据中心
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -87,104 +87,104 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 未知
-      - 🇸🇬 新加坡 Fastly节点
-      - 🇨🇦 加拿大 不列颠哥伦比亚省温哥华Fastly节点
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Fastly节点
-      - 🇺🇸 美国 Fastly全球Anycast节点
-      - 🇧🇷 巴西 库里奇巴Fastly节点
-      - 🇮🇹 意大利 米兰Fastly节点
+      - 🇬🇧 英国 starcorenode.com
       - 🇺🇸 美国 Fastly节点
-      - 🇷🇴 罗马尼亚 starcorenode.com
-      - 🇷🇴 罗马尼亚 starcorenode.com 2
-      - 🇺🇸 美国 CloudFlare节点
       - 🇬🇧 英国 伦敦Fastly节点
-      - 🇫🇷 法国 Fastly节点
-      - 🇯🇵 日本 Fastly节点
-      - 🇬🇧 英国 伦敦Fastly节点 2
-      - 🇺🇸 美国 Fastly全球Anycast节点 2
-      - 🇺🇸 美国 Fastly全球Anycast节点 3
+      - 🇺🇸 美国 加利福尼亚州洛杉矶Fastly节点
       - 🇺🇸 美国 Fastly节点 2
-      - 🇯🇵 日本 Fastly节点 2
+      - 🇬🇧 英国 starcorenode.com 2
+      - 🇬🇧 英国 伯克郡斯劳Fastly节点
+      - 🇺🇸 美国 starcorenode.com
+      - 🇸🇬 新加坡 Fastly节点
+      - 🇸🇪 瑞典 Fastly节点
+      - 🇺🇸 美国 starcorenode.com 2
+      - 🇺🇸 美国 Fastly节点 3
+      - 🇺🇸 美国 Fastly节点 4
       - 🇬🇷 希腊 starcorenode.com
-      - 🇨🇦 加拿大 安大略省多伦多Fastly节点
+      - 🇳🇱 荷兰 阿姆斯特丹Fastly节点
+      - 🇨🇦 加拿大 不列颠哥伦比亚省温哥华Fastly节点
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇮🇳 印度 金奈Fastly节点
+      - 🇮🇳 印度 starcorenode.com
+      - 🇬🇧 英国 伦敦Choopa数据中心
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 未知
-      - 🇸🇬 新加坡 Fastly节点
-      - 🇨🇦 加拿大 不列颠哥伦比亚省温哥华Fastly节点
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Fastly节点
-      - 🇺🇸 美国 Fastly全球Anycast节点
-      - 🇧🇷 巴西 库里奇巴Fastly节点
-      - 🇮🇹 意大利 米兰Fastly节点
+      - 🇬🇧 英国 starcorenode.com
       - 🇺🇸 美国 Fastly节点
-      - 🇷🇴 罗马尼亚 starcorenode.com
-      - 🇷🇴 罗马尼亚 starcorenode.com 2
-      - 🇺🇸 美国 CloudFlare节点
       - 🇬🇧 英国 伦敦Fastly节点
-      - 🇫🇷 法国 Fastly节点
-      - 🇯🇵 日本 Fastly节点
-      - 🇬🇧 英国 伦敦Fastly节点 2
-      - 🇺🇸 美国 Fastly全球Anycast节点 2
-      - 🇺🇸 美国 Fastly全球Anycast节点 3
+      - 🇺🇸 美国 加利福尼亚州洛杉矶Fastly节点
       - 🇺🇸 美国 Fastly节点 2
-      - 🇯🇵 日本 Fastly节点 2
+      - 🇬🇧 英国 starcorenode.com 2
+      - 🇬🇧 英国 伯克郡斯劳Fastly节点
+      - 🇺🇸 美国 starcorenode.com
+      - 🇸🇬 新加坡 Fastly节点
+      - 🇸🇪 瑞典 Fastly节点
+      - 🇺🇸 美国 starcorenode.com 2
+      - 🇺🇸 美国 Fastly节点 3
+      - 🇺🇸 美国 Fastly节点 4
       - 🇬🇷 希腊 starcorenode.com
-      - 🇨🇦 加拿大 安大略省多伦多Fastly节点
+      - 🇳🇱 荷兰 阿姆斯特丹Fastly节点
+      - 🇨🇦 加拿大 不列颠哥伦比亚省温哥华Fastly节点
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇮🇳 印度 金奈Fastly节点
+      - 🇮🇳 印度 starcorenode.com
+      - 🇬🇧 英国 伦敦Choopa数据中心
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 未知
-      - 🇸🇬 新加坡 Fastly节点
-      - 🇨🇦 加拿大 不列颠哥伦比亚省温哥华Fastly节点
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Fastly节点
-      - 🇺🇸 美国 Fastly全球Anycast节点
-      - 🇧🇷 巴西 库里奇巴Fastly节点
-      - 🇮🇹 意大利 米兰Fastly节点
+      - 🇬🇧 英国 starcorenode.com
       - 🇺🇸 美国 Fastly节点
-      - 🇷🇴 罗马尼亚 starcorenode.com
-      - 🇷🇴 罗马尼亚 starcorenode.com 2
-      - 🇺🇸 美国 CloudFlare节点
       - 🇬🇧 英国 伦敦Fastly节点
-      - 🇫🇷 法国 Fastly节点
-      - 🇯🇵 日本 Fastly节点
-      - 🇬🇧 英国 伦敦Fastly节点 2
-      - 🇺🇸 美国 Fastly全球Anycast节点 2
-      - 🇺🇸 美国 Fastly全球Anycast节点 3
+      - 🇺🇸 美国 加利福尼亚州洛杉矶Fastly节点
       - 🇺🇸 美国 Fastly节点 2
-      - 🇯🇵 日本 Fastly节点 2
+      - 🇬🇧 英国 starcorenode.com 2
+      - 🇬🇧 英国 伯克郡斯劳Fastly节点
+      - 🇺🇸 美国 starcorenode.com
+      - 🇸🇬 新加坡 Fastly节点
+      - 🇸🇪 瑞典 Fastly节点
+      - 🇺🇸 美国 starcorenode.com 2
+      - 🇺🇸 美国 Fastly节点 3
+      - 🇺🇸 美国 Fastly节点 4
       - 🇬🇷 希腊 starcorenode.com
-      - 🇨🇦 加拿大 安大略省多伦多Fastly节点
+      - 🇳🇱 荷兰 阿姆斯特丹Fastly节点
+      - 🇨🇦 加拿大 不列颠哥伦比亚省温哥华Fastly节点
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇮🇳 印度 金奈Fastly节点
+      - 🇮🇳 印度 starcorenode.com
+      - 🇬🇧 英国 伦敦Choopa数据中心
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 未知
-      - 🇸🇬 新加坡 Fastly节点
-      - 🇨🇦 加拿大 不列颠哥伦比亚省温哥华Fastly节点
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Fastly节点
-      - 🇺🇸 美国 Fastly全球Anycast节点
-      - 🇧🇷 巴西 库里奇巴Fastly节点
-      - 🇮🇹 意大利 米兰Fastly节点
+      - 🇬🇧 英国 starcorenode.com
       - 🇺🇸 美国 Fastly节点
-      - 🇷🇴 罗马尼亚 starcorenode.com
-      - 🇷🇴 罗马尼亚 starcorenode.com 2
-      - 🇺🇸 美国 CloudFlare节点
       - 🇬🇧 英国 伦敦Fastly节点
-      - 🇫🇷 法国 Fastly节点
-      - 🇯🇵 日本 Fastly节点
-      - 🇬🇧 英国 伦敦Fastly节点 2
-      - 🇺🇸 美国 Fastly全球Anycast节点 2
-      - 🇺🇸 美国 Fastly全球Anycast节点 3
+      - 🇺🇸 美国 加利福尼亚州洛杉矶Fastly节点
       - 🇺🇸 美国 Fastly节点 2
-      - 🇯🇵 日本 Fastly节点 2
+      - 🇬🇧 英国 starcorenode.com 2
+      - 🇬🇧 英国 伯克郡斯劳Fastly节点
+      - 🇺🇸 美国 starcorenode.com
+      - 🇸🇬 新加坡 Fastly节点
+      - 🇸🇪 瑞典 Fastly节点
+      - 🇺🇸 美国 starcorenode.com 2
+      - 🇺🇸 美国 Fastly节点 3
+      - 🇺🇸 美国 Fastly节点 4
       - 🇬🇷 希腊 starcorenode.com
-      - 🇨🇦 加拿大 安大略省多伦多Fastly节点
+      - 🇳🇱 荷兰 阿姆斯特丹Fastly节点
+      - 🇨🇦 加拿大 不列颠哥伦比亚省温哥华Fastly节点
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇮🇳 印度 金奈Fastly节点
+      - 🇮🇳 印度 starcorenode.com
+      - 🇬🇧 英国 伦敦Choopa数据中心
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -192,26 +192,26 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 未知
-      - 🇸🇬 新加坡 Fastly节点
-      - 🇨🇦 加拿大 不列颠哥伦比亚省温哥华Fastly节点
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Fastly节点
-      - 🇺🇸 美国 Fastly全球Anycast节点
-      - 🇧🇷 巴西 库里奇巴Fastly节点
-      - 🇮🇹 意大利 米兰Fastly节点
+      - 🇬🇧 英国 starcorenode.com
       - 🇺🇸 美国 Fastly节点
-      - 🇷🇴 罗马尼亚 starcorenode.com
-      - 🇷🇴 罗马尼亚 starcorenode.com 2
-      - 🇺🇸 美国 CloudFlare节点
       - 🇬🇧 英国 伦敦Fastly节点
-      - 🇫🇷 法国 Fastly节点
-      - 🇯🇵 日本 Fastly节点
-      - 🇬🇧 英国 伦敦Fastly节点 2
-      - 🇺🇸 美国 Fastly全球Anycast节点 2
-      - 🇺🇸 美国 Fastly全球Anycast节点 3
+      - 🇺🇸 美国 加利福尼亚州洛杉矶Fastly节点
       - 🇺🇸 美国 Fastly节点 2
-      - 🇯🇵 日本 Fastly节点 2
+      - 🇬🇧 英国 starcorenode.com 2
+      - 🇬🇧 英国 伯克郡斯劳Fastly节点
+      - 🇺🇸 美国 starcorenode.com
+      - 🇸🇬 新加坡 Fastly节点
+      - 🇸🇪 瑞典 Fastly节点
+      - 🇺🇸 美国 starcorenode.com 2
+      - 🇺🇸 美国 Fastly节点 3
+      - 🇺🇸 美国 Fastly节点 4
       - 🇬🇷 希腊 starcorenode.com
-      - 🇨🇦 加拿大 安大略省多伦多Fastly节点
+      - 🇳🇱 荷兰 阿姆斯特丹Fastly节点
+      - 🇨🇦 加拿大 不列颠哥伦比亚省温哥华Fastly节点
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇮🇳 印度 金奈Fastly节点
+      - 🇮🇳 印度 starcorenode.com
+      - 🇬🇧 英国 伦敦Choopa数据中心
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -235,26 +235,26 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 未知
-      - 🇸🇬 新加坡 Fastly节点
-      - 🇨🇦 加拿大 不列颠哥伦比亚省温哥华Fastly节点
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Fastly节点
-      - 🇺🇸 美国 Fastly全球Anycast节点
-      - 🇧🇷 巴西 库里奇巴Fastly节点
-      - 🇮🇹 意大利 米兰Fastly节点
+      - 🇬🇧 英国 starcorenode.com
       - 🇺🇸 美国 Fastly节点
-      - 🇷🇴 罗马尼亚 starcorenode.com
-      - 🇷🇴 罗马尼亚 starcorenode.com 2
-      - 🇺🇸 美国 CloudFlare节点
       - 🇬🇧 英国 伦敦Fastly节点
-      - 🇫🇷 法国 Fastly节点
-      - 🇯🇵 日本 Fastly节点
-      - 🇬🇧 英国 伦敦Fastly节点 2
-      - 🇺🇸 美国 Fastly全球Anycast节点 2
-      - 🇺🇸 美国 Fastly全球Anycast节点 3
+      - 🇺🇸 美国 加利福尼亚州洛杉矶Fastly节点
       - 🇺🇸 美国 Fastly节点 2
-      - 🇯🇵 日本 Fastly节点 2
+      - 🇬🇧 英国 starcorenode.com 2
+      - 🇬🇧 英国 伯克郡斯劳Fastly节点
+      - 🇺🇸 美国 starcorenode.com
+      - 🇸🇬 新加坡 Fastly节点
+      - 🇸🇪 瑞典 Fastly节点
+      - 🇺🇸 美国 starcorenode.com 2
+      - 🇺🇸 美国 Fastly节点 3
+      - 🇺🇸 美国 Fastly节点 4
       - 🇬🇷 希腊 starcorenode.com
-      - 🇨🇦 加拿大 安大略省多伦多Fastly节点
+      - 🇳🇱 荷兰 阿姆斯特丹Fastly节点
+      - 🇨🇦 加拿大 不列颠哥伦比亚省温哥华Fastly节点
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇮🇳 印度 金奈Fastly节点
+      - 🇮🇳 印度 starcorenode.com
+      - 🇬🇧 英国 伦敦Choopa数据中心
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
