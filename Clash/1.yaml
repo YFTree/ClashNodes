@@ -9,20 +9,65 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: 🇺🇸 US美国, server: "@...", port: 0, type: socks5, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK香港, server: e1.cover20.ir, port: 51570, type: ss, cipher: chacha20-ietf-poly1305, password: 6SjeAjXcDrovE45S0NyCGgQfIQLSFV04JyMhMtmZiGQ=, udp: true}
+  - {name: 🇺🇸 US美国, server: 103.177.136.42, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 2, server: 103.177.136.45, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 3, server: 103.177.136.42, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 4, server: 103.177.136.45, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 5, server: 103.177.136.42, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 6, server: 103.177.136.45, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 7, server: 103.177.136.45, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 8, server: 103.177.136.42, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 9, server: 103.177.136.45, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 10, server: 103.177.136.42, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 11, server: 103.177.136.42, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 12, server: 103.177.136.45, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 13, server: 72.249.204.157, port: 443, type: trojan, password: !<str> 114514, sni: tjaaa.hhllfly.kdns.fr, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tjaaa.hhllfly.kdns.fr}}, udp: true}
+  - {name: 🇺🇸 US美国 14, server: jpbgp.netvigor.cc, port: 19128, type: trojan, password: OccIqeORGQwiNkwS, sni: yazhou10.dynu.net, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 15, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true}
+  - {name: 🇺🇸 US美国 16, server: "@...", port: 0, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 17, server: 216.36.115.182, port: 48885, type: vmess, uuid: 929f4b3b-60ed-4c7d-e94e-243ee9bbc743, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 US美国 18, server: 43.169.19.179, port: 443, type: trojan, password: !<str> 114514, sni: tjaaa.hhllfly.kdns.fr, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tjaaa.hhllfly.kdns.fr}}, udp: true}
+  - {name: 🇺🇸 US美国 19, server: d1.catcat321.com, port: 56168, type: trojan, password: 7e70223b-f331-41d5-9313-02b8d2df2885, sni: d.usj1.cat.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 20, server: d1.catcat321.com, port: 42531, type: trojan, password: 63872b0d-87dd-4474-b690-92773af2922e, sni: d.usj1.cat.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 21, server: hkdcrtc-e.catcat321.com, port: 20050, type: trojan, password: 7e70223b-f331-41d5-9313-02b8d2df2885, sni: us.catxstar.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 22, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 US美国 23, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true}
+  - {name: 🇺🇸 US美国 24, server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, udp: true}
+  - {name: 🇺🇸 US美国 25, server: 103.177.136.45, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 26, server: 103.177.136.42, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 27, server: 103.177.136.42, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 28, server: 103.177.136.42, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 29, server: 103.177.136.45, port: 48697, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: gh.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 30, server: 103.177.136.45, port: 45553, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: ch.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 31, server: 103.177.136.42, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 32, server: 103.177.136.42, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 33, server: 104.243.20.184, port: 443, type: trojan, password: !<str> 114514, sni: tjaaa.hhllfly.kdns.fr, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tjaaa.hhllfly.kdns.fr}}, udp: true}
+  - {name: 🇺🇸 US美国 34, server: 216.36.115.182, port: 48885, type: vmess, uuid: 929f4b3b-60ed-4c7d-e94e-243ee9bbc743, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 US美国 35, server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, udp: true}
+  - {name: 🇨🇳 TW台湾, server: kkvlvvq-a.catcat321.com, port: 20096, type: trojan, password: 63872b0d-87dd-4474-b690-92773af2922e, sni: TW.catxstar.com, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG新加坡, server: 172.236.154.50, port: 443, type: trojan, password: !<str> 114514, sni: tjaaa.hhllfly.kdns.fr, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tjaaa.hhllfly.kdns.fr}}, udp: true}
-  - {name: 🇭🇰 HK香港 2, server: 23.156.153.57, port: 443, type: trojan, password: !<str> 114514, sni: tjaaa.hhllfly.kdns.fr, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tjaaa.hhllfly.kdns.fr}}, udp: true}
-  - {name: 🇰🇷 KR韩国, server: 211.49.57.178, port: 443, type: trojan, password: eeb6823c-b926-4ea2-866a-5542edd26e59, sni: hhcm.hhxaf.cc.cd, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hhcm.hhxaf.cc.cd}}, udp: true}
-  - {name: 🇺🇸 US美国 2, server: 72.249.204.157, port: 443, type: trojan, password: !<str> 114514, sni: tjaaa.hhllfly.kdns.fr, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tjaaa.hhllfly.kdns.fr}}, udp: true}
-  - {name: 🇺🇸 US美国 3, server: jpbgp.netvigor.cc, port: 19128, type: trojan, password: OccIqeORGQwiNkwS, sni: yazhou10.dynu.net, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US美国 4, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 US美国 5, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true}
-  - {name: 🇦🇹 奥地利, server: vc2606.vip1314.vip, port: 30008, type: ss, cipher: chacha20-ietf-poly1305, password: 951753pjh, udp: true}
-  - {name: 🇺🇸 US美国 6, server: 23.156.153.57, port: 443, type: trojan, password: !<str> 114514, sni: tjaaa.hhllfly.kdns.fr, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tjaaa.hhllfly.kdns.fr}}, udp: true}
-  - {name: 🇺🇸 US美国 7, server: 72.249.204.157, port: 443, type: trojan, password: !<str> 114514, sni: tjaaa.hhllfly.kdns.fr, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tjaaa.hhllfly.kdns.fr}}, udp: true}
-  - {name: 🇺🇸 US美国 8, server: 160.250.247.70, port: 49178, type: vmess, uuid: d7c13e10-2ba9-4677-a877-d9e9d1738394, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK香港 3, server: 160.250.247.70, port: 49178, type: vmess, uuid: d7c13e10-2ba9-4677-a877-d9e9d1738394, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG新加坡 2, server: 141.11.43.124, port: 443, type: trojan, password: !<str> 114514, sni: tjaaa.hhllfly.kdns.fr, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tjaaa.hhllfly.kdns.fr}}, udp: true}
+  - {name: 🇰🇷 KR韩国, server: 211.49.57.175, port: 443, type: trojan, password: eeb6823c-b926-4ea2-866a-5542edd26e59, sni: hhcm.hhxaf.cc.cd, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hhcm.hhxaf.cc.cd}}, udp: true}
+  - {name: 🇰🇷 KR韩国 2, server: 211.49.57.179, port: 443, type: trojan, password: eeb6823c-b926-4ea2-866a-5542edd26e59, sni: tjsp.hhxaf.cc.cd, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tjsp.hhxaf.cc.cd}}, udp: true}
+  - {name: 🇰🇷 KR韩国 3, server: 211.49.57.175, port: 443, type: trojan, password: !<str> 114514, sni: tjaaa.hhllfly.kdns.fr, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tjaaa.hhllfly.kdns.fr}}, udp: true}
+  - {name: 🇮🇳 IN印度, server: kkvlvvq-a.catcat321.com, port: 20035, type: trojan, password: 63872b0d-87dd-4474-b690-92773af2922e, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK香港, server: 23.156.153.57, port: 443, type: trojan, password: !<str> 114514, sni: tjaaa.hhllfly.kdns.fr, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tjaaa.hhllfly.kdns.fr}}, udp: true}
+  - {name: 🇭🇰 HK香港 2, server: 176.32.39.96, port: 64231, type: ss, cipher: aes-256-gcm, password: fbaf33bcffe53cf9, udp: true}
+  - {name: 🇭🇰 HK香港 3, server: 46.17.43.147, port: 32324, type: ss, cipher: aes-256-gcm, password: 32c0ea6e823341a2, udp: true}
+  - {name: 🇭🇰 HK香港 4, server: 103.177.136.45, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK香港 5, server: 103.177.136.45, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK香港 6, server: 103.177.136.45, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK香港 7, server: 103.177.136.42, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK香港 8, server: 122.10.119.252, port: 443, type: trojan, password: !<str> 114514, sni: tjaaa.hhllfly.kdns.fr, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tjaaa.hhllfly.kdns.fr}}, udp: true}
+  - {name: 🇫🇷 FR法国, server: 103.177.136.45, port: 41943, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: az.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 DE德国, server: 103.177.136.45, port: 47909, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: is.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇾 马来西亚, server: hkdcrtc-e.catcat321.com, port: 20047, type: trojan, password: 63872b0d-87dd-4474-b690-92773af2922e, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇾 马来西亚 2, server: kkvlvvq-a.catcat321.com, port: 20048, type: trojan, password: 63872b0d-87dd-4474-b690-92773af2922e, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇾 马来西亚 3, server: kkvlvvq-a.catcat321.com, port: 20048, type: trojan, password: 7e70223b-f331-41d5-9313-02b8d2df2885, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇾 马来西亚 4, server: hkdcrtc-e.catcat321.com, port: 20047, type: trojan, password: 7e70223b-f331-41d5-9313-02b8d2df2885, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇾 马来西亚 5, server: kkvlvvq-a.catcat321.com, port: 20031, type: trojan, password: 7e70223b-f331-41d5-9313-02b8d2df2885, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇾 马来西亚 6, server: kkvlvvq-a.catcat321.com, port: 20031, type: trojan, password: 63872b0d-87dd-4474-b690-92773af2922e, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 罗马尼亚, server: 103.177.136.42, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -30,19 +75,64 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇺🇸 US美国
-      - 🇭🇰 HK香港
-      - 🇸🇬 SG新加坡
-      - 🇭🇰 HK香港 2
-      - 🇰🇷 KR韩国
       - 🇺🇸 US美国 2
       - 🇺🇸 US美国 3
       - 🇺🇸 US美国 4
       - 🇺🇸 US美国 5
-      - 🇦🇹 奥地利
       - 🇺🇸 US美国 6
       - 🇺🇸 US美国 7
       - 🇺🇸 US美国 8
+      - 🇺🇸 US美国 9
+      - 🇺🇸 US美国 10
+      - 🇺🇸 US美国 11
+      - 🇺🇸 US美国 12
+      - 🇺🇸 US美国 13
+      - 🇺🇸 US美国 14
+      - 🇺🇸 US美国 15
+      - 🇺🇸 US美国 16
+      - 🇺🇸 US美国 17
+      - 🇺🇸 US美国 18
+      - 🇺🇸 US美国 19
+      - 🇺🇸 US美国 20
+      - 🇺🇸 US美国 21
+      - 🇺🇸 US美国 22
+      - 🇺🇸 US美国 23
+      - 🇺🇸 US美国 24
+      - 🇺🇸 US美国 25
+      - 🇺🇸 US美国 26
+      - 🇺🇸 US美国 27
+      - 🇺🇸 US美国 28
+      - 🇺🇸 US美国 29
+      - 🇺🇸 US美国 30
+      - 🇺🇸 US美国 31
+      - 🇺🇸 US美国 32
+      - 🇺🇸 US美国 33
+      - 🇺🇸 US美国 34
+      - 🇺🇸 US美国 35
+      - 🇨🇳 TW台湾
+      - 🇸🇬 SG新加坡
+      - 🇸🇬 SG新加坡 2
+      - 🇰🇷 KR韩国
+      - 🇰🇷 KR韩国 2
+      - 🇰🇷 KR韩国 3
+      - 🇮🇳 IN印度
+      - 🇭🇰 HK香港
+      - 🇭🇰 HK香港 2
       - 🇭🇰 HK香港 3
+      - 🇭🇰 HK香港 4
+      - 🇭🇰 HK香港 5
+      - 🇭🇰 HK香港 6
+      - 🇭🇰 HK香港 7
+      - 🇭🇰 HK香港 8
+      - 🇫🇷 FR法国
+      - 🇩🇪 DE德国
+      - 🇲🇾 马来西亚
+      - 🇲🇾 马来西亚 2
+      - 🇲🇾 马来西亚 3
+      - 🇲🇾 马来西亚 4
+      - 🇲🇾 马来西亚 5
+      - 🇲🇾 马来西亚 6
+      - 🇷🇴 罗马尼亚
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -50,19 +140,64 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇺🇸 US美国
-      - 🇭🇰 HK香港
-      - 🇸🇬 SG新加坡
-      - 🇭🇰 HK香港 2
-      - 🇰🇷 KR韩国
       - 🇺🇸 US美国 2
       - 🇺🇸 US美国 3
       - 🇺🇸 US美国 4
       - 🇺🇸 US美国 5
-      - 🇦🇹 奥地利
       - 🇺🇸 US美国 6
       - 🇺🇸 US美国 7
       - 🇺🇸 US美国 8
+      - 🇺🇸 US美国 9
+      - 🇺🇸 US美国 10
+      - 🇺🇸 US美国 11
+      - 🇺🇸 US美国 12
+      - 🇺🇸 US美国 13
+      - 🇺🇸 US美国 14
+      - 🇺🇸 US美国 15
+      - 🇺🇸 US美国 16
+      - 🇺🇸 US美国 17
+      - 🇺🇸 US美国 18
+      - 🇺🇸 US美国 19
+      - 🇺🇸 US美国 20
+      - 🇺🇸 US美国 21
+      - 🇺🇸 US美国 22
+      - 🇺🇸 US美国 23
+      - 🇺🇸 US美国 24
+      - 🇺🇸 US美国 25
+      - 🇺🇸 US美国 26
+      - 🇺🇸 US美国 27
+      - 🇺🇸 US美国 28
+      - 🇺🇸 US美国 29
+      - 🇺🇸 US美国 30
+      - 🇺🇸 US美国 31
+      - 🇺🇸 US美国 32
+      - 🇺🇸 US美国 33
+      - 🇺🇸 US美国 34
+      - 🇺🇸 US美国 35
+      - 🇨🇳 TW台湾
+      - 🇸🇬 SG新加坡
+      - 🇸🇬 SG新加坡 2
+      - 🇰🇷 KR韩国
+      - 🇰🇷 KR韩国 2
+      - 🇰🇷 KR韩国 3
+      - 🇮🇳 IN印度
+      - 🇭🇰 HK香港
+      - 🇭🇰 HK香港 2
       - 🇭🇰 HK香港 3
+      - 🇭🇰 HK香港 4
+      - 🇭🇰 HK香港 5
+      - 🇭🇰 HK香港 6
+      - 🇭🇰 HK香港 7
+      - 🇭🇰 HK香港 8
+      - 🇫🇷 FR法国
+      - 🇩🇪 DE德国
+      - 🇲🇾 马来西亚
+      - 🇲🇾 马来西亚 2
+      - 🇲🇾 马来西亚 3
+      - 🇲🇾 马来西亚 4
+      - 🇲🇾 马来西亚 5
+      - 🇲🇾 马来西亚 6
+      - 🇷🇴 罗马尼亚
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -70,76 +205,256 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸 US美国
-      - 🇭🇰 HK香港
-      - 🇸🇬 SG新加坡
-      - 🇭🇰 HK香港 2
-      - 🇰🇷 KR韩国
       - 🇺🇸 US美国 2
       - 🇺🇸 US美国 3
       - 🇺🇸 US美国 4
       - 🇺🇸 US美国 5
-      - 🇦🇹 奥地利
       - 🇺🇸 US美国 6
       - 🇺🇸 US美国 7
       - 🇺🇸 US美国 8
+      - 🇺🇸 US美国 9
+      - 🇺🇸 US美国 10
+      - 🇺🇸 US美国 11
+      - 🇺🇸 US美国 12
+      - 🇺🇸 US美国 13
+      - 🇺🇸 US美国 14
+      - 🇺🇸 US美国 15
+      - 🇺🇸 US美国 16
+      - 🇺🇸 US美国 17
+      - 🇺🇸 US美国 18
+      - 🇺🇸 US美国 19
+      - 🇺🇸 US美国 20
+      - 🇺🇸 US美国 21
+      - 🇺🇸 US美国 22
+      - 🇺🇸 US美国 23
+      - 🇺🇸 US美国 24
+      - 🇺🇸 US美国 25
+      - 🇺🇸 US美国 26
+      - 🇺🇸 US美国 27
+      - 🇺🇸 US美国 28
+      - 🇺🇸 US美国 29
+      - 🇺🇸 US美国 30
+      - 🇺🇸 US美国 31
+      - 🇺🇸 US美国 32
+      - 🇺🇸 US美国 33
+      - 🇺🇸 US美国 34
+      - 🇺🇸 US美国 35
+      - 🇨🇳 TW台湾
+      - 🇸🇬 SG新加坡
+      - 🇸🇬 SG新加坡 2
+      - 🇰🇷 KR韩国
+      - 🇰🇷 KR韩国 2
+      - 🇰🇷 KR韩国 3
+      - 🇮🇳 IN印度
+      - 🇭🇰 HK香港
+      - 🇭🇰 HK香港 2
       - 🇭🇰 HK香港 3
+      - 🇭🇰 HK香港 4
+      - 🇭🇰 HK香港 5
+      - 🇭🇰 HK香港 6
+      - 🇭🇰 HK香港 7
+      - 🇭🇰 HK香港 8
+      - 🇫🇷 FR法国
+      - 🇩🇪 DE德国
+      - 🇲🇾 马来西亚
+      - 🇲🇾 马来西亚 2
+      - 🇲🇾 马来西亚 3
+      - 🇲🇾 马来西亚 4
+      - 🇲🇾 马来西亚 5
+      - 🇲🇾 马来西亚 6
+      - 🇷🇴 罗马尼亚
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸 US美国
-      - 🇭🇰 HK香港
-      - 🇸🇬 SG新加坡
-      - 🇭🇰 HK香港 2
-      - 🇰🇷 KR韩国
       - 🇺🇸 US美国 2
       - 🇺🇸 US美国 3
       - 🇺🇸 US美国 4
       - 🇺🇸 US美国 5
-      - 🇦🇹 奥地利
       - 🇺🇸 US美国 6
       - 🇺🇸 US美国 7
       - 🇺🇸 US美国 8
+      - 🇺🇸 US美国 9
+      - 🇺🇸 US美国 10
+      - 🇺🇸 US美国 11
+      - 🇺🇸 US美国 12
+      - 🇺🇸 US美国 13
+      - 🇺🇸 US美国 14
+      - 🇺🇸 US美国 15
+      - 🇺🇸 US美国 16
+      - 🇺🇸 US美国 17
+      - 🇺🇸 US美国 18
+      - 🇺🇸 US美国 19
+      - 🇺🇸 US美国 20
+      - 🇺🇸 US美国 21
+      - 🇺🇸 US美国 22
+      - 🇺🇸 US美国 23
+      - 🇺🇸 US美国 24
+      - 🇺🇸 US美国 25
+      - 🇺🇸 US美国 26
+      - 🇺🇸 US美国 27
+      - 🇺🇸 US美国 28
+      - 🇺🇸 US美国 29
+      - 🇺🇸 US美国 30
+      - 🇺🇸 US美国 31
+      - 🇺🇸 US美国 32
+      - 🇺🇸 US美国 33
+      - 🇺🇸 US美国 34
+      - 🇺🇸 US美国 35
+      - 🇨🇳 TW台湾
+      - 🇸🇬 SG新加坡
+      - 🇸🇬 SG新加坡 2
+      - 🇰🇷 KR韩国
+      - 🇰🇷 KR韩国 2
+      - 🇰🇷 KR韩国 3
+      - 🇮🇳 IN印度
+      - 🇭🇰 HK香港
+      - 🇭🇰 HK香港 2
       - 🇭🇰 HK香港 3
+      - 🇭🇰 HK香港 4
+      - 🇭🇰 HK香港 5
+      - 🇭🇰 HK香港 6
+      - 🇭🇰 HK香港 7
+      - 🇭🇰 HK香港 8
+      - 🇫🇷 FR法国
+      - 🇩🇪 DE德国
+      - 🇲🇾 马来西亚
+      - 🇲🇾 马来西亚 2
+      - 🇲🇾 马来西亚 3
+      - 🇲🇾 马来西亚 4
+      - 🇲🇾 马来西亚 5
+      - 🇲🇾 马来西亚 6
+      - 🇷🇴 罗马尼亚
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇺🇸 US美国
-      - 🇭🇰 HK香港
-      - 🇸🇬 SG新加坡
-      - 🇭🇰 HK香港 2
-      - 🇰🇷 KR韩国
       - 🇺🇸 US美国 2
       - 🇺🇸 US美国 3
       - 🇺🇸 US美国 4
       - 🇺🇸 US美国 5
-      - 🇦🇹 奥地利
       - 🇺🇸 US美国 6
       - 🇺🇸 US美国 7
       - 🇺🇸 US美国 8
+      - 🇺🇸 US美国 9
+      - 🇺🇸 US美国 10
+      - 🇺🇸 US美国 11
+      - 🇺🇸 US美国 12
+      - 🇺🇸 US美国 13
+      - 🇺🇸 US美国 14
+      - 🇺🇸 US美国 15
+      - 🇺🇸 US美国 16
+      - 🇺🇸 US美国 17
+      - 🇺🇸 US美国 18
+      - 🇺🇸 US美国 19
+      - 🇺🇸 US美国 20
+      - 🇺🇸 US美国 21
+      - 🇺🇸 US美国 22
+      - 🇺🇸 US美国 23
+      - 🇺🇸 US美国 24
+      - 🇺🇸 US美国 25
+      - 🇺🇸 US美国 26
+      - 🇺🇸 US美国 27
+      - 🇺🇸 US美国 28
+      - 🇺🇸 US美国 29
+      - 🇺🇸 US美国 30
+      - 🇺🇸 US美国 31
+      - 🇺🇸 US美国 32
+      - 🇺🇸 US美国 33
+      - 🇺🇸 US美国 34
+      - 🇺🇸 US美国 35
+      - 🇨🇳 TW台湾
+      - 🇸🇬 SG新加坡
+      - 🇸🇬 SG新加坡 2
+      - 🇰🇷 KR韩国
+      - 🇰🇷 KR韩国 2
+      - 🇰🇷 KR韩国 3
+      - 🇮🇳 IN印度
+      - 🇭🇰 HK香港
+      - 🇭🇰 HK香港 2
       - 🇭🇰 HK香港 3
+      - 🇭🇰 HK香港 4
+      - 🇭🇰 HK香港 5
+      - 🇭🇰 HK香港 6
+      - 🇭🇰 HK香港 7
+      - 🇭🇰 HK香港 8
+      - 🇫🇷 FR法国
+      - 🇩🇪 DE德国
+      - 🇲🇾 马来西亚
+      - 🇲🇾 马来西亚 2
+      - 🇲🇾 马来西亚 3
+      - 🇲🇾 马来西亚 4
+      - 🇲🇾 马来西亚 5
+      - 🇲🇾 马来西亚 6
+      - 🇷🇴 罗马尼亚
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸 US美国
-      - 🇭🇰 HK香港
-      - 🇸🇬 SG新加坡
-      - 🇭🇰 HK香港 2
-      - 🇰🇷 KR韩国
       - 🇺🇸 US美国 2
       - 🇺🇸 US美国 3
       - 🇺🇸 US美国 4
       - 🇺🇸 US美国 5
-      - 🇦🇹 奥地利
       - 🇺🇸 US美国 6
       - 🇺🇸 US美国 7
       - 🇺🇸 US美国 8
+      - 🇺🇸 US美国 9
+      - 🇺🇸 US美国 10
+      - 🇺🇸 US美国 11
+      - 🇺🇸 US美国 12
+      - 🇺🇸 US美国 13
+      - 🇺🇸 US美国 14
+      - 🇺🇸 US美国 15
+      - 🇺🇸 US美国 16
+      - 🇺🇸 US美国 17
+      - 🇺🇸 US美国 18
+      - 🇺🇸 US美国 19
+      - 🇺🇸 US美国 20
+      - 🇺🇸 US美国 21
+      - 🇺🇸 US美国 22
+      - 🇺🇸 US美国 23
+      - 🇺🇸 US美国 24
+      - 🇺🇸 US美国 25
+      - 🇺🇸 US美国 26
+      - 🇺🇸 US美国 27
+      - 🇺🇸 US美国 28
+      - 🇺🇸 US美国 29
+      - 🇺🇸 US美国 30
+      - 🇺🇸 US美国 31
+      - 🇺🇸 US美国 32
+      - 🇺🇸 US美国 33
+      - 🇺🇸 US美国 34
+      - 🇺🇸 US美国 35
+      - 🇨🇳 TW台湾
+      - 🇸🇬 SG新加坡
+      - 🇸🇬 SG新加坡 2
+      - 🇰🇷 KR韩国
+      - 🇰🇷 KR韩国 2
+      - 🇰🇷 KR韩国 3
+      - 🇮🇳 IN印度
+      - 🇭🇰 HK香港
+      - 🇭🇰 HK香港 2
       - 🇭🇰 HK香港 3
+      - 🇭🇰 HK香港 4
+      - 🇭🇰 HK香港 5
+      - 🇭🇰 HK香港 6
+      - 🇭🇰 HK香港 7
+      - 🇭🇰 HK香港 8
+      - 🇫🇷 FR法国
+      - 🇩🇪 DE德国
+      - 🇲🇾 马来西亚
+      - 🇲🇾 马来西亚 2
+      - 🇲🇾 马来西亚 3
+      - 🇲🇾 马来西亚 4
+      - 🇲🇾 马来西亚 5
+      - 🇲🇾 马来西亚 6
+      - 🇷🇴 罗马尼亚
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -147,19 +462,64 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸 US美国
-      - 🇭🇰 HK香港
-      - 🇸🇬 SG新加坡
-      - 🇭🇰 HK香港 2
-      - 🇰🇷 KR韩国
       - 🇺🇸 US美国 2
       - 🇺🇸 US美国 3
       - 🇺🇸 US美国 4
       - 🇺🇸 US美国 5
-      - 🇦🇹 奥地利
       - 🇺🇸 US美国 6
       - 🇺🇸 US美国 7
       - 🇺🇸 US美国 8
+      - 🇺🇸 US美国 9
+      - 🇺🇸 US美国 10
+      - 🇺🇸 US美国 11
+      - 🇺🇸 US美国 12
+      - 🇺🇸 US美国 13
+      - 🇺🇸 US美国 14
+      - 🇺🇸 US美国 15
+      - 🇺🇸 US美国 16
+      - 🇺🇸 US美国 17
+      - 🇺🇸 US美国 18
+      - 🇺🇸 US美国 19
+      - 🇺🇸 US美国 20
+      - 🇺🇸 US美国 21
+      - 🇺🇸 US美国 22
+      - 🇺🇸 US美国 23
+      - 🇺🇸 US美国 24
+      - 🇺🇸 US美国 25
+      - 🇺🇸 US美国 26
+      - 🇺🇸 US美国 27
+      - 🇺🇸 US美国 28
+      - 🇺🇸 US美国 29
+      - 🇺🇸 US美国 30
+      - 🇺🇸 US美国 31
+      - 🇺🇸 US美国 32
+      - 🇺🇸 US美国 33
+      - 🇺🇸 US美国 34
+      - 🇺🇸 US美国 35
+      - 🇨🇳 TW台湾
+      - 🇸🇬 SG新加坡
+      - 🇸🇬 SG新加坡 2
+      - 🇰🇷 KR韩国
+      - 🇰🇷 KR韩国 2
+      - 🇰🇷 KR韩国 3
+      - 🇮🇳 IN印度
+      - 🇭🇰 HK香港
+      - 🇭🇰 HK香港 2
       - 🇭🇰 HK香港 3
+      - 🇭🇰 HK香港 4
+      - 🇭🇰 HK香港 5
+      - 🇭🇰 HK香港 6
+      - 🇭🇰 HK香港 7
+      - 🇭🇰 HK香港 8
+      - 🇫🇷 FR法国
+      - 🇩🇪 DE德国
+      - 🇲🇾 马来西亚
+      - 🇲🇾 马来西亚 2
+      - 🇲🇾 马来西亚 3
+      - 🇲🇾 马来西亚 4
+      - 🇲🇾 马来西亚 5
+      - 🇲🇾 马来西亚 6
+      - 🇷🇴 罗马尼亚
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -183,19 +543,64 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸 US美国
-      - 🇭🇰 HK香港
-      - 🇸🇬 SG新加坡
-      - 🇭🇰 HK香港 2
-      - 🇰🇷 KR韩国
       - 🇺🇸 US美国 2
       - 🇺🇸 US美国 3
       - 🇺🇸 US美国 4
       - 🇺🇸 US美国 5
-      - 🇦🇹 奥地利
       - 🇺🇸 US美国 6
       - 🇺🇸 US美国 7
       - 🇺🇸 US美国 8
+      - 🇺🇸 US美国 9
+      - 🇺🇸 US美国 10
+      - 🇺🇸 US美国 11
+      - 🇺🇸 US美国 12
+      - 🇺🇸 US美国 13
+      - 🇺🇸 US美国 14
+      - 🇺🇸 US美国 15
+      - 🇺🇸 US美国 16
+      - 🇺🇸 US美国 17
+      - 🇺🇸 US美国 18
+      - 🇺🇸 US美国 19
+      - 🇺🇸 US美国 20
+      - 🇺🇸 US美国 21
+      - 🇺🇸 US美国 22
+      - 🇺🇸 US美国 23
+      - 🇺🇸 US美国 24
+      - 🇺🇸 US美国 25
+      - 🇺🇸 US美国 26
+      - 🇺🇸 US美国 27
+      - 🇺🇸 US美国 28
+      - 🇺🇸 US美国 29
+      - 🇺🇸 US美国 30
+      - 🇺🇸 US美国 31
+      - 🇺🇸 US美国 32
+      - 🇺🇸 US美国 33
+      - 🇺🇸 US美国 34
+      - 🇺🇸 US美国 35
+      - 🇨🇳 TW台湾
+      - 🇸🇬 SG新加坡
+      - 🇸🇬 SG新加坡 2
+      - 🇰🇷 KR韩国
+      - 🇰🇷 KR韩国 2
+      - 🇰🇷 KR韩国 3
+      - 🇮🇳 IN印度
+      - 🇭🇰 HK香港
+      - 🇭🇰 HK香港 2
       - 🇭🇰 HK香港 3
+      - 🇭🇰 HK香港 4
+      - 🇭🇰 HK香港 5
+      - 🇭🇰 HK香港 6
+      - 🇭🇰 HK香港 7
+      - 🇭🇰 HK香港 8
+      - 🇫🇷 FR法国
+      - 🇩🇪 DE德国
+      - 🇲🇾 马来西亚
+      - 🇲🇾 马来西亚 2
+      - 🇲🇾 马来西亚 3
+      - 🇲🇾 马来西亚 4
+      - 🇲🇾 马来西亚 5
+      - 🇲🇾 马来西亚 6
+      - 🇷🇴 罗马尼亚
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

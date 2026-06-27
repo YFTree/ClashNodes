@@ -124,32 +124,34 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇦_CA_加拿大",
+        "🇨🇦_CA_加拿大->🇨🇭_CH_瑞士",
+        "🇨🇭_CH_瑞士",
+        "🇮🇷_IR_伊朗->🇩🇪_DE_德国",
         "🇺🇸_US_美国",
-        "🇺🇸_US_美国->🇩🇪_DE_德国",
-        "🇸🇬_SG_新加坡",
-        "🇳🇱_NL_荷兰",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_1",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_2",
+        "🇨🇦_CA_加拿大",
         "🇺🇸_US_美国_1",
-        "🇹🇼_TW_中国台湾",
+        "🇭🇰_HK_中国香港->🇮🇳_IN_印度",
+        "🇭🇰_HK_中国香港",
+        "🇭🇰_HK_中国香港_1",
+        "🇭🇰_HK_中国香港->🇲🇾_MY_马来西亚",
         "🇺🇸_US_美国_2",
         "🇨🇦_CA_加拿大_1",
-        "🇨🇦_CA_加拿大_2",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_3",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_4",
-        "🇨🇦_CA_加拿大_3",
-        "🇫🇷_FR_法国->🇩🇪_DE_德国",
-        "🇨🇦_CA_加拿大->🇩🇪_DE_德国",
         "🇺🇸_US_美国_3",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_5",
-        "🇧🇪_BE_比利时->🇩🇪_DE_德国",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_6",
-        "🇺🇸_US_美国->🇳🇱_NL_荷兰",
+        "🇨🇦_CA_加拿大_2",
+        "🇭🇰_HK_中国香港->🇲🇾_MY_马来西亚_1",
+        "🇩🇪_DE_德国",
+        "🇨🇦_CA_加拿大_3",
+        "🇹🇼_TW_中国台湾",
         "🇨🇦_CA_加拿大_4",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_7",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_8",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_9"
+        "🇭🇰_HK_中国香港->🇲🇾_MY_马来西亚_2",
+        "🇯🇵_JP_日本",
+        "🇺🇸_US_美国_4",
+        "🇺🇸_US_美国->🇳🇱_NL_荷兰",
+        "🇸🇬_SG_新加坡",
+        "🇺🇸_US_美国_5",
+        "🇨🇦_CA_加拿大_5",
+        "🇨🇦_CA_加拿大_6",
+        "🇻🇳_VN_越南"
       ]
     },
     {
@@ -355,7 +357,12 @@
       "tag": "HongKong",
       "type": "selector",
       "outbounds": [
-        "Proxy"
+        "🇭🇰_HK_中国香港->🇮🇳_IN_印度",
+        "🇭🇰_HK_中国香港",
+        "🇭🇰_HK_中国香港_1",
+        "🇭🇰_HK_中国香港->🇲🇾_MY_马来西亚",
+        "🇭🇰_HK_中国香港->🇲🇾_MY_马来西亚_1",
+        "🇭🇰_HK_中国香港->🇲🇾_MY_马来西亚_2"
       ]
     },
     {
@@ -376,7 +383,7 @@
       "tag": "Japan",
       "type": "selector",
       "outbounds": [
-        "Proxy"
+        "🇯🇵_JP_日本"
       ]
     },
     {
@@ -384,67 +391,64 @@
       "type": "selector",
       "outbounds": [
         "🇺🇸_US_美国",
-        "🇺🇸_US_美国->🇩🇪_DE_德国",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_1",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_2",
         "🇺🇸_US_美国_1",
         "🇺🇸_US_美国_2",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_3",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_4",
         "🇺🇸_US_美国_3",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_5",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_6",
+        "🇺🇸_US_美国_4",
         "🇺🇸_US_美国->🇳🇱_NL_荷兰",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_7",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_8",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_9"
+        "🇺🇸_US_美国_5"
       ]
     },
     {
       "tag": "Others",
       "type": "selector",
       "outbounds": [
+        "🇨🇦_CA_加拿大->🇨🇭_CH_瑞士",
+        "🇨🇭_CH_瑞士",
+        "🇮🇷_IR_伊朗->🇩🇪_DE_德国",
         "🇨🇦_CA_加拿大",
-        "🇳🇱_NL_荷兰",
         "🇨🇦_CA_加拿大_1",
         "🇨🇦_CA_加拿大_2",
+        "🇩🇪_DE_德国",
         "🇨🇦_CA_加拿大_3",
-        "🇫🇷_FR_法国->🇩🇪_DE_德国",
-        "🇨🇦_CA_加拿大->🇩🇪_DE_德国",
-        "🇧🇪_BE_比利时->🇩🇪_DE_德国",
-        "🇨🇦_CA_加拿大_4"
+        "🇨🇦_CA_加拿大_4",
+        "🇨🇦_CA_加拿大_5",
+        "🇨🇦_CA_加拿大_6",
+        "🇻🇳_VN_越南"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇨🇦_CA_加拿大",
+        "🇨🇦_CA_加拿大->🇨🇭_CH_瑞士",
+        "🇨🇭_CH_瑞士",
+        "🇮🇷_IR_伊朗->🇩🇪_DE_德国",
         "🇺🇸_US_美国",
-        "🇺🇸_US_美国->🇩🇪_DE_德国",
-        "🇸🇬_SG_新加坡",
-        "🇳🇱_NL_荷兰",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_1",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_2",
+        "🇨🇦_CA_加拿大",
         "🇺🇸_US_美国_1",
-        "🇹🇼_TW_中国台湾",
+        "🇭🇰_HK_中国香港->🇮🇳_IN_印度",
+        "🇭🇰_HK_中国香港",
+        "🇭🇰_HK_中国香港_1",
+        "🇭🇰_HK_中国香港->🇲🇾_MY_马来西亚",
         "🇺🇸_US_美国_2",
         "🇨🇦_CA_加拿大_1",
-        "🇨🇦_CA_加拿大_2",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_3",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_4",
-        "🇨🇦_CA_加拿大_3",
-        "🇫🇷_FR_法国->🇩🇪_DE_德国",
-        "🇨🇦_CA_加拿大->🇩🇪_DE_德国",
         "🇺🇸_US_美国_3",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_5",
-        "🇧🇪_BE_比利时->🇩🇪_DE_德国",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_6",
-        "🇺🇸_US_美国->🇳🇱_NL_荷兰",
+        "🇨🇦_CA_加拿大_2",
+        "🇭🇰_HK_中国香港->🇲🇾_MY_马来西亚_1",
+        "🇩🇪_DE_德国",
+        "🇨🇦_CA_加拿大_3",
+        "🇹🇼_TW_中国台湾",
         "🇨🇦_CA_加拿大_4",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_7",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_8",
-        "🇺🇸_US_美国->🇩🇪_DE_德国_9"
+        "🇭🇰_HK_中国香港->🇲🇾_MY_马来西亚_2",
+        "🇯🇵_JP_日本",
+        "🇺🇸_US_美国_4",
+        "🇺🇸_US_美国->🇳🇱_NL_荷兰",
+        "🇸🇬_SG_新加坡",
+        "🇺🇸_US_美国_5",
+        "🇨🇦_CA_加拿大_5",
+        "🇨🇦_CA_加拿大_6",
+        "🇻🇳_VN_越南"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -455,9 +459,244 @@
       "tag": "direct"
     },
     {
+      "tag": "🇨🇦_CA_加拿大->🇨🇭_CH_瑞士",
+      "type": "trojan",
+      "server": "103.177.136.42",
+      "server_port": 45553,
+      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
+      "network": "tcp",
+      "tls": {
+        "enabled": false,
+        "server_name": "ch.01.naiun.bilibili.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇭_CH_瑞士",
+      "type": "vless",
+      "server": "83.228.231.188",
+      "server_port": 22000,
+      "uuid": "e6a037ff-3908-4bf9-b3e7-b1138da601f9",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "NbZ4uhJZ6zpvRLXODNcVDk9UgcKNahpN1h74CsV04Fs",
+          "short_id": "14"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇮🇷_IR_伊朗->🇩🇪_DE_德国",
+      "type": "vless",
+      "server": "sv2.azparadox.ir",
+      "server_port": 8880,
+      "uuid": "d9307ab3-1ed0-4b6d-bfd0-e104c7ccc25a",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "azsv2.ir5ive.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      },
+      "tls": {
+        "enabled": false,
+        "server_name": "azsv2.ir5ive.ir",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇺🇸_US_美国",
+      "type": "shadowsocks",
+      "server": "134.195.101.116",
+      "server_port": 2377,
+      "method": "chacha20-ietf-poly1305",
+      "password": "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv",
+      "plugin": "obfs",
+      "plugin_opts": {
+        "mode": "tls",
+        "host": "817aa69.default.nintendo.com:112719"
+      }
+    },
+    {
       "tag": "🇨🇦_CA_加拿大",
       "type": "trojan",
       "server": "103.177.136.45",
+      "server_port": 41943,
+      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
+      "network": "tcp",
+      "tls": {
+        "enabled": false,
+        "server_name": "az.01.naiun.bilibili.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇺🇸_US_美国_1",
+      "type": "shadowsocks",
+      "server": "134.195.101.118",
+      "server_port": 2377,
+      "method": "chacha20-ietf-poly1305",
+      "password": "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv",
+      "plugin": "obfs",
+      "plugin_opts": {
+        "mode": "tls",
+        "host": "817aa69.default.nintendo.com:112719"
+      }
+    },
+    {
+      "tag": "🇭🇰_HK_中国香港->🇮🇳_IN_印度",
+      "type": "trojan",
+      "server": "kkvlvvq-a.catcat321.com",
+      "server_port": 20035,
+      "password": "63872b0d-87dd-4474-b690-92773af2922e",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.catxstar.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇭🇰_HK_中国香港",
+      "type": "vmess",
+      "server": "v10.hdacd.com",
+      "server_port": 30807,
+      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+      "alter_id": 2,
+      "security": "auto",
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇭🇰_HK_中国香港_1",
+      "type": "vmess",
+      "server": "47.244.120.197",
+      "server_port": 36703,
+      "uuid": "45b83519-9c4f-4052-a11b-02e017b636d4",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/arki?ed=2048"
+      },
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇭🇰_HK_中国香港->🇲🇾_MY_马来西亚",
+      "type": "trojan",
+      "server": "kkvlvvq-a.catcat321.com",
+      "server_port": 20031,
+      "password": "7e70223b-f331-41d5-9313-02b8d2df2885",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.catxstar.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇺🇸_US_美国_2",
+      "type": "vless",
+      "server": "po.fastbrokencompony.com",
+      "server_port": 2053,
+      "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
+      "transport": {
+        "type": "ws",
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇦_CA_加拿大_1",
+      "type": "trojan",
+      "server": "103.177.136.42",
+      "server_port": 46424,
+      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "server_name": "de.01.naiun.bilibili.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇺🇸_US_美国_3",
+      "type": "shadowsocks",
+      "server": "134.195.101.125",
+      "server_port": 2377,
+      "method": "chacha20-ietf-poly1305",
+      "password": "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv",
+      "plugin": "obfs",
+      "plugin_opts": {
+        "mode": "tls",
+        "host": "817aa69.default.nintendo.com:112719"
+      }
+    },
+    {
+      "tag": "🇨🇦_CA_加拿大_2",
+      "type": "trojan",
+      "server": "103.177.136.45",
+      "server_port": 45619,
+      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
+      "network": "tcp",
+      "tls": {
+        "enabled": false,
+        "server_name": "fr.01.naiun.bilibili.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇭🇰_HK_中国香港->🇲🇾_MY_马来西亚_1",
+      "type": "trojan",
+      "server": "kkvlvvq-a.catcat321.com",
+      "server_port": 20048,
+      "password": "7e70223b-f331-41d5-9313-02b8d2df2885",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.catxstar.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria",
+      "server": "5.83.129.90",
+      "server_port": 54177,
+      "auth_str": "dongtaiwang.com",
+      "up": "500",
+      "down": "1000",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "alpn": [
+          "h3"
+        ],
+        "insecure": true
+      },
+      "tag": "🇩🇪_DE_德国"
+    },
+    {
+      "tag": "🇨🇦_CA_加拿大_3",
+      "type": "trojan",
+      "server": "103.177.136.42",
       "server_port": 47909,
       "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
       "network": "tcp",
@@ -465,137 +704,6 @@
         "enabled": false,
         "server_name": "is.01.naiun.bilibili.com",
         "insecure": true
-      }
-    },
-    {
-      "tag": "🇺🇸_US_美国",
-      "type": "shadowsocks",
-      "server": "134.195.101.115",
-      "server_port": 2377,
-      "method": "chacha20-ietf-poly1305",
-      "password": "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv",
-      "plugin": "obfs",
-      "plugin_opts": {
-        "mode": "tls",
-        "host": "817aa69.default.nintendo.com:112719"
-      }
-    },
-    {
-      "tag": "🇺🇸_US_美国->🇩🇪_DE_德国",
-      "type": "vless",
-      "server": "151.101.171.151",
-      "server_port": 80,
-      "uuid": "0058c215-ab1e-400c-a403-b5b2fda7e846",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "max-gb1.global.ssl.fastly.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      },
-      "tls": {
-        "enabled": false,
-        "server_name": "max-gb1.global.ssl.fastly.net",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬_SG_新加坡",
-      "type": "vless",
-      "server": "8.222.179.80",
-      "server_port": 443,
-      "uuid": "3e7f67de-648e-4871-b51a-a225214d41ee",
-      "tls": {
-        "enabled": true,
-        "server_name": "commerce.adobe.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw"
-        },
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇳🇱_NL_荷兰",
-      "type": "vless",
-      "server": "rezerv16.yunus.guru",
-      "server_port": 443,
-      "uuid": "a5ea9247-79f3-4655-aece-3fb51e1e669e",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "rezerv16.yunus.guru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "WeeUf6jO26pDN580rmz6kmZ5Y-S-eF76iWOMYK1HvDg",
-          "short_id": "e6f15c51340a6691"
-        },
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇺🇸_US_美国->🇩🇪_DE_德国_1",
-      "type": "vless",
-      "server": "151.101.2.219",
-      "server_port": 80,
-      "uuid": "0058c215-ab1e-400c-a403-b5b2fda7e846",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "max-gb1.global.ssl.fastly.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      },
-      "tls": {
-        "enabled": false,
-        "server_name": "max-gb1.global.ssl.fastly.net",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇺🇸_US_美国->🇩🇪_DE_德国_2",
-      "type": "vless",
-      "server": "151.101.196.151",
-      "server_port": 80,
-      "uuid": "0058c215-ab1e-400c-a403-b5b2fda7e846",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "max-gb1.global.ssl.fastly.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      },
-      "tls": {
-        "enabled": false,
-        "server_name": "max-gb1.global.ssl.fastly.net",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇺🇸_US_美国_1",
-      "type": "shadowsocks",
-      "server": "134.195.101.119",
-      "server_port": 2377,
-      "method": "chacha20-ietf-poly1305",
-      "password": "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv",
-      "plugin": "obfs",
-      "plugin_opts": {
-        "mode": "tls",
-        "host": "817aa69.default.nintendo.com:112719"
       }
     },
     {
@@ -621,9 +729,48 @@
       }
     },
     {
-      "tag": "🇺🇸_US_美国_2",
+      "tag": "🇨🇦_CA_加拿大_4",
+      "type": "trojan",
+      "server": "103.177.136.45",
+      "server_port": 47909,
+      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
+      "network": "tcp",
+      "tls": {
+        "enabled": false,
+        "server_name": "is.01.naiun.bilibili.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇭🇰_HK_中国香港->🇲🇾_MY_马来西亚_2",
+      "type": "trojan",
+      "server": "hkdcrtc-e.catcat321.com",
+      "server_port": 20047,
+      "password": "63872b0d-87dd-4474-b690-92773af2922e",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.catxstar.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵_JP_日本",
+      "type": "vmess",
+      "server": "v36.hdacd.com",
+      "server_port": 30836,
+      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+      "alter_id": 2,
+      "security": "auto",
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇺🇸_US_美国_4",
       "type": "shadowsocks",
-      "server": "134.195.101.118",
+      "server": "134.195.101.119",
       "server_port": 2377,
       "method": "chacha20-ietf-poly1305",
       "password": "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv",
@@ -631,200 +778,6 @@
       "plugin_opts": {
         "mode": "tls",
         "host": "817aa69.default.nintendo.com:112719"
-      }
-    },
-    {
-      "tag": "🇨🇦_CA_加拿大_1",
-      "type": "trojan",
-      "server": "103.177.136.45",
-      "server_port": 45619,
-      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
-      "network": "tcp",
-      "tls": {
-        "enabled": false,
-        "server_name": "fr.01.naiun.bilibili.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇦_CA_加拿大_2",
-      "type": "trojan",
-      "server": "103.177.136.45",
-      "server_port": 41943,
-      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
-      "network": "tcp",
-      "tls": {
-        "enabled": false,
-        "server_name": "az.01.naiun.bilibili.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇺🇸_US_美国->🇩🇪_DE_德国_3",
-      "type": "vless",
-      "server": "151.101.84.151",
-      "server_port": 80,
-      "uuid": "0058c215-ab1e-400c-a403-b5b2fda7e846",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "max-gb1.global.ssl.fastly.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      },
-      "tls": {
-        "enabled": false,
-        "server_name": "max-gb1.global.ssl.fastly.net",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇺🇸_US_美国->🇩🇪_DE_德国_4",
-      "type": "vless",
-      "server": "151.101.101.151",
-      "server_port": 80,
-      "uuid": "0058c215-ab1e-400c-a403-b5b2fda7e846",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "max-gb1.global.ssl.fastly.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      },
-      "tls": {
-        "enabled": false,
-        "server_name": "max-gb1.global.ssl.fastly.net",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇦_CA_加拿大_3",
-      "type": "trojan",
-      "server": "103.177.136.42",
-      "server_port": 41943,
-      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
-      "network": "tcp",
-      "tls": {
-        "enabled": false,
-        "server_name": "az.01.naiun.bilibili.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇫🇷_FR_法国->🇩🇪_DE_德国",
-      "type": "vless",
-      "server": "151.101.122.151",
-      "server_port": 80,
-      "uuid": "0058c215-ab1e-400c-a403-b5b2fda7e846",
-      "transport": {
-        "type": "ws",
-        "path": "/?https://t.me/WangCai2🇨🇳",
-        "headers": {
-          "Host": "max-gb1.global.ssl.fastly.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      },
-      "tls": {
-        "enabled": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇦_CA_加拿大->🇩🇪_DE_德国",
-      "type": "trojan",
-      "server": "103.177.136.45",
-      "server_port": 46424,
-      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
-      "network": "tcp",
-      "tls": {
-        "enabled": false,
-        "server_name": "de.01.naiun.bilibili.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇺🇸_US_美国_3",
-      "type": "shadowsocks",
-      "server": "134.195.101.125",
-      "server_port": 2377,
-      "method": "chacha20-ietf-poly1305",
-      "password": "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv",
-      "plugin": "obfs",
-      "plugin_opts": {
-        "mode": "tls",
-        "host": "817aa69.default.nintendo.com:112719"
-      }
-    },
-    {
-      "tag": "🇺🇸_US_美国->🇩🇪_DE_德国_5",
-      "type": "vless",
-      "server": "speedtest.net",
-      "server_port": 80,
-      "uuid": "0058c215-ab1e-400c-a403-b5b2fda7e846",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "max-gb1.global.ssl.fastly.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      },
-      "tls": {
-        "enabled": false,
-        "server_name": "max-gb1.global.ssl.fastly.net",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇧🇪_BE_比利时->🇩🇪_DE_德国",
-      "type": "vless",
-      "server": "151.101.8.151",
-      "server_port": 80,
-      "uuid": "0058c215-ab1e-400c-a403-b5b2fda7e846",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "max-gb1.global.ssl.fastly.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      },
-      "tls": {
-        "enabled": false,
-        "server_name": "max-gb1.global.ssl.fastly.net",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇺🇸_US_美国->🇩🇪_DE_德国_6",
-      "type": "vless",
-      "server": "151.101.169.151",
-      "server_port": 80,
-      "uuid": "0058c215-ab1e-400c-a403-b5b2fda7e846",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "max-gb1.global.ssl.fastly.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      },
-      "tls": {
-        "enabled": false,
-        "server_name": "max-gb1.global.ssl.fastly.net",
-        "insecure": true
       }
     },
     {
@@ -849,80 +802,80 @@
       }
     },
     {
-      "tag": "🇨🇦_CA_加拿大_4",
+      "tag": "🇸🇬_SG_新加坡",
+      "type": "vless",
+      "server": "8.222.179.80",
+      "server_port": 443,
+      "uuid": "3e7f67de-648e-4871-b51a-a225214d41ee",
+      "tls": {
+        "enabled": true,
+        "server_name": "commerce.adobe.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇺🇸_US_美国_5",
+      "type": "shadowsocks",
+      "server": "134.195.101.117",
+      "server_port": 2377,
+      "method": "chacha20-ietf-poly1305",
+      "password": "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv",
+      "plugin": "obfs",
+      "plugin_opts": {
+        "mode": "tls",
+        "host": "817aa69.default.nintendo.com:112719",
+        "tls": "false"
+      }
+    },
+    {
+      "tag": "🇨🇦_CA_加拿大_5",
       "type": "trojan",
       "server": "103.177.136.42",
-      "server_port": 45619,
+      "server_port": 48697,
       "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
       "network": "tcp",
       "tls": {
         "enabled": true,
-        "server_name": "fr.01.naiun.bilibili.com",
+        "server_name": "gh.01.naiun.bilibili.com",
         "insecure": true
       }
     },
     {
-      "tag": "🇺🇸_US_美国->🇩🇪_DE_德国_7",
-      "type": "vless",
-      "server": "151.101.23.151",
-      "server_port": 80,
-      "uuid": "0058c215-ab1e-400c-a403-b5b2fda7e846",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "max-gb1.global.ssl.fastly.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      },
+      "tag": "🇨🇦_CA_加拿大_6",
+      "type": "trojan",
+      "server": "103.177.136.45",
+      "server_port": 48697,
+      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
+      "network": "tcp",
       "tls": {
         "enabled": false,
-        "server_name": "max-gb1.global.ssl.fastly.net",
+        "server_name": "gh.01.naiun.bilibili.com",
         "insecure": true
       }
     },
     {
-      "tag": "🇺🇸_US_美国->🇩🇪_DE_德国_8",
-      "type": "vless",
-      "server": "151.101.69.151",
-      "server_port": 80,
-      "uuid": "0058c215-ab1e-400c-a403-b5b2fda7e846",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "max-gb1.global.ssl.fastly.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
+      "type": "hysteria2",
+      "server": "vn2.yuntong.click",
+      "server_port": 443,
+      "password": "f7cb07a0-e6f9-4d22-a60e-c61854450c89",
+      "obfs": {
+        "type": "salamander",
+        "password": "eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo="
       },
       "tls": {
-        "enabled": false,
-        "server_name": "max-gb1.global.ssl.fastly.net",
+        "enabled": true,
+        "server_name": "vn2.yuntong.click",
         "insecure": true
-      }
-    },
-    {
-      "tag": "🇺🇸_US_美国->🇩🇪_DE_德国_9",
-      "type": "vless",
-      "server": "151.101.22.151",
-      "server_port": 80,
-      "uuid": "0058c215-ab1e-400c-a403-b5b2fda7e846",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "max-gb1.global.ssl.fastly.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
       },
-      "tls": {
-        "enabled": false,
-        "server_name": "max-gb1.global.ssl.fastly.net",
-        "insecure": true
-      }
+      "tag": "🇻🇳_VN_越南"
     }
   ],
   "http_clients": [
