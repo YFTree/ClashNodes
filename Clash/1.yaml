@@ -10,13 +10,8 @@ global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
   - {name: 🇺🇸 US美国, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 US美国 2, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 US美国 3, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true}
-  - {name: 🇺🇸 US美国 4, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true}
-  - {name: 🇺🇸 US美国 5, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true}
-  - {name: 🇺🇸 US美国 6, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true}
-  - {name: 🇯🇵 JP日本, server: "@...", port: 0, type: socks5, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP日本 2, server: "@...", port: 0, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US美国 2, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true}
+  - {name: 🇺🇸 US美国 3, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -26,11 +21,6 @@ proxy-groups:
       - 🇺🇸 US美国
       - 🇺🇸 US美国 2
       - 🇺🇸 US美国 3
-      - 🇺🇸 US美国 4
-      - 🇺🇸 US美国 5
-      - 🇺🇸 US美国 6
-      - 🇯🇵 JP日本
-      - 🇯🇵 JP日本 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -40,11 +30,6 @@ proxy-groups:
       - 🇺🇸 US美国
       - 🇺🇸 US美国 2
       - 🇺🇸 US美国 3
-      - 🇺🇸 US美国 4
-      - 🇺🇸 US美国 5
-      - 🇺🇸 US美国 6
-      - 🇯🇵 JP日本
-      - 🇯🇵 JP日本 2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -54,11 +39,6 @@ proxy-groups:
       - 🇺🇸 US美国
       - 🇺🇸 US美国 2
       - 🇺🇸 US美国 3
-      - 🇺🇸 US美国 4
-      - 🇺🇸 US美国 5
-      - 🇺🇸 US美国 6
-      - 🇯🇵 JP日本
-      - 🇯🇵 JP日本 2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -67,11 +47,6 @@ proxy-groups:
       - 🇺🇸 US美国
       - 🇺🇸 US美国 2
       - 🇺🇸 US美国 3
-      - 🇺🇸 US美国 4
-      - 🇺🇸 US美国 5
-      - 🇺🇸 US美国 6
-      - 🇯🇵 JP日本
-      - 🇯🇵 JP日本 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -80,11 +55,6 @@ proxy-groups:
       - 🇺🇸 US美国
       - 🇺🇸 US美国 2
       - 🇺🇸 US美国 3
-      - 🇺🇸 US美国 4
-      - 🇺🇸 US美国 5
-      - 🇺🇸 US美国 6
-      - 🇯🇵 JP日本
-      - 🇯🇵 JP日本 2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -93,11 +63,6 @@ proxy-groups:
       - 🇺🇸 US美国
       - 🇺🇸 US美国 2
       - 🇺🇸 US美国 3
-      - 🇺🇸 US美国 4
-      - 🇺🇸 US美国 5
-      - 🇺🇸 US美国 6
-      - 🇯🇵 JP日本
-      - 🇯🇵 JP日本 2
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -107,11 +72,6 @@ proxy-groups:
       - 🇺🇸 US美国
       - 🇺🇸 US美国 2
       - 🇺🇸 US美国 3
-      - 🇺🇸 US美国 4
-      - 🇺🇸 US美国 5
-      - 🇺🇸 US美国 6
-      - 🇯🇵 JP日本
-      - 🇯🇵 JP日本 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -137,11 +97,6 @@ proxy-groups:
       - 🇺🇸 US美国
       - 🇺🇸 US美国 2
       - 🇺🇸 US美国 3
-      - 🇺🇸 US美国 4
-      - 🇺🇸 US美国 5
-      - 🇺🇸 US美国 6
-      - 🇯🇵 JP日本
-      - 🇯🇵 JP日本 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
