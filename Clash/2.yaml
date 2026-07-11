@@ -1,56 +1,214 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>温馨提示</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/assets/img/favicon.ico" />
-    <style type="text/css">
-        *{box-sizing:border-box;margin:0;padding:0;font-family:Lantinghei SC,Open Sans,Arial,Hiragino Sans GB,Microsoft YaHei,"微软雅黑",STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif;-webkit-font-smoothing:antialiased}
-        body{padding:70px 50px;background:#f4f6f8;font-weight:400;font-size:1pc;-webkit-text-size-adjust:none;color:#333}
-        a{outline:0;color:#3498db;text-decoration:none;cursor:pointer}
-        .system-message{margin:20px auto;padding:80px 0px;background:#fff;box-shadow:0 0 30px hsla;text-align:center;width:100%;border-radius:10px;}
-        .system-message h1{margin:0;margin-bottom:9pt;color:#444;font-weight:400;font-size:30px}
-        .system-message .jump,.system-message .image{margin:20px 0;padding:0;padding:10px 0;font-weight:400}
-        .system-message .jump{font-size:14px}
-        .system-message .jump a{color:#333}
-        .system-message p{font-size:9pt;line-height:20px}
-        .system-message .btn{display:inline-block;margin-right:10px;width:138px;height:2pc;border:1px solid #44a0e8;border-radius:30px;color:#44a0e8;text-align:center;font-size:1pc;line-height:2pc;margin-bottom:5px;}
-        .success .btn{border-color:#69bf4e;color:#69bf4e}
-        .error .btn{border-color:#ff8992;color:#ff8992}
-        .info .btn{border-color:#3498db;color:#3498db}
-        .copyright p{width:100%;color:#919191;text-align:center;font-size:10px}
-        .system-message .btn-grey{border-color:#bbb;color:#bbb}
-        .clearfix:after{clear:both;display:block;visibility:hidden;height:0;content:"."}
-        @media {body {padding:20px;}}
-        @media {.system-message h1{font-size:30px;}}
-    </style>
-</head>
-<body>
-<div class="system-message error">
-    <div class="image">
-        <img src="/assets/img/error.svg" alt="" width="120" />
-    </div>
-    <h1>请在后台生成站点配置后，再访问前台</h1>
-            <p class="jump">
-            页面将在 <span id="wait">3</span> 秒后自动跳转        </p>
-        <p class="clearfix">
-        <a href="/" class="btn btn-grey">返回上一页</a>
-                    <a id="href" href="javascript:history.back;" class="btn btn-primary">立即跳转</a>
-            </p>
-</div>
-    <script type="text/javascript">
-         {
-            var wait = document.getElementById,
-                href = document.getElementById.href;
-            var interval = setInterval {
-                var time = --wait.innerHTML;
-                if  {
-                    location.href = href;
-                    clearInterval;
-                }
-            }, 1000);
-        });
-    </script>
-</body>
-</html>
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+ipv6: true
+external-controller: 127.0.0.1:9090
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+proxies:
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚
+      - 🇵🇱_PL_波兰
+      - 🇲🇾_MY_马来西亚->🇺🇸_US_美国
+      - 🇳🇱_NL_荷兰
+      - 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾
+      - 🇺🇸_US_美国->🇨🇭_CH_瑞士
+      - 🇫🇮_FI_芬兰
+      - 🇩🇪_DE_德国
+      - 🇭🇰_HK_中国香港
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国
+      - 🇩🇪_DE_德国_1
+      - 🇱🇻_LV_拉脱维亚
+      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇨🇦_CA_加拿大
+      - 🇫🇮_FI_芬兰_1
+      - 🇫🇮_FI_芬兰_2
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆
+      - 🇷🇺_RU_俄罗斯
+  - name: ♻️ 自动选择
+    type: url-test
+    proxies:
+      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚
+      - 🇵🇱_PL_波兰
+      - 🇲🇾_MY_马来西亚->🇺🇸_US_美国
+      - 🇳🇱_NL_荷兰
+      - 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾
+      - 🇺🇸_US_美国->🇨🇭_CH_瑞士
+      - 🇫🇮_FI_芬兰
+      - 🇩🇪_DE_德国
+      - 🇭🇰_HK_中国香港
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国
+      - 🇩🇪_DE_德国_1
+      - 🇱🇻_LV_拉脱维亚
+      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇨🇦_CA_加拿大
+      - 🇫🇮_FI_芬兰_1
+      - 🇫🇮_FI_芬兰_2
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆
+      - 🇷🇺_RU_俄罗斯
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚
+      - 🇵🇱_PL_波兰
+      - 🇲🇾_MY_马来西亚->🇺🇸_US_美国
+      - 🇳🇱_NL_荷兰
+      - 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾
+      - 🇺🇸_US_美国->🇨🇭_CH_瑞士
+      - 🇫🇮_FI_芬兰
+      - 🇩🇪_DE_德国
+      - 🇭🇰_HK_中国香港
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国
+      - 🇩🇪_DE_德国_1
+      - 🇱🇻_LV_拉脱维亚
+      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇨🇦_CA_加拿大
+      - 🇫🇮_FI_芬兰_1
+      - 🇫🇮_FI_芬兰_2
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆
+      - 🇷🇺_RU_俄罗斯
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚
+      - 🇵🇱_PL_波兰
+      - 🇲🇾_MY_马来西亚->🇺🇸_US_美国
+      - 🇳🇱_NL_荷兰
+      - 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾
+      - 🇺🇸_US_美国->🇨🇭_CH_瑞士
+      - 🇫🇮_FI_芬兰
+      - 🇩🇪_DE_德国
+      - 🇭🇰_HK_中国香港
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国
+      - 🇩🇪_DE_德国_1
+      - 🇱🇻_LV_拉脱维亚
+      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇨🇦_CA_加拿大
+      - 🇫🇮_FI_芬兰_1
+      - 🇫🇮_FI_芬兰_2
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆
+      - 🇷🇺_RU_俄罗斯
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚
+      - 🇵🇱_PL_波兰
+      - 🇲🇾_MY_马来西亚->🇺🇸_US_美国
+      - 🇳🇱_NL_荷兰
+      - 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾
+      - 🇺🇸_US_美国->🇨🇭_CH_瑞士
+      - 🇫🇮_FI_芬兰
+      - 🇩🇪_DE_德国
+      - 🇭🇰_HK_中国香港
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国
+      - 🇩🇪_DE_德国_1
+      - 🇱🇻_LV_拉脱维亚
+      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇨🇦_CA_加拿大
+      - 🇫🇮_FI_芬兰_1
+      - 🇫🇮_FI_芬兰_2
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆
+      - 🇷🇺_RU_俄罗斯
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚
+      - 🇵🇱_PL_波兰
+      - 🇲🇾_MY_马来西亚->🇺🇸_US_美国
+      - 🇳🇱_NL_荷兰
+      - 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾
+      - 🇺🇸_US_美国->🇨🇭_CH_瑞士
+      - 🇫🇮_FI_芬兰
+      - 🇩🇪_DE_德国
+      - 🇭🇰_HK_中国香港
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国
+      - 🇩🇪_DE_德国_1
+      - 🇱🇻_LV_拉脱维亚
+      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇨🇦_CA_加拿大
+      - 🇫🇮_FI_芬兰_1
+      - 🇫🇮_FI_芬兰_2
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆
+      - 🇷🇺_RU_俄罗斯
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚
+      - 🇵🇱_PL_波兰
+      - 🇲🇾_MY_马来西亚->🇺🇸_US_美国
+      - 🇳🇱_NL_荷兰
+      - 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾
+      - 🇺🇸_US_美国->🇨🇭_CH_瑞士
+      - 🇫🇮_FI_芬兰
+      - 🇩🇪_DE_德国
+      - 🇭🇰_HK_中国香港
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国
+      - 🇩🇪_DE_德国_1
+      - 🇱🇻_LV_拉脱维亚
+      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇨🇦_CA_加拿大
+      - 🇫🇮_FI_芬兰_1
+      - 🇫🇮_FI_芬兰_2
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆
+      - 🇷🇺_RU_俄罗斯
