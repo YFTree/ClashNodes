@@ -9,197 +9,117 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: 🇸🇬 新加坡, server: exciting-grizzly.rooster465.autos, port: 443, type: trojan, password: PI36027154, sni: exciting-grizzly.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 2, server: busy-lab.rooster465.autos, port: 443, type: trojan, password: PI36027154, sni: busy-lab.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国, server: 114.80.8.128, port: 39001, type: trojan, password: 1df3ece1218bedba28c6c6ac726a07bb, sni: www.yrtok.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 3, server: stirred-buck.rooster465.autos, port: 443, type: trojan, password: PI36027154, sni: stirred-buck.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 4, server: faithful-clam.rooster465.autos, port: 443, type: trojan, password: PI36027154, sni: faithful-clam.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港, server: 114.80.8.128, port: 39001, type: trojan, password: 1df3ece1218bedba28c6c6ac726a07bb, sni: 114.80.8.128, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 2, server: "@...", port: 0, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国, server: "@...", port: 0, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港, server: jpbgp.netvigor.cc, port: 19128, type: trojan, password: OccIqeORGQwiNkwS, sni: yazhou10.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本, server: "@...", port: 0, type: socks5, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国, server: "@...", port: 0, type: socks5, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 3, server: 45.131.5.9, port: 443, type: trojan, password: !<str> 521314, sni: tjplay.lxdxo.kdns.fr, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳+@WangCai2, headers: {Host: tjplay.lxdxo.kdns.fr}}, udp: true}
-  - {name: 🇺🇸 美国 4, server: 5.10.215.9, port: 443, type: trojan, password: !<str> 521314, sni: tjplay.lxdxo.kdns.fr, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳+@WangCai2, headers: {Host: tjplay.lxdxo.kdns.fr}}, udp: true}
-  - {name: 🇭🇰 香港 2, server: jpbgp.netvigor.cc, port: 19128, type: trojan, password: OccIqeORGQwiNkwS, sni: yazhou10.dynu.net, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 5, server: 172.64.147.166, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true}
-  - {name: 🇺🇸 美国 6, server: "@...", port: 0, type: socks5, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 7, server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true}
-  - {name: 🇺🇸 美国 8, server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, udp: true}
-  - {name: 🇭🇰 香港 3, server: chengbai02.ascwt179.com, port: 13223, type: ss, cipher: aes-128-gcm, password: JVrsLLN1tkN8oXZO, udp: true}
+  - {name: 🇺🇸 美国 2, server: 45.131.5.9, port: 443, type: trojan, password: !<str> 521314, sni: tjplay.lxdxo.kdns.fr, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳+@WangCai2, headers: {Host: tjplay.lxdxo.kdns.fr}}, udp: true}
+  - {name: 🇺🇸 美国 3, server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true}
+  - {name: 🇺🇸 美国 4, server: 172.64.147.166, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true}
+  - {name: 🇺🇸 美国 5, server: "@...", port: 0, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 6, server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, udp: true}
   - {name: 🇫🇷 法国, server: 104.17.131.88, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.gossipglove.com}}, udp: true}
-  - {name: 🇮🇳 印度, server: 106.75.160.27, port: 39001, type: trojan, password: ef73ca2cf3d9cd0f04c8f448da8125c6, sni: www.yrtok.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
       - 🇺🇸 美国
-      - 🇸🇬 新加坡 3
-      - 🇸🇬 新加坡 4
       - 🇭🇰 香港
-      - 🇺🇸 美国 2
       - 🇯🇵 日本
-      - 🇰🇷 韩国
+      - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 🇭🇰 香港 2
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇭🇰 香港 3
       - 🇫🇷 法国
-      - 🇮🇳 印度
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
       - 🇺🇸 美国
-      - 🇸🇬 新加坡 3
-      - 🇸🇬 新加坡 4
       - 🇭🇰 香港
-      - 🇺🇸 美国 2
       - 🇯🇵 日本
-      - 🇰🇷 韩国
+      - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 🇭🇰 香港 2
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇭🇰 香港 3
       - 🇫🇷 法国
-      - 🇮🇳 印度
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
       - 🇺🇸 美国
-      - 🇸🇬 新加坡 3
-      - 🇸🇬 新加坡 4
       - 🇭🇰 香港
-      - 🇺🇸 美国 2
       - 🇯🇵 日本
-      - 🇰🇷 韩国
+      - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 🇭🇰 香港 2
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇭🇰 香港 3
       - 🇫🇷 法国
-      - 🇮🇳 印度
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
       - 🇺🇸 美国
-      - 🇸🇬 新加坡 3
-      - 🇸🇬 新加坡 4
       - 🇭🇰 香港
-      - 🇺🇸 美国 2
       - 🇯🇵 日本
-      - 🇰🇷 韩国
+      - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 🇭🇰 香港 2
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇭🇰 香港 3
       - 🇫🇷 法国
-      - 🇮🇳 印度
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
       - 🇺🇸 美国
-      - 🇸🇬 新加坡 3
-      - 🇸🇬 新加坡 4
       - 🇭🇰 香港
-      - 🇺🇸 美国 2
       - 🇯🇵 日本
-      - 🇰🇷 韩国
+      - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 🇭🇰 香港 2
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇭🇰 香港 3
       - 🇫🇷 法国
-      - 🇮🇳 印度
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
       - 🇺🇸 美国
-      - 🇸🇬 新加坡 3
-      - 🇸🇬 新加坡 4
       - 🇭🇰 香港
-      - 🇺🇸 美国 2
       - 🇯🇵 日本
-      - 🇰🇷 韩国
+      - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 🇭🇰 香港 2
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇭🇰 香港 3
       - 🇫🇷 法国
-      - 🇮🇳 印度
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
       - 🇺🇸 美国
-      - 🇸🇬 新加坡 3
-      - 🇸🇬 新加坡 4
       - 🇭🇰 香港
-      - 🇺🇸 美国 2
       - 🇯🇵 日本
-      - 🇰🇷 韩国
+      - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 🇭🇰 香港 2
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇭🇰 香港 3
       - 🇫🇷 法国
-      - 🇮🇳 印度
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -222,25 +142,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
       - 🇺🇸 美国
-      - 🇸🇬 新加坡 3
-      - 🇸🇬 新加坡 4
       - 🇭🇰 香港
-      - 🇺🇸 美国 2
       - 🇯🇵 日本
-      - 🇰🇷 韩国
+      - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 🇭🇰 香港 2
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇭🇰 香港 3
       - 🇫🇷 法国
-      - 🇮🇳 印度
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
