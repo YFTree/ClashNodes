@@ -124,29 +124,32 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇳🇱_NL_荷兰->🇫🇮_FI_芬兰",
-        "🇺🇸_US_美国",
+        "🇺🇸_US_美国->🇫🇮_FI_芬兰",
+        "🇹🇷_TR_土耳其",
+        "🇹🇷_TR_土耳其_1",
+        "🇨🇳_CN_中国->🇵🇱_PL_波兰",
+        "🇪🇪_EE_爱沙尼亚",
+        "🇹🇷_TR_土耳其_2",
         "🇩🇪_DE_德国",
+        "🇹🇷_TR_土耳其_3",
         "🇭🇰_HK_中国香港->🇩🇪_DE_德国",
-        "🇨🇳_CN_中国->🇭🇰_HK_中国香港",
-        "🇭🇰_HK_中国香港->🇩🇪_DE_德国_1",
-        "🇭🇰_HK_中国香港->🇮🇩_ID_印度尼西亚",
-        "🇺🇸_US_美国_1",
         "🇭🇰_HK_中国香港",
-        "🇺🇸_US_美国_2",
-        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
-        "🇭🇰_HK_中国香港_1",
-        "🇺🇸_US_美国_3",
-        "🇺🇸_US_美国_4",
-        "🇨🇿_CZ_捷克",
-        "🇺🇸_US_美国_5",
-        "🇨🇳_CN_中国",
-        "🇭🇰_HK_中国香港->🇮🇳_IN_印度",
-        "🇩🇪_DE_德国->🇫🇮_FI_芬兰",
         "🇷🇺_RU_俄罗斯",
-        "🇭🇰_HK_中国香港_2",
-        "🇸🇪_SE_瑞典",
-        "🇭🇰_HK_中国香港->🇹🇭_TH_泰国"
+        "🇷🇺_RU_俄罗斯_1",
+        "🇺🇸_US_美国->🇲🇽_MX_墨西哥",
+        "🇮🇷_IR_伊朗->🇳🇱_NL_荷兰",
+        "🇭🇰_HK_中国香港->🇮🇳_IN_印度",
+        "🇹🇭_TH_泰国",
+        "🇨🇳_CN_中国",
+        "🇺🇸_US_美国",
+        "🇭🇰_HK_中国香港_1",
+        "🇺🇸_US_美国_1",
+        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
+        "🇭🇰_HK_中国香港->🇩🇪_DE_德国_1",
+        "🇺🇸_US_美国_2",
+        "🇩🇪_DE_德国->🇹🇭_TH_泰国",
+        "🇭🇰_HK_中国香港->🇮🇩_ID_印度尼西亚",
+        "🇭🇰_HK_中国香港_2"
       ]
     },
     {
@@ -353,15 +356,13 @@
       "type": "selector",
       "outbounds": [
         "🇭🇰_HK_中国香港->🇩🇪_DE_德国",
-        "🇨🇳_CN_中国->🇭🇰_HK_中国香港",
+        "🇭🇰_HK_中国香港",
+        "🇭🇰_HK_中国香港->🇮🇳_IN_印度",
+        "🇭🇰_HK_中国香港_1",
+        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
         "🇭🇰_HK_中国香港->🇩🇪_DE_德国_1",
         "🇭🇰_HK_中国香港->🇮🇩_ID_印度尼西亚",
-        "🇭🇰_HK_中国香港",
-        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
-        "🇭🇰_HK_中国香港_1",
-        "🇭🇰_HK_中国香港->🇮🇳_IN_印度",
-        "🇭🇰_HK_中国香港_2",
-        "🇭🇰_HK_中国香港->🇹🇭_TH_泰国"
+        "🇭🇰_HK_中国香港_2"
       ]
     },
     {
@@ -389,54 +390,62 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
+        "🇺🇸_US_美国->🇫🇮_FI_芬兰",
+        "🇺🇸_US_美国->🇲🇽_MX_墨西哥",
         "🇺🇸_US_美国",
         "🇺🇸_US_美国_1",
-        "🇺🇸_US_美国_2",
-        "🇺🇸_US_美国_3",
-        "🇺🇸_US_美国_4",
-        "🇺🇸_US_美国_5"
+        "🇺🇸_US_美国_2"
       ]
     },
     {
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "🇳🇱_NL_荷兰->🇫🇮_FI_芬兰",
+        "🇹🇷_TR_土耳其",
+        "🇹🇷_TR_土耳其_1",
+        "🇨🇳_CN_中国->🇵🇱_PL_波兰",
+        "🇪🇪_EE_爱沙尼亚",
+        "🇹🇷_TR_土耳其_2",
         "🇩🇪_DE_德国",
-        "🇨🇿_CZ_捷克",
-        "🇨🇳_CN_中国",
-        "🇩🇪_DE_德国->🇫🇮_FI_芬兰",
+        "🇹🇷_TR_土耳其_3",
         "🇷🇺_RU_俄罗斯",
-        "🇸🇪_SE_瑞典"
+        "🇷🇺_RU_俄罗斯_1",
+        "🇮🇷_IR_伊朗->🇳🇱_NL_荷兰",
+        "🇹🇭_TH_泰国",
+        "🇨🇳_CN_中国",
+        "🇩🇪_DE_德国->🇹🇭_TH_泰国"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇳🇱_NL_荷兰->🇫🇮_FI_芬兰",
-        "🇺🇸_US_美国",
+        "🇺🇸_US_美国->🇫🇮_FI_芬兰",
+        "🇹🇷_TR_土耳其",
+        "🇹🇷_TR_土耳其_1",
+        "🇨🇳_CN_中国->🇵🇱_PL_波兰",
+        "🇪🇪_EE_爱沙尼亚",
+        "🇹🇷_TR_土耳其_2",
         "🇩🇪_DE_德国",
+        "🇹🇷_TR_土耳其_3",
         "🇭🇰_HK_中国香港->🇩🇪_DE_德国",
-        "🇨🇳_CN_中国->🇭🇰_HK_中国香港",
-        "🇭🇰_HK_中国香港->🇩🇪_DE_德国_1",
-        "🇭🇰_HK_中国香港->🇮🇩_ID_印度尼西亚",
-        "🇺🇸_US_美国_1",
         "🇭🇰_HK_中国香港",
-        "🇺🇸_US_美国_2",
-        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
-        "🇭🇰_HK_中国香港_1",
-        "🇺🇸_US_美国_3",
-        "🇺🇸_US_美国_4",
-        "🇨🇿_CZ_捷克",
-        "🇺🇸_US_美国_5",
-        "🇨🇳_CN_中国",
-        "🇭🇰_HK_中国香港->🇮🇳_IN_印度",
-        "🇩🇪_DE_德国->🇫🇮_FI_芬兰",
         "🇷🇺_RU_俄罗斯",
-        "🇭🇰_HK_中国香港_2",
-        "🇸🇪_SE_瑞典",
-        "🇭🇰_HK_中国香港->🇹🇭_TH_泰国"
+        "🇷🇺_RU_俄罗斯_1",
+        "🇺🇸_US_美国->🇲🇽_MX_墨西哥",
+        "🇮🇷_IR_伊朗->🇳🇱_NL_荷兰",
+        "🇭🇰_HK_中国香港->🇮🇳_IN_印度",
+        "🇹🇭_TH_泰国",
+        "🇨🇳_CN_中国",
+        "🇺🇸_US_美国",
+        "🇭🇰_HK_中国香港_1",
+        "🇺🇸_US_美国_1",
+        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
+        "🇭🇰_HK_中国香港->🇩🇪_DE_德国_1",
+        "🇺🇸_US_美国_2",
+        "🇩🇪_DE_德国->🇹🇭_TH_泰国",
+        "🇭🇰_HK_中国香港->🇮🇩_ID_印度尼西亚",
+        "🇭🇰_HK_中国香港_2"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -447,39 +456,140 @@
       "tag": "direct"
     },
     {
-      "tag": "🇳🇱_NL_荷兰->🇫🇮_FI_芬兰",
+      "tag": "🇺🇸_US_美国->🇫🇮_FI_芬兰",
       "type": "vless",
-      "server": "103.54.16.230",
-      "server_port": 2053,
-      "uuid": "c7e9c591-2764-423a-afca-efbd010fd396",
+      "server": "199.232.78.159",
+      "server_port": 443,
+      "uuid": "0c0b895d-b954-4bec-94e6-5770677e7925",
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053",
         "headers": {
-          "Host": "forfreeuse.sub-flow.online"
+          "Host": "pan1.global.ssl.fastly.neT"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
       },
       "tls": {
         "enabled": true,
-        "server_name": "forfreeuse.sub-flow.online",
+        "server_name": "ssl.fastly.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
         "insecure": true
       }
     },
     {
-      "tag": "🇺🇸_US_美国",
+      "tag": "🇹🇷_TR_土耳其",
       "type": "vless",
-      "server": "ad-020.milo1fmyz.info",
-      "server_port": 8443,
-      "uuid": "1ad37675-b4cf-42fa-9dc5-83fd35cd63cb",
+      "server": "45.196.201.158",
+      "server_port": 443,
+      "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "storage.yandex.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04",
+          "short_id": "c6ef72e4635d15a5"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇹🇷_TR_土耳其_1",
+      "type": "vless",
+      "server": "45.196.201.215",
+      "server_port": 443,
+      "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "storage.yandex.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04",
+          "short_id": "c6ef72e4635d15a5"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇳_CN_中国->🇵🇱_PL_波兰",
+      "type": "vless",
+      "server": "77.105.163.46",
+      "server_port": 443,
+      "uuid": "0e192bd1-8f19-4184-9fff-6d67e4f738bd",
       "transport": {
         "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "ov186.ochmaybrooooo.online"
+        },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
       },
       "tls": {
         "enabled": true,
+        "server_name": "ov186.ochmaybrooooo.online",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇪🇪_EE_爱沙尼亚",
+      "type": "vless",
+      "server": "eston3.o4ka-internet.com",
+      "server_port": 443,
+      "uuid": "a03df445-0666-4d61-acde-9705009e409c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "eston3.o4ka-internet.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
+          "short_id": "5629431325884ff0"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇹🇷_TR_土耳其_2",
+      "type": "vless",
+      "server": "45.196.201.80",
+      "server_port": 443,
+      "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "storage.yandex.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04",
+          "short_id": "c6ef72e4635d15a5"
+        },
         "insecure": true
       }
     },
@@ -501,33 +611,29 @@
       "tag": "🇩🇪_DE_德国"
     },
     {
-      "tag": "🇭🇰_HK_中国香港->🇩🇪_DE_德国",
-      "type": "trojan",
-      "server": "hkdcrtc-e.catcat321.com",
-      "server_port": 20041,
-      "password": "ba07a8af-5544-48ac-ab62-3b6c00a44fa6",
-      "network": "tcp",
+      "tag": "🇹🇷_TR_土耳其_3",
+      "type": "vless",
+      "server": "45.196.201.179",
+      "server_port": 443,
+      "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "de.catxstar.com",
+        "server_name": "storage.yandex.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04",
+          "short_id": "c6ef72e4635d15a5"
+        },
         "insecure": true
       }
     },
     {
-      "tag": "🇨🇳_CN_中国->🇭🇰_HK_中国香港",
-      "type": "vmess",
-      "server": "v9.hdacd.com",
-      "server_port": 30809,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-      "alter_id": 2,
-      "security": "auto",
-      "tls": {
-        "enabled": false,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇭🇰_HK_中国香港->🇩🇪_DE_德国_1",
+      "tag": "🇭🇰_HK_中国香港->🇩🇪_DE_德国",
       "type": "trojan",
       "server": "Hkdcrtc-e.catcat321.com",
       "server_port": 20041,
@@ -540,15 +646,170 @@
       }
     },
     {
-      "tag": "🇭🇰_HK_中国香港->🇮🇩_ID_印度尼西亚",
+      "tag": "🇭🇰_HK_中国香港",
+      "type": "vmess",
+      "server": "7timuei1uufoixbf.v.3dns.vip",
+      "server_port": 443,
+      "uuid": "f23bb427c1f94373876c2f43e9f790f3",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-vmess"
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇷🇺_RU_俄罗斯",
+      "type": "vless",
+      "server": "status.netraidly.ru",
+      "server_port": 40443,
+      "uuid": "28d0edc6-93c9-4465-bac9-720274d8b8c4",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "WRveYv8IuUyvai4jgnQ6nWCL971-wKboe8evES5arlg",
+          "short_id": "69d4"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇷🇺_RU_俄罗斯_1",
+      "type": "vless",
+      "server": "45.155.52.231",
+      "server_port": 443,
+      "uuid": "219f9fec-8983-4f6f-af8c-31bd0c6dbf19",
+      "tls": {
+        "enabled": true,
+        "server_name": "ru2.skydrgn-online.online",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ",
+          "short_id": "0b"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "server": "23.95.75.151",
+      "server_port": 8080,
+      "password": "VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC",
+      "tls": {
+        "enabled": true,
+        "server_name": "hopp-us.yyuyy.com",
+        "insecure": true
+      },
+      "tag": "🇺🇸_US_美国->🇲🇽_MX_墨西哥"
+    },
+    {
+      "tag": "🇮🇷_IR_伊朗->🇳🇱_NL_荷兰",
+      "type": "vmess",
+      "server": "tun1.wizardx1.com",
+      "server_port": 2078,
+      "uuid": "8c207682-e007-4a0d-88a3-68b8638b3d10",
+      "alter_id": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇭🇰_HK_中国香港->🇮🇳_IN_印度",
       "type": "trojan",
       "server": "oplosgru-c.catcat321.com",
-      "server_port": 20120,
+      "server_port": 20035,
       "password": "ba07a8af-5544-48ac-ab62-3b6c00a44fa6",
       "network": "tcp",
       "tls": {
         "enabled": false,
         "server_name": "hk.catxstar.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇹🇭_TH_泰国",
+      "type": "vless",
+      "server": "dtac.exp.dog",
+      "server_port": 80,
+      "uuid": "19668b6f-e215-41e6-8102-b8d29fb5b8ae",
+      "transport": {
+        "type": "ws",
+        "path": "/fnet50",
+        "headers": {
+          "Host": "duatoup3wk8q2.cloudfront.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      },
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇳_CN_中国",
+      "type": "vless",
+      "server": "120.227.1.43",
+      "server_port": 12528,
+      "uuid": "f0169b08-43fd-4dc3-8195-18f6ad2fe39d",
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇺🇸_US_美国",
+      "type": "vless",
+      "server": "154.193.55.183",
+      "server_port": 443,
+      "uuid": "11e57eeb-ffdf-4983-a9fa-ad352dea7253",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "storage.yandex.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4",
+          "short_id": "dbbe8dca27a92c35"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇭🇰_HK_中国香港_1",
+      "type": "vmess",
+      "server": "vah4urdzl3jdx5r2.v.3dns.vip",
+      "server_port": 443,
+      "uuid": "f23bb427c1f94373876c2f43e9f790f3",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/ws-vmess"
+      },
+      "tls": {
+        "enabled": true,
         "insecure": true
       }
     },
@@ -566,47 +827,6 @@
       }
     },
     {
-      "tag": "🇭🇰_HK_中国香港",
-      "type": "vmess",
-      "server": "47.86.167.194",
-      "server_port": 800,
-      "uuid": "f2c67cae-c09d-4739-947d-f5302d87a3c0",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "http",
-        "path": "/x",
-        "headers": {
-          "Host": "sjskendn.dingtalk.com"
-        }
-      },
-      "tls": {
-        "enabled": false,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇺🇸_US_美国_2",
-      "type": "vless",
-      "server": "88.218.44.4",
-      "server_port": 993,
-      "uuid": "7c74b0e4-f132-5583-4692-622a7d6b71a4",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "swcdn.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Nnpwm8dqFl9dlMJmg0M9G11vmgCKzNagFTn4tH4sWy4"
-        },
-        "insecure": true
-      }
-    },
-    {
       "tag": "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
       "type": "trojan",
       "server": "oplosgru-c.catcat321.com",
@@ -620,24 +840,20 @@
       }
     },
     {
-      "tag": "🇭🇰_HK_中国香港_1",
-      "type": "vmess",
-      "server": "7timuei1uufoixbf.v.3dns.vip",
-      "server_port": 443,
-      "uuid": "f23bb427c1f94373876c2f43e9f790f3",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vmess"
-      },
+      "tag": "🇭🇰_HK_中国香港->🇩🇪_DE_德国_1",
+      "type": "trojan",
+      "server": "hkdcrtc-e.catcat321.com",
+      "server_port": 20041,
+      "password": "ba07a8af-5544-48ac-ab62-3b6c00a44fa6",
+      "network": "tcp",
       "tls": {
         "enabled": true,
+        "server_name": "de.catxstar.com",
         "insecure": true
       }
     },
     {
-      "tag": "🇺🇸_US_美国_3",
+      "tag": "🇺🇸_US_美国_2",
       "type": "vless",
       "server": "88.218.44.4",
       "server_port": 8443,
@@ -661,156 +877,56 @@
       }
     },
     {
-      "tag": "🇺🇸_US_美国_4",
+      "tag": "🇩🇪_DE_德国->🇹🇭_TH_泰国",
       "type": "vless",
-      "server": "154.193.55.183",
-      "server_port": 443,
-      "uuid": "11e57eeb-ffdf-4983-a9fa-ad352dea7253",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "storage.yandex.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
+      "server": "www.true.th",
+      "server_port": 80,
+      "uuid": "89c3b66f-c849-4602-a5a8-84b6f06af478",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "d2pwbkmfr5lxa4.cloudfront.net"
         },
-        "reality": {
-          "enabled": true,
-          "public_key": "EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4",
-          "short_id": "dbbe8dca27a92c35"
-        },
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇿_CZ_捷克",
-      "type": "vless",
-      "server": "141.133.172.222",
-      "server_port": 20342,
-      "uuid": "5eecb34f-c905-4c77-b7fb-d830b451cd11",
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      },
       "tls": {
         "enabled": false,
+        "server_name": "d2pwbkmfr5lxa4.cloudfront.net",
         "insecure": true
       }
     },
     {
-      "tag": "🇺🇸_US_美国_5",
-      "type": "vless",
-      "server": "180.178.60.252",
-      "server_port": 10000,
-      "uuid": "431fe973-a43a-4fac-bf83-2a772e0d0625",
-      "tls": {
-        "enabled": false,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇳_CN_中国",
-      "type": "vless",
-      "server": "120.227.1.43",
-      "server_port": 12528,
-      "uuid": "f0169b08-43fd-4dc3-8195-18f6ad2fe39d",
-      "tls": {
-        "enabled": false,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇭🇰_HK_中国香港->🇮🇳_IN_印度",
+      "tag": "🇭🇰_HK_中国香港->🇮🇩_ID_印度尼西亚",
       "type": "trojan",
       "server": "oplosgru-c.catcat321.com",
-      "server_port": 20035,
+      "server_port": 20120,
       "password": "ba07a8af-5544-48ac-ab62-3b6c00a44fa6",
       "network": "tcp",
       "tls": {
         "enabled": false,
         "server_name": "hk.catxstar.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇩🇪_DE_德国->🇫🇮_FI_芬兰",
-      "type": "vless",
-      "server": "51.89.23.94",
-      "server_port": 2053,
-      "uuid": "c7e9c591-2764-423a-afca-efbd010fd396",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "forfreeuse.sub-flow.online"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "forfreeuse.sub-flow.online",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇷🇺_RU_俄罗斯",
-      "type": "vless",
-      "server": "130.17.2.27",
-      "server_port": 4100,
-      "uuid": "155e8dd4-a559-407a-9ea8-13a5e829f066",
-      "transport": {
-        "type": "ws",
-        "path": "/v1",
-        "headers": {
-          "Host": "live.ok.ru"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      },
-      "tls": {
-        "enabled": false,
         "insecure": true
       }
     },
     {
       "tag": "🇭🇰_HK_中国香港_2",
       "type": "vmess",
-      "server": "n1747624260.4u9ma.icu",
-      "server_port": 443,
-      "uuid": "eee8cb72-7eab-4034-a308-ed06cb07e003",
+      "server": "47.86.167.194",
+      "server_port": 800,
+      "uuid": "f2c67cae-c09d-4739-947d-f5302d87a3c0",
       "alter_id": 0,
       "security": "auto",
       "transport": {
-        "type": "ws",
-        "path": "/",
+        "type": "http",
+        "path": "/x",
         "headers": {
-          "Host": "n1747624260.4u9ma.icu"
+          "Host": "sjskendn.dingtalk.com"
         }
       },
       "tls": {
-        "enabled": true,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇪_SE_瑞典",
-      "type": "shadowsocks",
-      "server": "13.53.198.63",
-      "server_port": 443,
-      "method": "aes-256-cfb",
-      "password": "amazonskr05"
-    },
-    {
-      "tag": "🇭🇰_HK_中国香港->🇹🇭_TH_泰国",
-      "type": "trojan",
-      "server": "oplosgru-c.catcat321.com",
-      "server_port": 20023,
-      "password": "ba07a8af-5544-48ac-ab62-3b6c00a44fa6",
-      "network": "tcp",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk.catxstar.com",
+        "enabled": false,
         "insecure": true
       }
     }
