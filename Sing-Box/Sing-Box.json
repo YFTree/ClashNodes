@@ -124,27 +124,26 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
-        "🇺🇸_US_美国",
         "🇩🇪_DE_德国",
-        "🇺🇸_US_美国->🇫🇷_FR_法国",
         "🇫🇮_FI_芬兰->🇹🇷_TR_土耳其",
-        "🇷🇺_RU_俄罗斯",
-        "🇫🇮_FI_芬兰->🇹🇷_TR_土耳其_1",
-        "🇺🇸_US_美国_1",
         "🇭🇰_HK_中国香港->🇩🇪_DE_德国",
-        "🇺🇸_US_美国_2",
-        "@DeltaKroneckerGithub_3909",
-        "🇺🇸_US_美国_3",
-        "🇭🇰_HK_中国香港->🇲🇴_MO_中国澳门",
-        "🇭🇰_HK_中国香港->🇯🇵_JP_日本_1",
-        "🇨🇳_CN_中国",
-        "🇫🇮_FI_芬兰",
+        "🇺🇸_US_美国",
         "🇳🇱_NL_荷兰",
+        "🇺🇸_US_美国->🇹🇭_TH_泰国",
+        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
+        "🇷🇺_RU_俄罗斯",
+        "🇨🇳_CN_中国",
+        "🇭🇰_HK_中国香港",
+        "🇺🇸_US_美国->🇹🇭_TH_泰国_1",
+        "🇨🇴_CO_哥伦比亚",
+        "🇫🇮_FI_芬兰->🇹🇷_TR_土耳其_1",
         "🇫🇮_FI_芬兰->🇹🇷_TR_土耳其_2",
-        "🇮🇳_IN_印度",
-        "🇨🇳_CN_中国->🇵🇱_PL_波兰",
-        "🇭🇰_HK_中国香港->🇰🇷_KR_韩国"
+        "🇭🇰_HK_中国香港->🇲🇴_MO_中国澳门",
+        "🇫🇮_FI_芬兰",
+        "🇩🇪_DE_德国_1",
+        "🇺🇸_US_美国_1",
+        "🇺🇸_US_美国_2",
+        "🇺🇸_US_美国_3"
       ]
     },
     {
@@ -350,11 +349,10 @@
       "tag": "HongKong",
       "type": "selector",
       "outbounds": [
-        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
         "🇭🇰_HK_中国香港->🇩🇪_DE_德国",
-        "🇭🇰_HK_中国香港->🇲🇴_MO_中国澳门",
-        "🇭🇰_HK_中国香港->🇯🇵_JP_日本_1",
-        "🇭🇰_HK_中国香港->🇰🇷_KR_韩国"
+        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
+        "🇭🇰_HK_中国香港",
+        "🇭🇰_HK_中国香港->🇲🇴_MO_中国澳门"
       ]
     },
     {
@@ -375,8 +373,7 @@
       "tag": "Japan",
       "type": "selector",
       "outbounds": [
-        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
-        "🇭🇰_HK_中国香港->🇯🇵_JP_日本_1"
+        "🇭🇰_HK_中国香港->🇯🇵_JP_日本"
       ]
     },
     {
@@ -384,7 +381,8 @@
       "type": "selector",
       "outbounds": [
         "🇺🇸_US_美国",
-        "🇺🇸_US_美国->🇫🇷_FR_法国",
+        "🇺🇸_US_美国->🇹🇭_TH_泰国",
+        "🇺🇸_US_美国->🇹🇭_TH_泰国_1",
         "🇺🇸_US_美国_1",
         "🇺🇸_US_美国_2",
         "🇺🇸_US_美国_3"
@@ -396,42 +394,40 @@
       "outbounds": [
         "🇩🇪_DE_德国",
         "🇫🇮_FI_芬兰->🇹🇷_TR_土耳其",
-        "🇷🇺_RU_俄罗斯",
-        "🇫🇮_FI_芬兰->🇹🇷_TR_土耳其_1",
-        "@DeltaKroneckerGithub_3909",
-        "🇨🇳_CN_中国",
-        "🇫🇮_FI_芬兰",
         "🇳🇱_NL_荷兰",
+        "🇷🇺_RU_俄罗斯",
+        "🇨🇳_CN_中国",
+        "🇨🇴_CO_哥伦比亚",
+        "🇫🇮_FI_芬兰->🇹🇷_TR_土耳其_1",
         "🇫🇮_FI_芬兰->🇹🇷_TR_土耳其_2",
-        "🇮🇳_IN_印度",
-        "🇨🇳_CN_中国->🇵🇱_PL_波兰"
+        "🇫🇮_FI_芬兰",
+        "🇩🇪_DE_德国_1"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
-        "🇺🇸_US_美国",
         "🇩🇪_DE_德国",
-        "🇺🇸_US_美国->🇫🇷_FR_法国",
         "🇫🇮_FI_芬兰->🇹🇷_TR_土耳其",
-        "🇷🇺_RU_俄罗斯",
-        "🇫🇮_FI_芬兰->🇹🇷_TR_土耳其_1",
-        "🇺🇸_US_美国_1",
         "🇭🇰_HK_中国香港->🇩🇪_DE_德国",
-        "🇺🇸_US_美国_2",
-        "@DeltaKroneckerGithub_3909",
-        "🇺🇸_US_美国_3",
-        "🇭🇰_HK_中国香港->🇲🇴_MO_中国澳门",
-        "🇭🇰_HK_中国香港->🇯🇵_JP_日本_1",
-        "🇨🇳_CN_中国",
-        "🇫🇮_FI_芬兰",
+        "🇺🇸_US_美国",
         "🇳🇱_NL_荷兰",
+        "🇺🇸_US_美国->🇹🇭_TH_泰国",
+        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
+        "🇷🇺_RU_俄罗斯",
+        "🇨🇳_CN_中国",
+        "🇭🇰_HK_中国香港",
+        "🇺🇸_US_美国->🇹🇭_TH_泰国_1",
+        "🇨🇴_CO_哥伦比亚",
+        "🇫🇮_FI_芬兰->🇹🇷_TR_土耳其_1",
         "🇫🇮_FI_芬兰->🇹🇷_TR_土耳其_2",
-        "🇮🇳_IN_印度",
-        "🇨🇳_CN_中国->🇵🇱_PL_波兰",
-        "🇭🇰_HK_中国香港->🇰🇷_KR_韩国"
+        "🇭🇰_HK_中国香港->🇲🇴_MO_中国澳门",
+        "🇫🇮_FI_芬兰",
+        "🇩🇪_DE_德国_1",
+        "🇺🇸_US_美国_1",
+        "🇺🇸_US_美国_2",
+        "🇺🇸_US_美国_3"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -442,67 +438,21 @@
       "tag": "direct"
     },
     {
-      "tag": "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
-      "type": "trojan",
-      "server": "oplosgru-c.catcat321.com",
-      "server_port": 20004,
-      "password": "ba07a8af-5544-48ac-ab62-3b6c00a44fa6",
-      "network": "tcp",
-      "tls": {
-        "enabled": false,
-        "server_name": "hk.catxstar.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇺🇸_US_美国",
-      "type": "shadowsocks",
-      "server": "23.185.200.135",
-      "server_port": 57841,
-      "method": "aes-128-gcm",
-      "password": "xo6k84l7b00n2hJp"
-    },
-    {
       "type": "hysteria",
       "server": "5.83.129.90",
       "server_port": 54177,
       "auth_str": "dongtaiwang.com",
-      "up": "11",
-      "down": "55",
+      "up": "500",
+      "down": "1000",
       "tls": {
         "enabled": true,
-        "server_name": "bing.com",
+        "server_name": "apple.com",
         "alpn": [
           "h3"
         ],
         "insecure": true
       },
       "tag": "🇩🇪_DE_德国"
-    },
-    {
-      "tag": "🇺🇸_US_美国->🇫🇷_FR_法国",
-      "type": "vless",
-      "server": "paul.ns.cloudflare.com",
-      "server_port": 443,
-      "uuid": "f028a8c0-6763-4558-aee3-2563db9d7825",
-      "transport": {
-        "type": "ws",
-        "path": "/xxvclws",
-        "headers": {
-          "Host": "ziro.skin"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ziro.skin",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "insecure": true
-      }
     },
     {
       "tag": "🇫🇮_FI_芬兰->🇹🇷_TR_土耳其",
@@ -529,6 +479,100 @@
       }
     },
     {
+      "tag": "🇭🇰_HK_中国香港->🇩🇪_DE_德国",
+      "type": "trojan",
+      "server": "hkdcrtc-e.catcat321.com",
+      "server_port": 20041,
+      "password": "ba07a8af-5544-48ac-ab62-3b6c00a44fa6",
+      "network": "tcp",
+      "tls": {
+        "enabled": false,
+        "server_name": "de.catxstar.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇺🇸_US_美国",
+      "type": "vless",
+      "server": "88.218.44.4",
+      "server_port": 993,
+      "uuid": "7c74b0e4-f132-5583-4692-622a7d6b71a4",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "download.nvidia.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇳🇱_NL_荷兰",
+      "type": "vless",
+      "server": "202.71.13.197",
+      "server_port": 443,
+      "uuid": "06d44c57-8e1a-41f4-b9c4-65d35869e078",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "nd11.skorostnet.space",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o",
+          "short_id": "fdda9806fe5d8584"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇺🇸_US_美国->🇹🇭_TH_泰国",
+      "type": "vless",
+      "server": "3.162.103.26",
+      "server_port": 443,
+      "uuid": "7ce54bb3-d612-4aa7-be08-089d3c461d53",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "d1yxsk0zprgivr.cloudfront.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "d1yxsk0zprgivr.cloudfront.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
+      "type": "trojan",
+      "server": "hkdcrtc-e.catcat321.com",
+      "server_port": 20129,
+      "password": "41c406e2-12b5-41f2-a329-d0621052d675",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.catxstar.com",
+        "insecure": true
+      }
+    },
+    {
       "tag": "🇷🇺_RU_俄罗斯",
       "type": "vless",
       "server": "45.155.52.231",
@@ -550,7 +594,88 @@
       }
     },
     {
+      "tag": "🇨🇳_CN_中国",
+      "type": "vless",
+      "server": "120.227.1.43",
+      "server_port": 12528,
+      "uuid": "f0169b08-43fd-4dc3-8195-18f6ad2fe39d",
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇭🇰_HK_中国香港",
+      "type": "vmess",
+      "server": "v10.hdacd.com",
+      "server_port": 30807,
+      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+      "alter_id": 2,
+      "security": "auto",
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇺🇸_US_美国->🇹🇭_TH_泰国_1",
+      "type": "vless",
+      "server": "www.true.th",
+      "server_port": 443,
+      "uuid": "7ce54bb3-d612-4aa7-be08-089d3c461d53",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "d1yxsk0zprgivr.cloudfront.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "d1yxsk0zprgivr.cloudfront.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇴_CO_哥伦比亚",
+      "type": "vless",
+      "server": "157.137.229.190",
+      "server_port": 62145,
+      "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
       "tag": "🇫🇮_FI_芬兰->🇹🇷_TR_土耳其_1",
+      "type": "vless",
+      "server": "170.168.97.3",
+      "server_port": 993,
+      "uuid": "e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "download.nvidia.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇫🇮_FI_芬兰->🇹🇷_TR_土耳其_2",
       "type": "vless",
       "server": "170.168.97.3",
       "server_port": 8443,
@@ -574,99 +699,6 @@
       }
     },
     {
-      "tag": "🇺🇸_US_美国_1",
-      "type": "vmess",
-      "server": "guanwang.awsno.com",
-      "server_port": 443,
-      "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
-      "alter_id": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇭🇰_HK_中国香港->🇩🇪_DE_德国",
-      "type": "trojan",
-      "server": "hkdcrtc-e.catcat321.com",
-      "server_port": 20041,
-      "password": "ba07a8af-5544-48ac-ab62-3b6c00a44fa6",
-      "network": "tcp",
-      "tls": {
-        "enabled": false,
-        "server_name": "de.catxstar.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇺🇸_US_美国_2",
-      "type": "vless",
-      "server": "88.218.44.4",
-      "server_port": 993,
-      "uuid": "7c74b0e4-f132-5583-4692-622a7d6b71a4",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "download.nvidia.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ"
-        },
-        "insecure": true
-      }
-    },
-    {
-      "tag": "@DeltaKroneckerGithub_3909",
-      "type": "vless",
-      "server": "89.23.103.121",
-      "server_port": 443,
-      "uuid": "7596b721-f311-4194-96e6-b7b407cd6083",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.debian.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "qY222OdlPFi9DvfoHZNgp0UHLubudtKLLF_KMuDy-Ho",
-          "short_id": "9795f83547c168d3"
-        },
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇺🇸_US_美国_3",
-      "type": "vless",
-      "server": "88.218.44.4",
-      "server_port": 8443,
-      "uuid": "7c74b0e4-f132-5583-4692-622a7d6b71a4",
-      "transport": {
-        "type": "grpc",
-        "service_name": "TunService"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "download.nvidia.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ"
-        },
-        "insecure": true
-      }
-    },
-    {
       "tag": "🇭🇰_HK_中国香港->🇲🇴_MO_中国澳门",
       "type": "trojan",
       "server": "oplosgru-c.catcat321.com",
@@ -676,30 +708,6 @@
       "tls": {
         "enabled": false,
         "server_name": "hk.catxstar.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇭🇰_HK_中国香港->🇯🇵_JP_日本_1",
-      "type": "trojan",
-      "server": "hkdcrtc-e.catcat321.com",
-      "server_port": 20129,
-      "password": "41c406e2-12b5-41f2-a329-d0621052d675",
-      "network": "tcp",
-      "tls": {
-        "enabled": false,
-        "server_name": "hk.catxstar.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇳_CN_中国",
-      "type": "vless",
-      "server": "120.227.1.43",
-      "server_port": 12528,
-      "uuid": "f0169b08-43fd-4dc3-8195-18f6ad2fe39d",
-      "tls": {
-        "enabled": false,
         "insecure": true
       }
     },
@@ -721,84 +729,61 @@
     },
     {
       "type": "hysteria2",
-      "server": "5.129.235.85",
+      "server": "de-two.quiet-rogue.site",
       "server_port": 443,
-      "password": "gf1:gfhysteria2024",
+      "password": "71cada65-d23e-418c-88e4-a06188d14689",
       "tls": {
         "enabled": true,
-        "server_name": "www.linux.com",
+        "server_name": "de-two.quiet-rogue.site",
         "insecure": true
       },
-      "tag": "🇳🇱_NL_荷兰"
+      "tag": "🇩🇪_DE_德国_1"
     },
     {
-      "tag": "🇫🇮_FI_芬兰->🇹🇷_TR_土耳其_2",
+      "tag": "🇺🇸_US_美国_1",
       "type": "vless",
-      "server": "170.168.97.3",
-      "server_port": 993,
-      "uuid": "e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d",
-      "flow": "xtls-rprx-vision",
+      "server": "88.218.44.4",
+      "server_port": 8443,
+      "uuid": "7c74b0e4-f132-5583-4692-622a7d6b71a4",
+      "transport": {
+        "type": "grpc",
+        "service_name": "TunService"
+      },
       "tls": {
         "enabled": true,
         "server_name": "download.nvidia.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs"
+          "public_key": "EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ"
         },
         "insecure": true
       }
     },
     {
-      "type": "hysteria2",
-      "server": "ln4.xiaoliyu.cyou",
-      "server_port": 4433,
-      "password": "18cf8030-1ceb-4b7d-8c0c-c036413c144e",
-      "tls": {
-        "enabled": true,
-        "server_name": "ln4.xiaoliyu.cyou",
-        "insecure": true
-      },
-      "tag": "🇮🇳_IN_印度"
-    },
-    {
-      "tag": "🇨🇳_CN_中国->🇵🇱_PL_波兰",
-      "type": "vless",
-      "server": "77.105.163.46",
+      "tag": "🇺🇸_US_美国_2",
+      "type": "vmess",
+      "server": "guanwang.awsno.com",
       "server_port": 443,
-      "uuid": "3e37ef76-835d-4ad2-a1d3-414ef90532bf",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "ov186.ochmaybrooooo.online"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      },
+      "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
+      "alter_id": 0,
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "ov186.ochmaybrooooo.online",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
         "insecure": true
       }
     },
     {
-      "tag": "🇭🇰_HK_中国香港->🇰🇷_KR_韩国",
-      "type": "trojan",
-      "server": "oplosgru-c.catcat321.com",
-      "server_port": 20088,
-      "password": "41c406e2-12b5-41f2-a329-d0621052d675",
-      "network": "tcp",
+      "tag": "🇺🇸_US_美国_3",
+      "type": "vless",
+      "server": "180.178.60.253",
+      "server_port": 10000,
+      "uuid": "caec0d8d-ab2f-4247-b97d-7fb1a34ab195",
       "tls": {
-        "enabled": true,
-        "server_name": "hk.catxstar.com",
+        "enabled": false,
         "insecure": true
       }
     }
