@@ -124,14 +124,31 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇳_CN_中国->🇭🇰_HK_中国香港",
-        "🇫🇷_FR_法国",
-        "🇩🇪_DE_德国->🇧🇷_BR_巴西",
-        "🇺🇸_US_美国",
-        "🇺🇸_US_美国->🇩🇪_DE_德国",
+        "🇨🇦_CA_加拿大",
         "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
-        "🇺🇸_US_美国_1",
-        "🇨🇳_CN_中国"
+        "🇯🇵_JP_日本",
+        "🇮🇪_IE_爱尔兰",
+        "🇮🇪_IE_爱尔兰_1",
+        "🇸🇬_SG_新加坡",
+        "🇯🇵_JP_日本_1",
+        "🇦🇺_AU_澳大利亚",
+        "🇫🇷_FR_法国",
+        "🇯🇵_JP_日本_2",
+        "🇷🇺_RU_俄罗斯",
+        "🇨🇳_CN_中国->🇯🇵_JP_日本",
+        "🇦🇺_AU_澳大利亚_1",
+        "🇯🇵_JP_日本_3",
+        "🇰🇷_KR_韩国",
+        "🇵🇱_PL_波兰",
+        "🇺🇸_US_美国",
+        "🇩🇪_DE_德国",
+        "🇳🇱_NL_荷兰",
+        "🇵🇱_PL_波兰_1",
+        "🇩🇪_DE_德国_1",
+        "🇷🇺_RU_俄罗斯->🇫🇮_FI_芬兰",
+        "🇯🇵_JP_日本_4",
+        "🇭🇰_HK_中国香港",
+        "🇵🇱_PL_波兰_2"
       ]
     },
     {
@@ -337,8 +354,8 @@
       "tag": "HongKong",
       "type": "selector",
       "outbounds": [
-        "🇨🇳_CN_中国->🇭🇰_HK_中国香港",
-        "🇭🇰_HK_中国香港->🇯🇵_JP_日本"
+        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
+        "🇭🇰_HK_中国香港"
       ]
     },
     {
@@ -352,46 +369,79 @@
       "tag": "Singapore",
       "type": "selector",
       "outbounds": [
-        "Proxy"
+        "🇸🇬_SG_新加坡"
       ]
     },
     {
       "tag": "Japan",
       "type": "selector",
       "outbounds": [
-        "🇭🇰_HK_中国香港->🇯🇵_JP_日本"
+        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
+        "🇯🇵_JP_日本",
+        "🇯🇵_JP_日本_1",
+        "🇯🇵_JP_日本_2",
+        "🇨🇳_CN_中国->🇯🇵_JP_日本",
+        "🇯🇵_JP_日本_3",
+        "🇯🇵_JP_日本_4"
       ]
     },
     {
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸_US_美国",
-        "🇺🇸_US_美国->🇩🇪_DE_德国",
-        "🇺🇸_US_美国_1"
+        "🇺🇸_US_美国"
       ]
     },
     {
       "tag": "Others",
       "type": "selector",
       "outbounds": [
+        "🇨🇦_CA_加拿大",
+        "🇮🇪_IE_爱尔兰",
+        "🇮🇪_IE_爱尔兰_1",
+        "🇦🇺_AU_澳大利亚",
         "🇫🇷_FR_法国",
-        "🇩🇪_DE_德国->🇧🇷_BR_巴西",
-        "🇨🇳_CN_中国"
+        "🇷🇺_RU_俄罗斯",
+        "🇦🇺_AU_澳大利亚_1",
+        "🇰🇷_KR_韩国",
+        "🇵🇱_PL_波兰",
+        "🇩🇪_DE_德国",
+        "🇳🇱_NL_荷兰",
+        "🇵🇱_PL_波兰_1",
+        "🇩🇪_DE_德国_1",
+        "🇷🇺_RU_俄罗斯->🇫🇮_FI_芬兰",
+        "🇵🇱_PL_波兰_2"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇨🇳_CN_中国->🇭🇰_HK_中国香港",
-        "🇫🇷_FR_法国",
-        "🇩🇪_DE_德国->🇧🇷_BR_巴西",
-        "🇺🇸_US_美国",
-        "🇺🇸_US_美国->🇩🇪_DE_德国",
+        "🇨🇦_CA_加拿大",
         "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
-        "🇺🇸_US_美国_1",
-        "🇨🇳_CN_中国"
+        "🇯🇵_JP_日本",
+        "🇮🇪_IE_爱尔兰",
+        "🇮🇪_IE_爱尔兰_1",
+        "🇸🇬_SG_新加坡",
+        "🇯🇵_JP_日本_1",
+        "🇦🇺_AU_澳大利亚",
+        "🇫🇷_FR_法国",
+        "🇯🇵_JP_日本_2",
+        "🇷🇺_RU_俄罗斯",
+        "🇨🇳_CN_中国->🇯🇵_JP_日本",
+        "🇦🇺_AU_澳大利亚_1",
+        "🇯🇵_JP_日本_3",
+        "🇰🇷_KR_韩国",
+        "🇵🇱_PL_波兰",
+        "🇺🇸_US_美国",
+        "🇩🇪_DE_德国",
+        "🇳🇱_NL_荷兰",
+        "🇵🇱_PL_波兰_1",
+        "🇩🇪_DE_德国_1",
+        "🇷🇺_RU_俄罗斯->🇫🇮_FI_芬兰",
+        "🇯🇵_JP_日本_4",
+        "🇭🇰_HK_中国香港",
+        "🇵🇱_PL_波兰_2"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -402,10 +452,137 @@
       "tag": "direct"
     },
     {
-      "tag": "🇨🇳_CN_中国->🇭🇰_HK_中国香港",
+      "tag": "🇨🇦_CA_加拿大",
+      "type": "shadowsocks",
+      "server": "212.193.6.107",
+      "server_port": 30331,
+      "method": "aes-256-gcm",
+      "password": "fbcec76953a2d173"
+    },
+    {
+      "tag": "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
+      "type": "trojan",
+      "server": "oplosgru-c.catcat321.com",
+      "server_port": 20004,
+      "password": "ba07a8af-5544-48ac-ab62-3b6c00a44fa6",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.catxstar.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵_JP_日本",
+      "type": "trojan",
+      "server": "supreme-lobster.rooster465.autos",
+      "server_port": 443,
+      "password": "AE62539071",
+      "network": "tcp",
+      "tls": {
+        "enabled": false,
+        "server_name": "supreme-lobster.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇮🇪_IE_爱尔兰",
+      "type": "trojan",
+      "server": "kind-stork.rooster465.autos",
+      "server_port": 443,
+      "password": "AE62539071",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇮🇪_IE_爱尔兰_1",
+      "type": "trojan",
+      "server": "unbiased-garfish.rooster465.autos",
+      "server_port": 443,
+      "password": "AE62539071",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬_SG_新加坡",
+      "type": "trojan",
+      "server": "integral-quetzal.rooster465.autos",
+      "server_port": 443,
+      "password": "AE62539071",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵_JP_日本_1",
+      "type": "trojan",
+      "server": "premium-weevil.rooster465.autos",
+      "server_port": 443,
+      "password": "AE62539071",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇦🇺_AU_澳大利亚",
+      "type": "trojan",
+      "server": "together-dingo.rooster465.autos",
+      "server_port": 443,
+      "password": "AE62539071",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇫🇷_FR_法国",
+      "type": "trojan",
+      "server": "distinct-quail.rooster465.autos",
+      "server_port": 443,
+      "password": "AE62539071",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵_JP_日本_2",
+      "type": "trojan",
+      "server": "polished-imp.rooster465.autos",
+      "server_port": 443,
+      "password": "AE62539071",
+      "network": "tcp",
+      "tls": {
+        "enabled": false,
+        "server_name": "polished-imp.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇷🇺_RU_俄罗斯",
+      "type": "shadowsocks",
+      "server": "195.133.23.200",
+      "server_port": 30331,
+      "method": "aes-256-gcm",
+      "password": "81a20429165df87e"
+    },
+    {
+      "tag": "🇨🇳_CN_中国->🇯🇵_JP_日本",
       "type": "vmess",
-      "server": "v9.hdacd.com",
-      "server_port": 30809,
+      "server": "v6.hdacd.com",
+      "server_port": 30806,
       "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
       "alter_id": 2,
       "security": "auto",
@@ -415,41 +592,48 @@
       }
     },
     {
-      "tag": "🇫🇷_FR_法国",
-      "type": "vless",
-      "server": "fr199.mechvpn.online",
+      "tag": "🇦🇺_AU_澳大利亚_1",
+      "type": "trojan",
+      "server": "darling-mutt.rooster465.autos",
       "server_port": 443,
-      "uuid": "53c76647-14d1-4df5-99cb-be99ad2e6bd9",
-      "flow": "xtls-rprx-vision",
+      "password": "AE62539071",
+      "network": "tcp",
       "tls": {
         "enabled": true,
         "insecure": true
       }
     },
     {
-      "tag": "🇩🇪_DE_德国->🇧🇷_BR_巴西",
-      "type": "vless",
-      "server": "18.198.227.161",
+      "tag": "🇯🇵_JP_日本_3",
+      "type": "trojan",
+      "server": "literate-cow.rooster465.autos",
       "server_port": 443,
-      "uuid": "4f375fb4-3c95-425f-bc7b-8085487a6f3c",
-      "transport": {
-        "type": "ws",
-        "path": "/21381/0kO2id8FMQ",
-        "headers": {
-          "Host": "titandarkness.mooo.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      },
+      "password": "AE62539071",
+      "network": "tcp",
       "tls": {
         "enabled": true,
-        "server_name": "titandarkness.mooo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
         "insecure": true
       }
+    },
+    {
+      "tag": "🇰🇷_KR_韩国",
+      "type": "trojan",
+      "server": "sacred-hound.rooster465.autos",
+      "server_port": 443,
+      "password": "AE62539071",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇵🇱_PL_波兰",
+      "type": "shadowsocks",
+      "server": "194.61.121.93",
+      "server_port": 7538,
+      "method": "chacha20-ietf-poly1305",
+      "password": "U9YAoqBgg5VyGBc6vQv1sN"
     },
     {
       "tag": "🇺🇸_US_美国",
@@ -465,70 +649,98 @@
       }
     },
     {
-      "tag": "🇺🇸_US_美国->🇩🇪_DE_德国",
-      "type": "vless",
-      "server": "104.25.194.196",
-      "server_port": 2086,
-      "uuid": "e3c7c198-2b02-42c2-b78f-22dfc078219c",
-      "transport": {
-        "type": "ws",
-        "path": "/vl/3k4QnDlh2r3IPLPNFGLAeMJ5df?ed=2560",
-        "headers": {
-          "Host": "uj-kn9gcgkzl0wmmy5wrkmalvhzdw62z.soltannatlos.workers.dev"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      },
-      "tls": {
-        "enabled": false,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
+      "tag": "🇩🇪_DE_德国",
       "type": "trojan",
-      "server": "oplosgru-c.catcat321.com",
-      "server_port": 20004,
-      "password": "ba07a8af-5544-48ac-ab62-3b6c00a44fa6",
+      "server": "sterling-macaw.rooster465.autos",
+      "server_port": 443,
+      "password": "AE62539071",
       "network": "tcp",
       "tls": {
-        "enabled": false,
-        "server_name": "hk.catxstar.com",
+        "enabled": true,
         "insecure": true
       }
     },
     {
-      "tag": "🇺🇸_US_美国_1",
-      "type": "vless",
-      "server": "172.67.209.127",
-      "server_port": 8880,
-      "uuid": "942bdcfc-e522-44f1-b899-3bd8db7c5ae2",
-      "transport": {
-        "type": "ws",
-        "path": "/pyip=ProxyIP.SG.CMLiussss.net",
-        "headers": {
-          "Host": "winter-leaf-b4da.122-6c9.workers.dev"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      },
+      "tag": "🇳🇱_NL_荷兰",
+      "type": "trojan",
+      "server": "thorough-falcon.rooster465.autos",
+      "server_port": 443,
+      "password": "AE62539071",
+      "network": "tcp",
       "tls": {
-        "enabled": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
+        "enabled": true,
         "insecure": true
       }
     },
     {
-      "tag": "🇨🇳_CN_中国",
-      "type": "vless",
-      "server": "120.227.1.43",
-      "server_port": 12528,
-      "uuid": "f0169b08-43fd-4dc3-8195-18f6ad2fe39d",
+      "tag": "🇵🇱_PL_波兰_1",
+      "type": "trojan",
+      "server": "tolerant-mosquito.rooster465.autos",
+      "server_port": 443,
+      "password": "AE62539071",
+      "network": "tcp",
       "tls": {
-        "enabled": false,
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇩🇪_DE_德国_1",
+      "type": "trojan",
+      "server": "moved-bluegill.rooster465.autos",
+      "server_port": 443,
+      "password": "AE62539071",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇷🇺_RU_俄罗斯->🇫🇮_FI_芬兰",
+      "type": "vless",
+      "server": "ru211.mechvpn.online",
+      "server_port": 443,
+      "uuid": "1c6824de-312c-4876-aa3f-5a30e3df2de7",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵_JP_日本_4",
+      "type": "trojan",
+      "server": "main-impala.rooster465.autos",
+      "server_port": 443,
+      "password": "AE62539071",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇭🇰_HK_中国香港",
+      "type": "trojan",
+      "server": "upright-bedbug.rooster465.autos",
+      "server_port": 443,
+      "password": "AE62539071",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇵🇱_PL_波兰_2",
+      "type": "trojan",
+      "server": "relative-locust.rooster465.autos",
+      "server_port": 443,
+      "password": "AE62539071",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
         "insecure": true
       }
     }
