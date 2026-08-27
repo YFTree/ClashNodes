@@ -1,29 +1,157 @@
 mixed-port: 7890
-allow-lan: true
+allow-lan: false
 mode: rule
 log-level: info
+ipv6: false
+external-controller: 127.0.0.1:9090
 dns:
   enable: true
+  listen: 127.0.0.1:1053
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  proxy-server-nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  nameserver-policy:
+    geosite:geolocation-!cn:
+      - https://1.1.1.1/dns-query#🚀 节点选择
+      - https://8.8.8.8/dns-query#🚀 节点选择
 proxies:
 proxy-groups:
-  - name: Proxy
+  - name: 🚀 节点选择
     type: select
     proxies:
+      - ♻️ 自动选择
       - DIRECT
-      - US美国
-      - TW台湾
-      - FR法国
-      - HK香港
+      - 爱沙尼亚
+      - 爱沙尼亚_1
+      - 爱沙尼亚_2
+      - 爱沙尼亚_3
+      - 爱沙尼亚_4
+      - 奥地利
+      - 保加利亚
+      - 保加利亚_1
+      - 比利时
+      - 捷克
+      - 瑞典
+      - 瑞士
+      - 塞浦路斯
+      - 塞浦路斯_1
+      - 塞浦路斯_2
+      - 土耳其
       - AU澳大利亚
-      - US美国_1
-      - US美国_2
-      - JP日本
-      - HK香港_1
-      - US美国_3
+      - AU澳大利亚_1
+      - AU澳大利亚_2
+      - AU澳大利亚_3
+      - AU澳大利亚_4
+      - AU澳大利亚_5
+      - AU澳大利亚_6
+      - AU澳大利亚_7
+      - AU澳大利亚_8
+      - AU澳大利亚_9
+      - AU澳大利亚_10
+      - CA加拿大
+      - CA加拿大_1
+      - CA加拿大_2
+      - CA加拿大_3
+      - CA加拿大_4
+      - CA加拿大_5
+      - CA加拿大_6
+      - CA加拿大_7
+      - CA加拿大_8
+      - CA加拿大_9
+      - CA加拿大_10
+      - CA加拿大_11
+      - CA加拿大_12
+      - CA加拿大_13
+      - CA加拿大_14
+      - CA加拿大_15
+      - CA加拿大_16
+      - DE德国
+      - DE德国_1
+      - DE德国_2
+      - DE德国_3
+      - FI芬兰
+      - FI芬兰_1
+      - FI芬兰_2
+      - FI芬兰_3
+      - FR法国
       - FR法国_1
       - FR法国_2
       - FR法国_3
-      - CA加拿大
+      - FR法国_4
+      - FR法国_5
+      - FR法国_6
+      - FR法国_7
+      - FR法国_8
+      - FR法国_9
+      - FR法国_10
+      - FR法国_11
+      - FR法国_12
+      - FR法国_13
+      - FR法国_14
+      - FR法国_15
+      - FR法国_16
+      - FR法国_17
+      - FR法国_18
+      - FR法国_19
+      - FR法国_20
+      - FR法国_21
+      - FR法国_22
+      - FR法国_23
+      - GB英国
+      - HK香港
+      - HK香港_1
+      - HK香港_2
+      - HK香港_3
+      - HK香港_4
+      - HK香港_5
+      - HK香港_6
+      - HK香港_7
+      - HK香港_8
+      - HK香港_9
+      - HK香港_10
+      - HK香港_11
+      - HK香港_12
+      - HK香港_13
+      - HK香港_14
+      - HK香港_15
+      - HK香港_16
+      - HK香港_17
+      - IN印度
+      - JP日本
+      - KR韩国
+      - KR韩国_1
+      - KR韩国_2
+      - NL荷兰
+      - NL荷兰_1
+      - NL荷兰_2
+      - NL荷兰_3
+      - NL荷兰_4
+      - NL荷兰_5
+      - NL荷兰_6
+      - NL荷兰_7
+      - NL荷兰_8
+      - PL波兰
+      - PL波兰_1
+      - RU俄罗斯
+      - RU俄罗斯_1
+      - SG新加坡
+      - SG新加坡_1
+      - SG新加坡_2
+      - SG新加坡_3
+      - TW台湾
+      - US美国
+      - US美国_1
+      - US美国_2
+      - US美国_3
       - US美国_4
       - US美国_5
       - US美国_6
@@ -34,16 +162,12 @@ proxy-groups:
       - US美国_11
       - US美国_12
       - US美国_13
-      - HK香港_2
       - US美国_14
       - US美国_15
       - US美国_16
-      - HK香港_3
       - US美国_17
       - US美国_18
       - US美国_19
-      - FR法国_4
-      - FR法国_5
       - US美国_20
       - US美国_21
       - US美国_22
@@ -55,28 +179,20 @@ proxy-groups:
       - US美国_28
       - US美国_29
       - US美国_30
-      - HK香港_4
       - US美国_31
       - US美国_32
-      - CA加拿大_1
       - US美国_33
       - US美国_34
       - US美国_35
       - US美国_36
-      - FR法国_6
       - US美国_37
-      - CA加拿大_2
       - US美国_38
-      - CA加拿大_3
       - US美国_39
       - US美国_40
       - US美国_41
       - US美国_42
       - US美国_43
       - US美国_44
-      - 乌克兰
-      - FR法国_7
-      - FR法国_8
       - US美国_45
       - US美国_46
       - US美国_47
@@ -84,12 +200,10 @@ proxy-groups:
       - US美国_49
       - US美国_50
       - US美国_51
-      - FR法国_9
       - US美国_52
       - US美国_53
       - US美国_54
       - US美国_55
-      - FR法国_10
       - US美国_56
       - US美国_57
       - US美国_58
@@ -97,28 +211,21 @@ proxy-groups:
       - US美国_60
       - US美国_61
       - US美国_62
-      - NL荷兰
       - US美国_63
-      - CA加拿大_4
       - US美国_64
       - US美国_65
       - US美国_66
-      - HK香港_5
       - US美国_67
       - US美国_68
       - US美国_69
-      - HK香港_6
       - US美国_70
       - US美国_71
       - US美国_72
       - US美国_73
       - US美国_74
-      - FR法国_11
       - US美国_75
       - US美国_76
       - US美国_77
-      - FR法国_12
-      - NL荷兰_1
       - US美国_78
       - US美国_79
       - US美国_80
@@ -127,150 +234,198 @@ proxy-groups:
       - US美国_83
       - US美国_84
       - US美国_85
-      - HK香港_7
       - US美国_86
       - US美国_87
-      - CA加拿大_5
-      - CA加拿大_6
       - US美国_88
       - US美国_89
       - US美国_90
       - US美国_91
       - US美国_92
       - US美国_93
-      - FR法国_13
       - US美国_94
       - US美国_95
       - US美国_96
-      - FR法国_14
       - US美国_97
       - US美国_98
-      - TW台湾_1
       - US美国_99
-      - FR法国_15
-      - CA加拿大_7
       - US美国_100
       - US美国_101
       - US美国_102
       - US美国_103
-      - HK香港_8
       - US美国_104
       - US美国_105
       - US美国_106
-      - FR法国_16
       - US美国_107
-      - JP日本_1
       - US美国_108
       - US美国_109
       - US美国_110
       - US美国_111
       - US美国_112
-      - FR法国_17
       - US美国_113
       - US美国_114
       - US美国_115
-      - 乌克兰_1
       - US美国_116
-      - HK香港_9
       - US美国_117
       - US美国_118
       - US美国_119
       - US美国_120
       - US美国_121
       - US美国_122
-      - FR法国_18
-      - FR法国_19
       - US美国_123
       - US美国_124
-      - RU俄罗斯
       - US美国_125
       - US美国_126
       - US美国_127
-      - CA加拿大_8
       - US美国_128
       - US美国_129
       - US美国_130
       - US美国_131
       - US美国_132
       - US美国_133
-      - DE德国
-      - 阿联酋
       - US美国_134
-      - NL荷兰_2
       - US美国_135
       - US美国_136
-      - FR法国_20
       - US美国_137
       - US美国_138
       - US美国_139
-      - FR法国_21
-      - FR法国_22
       - US美国_140
       - US美国_141
-      - CA加拿大_9
       - US美国_142
       - US美国_143
       - US美国_144
       - US美国_145
       - US美国_146
-      - 拉脱维亚
-      - 拉脱维亚_1
       - US美国_147
-      - HK香港_10
       - US美国_148
       - US美国_149
       - US美国_150
       - US美国_151
-      - 拉脱维亚_2
-      - 拉脱维亚_3
-      - DE德国_1
-      - HK香港_11
-      - FR法国_23
-      - FR法国_24
-      - GB英国
       - US美国_152
-      - US美国_153
-      - US美国_154
-      - FR法国_25
-      - CA加拿大_10
-      - FR法国_26
-      - FR法国_27
-      - HK香港_12
-      - US美国_155
-      - FR法国_28
-      - US美国_156
-      - CA加拿大_11
-      - US美国_157
-      - US美国_158
-      - US美国_159
-      - US美国_160
-      - GB英国_1
-      - US美国_161
-      - US美国_162
-      - US美国_163
-      - US美国_164
-      - FR法国_29
-      - US美国_165
-      - US美国_166
-      - TW台湾_2
-      - TW台湾_3
-  - name: Auto
+  - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - US美国
-      - TW台湾
-      - FR法国
-      - HK香港
+      - 爱沙尼亚
+      - 爱沙尼亚_1
+      - 爱沙尼亚_2
+      - 爱沙尼亚_3
+      - 爱沙尼亚_4
+      - 奥地利
+      - 保加利亚
+      - 保加利亚_1
+      - 比利时
+      - 捷克
+      - 瑞典
+      - 瑞士
+      - 塞浦路斯
+      - 塞浦路斯_1
+      - 塞浦路斯_2
+      - 土耳其
       - AU澳大利亚
-      - US美国_1
-      - US美国_2
-      - JP日本
-      - HK香港_1
-      - US美国_3
+      - AU澳大利亚_1
+      - AU澳大利亚_2
+      - AU澳大利亚_3
+      - AU澳大利亚_4
+      - AU澳大利亚_5
+      - AU澳大利亚_6
+      - AU澳大利亚_7
+      - AU澳大利亚_8
+      - AU澳大利亚_9
+      - AU澳大利亚_10
+      - CA加拿大
+      - CA加拿大_1
+      - CA加拿大_2
+      - CA加拿大_3
+      - CA加拿大_4
+      - CA加拿大_5
+      - CA加拿大_6
+      - CA加拿大_7
+      - CA加拿大_8
+      - CA加拿大_9
+      - CA加拿大_10
+      - CA加拿大_11
+      - CA加拿大_12
+      - CA加拿大_13
+      - CA加拿大_14
+      - CA加拿大_15
+      - CA加拿大_16
+      - DE德国
+      - DE德国_1
+      - DE德国_2
+      - DE德国_3
+      - FI芬兰
+      - FI芬兰_1
+      - FI芬兰_2
+      - FI芬兰_3
+      - FR法国
       - FR法国_1
       - FR法国_2
       - FR法国_3
-      - CA加拿大
+      - FR法国_4
+      - FR法国_5
+      - FR法国_6
+      - FR法国_7
+      - FR法国_8
+      - FR法国_9
+      - FR法国_10
+      - FR法国_11
+      - FR法国_12
+      - FR法国_13
+      - FR法国_14
+      - FR法国_15
+      - FR法国_16
+      - FR法国_17
+      - FR法国_18
+      - FR法国_19
+      - FR法国_20
+      - FR法国_21
+      - FR法国_22
+      - FR法国_23
+      - GB英国
+      - HK香港
+      - HK香港_1
+      - HK香港_2
+      - HK香港_3
+      - HK香港_4
+      - HK香港_5
+      - HK香港_6
+      - HK香港_7
+      - HK香港_8
+      - HK香港_9
+      - HK香港_10
+      - HK香港_11
+      - HK香港_12
+      - HK香港_13
+      - HK香港_14
+      - HK香港_15
+      - HK香港_16
+      - HK香港_17
+      - IN印度
+      - JP日本
+      - KR韩国
+      - KR韩国_1
+      - KR韩国_2
+      - NL荷兰
+      - NL荷兰_1
+      - NL荷兰_2
+      - NL荷兰_3
+      - NL荷兰_4
+      - NL荷兰_5
+      - NL荷兰_6
+      - NL荷兰_7
+      - NL荷兰_8
+      - PL波兰
+      - PL波兰_1
+      - RU俄罗斯
+      - RU俄罗斯_1
+      - SG新加坡
+      - SG新加坡_1
+      - SG新加坡_2
+      - SG新加坡_3
+      - TW台湾
+      - US美国
+      - US美国_1
+      - US美国_2
+      - US美国_3
       - US美国_4
       - US美国_5
       - US美国_6
@@ -281,16 +436,12 @@ proxy-groups:
       - US美国_11
       - US美国_12
       - US美国_13
-      - HK香港_2
       - US美国_14
       - US美国_15
       - US美国_16
-      - HK香港_3
       - US美国_17
       - US美国_18
       - US美国_19
-      - FR法国_4
-      - FR法国_5
       - US美国_20
       - US美国_21
       - US美国_22
@@ -302,28 +453,20 @@ proxy-groups:
       - US美国_28
       - US美国_29
       - US美国_30
-      - HK香港_4
       - US美国_31
       - US美国_32
-      - CA加拿大_1
       - US美国_33
       - US美国_34
       - US美国_35
       - US美国_36
-      - FR法国_6
       - US美国_37
-      - CA加拿大_2
       - US美国_38
-      - CA加拿大_3
       - US美国_39
       - US美国_40
       - US美国_41
       - US美国_42
       - US美国_43
       - US美国_44
-      - 乌克兰
-      - FR法国_7
-      - FR法国_8
       - US美国_45
       - US美国_46
       - US美国_47
@@ -331,12 +474,10 @@ proxy-groups:
       - US美国_49
       - US美国_50
       - US美国_51
-      - FR法国_9
       - US美国_52
       - US美国_53
       - US美国_54
       - US美国_55
-      - FR法国_10
       - US美国_56
       - US美国_57
       - US美国_58
@@ -344,28 +485,21 @@ proxy-groups:
       - US美国_60
       - US美国_61
       - US美国_62
-      - NL荷兰
       - US美国_63
-      - CA加拿大_4
       - US美国_64
       - US美国_65
       - US美国_66
-      - HK香港_5
       - US美国_67
       - US美国_68
       - US美国_69
-      - HK香港_6
       - US美国_70
       - US美国_71
       - US美国_72
       - US美国_73
       - US美国_74
-      - FR法国_11
       - US美国_75
       - US美国_76
       - US美国_77
-      - FR法国_12
-      - NL荷兰_1
       - US美国_78
       - US美国_79
       - US美国_80
@@ -374,164 +508,1548 @@ proxy-groups:
       - US美国_83
       - US美国_84
       - US美国_85
-      - HK香港_7
       - US美国_86
       - US美国_87
-      - CA加拿大_5
-      - CA加拿大_6
       - US美国_88
       - US美国_89
       - US美国_90
       - US美国_91
       - US美国_92
       - US美国_93
-      - FR法国_13
       - US美国_94
       - US美国_95
       - US美国_96
-      - FR法国_14
       - US美国_97
       - US美国_98
-      - TW台湾_1
       - US美国_99
-      - FR法国_15
-      - CA加拿大_7
       - US美国_100
       - US美国_101
       - US美国_102
       - US美国_103
-      - HK香港_8
       - US美国_104
       - US美国_105
       - US美国_106
-      - FR法国_16
       - US美国_107
-      - JP日本_1
       - US美国_108
       - US美国_109
       - US美国_110
       - US美国_111
       - US美国_112
-      - FR法国_17
       - US美国_113
       - US美国_114
       - US美国_115
-      - 乌克兰_1
       - US美国_116
-      - HK香港_9
       - US美国_117
       - US美国_118
       - US美国_119
       - US美国_120
       - US美国_121
       - US美国_122
-      - FR法国_18
-      - FR法国_19
       - US美国_123
       - US美国_124
-      - RU俄罗斯
       - US美国_125
       - US美国_126
       - US美国_127
-      - CA加拿大_8
       - US美国_128
       - US美国_129
       - US美国_130
       - US美国_131
       - US美国_132
       - US美国_133
-      - DE德国
-      - 阿联酋
       - US美国_134
-      - NL荷兰_2
       - US美国_135
       - US美国_136
-      - FR法国_20
       - US美国_137
       - US美国_138
       - US美国_139
-      - FR法国_21
-      - FR法国_22
       - US美国_140
       - US美国_141
-      - CA加拿大_9
       - US美国_142
       - US美国_143
       - US美国_144
       - US美国_145
       - US美国_146
-      - 拉脱维亚
-      - 拉脱维亚_1
       - US美国_147
-      - HK香港_10
       - US美国_148
       - US美国_149
       - US美国_150
       - US美国_151
-      - 拉脱维亚_2
-      - 拉脱维亚_3
-      - DE德国_1
-      - HK香港_11
-      - FR法国_23
-      - FR法国_24
-      - GB英国
       - US美国_152
-      - US美国_153
-      - US美国_154
-      - FR法国_25
-      - CA加拿大_10
-      - FR法国_26
-      - FR法国_27
-      - HK香港_12
-      - US美国_155
-      - FR法国_28
-      - US美国_156
-      - CA加拿大_11
-      - US美国_157
-      - US美国_158
-      - US美国_159
-      - US美国_160
-      - GB英国_1
-      - US美国_161
-      - US美国_162
-      - US美国_163
-      - US美国_164
-      - FR法国_29
-      - US美国_165
-      - US美国_166
-      - TW台湾_2
-      - TW台湾_3
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
-  - name: Direct
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 爱沙尼亚
+      - 爱沙尼亚_1
+      - 爱沙尼亚_2
+      - 爱沙尼亚_3
+      - 爱沙尼亚_4
+      - 奥地利
+      - 保加利亚
+      - 保加利亚_1
+      - 比利时
+      - 捷克
+      - 瑞典
+      - 瑞士
+      - 塞浦路斯
+      - 塞浦路斯_1
+      - 塞浦路斯_2
+      - 土耳其
+      - AU澳大利亚
+      - AU澳大利亚_1
+      - AU澳大利亚_2
+      - AU澳大利亚_3
+      - AU澳大利亚_4
+      - AU澳大利亚_5
+      - AU澳大利亚_6
+      - AU澳大利亚_7
+      - AU澳大利亚_8
+      - AU澳大利亚_9
+      - AU澳大利亚_10
+      - CA加拿大
+      - CA加拿大_1
+      - CA加拿大_2
+      - CA加拿大_3
+      - CA加拿大_4
+      - CA加拿大_5
+      - CA加拿大_6
+      - CA加拿大_7
+      - CA加拿大_8
+      - CA加拿大_9
+      - CA加拿大_10
+      - CA加拿大_11
+      - CA加拿大_12
+      - CA加拿大_13
+      - CA加拿大_14
+      - CA加拿大_15
+      - CA加拿大_16
+      - DE德国
+      - DE德国_1
+      - DE德国_2
+      - DE德国_3
+      - FI芬兰
+      - FI芬兰_1
+      - FI芬兰_2
+      - FI芬兰_3
+      - FR法国
+      - FR法国_1
+      - FR法国_2
+      - FR法国_3
+      - FR法国_4
+      - FR法国_5
+      - FR法国_6
+      - FR法国_7
+      - FR法国_8
+      - FR法国_9
+      - FR法国_10
+      - FR法国_11
+      - FR法国_12
+      - FR法国_13
+      - FR法国_14
+      - FR法国_15
+      - FR法国_16
+      - FR法国_17
+      - FR法国_18
+      - FR法国_19
+      - FR法国_20
+      - FR法国_21
+      - FR法国_22
+      - FR法国_23
+      - GB英国
+      - HK香港
+      - HK香港_1
+      - HK香港_2
+      - HK香港_3
+      - HK香港_4
+      - HK香港_5
+      - HK香港_6
+      - HK香港_7
+      - HK香港_8
+      - HK香港_9
+      - HK香港_10
+      - HK香港_11
+      - HK香港_12
+      - HK香港_13
+      - HK香港_14
+      - HK香港_15
+      - HK香港_16
+      - HK香港_17
+      - IN印度
+      - JP日本
+      - KR韩国
+      - KR韩国_1
+      - KR韩国_2
+      - NL荷兰
+      - NL荷兰_1
+      - NL荷兰_2
+      - NL荷兰_3
+      - NL荷兰_4
+      - NL荷兰_5
+      - NL荷兰_6
+      - NL荷兰_7
+      - NL荷兰_8
+      - PL波兰
+      - PL波兰_1
+      - RU俄罗斯
+      - RU俄罗斯_1
+      - SG新加坡
+      - SG新加坡_1
+      - SG新加坡_2
+      - SG新加坡_3
+      - TW台湾
+      - US美国
+      - US美国_1
+      - US美国_2
+      - US美国_3
+      - US美国_4
+      - US美国_5
+      - US美国_6
+      - US美国_7
+      - US美国_8
+      - US美国_9
+      - US美国_10
+      - US美国_11
+      - US美国_12
+      - US美国_13
+      - US美国_14
+      - US美国_15
+      - US美国_16
+      - US美国_17
+      - US美国_18
+      - US美国_19
+      - US美国_20
+      - US美国_21
+      - US美国_22
+      - US美国_23
+      - US美国_24
+      - US美国_25
+      - US美国_26
+      - US美国_27
+      - US美国_28
+      - US美国_29
+      - US美国_30
+      - US美国_31
+      - US美国_32
+      - US美国_33
+      - US美国_34
+      - US美国_35
+      - US美国_36
+      - US美国_37
+      - US美国_38
+      - US美国_39
+      - US美国_40
+      - US美国_41
+      - US美国_42
+      - US美国_43
+      - US美国_44
+      - US美国_45
+      - US美国_46
+      - US美国_47
+      - US美国_48
+      - US美国_49
+      - US美国_50
+      - US美国_51
+      - US美国_52
+      - US美国_53
+      - US美国_54
+      - US美国_55
+      - US美国_56
+      - US美国_57
+      - US美国_58
+      - US美国_59
+      - US美国_60
+      - US美国_61
+      - US美国_62
+      - US美国_63
+      - US美国_64
+      - US美国_65
+      - US美国_66
+      - US美国_67
+      - US美国_68
+      - US美国_69
+      - US美国_70
+      - US美国_71
+      - US美国_72
+      - US美国_73
+      - US美国_74
+      - US美国_75
+      - US美国_76
+      - US美国_77
+      - US美国_78
+      - US美国_79
+      - US美国_80
+      - US美国_81
+      - US美国_82
+      - US美国_83
+      - US美国_84
+      - US美国_85
+      - US美国_86
+      - US美国_87
+      - US美国_88
+      - US美国_89
+      - US美国_90
+      - US美国_91
+      - US美国_92
+      - US美国_93
+      - US美国_94
+      - US美国_95
+      - US美国_96
+      - US美国_97
+      - US美国_98
+      - US美国_99
+      - US美国_100
+      - US美国_101
+      - US美国_102
+      - US美国_103
+      - US美国_104
+      - US美国_105
+      - US美国_106
+      - US美国_107
+      - US美国_108
+      - US美国_109
+      - US美国_110
+      - US美国_111
+      - US美国_112
+      - US美国_113
+      - US美国_114
+      - US美国_115
+      - US美国_116
+      - US美国_117
+      - US美国_118
+      - US美国_119
+      - US美国_120
+      - US美国_121
+      - US美国_122
+      - US美国_123
+      - US美国_124
+      - US美国_125
+      - US美国_126
+      - US美国_127
+      - US美国_128
+      - US美国_129
+      - US美国_130
+      - US美国_131
+      - US美国_132
+      - US美国_133
+      - US美国_134
+      - US美国_135
+      - US美国_136
+      - US美国_137
+      - US美国_138
+      - US美国_139
+      - US美国_140
+      - US美国_141
+      - US美国_142
+      - US美国_143
+      - US美国_144
+      - US美国_145
+      - US美国_146
+      - US美国_147
+      - US美国_148
+      - US美国_149
+      - US美国_150
+      - US美国_151
+      - US美国_152
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - 爱沙尼亚
+      - 爱沙尼亚_1
+      - 爱沙尼亚_2
+      - 爱沙尼亚_3
+      - 爱沙尼亚_4
+      - 奥地利
+      - 保加利亚
+      - 保加利亚_1
+      - 比利时
+      - 捷克
+      - 瑞典
+      - 瑞士
+      - 塞浦路斯
+      - 塞浦路斯_1
+      - 塞浦路斯_2
+      - 土耳其
+      - AU澳大利亚
+      - AU澳大利亚_1
+      - AU澳大利亚_2
+      - AU澳大利亚_3
+      - AU澳大利亚_4
+      - AU澳大利亚_5
+      - AU澳大利亚_6
+      - AU澳大利亚_7
+      - AU澳大利亚_8
+      - AU澳大利亚_9
+      - AU澳大利亚_10
+      - CA加拿大
+      - CA加拿大_1
+      - CA加拿大_2
+      - CA加拿大_3
+      - CA加拿大_4
+      - CA加拿大_5
+      - CA加拿大_6
+      - CA加拿大_7
+      - CA加拿大_8
+      - CA加拿大_9
+      - CA加拿大_10
+      - CA加拿大_11
+      - CA加拿大_12
+      - CA加拿大_13
+      - CA加拿大_14
+      - CA加拿大_15
+      - CA加拿大_16
+      - DE德国
+      - DE德国_1
+      - DE德国_2
+      - DE德国_3
+      - FI芬兰
+      - FI芬兰_1
+      - FI芬兰_2
+      - FI芬兰_3
+      - FR法国
+      - FR法国_1
+      - FR法国_2
+      - FR法国_3
+      - FR法国_4
+      - FR法国_5
+      - FR法国_6
+      - FR法国_7
+      - FR法国_8
+      - FR法国_9
+      - FR法国_10
+      - FR法国_11
+      - FR法国_12
+      - FR法国_13
+      - FR法国_14
+      - FR法国_15
+      - FR法国_16
+      - FR法国_17
+      - FR法国_18
+      - FR法国_19
+      - FR法国_20
+      - FR法国_21
+      - FR法国_22
+      - FR法国_23
+      - GB英国
+      - HK香港
+      - HK香港_1
+      - HK香港_2
+      - HK香港_3
+      - HK香港_4
+      - HK香港_5
+      - HK香港_6
+      - HK香港_7
+      - HK香港_8
+      - HK香港_9
+      - HK香港_10
+      - HK香港_11
+      - HK香港_12
+      - HK香港_13
+      - HK香港_14
+      - HK香港_15
+      - HK香港_16
+      - HK香港_17
+      - IN印度
+      - JP日本
+      - KR韩国
+      - KR韩国_1
+      - KR韩国_2
+      - NL荷兰
+      - NL荷兰_1
+      - NL荷兰_2
+      - NL荷兰_3
+      - NL荷兰_4
+      - NL荷兰_5
+      - NL荷兰_6
+      - NL荷兰_7
+      - NL荷兰_8
+      - PL波兰
+      - PL波兰_1
+      - RU俄罗斯
+      - RU俄罗斯_1
+      - SG新加坡
+      - SG新加坡_1
+      - SG新加坡_2
+      - SG新加坡_3
+      - TW台湾
+      - US美国
+      - US美国_1
+      - US美国_2
+      - US美国_3
+      - US美国_4
+      - US美国_5
+      - US美国_6
+      - US美国_7
+      - US美国_8
+      - US美国_9
+      - US美国_10
+      - US美国_11
+      - US美国_12
+      - US美国_13
+      - US美国_14
+      - US美国_15
+      - US美国_16
+      - US美国_17
+      - US美国_18
+      - US美国_19
+      - US美国_20
+      - US美国_21
+      - US美国_22
+      - US美国_23
+      - US美国_24
+      - US美国_25
+      - US美国_26
+      - US美国_27
+      - US美国_28
+      - US美国_29
+      - US美国_30
+      - US美国_31
+      - US美国_32
+      - US美国_33
+      - US美国_34
+      - US美国_35
+      - US美国_36
+      - US美国_37
+      - US美国_38
+      - US美国_39
+      - US美国_40
+      - US美国_41
+      - US美国_42
+      - US美国_43
+      - US美国_44
+      - US美国_45
+      - US美国_46
+      - US美国_47
+      - US美国_48
+      - US美国_49
+      - US美国_50
+      - US美国_51
+      - US美国_52
+      - US美国_53
+      - US美国_54
+      - US美国_55
+      - US美国_56
+      - US美国_57
+      - US美国_58
+      - US美国_59
+      - US美国_60
+      - US美国_61
+      - US美国_62
+      - US美国_63
+      - US美国_64
+      - US美国_65
+      - US美国_66
+      - US美国_67
+      - US美国_68
+      - US美国_69
+      - US美国_70
+      - US美国_71
+      - US美国_72
+      - US美国_73
+      - US美国_74
+      - US美国_75
+      - US美国_76
+      - US美国_77
+      - US美国_78
+      - US美国_79
+      - US美国_80
+      - US美国_81
+      - US美国_82
+      - US美国_83
+      - US美国_84
+      - US美国_85
+      - US美国_86
+      - US美国_87
+      - US美国_88
+      - US美国_89
+      - US美国_90
+      - US美国_91
+      - US美国_92
+      - US美国_93
+      - US美国_94
+      - US美国_95
+      - US美国_96
+      - US美国_97
+      - US美国_98
+      - US美国_99
+      - US美国_100
+      - US美国_101
+      - US美国_102
+      - US美国_103
+      - US美国_104
+      - US美国_105
+      - US美国_106
+      - US美国_107
+      - US美国_108
+      - US美国_109
+      - US美国_110
+      - US美国_111
+      - US美国_112
+      - US美国_113
+      - US美国_114
+      - US美国_115
+      - US美国_116
+      - US美国_117
+      - US美国_118
+      - US美国_119
+      - US美国_120
+      - US美国_121
+      - US美国_122
+      - US美国_123
+      - US美国_124
+      - US美国_125
+      - US美国_126
+      - US美国_127
+      - US美国_128
+      - US美国_129
+      - US美国_130
+      - US美国_131
+      - US美国_132
+      - US美国_133
+      - US美国_134
+      - US美国_135
+      - US美国_136
+      - US美国_137
+      - US美国_138
+      - US美国_139
+      - US美国_140
+      - US美国_141
+      - US美国_142
+      - US美国_143
+      - US美国_144
+      - US美国_145
+      - US美国_146
+      - US美国_147
+      - US美国_148
+      - US美国_149
+      - US美国_150
+      - US美国_151
+      - US美国_152
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - 爱沙尼亚
+      - 爱沙尼亚_1
+      - 爱沙尼亚_2
+      - 爱沙尼亚_3
+      - 爱沙尼亚_4
+      - 奥地利
+      - 保加利亚
+      - 保加利亚_1
+      - 比利时
+      - 捷克
+      - 瑞典
+      - 瑞士
+      - 塞浦路斯
+      - 塞浦路斯_1
+      - 塞浦路斯_2
+      - 土耳其
+      - AU澳大利亚
+      - AU澳大利亚_1
+      - AU澳大利亚_2
+      - AU澳大利亚_3
+      - AU澳大利亚_4
+      - AU澳大利亚_5
+      - AU澳大利亚_6
+      - AU澳大利亚_7
+      - AU澳大利亚_8
+      - AU澳大利亚_9
+      - AU澳大利亚_10
+      - CA加拿大
+      - CA加拿大_1
+      - CA加拿大_2
+      - CA加拿大_3
+      - CA加拿大_4
+      - CA加拿大_5
+      - CA加拿大_6
+      - CA加拿大_7
+      - CA加拿大_8
+      - CA加拿大_9
+      - CA加拿大_10
+      - CA加拿大_11
+      - CA加拿大_12
+      - CA加拿大_13
+      - CA加拿大_14
+      - CA加拿大_15
+      - CA加拿大_16
+      - DE德国
+      - DE德国_1
+      - DE德国_2
+      - DE德国_3
+      - FI芬兰
+      - FI芬兰_1
+      - FI芬兰_2
+      - FI芬兰_3
+      - FR法国
+      - FR法国_1
+      - FR法国_2
+      - FR法国_3
+      - FR法国_4
+      - FR法国_5
+      - FR法国_6
+      - FR法国_7
+      - FR法国_8
+      - FR法国_9
+      - FR法国_10
+      - FR法国_11
+      - FR法国_12
+      - FR法国_13
+      - FR法国_14
+      - FR法国_15
+      - FR法国_16
+      - FR法国_17
+      - FR法国_18
+      - FR法国_19
+      - FR法国_20
+      - FR法国_21
+      - FR法国_22
+      - FR法国_23
+      - GB英国
+      - HK香港
+      - HK香港_1
+      - HK香港_2
+      - HK香港_3
+      - HK香港_4
+      - HK香港_5
+      - HK香港_6
+      - HK香港_7
+      - HK香港_8
+      - HK香港_9
+      - HK香港_10
+      - HK香港_11
+      - HK香港_12
+      - HK香港_13
+      - HK香港_14
+      - HK香港_15
+      - HK香港_16
+      - HK香港_17
+      - IN印度
+      - JP日本
+      - KR韩国
+      - KR韩国_1
+      - KR韩国_2
+      - NL荷兰
+      - NL荷兰_1
+      - NL荷兰_2
+      - NL荷兰_3
+      - NL荷兰_4
+      - NL荷兰_5
+      - NL荷兰_6
+      - NL荷兰_7
+      - NL荷兰_8
+      - PL波兰
+      - PL波兰_1
+      - RU俄罗斯
+      - RU俄罗斯_1
+      - SG新加坡
+      - SG新加坡_1
+      - SG新加坡_2
+      - SG新加坡_3
+      - TW台湾
+      - US美国
+      - US美国_1
+      - US美国_2
+      - US美国_3
+      - US美国_4
+      - US美国_5
+      - US美国_6
+      - US美国_7
+      - US美国_8
+      - US美国_9
+      - US美国_10
+      - US美国_11
+      - US美国_12
+      - US美国_13
+      - US美国_14
+      - US美国_15
+      - US美国_16
+      - US美国_17
+      - US美国_18
+      - US美国_19
+      - US美国_20
+      - US美国_21
+      - US美国_22
+      - US美国_23
+      - US美国_24
+      - US美国_25
+      - US美国_26
+      - US美国_27
+      - US美国_28
+      - US美国_29
+      - US美国_30
+      - US美国_31
+      - US美国_32
+      - US美国_33
+      - US美国_34
+      - US美国_35
+      - US美国_36
+      - US美国_37
+      - US美国_38
+      - US美国_39
+      - US美国_40
+      - US美国_41
+      - US美国_42
+      - US美国_43
+      - US美国_44
+      - US美国_45
+      - US美国_46
+      - US美国_47
+      - US美国_48
+      - US美国_49
+      - US美国_50
+      - US美国_51
+      - US美国_52
+      - US美国_53
+      - US美国_54
+      - US美国_55
+      - US美国_56
+      - US美国_57
+      - US美国_58
+      - US美国_59
+      - US美国_60
+      - US美国_61
+      - US美国_62
+      - US美国_63
+      - US美国_64
+      - US美国_65
+      - US美国_66
+      - US美国_67
+      - US美国_68
+      - US美国_69
+      - US美国_70
+      - US美国_71
+      - US美国_72
+      - US美国_73
+      - US美国_74
+      - US美国_75
+      - US美国_76
+      - US美国_77
+      - US美国_78
+      - US美国_79
+      - US美国_80
+      - US美国_81
+      - US美国_82
+      - US美国_83
+      - US美国_84
+      - US美国_85
+      - US美国_86
+      - US美国_87
+      - US美国_88
+      - US美国_89
+      - US美国_90
+      - US美国_91
+      - US美国_92
+      - US美国_93
+      - US美国_94
+      - US美国_95
+      - US美国_96
+      - US美国_97
+      - US美国_98
+      - US美国_99
+      - US美国_100
+      - US美国_101
+      - US美国_102
+      - US美国_103
+      - US美国_104
+      - US美国_105
+      - US美国_106
+      - US美国_107
+      - US美国_108
+      - US美国_109
+      - US美国_110
+      - US美国_111
+      - US美国_112
+      - US美国_113
+      - US美国_114
+      - US美国_115
+      - US美国_116
+      - US美国_117
+      - US美国_118
+      - US美国_119
+      - US美国_120
+      - US美国_121
+      - US美国_122
+      - US美国_123
+      - US美国_124
+      - US美国_125
+      - US美国_126
+      - US美国_127
+      - US美国_128
+      - US美国_129
+      - US美国_130
+      - US美国_131
+      - US美国_132
+      - US美国_133
+      - US美国_134
+      - US美国_135
+      - US美国_136
+      - US美国_137
+      - US美国_138
+      - US美国_139
+      - US美国_140
+      - US美国_141
+      - US美国_142
+      - US美国_143
+      - US美国_144
+      - US美国_145
+      - US美国_146
+      - US美国_147
+      - US美国_148
+      - US美国_149
+      - US美国_150
+      - US美国_151
+      - US美国_152
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - 爱沙尼亚
+      - 爱沙尼亚_1
+      - 爱沙尼亚_2
+      - 爱沙尼亚_3
+      - 爱沙尼亚_4
+      - 奥地利
+      - 保加利亚
+      - 保加利亚_1
+      - 比利时
+      - 捷克
+      - 瑞典
+      - 瑞士
+      - 塞浦路斯
+      - 塞浦路斯_1
+      - 塞浦路斯_2
+      - 土耳其
+      - AU澳大利亚
+      - AU澳大利亚_1
+      - AU澳大利亚_2
+      - AU澳大利亚_3
+      - AU澳大利亚_4
+      - AU澳大利亚_5
+      - AU澳大利亚_6
+      - AU澳大利亚_7
+      - AU澳大利亚_8
+      - AU澳大利亚_9
+      - AU澳大利亚_10
+      - CA加拿大
+      - CA加拿大_1
+      - CA加拿大_2
+      - CA加拿大_3
+      - CA加拿大_4
+      - CA加拿大_5
+      - CA加拿大_6
+      - CA加拿大_7
+      - CA加拿大_8
+      - CA加拿大_9
+      - CA加拿大_10
+      - CA加拿大_11
+      - CA加拿大_12
+      - CA加拿大_13
+      - CA加拿大_14
+      - CA加拿大_15
+      - CA加拿大_16
+      - DE德国
+      - DE德国_1
+      - DE德国_2
+      - DE德国_3
+      - FI芬兰
+      - FI芬兰_1
+      - FI芬兰_2
+      - FI芬兰_3
+      - FR法国
+      - FR法国_1
+      - FR法国_2
+      - FR法国_3
+      - FR法国_4
+      - FR法国_5
+      - FR法国_6
+      - FR法国_7
+      - FR法国_8
+      - FR法国_9
+      - FR法国_10
+      - FR法国_11
+      - FR法国_12
+      - FR法国_13
+      - FR法国_14
+      - FR法国_15
+      - FR法国_16
+      - FR法国_17
+      - FR法国_18
+      - FR法国_19
+      - FR法国_20
+      - FR法国_21
+      - FR法国_22
+      - FR法国_23
+      - GB英国
+      - HK香港
+      - HK香港_1
+      - HK香港_2
+      - HK香港_3
+      - HK香港_4
+      - HK香港_5
+      - HK香港_6
+      - HK香港_7
+      - HK香港_8
+      - HK香港_9
+      - HK香港_10
+      - HK香港_11
+      - HK香港_12
+      - HK香港_13
+      - HK香港_14
+      - HK香港_15
+      - HK香港_16
+      - HK香港_17
+      - IN印度
+      - JP日本
+      - KR韩国
+      - KR韩国_1
+      - KR韩国_2
+      - NL荷兰
+      - NL荷兰_1
+      - NL荷兰_2
+      - NL荷兰_3
+      - NL荷兰_4
+      - NL荷兰_5
+      - NL荷兰_6
+      - NL荷兰_7
+      - NL荷兰_8
+      - PL波兰
+      - PL波兰_1
+      - RU俄罗斯
+      - RU俄罗斯_1
+      - SG新加坡
+      - SG新加坡_1
+      - SG新加坡_2
+      - SG新加坡_3
+      - TW台湾
+      - US美国
+      - US美国_1
+      - US美国_2
+      - US美国_3
+      - US美国_4
+      - US美国_5
+      - US美国_6
+      - US美国_7
+      - US美国_8
+      - US美国_9
+      - US美国_10
+      - US美国_11
+      - US美国_12
+      - US美国_13
+      - US美国_14
+      - US美国_15
+      - US美国_16
+      - US美国_17
+      - US美国_18
+      - US美国_19
+      - US美国_20
+      - US美国_21
+      - US美国_22
+      - US美国_23
+      - US美国_24
+      - US美国_25
+      - US美国_26
+      - US美国_27
+      - US美国_28
+      - US美国_29
+      - US美国_30
+      - US美国_31
+      - US美国_32
+      - US美国_33
+      - US美国_34
+      - US美国_35
+      - US美国_36
+      - US美国_37
+      - US美国_38
+      - US美国_39
+      - US美国_40
+      - US美国_41
+      - US美国_42
+      - US美国_43
+      - US美国_44
+      - US美国_45
+      - US美国_46
+      - US美国_47
+      - US美国_48
+      - US美国_49
+      - US美国_50
+      - US美国_51
+      - US美国_52
+      - US美国_53
+      - US美国_54
+      - US美国_55
+      - US美国_56
+      - US美国_57
+      - US美国_58
+      - US美国_59
+      - US美国_60
+      - US美国_61
+      - US美国_62
+      - US美国_63
+      - US美国_64
+      - US美国_65
+      - US美国_66
+      - US美国_67
+      - US美国_68
+      - US美国_69
+      - US美国_70
+      - US美国_71
+      - US美国_72
+      - US美国_73
+      - US美国_74
+      - US美国_75
+      - US美国_76
+      - US美国_77
+      - US美国_78
+      - US美国_79
+      - US美国_80
+      - US美国_81
+      - US美国_82
+      - US美国_83
+      - US美国_84
+      - US美国_85
+      - US美国_86
+      - US美国_87
+      - US美国_88
+      - US美国_89
+      - US美国_90
+      - US美国_91
+      - US美国_92
+      - US美国_93
+      - US美国_94
+      - US美国_95
+      - US美国_96
+      - US美国_97
+      - US美国_98
+      - US美国_99
+      - US美国_100
+      - US美国_101
+      - US美国_102
+      - US美国_103
+      - US美国_104
+      - US美国_105
+      - US美国_106
+      - US美国_107
+      - US美国_108
+      - US美国_109
+      - US美国_110
+      - US美国_111
+      - US美国_112
+      - US美国_113
+      - US美国_114
+      - US美国_115
+      - US美国_116
+      - US美国_117
+      - US美国_118
+      - US美国_119
+      - US美国_120
+      - US美国_121
+      - US美国_122
+      - US美国_123
+      - US美国_124
+      - US美国_125
+      - US美国_126
+      - US美国_127
+      - US美国_128
+      - US美国_129
+      - US美国_130
+      - US美国_131
+      - US美国_132
+      - US美国_133
+      - US美国_134
+      - US美国_135
+      - US美国_136
+      - US美国_137
+      - US美国_138
+      - US美国_139
+      - US美国_140
+      - US美国_141
+      - US美国_142
+      - US美国_143
+      - US美国_144
+      - US美国_145
+      - US美国_146
+      - US美国_147
+      - US美国_148
+      - US美国_149
+      - US美国_150
+      - US美国_151
+      - US美国_152
+  - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - Proxy
-  - name: Reject
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-  - name: Final
+  - name: 🍃 应用净化
     type: select
     proxies:
-      - Proxy
+      - REJECT
       - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 爱沙尼亚
+      - 爱沙尼亚_1
+      - 爱沙尼亚_2
+      - 爱沙尼亚_3
+      - 爱沙尼亚_4
+      - 奥地利
+      - 保加利亚
+      - 保加利亚_1
+      - 比利时
+      - 捷克
+      - 瑞典
+      - 瑞士
+      - 塞浦路斯
+      - 塞浦路斯_1
+      - 塞浦路斯_2
+      - 土耳其
+      - AU澳大利亚
+      - AU澳大利亚_1
+      - AU澳大利亚_2
+      - AU澳大利亚_3
+      - AU澳大利亚_4
+      - AU澳大利亚_5
+      - AU澳大利亚_6
+      - AU澳大利亚_7
+      - AU澳大利亚_8
+      - AU澳大利亚_9
+      - AU澳大利亚_10
+      - CA加拿大
+      - CA加拿大_1
+      - CA加拿大_2
+      - CA加拿大_3
+      - CA加拿大_4
+      - CA加拿大_5
+      - CA加拿大_6
+      - CA加拿大_7
+      - CA加拿大_8
+      - CA加拿大_9
+      - CA加拿大_10
+      - CA加拿大_11
+      - CA加拿大_12
+      - CA加拿大_13
+      - CA加拿大_14
+      - CA加拿大_15
+      - CA加拿大_16
+      - DE德国
+      - DE德国_1
+      - DE德国_2
+      - DE德国_3
+      - FI芬兰
+      - FI芬兰_1
+      - FI芬兰_2
+      - FI芬兰_3
+      - FR法国
+      - FR法国_1
+      - FR法国_2
+      - FR法国_3
+      - FR法国_4
+      - FR法国_5
+      - FR法国_6
+      - FR法国_7
+      - FR法国_8
+      - FR法国_9
+      - FR法国_10
+      - FR法国_11
+      - FR法国_12
+      - FR法国_13
+      - FR法国_14
+      - FR法国_15
+      - FR法国_16
+      - FR法国_17
+      - FR法国_18
+      - FR法国_19
+      - FR法国_20
+      - FR法国_21
+      - FR法国_22
+      - FR法国_23
+      - GB英国
+      - HK香港
+      - HK香港_1
+      - HK香港_2
+      - HK香港_3
+      - HK香港_4
+      - HK香港_5
+      - HK香港_6
+      - HK香港_7
+      - HK香港_8
+      - HK香港_9
+      - HK香港_10
+      - HK香港_11
+      - HK香港_12
+      - HK香港_13
+      - HK香港_14
+      - HK香港_15
+      - HK香港_16
+      - HK香港_17
+      - IN印度
+      - JP日本
+      - KR韩国
+      - KR韩国_1
+      - KR韩国_2
+      - NL荷兰
+      - NL荷兰_1
+      - NL荷兰_2
+      - NL荷兰_3
+      - NL荷兰_4
+      - NL荷兰_5
+      - NL荷兰_6
+      - NL荷兰_7
+      - NL荷兰_8
+      - PL波兰
+      - PL波兰_1
+      - RU俄罗斯
+      - RU俄罗斯_1
+      - SG新加坡
+      - SG新加坡_1
+      - SG新加坡_2
+      - SG新加坡_3
+      - TW台湾
+      - US美国
+      - US美国_1
+      - US美国_2
+      - US美国_3
+      - US美国_4
+      - US美国_5
+      - US美国_6
+      - US美国_7
+      - US美国_8
+      - US美国_9
+      - US美国_10
+      - US美国_11
+      - US美国_12
+      - US美国_13
+      - US美国_14
+      - US美国_15
+      - US美国_16
+      - US美国_17
+      - US美国_18
+      - US美国_19
+      - US美国_20
+      - US美国_21
+      - US美国_22
+      - US美国_23
+      - US美国_24
+      - US美国_25
+      - US美国_26
+      - US美国_27
+      - US美国_28
+      - US美国_29
+      - US美国_30
+      - US美国_31
+      - US美国_32
+      - US美国_33
+      - US美国_34
+      - US美国_35
+      - US美国_36
+      - US美国_37
+      - US美国_38
+      - US美国_39
+      - US美国_40
+      - US美国_41
+      - US美国_42
+      - US美国_43
+      - US美国_44
+      - US美国_45
+      - US美国_46
+      - US美国_47
+      - US美国_48
+      - US美国_49
+      - US美国_50
+      - US美国_51
+      - US美国_52
+      - US美国_53
+      - US美国_54
+      - US美国_55
+      - US美国_56
+      - US美国_57
+      - US美国_58
+      - US美国_59
+      - US美国_60
+      - US美国_61
+      - US美国_62
+      - US美国_63
+      - US美国_64
+      - US美国_65
+      - US美国_66
+      - US美国_67
+      - US美国_68
+      - US美国_69
+      - US美国_70
+      - US美国_71
+      - US美国_72
+      - US美国_73
+      - US美国_74
+      - US美国_75
+      - US美国_76
+      - US美国_77
+      - US美国_78
+      - US美国_79
+      - US美国_80
+      - US美国_81
+      - US美国_82
+      - US美国_83
+      - US美国_84
+      - US美国_85
+      - US美国_86
+      - US美国_87
+      - US美国_88
+      - US美国_89
+      - US美国_90
+      - US美国_91
+      - US美国_92
+      - US美国_93
+      - US美国_94
+      - US美国_95
+      - US美国_96
+      - US美国_97
+      - US美国_98
+      - US美国_99
+      - US美国_100
+      - US美国_101
+      - US美国_102
+      - US美国_103
+      - US美国_104
+      - US美国_105
+      - US美国_106
+      - US美国_107
+      - US美国_108
+      - US美国_109
+      - US美国_110
+      - US美国_111
+      - US美国_112
+      - US美国_113
+      - US美国_114
+      - US美国_115
+      - US美国_116
+      - US美国_117
+      - US美国_118
+      - US美国_119
+      - US美国_120
+      - US美国_121
+      - US美国_122
+      - US美国_123
+      - US美国_124
+      - US美国_125
+      - US美国_126
+      - US美国_127
+      - US美国_128
+      - US美国_129
+      - US美国_130
+      - US美国_131
+      - US美国_132
+      - US美国_133
+      - US美国_134
+      - US美国_135
+      - US美国_136
+      - US美国_137
+      - US美国_138
+      - US美国_139
+      - US美国_140
+      - US美国_141
+      - US美国_142
+      - US美国_143
+      - US美国_144
+      - US美国_145
+      - US美国_146
+      - US美国_147
+      - US美国_148
+      - US美国_149
+      - US美国_150
+      - US美国_151
+      - US美国_152
 rule-providers:
+  LocalAreaNetwork:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/LocalAreaNetwork.list
+    path: ./rules/LocalAreaNetwork.yaml
   BanAD:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/BanAD.list
     path: ./rules/BanAD.yaml
+  BanProgramAD:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/BanProgramAD.list
+    path: ./rules/BanProgramAD.yaml
+  GoogleCN:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/GoogleCN.list
+    path: ./rules/GoogleCN.yaml
+  SteamCN:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/SteamCN.list
+    path: ./rules/SteamCN.yaml
+  Microsoft:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Microsoft.list
+    path: ./rules/Microsoft.yaml
+  Apple:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Apple.list
+    path: ./rules/Apple.yaml
+  ProxyMedia:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ProxyMedia.list
+    path: ./rules/ProxyMedia.yaml
+  Telegram:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Telegram.list
+    path: ./rules/Telegram.yaml
+  ProxyLite:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ProxyLite.list
+    path: ./rules/ProxyLite.yaml
   ChinaDomain:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ChinaDomain.list
     path: ./rules/ChinaDomain.yaml
+  ChinaCompanyIp:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ChinaCompanyIp.list
+    path: ./rules/ChinaCompanyIp.yaml
 rules:
-  - RULE-SET,BanAD,Reject
-  - RULE-SET,ChinaDomain,Direct
-  - GEOIP,CN,Direct
-  - MATCH,Final
+  - DOMAIN-SUFFIX,nodebuf.com,🚀 节点选择
+  - RULE-SET,LocalAreaNetwork,🎯 全球直连
+  - RULE-SET,BanAD,🛑 全球拦截
+  - RULE-SET,BanProgramAD,🍃 应用净化
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,SteamCN,🎯 全球直连
+  - RULE-SET,Microsoft,Ⓜ️ 微软服务
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,ProxyMedia,🌍 国外媒体
+  - RULE-SET,Telegram,📲 电报信息
+  - RULE-SET,ProxyLite,🚀 节点选择
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
