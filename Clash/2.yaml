@@ -9,242 +9,235 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: 🇺🇸 美国, server: 104.18.23.63, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国, server: 216.24.57.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇺🇸 美国 2, server: 104.18.23.63, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 3, server: 216.24.57.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 4, server: 104.18.23.63, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 3, server: 104.18.22.63, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇫🇷 法国, server: 216.24.57.1, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 4, server: render.com, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 5, server: 216.24.57.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇫🇷 法国 2, server: 216.24.57.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 6, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 7, server: render.com, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇫🇷 法国 3, server: render.com, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 8, server: 216.24.57.1, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇨🇦 加拿大, server: 104.18.22.63, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 5, server: 216.24.57.1, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇫🇷 法国, server: 216.24.57.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇫🇷 法国 2, server: 2001:bc8:32d7:1a9::2, port: 23388, type: vmess, uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999-newpac/fanqiang, headers: {Host: 2001:bc8:32d7:1a9::2}}, udp: true}
-  - {name: 🇺🇸 美国 6, server: 129.146.61.140, port: 50356, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: f5CmnDIA52E1QLRS/gZrLIA4iZqcdgh9kyvkCzaPjVs=, udp: true}
-  - {name: 🇺🇸 美国 7, server: 104.18.23.63, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 8, server: 104.18.23.63, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇫🇷 法国 3, server: 130.250.137.171, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇫🇷 法国 4, server: 216.24.57.1, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 9, server: 216.24.57.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 10, server: 216.24.57.1, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 11, server: 104.18.22.63, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 12, server: 216.24.57.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 13, server: 130.250.137.171, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 9, server: 104.18.23.63, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 10, server: 104.18.23.63, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 11, server: 104.18.23.63, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 12, server: 216.24.57.1, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇫🇷 法国 4, server: 130.250.137.171, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇫🇷 法国 5, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 13, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 14, server: 216.24.57.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇨🇦 加拿大 2, server: 104.18.22.63, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 14, server: 130.250.137.171, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 15, server: render.com, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇫🇷 法国 5, server: 2001:bc8:32d7:1a9::2, port: 23388, type: vmess, uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 2001:bc8:32d7:1a9::2, network: ws, ws-opts: {path: /github.com/Alvin9999-newpac/fanqiang, headers: {Host: 2001:bc8:32d7:1a9::2}}, udp: true}
-  - {name: 🇺🇸 美国 16, server: 129.146.5.37, port: 50356, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: MGz9U4B+bIMMsn4gnNU/2sKJ85zQtoXyP7DGzLzcro4=, udp: true}
-  - {name: 🇺🇸 美国 17, server: render.com, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇫🇷 法国 6, server: render.com, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 18, server: 104.17.111.4, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇨🇦 加拿大 3, server: 130.61.151.8, port: 59924, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: jsjRco4bpxjDpHTSx9qchaZhbzJtIRTREVFoIKkBJyw=, udp: true}
-  - {name: 🇺🇸 美国 19, server: 104.17.111.4, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 20, server: 104.17.111.3, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 21, server: 104.17.111.3, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇨🇦 加拿大 4, server: 130.61.233.63, port: 59924, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: mep9mzR3cG4vUy51p++Xst0L0p98TWYR38sAAFr3yJY=, udp: true}
-  - {name: 🇺🇸 美国 22, server: 104.17.111.3, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 15, server: 104.18.23.63, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 16, server: 130.250.137.171, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 17, server: 104.17.111.4, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 18, server: 104.17.111.3, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 19, server: 130.250.137.171, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 20, server: 104.17.111.1, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 21, server: 104.17.177.143, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 22, server: 176.97.66.175, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇺🇸 美国 23, server: 104.17.111.8, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 24, server: 104.17.177.143, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 24, server: 104.17.111.1, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇺🇸 美国 25, server: 104.17.177.143, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 26, server: 104.17.111.8, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 27, server: 104.17.177.143, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇬🇧 英国, server: 129.151.88.130, port: 61312, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: 5ljTnWzm9A1RAThzWld8FAvufR/42Nc/S8MDCgRMEM0=, udp: true}
-  - {name: 🇫🇷 法国 7, server: 104.17.111.4, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 28, server: 176.97.66.175, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 29, server: 176.97.66.175, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 30, server: www.speedtest.org, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 31, server: 104.18.152.113, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 32, server: 104.18.152.175, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 33, server: 104.16.174.44, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 26, server: 104.17.177.143, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 27, server: join-telegram-channel-tirexnet.trex.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 28, server: 104.17.111.4, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 29, server: 104.17.111.3, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇨🇦 加拿大 3, server: 104.17.111.8, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 30, server: join-telegram-channel-tirexnet.trex.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 31, server: 172.67.149.60, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 32, server: 104.18.152.140, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 33, server: 104.16.174.143, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 34, server: 104.18.152.108, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 35, server: 104.16.174.44, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 36, server: 104.17.111.8, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 37, server: 104.18.152.210, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇭🇰 香港, server: www.speedtest.org, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 34, server: join-telegram-channel-tirexnet.trex.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 35, server: join-telegram-channel.tirexnet.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 36, server: join-telegram-channel.tirexnet.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 37, server: 172.67.149.60, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 38, server: 198.41.223.96, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 39, server: 104.16.174.143, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 40, server: 104.18.152.77, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 41, server: 104.18.152.113, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 42, server: 104.16.174.46, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 43, server: 104.18.152.159, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 44, server: 104.18.152.144, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 45, server: 198.41.223.96, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 46, server: 104.18.152.155, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇨🇦 加拿大 5, server: 104.16.174.71, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 47, server: 104.18.152.219, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 48, server: join-telegram-channel-tirexnet.trex.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 49, server: 104.26.14.137, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 50, server: 104.18.152.246, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 51, server: ip.myip2.qzz.io, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 52, server: 104.16.174.37, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 53, server: 104.16.174.22, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: //assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 54, server: 104.18.152.244, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 55, server: 104.18.152.175, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 56, server: 104.18.152.246, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 57, server: 104.18.152.149, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 58, server: 104.18.152.225, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 59, server: 104.18.152.233, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 60, server: 104.16.174.121, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 61, server: 104.16.7.70, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 62, server: 104.20.6.134, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 63, server: 104.16.174.37, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 64, server: 104.18.152.140, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇭🇰 香港 2, server: 104.16.174.46, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 65, server: 104.18.152.207, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 66, server: 86.38.214.205, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 67, server: 104.16.174.72, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 68, server: 104.16.174.71, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 69, server: 104.16.174.6, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 70, server: 45.130.125.160, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 71, server: join-telegram-channel-tirexnet.trex.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇫🇷 法国 8, server: join-telegram-channel-tirexnet.trex.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 72, server: join-telegram-channel-tirexnet.trex.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 73, server: join-telegram-channel.tirexnet.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 38, server: 104.18.152.187, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 39, server: 104.18.152.149, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇫🇷 法国 6, server: 104.17.111.4, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 40, server: 104.18.152.159, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 41, server: ip.myip2.qzz.io, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 42, server: join-telegram-channel-tirexnet.trex.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 43, server: 104.18.152.143, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 44, server: 104.16.174.37, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 45, server: 104.16.174.46, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 46, server: join-telegram-channel.tirexnet.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇫🇷 法国 7, server: 104.16.174.124, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 47, server: 104.18.152.161, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 48, server: 104.17.111.3, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 49, server: 104.18.152.144, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 50, server: 104.16.174.117, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 51, server: 104.16.7.70, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 52, server: 104.20.6.134, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 53, server: 104.18.152.113, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 54, server: 172.67.149.60, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 55, server: 172.67.149.60, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 56, server: 104.18.152.210, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 57, server: 104.18.152.225, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 58, server: 104.18.12.149, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 59, server: join-telegram-channel.tirexnet.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 60, server: 104.16.174.37, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 61, server: www.ignitelimit.com, port: 443, type: trojan, password: humanity, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment}, udp: true}
+  - {name: 🇺🇸 美国 62, server: 104.16.73.213, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 63, server: 104.16.174.71, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 64, server: 104.18.152.133, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 65, server: 104.18.152.149, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 66, server: 104.20.6.134, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 67, server: 104.16.73.213, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 68, server: 104.18.152.244, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 69, server: 104.18.152.219, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇨🇦 加拿大 4, server: 104.18.152.73, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 70, server: 104.18.152.50, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 71, server: 104.18.152.208, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 72, server: 104.16.174.109, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 73, server: 104.18.152.207, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇺🇸 美国 74, server: 8.6.112.0, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 75, server: 104.18.152.152, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 76, server: 104.18.152.113, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 77, server: 104.18.152.175, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 78, server: 104.16.174.36, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 79, server: 104.18.152.179, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 80, server: 198.41.223.96, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇫🇷 法国 8, server: 45.130.125.160, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 81, server: 104.18.152.97, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 82, server: 104.16.174.34, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 83, server: 104.18.152.187, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇫🇷 法国 9, server: 104.16.174.124, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 75, server: 104.16.174.117, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇫🇷 法国 10, server: 45.130.125.160, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 76, server: 104.26.14.137, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 77, server: 104.26.15.137, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 78, server: 104.16.7.70, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 79, server: 104.16.174.36, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 80, server: 172.67.221.242, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 81, server: 104.18.152.113, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 82, server: 104.18.152.187, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 83, server: 104.18.152.97, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇨🇦 加拿大 6, server: 104.18.12.149, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇺🇸 美国 84, server: 104.18.152.204, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 85, server: 104.16.174.148, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 86, server: ip.myip2.qzz.io, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 87, server: 104.18.152.133, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 88, server: 104.18.152.144, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 89, server: 172.67.149.60, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 90, server: 104.18.152.175, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 91, server: 104.16.174.22, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: //assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 92, server: 104.16.174.44, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 93, server: 104.18.152.73, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 94, server: 104.18.12.149, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 95, server: 2.144.21.112, port: 40443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇫🇷 法国 11, server: www.ignitelimit.com, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 96, server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇫🇷 法国 12, server: 104.18.152.179, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 97, server: 104.16.174.12, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 98, server: 104.16.174.185, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 99, server: 104.26.15.137, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 100, server: 104.16.174.34, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 101, server: 104.18.152.233, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 102, server: 104.26.15.137, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 103, server: 104.18.152.233, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 104, server: 45.130.125.160, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 105, server: 104.18.152.97, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 106, server: 104.18.152.152, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 107, server: 104.18.12.149, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 108, server: 198.41.223.96, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 109, server: 104.16.174.117, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 110, server: 104.18.152.229, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 111, server: 104.18.152.152, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇫🇷 法国 13, server: 104.16.174.124, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 112, server: 104.16.174.22, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 113, server: 104.16.174.6, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 114, server: 104.18.152.149, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 115, server: 104.18.152.204, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 116, server: 104.18.152.50, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 117, server: 172.67.149.60, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 118, server: 104.16.174.46, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 119, server: 104.18.152.50, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 120, server: 104.18.152.133, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 121, server: 104.16.174.101, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 122, server: 104.16.174.143, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 123, server: ip.myip2.qzz.io, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 124, server: 172.67.74.2, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 125, server: 104.16.174.143, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 126, server: 104.16.174.124, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 127, server: 104.18.152.208, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 128, server: 104.20.6.134, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 129, server: 104.18.152.219, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 130, server: 104.18.152.143, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 131, server: 104.18.152.229, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 132, server: 104.18.152.155, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 133, server: 104.18.152.208, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 134, server: 104.16.174.44, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 135, server: 141.101.90.101, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 136, server: 104.18.152.103, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 137, server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 138, server: 104.18.152.108, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 139, server: 104.18.152.143, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 140, server: 104.18.152.187, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 141, server: 104.18.152.103, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 142, server: 104.16.174.72, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 143, server: 104.16.174.37, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 144, server: 86.38.214.205, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 145, server: 141.101.90.101, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 146, server: 104.16.174.71, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 147, server: 104.18.152.208, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 148, server: 104.16.73.213, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇨🇦 加拿大 7, server: 104.16.174.72, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 149, server: 104.18.152.179, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 150, server: 104.18.152.108, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 151, server: 104.16.174.109, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 152, server: 104.18.152.73, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 153, server: 141.101.90.101, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 154, server: 104.18.152.244, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 155, server: 104.16.73.213, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 156, server: www.speedtest.org, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇨🇦 加拿大 8, server: 104.16.174.117, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇨🇦 加拿大 9, server: 104.18.152.73, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 157, server: 104.18.152.229, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇫🇷 法国 14, server: 86.38.214.205, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 158, server: 104.18.152.187, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 85, server: 104.18.152.207, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 86, server: 104.16.174.22, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: //assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 87, server: 104.18.152.144, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 88, server: 104.18.152.233, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 89, server: 104.18.152.155, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 90, server: 104.16.174.22, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: //assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 91, server: 104.18.152.246, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 92, server: 104.26.14.137, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 93, server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 94, server: 104.18.152.113, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 95, server: 172.67.74.2, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 96, server: 104.16.174.143, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 97, server: 104.16.174.124, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 98, server: 104.18.152.144, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 99, server: 104.18.152.108, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 100, server: 104.16.174.121, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 101, server: 104.16.174.109, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 102, server: 104.26.14.137, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 103, server: 104.18.152.229, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 104, server: 104.26.15.137, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇫🇷 法国 10, server: 86.38.214.205, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 105, server: 104.18.152.225, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 106, server: 104.16.174.6, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 107, server: 104.16.174.148, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 108, server: 104.18.152.187, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 109, server: 86.38.214.205, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 110, server: 104.16.174.44, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇨🇦 加拿大 5, server: 104.16.174.117, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 111, server: 104.16.174.72, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 112, server: 104.16.174.14, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 113, server: 104.18.152.175, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 114, server: 104.18.152.175, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 115, server: 104.18.152.233, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 116, server: 104.18.152.77, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇫🇷 法国 11, server: 104.16.174.148, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇫🇷 法国 12, server: 104.19.229.21, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 117, server: 172.67.221.242, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 118, server: 104.16.174.121, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 119, server: 104.18.152.208, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 120, server: 104.16.174.121, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇨🇦 加拿大 6, server: 104.16.174.14, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 121, server: 198.41.223.96, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 122, server: 104.16.7.70, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 123, server: 104.18.152.152, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 124, server: 104.16.174.12, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 125, server: 104.18.152.50, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 126, server: 104.18.152.152, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 127, server: 104.26.15.137, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 128, server: 104.18.152.103, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 129, server: 104.18.152.103, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 130, server: 104.16.174.185, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇫🇷 法国 13, server: 104.21.46.3, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇨🇦 加拿大 7, server: 104.16.174.71, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 131, server: 104.16.174.44, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 132, server: join-telegram-channel.tirexnet.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇫🇷 法国 14, server: join-telegram-channel-tirexnet.trex.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 133, server: join-telegram-channel.tirexnet.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 134, server: 104.16.174.185, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 135, server: ip.myip2.qzz.io, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 136, server: 104.18.152.208, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 137, server: www.speedtest.org, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 138, server: www.speedtest.org, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 139, server: 104.18.152.159, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 140, server: 104.16.174.101, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 141, server: 104.18.152.210, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 142, server: 104.19.229.21, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 143, server: 45.130.125.160, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 144, server: 104.16.7.70, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 145, server: 104.18.152.103, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 146, server: 104.18.152.159, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 147, server: 104.16.174.34, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 148, server: 104.20.6.134, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 149, server: 104.18.152.108, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 150, server: 104.18.152.244, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 151, server: 104.18.152.225, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 152, server: 104.18.152.230, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 153, server: 104.18.152.230, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 154, server: 104.18.152.155, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 155, server: 8.6.112.0, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 156, server: 104.16.174.37, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 157, server: 104.16.174.22, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇭🇰 香港 2, server: 104.16.174.46, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 158, server: 86.38.214.205, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇺🇸 美国 159, server: 104.16.174.34, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 160, server: 104.21.46.3, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 161, server: 104.18.152.179, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 162, server: 104.18.152.159, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 163, server: 8.6.112.0, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 164, server: 104.16.174.148, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 165, server: 104.18.152.140, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 160, server: 104.16.174.148, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 161, server: 104.26.15.137, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 162, server: 104.16.174.12, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 163, server: 104.19.229.21, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 164, server: 104.21.46.3, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 165, server: 104.16.174.117, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 166, server: 104.18.152.140, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 167, server: 104.18.152.133, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 168, server: 104.16.174.101, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 169, server: 104.18.152.207, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 170, server: 172.67.74.2, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 171, server: 104.21.46.3, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇫🇷 法国 15, server: 104.18.152.179, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 172, server: 141.101.90.101, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 173, server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 174, server: 104.18.152.244, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 175, server: 104.16.174.143, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 176, server: 104.18.152.143, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 177, server: 104.18.152.229, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇷🇺 俄罗斯, server: 104.18.152.219, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 166, server: 172.67.221.242, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇫🇷 法国 15, server: 104.16.174.148, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 167, server: 104.18.152.210, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 168, server: 198.41.223.96, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 169, server: 104.18.152.210, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 170, server: 104.21.46.3, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 171, server: 104.18.152.161, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 172, server: 104.18.152.140, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 173, server: 104.16.73.213, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 174, server: 104.16.174.101, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 175, server: 104.18.152.225, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 176, server: 104.21.46.3, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 177, server: 104.18.152.97, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 178, server: 104.18.152.246, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 179, server: 104.16.174.14, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 180, server: 104.18.152.225, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 181, server: 8.6.112.0, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇫🇷 法国 16, server: 104.21.46.3, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 182, server: 2.144.21.112, port: 40443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 183, server: 104.18.152.144, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 184, server: 104.16.174.34, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 185, server: 2.144.21.112, port: 40443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 186, server: 104.18.152.108, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 187, server: 104.18.152.155, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 188, server: 104.18.152.207, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 189, server: 104.16.7.70, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 190, server: 104.16.174.22, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: //assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 191, server: www.ignitelimit.com, port: 443, type: trojan, password: humanity, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment}, udp: true}
-  - {name: 🇺🇸 美国 192, server: 104.18.152.50, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 193, server: www.ignitelimit.com, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 194, server: 104.18.152.159, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 195, server: 104.16.174.101, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 196, server: 104.18.152.210, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇨🇦 加拿大 10, server: 104.16.174.14, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 197, server: 104.16.174.14, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇨🇦 加拿大 11, server: 104.16.174.12, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 198, server: 104.18.152.103, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 199, server: 104.16.174.109, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 200, server: 104.18.152.143, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 201, server: 104.18.152.77, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 202, server: 104.16.174.12, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇨🇦 加拿大 8, server: 104.18.12.149, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 178, server: 198.41.223.96, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 179, server: 104.18.152.246, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 180, server: 104.16.174.22, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: //assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 181, server: 104.18.152.133, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 182, server: 104.18.12.149, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 183, server: 104.18.152.97, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 184, server: 141.101.90.101, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 185, server: 104.21.46.3, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 186, server: 141.101.90.101, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 187, server: join-telegram-channel-tirexnet.trex.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 188, server: www.ignitelimit.com, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 189, server: 104.19.229.21, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 190, server: 2.144.21.112, port: 40443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 191, server: 104.18.152.73, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 192, server: 104.18.152.179, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 193, server: 104.18.152.155, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 194, server: 104.18.152.233, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 195, server: 104.18.152.97, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 196, server: 2.144.21.112, port: 40443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 197, server: 172.67.221.242, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 198, server: 104.18.152.204, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 199, server: 2.144.21.112, port: 40443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 200, server: 104.16.174.72, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 201, server: 104.16.174.46, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 202, server: 104.16.174.101, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇺🇸 美国 203, server: 104.16.174.36, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 204, server: 104.18.152.207, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 205, server: 104.18.152.152, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -254,55 +247,52 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇨🇦 加拿大
-      - 🇺🇸 美国 5
       - 🇫🇷 法国
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
       - 🇫🇷 法国 2
       - 🇺🇸 美国 6
       - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
       - 🇫🇷 法国 3
-      - 🇫🇷 法国 4
+      - 🇺🇸 美国 8
+      - 🇨🇦 加拿大
       - 🇺🇸 美国 9
       - 🇺🇸 美国 10
       - 🇺🇸 美国 11
       - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇨🇦 加拿大 2
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
+      - 🇫🇷 法国 4
       - 🇫🇷 法国 5
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国 14
+      - 🇨🇦 加拿大 2
+      - 🇺🇸 美国 15
       - 🇺🇸 美国 16
       - 🇺🇸 美国 17
-      - 🇫🇷 法国 6
       - 🇺🇸 美国 18
-      - 🇨🇦 加拿大 3
       - 🇺🇸 美国 19
       - 🇺🇸 美国 20
       - 🇺🇸 美国 21
-      - 🇨🇦 加拿大 4
       - 🇺🇸 美国 22
       - 🇺🇸 美国 23
       - 🇺🇸 美国 24
       - 🇺🇸 美国 25
       - 🇺🇸 美国 26
       - 🇺🇸 美国 27
-      - 🇬🇧 英国
-      - 🇫🇷 法国 7
       - 🇺🇸 美国 28
       - 🇺🇸 美国 29
+      - 🇨🇦 加拿大 3
       - 🇺🇸 美国 30
       - 🇺🇸 美国 31
       - 🇺🇸 美国 32
       - 🇺🇸 美国 33
-      - 🇭🇰 香港
       - 🇺🇸 美国 34
       - 🇺🇸 美国 35
       - 🇺🇸 美国 36
       - 🇺🇸 美国 37
+      - 🇭🇰 香港
       - 🇺🇸 美国 38
       - 🇺🇸 美国 39
+      - 🇫🇷 法国 6
       - 🇺🇸 美国 40
       - 🇺🇸 美国 41
       - 🇺🇸 美国 42
@@ -310,7 +300,7 @@ proxy-groups:
       - 🇺🇸 美国 44
       - 🇺🇸 美国 45
       - 🇺🇸 美国 46
-      - 🇨🇦 加拿大 5
+      - 🇫🇷 法国 7
       - 🇺🇸 美国 47
       - 🇺🇸 美国 48
       - 🇺🇸 美国 49
@@ -329,30 +319,28 @@ proxy-groups:
       - 🇺🇸 美国 62
       - 🇺🇸 美国 63
       - 🇺🇸 美国 64
-      - 🇭🇰 香港 2
       - 🇺🇸 美国 65
       - 🇺🇸 美国 66
       - 🇺🇸 美国 67
       - 🇺🇸 美国 68
       - 🇺🇸 美国 69
+      - 🇨🇦 加拿大 4
       - 🇺🇸 美国 70
       - 🇺🇸 美国 71
-      - 🇫🇷 法国 8
       - 🇺🇸 美国 72
       - 🇺🇸 美国 73
       - 🇺🇸 美国 74
-      - 🇫🇷 法国 9
       - 🇺🇸 美国 75
-      - 🇫🇷 法国 10
       - 🇺🇸 美国 76
       - 🇺🇸 美国 77
       - 🇺🇸 美国 78
       - 🇺🇸 美国 79
       - 🇺🇸 美国 80
+      - 🇫🇷 法国 8
       - 🇺🇸 美国 81
       - 🇺🇸 美国 82
       - 🇺🇸 美国 83
-      - 🇨🇦 加拿大 6
+      - 🇫🇷 法国 9
       - 🇺🇸 美国 84
       - 🇺🇸 美国 85
       - 🇺🇸 美国 86
@@ -365,9 +353,7 @@ proxy-groups:
       - 🇺🇸 美国 93
       - 🇺🇸 美国 94
       - 🇺🇸 美国 95
-      - 🇫🇷 法国 11
       - 🇺🇸 美国 96
-      - 🇫🇷 法国 12
       - 🇺🇸 美国 97
       - 🇺🇸 美国 98
       - 🇺🇸 美国 99
@@ -376,23 +362,27 @@ proxy-groups:
       - 🇺🇸 美国 102
       - 🇺🇸 美国 103
       - 🇺🇸 美国 104
+      - 🇫🇷 法国 10
       - 🇺🇸 美国 105
       - 🇺🇸 美国 106
       - 🇺🇸 美国 107
       - 🇺🇸 美国 108
       - 🇺🇸 美国 109
       - 🇺🇸 美国 110
+      - 🇨🇦 加拿大 5
       - 🇺🇸 美国 111
-      - 🇫🇷 法国 13
       - 🇺🇸 美国 112
       - 🇺🇸 美国 113
       - 🇺🇸 美国 114
       - 🇺🇸 美国 115
       - 🇺🇸 美国 116
+      - 🇫🇷 法国 11
+      - 🇫🇷 法国 12
       - 🇺🇸 美国 117
       - 🇺🇸 美国 118
       - 🇺🇸 美国 119
       - 🇺🇸 美国 120
+      - 🇨🇦 加拿大 6
       - 🇺🇸 美国 121
       - 🇺🇸 美国 122
       - 🇺🇸 美国 123
@@ -403,8 +393,11 @@ proxy-groups:
       - 🇺🇸 美国 128
       - 🇺🇸 美国 129
       - 🇺🇸 美国 130
+      - 🇫🇷 法国 13
+      - 🇨🇦 加拿大 7
       - 🇺🇸 美国 131
       - 🇺🇸 美国 132
+      - 🇫🇷 法国 14
       - 🇺🇸 美国 133
       - 🇺🇸 美国 134
       - 🇺🇸 美国 135
@@ -421,7 +414,6 @@ proxy-groups:
       - 🇺🇸 美国 146
       - 🇺🇸 美国 147
       - 🇺🇸 美国 148
-      - 🇨🇦 加拿大 7
       - 🇺🇸 美国 149
       - 🇺🇸 美国 150
       - 🇺🇸 美国 151
@@ -430,10 +422,8 @@ proxy-groups:
       - 🇺🇸 美国 154
       - 🇺🇸 美国 155
       - 🇺🇸 美国 156
-      - 🇨🇦 加拿大 8
-      - 🇨🇦 加拿大 9
       - 🇺🇸 美国 157
-      - 🇫🇷 法国 14
+      - 🇭🇰 香港 2
       - 🇺🇸 美国 158
       - 🇺🇸 美国 159
       - 🇺🇸 美国 160
@@ -442,25 +432,25 @@ proxy-groups:
       - 🇺🇸 美国 163
       - 🇺🇸 美国 164
       - 🇺🇸 美国 165
-      - 🇷🇺 俄罗斯
       - 🇺🇸 美国 166
-      - 🇫🇷 法国 15
       - 🇺🇸 美国 167
       - 🇺🇸 美国 168
       - 🇺🇸 美国 169
       - 🇺🇸 美国 170
       - 🇺🇸 美国 171
+      - 🇫🇷 法国 15
       - 🇺🇸 美国 172
       - 🇺🇸 美国 173
       - 🇺🇸 美国 174
       - 🇺🇸 美国 175
       - 🇺🇸 美国 176
       - 🇺🇸 美国 177
+      - 🇷🇺 俄罗斯
+      - 🇨🇦 加拿大 8
       - 🇺🇸 美国 178
       - 🇺🇸 美国 179
       - 🇺🇸 美国 180
       - 🇺🇸 美国 181
-      - 🇫🇷 法国 16
       - 🇺🇸 美国 182
       - 🇺🇸 美国 183
       - 🇺🇸 美国 184
@@ -476,17 +466,13 @@ proxy-groups:
       - 🇺🇸 美国 194
       - 🇺🇸 美国 195
       - 🇺🇸 美国 196
-      - 🇨🇦 加拿大 10
       - 🇺🇸 美国 197
-      - 🇨🇦 加拿大 11
       - 🇺🇸 美国 198
       - 🇺🇸 美国 199
       - 🇺🇸 美国 200
       - 🇺🇸 美国 201
       - 🇺🇸 美国 202
       - 🇺🇸 美国 203
-      - 🇺🇸 美国 204
-      - 🇺🇸 美国 205
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -496,55 +482,52 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇨🇦 加拿大
-      - 🇺🇸 美国 5
       - 🇫🇷 法国
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
       - 🇫🇷 法国 2
       - 🇺🇸 美国 6
       - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
       - 🇫🇷 法国 3
-      - 🇫🇷 法国 4
+      - 🇺🇸 美国 8
+      - 🇨🇦 加拿大
       - 🇺🇸 美国 9
       - 🇺🇸 美国 10
       - 🇺🇸 美国 11
       - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇨🇦 加拿大 2
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
+      - 🇫🇷 法国 4
       - 🇫🇷 法国 5
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国 14
+      - 🇨🇦 加拿大 2
+      - 🇺🇸 美国 15
       - 🇺🇸 美国 16
       - 🇺🇸 美国 17
-      - 🇫🇷 法国 6
       - 🇺🇸 美国 18
-      - 🇨🇦 加拿大 3
       - 🇺🇸 美国 19
       - 🇺🇸 美国 20
       - 🇺🇸 美国 21
-      - 🇨🇦 加拿大 4
       - 🇺🇸 美国 22
       - 🇺🇸 美国 23
       - 🇺🇸 美国 24
       - 🇺🇸 美国 25
       - 🇺🇸 美国 26
       - 🇺🇸 美国 27
-      - 🇬🇧 英国
-      - 🇫🇷 法国 7
       - 🇺🇸 美国 28
       - 🇺🇸 美国 29
+      - 🇨🇦 加拿大 3
       - 🇺🇸 美国 30
       - 🇺🇸 美国 31
       - 🇺🇸 美国 32
       - 🇺🇸 美国 33
-      - 🇭🇰 香港
       - 🇺🇸 美国 34
       - 🇺🇸 美国 35
       - 🇺🇸 美国 36
       - 🇺🇸 美国 37
+      - 🇭🇰 香港
       - 🇺🇸 美国 38
       - 🇺🇸 美国 39
+      - 🇫🇷 法国 6
       - 🇺🇸 美国 40
       - 🇺🇸 美国 41
       - 🇺🇸 美国 42
@@ -552,7 +535,7 @@ proxy-groups:
       - 🇺🇸 美国 44
       - 🇺🇸 美国 45
       - 🇺🇸 美国 46
-      - 🇨🇦 加拿大 5
+      - 🇫🇷 法国 7
       - 🇺🇸 美国 47
       - 🇺🇸 美国 48
       - 🇺🇸 美国 49
@@ -571,30 +554,28 @@ proxy-groups:
       - 🇺🇸 美国 62
       - 🇺🇸 美国 63
       - 🇺🇸 美国 64
-      - 🇭🇰 香港 2
       - 🇺🇸 美国 65
       - 🇺🇸 美国 66
       - 🇺🇸 美国 67
       - 🇺🇸 美国 68
       - 🇺🇸 美国 69
+      - 🇨🇦 加拿大 4
       - 🇺🇸 美国 70
       - 🇺🇸 美国 71
-      - 🇫🇷 法国 8
       - 🇺🇸 美国 72
       - 🇺🇸 美国 73
       - 🇺🇸 美国 74
-      - 🇫🇷 法国 9
       - 🇺🇸 美国 75
-      - 🇫🇷 法国 10
       - 🇺🇸 美国 76
       - 🇺🇸 美国 77
       - 🇺🇸 美国 78
       - 🇺🇸 美国 79
       - 🇺🇸 美国 80
+      - 🇫🇷 法国 8
       - 🇺🇸 美国 81
       - 🇺🇸 美国 82
       - 🇺🇸 美国 83
-      - 🇨🇦 加拿大 6
+      - 🇫🇷 法国 9
       - 🇺🇸 美国 84
       - 🇺🇸 美国 85
       - 🇺🇸 美国 86
@@ -607,9 +588,7 @@ proxy-groups:
       - 🇺🇸 美国 93
       - 🇺🇸 美国 94
       - 🇺🇸 美国 95
-      - 🇫🇷 法国 11
       - 🇺🇸 美国 96
-      - 🇫🇷 法国 12
       - 🇺🇸 美国 97
       - 🇺🇸 美国 98
       - 🇺🇸 美国 99
@@ -618,23 +597,27 @@ proxy-groups:
       - 🇺🇸 美国 102
       - 🇺🇸 美国 103
       - 🇺🇸 美国 104
+      - 🇫🇷 法国 10
       - 🇺🇸 美国 105
       - 🇺🇸 美国 106
       - 🇺🇸 美国 107
       - 🇺🇸 美国 108
       - 🇺🇸 美国 109
       - 🇺🇸 美国 110
+      - 🇨🇦 加拿大 5
       - 🇺🇸 美国 111
-      - 🇫🇷 法国 13
       - 🇺🇸 美国 112
       - 🇺🇸 美国 113
       - 🇺🇸 美国 114
       - 🇺🇸 美国 115
       - 🇺🇸 美国 116
+      - 🇫🇷 法国 11
+      - 🇫🇷 法国 12
       - 🇺🇸 美国 117
       - 🇺🇸 美国 118
       - 🇺🇸 美国 119
       - 🇺🇸 美国 120
+      - 🇨🇦 加拿大 6
       - 🇺🇸 美国 121
       - 🇺🇸 美国 122
       - 🇺🇸 美国 123
@@ -645,8 +628,11 @@ proxy-groups:
       - 🇺🇸 美国 128
       - 🇺🇸 美国 129
       - 🇺🇸 美国 130
+      - 🇫🇷 法国 13
+      - 🇨🇦 加拿大 7
       - 🇺🇸 美国 131
       - 🇺🇸 美国 132
+      - 🇫🇷 法国 14
       - 🇺🇸 美国 133
       - 🇺🇸 美国 134
       - 🇺🇸 美国 135
@@ -663,7 +649,6 @@ proxy-groups:
       - 🇺🇸 美国 146
       - 🇺🇸 美国 147
       - 🇺🇸 美国 148
-      - 🇨🇦 加拿大 7
       - 🇺🇸 美国 149
       - 🇺🇸 美国 150
       - 🇺🇸 美国 151
@@ -672,10 +657,8 @@ proxy-groups:
       - 🇺🇸 美国 154
       - 🇺🇸 美国 155
       - 🇺🇸 美国 156
-      - 🇨🇦 加拿大 8
-      - 🇨🇦 加拿大 9
       - 🇺🇸 美国 157
-      - 🇫🇷 法国 14
+      - 🇭🇰 香港 2
       - 🇺🇸 美国 158
       - 🇺🇸 美国 159
       - 🇺🇸 美国 160
@@ -684,25 +667,25 @@ proxy-groups:
       - 🇺🇸 美国 163
       - 🇺🇸 美国 164
       - 🇺🇸 美国 165
-      - 🇷🇺 俄罗斯
       - 🇺🇸 美国 166
-      - 🇫🇷 法国 15
       - 🇺🇸 美国 167
       - 🇺🇸 美国 168
       - 🇺🇸 美国 169
       - 🇺🇸 美国 170
       - 🇺🇸 美国 171
+      - 🇫🇷 法国 15
       - 🇺🇸 美国 172
       - 🇺🇸 美国 173
       - 🇺🇸 美国 174
       - 🇺🇸 美国 175
       - 🇺🇸 美国 176
       - 🇺🇸 美国 177
+      - 🇷🇺 俄罗斯
+      - 🇨🇦 加拿大 8
       - 🇺🇸 美国 178
       - 🇺🇸 美国 179
       - 🇺🇸 美国 180
       - 🇺🇸 美国 181
-      - 🇫🇷 法国 16
       - 🇺🇸 美国 182
       - 🇺🇸 美国 183
       - 🇺🇸 美国 184
@@ -718,17 +701,13 @@ proxy-groups:
       - 🇺🇸 美国 194
       - 🇺🇸 美国 195
       - 🇺🇸 美国 196
-      - 🇨🇦 加拿大 10
       - 🇺🇸 美国 197
-      - 🇨🇦 加拿大 11
       - 🇺🇸 美国 198
       - 🇺🇸 美国 199
       - 🇺🇸 美国 200
       - 🇺🇸 美国 201
       - 🇺🇸 美国 202
       - 🇺🇸 美国 203
-      - 🇺🇸 美国 204
-      - 🇺🇸 美国 205
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -738,55 +717,52 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇨🇦 加拿大
-      - 🇺🇸 美国 5
       - 🇫🇷 法国
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
       - 🇫🇷 法国 2
       - 🇺🇸 美国 6
       - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
       - 🇫🇷 法国 3
-      - 🇫🇷 法国 4
+      - 🇺🇸 美国 8
+      - 🇨🇦 加拿大
       - 🇺🇸 美国 9
       - 🇺🇸 美国 10
       - 🇺🇸 美国 11
       - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇨🇦 加拿大 2
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
+      - 🇫🇷 法国 4
       - 🇫🇷 法国 5
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国 14
+      - 🇨🇦 加拿大 2
+      - 🇺🇸 美国 15
       - 🇺🇸 美国 16
       - 🇺🇸 美国 17
-      - 🇫🇷 法国 6
       - 🇺🇸 美国 18
-      - 🇨🇦 加拿大 3
       - 🇺🇸 美国 19
       - 🇺🇸 美国 20
       - 🇺🇸 美国 21
-      - 🇨🇦 加拿大 4
       - 🇺🇸 美国 22
       - 🇺🇸 美国 23
       - 🇺🇸 美国 24
       - 🇺🇸 美国 25
       - 🇺🇸 美国 26
       - 🇺🇸 美国 27
-      - 🇬🇧 英国
-      - 🇫🇷 法国 7
       - 🇺🇸 美国 28
       - 🇺🇸 美国 29
+      - 🇨🇦 加拿大 3
       - 🇺🇸 美国 30
       - 🇺🇸 美国 31
       - 🇺🇸 美国 32
       - 🇺🇸 美国 33
-      - 🇭🇰 香港
       - 🇺🇸 美国 34
       - 🇺🇸 美国 35
       - 🇺🇸 美国 36
       - 🇺🇸 美国 37
+      - 🇭🇰 香港
       - 🇺🇸 美国 38
       - 🇺🇸 美国 39
+      - 🇫🇷 法国 6
       - 🇺🇸 美国 40
       - 🇺🇸 美国 41
       - 🇺🇸 美国 42
@@ -794,7 +770,7 @@ proxy-groups:
       - 🇺🇸 美国 44
       - 🇺🇸 美国 45
       - 🇺🇸 美国 46
-      - 🇨🇦 加拿大 5
+      - 🇫🇷 法国 7
       - 🇺🇸 美国 47
       - 🇺🇸 美国 48
       - 🇺🇸 美国 49
@@ -813,30 +789,28 @@ proxy-groups:
       - 🇺🇸 美国 62
       - 🇺🇸 美国 63
       - 🇺🇸 美国 64
-      - 🇭🇰 香港 2
       - 🇺🇸 美国 65
       - 🇺🇸 美国 66
       - 🇺🇸 美国 67
       - 🇺🇸 美国 68
       - 🇺🇸 美国 69
+      - 🇨🇦 加拿大 4
       - 🇺🇸 美国 70
       - 🇺🇸 美国 71
-      - 🇫🇷 法国 8
       - 🇺🇸 美国 72
       - 🇺🇸 美国 73
       - 🇺🇸 美国 74
-      - 🇫🇷 法国 9
       - 🇺🇸 美国 75
-      - 🇫🇷 法国 10
       - 🇺🇸 美国 76
       - 🇺🇸 美国 77
       - 🇺🇸 美国 78
       - 🇺🇸 美国 79
       - 🇺🇸 美国 80
+      - 🇫🇷 法国 8
       - 🇺🇸 美国 81
       - 🇺🇸 美国 82
       - 🇺🇸 美国 83
-      - 🇨🇦 加拿大 6
+      - 🇫🇷 法国 9
       - 🇺🇸 美国 84
       - 🇺🇸 美国 85
       - 🇺🇸 美国 86
@@ -849,9 +823,7 @@ proxy-groups:
       - 🇺🇸 美国 93
       - 🇺🇸 美国 94
       - 🇺🇸 美国 95
-      - 🇫🇷 法国 11
       - 🇺🇸 美国 96
-      - 🇫🇷 法国 12
       - 🇺🇸 美国 97
       - 🇺🇸 美国 98
       - 🇺🇸 美国 99
@@ -860,23 +832,27 @@ proxy-groups:
       - 🇺🇸 美国 102
       - 🇺🇸 美国 103
       - 🇺🇸 美国 104
+      - 🇫🇷 法国 10
       - 🇺🇸 美国 105
       - 🇺🇸 美国 106
       - 🇺🇸 美国 107
       - 🇺🇸 美国 108
       - 🇺🇸 美国 109
       - 🇺🇸 美国 110
+      - 🇨🇦 加拿大 5
       - 🇺🇸 美国 111
-      - 🇫🇷 法国 13
       - 🇺🇸 美国 112
       - 🇺🇸 美国 113
       - 🇺🇸 美国 114
       - 🇺🇸 美国 115
       - 🇺🇸 美国 116
+      - 🇫🇷 法国 11
+      - 🇫🇷 法国 12
       - 🇺🇸 美国 117
       - 🇺🇸 美国 118
       - 🇺🇸 美国 119
       - 🇺🇸 美国 120
+      - 🇨🇦 加拿大 6
       - 🇺🇸 美国 121
       - 🇺🇸 美国 122
       - 🇺🇸 美国 123
@@ -887,8 +863,11 @@ proxy-groups:
       - 🇺🇸 美国 128
       - 🇺🇸 美国 129
       - 🇺🇸 美国 130
+      - 🇫🇷 法国 13
+      - 🇨🇦 加拿大 7
       - 🇺🇸 美国 131
       - 🇺🇸 美国 132
+      - 🇫🇷 法国 14
       - 🇺🇸 美国 133
       - 🇺🇸 美国 134
       - 🇺🇸 美国 135
@@ -905,7 +884,6 @@ proxy-groups:
       - 🇺🇸 美国 146
       - 🇺🇸 美国 147
       - 🇺🇸 美国 148
-      - 🇨🇦 加拿大 7
       - 🇺🇸 美国 149
       - 🇺🇸 美国 150
       - 🇺🇸 美国 151
@@ -914,10 +892,8 @@ proxy-groups:
       - 🇺🇸 美国 154
       - 🇺🇸 美国 155
       - 🇺🇸 美国 156
-      - 🇨🇦 加拿大 8
-      - 🇨🇦 加拿大 9
       - 🇺🇸 美国 157
-      - 🇫🇷 法国 14
+      - 🇭🇰 香港 2
       - 🇺🇸 美国 158
       - 🇺🇸 美国 159
       - 🇺🇸 美国 160
@@ -926,25 +902,25 @@ proxy-groups:
       - 🇺🇸 美国 163
       - 🇺🇸 美国 164
       - 🇺🇸 美国 165
-      - 🇷🇺 俄罗斯
       - 🇺🇸 美国 166
-      - 🇫🇷 法国 15
       - 🇺🇸 美国 167
       - 🇺🇸 美国 168
       - 🇺🇸 美国 169
       - 🇺🇸 美国 170
       - 🇺🇸 美国 171
+      - 🇫🇷 法国 15
       - 🇺🇸 美国 172
       - 🇺🇸 美国 173
       - 🇺🇸 美国 174
       - 🇺🇸 美国 175
       - 🇺🇸 美国 176
       - 🇺🇸 美国 177
+      - 🇷🇺 俄罗斯
+      - 🇨🇦 加拿大 8
       - 🇺🇸 美国 178
       - 🇺🇸 美国 179
       - 🇺🇸 美国 180
       - 🇺🇸 美国 181
-      - 🇫🇷 法国 16
       - 🇺🇸 美国 182
       - 🇺🇸 美国 183
       - 🇺🇸 美国 184
@@ -960,17 +936,13 @@ proxy-groups:
       - 🇺🇸 美国 194
       - 🇺🇸 美国 195
       - 🇺🇸 美国 196
-      - 🇨🇦 加拿大 10
       - 🇺🇸 美国 197
-      - 🇨🇦 加拿大 11
       - 🇺🇸 美国 198
       - 🇺🇸 美国 199
       - 🇺🇸 美国 200
       - 🇺🇸 美国 201
       - 🇺🇸 美国 202
       - 🇺🇸 美国 203
-      - 🇺🇸 美国 204
-      - 🇺🇸 美国 205
   - name: 📲 电报信息
     type: select
     proxies:
@@ -979,55 +951,52 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇨🇦 加拿大
-      - 🇺🇸 美国 5
       - 🇫🇷 法国
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
       - 🇫🇷 法国 2
       - 🇺🇸 美国 6
       - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
       - 🇫🇷 法国 3
-      - 🇫🇷 法国 4
+      - 🇺🇸 美国 8
+      - 🇨🇦 加拿大
       - 🇺🇸 美国 9
       - 🇺🇸 美国 10
       - 🇺🇸 美国 11
       - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇨🇦 加拿大 2
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
+      - 🇫🇷 法国 4
       - 🇫🇷 法国 5
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国 14
+      - 🇨🇦 加拿大 2
+      - 🇺🇸 美国 15
       - 🇺🇸 美国 16
       - 🇺🇸 美国 17
-      - 🇫🇷 法国 6
       - 🇺🇸 美国 18
-      - 🇨🇦 加拿大 3
       - 🇺🇸 美国 19
       - 🇺🇸 美国 20
       - 🇺🇸 美国 21
-      - 🇨🇦 加拿大 4
       - 🇺🇸 美国 22
       - 🇺🇸 美国 23
       - 🇺🇸 美国 24
       - 🇺🇸 美国 25
       - 🇺🇸 美国 26
       - 🇺🇸 美国 27
-      - 🇬🇧 英国
-      - 🇫🇷 法国 7
       - 🇺🇸 美国 28
       - 🇺🇸 美国 29
+      - 🇨🇦 加拿大 3
       - 🇺🇸 美国 30
       - 🇺🇸 美国 31
       - 🇺🇸 美国 32
       - 🇺🇸 美国 33
-      - 🇭🇰 香港
       - 🇺🇸 美国 34
       - 🇺🇸 美国 35
       - 🇺🇸 美国 36
       - 🇺🇸 美国 37
+      - 🇭🇰 香港
       - 🇺🇸 美国 38
       - 🇺🇸 美国 39
+      - 🇫🇷 法国 6
       - 🇺🇸 美国 40
       - 🇺🇸 美国 41
       - 🇺🇸 美国 42
@@ -1035,7 +1004,7 @@ proxy-groups:
       - 🇺🇸 美国 44
       - 🇺🇸 美国 45
       - 🇺🇸 美国 46
-      - 🇨🇦 加拿大 5
+      - 🇫🇷 法国 7
       - 🇺🇸 美国 47
       - 🇺🇸 美国 48
       - 🇺🇸 美国 49
@@ -1054,30 +1023,28 @@ proxy-groups:
       - 🇺🇸 美国 62
       - 🇺🇸 美国 63
       - 🇺🇸 美国 64
-      - 🇭🇰 香港 2
       - 🇺🇸 美国 65
       - 🇺🇸 美国 66
       - 🇺🇸 美国 67
       - 🇺🇸 美国 68
       - 🇺🇸 美国 69
+      - 🇨🇦 加拿大 4
       - 🇺🇸 美国 70
       - 🇺🇸 美国 71
-      - 🇫🇷 法国 8
       - 🇺🇸 美国 72
       - 🇺🇸 美国 73
       - 🇺🇸 美国 74
-      - 🇫🇷 法国 9
       - 🇺🇸 美国 75
-      - 🇫🇷 法国 10
       - 🇺🇸 美国 76
       - 🇺🇸 美国 77
       - 🇺🇸 美国 78
       - 🇺🇸 美国 79
       - 🇺🇸 美国 80
+      - 🇫🇷 法国 8
       - 🇺🇸 美国 81
       - 🇺🇸 美国 82
       - 🇺🇸 美国 83
-      - 🇨🇦 加拿大 6
+      - 🇫🇷 法国 9
       - 🇺🇸 美国 84
       - 🇺🇸 美国 85
       - 🇺🇸 美国 86
@@ -1090,9 +1057,7 @@ proxy-groups:
       - 🇺🇸 美国 93
       - 🇺🇸 美国 94
       - 🇺🇸 美国 95
-      - 🇫🇷 法国 11
       - 🇺🇸 美国 96
-      - 🇫🇷 法国 12
       - 🇺🇸 美国 97
       - 🇺🇸 美国 98
       - 🇺🇸 美国 99
@@ -1101,23 +1066,27 @@ proxy-groups:
       - 🇺🇸 美国 102
       - 🇺🇸 美国 103
       - 🇺🇸 美国 104
+      - 🇫🇷 法国 10
       - 🇺🇸 美国 105
       - 🇺🇸 美国 106
       - 🇺🇸 美国 107
       - 🇺🇸 美国 108
       - 🇺🇸 美国 109
       - 🇺🇸 美国 110
+      - 🇨🇦 加拿大 5
       - 🇺🇸 美国 111
-      - 🇫🇷 法国 13
       - 🇺🇸 美国 112
       - 🇺🇸 美国 113
       - 🇺🇸 美国 114
       - 🇺🇸 美国 115
       - 🇺🇸 美国 116
+      - 🇫🇷 法国 11
+      - 🇫🇷 法国 12
       - 🇺🇸 美国 117
       - 🇺🇸 美国 118
       - 🇺🇸 美国 119
       - 🇺🇸 美国 120
+      - 🇨🇦 加拿大 6
       - 🇺🇸 美国 121
       - 🇺🇸 美国 122
       - 🇺🇸 美国 123
@@ -1128,8 +1097,11 @@ proxy-groups:
       - 🇺🇸 美国 128
       - 🇺🇸 美国 129
       - 🇺🇸 美国 130
+      - 🇫🇷 法国 13
+      - 🇨🇦 加拿大 7
       - 🇺🇸 美国 131
       - 🇺🇸 美国 132
+      - 🇫🇷 法国 14
       - 🇺🇸 美国 133
       - 🇺🇸 美国 134
       - 🇺🇸 美国 135
@@ -1146,7 +1118,6 @@ proxy-groups:
       - 🇺🇸 美国 146
       - 🇺🇸 美国 147
       - 🇺🇸 美国 148
-      - 🇨🇦 加拿大 7
       - 🇺🇸 美国 149
       - 🇺🇸 美国 150
       - 🇺🇸 美国 151
@@ -1155,10 +1126,8 @@ proxy-groups:
       - 🇺🇸 美国 154
       - 🇺🇸 美国 155
       - 🇺🇸 美国 156
-      - 🇨🇦 加拿大 8
-      - 🇨🇦 加拿大 9
       - 🇺🇸 美国 157
-      - 🇫🇷 法国 14
+      - 🇭🇰 香港 2
       - 🇺🇸 美国 158
       - 🇺🇸 美国 159
       - 🇺🇸 美国 160
@@ -1167,25 +1136,25 @@ proxy-groups:
       - 🇺🇸 美国 163
       - 🇺🇸 美国 164
       - 🇺🇸 美国 165
-      - 🇷🇺 俄罗斯
       - 🇺🇸 美国 166
-      - 🇫🇷 法国 15
       - 🇺🇸 美国 167
       - 🇺🇸 美国 168
       - 🇺🇸 美国 169
       - 🇺🇸 美国 170
       - 🇺🇸 美国 171
+      - 🇫🇷 法国 15
       - 🇺🇸 美国 172
       - 🇺🇸 美国 173
       - 🇺🇸 美国 174
       - 🇺🇸 美国 175
       - 🇺🇸 美国 176
       - 🇺🇸 美国 177
+      - 🇷🇺 俄罗斯
+      - 🇨🇦 加拿大 8
       - 🇺🇸 美国 178
       - 🇺🇸 美国 179
       - 🇺🇸 美国 180
       - 🇺🇸 美国 181
-      - 🇫🇷 法国 16
       - 🇺🇸 美国 182
       - 🇺🇸 美国 183
       - 🇺🇸 美国 184
@@ -1201,17 +1170,13 @@ proxy-groups:
       - 🇺🇸 美国 194
       - 🇺🇸 美国 195
       - 🇺🇸 美国 196
-      - 🇨🇦 加拿大 10
       - 🇺🇸 美国 197
-      - 🇨🇦 加拿大 11
       - 🇺🇸 美国 198
       - 🇺🇸 美国 199
       - 🇺🇸 美国 200
       - 🇺🇸 美国 201
       - 🇺🇸 美国 202
       - 🇺🇸 美国 203
-      - 🇺🇸 美国 204
-      - 🇺🇸 美国 205
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -1220,55 +1185,52 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇨🇦 加拿大
-      - 🇺🇸 美国 5
       - 🇫🇷 法国
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
       - 🇫🇷 法国 2
       - 🇺🇸 美国 6
       - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
       - 🇫🇷 法国 3
-      - 🇫🇷 法国 4
+      - 🇺🇸 美国 8
+      - 🇨🇦 加拿大
       - 🇺🇸 美国 9
       - 🇺🇸 美国 10
       - 🇺🇸 美国 11
       - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇨🇦 加拿大 2
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
+      - 🇫🇷 法国 4
       - 🇫🇷 法国 5
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国 14
+      - 🇨🇦 加拿大 2
+      - 🇺🇸 美国 15
       - 🇺🇸 美国 16
       - 🇺🇸 美国 17
-      - 🇫🇷 法国 6
       - 🇺🇸 美国 18
-      - 🇨🇦 加拿大 3
       - 🇺🇸 美国 19
       - 🇺🇸 美国 20
       - 🇺🇸 美国 21
-      - 🇨🇦 加拿大 4
       - 🇺🇸 美国 22
       - 🇺🇸 美国 23
       - 🇺🇸 美国 24
       - 🇺🇸 美国 25
       - 🇺🇸 美国 26
       - 🇺🇸 美国 27
-      - 🇬🇧 英国
-      - 🇫🇷 法国 7
       - 🇺🇸 美国 28
       - 🇺🇸 美国 29
+      - 🇨🇦 加拿大 3
       - 🇺🇸 美国 30
       - 🇺🇸 美国 31
       - 🇺🇸 美国 32
       - 🇺🇸 美国 33
-      - 🇭🇰 香港
       - 🇺🇸 美国 34
       - 🇺🇸 美国 35
       - 🇺🇸 美国 36
       - 🇺🇸 美国 37
+      - 🇭🇰 香港
       - 🇺🇸 美国 38
       - 🇺🇸 美国 39
+      - 🇫🇷 法国 6
       - 🇺🇸 美国 40
       - 🇺🇸 美国 41
       - 🇺🇸 美国 42
@@ -1276,7 +1238,7 @@ proxy-groups:
       - 🇺🇸 美国 44
       - 🇺🇸 美国 45
       - 🇺🇸 美国 46
-      - 🇨🇦 加拿大 5
+      - 🇫🇷 法国 7
       - 🇺🇸 美国 47
       - 🇺🇸 美国 48
       - 🇺🇸 美国 49
@@ -1295,30 +1257,28 @@ proxy-groups:
       - 🇺🇸 美国 62
       - 🇺🇸 美国 63
       - 🇺🇸 美国 64
-      - 🇭🇰 香港 2
       - 🇺🇸 美国 65
       - 🇺🇸 美国 66
       - 🇺🇸 美国 67
       - 🇺🇸 美国 68
       - 🇺🇸 美国 69
+      - 🇨🇦 加拿大 4
       - 🇺🇸 美国 70
       - 🇺🇸 美国 71
-      - 🇫🇷 法国 8
       - 🇺🇸 美国 72
       - 🇺🇸 美国 73
       - 🇺🇸 美国 74
-      - 🇫🇷 法国 9
       - 🇺🇸 美国 75
-      - 🇫🇷 法国 10
       - 🇺🇸 美国 76
       - 🇺🇸 美国 77
       - 🇺🇸 美国 78
       - 🇺🇸 美国 79
       - 🇺🇸 美国 80
+      - 🇫🇷 法国 8
       - 🇺🇸 美国 81
       - 🇺🇸 美国 82
       - 🇺🇸 美国 83
-      - 🇨🇦 加拿大 6
+      - 🇫🇷 法国 9
       - 🇺🇸 美国 84
       - 🇺🇸 美国 85
       - 🇺🇸 美国 86
@@ -1331,9 +1291,7 @@ proxy-groups:
       - 🇺🇸 美国 93
       - 🇺🇸 美国 94
       - 🇺🇸 美国 95
-      - 🇫🇷 法国 11
       - 🇺🇸 美国 96
-      - 🇫🇷 法国 12
       - 🇺🇸 美国 97
       - 🇺🇸 美国 98
       - 🇺🇸 美国 99
@@ -1342,23 +1300,27 @@ proxy-groups:
       - 🇺🇸 美国 102
       - 🇺🇸 美国 103
       - 🇺🇸 美国 104
+      - 🇫🇷 法国 10
       - 🇺🇸 美国 105
       - 🇺🇸 美国 106
       - 🇺🇸 美国 107
       - 🇺🇸 美国 108
       - 🇺🇸 美国 109
       - 🇺🇸 美国 110
+      - 🇨🇦 加拿大 5
       - 🇺🇸 美国 111
-      - 🇫🇷 法国 13
       - 🇺🇸 美国 112
       - 🇺🇸 美国 113
       - 🇺🇸 美国 114
       - 🇺🇸 美国 115
       - 🇺🇸 美国 116
+      - 🇫🇷 法国 11
+      - 🇫🇷 法国 12
       - 🇺🇸 美国 117
       - 🇺🇸 美国 118
       - 🇺🇸 美国 119
       - 🇺🇸 美国 120
+      - 🇨🇦 加拿大 6
       - 🇺🇸 美国 121
       - 🇺🇸 美国 122
       - 🇺🇸 美国 123
@@ -1369,8 +1331,11 @@ proxy-groups:
       - 🇺🇸 美国 128
       - 🇺🇸 美国 129
       - 🇺🇸 美国 130
+      - 🇫🇷 法国 13
+      - 🇨🇦 加拿大 7
       - 🇺🇸 美国 131
       - 🇺🇸 美国 132
+      - 🇫🇷 法国 14
       - 🇺🇸 美国 133
       - 🇺🇸 美国 134
       - 🇺🇸 美国 135
@@ -1387,7 +1352,6 @@ proxy-groups:
       - 🇺🇸 美国 146
       - 🇺🇸 美国 147
       - 🇺🇸 美国 148
-      - 🇨🇦 加拿大 7
       - 🇺🇸 美国 149
       - 🇺🇸 美国 150
       - 🇺🇸 美国 151
@@ -1396,10 +1360,8 @@ proxy-groups:
       - 🇺🇸 美国 154
       - 🇺🇸 美国 155
       - 🇺🇸 美国 156
-      - 🇨🇦 加拿大 8
-      - 🇨🇦 加拿大 9
       - 🇺🇸 美国 157
-      - 🇫🇷 法国 14
+      - 🇭🇰 香港 2
       - 🇺🇸 美国 158
       - 🇺🇸 美国 159
       - 🇺🇸 美国 160
@@ -1408,25 +1370,25 @@ proxy-groups:
       - 🇺🇸 美国 163
       - 🇺🇸 美国 164
       - 🇺🇸 美国 165
-      - 🇷🇺 俄罗斯
       - 🇺🇸 美国 166
-      - 🇫🇷 法国 15
       - 🇺🇸 美国 167
       - 🇺🇸 美国 168
       - 🇺🇸 美国 169
       - 🇺🇸 美国 170
       - 🇺🇸 美国 171
+      - 🇫🇷 法国 15
       - 🇺🇸 美国 172
       - 🇺🇸 美国 173
       - 🇺🇸 美国 174
       - 🇺🇸 美国 175
       - 🇺🇸 美国 176
       - 🇺🇸 美国 177
+      - 🇷🇺 俄罗斯
+      - 🇨🇦 加拿大 8
       - 🇺🇸 美国 178
       - 🇺🇸 美国 179
       - 🇺🇸 美国 180
       - 🇺🇸 美国 181
-      - 🇫🇷 法国 16
       - 🇺🇸 美国 182
       - 🇺🇸 美国 183
       - 🇺🇸 美国 184
@@ -1442,17 +1404,13 @@ proxy-groups:
       - 🇺🇸 美国 194
       - 🇺🇸 美国 195
       - 🇺🇸 美国 196
-      - 🇨🇦 加拿大 10
       - 🇺🇸 美国 197
-      - 🇨🇦 加拿大 11
       - 🇺🇸 美国 198
       - 🇺🇸 美国 199
       - 🇺🇸 美国 200
       - 🇺🇸 美国 201
       - 🇺🇸 美国 202
       - 🇺🇸 美国 203
-      - 🇺🇸 美国 204
-      - 🇺🇸 美国 205
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1461,55 +1419,52 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇨🇦 加拿大
-      - 🇺🇸 美国 5
       - 🇫🇷 法国
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
       - 🇫🇷 法国 2
       - 🇺🇸 美国 6
       - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
       - 🇫🇷 法国 3
-      - 🇫🇷 法国 4
+      - 🇺🇸 美国 8
+      - 🇨🇦 加拿大
       - 🇺🇸 美国 9
       - 🇺🇸 美国 10
       - 🇺🇸 美国 11
       - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇨🇦 加拿大 2
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
+      - 🇫🇷 法国 4
       - 🇫🇷 法国 5
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国 14
+      - 🇨🇦 加拿大 2
+      - 🇺🇸 美国 15
       - 🇺🇸 美国 16
       - 🇺🇸 美国 17
-      - 🇫🇷 法国 6
       - 🇺🇸 美国 18
-      - 🇨🇦 加拿大 3
       - 🇺🇸 美国 19
       - 🇺🇸 美国 20
       - 🇺🇸 美国 21
-      - 🇨🇦 加拿大 4
       - 🇺🇸 美国 22
       - 🇺🇸 美国 23
       - 🇺🇸 美国 24
       - 🇺🇸 美国 25
       - 🇺🇸 美国 26
       - 🇺🇸 美国 27
-      - 🇬🇧 英国
-      - 🇫🇷 法国 7
       - 🇺🇸 美国 28
       - 🇺🇸 美国 29
+      - 🇨🇦 加拿大 3
       - 🇺🇸 美国 30
       - 🇺🇸 美国 31
       - 🇺🇸 美国 32
       - 🇺🇸 美国 33
-      - 🇭🇰 香港
       - 🇺🇸 美国 34
       - 🇺🇸 美国 35
       - 🇺🇸 美国 36
       - 🇺🇸 美国 37
+      - 🇭🇰 香港
       - 🇺🇸 美国 38
       - 🇺🇸 美国 39
+      - 🇫🇷 法国 6
       - 🇺🇸 美国 40
       - 🇺🇸 美国 41
       - 🇺🇸 美国 42
@@ -1517,7 +1472,7 @@ proxy-groups:
       - 🇺🇸 美国 44
       - 🇺🇸 美国 45
       - 🇺🇸 美国 46
-      - 🇨🇦 加拿大 5
+      - 🇫🇷 法国 7
       - 🇺🇸 美国 47
       - 🇺🇸 美国 48
       - 🇺🇸 美国 49
@@ -1536,30 +1491,28 @@ proxy-groups:
       - 🇺🇸 美国 62
       - 🇺🇸 美国 63
       - 🇺🇸 美国 64
-      - 🇭🇰 香港 2
       - 🇺🇸 美国 65
       - 🇺🇸 美国 66
       - 🇺🇸 美国 67
       - 🇺🇸 美国 68
       - 🇺🇸 美国 69
+      - 🇨🇦 加拿大 4
       - 🇺🇸 美国 70
       - 🇺🇸 美国 71
-      - 🇫🇷 法国 8
       - 🇺🇸 美国 72
       - 🇺🇸 美国 73
       - 🇺🇸 美国 74
-      - 🇫🇷 法国 9
       - 🇺🇸 美国 75
-      - 🇫🇷 法国 10
       - 🇺🇸 美国 76
       - 🇺🇸 美国 77
       - 🇺🇸 美国 78
       - 🇺🇸 美国 79
       - 🇺🇸 美国 80
+      - 🇫🇷 法国 8
       - 🇺🇸 美国 81
       - 🇺🇸 美国 82
       - 🇺🇸 美国 83
-      - 🇨🇦 加拿大 6
+      - 🇫🇷 法国 9
       - 🇺🇸 美国 84
       - 🇺🇸 美国 85
       - 🇺🇸 美国 86
@@ -1572,9 +1525,7 @@ proxy-groups:
       - 🇺🇸 美国 93
       - 🇺🇸 美国 94
       - 🇺🇸 美国 95
-      - 🇫🇷 法国 11
       - 🇺🇸 美国 96
-      - 🇫🇷 法国 12
       - 🇺🇸 美国 97
       - 🇺🇸 美国 98
       - 🇺🇸 美国 99
@@ -1583,23 +1534,27 @@ proxy-groups:
       - 🇺🇸 美国 102
       - 🇺🇸 美国 103
       - 🇺🇸 美国 104
+      - 🇫🇷 法国 10
       - 🇺🇸 美国 105
       - 🇺🇸 美国 106
       - 🇺🇸 美国 107
       - 🇺🇸 美国 108
       - 🇺🇸 美国 109
       - 🇺🇸 美国 110
+      - 🇨🇦 加拿大 5
       - 🇺🇸 美国 111
-      - 🇫🇷 法国 13
       - 🇺🇸 美国 112
       - 🇺🇸 美国 113
       - 🇺🇸 美国 114
       - 🇺🇸 美国 115
       - 🇺🇸 美国 116
+      - 🇫🇷 法国 11
+      - 🇫🇷 法国 12
       - 🇺🇸 美国 117
       - 🇺🇸 美国 118
       - 🇺🇸 美国 119
       - 🇺🇸 美国 120
+      - 🇨🇦 加拿大 6
       - 🇺🇸 美国 121
       - 🇺🇸 美国 122
       - 🇺🇸 美国 123
@@ -1610,8 +1565,11 @@ proxy-groups:
       - 🇺🇸 美国 128
       - 🇺🇸 美国 129
       - 🇺🇸 美国 130
+      - 🇫🇷 法国 13
+      - 🇨🇦 加拿大 7
       - 🇺🇸 美国 131
       - 🇺🇸 美国 132
+      - 🇫🇷 法国 14
       - 🇺🇸 美国 133
       - 🇺🇸 美国 134
       - 🇺🇸 美国 135
@@ -1628,7 +1586,6 @@ proxy-groups:
       - 🇺🇸 美国 146
       - 🇺🇸 美国 147
       - 🇺🇸 美国 148
-      - 🇨🇦 加拿大 7
       - 🇺🇸 美国 149
       - 🇺🇸 美国 150
       - 🇺🇸 美国 151
@@ -1637,10 +1594,8 @@ proxy-groups:
       - 🇺🇸 美国 154
       - 🇺🇸 美国 155
       - 🇺🇸 美国 156
-      - 🇨🇦 加拿大 8
-      - 🇨🇦 加拿大 9
       - 🇺🇸 美国 157
-      - 🇫🇷 法国 14
+      - 🇭🇰 香港 2
       - 🇺🇸 美国 158
       - 🇺🇸 美国 159
       - 🇺🇸 美国 160
@@ -1649,25 +1604,25 @@ proxy-groups:
       - 🇺🇸 美国 163
       - 🇺🇸 美国 164
       - 🇺🇸 美国 165
-      - 🇷🇺 俄罗斯
       - 🇺🇸 美国 166
-      - 🇫🇷 法国 15
       - 🇺🇸 美国 167
       - 🇺🇸 美国 168
       - 🇺🇸 美国 169
       - 🇺🇸 美国 170
       - 🇺🇸 美国 171
+      - 🇫🇷 法国 15
       - 🇺🇸 美国 172
       - 🇺🇸 美国 173
       - 🇺🇸 美国 174
       - 🇺🇸 美国 175
       - 🇺🇸 美国 176
       - 🇺🇸 美国 177
+      - 🇷🇺 俄罗斯
+      - 🇨🇦 加拿大 8
       - 🇺🇸 美国 178
       - 🇺🇸 美国 179
       - 🇺🇸 美国 180
       - 🇺🇸 美国 181
-      - 🇫🇷 法国 16
       - 🇺🇸 美国 182
       - 🇺🇸 美国 183
       - 🇺🇸 美国 184
@@ -1683,17 +1638,13 @@ proxy-groups:
       - 🇺🇸 美国 194
       - 🇺🇸 美国 195
       - 🇺🇸 美国 196
-      - 🇨🇦 加拿大 10
       - 🇺🇸 美国 197
-      - 🇨🇦 加拿大 11
       - 🇺🇸 美国 198
       - 🇺🇸 美国 199
       - 🇺🇸 美国 200
       - 🇺🇸 美国 201
       - 🇺🇸 美国 202
       - 🇺🇸 美国 203
-      - 🇺🇸 美国 204
-      - 🇺🇸 美国 205
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -1703,55 +1654,52 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇨🇦 加拿大
-      - 🇺🇸 美国 5
       - 🇫🇷 法国
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
       - 🇫🇷 法国 2
       - 🇺🇸 美国 6
       - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
       - 🇫🇷 法国 3
-      - 🇫🇷 法国 4
+      - 🇺🇸 美国 8
+      - 🇨🇦 加拿大
       - 🇺🇸 美国 9
       - 🇺🇸 美国 10
       - 🇺🇸 美国 11
       - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇨🇦 加拿大 2
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
+      - 🇫🇷 法国 4
       - 🇫🇷 法国 5
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国 14
+      - 🇨🇦 加拿大 2
+      - 🇺🇸 美国 15
       - 🇺🇸 美国 16
       - 🇺🇸 美国 17
-      - 🇫🇷 法国 6
       - 🇺🇸 美国 18
-      - 🇨🇦 加拿大 3
       - 🇺🇸 美国 19
       - 🇺🇸 美国 20
       - 🇺🇸 美国 21
-      - 🇨🇦 加拿大 4
       - 🇺🇸 美国 22
       - 🇺🇸 美国 23
       - 🇺🇸 美国 24
       - 🇺🇸 美国 25
       - 🇺🇸 美国 26
       - 🇺🇸 美国 27
-      - 🇬🇧 英国
-      - 🇫🇷 法国 7
       - 🇺🇸 美国 28
       - 🇺🇸 美国 29
+      - 🇨🇦 加拿大 3
       - 🇺🇸 美国 30
       - 🇺🇸 美国 31
       - 🇺🇸 美国 32
       - 🇺🇸 美国 33
-      - 🇭🇰 香港
       - 🇺🇸 美国 34
       - 🇺🇸 美国 35
       - 🇺🇸 美国 36
       - 🇺🇸 美国 37
+      - 🇭🇰 香港
       - 🇺🇸 美国 38
       - 🇺🇸 美国 39
+      - 🇫🇷 法国 6
       - 🇺🇸 美国 40
       - 🇺🇸 美国 41
       - 🇺🇸 美国 42
@@ -1759,7 +1707,7 @@ proxy-groups:
       - 🇺🇸 美国 44
       - 🇺🇸 美国 45
       - 🇺🇸 美国 46
-      - 🇨🇦 加拿大 5
+      - 🇫🇷 法国 7
       - 🇺🇸 美国 47
       - 🇺🇸 美国 48
       - 🇺🇸 美国 49
@@ -1778,30 +1726,28 @@ proxy-groups:
       - 🇺🇸 美国 62
       - 🇺🇸 美国 63
       - 🇺🇸 美国 64
-      - 🇭🇰 香港 2
       - 🇺🇸 美国 65
       - 🇺🇸 美国 66
       - 🇺🇸 美国 67
       - 🇺🇸 美国 68
       - 🇺🇸 美国 69
+      - 🇨🇦 加拿大 4
       - 🇺🇸 美国 70
       - 🇺🇸 美国 71
-      - 🇫🇷 法国 8
       - 🇺🇸 美国 72
       - 🇺🇸 美国 73
       - 🇺🇸 美国 74
-      - 🇫🇷 法国 9
       - 🇺🇸 美国 75
-      - 🇫🇷 法国 10
       - 🇺🇸 美国 76
       - 🇺🇸 美国 77
       - 🇺🇸 美国 78
       - 🇺🇸 美国 79
       - 🇺🇸 美国 80
+      - 🇫🇷 法国 8
       - 🇺🇸 美国 81
       - 🇺🇸 美国 82
       - 🇺🇸 美国 83
-      - 🇨🇦 加拿大 6
+      - 🇫🇷 法国 9
       - 🇺🇸 美国 84
       - 🇺🇸 美国 85
       - 🇺🇸 美国 86
@@ -1814,9 +1760,7 @@ proxy-groups:
       - 🇺🇸 美国 93
       - 🇺🇸 美国 94
       - 🇺🇸 美国 95
-      - 🇫🇷 法国 11
       - 🇺🇸 美国 96
-      - 🇫🇷 法国 12
       - 🇺🇸 美国 97
       - 🇺🇸 美国 98
       - 🇺🇸 美国 99
@@ -1825,23 +1769,27 @@ proxy-groups:
       - 🇺🇸 美国 102
       - 🇺🇸 美国 103
       - 🇺🇸 美国 104
+      - 🇫🇷 法国 10
       - 🇺🇸 美国 105
       - 🇺🇸 美国 106
       - 🇺🇸 美国 107
       - 🇺🇸 美国 108
       - 🇺🇸 美国 109
       - 🇺🇸 美国 110
+      - 🇨🇦 加拿大 5
       - 🇺🇸 美国 111
-      - 🇫🇷 法国 13
       - 🇺🇸 美国 112
       - 🇺🇸 美国 113
       - 🇺🇸 美国 114
       - 🇺🇸 美国 115
       - 🇺🇸 美国 116
+      - 🇫🇷 法国 11
+      - 🇫🇷 法国 12
       - 🇺🇸 美国 117
       - 🇺🇸 美国 118
       - 🇺🇸 美国 119
       - 🇺🇸 美国 120
+      - 🇨🇦 加拿大 6
       - 🇺🇸 美国 121
       - 🇺🇸 美国 122
       - 🇺🇸 美国 123
@@ -1852,8 +1800,11 @@ proxy-groups:
       - 🇺🇸 美国 128
       - 🇺🇸 美国 129
       - 🇺🇸 美国 130
+      - 🇫🇷 法国 13
+      - 🇨🇦 加拿大 7
       - 🇺🇸 美国 131
       - 🇺🇸 美国 132
+      - 🇫🇷 法国 14
       - 🇺🇸 美国 133
       - 🇺🇸 美国 134
       - 🇺🇸 美国 135
@@ -1870,7 +1821,6 @@ proxy-groups:
       - 🇺🇸 美国 146
       - 🇺🇸 美国 147
       - 🇺🇸 美国 148
-      - 🇨🇦 加拿大 7
       - 🇺🇸 美国 149
       - 🇺🇸 美国 150
       - 🇺🇸 美国 151
@@ -1879,10 +1829,8 @@ proxy-groups:
       - 🇺🇸 美国 154
       - 🇺🇸 美国 155
       - 🇺🇸 美国 156
-      - 🇨🇦 加拿大 8
-      - 🇨🇦 加拿大 9
       - 🇺🇸 美国 157
-      - 🇫🇷 法国 14
+      - 🇭🇰 香港 2
       - 🇺🇸 美国 158
       - 🇺🇸 美国 159
       - 🇺🇸 美国 160
@@ -1891,25 +1839,25 @@ proxy-groups:
       - 🇺🇸 美国 163
       - 🇺🇸 美国 164
       - 🇺🇸 美国 165
-      - 🇷🇺 俄罗斯
       - 🇺🇸 美国 166
-      - 🇫🇷 法国 15
       - 🇺🇸 美国 167
       - 🇺🇸 美国 168
       - 🇺🇸 美国 169
       - 🇺🇸 美国 170
       - 🇺🇸 美国 171
+      - 🇫🇷 法国 15
       - 🇺🇸 美国 172
       - 🇺🇸 美国 173
       - 🇺🇸 美国 174
       - 🇺🇸 美国 175
       - 🇺🇸 美国 176
       - 🇺🇸 美国 177
+      - 🇷🇺 俄罗斯
+      - 🇨🇦 加拿大 8
       - 🇺🇸 美国 178
       - 🇺🇸 美国 179
       - 🇺🇸 美国 180
       - 🇺🇸 美国 181
-      - 🇫🇷 法国 16
       - 🇺🇸 美国 182
       - 🇺🇸 美国 183
       - 🇺🇸 美国 184
@@ -1925,17 +1873,13 @@ proxy-groups:
       - 🇺🇸 美国 194
       - 🇺🇸 美国 195
       - 🇺🇸 美国 196
-      - 🇨🇦 加拿大 10
       - 🇺🇸 美国 197
-      - 🇨🇦 加拿大 11
       - 🇺🇸 美国 198
       - 🇺🇸 美国 199
       - 🇺🇸 美国 200
       - 🇺🇸 美国 201
       - 🇺🇸 美国 202
       - 🇺🇸 美国 203
-      - 🇺🇸 美国 204
-      - 🇺🇸 美国 205
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1961,55 +1905,52 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇨🇦 加拿大
-      - 🇺🇸 美国 5
       - 🇫🇷 法国
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
       - 🇫🇷 法国 2
       - 🇺🇸 美国 6
       - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
       - 🇫🇷 法国 3
-      - 🇫🇷 法国 4
+      - 🇺🇸 美国 8
+      - 🇨🇦 加拿大
       - 🇺🇸 美国 9
       - 🇺🇸 美国 10
       - 🇺🇸 美国 11
       - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇨🇦 加拿大 2
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
+      - 🇫🇷 法国 4
       - 🇫🇷 法国 5
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国 14
+      - 🇨🇦 加拿大 2
+      - 🇺🇸 美国 15
       - 🇺🇸 美国 16
       - 🇺🇸 美国 17
-      - 🇫🇷 法国 6
       - 🇺🇸 美国 18
-      - 🇨🇦 加拿大 3
       - 🇺🇸 美国 19
       - 🇺🇸 美国 20
       - 🇺🇸 美国 21
-      - 🇨🇦 加拿大 4
       - 🇺🇸 美国 22
       - 🇺🇸 美国 23
       - 🇺🇸 美国 24
       - 🇺🇸 美国 25
       - 🇺🇸 美国 26
       - 🇺🇸 美国 27
-      - 🇬🇧 英国
-      - 🇫🇷 法国 7
       - 🇺🇸 美国 28
       - 🇺🇸 美国 29
+      - 🇨🇦 加拿大 3
       - 🇺🇸 美国 30
       - 🇺🇸 美国 31
       - 🇺🇸 美国 32
       - 🇺🇸 美国 33
-      - 🇭🇰 香港
       - 🇺🇸 美国 34
       - 🇺🇸 美国 35
       - 🇺🇸 美国 36
       - 🇺🇸 美国 37
+      - 🇭🇰 香港
       - 🇺🇸 美国 38
       - 🇺🇸 美国 39
+      - 🇫🇷 法国 6
       - 🇺🇸 美国 40
       - 🇺🇸 美国 41
       - 🇺🇸 美国 42
@@ -2017,7 +1958,7 @@ proxy-groups:
       - 🇺🇸 美国 44
       - 🇺🇸 美国 45
       - 🇺🇸 美国 46
-      - 🇨🇦 加拿大 5
+      - 🇫🇷 法国 7
       - 🇺🇸 美国 47
       - 🇺🇸 美国 48
       - 🇺🇸 美国 49
@@ -2036,30 +1977,28 @@ proxy-groups:
       - 🇺🇸 美国 62
       - 🇺🇸 美国 63
       - 🇺🇸 美国 64
-      - 🇭🇰 香港 2
       - 🇺🇸 美国 65
       - 🇺🇸 美国 66
       - 🇺🇸 美国 67
       - 🇺🇸 美国 68
       - 🇺🇸 美国 69
+      - 🇨🇦 加拿大 4
       - 🇺🇸 美国 70
       - 🇺🇸 美国 71
-      - 🇫🇷 法国 8
       - 🇺🇸 美国 72
       - 🇺🇸 美国 73
       - 🇺🇸 美国 74
-      - 🇫🇷 法国 9
       - 🇺🇸 美国 75
-      - 🇫🇷 法国 10
       - 🇺🇸 美国 76
       - 🇺🇸 美国 77
       - 🇺🇸 美国 78
       - 🇺🇸 美国 79
       - 🇺🇸 美国 80
+      - 🇫🇷 法国 8
       - 🇺🇸 美国 81
       - 🇺🇸 美国 82
       - 🇺🇸 美国 83
-      - 🇨🇦 加拿大 6
+      - 🇫🇷 法国 9
       - 🇺🇸 美国 84
       - 🇺🇸 美国 85
       - 🇺🇸 美国 86
@@ -2072,9 +2011,7 @@ proxy-groups:
       - 🇺🇸 美国 93
       - 🇺🇸 美国 94
       - 🇺🇸 美国 95
-      - 🇫🇷 法国 11
       - 🇺🇸 美国 96
-      - 🇫🇷 法国 12
       - 🇺🇸 美国 97
       - 🇺🇸 美国 98
       - 🇺🇸 美国 99
@@ -2083,23 +2020,27 @@ proxy-groups:
       - 🇺🇸 美国 102
       - 🇺🇸 美国 103
       - 🇺🇸 美国 104
+      - 🇫🇷 法国 10
       - 🇺🇸 美国 105
       - 🇺🇸 美国 106
       - 🇺🇸 美国 107
       - 🇺🇸 美国 108
       - 🇺🇸 美国 109
       - 🇺🇸 美国 110
+      - 🇨🇦 加拿大 5
       - 🇺🇸 美国 111
-      - 🇫🇷 法国 13
       - 🇺🇸 美国 112
       - 🇺🇸 美国 113
       - 🇺🇸 美国 114
       - 🇺🇸 美国 115
       - 🇺🇸 美国 116
+      - 🇫🇷 法国 11
+      - 🇫🇷 法国 12
       - 🇺🇸 美国 117
       - 🇺🇸 美国 118
       - 🇺🇸 美国 119
       - 🇺🇸 美国 120
+      - 🇨🇦 加拿大 6
       - 🇺🇸 美国 121
       - 🇺🇸 美国 122
       - 🇺🇸 美国 123
@@ -2110,8 +2051,11 @@ proxy-groups:
       - 🇺🇸 美国 128
       - 🇺🇸 美国 129
       - 🇺🇸 美国 130
+      - 🇫🇷 法国 13
+      - 🇨🇦 加拿大 7
       - 🇺🇸 美国 131
       - 🇺🇸 美国 132
+      - 🇫🇷 法国 14
       - 🇺🇸 美国 133
       - 🇺🇸 美国 134
       - 🇺🇸 美国 135
@@ -2128,7 +2072,6 @@ proxy-groups:
       - 🇺🇸 美国 146
       - 🇺🇸 美国 147
       - 🇺🇸 美国 148
-      - 🇨🇦 加拿大 7
       - 🇺🇸 美国 149
       - 🇺🇸 美国 150
       - 🇺🇸 美国 151
@@ -2137,10 +2080,8 @@ proxy-groups:
       - 🇺🇸 美国 154
       - 🇺🇸 美国 155
       - 🇺🇸 美国 156
-      - 🇨🇦 加拿大 8
-      - 🇨🇦 加拿大 9
       - 🇺🇸 美国 157
-      - 🇫🇷 法国 14
+      - 🇭🇰 香港 2
       - 🇺🇸 美国 158
       - 🇺🇸 美国 159
       - 🇺🇸 美国 160
@@ -2149,25 +2090,25 @@ proxy-groups:
       - 🇺🇸 美国 163
       - 🇺🇸 美国 164
       - 🇺🇸 美国 165
-      - 🇷🇺 俄罗斯
       - 🇺🇸 美国 166
-      - 🇫🇷 法国 15
       - 🇺🇸 美国 167
       - 🇺🇸 美国 168
       - 🇺🇸 美国 169
       - 🇺🇸 美国 170
       - 🇺🇸 美国 171
+      - 🇫🇷 法国 15
       - 🇺🇸 美国 172
       - 🇺🇸 美国 173
       - 🇺🇸 美国 174
       - 🇺🇸 美国 175
       - 🇺🇸 美国 176
       - 🇺🇸 美国 177
+      - 🇷🇺 俄罗斯
+      - 🇨🇦 加拿大 8
       - 🇺🇸 美国 178
       - 🇺🇸 美国 179
       - 🇺🇸 美国 180
       - 🇺🇸 美国 181
-      - 🇫🇷 法国 16
       - 🇺🇸 美国 182
       - 🇺🇸 美国 183
       - 🇺🇸 美国 184
@@ -2183,17 +2124,13 @@ proxy-groups:
       - 🇺🇸 美国 194
       - 🇺🇸 美国 195
       - 🇺🇸 美国 196
-      - 🇨🇦 加拿大 10
       - 🇺🇸 美国 197
-      - 🇨🇦 加拿大 11
       - 🇺🇸 美国 198
       - 🇺🇸 美国 199
       - 🇺🇸 美国 200
       - 🇺🇸 美国 201
       - 🇺🇸 美国 202
       - 🇺🇸 美国 203
-      - 🇺🇸 美国 204
-      - 🇺🇸 美国 205
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
